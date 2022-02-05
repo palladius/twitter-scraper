@@ -5,6 +5,11 @@ class Tweet < ApplicationRecord
 
   #  validates_uniqueness_of : #  : references 
   validates :full_text, uniqueness: { scope: :twitter_user }
+
+  after_create do |tweet|
+    puts "Tweet::after_create created. Now creating Wordle brother."
+    WordleTweet.create_from_tweet(tweet)
+  end
   
   def to_s
     "[#{self.twitter_user}] #{full_text}"

@@ -19,7 +19,7 @@ TWITTER_RICC = {
     :bearer_token => ENV["TWITTER_BEARER_TOKEN"],
   }
   
-N_TWEETS = 10 # 00
+N_TWEETS = 50 # 00
 
 
 def nice_twitter_username(twitter_user)
@@ -27,6 +27,7 @@ def nice_twitter_username(twitter_user)
     "#{u.screen_name} (#{u.name}, #{u.location})"
   end
 
+  # TODO(ricc): use the Model one which is better :) 
   def extended_wordle_match_type(text, include_very_generic = true, exclude_wordle_english_for_debug=false)
     # returns TWO things: matches and id of
     return :wordle_en  if text.match?(/Wordle \d+ \d\/6/i) unless exclude_wordle_english_for_debug
@@ -68,19 +69,29 @@ def nice_twitter_username(twitter_user)
     client.search('#Wordle OR #TwitterParser').take(N_TWEETS).each do |tweet|
       wordle_type = extended_wordle_match_type(tweet.text)
       if not wordle_type.nil?
-        p "+ [#{ wordle_type}] #{short_twitter_username(tweet.user)}:\t'#{( tweet.text.split("\n")[0] )}'" # text[0,30]
+        puts "+ [#{ wordle_type}] #{short_twitter_username(tweet.user)}:\t'#{( tweet.text.split("\n")[0] )}'" # text[0,30]
         
         u = tweet.user
-        print "1. Creating Twitter user: #{ u.screen_name} (#{u.name}, #{u.location}).."
-        tu = TwitterUser.create(twitter_id: u.screen_name, location: u.location, name: u.name).save
-        print "tu: #{tu}"
+        #print "[deb] 1. Creating Twitter user: #{ u.screen_name} (#{u.name}, #{u.location}).."
+        tu = TwitterUser.create(
+            twitter_id: u.screen_name, 
+            location:   u.location, 
+            name:       u.name,
+            # added after 1500 were already added :) 
+            description: u.description,
+            id_str:      u.id.to_s,
+        )
+        saved = tu.save
+        # TODO(ricc): update Existing with new descriptions
+        puts "+ Created TwitterUser: #{tu}" if saved
 
-        print "2. Creating Tweet info based on existence of twitter_id :)"
+        #print "2. Creating Tweet info based on existence of twitter_id :)"
         rails_tweet = Tweet.create(
             twitter_user: TwitterUser.find_by_twitter_id(tweet.user.screen_name) ,
             full_text: tweet.text,
-        ).save 
-        print "Tweet: #{rails_tweet}"
+        )
+        saved_tweet = rails_tweet.save 
+        print "Tweet saved: #{rails_tweet}" if saved_tweet
       end 
       #p tweet.metadata.to_s
       #client.update("@#{tweet.user} Hey I love Ruby too, what are your favorite blogs? :)")
