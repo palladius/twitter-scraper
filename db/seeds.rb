@@ -11,8 +11,15 @@ require 'twitter'
 
 #pred "remove Ricc Twitter API keys... use ENV instead maybe with dotenv"
 
+puts "TWITTER_CONSUMER_KEY: #{ENV['TWITTER_CONSUMER_KEY']}. If this was empty, good luck using APIs!"
 
-N_TWEETS = 10
+TWITTER_RICC = {
+    :api_key =>        ENV['TWITTER_CONSUMER_KEY'], 
+    :api_key_secret => ENV['TWITTER_CONSUMER_SECRET'],
+    :bearer_token => ENV["TWITTER_BEARER_TOKEN"],
+  }
+  
+N_TWEETS = 10 # 00
 
 
 def nice_twitter_username(twitter_user)
@@ -53,8 +60,8 @@ def nice_twitter_username(twitter_user)
   def real_program
     
     client = Twitter::REST::Client.new do |config|
-      #config.consumer_key        = TWITTER_RICC[:api_key]
-      #config.consumer_secret     = TWITTER_RICC[:api_key_secret]
+      config.consumer_key        = TWITTER_RICC[:api_key]
+      config.consumer_secret     = TWITTER_RICC[:api_key_secret]
     end
 
     puts "Looking for #{N_TWEETS} tweets matching #Wordle hashtag:"

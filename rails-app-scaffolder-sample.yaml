@@ -20,14 +20,14 @@ schema:
     # Options: https://www.xyzpub.com/en/ruby-on-rails/3.2/scaffold_anlegen.html
     # -f, [--force]    # Overwrite files that already exist
     # -p, [--pretend]  # Run but do not make any changes
-    Post:
-      name: string 
-      title: string
-      content: text
-    Comment:
-      commenter: string
-      body: text
-      article: references
+    # Post:
+    #   name: string 
+    #   title: string
+    #   content: text
+    # Comment:
+    #   commenter: string
+    #   body: text
+    #   article: references
     TwitterUser:
       twitter_id: string 
       name: string
@@ -41,4 +41,6 @@ schema:
       score: integer       # 4..6
       wordle_date: date
       wordle_incremental_day: integer 
+      import_version: integer
+      import_notes: text
 
