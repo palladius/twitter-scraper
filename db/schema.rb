@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_02_05_124955) do
+ActiveRecord::Schema.define(version: 2022_02_05_163610) do
 
   create_table "comments", force: :cascade do |t|
     t.string "commenter"
@@ -43,6 +43,8 @@ ActiveRecord::Schema.define(version: 2022_02_05_124955) do
     t.string "location"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "id_str"
+    t.string "description"
   end
 
   create_table "wordle_tweets", force: :cascade do |t|
@@ -53,6 +55,10 @@ ActiveRecord::Schema.define(version: 2022_02_05_124955) do
     t.integer "wordle_incremental_day"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "import_version"
+    t.string "import_notes"
+    t.string "internal_stuff"
+    t.integer "max_tries"
     t.index ["tweet_id"], name: "index_wordle_tweets_on_tweet_id"
   end
 

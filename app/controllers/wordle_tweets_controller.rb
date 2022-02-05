@@ -65,6 +65,6 @@ class WordleTweetsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def wordle_tweet_params
-      params.require(:wordle_tweet).permit(:wordle_type, :tweet_id, :score, :wordle_date, :wordle_incremental_day)
+      params.require(:wordle_tweet).permit(:wordle_type, :tweet_id, :score, :wordle_date, :wordle_incremental_day, :import_version, :import_notes)
     end
 end

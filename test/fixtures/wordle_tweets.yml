@@ -6,6 +6,8 @@ one:
   score: 1
   wordle_date: 2022-02-05
   wordle_incremental_day: 1
+  import_version: 1
+  import_notes: MyText
 
 two:
   wordle_type: MyString
@@ -13,3 +15,5 @@ two:
   score: 1
   wordle_date: 2022-02-05
   wordle_incremental_day: 1
+  import_version: 1
+  import_notes: MyText

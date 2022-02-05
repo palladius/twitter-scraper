@@ -3,7 +3,7 @@ class CreateWordleTweets < ActiveRecord::Migration[7.0]
     create_table :wordle_tweets do |t|
       t.string :wordle_type
       t.references :tweet, null: false, foreign_key: true
-      t.integer :score
+      t.integer :score # the lower the better. So should be called TRIES :) 
       t.date :wordle_date
       t.integer :wordle_incremental_day
 

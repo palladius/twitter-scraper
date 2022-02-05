@@ -37,6 +37,16 @@
   </div>
 
   <div>
+    <%= form.label :import_version, style: "display: block" %>
+    <%= form.number_field :import_version %>
+  </div>
+
+  <div>
+    <%= form.label :import_notes, style: "display: block" %>
+    <%= form.text_area :import_notes %>
+  </div>
+
+  <div>
     <%= form.submit %>
   </div>
 <% end %>

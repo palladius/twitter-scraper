@@ -3,7 +3,7 @@
 #rails g model Comment commenter:string body:text article:references
 
 app:
-  create_app: true # TODO create if needed
+  create_app: false
   name: test-scaffolding-post-comments
 options:
   run_migrate_after: true

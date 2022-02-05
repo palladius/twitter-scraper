@@ -14,6 +14,8 @@ class WordleTweetsTest < ApplicationSystemTestCase
     visit wordle_tweets_url
     click_on "New wordle tweet"
 
+    fill_in "Import notes", with: @wordle_tweet.import_notes
+    fill_in "Import version", with: @wordle_tweet.import_version
     fill_in "Score", with: @wordle_tweet.score
     fill_in "Tweet", with: @wordle_tweet.tweet_id
     fill_in "Wordle date", with: @wordle_tweet.wordle_date
@@ -29,6 +31,8 @@ class WordleTweetsTest < ApplicationSystemTestCase
     visit wordle_tweet_url(@wordle_tweet)
     click_on "Edit this wordle tweet", match: :first
 
+    fill_in "Import notes", with: @wordle_tweet.import_notes
+    fill_in "Import version", with: @wordle_tweet.import_version
     fill_in "Score", with: @wordle_tweet.score
     fill_in "Tweet", with: @wordle_tweet.tweet_id
     fill_in "Wordle date", with: @wordle_tweet.wordle_date

@@ -1,3 +1,5 @@
+# ricc: maps to Twitter TWEET object: https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/tweet
+
 class Tweet < ApplicationRecord
   belongs_to :twitter_user
 
@@ -7,5 +9,5 @@ class Tweet < ApplicationRecord
   def to_s
     "[#{self.twitter_user}] #{full_text}"
   end
-  
+
 end
