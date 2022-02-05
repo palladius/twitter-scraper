@@ -4,9 +4,8 @@
 
 <div id="twitter_users">
   <% @twitter_users.each do |twitter_user| %>
-    <%= render twitter_user %>
     <p>
-      <%= link_to "Show this twitter user", twitter_user %>
+      <%= link_to "Show #{twitter_user}", twitter_user %>
     </p>
   <% end %>
 </div>

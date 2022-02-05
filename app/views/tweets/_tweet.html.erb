@@ -6,7 +6,9 @@
 
   <p>
     <strong>Full text:</strong>
-    <%= tweet.full_text %>
+    <tt>
+    <%= tweet.full_text.gsub("\n", "<BR/>").html_safe %>
+    </tt>
   </p>
 
 </div>
