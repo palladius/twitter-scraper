@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Wordle tweets</h1>
+
+<div id="wordle_tweets">
+  <% @wordle_tweets.each do |wordle_tweet| %>
+    <%= render wordle_tweet %>
+    <p>
+      <%= link_to "Show this wordle tweet", wordle_tweet %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New wordle tweet", new_wordle_tweet_path %>

@@ -1,0 +1,42 @@
+<%= form_with(model: wordle_tweet) do |form| %>
+  <% if wordle_tweet.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(wordle_tweet.errors.count, "error") %> prohibited this wordle_tweet from being saved:</h2>
+
+      <ul>
+        <% wordle_tweet.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :wordle_type, style: "display: block" %>
+    <%= form.text_field :wordle_type %>
+  </div>
+
+  <div>
+    <%= form.label :tweet_id, style: "display: block" %>
+    <%= form.text_field :tweet_id %>
+  </div>
+
+  <div>
+    <%= form.label :score, style: "display: block" %>
+    <%= form.number_field :score %>
+  </div>
+
+  <div>
+    <%= form.label :wordle_date, style: "display: block" %>
+    <%= form.date_field :wordle_date %>
+  </div>
+
+  <div>
+    <%= form.label :wordle_incremental_day, style: "display: block" %>
+    <%= form.number_field :wordle_incremental_day %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Twitter users</h1>
+
+<div id="twitter_users">
+  <% @twitter_users.each do |twitter_user| %>
+    <%= render twitter_user %>
+    <p>
+      <%= link_to "Show this twitter user", twitter_user %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New twitter user", new_twitter_user_path %>

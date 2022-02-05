@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  wordle_type: MyString
+  tweet: one
+  score: 1
+  wordle_date: 2022-02-05
+  wordle_incremental_day: 1
+
+two:
+  wordle_type: MyString
+  tweet: two
+  score: 1
+  wordle_date: 2022-02-05
+  wordle_incremental_day: 1

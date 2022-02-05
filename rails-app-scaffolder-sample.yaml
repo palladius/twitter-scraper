@@ -1,0 +1,44 @@
+#rails g scaffold Post name:string title:string content:text
+#rails g controller Comments
+#rails g model Comment commenter:string body:text article:references
+
+app:
+  create_app: true # TODO create if needed
+  name: test-scaffolding-post-comments
+options:
+  run_migrate_after: true
+  run_seed_after: true
+  populate_random_entities: false # TODO use proper gem to load fake stuff
+  execute_or_dryrun: true # again jus ideas for the future.
+schema:
+  options:
+    rewrite_model: false 
+    rewrite_views: true
+    scaffold_force: false 
+    scaffold_pretend: false
+  scaffolds:
+    # Options: https://www.xyzpub.com/en/ruby-on-rails/3.2/scaffold_anlegen.html
+    # -f, [--force]    # Overwrite files that already exist
+    # -p, [--pretend]  # Run but do not make any changes
+    Post:
+      name: string 
+      title: string
+      content: text
+    Comment:
+      commenter: string
+      body: text
+      article: references
+    TwitterUser:
+      twitter_id: string 
+      name: string
+      location: string
+    Tweet:
+      twitter_user: references 
+      full_text: string 
+    WordleTweet:
+      wordle_type: string
+      tweet: references 
+      score: integer       # 4..6
+      wordle_date: date
+      wordle_incremental_day: integer 
+
