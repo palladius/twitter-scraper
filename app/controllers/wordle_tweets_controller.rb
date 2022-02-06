@@ -3,7 +3,7 @@ class WordleTweetsController < ApplicationController
 
   # GET /wordle_tweets or /wordle_tweets.json
   def index
-    @wordle_tweets = WordleTweet.all
+    @wordle_tweets = WordleTweet.all.limit(50)
   end
 
   # GET /wordle_tweets/1 or /wordle_tweets/1.json

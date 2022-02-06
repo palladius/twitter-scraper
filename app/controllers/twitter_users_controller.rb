@@ -3,7 +3,7 @@ class TwitterUsersController < ApplicationController
 
   # GET /twitter_users or /twitter_users.json
   def index
-    @twitter_users = TwitterUser.all
+    @twitter_users = TwitterUser.all.limit(50)
   end
 
   # GET /twitter_users/1 or /twitter_users/1.json

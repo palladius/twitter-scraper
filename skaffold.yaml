@@ -1,0 +1,18 @@
+apiVersion: skaffold/v2beta26
+kind: Config
+# DOESNT WORK.
+# build:
+#   googleCloudBuild:
+#     projectId: vulcanina
+#   artifacts:
+#   - image: skaffold-esempiuccio
+build:
+  artifacts:
+  - image: twitter-scraper-skaffold
+deploy:
+  kubectl:
+    manifests:
+    #  - k8s-*
+    #- deploy/skaffodev/
+    - deploy/k8s* 
+      
