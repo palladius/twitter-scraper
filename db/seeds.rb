@@ -41,7 +41,10 @@ def nice_twitter_username(twitter_user)
     return :lewdle     if text.match?(/Lewdle \d+ .\/6/) 
     
     # ParFlag of Italyle 369 3/6
-    return :wordle_it  if text.match?(/Par.le \d+ .\/6/)
+    # PAR🇮🇹LE
+    return :wordle_it  if text.match?(/Par.*le \d+ .\/6/i)
+    # Pietro version Par🇮🇹le 370 1/6 🟩🟩🟩🟩🟩
+    return :wordle_it  if text.match?(/Par🇮🇹le \d+ .\/6/i)
     return :nerdlegame if text.match?(/nerdlegame \d+ .\/6/i)
     
     return :wordle_ko  if text.match?(/#Korean #Wordle .* \d+ .\/6/)
@@ -49,6 +52,7 @@ def nice_twitter_username(twitter_user)
     # Generic wordle - might want to remove in the future
     if include_very_generic
       return :other if text.match?(/ordle \d+ [123456X]\/6/i) unless exclude_wordle_english_for_debug
+      return :other2 if text.match?(/🟩🟩🟩🟩🟩/)
     end
     return nil
   end
@@ -66,35 +70,47 @@ def nice_twitter_username(twitter_user)
     end
 
     puts "Looking for #{N_TWEETS} tweets matching #Wordle hashtag:"
-    client.search('#Wordle OR #TwitterParser').take(N_TWEETS).each do |tweet|
-      wordle_type = extended_wordle_match_type(tweet.text)
-      if not wordle_type.nil?
-        puts "+ [#{ wordle_type}] #{short_twitter_username(tweet.user)}:\t'#{( tweet.text.split("\n")[0] )}'" # text[0,30]
-        
-        u = tweet.user
-        #print "[deb] 1. Creating Twitter user: #{ u.screen_name} (#{u.name}, #{u.location}).."
-        tu = TwitterUser.create(
-            twitter_id: u.screen_name, 
-            location:   u.location, 
-            name:       u.name,
-            # added after 1500 were already added :) 
-            description: u.description,
-            id_str:      u.id.to_s,
-        )
-        saved = tu.save
-        # TODO(ricc): update Existing with new descriptions
-        puts "+ Created TwitterUser: #{tu}" if saved
+    #client.search('#Wordle OR #TwitterParser').take(N_TWEETS).each do |tweet|
+    search_terms = [
+      '#TwitterParser',
+      '#Wordle',
+    ] 
+    search_terms.each do |search_term| 
+      puts "Searchin #{N_TWEETS} for term '#{search_term}'.."
 
-        #print "2. Creating Tweet info based on existence of twitter_id :)"
-        rails_tweet = Tweet.create(
-            twitter_user: TwitterUser.find_by_twitter_id(tweet.user.screen_name) ,
-            full_text: tweet.text,
-        )
-        saved_tweet = rails_tweet.save 
-        print "Tweet saved: #{rails_tweet}" if saved_tweet
-      end 
-      #p tweet.metadata.to_s
-      #client.update("@#{tweet.user} Hey I love Ruby too, what are your favorite blogs? :)")
+      client.search(search_term).take(N_TWEETS).each do |tweet|
+        wordle_type = extended_wordle_match_type(tweet.text)
+        if not wordle_type.nil?
+          #puts "[DEB] Found [#{ wordle_type}] #{short_twitter_username(tweet.user)}:\t'#{( tweet.text.split("\n")[0] )}'" # text[0,30]
+          u = tweet.user
+          #print "[deb] 1. Creating Twitter user: #{ u.screen_name} (#{u.name}, #{u.location}).."
+          tu = TwitterUser.create(
+              twitter_id: u.screen_name, 
+              location:   u.location, 
+              name:       u.name,
+              # added after 1500 were already added :) 
+              description: u.description,
+              id_str:      u.id.to_s, #id_str doesnt work
+              # eg @palladius => 17310864
+          )
+          saved = tu.save
+          # TODO(ricc): update Existing with new descriptions
+          puts "1. Created TwitterUser: #{tu}" if saved
+
+          #print "2. [#{tweet.created_at}] Creating Tweet info based on existence of twitter_id :)"
+          rails_tweet = Tweet.create(
+              twitter_user: TwitterUser.find_by_twitter_id(tweet.user.screen_name) ,
+              full_text: tweet.text,
+              # 2022-02-06 updated this
+              created_at: tweet.created_at,
+              id: tweet.id,
+          )
+          saved_tweet = rails_tweet.save 
+          print "2. Tweet saved: #{rails_tweet.id} from #{rails_tweet.twitter_user}" if saved_tweet
+        end 
+        #p tweet.metadata.to_s
+        #client.update("@#{tweet.user} Hey I love Ruby too, what are your favorite blogs? :)")
+      end
     end
   
     # tweets = client.user_timeline('rubyinside', count: 20)

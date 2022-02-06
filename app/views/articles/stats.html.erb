@@ -1,6 +1,10 @@
 <h1>Articles#stats</h1>
 <p>Find me in app/views/articles/stats.html.erb</p>
 
+<%= WordleTweet.all.group(:wordle_type).count %>
+
+                       
+=> {nil=>27, "nerdlegame"=>3, "other"=>22, "wordle_de2"=>1, "wordle_en"=>1010, "wordle_fr"=>2, "wordle_ko"=>130}
 
 <h2>Google Chart Tables</h2>
 
@@ -15,15 +19,16 @@ https://developers.google.com/chart/interactive/docs/gallery
 
       function drawTable() {
         var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Name');
-        data.addColumn('number', 'Salary');
-        data.addColumn('boolean', 'Full Time Employee');
+        data.addColumn('string', 'Wordle Type');
+        data.addColumn('number', 'How Many');
+        //data.addColumn('boolean', 'Full Time Employee');
         data.addRows([
-          ['Wordle FR',  {v: 10000,  f: '$10,000'}, true],
-          ['Jim',        {v: 8000,   f: '$8,000'},  false],
-          ['Alice',      {v: 12500,  f: '$12,500'}, true],
-          ['Bob',        {v: 7000,   f: '$7,000'},  true],
-          ['Wordle EN',  {v: 42000,  f: '$42,000'}, true],
+          //['Wordle FR',  {v: 10000,  f: '$10,000'}, true],
+          //['Jim',        {v: 8000,   f: '$8,000'},  false],
+          <% WordleTweet.all.group(:wordle_type).count.each do |type,cardinality| %>
+          ['<%=type %>',        {v: <%= cardinality %>,   f: '<%= cardinality %>'} ],
+
+          <% end %>
         ]);
 
         var table = new google.visualization.Table(document.getElementById('table_div'));

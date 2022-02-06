@@ -8,6 +8,7 @@ ruby "2.7.2"
 #gem "ric"
 gem 'twitter'
 gem "chartkick"
+gem "groupdate"
 
 ########################
 

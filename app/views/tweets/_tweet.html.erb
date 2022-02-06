@@ -11,4 +11,12 @@
     </tt>
   </p>
 
+  
+    <p>
+    <strong>Possible Wordle Twitter:</strong>
+    <%= link_to tweet.wordle_tweet, tweet.wordle_tweet rescue "Error: #{ $! }" %>
+  </p>
+
+  
+
 </div>

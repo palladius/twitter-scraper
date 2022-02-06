@@ -7,6 +7,12 @@ FROM ruby:2.7.2
 
 # Dal 1.0.6 voglio anche libvips che se no ciocca.
 #RUN sudo apt-get clean
+
+# https://stackoverflow.com/questions/62473932/atleast-one-invalid-signature-was-encountered
+#If you don't care about the security risks, 
+# you can try to run the apt-get command with the 
+# --allow-unauthenticated or --allow-insecure-repositories flag. According to the docs:
+
 RUN apt-get update
 RUN apt-get install -y \
   curl \

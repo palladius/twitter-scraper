@@ -1,6 +1,6 @@
 <div id="<%= dom_id twitter_user %>">
   <p>
-    <strong>Twitter:</strong>
+    <strong>Twitter Id:</strong>
     <%= twitter_user.twitter_id %>
   </p>
 
@@ -8,10 +8,23 @@
     <strong>Name:</strong>
     <%= twitter_user.name %>
   </p>
-
   <p>
     <strong>Location:</strong>
     <%= twitter_user.location %>
   </p>
+  <p>
+    <strong>id_str (I believe its the TWEET id not USER id - clusterfuck to be fixed):</strong>
+    <%= twitter_user.id_str %>
+  </p>
+  <p>
+    <strong>Riccardo  id:</strong>
+    <%= twitter_user.id %>
+  </p>
+  <p>
+    <strong>description:</strong>
+    <%= twitter_user.description %>
+  </p>
+
 
 </div>
+
