@@ -5,10 +5,17 @@
 <%= line_chart WordleTweet.group_by_day(:created_at).count rescue :broken %>
 
 
-
 <%= pie_chart WordleTweet.group(:wordle_type).count %>
 
 <%#= column_chart WordleTweet.group_by_day_of_week(:created_at, format: "%a").count %>
 
 <%= bar_chart WordleTweet.group(:wordle_type).average(:score) %>
 
+<%= line_chart WordleTweet.all.map { |wt|
+    {
+     name: wt.wordle_type, 
+     data: 
+        #[42,42,42,42] # wt.group_by(:score).count
+         WordleTweet.all.map{|wt| wt.score } + 42
+    }
+} rescue "Error #{$!}"%>
