@@ -23,6 +23,13 @@ TODO(test recreation by changing one thing - as the problem arises)
 
 * Deployment instructions: TODO
 
+## install
+
+Make sure you have Twitter APIs enabled. Instructions: TODO.
+
+    cp .env.dist .env
+    vim .env # edit away with your 3 vars.
+
 ## Notes
 
 Created with my awesome `rails-app-scaffolder` code, soon open sourced if you ask me.
