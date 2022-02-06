@@ -55,4 +55,7 @@ ENV RAILS_ENV production
 EXPOSE 8080
 # Start the main process: $ rails server -b 0.0.0.0
 #CMD ["rails", "server", "-b", "0.0.0.0", "-p", "8080"]
-CMD ["/riccardo-rails-app/entrypoint-8080.sh"]
+#CMD ["/riccardo-rails-app/entrypoint-8080.sh"]
+CMD ["./entrypoint-8080.sh"]
+
+ 
