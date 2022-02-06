@@ -43,4 +43,16 @@ schema:
       wordle_incremental_day: integer 
       import_version: integer
       import_notes: text
+  controllers:
+   # not implemented yet but this is what I want
+   # TODO rails generate controller Articles index stats about wordle --skip-routes
+   #https://guides.rubyonrails.org/getting_started.html#hello-rails-bang
+     Articles:
+      options: 
+       - skip-routes
+      pages:
+       - index 
+       - stats 
+       - about
+       - wordle 
 
