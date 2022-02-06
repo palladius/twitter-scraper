@@ -3,12 +3,51 @@
 <h1>Wordle tweets</h1>
 
 <div id="wordle_tweets">
-  <% @wordle_tweets.each do |wordle_tweet| %>
-    <%= render wordle_tweet %>
-    <p>
-      <%= link_to "Show this wordle tweet", wordle_tweet %>
-    </p>
+  <table border="1" >
+   <tr>
+    <th>Actions 
+    <th>Type
+    <th>Score/Moves 
+    <th>Tweet 
+    <th>Version 
+    <th>Length 
+   </tr>
+  <% @wordle_tweets.each do |wt| %>
+    <%#= render wordle_tweet %>
+    <tr>
+    <td> 
+      <%= link_to "Show WT", wt %> 
+      <%#= link_to "Show Tweet #{tweet_id}", wt %> 
+    </td>
+    <td> <%= wt.wordle_type %> </td>
+    <td> <%= wt.score %> </td>
+    <td> <%= wt.wordle_date %> </td>
+    <td> <%= wt.import_version %> </td>
+    <td> <%= wt.tweet.to_s.size %> </td>
+    <td> <%#= wt.import_notes %> </td>
+    <td> 
+      <%= link_to "Tweet # #{wt.tweet_id}", Tweet.find(wt.tweet_id) %> 
+    </td>
+    
+   </tr>
   <% end %>
+  </table>
 </div>
+
+
+Wordle incremental day:
+    t.string "wordle_type"
+    t.integer "tweet_id", null: false
+    t.integer "score"
+    t.date "wordle_date"
+    t.integer "wordle_incremental_day"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.string "import_version"
+    t.string "import_notes"
+    t.string "internal_stuff"
+    t.integer "max_tries"
+    t.index ["tweet_id"], name: "index_wordle_tweets_on_tweet_id"
+
 
 <%= link_to "New wordle tweet", new_wordle_tweet_path %>

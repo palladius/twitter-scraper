@@ -63,6 +63,7 @@ class WordleTweet < ApplicationRecord
     # import_version: integer
     wt.import_version = 1 # First version
     # import_notes: text
+    wt.save
   end
 end 
 # (Irina, Wurundjeri Land ☀️🌧❄️🍂🚃
