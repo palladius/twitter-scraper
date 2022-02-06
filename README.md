@@ -30,6 +30,11 @@ Make sure you have Twitter APIs enabled. Instructions: TODO.
     cp .env.dist .env
     vim .env # edit away with your 3 vars.
 
+## TODO treno
+
+* Scaffold / Cloud Deploy
+* Metti a posto l'indice in cima.
+
 ## Notes
 
 Created with my awesome `rails-app-scaffolder` code, soon open sourced if you ask me.
