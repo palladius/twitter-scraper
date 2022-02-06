@@ -7,6 +7,8 @@ ruby "2.7.2"
 # Riccardo
 #gem "ric"
 gem 'twitter'
+gem "chartkick"
+
 ########################
 
 
