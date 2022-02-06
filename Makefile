@@ -1,5 +1,5 @@
 
-
+VERSION = $(shell cat VERSION)
 
 stats:
 	echo Tweet.count | rails c
@@ -15,8 +15,8 @@ docker-run:
 docker-run-bash: 
 	docker run -it -p 8080:8080 twitter-scraper-removeme bash
 docker-push:
-	docker tag  twitter-scraper-removeme palladius/twitter-scraper
-	docker push palladius/twitter-scraper
+	docker tag  twitter-scraper-removeme gcr.io/ric-cccwiki/twitter-scraper:v$(VERSION)
+	docker push gcr.io/ric-cccwiki/twitter-scraper:v$(VERSION)
 #      --add-cloudsql-instances PROJECT_ID:REGION:INSTANCE_NAME \
 #--image gcr.io/PROJECT_ID/twitter-scraper \
      
@@ -24,7 +24,7 @@ deploy-to-cloud-run:
 	gcloud run deploy twitter-scraper \
      --platform managed \
      --region europe-west1 \
-     --image palladius/twitter-scraper \
+     --image gcr.io/ric-cccwiki/twitter-scraper:v$(VERSION) \
      --allow-unauthenticated
 
 

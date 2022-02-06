@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 export RAILS_ENV=production
 rake db:migrate
