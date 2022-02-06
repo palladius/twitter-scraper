@@ -3,7 +3,7 @@ class TweetsController < ApplicationController
 
   # GET /tweets or /tweets.json
   def index
-    @tweets = Tweet.all.limit(5)
+    @tweets = Tweet.all.where(:import_version => "2" )
   end
 
   # GET /tweets/1 or /tweets/1.json

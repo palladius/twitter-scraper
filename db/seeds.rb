@@ -12,6 +12,8 @@ require 'twitter'
 #pred "remove Ricc Twitter API keys... use ENV instead maybe with dotenv"
 
 puts "TWITTER_CONSUMER_KEY: #{ENV['TWITTER_CONSUMER_KEY']}. If this was empty, good luck using APIs!"
+raise "Missing Twitter key (or exists but is smaller than XX chars: #{ENV['TWITTER_CONSUMER_KEY'].to_s.length}" if ENV['TWITTER_CONSUMER_KEY'].to_s.length < 5
+#puts "TEST REMOVEME quando va: ", WordleTweet.extended_wordle_match_type("ciao da Riccardo")
 
 TWITTER_RICC = {
     :api_key =>        ENV['TWITTER_CONSUMER_KEY'], 
@@ -28,8 +30,22 @@ def nice_twitter_username(twitter_user)
   end
 
   # TODO(ricc): use the Model one which is better :) 
-  def extended_wordle_match_type(text, include_very_generic = true, exclude_wordle_english_for_debug=false)
+  def extended_wordle_match_type_obsoleto(text, include_very_generic = false, exclude_wordle_english_for_debug=false,
+      include_only_italian_for_debug = true )
     # returns TWO things: matches and id of
+
+    ## ITALIAN START
+      # ParFlag of Italyle 369 3/6
+      # PAR🇮🇹LE
+      return :wordle_it1  if text.match?(/Par.*le \d+ .\/6/i)
+      # Pietro version Par🇮🇹le 370 1/6 🟩🟩🟩🟩🟩
+      # testiamo per poco il 1/2
+      return :wordle_it2  if text.match?(/Par🇮🇹le \d+ .\/6/i)
+      return :wordle_it3_removeme  if text.match?(/par.+le \d+ .\/6/i)
+
+    ## ITALIAN END
+    return nil if include_only_italian_for_debug 
+
     return :wordle_en  if text.match?(/Wordle \d+ \d\/6/i) unless exclude_wordle_english_for_debug
     return :wordle_fr  if text.match?(/Le Mot \(@WordleFR\) \#\d+ .\/6/i)
     # "joguei http://term.ooo #34 X/6 *"
@@ -40,11 +56,6 @@ def nice_twitter_username(twitter_user)
     return :wordle_de  if text.match?(/http:\/\/wordle-spielen.de.*WORDLE.*\d+ .\/6/)
     return :lewdle     if text.match?(/Lewdle \d+ .\/6/) 
     
-    # ParFlag of Italyle 369 3/6
-    # PAR🇮🇹LE
-    return :wordle_it  if text.match?(/Par.*le \d+ .\/6/i)
-    # Pietro version Par🇮🇹le 370 1/6 🟩🟩🟩🟩🟩
-    return :wordle_it  if text.match?(/Par🇮🇹le \d+ .\/6/i)
     return :nerdlegame if text.match?(/nerdlegame \d+ .\/6/i)
     
     return :wordle_ko  if text.match?(/#Korean #Wordle .* \d+ .\/6/)
@@ -79,7 +90,7 @@ def nice_twitter_username(twitter_user)
       puts "Searchin #{N_TWEETS} for term '#{search_term}'.."
 
       client.search(search_term).take(N_TWEETS).each do |tweet|
-        wordle_type = extended_wordle_match_type(tweet.text)
+        wordle_type = WordleTweet.extended_wordle_match_type(tweet.text)
         if not wordle_type.nil?
           #puts "[DEB] Found [#{ wordle_type}] #{short_twitter_username(tweet.user)}:\t'#{( tweet.text.split("\n")[0] )}'" # text[0,30]
           u = tweet.user
@@ -102,8 +113,16 @@ def nice_twitter_username(twitter_user)
               twitter_user: TwitterUser.find_by_twitter_id(tweet.user.screen_name) ,
               full_text: tweet.text,
               # 2022-02-06 updated this
-              created_at: tweet.created_at,
-              id: tweet.id,
+              #created_at: tweet.created_at,
+#              id: tweet.id,
+              twitter_id:  tweet.id,
+              twitter_created_at: tweet.created_at,
+              import_version: "2",
+              import_notes: "Now this supports also the timestamp and unique ID of Twitter tweet. Now this has finally LIFE and i can link to original via URL",
+              internal_stuff: "TODO mi servira",
+              # polymoprhic stuff in case new stuff comes to my mind..
+              json_stuff: "{}",
+
           )
           saved_tweet = rails_tweet.save 
           print "2. Tweet saved: #{rails_tweet.id} from #{rails_tweet.twitter_user}" if saved_tweet

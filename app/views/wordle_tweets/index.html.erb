@@ -10,6 +10,7 @@ Mini table:
   <table border="1" >
    <tr>
     <th>Actions 
+    <th>VER 
     <th>Type
     <th>Score/Moves 
     <th>Inc Day 
@@ -23,12 +24,14 @@ Mini table:
       <%= link_to "Show WT", wt %> 
       <%#= link_to "Show Tweet #{tweet_id}", wt %> 
     </td>
+    <td> <%= wt.import_version %> </td>
     <td> <%= wt.wordle_type %> </td>
     <td> <%= wt.score %> </td>
     <td> <%= wt.wordle_incremental_day %> </td>
     <td> <%= wt.import_version %> </td>
     <td> <%= wt.tweet.to_s.size %> </td>
-    <td> <%#= wt.import_notes %> </td>
+    <td> <%= wt.wordle_date %> </td>
+    <td> <%= time_ago_in_words(wt.created_at) %> </td>
     <td> 
       <%#= link_to "Tweet # #{wt.tweet_id}", Tweet.find(wt.tweet_id) %> 
       <%= link_to "Tweet # #{wt.tweet_id}", wt.tweet %> 
@@ -40,10 +43,6 @@ Mini table:
 </div>
 
 
-    t.string "wordle_type"
-    t.integer "tweet_id", null: false
-    t.integer "score"
-    #t.date "wordle_date"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "max_tries"

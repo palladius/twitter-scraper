@@ -1,9 +1,9 @@
 <h1>Articles#index</h1>
 <p>Find me in app/views/articles/index.html.erb</p>
 
-<%= line_chart WordleTweet.group_by_day(:created_at).count  %>
-<%= line_chart Tweet.group_by_day(:created_at).count  %>
-<%= line_chart TwitterUser.group_by_day(:created_at).count  %>
+<%#= line_chart WordleTweet.group_by_day(:created_at).count  %>
+<%= line_chart Tweet.group_by_day(:twitter_created_at).count  %>
+<%#= line_chart TwitterUser.group_by_day(:created_at).count  %>
 
 <table border="1" style="valign:100%" >
 <tr>
