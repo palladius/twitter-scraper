@@ -9,6 +9,10 @@ class TwitterUser < ApplicationRecord
        # https://stackoverflow.com/questions/4132900/url-link-to-twitter-user-with-id-not-name
         "https://twitter.com/intent/user?user_id=#{twitter_id}"
     end
+
+    def accountid
+        twitter_id
+    end
     def to_s(verbose=false)
         return "TwitterUser @#{self.twitter_id} #{url_by_id}" if verbose
         "@#{self.twitter_id}"

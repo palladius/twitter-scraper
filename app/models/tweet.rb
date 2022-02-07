@@ -11,13 +11,13 @@ class Tweet < ApplicationRecord
 
   # how long ago was the tweet created from when its parsed by ricc :)
   def freshness
-    created_at - twitter_created_at rescue nil
+    (created_at - twitter_created_at) rescue nil
   end
 
   def url
-    # TBD https://stackoverflow.com/questions/23008129/how-to-construct-a-url-from-a-twitter-direct-message-id
+    # as per https://stackoverflow.com/questions/23008129/how-to-construct-a-url-from-a-twitter-direct-message-id
     # eg https://twitter.com/palladius/status/1490373849841557509
-    "https://twitter.com/{accountid}/status/{tweetid}"
+    "https://twitter.com/#{twitter_user.accountid}/status/#{self.id}"
   end
 
   after_create do |tweet|

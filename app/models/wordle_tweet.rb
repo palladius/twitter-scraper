@@ -57,11 +57,33 @@ class WordleTweet < ApplicationRecord
 
 ###### STATIC METHODS ###
 
-
+  # returns TWO things: matches and id of
   # TODO(ricc): messo parole che parsa meglio ma poi dila non parsa bene non so perche..
-  def self.extended_wordle_match_type(text, include_very_generic = true, exclude_wordle_english_for_debug=false)
+  def self.extended_wordle_match_type(text, include_very_generic = true, 
+    exclude_wordle_english_for_debug=false,
+    include_only_italian_for_debug=true)
+
+    ## ITALIAN START
+
+    # ParFlag of Italyle 369 3/6
+    # Par🇮🇹l matches  /Par..le/i 
+    return :wordle_it  if text.match?(/Par..le \d+ .\/6.*/i)
+    return :wordle_it  if text.match?(/Par🇮🇹le \d+ .\/6/i)
+
+      # ParFlag of Italyle 369 3/6
+      # PAR🇮🇹LE
+      return :wordle_it1_ciofeco  if text.match?(/Par.+le \d+ .\/6/i)
+      # Pietro version Par🇮🇹le 370 1/6 🟩🟩🟩🟩🟩
+      # testiamo per poco il 1/2
+      return :wordle_it2_ciofeco  if text.match?(/Par🇮🇹le \d+ .\/6/i)
+      return :wordle_it3_removeme  if text.match?(/par.+le \d+ .\/6/i)
+
+    ## ITALIAN END
+    return nil if include_only_italian_for_debug 
+
+
+
     # returns TWO things: matches and id of
-    return :wordle_en  if text.match?(/Wordle \d+ \d\/6/i) unless exclude_wordle_english_for_debug
     return :wordle_fr  if text.match?(/Le Mot \(@WordleFR\) \#\d+ .\/6/i)
     # "joguei http://term.ooo #34 X/6 *"
     return :wordle_pt  if text.match?(/joguei http:\/\/term.ooo \#34 .\/6/i )
@@ -71,12 +93,11 @@ class WordleTweet < ApplicationRecord
     return :wordle_de  if text.match?(/http:\/\/wordle-spielen.de.*WORDLE.*\d+ .\/6/)
     return :lewdle     if text.match?(/Lewdle \d+ .\/6/) 
     
-    # ParFlag of Italyle 369 3/6
-    return :wordle_it  if text.match?(/.*Par.le \d+ .\/6.*/)
-    return :wordle_it  if text.match?(/Par🇮🇹le \d+ .\/6/)
     return :nerdlegame if text.match?(/nerdlegame \d+ .\/6/i)
     
     return :wordle_ko  if text.match?(/#Korean #Wordle .* \d+ .\/6/)
+
+    return :wordle_en  if text.match?(/Wordle \d+ \d\/6/i) unless exclude_wordle_english_for_debug
 
     # Generic wordle - might want to remove in the future
     if include_very_generic

@@ -29,44 +29,44 @@ def nice_twitter_username(twitter_user)
     "#{u.screen_name} (#{u.name}, #{u.location})"
   end
 
-  # TODO(ricc): use the Model one which is better :) 
-  def extended_wordle_match_type_obsoleto(text, include_very_generic = false, exclude_wordle_english_for_debug=false,
-      include_only_italian_for_debug = true )
-    # returns TWO things: matches and id of
+  # # TODO(ricc): use the Model one which is better :) 
+  # def extended_wordle_match_type_obsoleto(text, include_very_generic = false, exclude_wordle_english_for_debug=false,
+  #     include_only_italian_for_debug = true )
+  #   # returns TWO things: matches and id of
 
-    ## ITALIAN START
-      # ParFlag of Italyle 369 3/6
-      # PAR🇮🇹LE
-      return :wordle_it1  if text.match?(/Par.*le \d+ .\/6/i)
-      # Pietro version Par🇮🇹le 370 1/6 🟩🟩🟩🟩🟩
-      # testiamo per poco il 1/2
-      return :wordle_it2  if text.match?(/Par🇮🇹le \d+ .\/6/i)
-      return :wordle_it3_removeme  if text.match?(/par.+le \d+ .\/6/i)
+  #   ## ITALIAN START
+  #     # ParFlag of Italyle 369 3/6
+  #     # PAR🇮🇹LE
+  #     return :wordle_it1  if text.match?(/Par.*le \d+ .\/6/i)
+  #     # Pietro version Par🇮🇹le 370 1/6 🟩🟩🟩🟩🟩
+  #     # testiamo per poco il 1/2
+  #     return :wordle_it2  if text.match?(/Par🇮🇹le \d+ .\/6/i)
+  #     return :wordle_it3_removeme  if text.match?(/par.+le \d+ .\/6/i)
 
-    ## ITALIAN END
-    return nil if include_only_italian_for_debug 
+  #   ## ITALIAN END
+  #   return nil if include_only_italian_for_debug 
 
-    return :wordle_en  if text.match?(/Wordle \d+ \d\/6/i) unless exclude_wordle_english_for_debug
-    return :wordle_fr  if text.match?(/Le Mot \(@WordleFR\) \#\d+ .\/6/i)
-    # "joguei http://term.ooo #34 X/6 *"
-    return :wordle_pt  if text.match?(/joguei http:\/\/term.ooo \#34 .\/6/i )
-    # I cant remember wha website was this.
-    return :wordle_de2  if text.match?(/I guessed this German 5-letter word in .\/6 tries/)
-    # This is better
-    return :wordle_de  if text.match?(/http:\/\/wordle-spielen.de.*WORDLE.*\d+ .\/6/)
-    return :lewdle     if text.match?(/Lewdle \d+ .\/6/) 
+  #   return :wordle_en  if text.match?(/Wordle \d+ \d\/6/i) unless exclude_wordle_english_for_debug
+  #   return :wordle_fr  if text.match?(/Le Mot \(@WordleFR\) \#\d+ .\/6/i)
+  #   # "joguei http://term.ooo #34 X/6 *"
+  #   return :wordle_pt  if text.match?(/joguei http:\/\/term.ooo \#34 .\/6/i )
+  #   # I cant remember wha website was this.
+  #   return :wordle_de2  if text.match?(/I guessed this German 5-letter word in .\/6 tries/)
+  #   # This is better
+  #   return :wordle_de  if text.match?(/http:\/\/wordle-spielen.de.*WORDLE.*\d+ .\/6/)
+  #   return :lewdle     if text.match?(/Lewdle \d+ .\/6/) 
     
-    return :nerdlegame if text.match?(/nerdlegame \d+ .\/6/i)
+  #   return :nerdlegame if text.match?(/nerdlegame \d+ .\/6/i)
     
-    return :wordle_ko  if text.match?(/#Korean #Wordle .* \d+ .\/6/)
+  #   return :wordle_ko  if text.match?(/#Korean #Wordle .* \d+ .\/6/)
 
-    # Generic wordle - might want to remove in the future
-    if include_very_generic
-      return :other if text.match?(/ordle \d+ [123456X]\/6/i) unless exclude_wordle_english_for_debug
-      return :other2 if text.match?(/🟩🟩🟩🟩🟩/)
-    end
-    return nil
-  end
+  #   # Generic wordle - might want to remove in the future
+  #   if include_very_generic
+  #     return :other if text.match?(/ordle \d+ [123456X]\/6/i) unless exclude_wordle_english_for_debug
+  #     return :other2 if text.match?(/🟩🟩🟩🟩🟩/)
+  #   end
+  #   return nil
+  # end
 
   def short_twitter_username(twitter_user)
     twitter_user.screen_name
@@ -85,6 +85,7 @@ def nice_twitter_username(twitter_user)
     search_terms = [
       '#TwitterParser',
       '#Wordle',
+      '#Parole',
     ] 
     search_terms.each do |search_term| 
       puts "Searchin #{N_TWEETS} for term '#{search_term}'.."

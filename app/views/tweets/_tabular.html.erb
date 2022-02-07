@@ -1,0 +1,37 @@
+<% unless (mytweet rescue false) %>
+<!-- HEADER -->
+<tr>
+    <th>Id</th>
+    <th>url</th>
+    <th>json</th>
+    <th>ver</th>
+    <th>UserId</th>
+    <th>Time Ago (here)</th>
+    <th>Time Ago (Twitter)</th>
+    <th>freshness (sec)</th>
+    
+</tr>
+<% else %>
+<!-- here i have values -->
+<tr>
+    <td><%= mytweet.id %></td>
+    <td><%= mytweet.url %></td>
+    <td><%= mytweet.json_stuff  %></td>
+    <td><%= mytweet.import_version  %></td>
+    <td><%= mytweet.twitter_user %></td>
+    <td><%= time_ago_in_words(mytweet.created_at) %></td>
+    <td><%= time_ago_in_words(mytweet.twitter_created_at) %></td>
+    <td><%= (mytweet.freshness).to_i %></td>
+    
+</tr>
+<% end %>\
+<!-- 
+create_table "tweets", force: :cascade do |t|
+    t.string "full_text"
+    t.string "import_version"
+    t.string "import_notes"
+    t.string "internal_stuff"
+    t.string "twitter_id"
+    t.datetime ""
+  end
+  -->

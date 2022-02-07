@@ -1,9 +1,24 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Tweets</h1>
+<h1>Tweets Nice</h1>
+
 
 <div id="tweets">
-  <% @tweets.each do |tweet| %>
+  <table border="1">
+    <%= render "tweets/tabular" %>
+  <% @tweets.first(10).each do |tweet| %>
+    <%= render "tweets/tabular", mytweet: tweet, :locals => {:mytweet => 30 } %>
+    <%#= render tweet %>
+    <%#= tweet %>
+      <%= link_to "Show this tweet", tweet %>
+  <% end %>
+  </table>
+</div>
+
+<h1>Tweets Ugly</h1>
+
+<div id="tweets_ugly">
+  <% @tweets.first(3).each do |tweet| %>
     <%= render tweet %>
     <%= tweet %>
     <p>
