@@ -2,12 +2,16 @@ class WordleTweet < ApplicationRecord
   belongs_to :tweet
 
   def to_s 
-    "TODO 🌻 WordleTweet "
-    "WT🌻[#{wordle_type}] #{score}/6"
+    #"TODO 🌻 WordleTweet "
+    "WT#{WordleTweet.flag_by_type(wordle_type)}[#{wordle_type}] #{score}/6 (len=#{length})"
   end
 
   def tweet_text 
     self.tweet.full_text
+  end
+
+  def length
+    self.tweet.length
   end
 
   def calculate_wordle_type 
@@ -61,7 +65,7 @@ class WordleTweet < ApplicationRecord
   # TODO(ricc): messo parole che parsa meglio ma poi dila non parsa bene non so perche..
   def self.extended_wordle_match_type(text, include_very_generic = true, 
     exclude_wordle_english_for_debug=false,
-    include_only_italian_for_debug=true)
+    include_only_italian_for_debug=false)
 
     ## ITALIAN START
 
@@ -104,6 +108,40 @@ class WordleTweet < ApplicationRecord
       return :other if text.match?(/ordle \d+ [123456X]\/6/i) unless exclude_wordle_english_for_debug
     end
     return nil
+  end
+
+  # This should be the only necessary thingy to CREATE a tweet. Them if the WT fails, i can do with next iterations
+  def self.quick_match(txt)
+    # ITA EN
+    txt.match?(/(ordle|par..le) \d+ [123456X]\/6/i ) or 
+      # FR: https://twitter.com/search?q=wordlefr&src=typed_query
+      txt.match?(/WordleFR.*#\d+ [123456X]\/6/i) or 
+      # BR OT: joguei https://t.co/TVFNN8ARo6 #36 2/6 *
+      txt.match?(/joguei.*#\d+ [123456X]\/6/i) or 
+  end
+
+  # Yellow squareYellow squareYellow square⬜⬜
+  # Yellow square⬜⬜Green squareYellow square
+  # ⬜⬜Green squareGreen squareGreen square
+
+
+  def self.flag_by_type(wordle_match_type)
+    case wordle_match_type.to_sym
+    when :wordle_en
+      "🇬🇧"
+    when :wordle_it
+      "🇮🇹"
+    when :wordle_fr
+      "It's 🇫🇷 foo or bar"
+    when :nerdlegame
+      "You 🧮 a string"
+    when :wordle_ko
+      "🇰🇷"
+    when :lewdle
+      "🛏️"
+    else # question mark, also try: 🤔 or 👽 Alien
+      "⁉️"
+    end
   end
 end 
 # (Irina, Wurundjeri Land ☀️🌧❄️🍂🚃

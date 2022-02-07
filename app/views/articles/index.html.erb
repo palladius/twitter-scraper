@@ -2,14 +2,14 @@
 <p>Find me in app/views/articles/index.html.erb</p>
 
 <%#= line_chart WordleTweet.group_by_day(:created_at).count  %>
-<%= line_chart Tweet.group_by_day(:twitter_created_at).count  %>
+<%#= line_chart Tweet.group_by_day(:twitter_created_at).count  %>
 <%#= line_chart TwitterUser.group_by_day(:created_at).count  %>
 
-<table border="1" style="valign:100%" >
+<table border="1" style="width:80%;background-color:#EFF;" >
 <tr>
-  <td>
+  <td style="width:50%">
     <%= pie_chart WordleTweet.group(:wordle_type).count %>
-  <td>
+  <td style="width:50%">
     <%= pie_chart WordleTweet.group(:wordle_incremental_day).count %>
 <tr>
   <td>

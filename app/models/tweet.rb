@@ -14,6 +14,10 @@ class Tweet < ApplicationRecord
     (created_at - twitter_created_at) rescue nil
   end
 
+  def length
+    full_text.length
+  end
+
   def url
     # as per https://stackoverflow.com/questions/23008129/how-to-construct-a-url-from-a-twitter-direct-message-id
     # eg https://twitter.com/palladius/status/1490373849841557509

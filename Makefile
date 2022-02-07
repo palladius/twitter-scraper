@@ -27,6 +27,12 @@ deploy-to-cloud-run:
      --image gcr.io/ric-cccwiki/twitter-scraper:v$(VERSION) \
      --allow-unauthenticated
 
+test-build-push-deploy:
+	bin/rails db:migrate RAILS_ENV=test
+	rake test 
+	make docker-build
+	make docker-push 
+	make deploy-to-cloud-run
 
 ingest-batch-from-twitter:
 	watch rake db:seed
