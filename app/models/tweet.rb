@@ -14,6 +14,11 @@ class Tweet < ApplicationRecord
     (created_at - twitter_created_at) rescue nil
   end
 
+  def excerpt
+    # copied from https://apidock.com/rails/v5.2.3/ActionView/Helpers/TextHelper/excerpt
+    (self.full_text[0, 10] rescue "ERR_no_fuLltext") + ".."
+  end
+
   def length
     full_text.length
   end
@@ -25,7 +30,7 @@ class Tweet < ApplicationRecord
   end
 
   after_create do |tweet|
-    puts "Tweet::after_create created. Now creating Wordle brother."
+    #puts "Tweet::after_create created. Now creating Wordle brother."
     WordleTweet.create_from_tweet(tweet)
   end
   

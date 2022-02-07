@@ -61,7 +61,7 @@ $search_terms = [
       client.search(search_term).take($n_tweets).each do |tweet|
         quick_match = WordleTweet.quick_match(tweet.text)
         next unless quick_match
-        puts "+ Habemus matchem 2: '#{tweet.text.gsub("\n"," ")}'"
+        #puts "+ Habemus matchem 2: '#{tweet.text.gsub("\n"," ")}'"
         wordle_type = WordleTweet.extended_wordle_match_type(tweet.text)
         if not wordle_type.nil?
           #puts "[DEB] Found [#{ wordle_type}] #{short_twitter_username(tweet.user)}:\t'#{( tweet.text.split("\n")[0] )}'" # text[0,30]
@@ -78,10 +78,12 @@ $search_terms = [
           )
           saved = tu.save
           # TODO(ricc): update Existing with new descriptions even if it already exists
-          puts "1. Created TwitterUser: #{tu}" if saved
+          puts "1. Created TwitterUser: #{tu} id=#{tu.id rescue :noid}" if saved
           if $check_already_exists
             already_exists = Tweet.find_by_twitter_id(tweet.id)
-            puts "- [CACHE] Already exists TODO update if needed: #{already_exists} (import v#{already_exists.import_version}) "            if already_exists
+            puts "- [CACHE] Already exists TODO update if needed: [#{tu}] '#{already_exists.excerpt}' (import v#{already_exists.import_version})" if (
+              already_exists && $rake_seed_import_version != already_exists.import_version
+            )
           end 
           #print "2. [#{tweet.created_at}] Creating Tweet info based on existence of twitter_id :)"
           rails_tweet = Tweet.create(
@@ -99,7 +101,7 @@ $search_terms = [
               json_stuff: "{}",
           )
           saved_tweet = rails_tweet.save 
-          print "2. Tweet saved: #{rails_tweet.id} from #{rails_tweet.twitter_user}" if saved_tweet
+          puts "2. Tweet saved: #{rails_tweet.id} from #{rails_tweet.twitter_user}" if saved_tweet
         end 
         #p tweet.metadata.to_s
         #client.update("@#{tweet.user} Hey I love Ruby too, what are your favorite blogs? :)")

@@ -28,7 +28,8 @@ class WordleTweet < ApplicationRecord
   def parse_incrementalday_from_text
     #tweet_text = "Wordle 231 3/6"
     m = tweet_text.match(/ (\d+) .\/6/)
-    puts "[parse_incrementalday_from_text] Wordle integer is #{m[1] rescue $!}"
+    puts "[parse_incrementalday_from_text] Issues matching day in '#{tweet_text}'" unless m
+    #puts "[parse_incrementalday_from_text] Wordle integer is #{m[1] rescue $!}"
     m[1] rescue nil
   end
 
@@ -39,7 +40,7 @@ class WordleTweet < ApplicationRecord
   # I believe this shoiuld jhust be a bloody Class function :)
   #define_singleton_method :create_from_tweet do |tweet|
   def self.create_from_tweet(tweet)
-      puts "TODO(ricc): WordleTweet add new WordleTweet() based on tweet: #{tweet}"
+    #puts "TODO(ricc): WordleTweet.create_from_tweet() based on tweet: #{tweet.excerpt}"
     wt = WordleTweet.new 
     wt.tweet = tweet 
     wt.import_notes = "Not sure yet I should be doing it this way.."
@@ -54,7 +55,9 @@ class WordleTweet < ApplicationRecord
     # v1 - Uswed to be the normal one
     # v2 2022-02-06 I've added created_at to Tweet based on ORIGINAL tweet.
     # import_notes: text
-    wt.save
+    save = wt.save
+    puts "DEB save issues: #{save}" unless save
+    save
   end
 
 
@@ -117,7 +120,7 @@ class WordleTweet < ApplicationRecord
       # FR: https://twitter.com/search?q=wordlefr&src=typed_query
       txt.match?(/WordleFR.*#\d+ [123456X]\/6/i) or 
       # BR OT: joguei https://t.co/TVFNN8ARo6 #36 2/6 *
-      txt.match?(/joguei.*#\d+ [123456X]\/6/i) or 
+      txt.match?(/joguei.*#\d+ [123456X]\/6/i) 
   end
 
   # Yellow squareYellow squareYellow square⬜⬜
