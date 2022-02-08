@@ -1,6 +1,7 @@
 # Should map to Twitter User Object: https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/user
 class TwitterUser < ApplicationRecord
     validates_uniqueness_of :twitter_id
+    has_many :tweets
 
     def url 
         "http://twitter.com/#{username}"
@@ -15,6 +16,6 @@ class TwitterUser < ApplicationRecord
     end
     def to_s(verbose=false)
         return "TwitterUser @#{self.twitter_id} #{url_by_id}" if verbose
-        "@#{self.twitter_id}"
+        "@#{self.twitter_id} [#{tweets.count} tweets]"
     end
 end

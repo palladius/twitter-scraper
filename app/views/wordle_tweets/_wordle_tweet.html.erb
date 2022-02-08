@@ -8,10 +8,16 @@
     <strong>Wordle type:</strong>
     <%= wordle_tweet.wordle_type %>
   </p>
+  <p>
+    <strong>Stats:</strong>
+    <%= wordle_tweet.stats %>
+  </p>
+
 
   <p>
     <strong>Tweet:</strong>
-    <%= wordle_tweet.tweet_id %>
+    <%= link_to wordle_tweet.tweet %> - link 
+    <%#= wordle_tweet.tweet %>
   </p>
 
   <p>

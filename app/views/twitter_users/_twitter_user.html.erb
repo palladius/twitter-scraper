@@ -20,9 +20,20 @@
     <strong>Riccardo  id:</strong>
     <%= twitter_user.id %>
   </p>
+  
   <p>
     <strong>description:</strong>
     <%= twitter_user.description %>
+  </p>
+
+  <hr/>
+  <p>
+    <strong><%= twitter_user.tweets.count %> tweets</strong>
+  </p>
+  <p>
+    <% twitter_user.tweets.each do |t| %>
+      + <%= link_to t %> <br/> 
+    <%end%>
   </p>
 
 

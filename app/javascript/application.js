@@ -4,4 +4,5 @@ import "controllers"
 
 // aggiunto da Riccardo
 import "chartkick"
-import "Chart.bundle"
+import "Chart.bundle"import "trix"
+import "@rails/actiontext"

@@ -31,6 +31,7 @@ class WordleTweet < ApplicationRecord
     # blah blah 234 6/6
     # blah blah #234 6/6
     #m = tweet_text.match(/ (#)?(\d+) .\/6/i)
+    #                       1   2   => m[2] is what you need
     m = tweet_text.match(/ (#)?(\d+) .\/6/i)
     puts "[parse_incrementalday_from_text] Issues matching day in '#{tweet_text}'" unless m
     #puts "[parse_incrementalday_from_text] Wordle integer is #{m[1] rescue $!}"
@@ -136,11 +137,24 @@ class WordleTweet < ApplicationRecord
     ret[:score] = score
     ret[:day] = parse_incrementalday_from_text
     ret[:length] = length
+    ret[:valid_for_stats] = valid_for_stats?
 
     return ret
   end
 
+  # if I create a valid? then it wont SAVE if invalid. I just want to remove validity.
+  def valid_for_stats?
+    return false if parse_incrementalday_from_text.nil?
+    return false if score.nil? 
+    return false unless score.to_s.match /[123456X]/i
+    true
+  end
+
   def self.flag_by_type(wordle_match_type)
+    # nil 
+    return "😞" if wordle_match_type.nil? 
+
+    # non nil
     case wordle_match_type.to_sym
     when :wordle_en
       "🇬🇧"

@@ -2,7 +2,6 @@
 
 <h1>Tweets Nice</h1>
 
-
 <div id="tweets">
   <table border="1">
     <%= render "tweets/tabular" %>
@@ -10,7 +9,7 @@
     <%= render "tweets/tabular", mytweet: tweet, :locals => {:mytweet => 30 } %>
     <%#= render tweet %>
     <%#= tweet %>
-      <%= link_to "Show this tweet", tweet %>
+      <%#= link_to "Show this tweet", tweet %>
   <% end %>
   </table>
 </div>
