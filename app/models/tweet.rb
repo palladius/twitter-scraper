@@ -29,7 +29,9 @@ class Tweet < ApplicationRecord
   alias :type :wordle_type
 
   def stats 
-    wordle_tweet.stats
+    wt_stats=    wordle_tweet.stats rescue {:error => "No wordle_tweet apparently"}
+    wt_stats[:tweet_valid] = valid?
+    wt_stats
   end 
 
   def url

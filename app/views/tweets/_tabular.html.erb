@@ -14,7 +14,9 @@
 <% else %>
 <!-- here i have values -->
 <tr>
-    <td><%= mytweet.id %></td>
+    <td><%= mytweet.id %>
+    <%= link_to('Destroy (invalid)', delete_manage_tweet_path(mytweet.id))  unless mytweet.valid? %>
+    </td>
     <td><%= mytweet.url %></td>
     <td><%= mytweet.json_stuff  %></td>
     <td><%= mytweet.import_version  %></td>
@@ -24,7 +26,7 @@
     <td><%= (mytweet.freshness).to_i %></td>
     
 </tr>
-<% end %>\
+<% end %>
 <!-- 
 create_table "tweets", force: :cascade do |t|
     t.string "full_text"

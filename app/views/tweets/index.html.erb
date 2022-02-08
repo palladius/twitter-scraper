@@ -5,11 +5,8 @@
 <div id="tweets">
   <table border="1">
     <%= render "tweets/tabular" %>
-  <% @tweets.first(10).each do |tweet| %>
+  <% @tweets.first(100).each do |tweet| %>
     <%= render "tweets/tabular", mytweet: tweet, :locals => {:mytweet => 30 } %>
-    <%#= render tweet %>
-    <%#= tweet %>
-      <%#= link_to "Show this tweet", tweet %>
   <% end %>
   </table>
 </div>
