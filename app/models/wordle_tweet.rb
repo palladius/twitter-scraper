@@ -70,7 +70,8 @@ class WordleTweet < ApplicationRecord
 
   # returns TWO things: matches and id of
   # TODO(ricc): messo parole che parsa meglio ma poi dila non parsa bene non so perche..
-  def self.extended_wordle_match_type(text, include_very_generic = true, 
+  def self.extended_wordle_match_type(text, 
+    include_very_generic = true, 
     exclude_wordle_english_for_debug=false,
     include_only_italian_for_debug=false)
 
@@ -78,12 +79,12 @@ class WordleTweet < ApplicationRecord
 
     # ParFlag of Italyle 369 3/6
     # Par🇮🇹l matches  /Par..le/i 
-    return :wordle_it  if text.match?(/Par..le \d+ .\/6.*/i)
-    return :wordle_it  if text.match?(/Par🇮🇹le \d+ .\/6/i)
+    return :wordle_it  if text.match?(/Par..le \d+ [123456X]\/6.*/i)
+    return :wordle_it  if text.match?(/Par🇮🇹le \d+ [123456X]\/6/i)
 
       # ParFlag of Italyle 369 3/6
       # PAR🇮🇹LE
-      return :wordle_it1_ciofeco  if text.match?(/Par.+le \d+ .\/6/i)
+      return :wordle_it1_ciofeco  if text.match?(/Par.+le \d+ [123456X]\/6/i)
       # Pietro version Par🇮🇹le 370 1/6 🟩🟩🟩🟩🟩
       # testiamo per poco il 1/2
       return :wordle_it2_ciofeco  if text.match?(/Par🇮🇹le \d+ .\/6/i)
@@ -99,7 +100,7 @@ class WordleTweet < ApplicationRecord
     # I cant remember wha website was this.
     return :wordle_de2  if text.match?(/I guessed this German 5-letter word in .\/6 tries/)
     # This is better
-    return :wordle_de  if text.match?(/http:\/\/wordle-spielen.de.*WORDLE.*\d+ .\/6/)
+    return :wordle_de  if text.match?(/http:\/\/wordle-spielen.de.*\d+ .\/6/i)
     return :lewdle     if text.match?(/Lewdle \d+ .\/6/) 
     
     return :nerdlegame if text.match?(/nerdlegame \d+ .\/6/i)
@@ -118,7 +119,7 @@ class WordleTweet < ApplicationRecord
   # This should be the only necessary thingy to CREATE a tweet. Them if the WT fails, i can do with next iterations
   def self.quick_match(txt)
     # ITA EN
-    txt.match?(/(ordle|par..le) \d+ [123456X]\/6/i ) or 
+    txt.match?(/(ordle|par..le) (#)?\d+ [123456X]\/6/i ) or 
       # FR: https://twitter.com/search?q=wordlefr&src=typed_query
       txt.match?(/WordleFR.*#\d+ [123456X]\/6/i) or 
       # BR OT: joguei https://t.co/TVFNN8ARo6 #36 2/6 *
