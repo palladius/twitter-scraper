@@ -101,7 +101,7 @@ $search_terms = [
               json_stuff: "{}",
           )
           saved_tweet = rails_tweet.save 
-          puts "2. Tweet saved: #{rails_tweet.id} from #{rails_tweet.twitter_user}" if saved_tweet
+          puts "2. Tweet saved: #{rails_tweet.id} from #{rails_tweet.to_s}" if saved_tweet
         end 
         #p tweet.metadata.to_s
         #client.update("@#{tweet.user} Hey I love Ruby too, what are your favorite blogs? :)")

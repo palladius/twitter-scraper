@@ -14,13 +14,17 @@ class Tweet < ApplicationRecord
     (created_at - twitter_created_at) rescue nil
   end
 
-  def excerpt
+  def excerpt(n_chars = 15)
     # copied from https://apidock.com/rails/v5.2.3/ActionView/Helpers/TextHelper/excerpt
-    (self.full_text[0, 10] rescue "ERR_no_fuLltext") + ".."
+    (self.full_text[0, n_chars].gsub("\n"," ") rescue "ERR_no_fuLltext") + ".."
   end
 
   def length
     full_text.length
+  end
+
+  def wordle_type
+    wordle_tweet.wordle_type rescue :boh
   end
 
   def url
@@ -35,7 +39,7 @@ class Tweet < ApplicationRecord
   end
   
   def to_s
-    "[#{self.twitter_user}] #{full_text}"
+    "[#{wordle_type} #{self.twitter_user}] #{excerpt}"
   end
 
 end

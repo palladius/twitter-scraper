@@ -27,7 +27,10 @@ class WordleTweet < ApplicationRecord
   # this parses and SAVES it/. So if you had a mistake you're writing it WRONG :/
   def parse_incrementalday_from_text
     #tweet_text = "Wordle 231 3/6"
-    m = tweet_text.match(/ (\d+) .\/6/)
+    # possible ones:
+    # blah blah 234 6/6
+    # blah blah #234 6/6
+    m = tweet_text.match(/ (#)?(\d+) .\/6/)
     puts "[parse_incrementalday_from_text] Issues matching day in '#{tweet_text}'" unless m
     #puts "[parse_incrementalday_from_text] Wordle integer is #{m[1] rescue $!}"
     m[1] rescue nil
@@ -50,10 +53,11 @@ class WordleTweet < ApplicationRecord
     # wordle_date: date
     wt.wordle_incremental_day =  wt.parse_incrementalday_from_text() 
     # import_version: integer
-    wt.import_version = 2 # First version
+    wt.import_version = 3 # First version
     # CHANGELOG
     # v1 - Uswed to be the normal one
     # v2 2022-02-06 I've added created_at to Tweet based on ORIGINAL tweet.
+    # v3 2022-02-08 Now worldle_en also parses X as trial. Before it gave OTHER.
     # import_notes: text
     save = wt.save
     puts "DEB save issues: #{save}" unless save
@@ -88,8 +92,6 @@ class WordleTweet < ApplicationRecord
     ## ITALIAN END
     return nil if include_only_italian_for_debug 
 
-
-
     # returns TWO things: matches and id of
     return :wordle_fr  if text.match?(/Le Mot \(@WordleFR\) \#\d+ .\/6/i)
     # "joguei http://term.ooo #34 X/6 *"
@@ -104,7 +106,7 @@ class WordleTweet < ApplicationRecord
     
     return :wordle_ko  if text.match?(/#Korean #Wordle .* \d+ .\/6/)
 
-    return :wordle_en  if text.match?(/Wordle \d+ \d\/6/i) unless exclude_wordle_english_for_debug
+    return :wordle_en  if text.match?(/Wordle \d+ [123456X]\/6/i) unless exclude_wordle_english_for_debug
 
     # Generic wordle - might want to remove in the future
     if include_very_generic
