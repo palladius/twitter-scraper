@@ -28,6 +28,10 @@ class Tweet < ApplicationRecord
   end
   alias :type :wordle_type
 
+  def stats 
+    wordle_tweet.stats
+  end 
+
   def url
     # as per https://stackoverflow.com/questions/23008129/how-to-construct-a-url-from-a-twitter-direct-message-id
     # eg https://twitter.com/palladius/status/1490373849841557509

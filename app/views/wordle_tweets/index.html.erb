@@ -1,15 +1,24 @@
 <p style="color: green"><%= notice %></p>
 
-Mini table:
 
-<%= WordleTweet.all.group(:wordle_type).count %>
+<!-- 
+Mini table: {nil=>91, "lewdle"=>2, "nerdlegame"=>8, "other"=>173, "wordle_de2"=>1, "wordle_en"=>10781, "wordle_fr"=>49, "wordle_it"=>38, "wordle_it1_ciofeco"=>4, "wordle_ko"=>170}
 
-<h1>Wordle tweets</h1>
+-->
+<h3>sub links</h3>
+[
+<% WordleTweet.all.group(:wordle_type).count.each do |type,count|
+    type_or_nil = type.to_sym rescue :nil
+    link = "/wordle_tweets?wordle_type=#{type_or_nil}" 
+%>
+  <%= link_to "#{count} #{type_or_nil} WTs", link %> |
+ <% end %>
+]
+<h1>Wordle tweets (<%= @wordle_tweets.count %>)</h1>
 
 <div id="wordle_tweets">
   <table border="1" >
    <tr>
-    <th>Actions 
     <th>VER 
     <th>Type
     <th>Score/Moves 

@@ -30,15 +30,15 @@ class WordleTweet < ApplicationRecord
     # possible ones:
     # blah blah 234 6/6
     # blah blah #234 6/6
-    m = tweet_text.match(/ (#)?(\d+) .\/6/)
+    #m = tweet_text.match(/ (#)?(\d+) .\/6/i)
+    m = tweet_text.match(/ (#)?(\d+) .\/6/i)
     puts "[parse_incrementalday_from_text] Issues matching day in '#{tweet_text}'" unless m
     #puts "[parse_incrementalday_from_text] Wordle integer is #{m[1] rescue $!}"
-    m[1] rescue nil
+    m[2] rescue nil
   end
 
   def self.find_italian_orphans()
     # All by NIL :)
-
   end
   # I believe this shoiuld jhust be a bloody Class function :)
   #define_singleton_method :create_from_tweet do |tweet|
@@ -130,6 +130,15 @@ class WordleTweet < ApplicationRecord
   # Yellow square⬜⬜Green squareYellow square
   # ⬜⬜Green squareGreen squareGreen square
 
+  def stats 
+    ret = {}
+    ret[:type] = wordle_type
+    ret[:score] = score
+    ret[:day] = parse_incrementalday_from_text
+    ret[:length] = length
+
+    return ret
+  end
 
   def self.flag_by_type(wordle_match_type)
     case wordle_match_type.to_sym
