@@ -23,7 +23,7 @@ TWITTER_OPTIONS = {
   
 # Options
 
-$n_tweets = 10
+$n_tweets = 100
 $rake_seed_import_version = "2"
 $check_already_exists = true 
 $search_terms = [

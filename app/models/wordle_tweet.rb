@@ -19,9 +19,12 @@ class WordleTweet < ApplicationRecord
   end 
     
   def parse_score_from_text
-    m = tweet_text.match(/.\/6/)
+    # m[1] = "5/6"
+    m = tweet_text.match(/ ([0123456X]\/6)/i)
     # first char of first match,  m[0] => "5/6"
-    m[0][0] rescue nil
+    initial_digit_or_char = m[1][0] rescue nil
+    return 42 if initial_digit_or_char == "X"
+    initial_digit_or_char
   end
 
   # this parses and SAVES it/. So if you had a mistake you're writing it WRONG :/
@@ -31,8 +34,8 @@ class WordleTweet < ApplicationRecord
     # blah blah 234 6/6
     # blah blah #234 6/6
     #m = tweet_text.match(/ (#)?(\d+) .\/6/i)
-    #                       1   2   => m[2] is what you need
-    m = tweet_text.match(/ (#)?(\d+) .\/6/i)
+    #                       1   2      => m[2] is what you need
+    m = tweet_text.match(/ (#)?(\d+) [0123456X]\/6/i)
     puts "[parse_incrementalday_from_text] Issues matching day in '#{tweet_text}'" unless m
     #puts "[parse_incrementalday_from_text] Wordle integer is #{m[1] rescue $!}"
     m[2] rescue nil
@@ -54,11 +57,12 @@ class WordleTweet < ApplicationRecord
     # wordle_date: date
     wt.wordle_incremental_day =  wt.parse_incrementalday_from_text() 
     # import_version: integer
-    wt.import_version = 3 # First version
+    wt.import_version = 4 # First version
     # CHANGELOG
     # v1 - Uswed to be the normal one
     # v2 2022-02-06 I've added created_at to Tweet based on ORIGINAL tweet.
     # v3 2022-02-08 Now worldle_en also parses X as trial. Before it gave OTHER.
+    # v4 2022-02-09 import is the same but SCORE is computed better now it supports X (score = 42).
     # import_notes: text
     save = wt.save
     puts "DEB save issues: #{save}" unless save
