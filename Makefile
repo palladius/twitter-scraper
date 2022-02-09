@@ -11,9 +11,9 @@ docker-build:
 	docker build -t twitter-scraper-local .
 	echo OK.
 docker-run: 
-	docker run -it -e .env -p 8080:8080 twitter-scraper-local ./entrypoint-8080.sh 
+	docker run -it --env-file .env -p 8080:8080 twitter-scraper-local ./entrypoint-8080.sh 
 docker-run-bash: 
-	docker run -it -p 8080:8080 twitter-scraper-local bash
+	docker run -it --env-file .env -p 8080:8080 twitter-scraper-local bash
 docker-push: docker-build
 	docker tag  twitter-scraper-local gcr.io/ric-cccwiki/twitter-scraper:v$(VERSION)
 	docker push gcr.io/ric-cccwiki/twitter-scraper:v$(VERSION)
@@ -21,11 +21,9 @@ docker-push: docker-build
 #--image gcr.io/PROJECT_ID/twitter-scraper \
      
 deploy-to-cloud-run: docker-push
-	gcloud run deploy twitter-scraper \
-     --platform managed \
-     --region europe-west1 \
-     --image gcr.io/ric-cccwiki/twitter-scraper:v$(VERSION) \
-     --allow-unauthenticated
+	touch ./deploy-to-cloud-run.sh
+	dfksdhf kajs
+
 
 test-build-push-deploy:
 	bin/rails db:migrate RAILS_ENV=test

@@ -7,4 +7,4 @@ skaffold.yaml
 deploy/
 log/
 # Contains private stuff! Dont want to bake the image WITH pcvt stuff init - need instead to call externally `docker run -e .env virgin-image`
-.env
+.envdeploy-to-cloud-run.sh
