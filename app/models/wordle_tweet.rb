@@ -176,5 +176,16 @@ class WordleTweet < ApplicationRecord
       "⁉️"
     end
   end
+
+
+
+  def self.global_average_score
+    # => {1=>676, 5=>12107, 2=>3232, 4=>16528, 6=>5506, 0=>917, 3=>12016}
+    distribution_hash = WordleTweet.group(:score).count.select{|x| x>=1 && x<=6}
+    distribution_arr = distribution_hash.to_a
+    numerator = distribution_arr.map{|score,card| score*card}.sum
+    denominator = distribution_arr.map{|score,card| card}.sum
+    numerator * 1.0 / denominator 
+  end
 end 
 # (Irina, Wurundjeri Land ☀️🌧❄️🍂🚃

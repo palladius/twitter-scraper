@@ -1,33 +1,53 @@
-<h1>Articles#index</h1>
-<p>Find me in app/views/articles/index.html.erb</p>
+<h1>🐦 Twitter ⛏️ Scraper</h1>
 
-<%#= line_chart WordleTweet.group_by_day(:created_at).count  %>
-<%#= line_chart Tweet.group_by_day(:twitter_created_at).count  %>
+<div>
+<p>
+Graphs generated with chartkick..
+</p>
+
+<%#= column_chart WordleTweet.group(:wordle_type).group_by_hour(:created_at).count,  stacked: true %>
+<%= column_chart WordleTweet.group(:score).group_by_hour(:created_at).count,  stacked: true  %>
+
+
+WTweets per hour - volume
+<%= column_chart WordleTweet.group_by_hour(:created_at).count ,  label: "Tweets per hour"  %>
+
+Tweets per day
+<%= line_chart Tweet.group_by_day(:twitter_created_at).count  %>
 <%#= line_chart TwitterUser.group_by_day(:created_at).count  %>
 
 <table border="1" style="width:80%;background-color:#EFF;" >
 <tr>
   <td style="width:50%">
+  WordleTweet by Type
     <%= pie_chart WordleTweet.group(:wordle_type).count %>
   <td style="width:50%">
-    <%= pie_chart WordleTweet.group(:wordle_incremental_day).count %>
+    WordleTweet by IncrementalDay
+    <%= pie_chart WordleTweet.group(:wordle_incremental_day).count.select{|day, cardinality| cardinality > 50} %>
 <tr>
+  <td>WordleTweet by Score
+    <%= column_chart WordleTweet.group(:score).count.select{|x| x>=1 && x<=6} %>
+    Average moves: <b><%= WordleTweet.global_average_score.round(2) %></b>
+
   <td>
-    <%= pie_chart WordleTweet.group(:score).count %>
-  <td>
-    <%= pie_chart WordleTweet.group(:wordle_incremental_day).count %>
 </table>
 
 <%#= column_chart WordleTweet.group_by_day_of_week(:created_at, format: "%a").count %>
 
 <h2>Wordle Tweet stats</h2>
 
-Average moves per type
+<div >
+1. Average moves per type: 
 <%= bar_chart WordleTweet.group(:wordle_type).average(:score) %>
-Coutn [per type]
-<%= bar_chart WordleTweet.group(:wordle_type).sum(1) %>
+</div >
 
-<%= line_chart WordleTweet.all.map { |wt|
+
+<div >
+Count [per type]
+<%= bar_chart WordleTweet.group(:wordle_type).sum(1) %>
+</div>
+
+<%#= line_chart WordleTweet.all.map { |wt|
     {
      name: wt.wordle_type, 
      data: 
@@ -35,3 +55,5 @@ Coutn [per type]
          WordleTweet.all.map{|wt| wt.score } + 42
     }
 } rescue "Error #{$!}"%>
+
+</div>
