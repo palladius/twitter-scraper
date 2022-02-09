@@ -21,9 +21,7 @@ docker-push: docker-build
 #--image gcr.io/PROJECT_ID/twitter-scraper \
      
 deploy-to-cloud-run: docker-push
-	touch ./deploy-to-cloud-run.sh
-	dfksdhf kajs
-
+	./deploy-to-cloud-run.sh
 
 test-build-push-deploy:
 	bin/rails db:migrate RAILS_ENV=test
