@@ -8,19 +8,19 @@ stats:
 	echo WordleTweet.count | rails c
 	
 docker-build:
-	docker build -t twitter-scraper-removeme .
+	docker build -t twitter-scraper-local .
 	echo OK.
 docker-run: 
-	docker run -it -p 8080:8080 twitter-scraper-removeme ./entrypoint-8080.sh 
+	docker run -it -e .env -p 8080:8080 twitter-scraper-local ./entrypoint-8080.sh 
 docker-run-bash: 
-	docker run -it -p 8080:8080 twitter-scraper-removeme bash
-docker-push:
-	docker tag  twitter-scraper-removeme gcr.io/ric-cccwiki/twitter-scraper:v$(VERSION)
+	docker run -it -p 8080:8080 twitter-scraper-local bash
+docker-push: docker-build
+	docker tag  twitter-scraper-local gcr.io/ric-cccwiki/twitter-scraper:v$(VERSION)
 	docker push gcr.io/ric-cccwiki/twitter-scraper:v$(VERSION)
 #      --add-cloudsql-instances PROJECT_ID:REGION:INSTANCE_NAME \
 #--image gcr.io/PROJECT_ID/twitter-scraper \
      
-deploy-to-cloud-run:
+deploy-to-cloud-run: docker-push
 	gcloud run deploy twitter-scraper \
      --platform managed \
      --region europe-west1 \

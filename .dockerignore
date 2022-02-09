@@ -1,0 +1,10 @@
+# this is because if I update Makefile i dont want the docker build to restart :)
+Makefile
+# These files are irrelevant inside Docker..
+rails-app-scaffolder-sample.yaml
+skaffold.yaml
+# DIRS
+deploy/
+log/
+# Contains private stuff! Dont want to bake the image WITH pcvt stuff init - need instead to call externally `docker run -e .env virgin-image`
+.env
