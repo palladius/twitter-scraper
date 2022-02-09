@@ -36,3 +36,4 @@
 .env
 a.out.sh
 .vscode/
+00-init.sh

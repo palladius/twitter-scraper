@@ -9,7 +9,12 @@ ruby "2.7.2"
 gem 'twitter'
 gem "chartkick"
 gem "groupdate"
-
+# postgres, requires installing stuff on Mac/Linux
+# Mac:   `brew install libpq`, gem install pg -- --with-pg-config=/usr/local/opt/libpq/bin/pg_config`` # https://gist.github.com/tomholford/f38b85e2f06b3ddb9b4593e841c77c9e
+# Linux: See `Dockerfile``
+gem "pg"
+gem "dotenv"
+gem 'dotenv-rails', :groups => [:development, :test, :production]
 ########################
 
 

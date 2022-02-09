@@ -36,3 +36,6 @@ test-build-push-deploy:
 
 ingest-batch-from-twitter:
 	watch rake db:seed
+
+run-prod:
+	RAILS_ENV=production rails s
