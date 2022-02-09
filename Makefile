@@ -10,7 +10,7 @@ stats:
 docker-build:
 	docker build -t twitter-scraper-local .
 	echo OK.
-docker-run: 
+docker-run: docker-build
 	docker run -it --env-file .env -p 8080:8080 twitter-scraper-local ./entrypoint-8080.sh 
 docker-run-bash: 
 	docker run -it --env-file .env -p 8080:8080 twitter-scraper-local bash
