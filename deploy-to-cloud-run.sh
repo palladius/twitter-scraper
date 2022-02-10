@@ -9,6 +9,7 @@ source .env
 
 DEPLOY_VERSION="1.2_20220209"
 VERSION=`cat VERSION`
+PROJECT_ID=$(gcloud config get-value project)
 
 # See why of MESSAGGIO_OCCASIONALE weirdness here: https://ahmet.im/blog/mastering-cloud-run-environment-variables/
 echodo gcloud run deploy twitter-scraper \
@@ -17,6 +18,7 @@ echodo gcloud run deploy twitter-scraper \
      --set-env-vars="^###^MESSAGGIO_OCCASIONALE=$MESSAGGIO_OCCASIONALE,DEPLOY_VERSION=$DEPLOY_VERSION" \
      --set-env-vars="DATABASE_URL=$DATABASE_URL" \
      --set-env-vars="APP_VERSION=$VERSION" \
+     --set-env-vars="APP_LOCATION=GCP CloudRun on $PROJECT_ID" \
      --platform managed \
      --region europe-west1 \
      --image "gcr.io/ric-cccwiki/twitter-scraper:v$VERSION" \

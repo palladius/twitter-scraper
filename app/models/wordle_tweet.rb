@@ -164,15 +164,20 @@ class WordleTweet < ApplicationRecord
       "🇬🇧"
     when :wordle_it
       "🇮🇹"
+    when :wordle_it1_ciofeco
+      "🇮🇹"
     when :wordle_fr
-      "It's 🇫🇷 foo or bar"
+      "🇫🇷"
     when :nerdlegame
-      "You 🧮 a string"
+      "🔢" # — Countin 🔢
     when :wordle_ko
       "🇰🇷"
     when :lewdle
       "🛏️"
+    when :other
+      "❓"
     else # question mark, also try: 🤔 or 👽 Alien
+      puts "WARN: Unknown Type: #{wordle_match_type}"
       "⁉️"
     end
   end

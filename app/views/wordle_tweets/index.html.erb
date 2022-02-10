@@ -5,7 +5,10 @@
 Mini table: {nil=>91, "lewdle"=>2, "nerdlegame"=>8, "other"=>173, "wordle_de2"=>1, "wordle_en"=>10781, "wordle_fr"=>49, "wordle_it"=>38, "wordle_it1_ciofeco"=>4, "wordle_ko"=>170}
 
 -->
-<h3>sub links</h3>
+<h3>WT Sub links</h3>
+
+<p>
+Click here to get the subset of Wordle Tweets for a particular type/technology/language:
 [
 <% WordleTweet.all.group(:wordle_type).count.each do |type,count|
     type_or_nil = type.to_sym rescue :nil
@@ -14,6 +17,8 @@ Mini table: {nil=>91, "lewdle"=>2, "nerdlegame"=>8, "other"=>173, "wordle_de2"=>
   <%= link_to "#{count} #{type_or_nil} WTs", link %> |
  <% end %>
 ]
+</p>
+
 <h1>Wordle tweets (<%= @wordle_tweets.count %>)</h1>
 
 <div id="wordle_tweets">
@@ -40,6 +45,8 @@ Mini table: {nil=>91, "lewdle"=>2, "nerdlegame"=>8, "other"=>173, "wordle_de2"=>
     <td> <%= wt.import_version %> </td>
     <td> <%= wt.tweet.to_s.size %> </td>
     <td> <%= wt.wordle_date %> </td>
+    <td> <%= wt.max_tries %> </td>
+    
     <td> <%= time_ago_in_words(wt.created_at) %> </td>
     <td> 
       <%#= link_to "Tweet # #{wt.tweet_id}", Tweet.find(wt.tweet_id) %> 
@@ -50,11 +57,6 @@ Mini table: {nil=>91, "lewdle"=>2, "nerdlegame"=>8, "other"=>173, "wordle_de2"=>
   <% end %>
   </table>
 </div>
-
-
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.integer "max_tries"
 
 
 <%= link_to "New wordle tweet", new_wordle_tweet_path %>

@@ -2,15 +2,15 @@
 
 <div>
 <p>
-Graphs generated with chartkick..
+Graphs generated with <a href="https://chartkick.com/">chartkick ruby library</a>.. love it!
 </p>
 
 <%#= column_chart WordleTweet.group(:wordle_type).group_by_hour(:created_at).count,  stacked: true %>
-<%= column_chart WordleTweet.group(:score).group_by_hour(:created_at).count,  stacked: true ,  download: true %>
+<%= column_chart WordleTweet.group(:score).group_by_hour(:created_at).count,  stacked: true ,  download: true, xtitle: "Hour", ytitle: "Tweets by score" %>
 
 
 WTweets per hour - volume
-<%= column_chart WordleTweet.group_by_hour(:created_at).count ,  label: "Tweets per hour"  %>
+<%= column_chart WordleTweet.group_by_hour(:created_at).count,  label: "Tweets per hour" , download: true, xtitle: "Hour", ytitle: "Total Tweets" %>
 
 Tweets per day
 <%= line_chart Tweet.group_by_day(:twitter_created_at).count  %>
@@ -29,7 +29,14 @@ Tweets per day
     <%= column_chart WordleTweet.group(:score).count.select{|x| x>=1 && x<=6},  download: true %>
     Average moves: <b><%= WordleTweet.global_average_score.round(2) %></b>
 
-  <td>
+  <td>Average score by type
+  <%#= column_chart WordleTweet.group(:wordle_type).average(:score) %>
+  <%= column_chart WordleTweet.group(:wordle_type).average(:score).map{|k,v| [WordleTweet.flag_by_type(k),v] } %>
+
+
+
+  
+
 </table>
 
 <%#= column_chart WordleTweet.group_by_day_of_week(:created_at, format: "%a").count %>
@@ -37,15 +44,37 @@ Tweets per day
 <h2>Wordle Tweet stats</h2>
 
 <div >
-1. Average moves per type: 
-<%= bar_chart WordleTweet.group(:wordle_type).average(:score) %>
-</div >
-
-
-<div >
 Count [per type]
-<%= bar_chart WordleTweet.group(:wordle_type).sum(1) %>
+<%= column_chart WordleTweet.group(:wordle_type).sum(1) %>
 </div>
+<div >
+Count [per type] excluding English Wordle (most popular)
+<%= column_chart WordleTweet.group(:wordle_type).where.not(wordle_type: "wordle_en").count%>
+</div>
+
+<!-- non va 
+<div >
+https://stackoverflow.com/questions/55012763/how-to-setup-logarithmic-axis-for-line-chart-in-rails-chartkick
+Count [per type] logarithmic
+<%= line_chart(
+  WordleTweet.group(:wordle_type).sum(1) ,
+  library: {
+          legend: {
+              position: 'bottom',
+          },
+          scales: {
+              yAxes: [
+                  {
+                      id: 'y-axis',
+                        type: 'logarithmic'
+                  },]
+          }
+      }
+)
+%>
+</div>
+-->
+
 
 <%#= line_chart WordleTweet.all.map { |wt|
     {

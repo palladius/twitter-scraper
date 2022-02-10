@@ -2,12 +2,14 @@
     <hr/>
     <center>
         <a href="/">🏠 Home</a>
-        Twitter Parser v.<b><%= ENV["APP_VERSION"] rescue :nover %><b>
-        - <b><%= Rails.env %></b> <br/>
+        Twitter Parser v.<b><%= APP_VERSION rescue :AppVersionMissing%></b> 
+        - <b><%= Rails.env %></b> 
+        - <a href="https://github.com/palladius/twitter-scraper">Code on GitHub</a> <br/>
+        @ <tt><%= LOCATION rescue HOSTNAME %></tt>
+        <br/>
         <p style="color: orange;font-size: small;">
             MESSAGGIO_OCCASIONALE: <tt><%= ENV["MESSAGGIO_OCCASIONALE"] %></tt>
         </p>
-
         
     </center>
 </div>
