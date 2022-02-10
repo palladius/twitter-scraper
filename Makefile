@@ -32,6 +32,8 @@ test-build-push-deploy:
 
 ingest-batch-from-twitter:
 	watch rake db:seed
+ingest-to-prod-from-twitter:
+	TWITTER_INGEST_SIZE=51 RAILS_ENV=production rake db:seed
 
 run-prod:
 	RAILS_ENV=production rails s
