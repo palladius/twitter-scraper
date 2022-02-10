@@ -30,10 +30,11 @@ Make sure you have Twitter APIs enabled. Instructions: TODO.
     cp .env.dist .env
     vim .env # edit away with your 3 vars.
 
-## TODO treno
+## TODO
 
-* Scaffold / Cloud Deploy
-* Metti a posto l'indice in cima.
+* Skaffold / Cloud Deploy / Tekton
+* make `rake db:seed` be able to run in PROD on cloud run (probably via a HTTP GCF trigger and an endpoint I can call via Rails API.. like /actions/blah)
+  so i dont need to leave my ocmputer run in background :) 
 
 ## Notes
 
