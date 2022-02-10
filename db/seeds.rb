@@ -9,11 +9,11 @@
 #require 'ric'
 require 'twitter'
 
-#pred "remove Ricc Twitter API keys... use ENV instead maybe with dotenv"
+def yellow(s)
+  "\e[1;33m#{s}\e[0m"
+end
 
-puts "TWITTER_CONSUMER_KEY: #{ENV['TWITTER_CONSUMER_KEY']}. If this was empty, good luck using APIs!"
-raise "Missing Twitter key (or exists but is smaller than XX chars: #{ENV['TWITTER_CONSUMER_KEY'].to_s.length}" if ENV['TWITTER_CONSUMER_KEY'].to_s.length < 5
-#puts "TEST REMOVEME quando va: ", WordleTweet.extended_wordle_match_type("ciao da Riccardo")
+#pred "remove Ricc Twitter API keys... use ENV instead maybe with dotenv"
 
 TWITTER_OPTIONS = {
     :api_key =>        ENV['TWITTER_CONSUMER_KEY'],
@@ -34,6 +34,14 @@ $search_terms = [
   'term.ooo',
   '🟩🟩🟩🟩🟩', # success
 ]
+
+# main
+
+puts "TWITTER_CONSUMER_KEY: #{ENV['TWITTER_CONSUMER_KEY']}. If this was empty, good luck using APIs!"
+raise "Missing Twitter key (or exists but is smaller than XX chars: #{ENV['TWITTER_CONSUMER_KEY'].to_s.length}" if ENV['TWITTER_CONSUMER_KEY'].to_s.length < 5
+#puts "TEST REMOVEME quando va: ", WordleTweet.extended_wordle_match_type("ciao da Riccardo")
+puts "N_ITERATIONS from ENV: #{yellow $n_tweets}"
+
 
 # def nice_twitter_username(twitter_user)
 #     u = twitter_user
@@ -57,7 +65,7 @@ $search_terms = [
 
 
     $search_terms.each do |search_term|
-      puts "+ [API_CALL] Searchin #{$n_tweets} for term '#{search_term}'.."
+      puts "+ [API_CALL] Searchin #{$n_tweets} for term '#{yellow search_term}'.."
       n_saved_tweets = 0
       n_saved_users = 0
       client.search(search_term).take($n_tweets).each do |tweet|

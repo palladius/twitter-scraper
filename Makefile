@@ -37,3 +37,6 @@ ingest-to-prod-from-twitter:
 
 run-prod:
 	RAILS_ENV=production rails s
+
+search-for-pizzorni-in-prod:
+	echo 'TwitterUser.all.map{|u| [u.id, u.name] }.first(1000000).select{|id,name| name.match /pizzor/i}' | RAILS_ENV=production rails console
