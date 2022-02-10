@@ -16,23 +16,24 @@ raise "Missing Twitter key (or exists but is smaller than XX chars: #{ENV['TWITT
 #puts "TEST REMOVEME quando va: ", WordleTweet.extended_wordle_match_type("ciao da Riccardo")
 
 TWITTER_OPTIONS = {
-    :api_key =>        ENV['TWITTER_CONSUMER_KEY'], 
+    :api_key =>        ENV['TWITTER_CONSUMER_KEY'],
     :api_key_secret => ENV['TWITTER_CONSUMER_SECRET'],
     :bearer_token => ENV["TWITTER_BEARER_TOKEN"],
   }
-  
+
 # Options
 
 $n_tweets = ENV["TWITTER_INGEST_SIZE"].to_i { 42 }
 $rake_seed_import_version = "2"
-$check_already_exists = true 
+$check_already_exists = true
 $search_terms = [
   '#TwitterParser',
   '#Wordle',
   'Wordle',
   '#Parole',
   'term.ooo',
-] 
+  '🟩🟩🟩🟩🟩', # success
+]
 
 # def nice_twitter_username(twitter_user)
 #     u = twitter_user
@@ -45,7 +46,7 @@ $search_terms = [
 
 
   def rake_seed_parse_keys
-    
+
     client = Twitter::REST::Client.new do |config|
       config.consumer_key        = TWITTER_OPTIONS[:api_key]
       config.consumer_secret     = TWITTER_OPTIONS[:api_key_secret]
@@ -55,8 +56,8 @@ $search_terms = [
     #client.search('#Wordle OR #TwitterParser').take($n_tweets).each do |tweet|
 
 
-    $search_terms.each do |search_term| 
-      puts "Searchin #{$n_tweets} for term '#{search_term}'.."
+    $search_terms.each do |search_term|
+      puts "+ [API_CALL] Searchin #{$n_tweets} for term '#{search_term}'.."
       n_saved_tweets = 0
       n_saved_users = 0
       client.search(search_term).take($n_tweets).each do |tweet|
@@ -69,10 +70,10 @@ $search_terms = [
           u = tweet.user
           #print "[deb] 1. Creating Twitter user: #{ u.screen_name} (#{u.name}, #{u.location}).."
           tu = TwitterUser.create(
-              twitter_id: u.screen_name, 
-              location:   u.location, 
+              twitter_id: u.screen_name,
+              location:   u.location,
               name:       u.name,
-              # added after 1500 were already added :) 
+              # added after 1500 were already added :)
               description: u.description,
               id_str:      u.id.to_s, #id_str doesnt work
               # eg @palladius => 17310864
@@ -87,7 +88,7 @@ $search_terms = [
             puts "- [CACHE] Already exists TODO update if needed: [#{tu}] '#{already_exists.excerpt}' (import v#{already_exists.import_version})" if (
               already_exists && $rake_seed_import_version != already_exists.import_version
             )
-          end 
+          end
           #print "2. [#{tweet.created_at}] Creating Tweet info based on existence of twitter_id :)"
           rails_tweet = Tweet.create(
               twitter_user: TwitterUser.find_by_twitter_id(tweet.user.screen_name) ,
@@ -103,17 +104,17 @@ $search_terms = [
               # polymoprhic stuff in case new stuff comes to my mind..
               json_stuff: "{}",
           )
-          saved_tweet = rails_tweet.save 
+          saved_tweet = rails_tweet.save
           if saved_tweet
-            puts "Non-Trivial Tweet saved: #{rails_tweet.id} from #{rails_tweet.to_s}"  if rails_tweet.wordle_type != "wordle_en"
+            puts "- Non-Trivial Tweet saved: #{rails_tweet.id} from #{rails_tweet.to_s}"  if rails_tweet.wordle_type != "wordle_en"
             n_saved_tweets += 1
           end
-        end 
+        end
         #client.update("@#{tweet.user} Hey I love Ruby too, what are your favorite blogs? :)")
       end
-      puts "+ #{n_saved_tweets} saved tweets; #{n_saved_users} new users."
+      puts "  - #{n_saved_tweets} saved tweets; #{n_saved_users} new users."
     end
-  
+
     # tweets = client.user_timeline('rubyinside', count: 20)
     # tweets.each { |tweet| puts tweet.full_text }
   end

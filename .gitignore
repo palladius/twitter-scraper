@@ -38,3 +38,4 @@ a.out.sh
 .vscode/
 00-init.sh
 .env.sh
+config/credentials.yml.enc
