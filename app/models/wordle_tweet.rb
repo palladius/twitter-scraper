@@ -27,6 +27,14 @@ class WordleTweet < ApplicationRecord
     initial_digit_or_char
   end
 
+  def flag 
+    WordleTweet.flag_by_type(wordle_type)
+  end
+
+  def nice_wordle_type
+    "#{flag} #{wordle_type}"
+  end
+
   # this parses and SAVES it/. So if you had a mistake you're writing it WRONG :/
   def parse_incrementalday_from_text
     #tweet_text = "Wordle 231 3/6"
@@ -57,12 +65,13 @@ class WordleTweet < ApplicationRecord
     # wordle_date: date
     wt.wordle_incremental_day =  wt.parse_incrementalday_from_text() 
     # import_version: integer
-    wt.import_version = 4 # First version
+    wt.import_version = 5 # First version
     # CHANGELOG
     # v1 - Uswed to be the normal one
     # v2 2022-02-06 I've added created_at to Tweet based on ORIGINAL tweet.
     # v3 2022-02-08 Now worldle_en also parses X as trial. Before it gave OTHER.
     # v4 2022-02-09 import is the same but SCORE is computed better now it supports X (score = 42).
+    # v5 2022-02-10 italian version is now better.. aggregated ciofeco into normal italian as it greps many. Also introduced a new ciofeco 4 for 3 letters between PAR and LE just to test how big is the icon.
     # import_notes: text
     save = wt.save
     puts "DEB save issues: #{save}" unless save
@@ -84,14 +93,15 @@ class WordleTweet < ApplicationRecord
 
     # ParFlag of Italyle 369 3/6
     # Par🇮🇹l matches  /Par..le/i 
-    return :wordle_it  if text.match?(/Par..le \d+ [123456X]\/6.*/i)
+    return :wordle_it  if text.match?(/Par..le \d+ [123456X]\/6/i)
     return :wordle_it  if text.match?(/Par🇮🇹le \d+ [123456X]\/6/i)
 
       # ParFlag of Italyle 369 3/6
-      # PAR🇮🇹LE
-      return :wordle_it1_ciofeco  if text.match?(/Par.+le \d+ [123456X]\/6/i)
+      # PAR🇮🇹LE - perche diamine QUESTO greppa? Forse l'icona e piuin di due caratteri...
+      return :wordle_it  if text.match?(/Par.+le \d+ [123456X]\/6/i)
       # Pietro version Par🇮🇹le 370 1/6 🟩🟩🟩🟩🟩
       # testiamo per poco il 1/2
+      return :wordle_it4_3chars  if text.match?(/Par...le \d+ [123456X]\/6/i)
       return :wordle_it2_ciofeco  if text.match?(/Par🇮🇹le \d+ .\/6/i)
       return :wordle_it3_removeme  if text.match?(/par.+le \d+ .\/6/i)
 

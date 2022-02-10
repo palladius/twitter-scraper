@@ -16,6 +16,7 @@ class TwitterUser < ApplicationRecord
     end
     def to_s(verbose=false)
         return "TwitterUser @#{self.twitter_id} #{url_by_id}" if verbose
+        
         "@#{self.twitter_id} [#{tweets.count} tweets]"
     end
 end

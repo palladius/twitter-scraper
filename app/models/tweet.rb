@@ -46,7 +46,8 @@ class Tweet < ApplicationRecord
   end
   
   def to_s
-    "[#{wordle_type} #{self.twitter_user}] 🏆#{wordle_tweet.score} #{excerpt}"
+  #  "[#{wordle_type} #{self.twitter_user}] 🏆#{wordle_tweet.score} #{excerpt}"
+    "[#{wordle_type} #{self.twitter_user}] 🏆 #{excerpt}"
   end
 
 end

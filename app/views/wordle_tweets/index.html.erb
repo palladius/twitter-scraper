@@ -7,6 +7,9 @@ Mini table: {nil=>91, "lewdle"=>2, "nerdlegame"=>8, "other"=>173, "wordle_de2"=>
 -->
 <h3>WT Sub links</h3>
 
+<p style="color:orange" >
+You chose: '<b><%= @wordle_type %></b>'
+</p>
 <p>
 Click here to get the subset of Wordle Tweets for a particular type/technology/language:
 [
@@ -24,35 +27,44 @@ Click here to get the subset of Wordle Tweets for a particular type/technology/l
 <div id="wordle_tweets">
   <table border="1" >
    <tr>
+    <th>Show
     <th>VER 
     <th>Type
-    <th>Score/Moves 
+    <th>Moves 
     <th>Inc Day 
+    <th>When
+    <!--
     <th>Version 
     <th>Length 
+    -->
+    <th>Excerpt 
    </tr>
   <% @wordle_tweets.each do |wt| %>
     <%#= render wordle_tweet %>
     <tr>
-    <td> 
-      <%= link_to "Show WT", wt %> 
+    <td><small> 
+      <%= link_to "WT # #{wt.id}", wt %> <br/>
+      <%= link_to "T # #{wt.tweet_id}", wt.tweet %> 
+    </small>
       <%#= link_to "Show Tweet #{tweet_id}", wt %> 
     </td>
     <td> <%= wt.import_version %> </td>
-    <td> <%= wt.wordle_type %> </td>
+    <td> <%= wt.nice_wordle_type %> </td>
     <td> <%= wt.score %> </td>
     <td> <%= wt.wordle_incremental_day %> </td>
-    <td> <%= wt.import_version %> </td>
-    <td> <%= wt.tweet.to_s.size %> </td>
-    <td> <%= wt.wordle_date %> </td>
-    <td> <%= wt.max_tries %> </td>
-    
     <td> <%= time_ago_in_words(wt.created_at) %> </td>
+    <td><%= wt.tweet %>  </td>    
     <td> 
       <%#= link_to "Tweet # #{wt.tweet_id}", Tweet.find(wt.tweet_id) %> 
-      <%= link_to "Tweet # #{wt.tweet_id}", wt.tweet %> 
     </td>
-    
+
+        <!--
+    <td> <%= wt.wordle_date %> </td>
+    <td> <%= wt.import_version %> </td>
+    <td> <%= wt.tweet.to_s.size %> </td>
+    <td> <%= wt.max_tries %> </td>
+        -->
+
    </tr>
   <% end %>
   </table>
