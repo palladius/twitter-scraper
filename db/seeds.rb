@@ -30,10 +30,11 @@ $rake_seed_import_version = "2"
 $check_already_exists = true
 $search_terms = [
   '#TwitterParser',
-  '#Wordle',
-  'Wordle',
+  #'#Wordle',
+  #'Wordle',
   '#Parole',
   'term.ooo',
+  'wordlefr',
   # this works but produces TOO much and i dont know what it i
   '🟩🟩🟩🟩🟩', # success
 ]
