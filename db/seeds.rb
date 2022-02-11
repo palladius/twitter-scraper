@@ -31,12 +31,15 @@ $check_already_exists = true
 $search_terms = [
   '#TwitterParser',
   #'#Wordle',
-  #'Wordle',
   '#Parole',
   'term.ooo',
   'wordlefr',
+  'WordleIT',
+  'Par🇮🇹le',
   # this works but produces TOO much and i dont know what it i
-  '🟩🟩🟩🟩🟩', # success
+  #'🟩🟩🟩🟩🟩', # success
+  # We keep this last
+  'Wordle',
 ]
 
 # main

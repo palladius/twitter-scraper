@@ -32,7 +32,9 @@ test-build-push-deploy:
 	make deploy-to-cloud-run
 
 ingest-batch-from-twitter:
-	TWITTER_INGEST_SIZE=201 watch -n 5 rake db:seed
+	echo Works for both DEV and PROD. try:
+	echo RAILS_ENV=CCCC make ingest-batch-from-twitter
+	TWITTER_INGEST_SIZE=201 watch -n 10 rake db:seed
 ingest-to-prod-from-twitter:
 	TWITTER_INGEST_SIZE=51 RAILS_ENV=production rake db:seed
 ingest-to-dev-from-twitter:
