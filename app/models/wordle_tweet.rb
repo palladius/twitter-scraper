@@ -65,13 +65,14 @@ class WordleTweet < ApplicationRecord
     # wordle_date: date
     wt.wordle_incremental_day =  wt.parse_incrementalday_from_text()
     # import_version: integer
-    wt.import_version = 5 # First version
+    wt.import_version = 6 # First version
     # CHANGELOG
     # v1 - Uswed to be the normal one
     # v2 2022-02-06 I've added created_at to Tweet based on ORIGINAL tweet.
     # v3 2022-02-08 Now worldle_en also parses X as trial. Before it gave OTHER.
     # v4 2022-02-09 import is the same but SCORE is computed better now it supports X (score = 42).
     # v5 2022-02-10 italian version is now better.. aggregated ciofeco into normal italian as it greps many. Also introduced a new ciofeco 4 for 3 letters between PAR and LE just to test how big is the icon.
+    # v6 2022-02-11 Added :taylordle plus a number of generic .
     # import_notes: text
     save = wt.save
     puts "DEB save issues: #{save}" unless save
@@ -129,7 +130,13 @@ class WordleTweet < ApplicationRecord
 
     return :wordle_en  if text.match?(/Wordle \d+ [123456X]\/6/i) unless exclude_wordle_english_for_debug
 
-    # multi page scenario...
+    # https://www.taylordle.com/
+    return :taylordle if text.match?(/Taylordle \d+ [123456X]\/6/i)
+
+    # multi page polymorphic scenario... 
+    # wg_italian
+    # wg_spanish
+    # wg_XXX
     m = text.match(/https:\/\/wordlegame.org\/wordle-in-([a-z]+)\?/)
     if m
       puts "[extended_wordle_match_type] Matched string: #{m[1]}"
@@ -138,6 +145,7 @@ class WordleTweet < ApplicationRecord
 
     # Generic wordle - might want to remove in the future
     if include_very_generic
+      # :other sounds like another :wordle_en :)
       return :other if text.match?(/ordle \d+ [123456X]\/6/i) unless exclude_wordle_english_for_debug
     end
     return nil

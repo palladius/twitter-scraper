@@ -37,7 +37,7 @@ $search_terms = [
   'WordleIT',
   'Par🇮🇹le',
   'wordlegame.org', # since 0.11 I support it!
-
+  '#taylordle',
   # this works but produces TOO much and i dont know what it i
   #'🟩🟩🟩🟩🟩', # success
   # We keep this last

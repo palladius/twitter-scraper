@@ -11,6 +11,12 @@ class TwitterUser < ApplicationRecord
         "https://twitter.com/intent/user?user_id=#{twitter_id}"
     end
 
+    
+    # number of wordle tweeted
+    def polyglotism
+        42
+    end
+
     def accountid
         twitter_id
     end
