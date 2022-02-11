@@ -61,7 +61,12 @@
   <%= column_chart  twitter_user.wordle_tweets.group(:wordle_type).average(:score).select{|x| not x.nil? }.map{|k,v| [ "#{WordleTweet.flag_by_type(k)} #{k}",v] } %>
 <tr>
   <td colspan="2" >Score by incremental day.. [I wish i had recorded the twit date - only DB creation date]
-<%= line_chart  twitter_user.wordle_tweets.group(:wordle_incremental_day).average(:score)  %>
+    I count failures (X) as eights (could be 7,8,9,10... lets arbitrarily say 8 #aitdc)
+    <%= column_chart  twitter_user.wordle_tweets.group(:wordle_incremental_day).average(:score).map{|day, score| [day, score==42 ? 8 : score] },
+          colors: ["#3cba54", "#f4c20d", "#db3236", "#4885ed"],
+          library: {backgroundColor: "#FFF", height: 265},
+          download: true 
+        %>
 
 </table>
 
