@@ -39,3 +39,4 @@ a.out.sh
 00-init.sh
 .env.sh
 config/credentials.yml.enc
+.twitter-scraper.appname
