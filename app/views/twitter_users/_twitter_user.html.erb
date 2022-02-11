@@ -17,11 +17,17 @@
     <%= twitter_user.location %>
   </p>
   <p>
-    <strong>id_str (I believe its the TWEET id not USER id - clusterfuck to be fixed):</strong>
+    <strong>id_str (Proper Twitter user id, eg ricc is 17310864):</strong>
     <%= twitter_user.id_str %>
+
   </p>
   <p>
-    <strong>Riccardo  id:</strong>
+    <strong>Person URL:</strong>
+    <%= link_to twitter_user.url, twitter_user.url %>
+  </p>
+
+  <p>
+    <strong>twitter_user  id (ricc only):</strong>
     <%= twitter_user.id %>
   </p>
   

@@ -8,11 +8,13 @@ class TwitterUser < ApplicationRecord
     has_many :wordle_tweets, :through => :tweets 
 
     def url 
-        "http://twitter.com/#{username}"
+#        "http://twitter.com/#{username}"
+        "https://twitter.com/intent/user?user_id=#{self.id_str}"
     end
     def url_by_id 
        # https://stackoverflow.com/questions/4132900/url-link-to-twitter-user-with-id-not-name
-        "https://twitter.com/intent/user?user_id=#{twitter_id}"
+        #"https://twitter.com/intent/user?user_id=#{twitter_id}"
+        "https://twitter.com/intent/user?user_id=#{self.id_str}"
     end
 
     def distinct_wordle_types
