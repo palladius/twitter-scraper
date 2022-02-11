@@ -36,7 +36,9 @@
   </p>
   <p>
     <% twitter_user.tweets.each do |t| %>
-      + <%= link_to t %> <br/> 
+      + <%= button_to "❌ Destroy invalid", t, method: :delete unless t.valid? %>
+      <%#= t.valid? ? '✔️' : '❌' %> 
+      <%= link_to t %> <br/> 
     <%end%>
   </p>
 
