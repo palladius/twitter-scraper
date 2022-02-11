@@ -1,12 +1,12 @@
 class WordleTweet < ApplicationRecord
   belongs_to :tweet
 
-  def to_s 
+  def to_s
     #"TODO 🌻 WordleTweet "
     "WT#{WordleTweet.flag_by_type(wordle_type)}[#{wordle_type}] #{score}/6 (len=#{length})"
   end
 
-  def tweet_text 
+  def tweet_text
     self.tweet.full_text
   end
 
@@ -14,10 +14,10 @@ class WordleTweet < ApplicationRecord
     self.tweet.length
   end
 
-  def calculate_wordle_type 
+  def calculate_wordle_type
     WordleTweet.extended_wordle_match_type(tweet_text) # self.tweet.full_text)
-  end 
-    
+  end
+
   def parse_score_from_text
     # m[1] = "5/6"
     m = tweet_text.match(/ ([0123456X]\/6)/i)
@@ -27,7 +27,7 @@ class WordleTweet < ApplicationRecord
     initial_digit_or_char
   end
 
-  def flag 
+  def flag
     WordleTweet.flag_by_type(wordle_type)
   end
 
@@ -36,6 +36,7 @@ class WordleTweet < ApplicationRecord
   end
 
   # this parses and SAVES it/. So if you had a mistake you're writing it WRONG :/
+  # some wordle apps do NOT support this (eejits!) so i remove the issue
   def parse_incrementalday_from_text
     #tweet_text = "Wordle 231 3/6"
     # possible ones:
@@ -44,8 +45,7 @@ class WordleTweet < ApplicationRecord
     #m = tweet_text.match(/ (#)?(\d+) .\/6/i)
     #                       1   2      => m[2] is what you need
     m = tweet_text.match(/ (#)?(\d+) [0123456X]\/6/i)
-    puts "[parse_incrementalday_from_text] Issues matching day in '#{tweet_text}'" unless m
-    #puts "[parse_incrementalday_from_text] Wordle integer is #{m[1] rescue $!}"
+    #puts "[parse_incrementalday_from_text][NON_BLOCKING] Issues matching day in '#{tweet_text}'" unless m
     m[2] rescue nil
   end
 
@@ -55,15 +55,15 @@ class WordleTweet < ApplicationRecord
   # I believe this shoiuld jhust be a bloody Class function :)
   #define_singleton_method :create_from_tweet do |tweet|
   def self.create_from_tweet(tweet)
-    #puts "TODO(ricc): WordleTweet.create_from_tweet() based on tweet: #{tweet.excerpt}"
-    wt = WordleTweet.new 
-    wt.tweet = tweet 
+    warn "[TEST] WordleTweet.create_from_tweet() based on tweet: #{tweet.excerpt rescue :err_excerpt}" if Rails.env == 'test'
+    wt = WordleTweet.new
+    wt.tweet = tweet
     wt.import_notes = "Not sure yet I should be doing it this way.."
     wt.wordle_type = wt.calculate_wordle_type
     wt.score = wt.parse_score_from_text()
     # TODO infer with some way, eg Wordle date for 232 is 5feb22.
     # wordle_date: date
-    wt.wordle_incremental_day =  wt.parse_incrementalday_from_text() 
+    wt.wordle_incremental_day =  wt.parse_incrementalday_from_text()
     # import_version: integer
     wt.import_version = 5 # First version
     # CHANGELOG
@@ -84,15 +84,15 @@ class WordleTweet < ApplicationRecord
 
   # returns TWO things: matches and id of
   # TODO(ricc): messo parole che parsa meglio ma poi dila non parsa bene non so perche..
-  def self.extended_wordle_match_type(text, 
-    include_very_generic = true, 
+  def self.extended_wordle_match_type(text,
+    include_very_generic = true,
     exclude_wordle_english_for_debug=false,
     include_only_italian_for_debug=false)
 
     ## ITALIAN START
 
     # ParFlag of Italyle 369 3/6
-    # Par🇮🇹l matches  /Par..le/i 
+    # Par🇮🇹l matches  /Par..le/i
     return :wordle_it  if text.match?(/Par..le \d+ [123456X]\/6/i)
     return :wordle_it  if text.match?(/Par🇮🇹le \d+ [123456X]\/6/i)
 
@@ -106,7 +106,7 @@ class WordleTweet < ApplicationRecord
       return :wordle_it3_removeme  if text.match?(/par.+le \d+ .\/6/i)
 
     ## ITALIAN END
-    return nil if include_only_italian_for_debug 
+    return nil if include_only_italian_for_debug
 
     # returns TWO things: matches and id of
     return :wordle_fr  if text.match?(/Le Mot \(@WordleFR\) \#\d+ .\/6/i)
@@ -116,13 +116,20 @@ class WordleTweet < ApplicationRecord
     return :wordle_de2  if text.match?(/I guessed this German 5-letter word in .\/6 tries/)
     # This is better
     return :wordle_de  if text.match?(/http:\/\/wordle-spielen.de.*\d+ .\/6/i)
-    return :lewdle     if text.match?(/Lewdle \d+ .\/6/) 
-    
+    return :lewdle     if text.match?(/Lewdle \d+ .\/6/)
+
     return :nerdlegame if text.match?(/nerdlegame \d+ .\/6/i)
-    
+
     return :wordle_ko  if text.match?(/#Korean #Wordle .* \d+ .\/6/)
 
     return :wordle_en  if text.match?(/Wordle \d+ [123456X]\/6/i) unless exclude_wordle_english_for_debug
+
+    # multi page scenario...
+    m = text.match(/https:\/\/wordlegame.org\/wordle-in-([a-z]+)\?/)
+    if m
+      puts "[extended_wordle_match_type] Matched string: #{m[1]}"
+      return "wg_#{m[1] rescue :error }".to_sym # :wg_spanish
+    end
 
     # Generic wordle - might want to remove in the future
     if include_very_generic
@@ -134,18 +141,18 @@ class WordleTweet < ApplicationRecord
   # This should be the only necessary thingy to CREATE a tweet. Them if the WT fails, i can do with next iterations
   def self.quick_match(txt)
     # ITA EN
-    txt.match?(/(ordle|par..le) (#)?\d+ [123456X]\/6/i ) or 
+    txt.match?(/(ordle|par..le) (#)?\d+ [123456X]\/6/i ) or
       # FR: https://twitter.com/search?q=wordlefr&src=typed_query
-      txt.match?(/WordleFR.*#\d+ [123456X]\/6/i) or 
+      txt.match?(/WordleFR.*#\d+ [123456X]\/6/i) or
       # BR OT: joguei https://t.co/TVFNN8ARo6 #36 2/6 *
-      txt.match?(/joguei.*#\d+ [123456X]\/6/i) 
+      txt.match?(/joguei.*#\d+ [123456X]\/6/i)
   end
 
   # Yellow squareYellow squareYellow square⬜⬜
   # Yellow square⬜⬜Green squareYellow square
   # ⬜⬜Green squareGreen squareGreen square
 
-  def stats 
+  def stats
     ret = {}
     ret[:type] = wordle_type
     ret[:score] = score
@@ -159,21 +166,27 @@ class WordleTweet < ApplicationRecord
   # if I create a valid? then it wont SAVE if invalid. I just want to remove validity.
   def valid_for_stats?
     return false if parse_incrementalday_from_text.nil?
-    return false if score.nil? 
+    return false if score.nil?
     return false unless score.to_s.match /[123456X]/i
     true
   end
 
   def self.flag_by_type(wordle_match_type)
-    # nil 
-    return "😞" if wordle_match_type.nil? 
+    # nil
+    return "😞" if wordle_match_type.nil?
 
     # non nil
     case wordle_match_type.to_sym
     when :wordle_en
       "🇬🇧"
     when :wordle_it
+    when :wg_italian
       "🇮🇹"
+    when :wordle_pt
+    when :wg_portuguese
+      '🇵🇹'
+    when :wg_spanish
+      "🇪🇸"
     when :wordle_it1_ciofeco
       "🇮🇹"
     when :wordle_fr
@@ -200,7 +213,7 @@ class WordleTweet < ApplicationRecord
     distribution_arr = distribution_hash.to_a
     numerator = distribution_arr.map{|score,card| score*card}.sum
     denominator = distribution_arr.map{|score,card| card}.sum
-    numerator * 1.0 / denominator 
+    numerator * 1.0 / denominator
   end
-end 
+end
 # (Irina, Wurundjeri Land ☀️🌧❄️🍂🚃

@@ -1,9 +1,145 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
+
+
+  # create_table "tweets", force: :cascade do |t|
+  #   t.integer "twitter_user_id", null: false
+  #   t.string "full_text"
+  #   t.datetime "created_at", precision: 6, null: false
+  #   t.datetime "updated_at", precision: 6, null: false
+  #   t.string "import_version"
+  #   t.string "import_notes"
+  #   t.string "internal_stuff"
+  #   t.text "json_stuff"
+  #   t.string "twitter_id"
+  #   t.datetime "twitter_created_at"
+  #   t.index ["twitter_user_id"], name: "index_tweets_on_twitter_user_id"
+  # end
+
+
 one:
   twitter_user: one
   full_text: MyString
 
 two:
   twitter_user: two
-  full_text: MyString
+  full_text: MyString blah blah Wordle 237 6/6  ⬛🟨⬛⬛🟨  🟩🟩🟩🟩🟩
+
+wordlept:
+  twitter_user: two
+  full_text: |
+    joguei http://term.ooo #40 6/6
+      ⬛⬛⬛⬛🟨
+      🟨🟨⬛⬛⬛
+      ⬛⬛⬛🟩🟩
+      ⬛🟩⬛🟩🟩
+      ⬛🟩⬛🟩🟩
+      🟩🟩🟩🟩🟩
+
+    #twitterparser
+    Never heard this word before.
+
+wordleit:
+  twitter_user: ita
+  full_text: |
+    Wordle (IT) 237 4/6
+
+    non male! Face savouring food
+
+     ⬛⬛⬛⬛🟨
+      🟨🟨⬛⬛⬛
+      ⬛⬛⬛🟩🟩
+      ⬛🟩⬛🟩🟩
+      ⬛🟩⬛🟩🟩
+      🟩🟩🟩🟩🟩
+
+    #WordleIT #WordleItaliano #Wordle237
+
+wordleit2:
+  twitter_user: ita
+  full_text: |
+    guessed this Italian 5-letter word in 4/6 tries.
+      🟨🟨⬛⬛⬛
+      ⬛⬛⬛🟩🟩
+      🟩🟩🟩🟩🟩
+      Can you guess this word?
+      https://wordlegame.org/wordle-in-italian?challenge=cHVudG8 https://wordlegame.org/wordle-in-italian
+
+      #TwitterParser #wordle #parole #samesamebutdifferent (insegnamo al mio parser a parsare entrambi)
+
+wordle:
+  twitter_user: two
+  import_version: 42
+  import_notes: doesnt seem to work
+  twitter_id: boh
+  json_stuff: |
+    {
+        'boh' -> seems like json but its not
+    }
+  full_text: |
+      Wordle 237 6/6
+
+      ⬛🟨⬛⬛🟨
+      🟨🟨⬛⬛⬛
+      ⬛⬛⬛🟩🟩
+      ⬛🟩⬛🟩🟩
+      ⬛🟩⬛🟩🟩
+      🟩🟩🟩🟩🟩
+
+      #twitterparser
+      What a shitty word is it? Is it just me?
+
+lewdle:
+  twitter_user: one
+  full_text: |
+    Lewdle 24 5/6
+    🟩⬛⬛⬛⬛
+    🟩⬛⬛⬛🟩
+    🟩⬛⬛⬛🟩
+    ⬛⬛⬛⬛🟩
+    🟩🟩🟩🟩🟩
+
+    Don't be $⋕*! Play the original Wordle too!
+
+
+wordlefr:
+  twitter_user: two
+  full_text: |
+    Lewdle 1789 5/6 wordlefr
+    todo riccardo find a real one
+        🟩⬛⬛⬛⬛
+    🟩⬛⬛⬛🟩
+    🟩⬛⬛⬛🟩
+    ⬛⬛⬛⬛🟩
+    🟩🟩🟩🟩🟩
+
+wordlegame_es:
+  # https://twitter.com/sreccardo/status/1492182204276948996
+  twitter_user: ricc
+  full_text: |
+    I guessed this Spanish 5-letter word in 6/6 tries.
+
+    ⬛⬛⬛⬛🟩
+    ⬛⬛🟩⬛🟩
+    ⬛⬛🟩⬛🟩
+    ⬛⬛🟩⬛🟩
+    ⬛🟩🟩⬛🟩
+    🟩🟩🟩🟩🟩
+
+    Can you guess this word?
+    https://wordlegame.org/wordle-in-spanish?challenge=Zm9uZG8 https://wordlegame.org/wordle-in-spanish
+
+wordlegame_pt:
+  twitter_user: ricc
+  full_text: |
+    I guessed this Portuguese 5-letter word in 4/6 tries.
+
+    ⬛⬛⬛⬛🟩
+    ⬛⬛🟩⬛🟩
+    ⬛⬛🟩⬛🟩
+    🟩🟩🟩🟩🟩
+
+    Can you guess this word?
+    https://wordlegame.org/wordle-in-portuguese?challenge=ZmlxdWU https://wordlegame.org/wordle-in-portuguese
+
+    Just learning right now to parse this as well. day would be ZmlxdWU and not a number #TwitterParser
