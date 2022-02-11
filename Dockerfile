@@ -46,6 +46,7 @@ RUN bundle install
 # We copy all the files from our current application to the /app container
 COPY . .
 #RUN rm .env
+#COPY .env . # Useless because you inject it via ENV to Cloud Run or docker run ..
 COPY config/credentials.yml.enc config/
 COPY config/master.key          config/
 
