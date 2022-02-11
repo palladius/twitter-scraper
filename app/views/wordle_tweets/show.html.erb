@@ -3,8 +3,8 @@
 <%= render @wordle_tweet %>
 
 <div>
-  <%= link_to "Edit this wordle tweet", edit_wordle_tweet_path(@wordle_tweet) %> |
+  <%= link_to "Edit this wordle tweet", edit_wordle_tweet_path(@wordle_tweet) if mutations_allowed? %> |
   <%= link_to "Back to wordle tweets", wordle_tweets_path %>
 
-  <%= button_to "Destroy this wordle tweet", @wordle_tweet, method: :delete %>
+  <%= button_to "Destroy this wordle tweet", @wordle_tweet, method: :delete if mutations_allowed? %>
 </div>
