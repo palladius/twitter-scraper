@@ -37,7 +37,8 @@ namespace :db do
     envputs "Twitter types: #{tweet_types}"
     envputs " == WordleTweets =="
     WordleTweet.all.each { |wt|
-      envputs "+ [valid=#{wt.valid?}] #{wt}"
+      addon = wt.wordle_type.to_s == '' ? "[more info] #{wt.tweet.full_text}" : ''
+      envputs "+ [#{wt.valid? ? :OK : :INVALID }] #{wt.wordle_type} #{wt}#{addon}"
     }
     # before do
     #   order.perform_callbacks

@@ -107,6 +107,9 @@ class WordleTweet < ApplicationRecord
       return :wordle_it2_ciofeco  if text.match?(/Par🇮🇹le \d+ .\/6/i)
       return :wordle_it3_removeme  if text.match?(/par.+le \d+ .\/6/i)
 
+    return :wordle_it  if text.match?(/Wordle \(IT\).*\d+ [123456X]\/6/i)
+      
+
     ## ITALIAN END
     return nil if include_only_italian_for_debug
 
@@ -127,9 +130,11 @@ class WordleTweet < ApplicationRecord
 
     return :nerdlegame if text.match?(/nerdlegame \d+ .\/6/i)
 
-    return :wordle_ko  if text.match?(/#Korean #Wordle .* \d+ .\/6/)
+    return :wordle_ko  if text.match?(/#Korean #Wordle .* \d+ .\/6/i)
 
-    return :wordle_en  if text.match?(/Wordle \d+ [123456X]\/6/i) unless exclude_wordle_english_for_debug
+
+    return :katapat if text.match? /Katapat \d+ [123456X]\/6/i 
+
 
     # https://www.taylordle.com/
     return :taylordle if text.match?(/Taylordle \d+ [123456X]\/6/i)
@@ -145,6 +150,9 @@ class WordleTweet < ApplicationRecord
     end
 
     # Generic wordle - might want to remove in the future
+    # 1. English we keep last
+    return :wordle_en  if text.match?(/Wordle \d+ [123456X]\/6/i) unless exclude_wordle_english_for_debug
+    # 2. Super generic
     if include_very_generic
       # :other sounds like another :wordle_en :)
       return :other if text.match?(/ordle \d+ [123456X]\/6/i) unless exclude_wordle_english_for_debug
@@ -205,6 +213,8 @@ class WordleTweet < ApplicationRecord
         "🇪🇸"
       when :wordle_it1_ciofeco
         "🇮🇹"
+      when :katapat
+        "🇲🇾"
       when :wordle_fr
         "🇫🇷"
       when :nerdlegame
