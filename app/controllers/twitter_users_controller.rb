@@ -3,7 +3,10 @@ class TwitterUsersController < ApplicationController
 
   # GET /twitter_users or /twitter_users.json
   def index
-    @twitter_users = TwitterUser.all.limit(150).sort()
+    #@twitter_users = #TwitterUser.all.limit(150).sort()
+    # getting top users
+    @twitter_users = TwitterUser.left_joins(:tweets).group(:id).order('COUNT(tweets.id) DESC').limit(150)
+
   end
 
   # GET /twitter_users/1 or /twitter_users/1.json

@@ -37,7 +37,9 @@ Tweets per day
     
 <tr>
   <td>WordleTweet by Score
-    <%= column_chart WordleTweet.group(:score).count.select{|x| x>=1 && x<=6},  download: true %>
+    <%= column_chart WordleTweet.group(:score).count.select{|k,v| not k.nil?}.select{|x| x>=1 && x<=6 rescue false}, 
+        download: true 
+    %>
     Average moves: <b><%= WordleTweet.global_average_score.round(2) %></b>
 
   <td>Average score by type

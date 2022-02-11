@@ -11,10 +11,14 @@ class TwitterUser < ApplicationRecord
         "https://twitter.com/intent/user?user_id=#{twitter_id}"
     end
 
+    def distinct_wordle_types
+        # todo remove nil
+        self.tweets.map{|t| t.wordle_tweet.wordle_type rescue nil}.select{|x| not x.nil? }.uniq
+    end
     
     # number of wordle tweeted
     def polyglotism
-        42
+        distinct_wordle_types.count
     end
 
     def accountid

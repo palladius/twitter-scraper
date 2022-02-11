@@ -1,11 +1,11 @@
 <p style="color: green"><%= notice %></p>
 
 
-<h1>Top 10 Twitter users (TODO optimize)</h1>
+<h1>Top 10 Twitter user</h1>
 
 <%#= TwitterUser.left_joins(:tweets).group(:id).order('COUNT(tweets.id) DESC').limit(10) %>
-<p>
 <!-- 
+<p>
 TODO(ricc): optimize this shit :) 
 
 option 1: via Rails 
@@ -23,8 +23,11 @@ class ChartsController < ApplicationController
     render json: Task.group_by_day(:completed_at).count
   end
 end
--->
 </p>
+-->
+
+<p>Top tweeters:</p>
+
     <%= #column_chart TwitterUser.all.map{|u| [u.twitter_id, u.tweets.count, u.id, u.name] }.sort_by{|u| u[1]}.last(10).reverse,
         #column_chart  @twitter_users.map{|u| [u.twitter_id, u.tweets.count] }.sort_by{|u| u[1] }.last(10).reverse,
         line_chart TwitterUser.left_joins(:tweets).group(:id).order('COUNT(tweets.id) DESC').limit(15).map{|u| [u.name, u.tweets.count ]},
@@ -33,7 +36,16 @@ end
         ytitle: "# Tweets",
         download: true
     %>
+<p>Top polyglots (different wordle games):</p>
 
+    <%= #column_chart TwitterUser.all.map{|u| [u.twitter_id, u.tweets.count, u.id, u.name] }.sort_by{|u| u[1]}.last(10).reverse,
+        #column_chart  @twitter_users.map{|u| [u.twitter_id, u.tweets.count] }.sort_by{|u| u[1] }.last(10).reverse,
+        line_chart TwitterUser.left_joins(:tweets).group(:id).order('COUNT(tweets.id) DESC').limit(150).map{|u| [u.twitter_id, u.polyglotism]}.sort{|arr| -arr[1] }.first(10),
+        # @twitter_users.map{|u| [u.twitter_id, u.tweets.count] }.sort_by{|u| u[1] }.last(10).reverse,
+        xtitle: "Twitter User (top 15)" ,
+        ytitle: "# Tweets",
+        download: true
+    %>
 
 <h1>Twitter users</h1>
 
