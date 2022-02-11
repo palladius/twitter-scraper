@@ -177,7 +177,9 @@ class WordleTweet < ApplicationRecord
   def stats
     ret = {}
     ret[:type] = wordle_type
-    ret[:score] = score
+    ret[:score_db] = score
+    ret[:score_calculated] = parse_score_from_text # might be expensive to calculate
+    
     ret[:day] = parse_incrementalday_from_text
     ret[:length] = length
     ret[:valid_for_stats] = valid_for_stats?
