@@ -36,6 +36,8 @@ $search_terms = [
   'wordlefr',
   'WordleIT',
   'Par🇮🇹le',
+  'wordlegame.org', # since 0.11 I support it!
+
   # this works but produces TOO much and i dont know what it i
   #'🟩🟩🟩🟩🟩', # success
   # We keep this last
@@ -55,7 +57,7 @@ end
     db_seed_puts "N_ITERATIONS from ENV: #{yellow $n_tweets}"
     db_seed_puts "#{white $search_terms.count.to_s } search terms: #{yellow $search_terms}"
     db_seed_puts "Ingesting into this DB: #{yellow Rails.configuration.database_configuration[Rails.env]["adapter"]}"
-    db_seed_puts "Stats: #{yellow Post.count.to_s} posts, #{yellow Tweet.count.to_s} tweets, #{yellow WordleTweet.count.to_s} WTs, #{yellow TwitterUser.count.to_s}  Users"
+    db_seed_puts "Stats: #{yellow Tweet.count.to_s} tweets, #{yellow WordleTweet.count.to_s} WTs, #{yellow TwitterUser.count.to_s}  Users"
     #exit 42
 
     raise "Too few tweets required. Set TWITTER_INGEST_SIZE env var!" if $n_tweets < 1

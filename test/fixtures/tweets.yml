@@ -23,7 +23,7 @@ one:
 
 two:
   twitter_user: two
-  full_text: MyString blah blah Wordle 237 6/6  ⬛🟨⬛⬛🟨  🟩🟩🟩🟩🟩
+  full_text: MyString blah blah Par🇮🇹le 237 6/6  ⬛🟨⬛⬛🟨  🟩🟩🟩🟩🟩
 
 wordlept:
   twitter_user: two
@@ -55,6 +55,18 @@ wordleit:
 
     #WordleIT #WordleItaliano #Wordle237
 
+parole1:
+  twitter_user: one
+  full_text: |
+    I got the Italian Wordle (Parole) in 3 goes today!
+
+    Par🇮🇹le 375 3/6
+
+    ⬜🟩⬜⬜🟩
+    ⬜🟩⬜🟨🟩
+    🟩🟩🟩🟩🟩
+
+    Took me 5 goes on original (English) Wordle
 wordleit2:
   twitter_user: ita
   full_text: |
@@ -143,3 +155,16 @@ wordlegame_pt:
     https://wordlegame.org/wordle-in-portuguese?challenge=ZmlxdWU https://wordlegame.org/wordle-in-portuguese
 
     Just learning right now to parse this as well. day would be ZmlxdWU and not a number #TwitterParser
+
+retmooo:
+  twitter_user: ricc
+  full_text: |
+    joguei term.ooo #40 X/6
+
+    ⬛⬛🟨🟨🟨
+    🟨🟨🟨⬛⬛
+    ⬛🟨🟨🟨⬛
+    🟨🟨⬛🟨⬛
+    ⬛🟨🟨🟨⬛
+    ⬛⬛🟨🟩🟩
+

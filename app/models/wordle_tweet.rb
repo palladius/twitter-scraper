@@ -112,6 +112,7 @@ class WordleTweet < ApplicationRecord
     return :wordle_fr  if text.match?(/Le Mot \(@WordleFR\) \#\d+ .\/6/i)
     # "joguei http://term.ooo #34 X/6 *"
     return :wordle_pt  if text.match?(/joguei http:\/\/term.ooo \#34 .\/6/i )
+    return :wordle_pt  if text.match?(/term.ooo [\#]\d+ .\/6/i )
     # I cant remember wha website was this.
     return :wordle_de2  if text.match?(/I guessed this German 5-letter word in .\/6 tries/)
     # This is better
