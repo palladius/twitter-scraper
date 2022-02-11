@@ -12,7 +12,9 @@ require 'twitter'
 def yellow(s)
   "\e[1;33m#{s}\e[0m"
 end
-
+def white(s)
+  "\e[1;37m#{s}\e[0m"
+end
 #pred "remove Ricc Twitter API keys... use ENV instead maybe with dotenv"
 
 TWITTER_OPTIONS = {
@@ -32,25 +34,24 @@ $search_terms = [
   'Wordle',
   '#Parole',
   'term.ooo',
-  '🟩🟩🟩🟩🟩', # success
+  # this works but produces TOO much and i dont know what it i
+  #'🟩🟩🟩🟩🟩', # success
 ]
 
 # main
 
-puts "TWITTER_CONSUMER_KEY: #{ENV['TWITTER_CONSUMER_KEY']}. If this was empty, good luck using APIs!"
-raise "Missing Twitter key (or exists but is smaller than XX chars: #{ENV['TWITTER_CONSUMER_KEY'].to_s.length}" if ENV['TWITTER_CONSUMER_KEY'].to_s.length < 5
-#puts "TEST REMOVEME quando va: ", WordleTweet.extended_wordle_match_type("ciao da Riccardo")
-puts "N_ITERATIONS from ENV: #{yellow $n_tweets}"
+  def main
+    common_header = "[#{white 'DB:SEED'}][#{yellow Rails.env.first(4)}] "
+    puts "#{common_header}TWITTER_CONSUMER_KEY: #{white ENV['TWITTER_CONSUMER_KEY']}. If this was empty, good luck using APIs!"
+    raise "#{common_header}Missing Twitter key (or exists but is smaller than XX chars: #{ENV['TWITTER_CONSUMER_KEY'].to_s.length}" if ENV['TWITTER_CONSUMER_KEY'].to_s.length < 5
+    #puts "TEST REMOVEME quando va: ", WordleTweet.extended_wordle_match_type("ciao da Riccardo")
+    puts "#{common_header}N_ITERATIONS from ENV: #{yellow $n_tweets}"
+    puts "#{common_header}#{white $search_terms.count.to_s } search terms: #{yellow $search_terms}"
+    puts "#{common_header}Ingesting into this DB: #{yellow Rails.configuration.database_configuration[Rails.env]["adapter"]}"
+    #exit 42
+    rake_seed_parse_keys()
+  end
 
-
-# def nice_twitter_username(twitter_user)
-#     u = twitter_user
-#     "#{u.screen_name} (#{u.name}, #{u.location})"
-#   end
-
-  # def short_twitter_username(twitter_user)
-  #   twitter_user.screen_name
-  # end
 
 
   def rake_seed_parse_keys
@@ -108,7 +109,7 @@ puts "N_ITERATIONS from ENV: #{yellow $n_tweets}"
               twitter_created_at: tweet.created_at,
               import_version: $rake_seed_import_version,
               import_notes: "Now this supports also the timestamp and unique ID of Twitter tweet. Now this has finally LIFE and i can link to original via URL",
-              internal_stuff: "TODO mi servira",
+              internal_stuff: "search_term='#{search_term}'",
               # polymoprhic stuff in case new stuff comes to my mind..
               json_stuff: "{}",
           )
@@ -127,4 +128,6 @@ puts "N_ITERATIONS from ENV: #{yellow $n_tweets}"
     # tweets.each { |tweet| puts tweet.full_text }
   end
 
-rake_seed_parse_keys
+#rake_seed_parse_keys
+
+main()
