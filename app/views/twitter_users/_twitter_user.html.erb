@@ -37,6 +37,28 @@
   </p>
 
   <hr/>
+  More succulent data...
+
+  <p>Average Tweet score:
+    <strong>🐦 <%= twitter_user.average_score %> </strong> /     Average moves of the internet: <b><%= WordleTweet.global_average_score.round(2) %></b>
+
+  </p>
+
+
+<table border="0" style="width:100%;background-color:#EFF;" >
+<tr>
+  <td>WordleTweet by Score
+    <%= column_chart twitter_user.wordle_tweets.group(:score).count, #.select{|k,v| not k.nil?}, # .select{|x| x>=1 && x<=6 rescue false}, 
+        download: true 
+    %>
+  <td>Average score by language
+  <%= column_chart  twitter_user.wordle_tweets.group(:wordle_type).average(:score).select{|x| not x.nil? }.map{|k,v| [ "#{WordleTweet.flag_by_type(k)} #{k}",v] } %>
+<tr>
+  <td colspan="2" >Score by incremental day.. [I wish i had recorded the twit date - only DB creation date]
+<%= line_chart  twitter_user.wordle_tweets.group(:wordle_incremental_day).average(:score)  %>
+
+</table>
+
   <p>
     <strong>🐦 <%= twitter_user.tweets.count %> tweets</strong>
   </p>

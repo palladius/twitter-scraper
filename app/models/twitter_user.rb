@@ -3,6 +3,10 @@ class TwitterUser < ApplicationRecord
     validates_uniqueness_of :twitter_id
     has_many :tweets, counter_cache: true
 
+    # has many wordle_tweets -> through another -> can i do this?
+    # FIGATA FUNGE!
+    has_many :wordle_tweets, :through => :tweets 
+
     def url 
         "http://twitter.com/#{username}"
     end
@@ -19,6 +23,10 @@ class TwitterUser < ApplicationRecord
     # number of wordle tweeted
     def polyglotism
         distinct_wordle_types.count
+    end
+
+    def average_score
+        self.wordle_tweets.average :score
     end
 
     def accountid
