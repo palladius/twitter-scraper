@@ -46,6 +46,9 @@ RUN bundle install
 # We copy all the files from our current application to the /app container
 COPY . .
 #RUN rm .env
+COPY config/credentials.yml.enc config/
+COPY config/master.key          config/
+
 
 # TODO maybe we can do this BEFORE copy? I'm ignorant on YARN...
 #RUN yarn install --check-files

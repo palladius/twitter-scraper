@@ -2,3 +2,11 @@
 
 <p>I came up with the idea of parsing the whole internet a few years ago... but twitter gave me the assist with a beautifully parsable 
 new moda: Wordle!</p>
+
+<p>
+Some statistics:<br/>
+- Tweets: <%= Tweet.count %><br/>
+- TwitterUsers: <%= TwitterUser.count %><br/>
+- WordleTweets: <%= WordleTweet.count %><br/>
+- DB Config: <b><%= Rails.configuration.database_configuration[Rails.env]["adapter"] %></b><br/>
+</p>
