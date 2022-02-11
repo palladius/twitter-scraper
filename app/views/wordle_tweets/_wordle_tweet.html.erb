@@ -5,8 +5,15 @@
   </p>
 
   <p>
+    <strong>Twitter user:</strong>
+    <%= wordle_tweet.tweet.twitter_user_id %>
+    <%= link_to wordle_tweet.tweet.twitter_user  %>
+  </p>
+
+  <p>
     <strong>Wordle type:</strong>
-    <%= wordle_tweet.wordle_type %>
+    <%#= wordle_tweet.wordle_type %>
+      <%= link_to wordle_tweet.wordle_type , "/wordle_tweets?wordle_type=#{ wordle_tweet.wordle_type }" %>
   </p>
   <p>
     <strong>Stats:</strong>
