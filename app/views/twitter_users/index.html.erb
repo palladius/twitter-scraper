@@ -1,5 +1,17 @@
 <p style="color: green"><%= notice %></p>
 
+
+<h1>Top 10 Twitter users</h1>
+
+
+
+    <%= column_chart TwitterUser.all.map{|u| [u.twitter_id, u.tweets.count, u.id, u.name] }.sort_by{|u| u[1]}.last(10).reverse,
+        xtitle: "Incremental Day (top 10)" ,
+        ytitle: "Total WTweets",
+        download: true
+    %>
+
+
 <h1>Twitter users</h1>
 
 <div id="twitter_users">
@@ -10,4 +22,4 @@
   <% end %>
 </div>
 
-<%= link_to "New twitter user", new_twitter_user_path %>
+<%= link_to "New twitter user", new_twitter_user_path if mutations_allowed? %>

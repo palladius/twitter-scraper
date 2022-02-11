@@ -2,6 +2,7 @@
 VERSION = $(shell cat VERSION)
 
 stats:
+	echo Rails.env | rails c
 	echo Tweet.count | rails c
 	echo TwitterUser.count | rails c
 	echo "Now Riccardo magic:"

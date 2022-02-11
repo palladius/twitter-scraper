@@ -3,8 +3,8 @@
 <%= render @twitter_user %>
 
 <div>
-  <%= link_to "Edit this twitter user", edit_twitter_user_path(@twitter_user) %> |
+  <%= link_to "Edit this twitter user", edit_twitter_user_path(@twitter_user)  if mutations_allowed?  %> |
   <%= link_to "Back to twitter users", twitter_users_path %>
 
-  <%= button_to "Destroy this twitter user", @twitter_user, method: :delete %>
+  <%= button_to "Destroy this twitter user", @twitter_user, method: :delete  if mutations_allowed?  %>
 </div>

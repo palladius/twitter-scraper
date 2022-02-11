@@ -6,24 +6,35 @@ Graphs generated with <a href="https://chartkick.com/">chartkick ruby library</a
 </p>
 
 <%#= column_chart WordleTweet.group(:wordle_type).group_by_hour(:created_at).count,  stacked: true %>
-<%= column_chart WordleTweet.group(:score).group_by_hour(:created_at).count,  stacked: true ,  download: true, xtitle: "Hour", ytitle: "Tweets by score" %>
+<%= column_chart WordleTweet.group(:score).group_by_hour(:created_at).count,  stacked: true ,  download: true, 
+    xtitle: "Hour", ytitle: "Tweets by score" 
+%>
 
 
-WTweets per hour - volume
-<%= column_chart WordleTweet.group_by_hour(:created_at).count,  label: "Tweets per hour" , download: true, xtitle: "Hour", ytitle: "Total Tweets" %>
+#WTweets per hour - volume
+<%= column_chart WordleTweet.group(:wordle_incremental_day).group_by_day(:created_at).count.select{|incremday_and_date, cardinality| cardinality > 50 } ,
+   label: "Tweets per hour" , download: true, 
+    stacked: true,
+    xtitle: "Day", ytitle: "Total Tweets" %>
 
 Tweets per day
 <%= line_chart Tweet.group_by_day(:twitter_created_at).count  %>
 <%#= line_chart TwitterUser.group_by_day(:created_at).count  %>
 
-<table border="1" style="width:80%;background-color:#EFF;" >
+<table border="0" style="width:100%;background-color:#EFF;" >
 <tr>
   <td style="width:50%">
   WordleTweet by Type
     <%= pie_chart WordleTweet.group(:wordle_type).count ,  download: true %>
   <td style="width:50%">
-    WordleTweet by IncrementalDay
-    <%= pie_chart WordleTweet.group(:wordle_incremental_day).count.select{|day, cardinality| cardinality > 50} %>
+    WordleTweet by IncDay (Top 10)
+    <%#= column_chart WordleTweet.group(:wordle_incremental_day).count.select{|day, cardinality| cardinality > 150} %>
+    <%= column_chart WordleTweet.group(:wordle_incremental_day).count.sort_by{|d,c| c}.last(10),
+        xtitle: "Incremental Day (top 10)" ,
+        ytitle: "Total WTweets",
+        download: true
+    %>
+    
 <tr>
   <td>WordleTweet by Score
     <%= column_chart WordleTweet.group(:score).count.select{|x| x>=1 && x<=6},  download: true %>
