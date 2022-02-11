@@ -3,6 +3,8 @@
 
 <h1>Top 10 Twitter users (TODO optimize)</h1>
 
+<%= TwitterUser.left_joins(:tweets).group(:id).order('COUNT(tweets.id) DESC').limit(10) %>
+<p>
 TODO(ricc): optimize this shit :) 
 
  TwitterUser.first(100).map{|u| [u.twitter_id, u.tweets.count] }.sort_by{|u| u[1]}.last(10).reverse
@@ -18,9 +20,11 @@ class ChartsController < ApplicationController
     render json: Task.group_by_day(:completed_at).count
   end
 end
-
+</p>
     <%= #column_chart TwitterUser.all.map{|u| [u.twitter_id, u.tweets.count, u.id, u.name] }.sort_by{|u| u[1]}.last(10).reverse,
-        column_chart  @twitter_users.map{|u| [u.twitter_id, u.tweets.count] }.sort_by{|u| u[1] }.last(10).reverse,
+        #column_chart  @twitter_users.map{|u| [u.twitter_id, u.tweets.count] }.sort_by{|u| u[1] }.last(10).reverse,
+        column_chart TwitterUser.left_joins(:tweets).group(:id).order('COUNT(tweets.id) DESC').limit(10).map{|u| [u.name, u.tweets.count ]},
+        # @twitter_users.map{|u| [u.twitter_id, u.tweets.count] }.sort_by{|u| u[1] }.last(10).reverse,
         xtitle: "Incremental Day (top 10)" ,
         ytitle: "Total WTweets",
         download: true
@@ -37,4 +41,4 @@ end
   <% end %>
 </div>
 
-<%#= link_to "New twitter user", new_twitter_user_path if mutations_allowed? %>
+<%= link_to "New twitter user", new_twitter_user_path if mutations_allowed? %>

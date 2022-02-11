@@ -10,4 +10,7 @@ class ApplicationController < ActionController::Base
     def mutations_allowed?
         false
     end
+    helper_method :mutations_allowed?
+    helper_method :logged_in?
+
 end
