@@ -22,7 +22,7 @@ namespace :db do
 
   end
 
-  desc "popola"
+  desc "popola in test"
   task popola_test: :environment do
     raise "Funge solo in TEST!!" unless Rails.env == "test"
 

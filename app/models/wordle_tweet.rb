@@ -191,32 +191,36 @@ class WordleTweet < ApplicationRecord
 
     # non nil
     case wordle_match_type.to_sym
-    when :wordle_en
-      "🇬🇧"
-    when :wordle_it
-    when :wg_italian
-      "🇮🇹"
-    when :wordle_pt
-    when :wg_portuguese
-      '🇵🇹'
-    when :wg_spanish
-      "🇪🇸"
-    when :wordle_it1_ciofeco
-      "🇮🇹"
-    when :wordle_fr
-      "🇫🇷"
-    when :nerdlegame
-      "🔢" # — Countin 🔢
-    when :wordle_ko
-      "🇰🇷"
-    when :lewdle
-      "🛏️"
-    when :other
-      "❓"
-    else # question mark, also try: 🤔 or 👽 Alien
-      puts "WARN: Unknown Type: #{wordle_match_type}"
-      "⁉️"
-    end
+      when :wordle_en
+        "🇬🇧"
+      when :wordle_it
+        "🇮🇹"
+      when :wg_italian
+        "🇮🇹"
+      when :wordle_pt
+        '🇵🇹'
+      when :wg_portuguese
+        '🇵🇹'
+      when :wg_spanish
+        "🇪🇸"
+      when :wordle_it1_ciofeco
+        "🇮🇹"
+      when :wordle_fr
+        "🇫🇷"
+      when :nerdlegame
+        "🔢" # — Countin 🔢
+      when :wordle_ko
+        "🇰🇷"
+      when :lewdle
+        "🛏️"
+      when :taylordle
+        "💕"
+      when :other
+        "❓"
+      else # question mark, also try: 🤔 or 👽 Alien
+        puts "[flag_by_type] WARN: Unknown Type: #{wordle_match_type}"
+        "⁉️"
+      end
   end
 
 

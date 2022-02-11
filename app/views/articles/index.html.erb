@@ -29,7 +29,7 @@ Tweets per day
   <td style="width:50%">
     WordleTweet by IncDay (Top 10)
     <%#= column_chart WordleTweet.group(:wordle_incremental_day).count.select{|day, cardinality| cardinality > 150} %>
-    <%= column_chart WordleTweet.group(:wordle_incremental_day).count.sort_by{|d,c| c}.last(10),
+    <%= column_chart WordleTweet.group(:wordle_incremental_day).count.select{|x| not x.nil?}.sort_by{|d,c| c}.last(10),
         xtitle: "Incremental Day (top 10)" ,
         ytitle: "Total WTweets",
         download: true
@@ -44,7 +44,7 @@ Tweets per day
 
   <td>Average score by type
   <%#= column_chart WordleTweet.group(:wordle_type).average(:score) %>
-  <%= column_chart WordleTweet.group(:wordle_type).average(:score).map{|k,v| [WordleTweet.flag_by_type(k),v] } %>
+  <%= column_chart WordleTweet.group(:wordle_type).average(:score).select{|x| not x.nil? }.map{|k,v| [ "#{WordleTweet.flag_by_type(k)} #{k}",v] } %>
 
 
 

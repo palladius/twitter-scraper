@@ -11,3 +11,4 @@ bundle exec rake --tasks | egrep 'hello|sbirc'
 
 #echodo bundle exec
 rake db:sbirciatina
+rake db:popola_test
