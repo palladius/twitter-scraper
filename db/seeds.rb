@@ -38,6 +38,7 @@ $search_terms = [
   'Par🇮🇹le',
   'wordlegame.org', # since 0.11 I support it!
   '#taylordle',
+  'katapat',
   # this works but produces TOO much and i dont know what it i
   #'🟩🟩🟩🟩🟩', # success
   # We keep this last

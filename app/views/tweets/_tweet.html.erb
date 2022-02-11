@@ -19,6 +19,34 @@
   </p>
   
     <p>
+    <strong>Timestamps 1 CreadedAt:</strong>
+    <tt>
+    <%= tweet.created_at %>
+    </tt>
+  </p>
+    <p>
+    <strong>Timestamps 2 twitter_created_at:</strong>
+    <tt>
+    <%= tweet.twitter_created_at %>
+    </tt>
+  </p>
+    <p>
+    <strong>Timestamps 3 wordle_date:</strong>
+    <tt>
+    <%= tweet.wordle_tweet.wordle_date %>
+    </tt>
+  </p>
+
+      <p>
+    <strong>Freshness (seconds):</strong>
+    <tt>
+    <%= (tweet.freshness) %>sec
+    </tt>
+
+  </p>
+  
+  
+    <p>
     <strong>Possible Wordle Twitter:</strong>
     <%= link_to tweet.wordle_tweet, tweet.wordle_tweet rescue "Error: #{ $! }" %>
   </p>
