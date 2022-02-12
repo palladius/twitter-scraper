@@ -16,7 +16,8 @@ class WordleTweet < ApplicationRecord
   end
 
   def calculate_wordle_type
-    WordleTweet.extended_wordle_match_type(tweet_text) # self.tweet.full_text)
+    WordleTweet.extended_wordle_match_type_old_ma_funge(tweet_text)
+#    WordleTweet.extended_wordle_match_type_old_ma_funge(tweet_text)
   end
 
   def parse_score_from_text
@@ -95,7 +96,7 @@ class WordleTweet < ApplicationRecord
 # Regexes in order... so WORDLE shoudl be LAST
 # moved to YAML :) -> config/wordle-regexes.yml
 
-def self.extended_wordle_match_type(text)
+def self.extended_wordle_match_type_new_ancora_buggy(text)
   #wordle_regexes = Rails.application.config_for(:wordle_regexes, env: "default")
 
   # before searching like crazy i make sure some initisal regex is matched :)
@@ -134,7 +135,7 @@ end
 
   # returns TWO things: matches and id of
   # TODO(ricc): messo parole che parsa meglio ma poi dila non parsa bene non so perche..
-  def self.extended_wordle_match_type_old(text,
+  def self.extended_wordle_match_type_old_ma_funge(text,
     include_very_generic = true,
     exclude_wordle_english_for_debug=false,
     include_only_italian_for_debug=false)
