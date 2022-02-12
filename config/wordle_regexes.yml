@@ -44,6 +44,15 @@ default: &default
     regexes:
     - katapat
     lang: ms # MALAY type of malysian yep there are two :) 
+  - return: katla
+    url: https://katla.vercel.app/ 
+    regexes:
+    - Katla 
+    - katla.vercel.app
+    # in case i want to go there... not sure.
+    solutions:
+      '23': bison
+    lang: ms # MALAY again, says translate: bison: banteng liar, terdapat di Amerika Utara, tengkuknya berbulu lebat, berkepala besar, bertanduk kecil, dan berpunuk besar; Bison amerikanus
 
 # TODO   https://wordlegame.org/wordle-in-spanish 
 
