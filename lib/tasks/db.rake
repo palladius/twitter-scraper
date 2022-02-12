@@ -26,20 +26,31 @@ namespace :db do
   task popola_test: :environment do
     raise "Funge solo in TEST!!" unless Rails.env == "test"
 
-    write_entity_cardinalities
-    envputs 'Calling post-creation callbacks..'
+    #write_entity_cardinalities
+    envputs 'Calling post-creation callbacks (which doesnt happen by defaault with TEST fixtures for efficiency reasons)..'
     Tweet.all.each {|t| t._run_create_callbacks}
-    write_entity_cardinalities
+    #write_entity_cardinalities
 
     # Types: WordleTweet.group(:wordle_type).count
 
     tweet_types = WordleTweet.group(:wordle_type).count
     envputs "Twitter types: #{tweet_types}"
+    envputs "Acceptable types: #{WordleTweet.acceptable_types}" 
+    
     envputs " == WordleTweets =="
     WordleTweet.all.each { |wt|
       bad_type = wt.wordle_type.to_s.in? ['', 'unknown_v2']
-      addon = bad_type ? "[more info] '#{wt.tweet.full_text.gsub("\n",'')}'" : ''
-      envputs "+ [#{wt.valid? ? :OK : :INVALID }] #{wt.wordle_type} #{wt}#{addon}"
+      addon = bad_type ? "[BAD] '#{wt.tweet.full_text.gsub("\n",'')}'" : ''
+      #envputs "+ [#{wt.valid? ? :OK : :INVALID }] #{wt.flag} #{wt.wordle_type} day=#{wt.parse_incrementalday_from_text}#{addon}"
+    }
+    puts("WType: ", WordleTweet.all.map{|wt| wt.wordle_type}.join(", "))
+    puts("Flags: ", WordleTweet.all.map{|wt| wt.flag}.join(", "))
+    envputs " == WordleTweets ERRORS =="
+    WordleTweet.all.each { |wt|
+      #bad_type = wt.wordle_type.to_s.in? ['', 'unknown_v2']
+      unless wt.wordle_type.in?(WordleTweet.acceptable_types)
+        envputs "[BAD] #{wt.flag} type='#{wt.wordle_type}' score=#{wt.score} day='#{wt.parse_incrementalday_from_text}' TEXT=#{ wt.tweet.full_text.gsub("\n",'') }"
+      end
     }
     # before do
     #   order.perform_callbacks

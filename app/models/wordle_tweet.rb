@@ -43,13 +43,25 @@ class WordleTweet < ApplicationRecord
     # possible ones:
     # blah blah 234 6/6
     # blah blah #234 6/6
+    # Can you guess this word?  https://wordlegame.org/?challenge=Ymx1c2g… https://wordlegame.org
+    # https://wordlegame.org/?challenge=Ymx1c2g
+    # https://wordlegame.org/?challenge=YXByaWw
     #m = tweet_text.match(/ (#)?(\d+) .\/6/i)
     #                       1   2      => m[2] is what you need
+    # Case 1: normal
     m = tweet_text.match(/ (#)?(\d+) [0123456X]\/6/i)
+    return "int/#{m[2]}" if (m[2] rescue nil)
+
+    # Case 2.
+    m = tweet_text.match(/wordlegame.org\/\?challenge=([a-zA-Z0-9]+)/i)
+    return "wg/#{m[1]}" if (m[1] rescue nil)
+
     #puts "[parse_incrementalday_from_text][NON_BLOCKING] Issues matching day in '#{tweet_text}'" unless m
-    m[2] rescue nil
+    #m[2] rescue nil
+    return nil
   end
 
+  # TODO deprecate this
   def self.find_italian_orphans()
     # All by NIL :)
   end
@@ -101,6 +113,19 @@ def self.extended_wordle_match_type(text)
       return h[:return].to_sym if text.match?(regex)
     }
   }
+
+  # Case 2: Lets now manage 
+  # - https://wordlegame.org/wordle-in-english-uk
+  # - https://wordlegame.org/wordle-in-russian
+  polymorphic_match = text.match(/wordlegame.org\/wordle-in-([a-z-]+)/i)
+  if polymorphic_match
+    parsed_language =  polymorphic_match[1] rescue :error 
+    puts "[extended_wordle_match_type v2] Matched string: '#{parsed_language}'"
+    return "wg_#{parsed_language}".to_sym # :wg_spanish
+    return :todo
+  end
+
+
   return :unknown_v2
 end
 
@@ -249,12 +274,18 @@ end
         '🇵🇹'
       when :wg_spanish
         "🇪🇸"
+      when :wg_russian
+        "🇷🇺"
       when :wordle_it1_ciofeco
         "🇮🇹"
       when :katapat
         "🇲🇾"
+      when :katla
+        "🇲🇾"
       when :wordle_fr
         "🇫🇷"
+      when :wordle_de
+        "🇩🇪"
       when :nerdlegame
         "🔢" # — Countin 🔢
       when :wordle_ko
@@ -271,6 +302,9 @@ end
       end
   end
 
+  def self.acceptable_types
+    WORDLE_REGEXES.map{|h| h[:return]}.sort
+  end
 
 
   def self.global_average_score

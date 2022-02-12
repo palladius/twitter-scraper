@@ -222,3 +222,17 @@ nerdle_sample:
   full_text: |
     nerdlegame 24 4/6⬛⬛⬛🟪⬛🟪🟪⬛🟩🟩🟩🟪⬛🟩⬛🟪🟩🟩🟩⬛🟩🟩⬛🟩🟩🟩🟩🟩🟩🟩🟩🟩
     https://nerdlegame.com #nerdle #twitterparser #twitterparsed injecting for v0.15 
+
+russian_polymoprhic:
+  twitter_user: one
+  # https://twitter.com/arthurwcunha/status/1491630879642423298
+  full_text: |
+    VOCÊS TEM MUITO O QUE APRENDER COMIGO!
+
+    I guessed this Russian 5-letter word in 2/6 tries. 
+
+    🟩⬛🟩⬛🟨
+    🟩🟩🟩🟩🟩
+
+    Can you guess this word? 
+    https://wordlegame.org/wordle-in-russian?challenge=0LLQvtC00LrQsA

@@ -65,6 +65,19 @@ test:
   <<: *default  
   #timeout: 5000
 addon_in_the_end:
+  - url: https://wordlegame.org/wordle-in-spanish
+    regexes:
+     - "https://wordlegame.org/wordle-in-spanish"
+     - "I guessed this Spanish 5-letter word in"
+    lang: es
+    return: wg_spanish
+  - url: https://wordlegame.org/wordle-in-italian
+    regexes:
+     - "https://wordlegame.org/wordle-in-italian"
+     - "I guessed this Italian 5-letter word in"
+    lang: it
+    return: wg_italian
+
   - # Wordle the most famous one
     url: 'https://www.nytimes.com/games/wordle/'
     # used to be https://www.powerlanguage.co.uk 
