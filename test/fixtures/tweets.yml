@@ -17,13 +17,13 @@
   # end
 
 
-one:
-  twitter_user: one
-  full_text: MyString
+# one:
+#   twitter_user: one
+#   full_text: MyString
 
-two:
-  twitter_user: two
-  full_text: MyString blah blah Par🇮🇹le 237 6/6  ⬛🟨⬛⬛🟨  🟩🟩🟩🟩🟩
+# two:
+#   twitter_user: two
+#   full_text: MyString blah blah Par🇮🇹le 237 6/6  ⬛🟨⬛⬛🟨  🟩🟩🟩🟩🟩
 
 wordlept:
   twitter_user: two
@@ -191,3 +191,34 @@ katapat:
       🟨🟩🟩🟩🟨
       🟩🟩🟩🟩🟩   dkjhfksjh fkjashfjk 
     sdhkaf hjsd 108 chars
+
+triple_tweet_todo:
+  twitter_user: ricc 
+  # Katla seems indonesian..
+  full_text: |
+    Katla 23 6/6 ⬛⬛⬛🟨🟨 ⬛🟨🟩🟨⬛ ⬛🟩🟩⬛⬛ ⬛🟩🟩⬛⬛ ⬛🟩🟩⬛🟩 🟩🟩🟩🟩🟩 
+    Wordle 238 5/6 ⬛🟨⬛⬛⬛ ⬛🟨🟨⬛⬛ 🟨🟩⬛🟩⬛ ⬛🟩🟨🟩⬛ 🟩🟩🟩🟩🟩 
+    Katapat 21 4/6 ⬛⬛🟨🟨⬛ 🟨🟩⬛🟩⬛ 🟩🟩⬛🟩🟩 🟩🟩🟩🟩🟩
+
+wordlede_works:
+  twitter_user: ricc 
+  full_text: |
+     wordle-spielen.deWORDLE🇩🇪 376 5/6
+     ⬜⬜🟨🟨⬜🟩🟩⬜⬜⬜🟩🟩⬜🟩⬜🟩🟩⬜🟨🟨🟩🟩🟩🟩🟩
+     by @dewordle #twitterparser
+
+spanish_no_day_dammit:
+  twitter_user: ricc 
+  full_text: |
+      I guessed this Spanish 5-letter word in 4/6 tries.
+      ⬛⬛🟩🟨⬛⬛🟩🟩🟨⬛🟩🟩🟩⬛🟩🟩🟩🟩🟩🟩
+      Can you guess this word? 
+      https://wordlegame.org/wordle-in-spanish?challenge=cGVycm8 
+      https://wordlegame.org/wordle-in-spanish 
+      #twitterparser note that the day is NOT matched here DAMN it.
+
+nerdle_sample:
+  twitter_user: ricc
+  full_text: |
+    nerdlegame 24 4/6⬛⬛⬛🟪⬛🟪🟪⬛🟩🟩🟩🟪⬛🟩⬛🟪🟩🟩🟩⬛🟩🟩⬛🟩🟩🟩🟩🟩🟩🟩🟩🟩
+    https://nerdlegame.com #nerdle #twitterparser #twitterparsed injecting for v0.15 

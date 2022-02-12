@@ -27,7 +27,7 @@ namespace :db do
     raise "Funge solo in TEST!!" unless Rails.env == "test"
 
     write_entity_cardinalities
-    envputs 'Calling post-cretion callbacks..'
+    envputs 'Calling post-creation callbacks..'
     Tweet.all.each {|t| t._run_create_callbacks}
     write_entity_cardinalities
 
@@ -37,12 +37,25 @@ namespace :db do
     envputs "Twitter types: #{tweet_types}"
     envputs " == WordleTweets =="
     WordleTweet.all.each { |wt|
-      addon = wt.wordle_type.to_s == '' ? "[more info] #{wt.tweet.full_text}" : ''
+      bad_type = wt.wordle_type.to_s.in? ['', 'unknown_v2']
+      addon = bad_type ? "[more info] '#{wt.tweet.full_text.gsub("\n",'')}'" : ''
       envputs "+ [#{wt.valid? ? :OK : :INVALID }] #{wt.wordle_type} #{wt}#{addon}"
     }
     # before do
     #   order.perform_callbacks
     # end
+  end
+
+
+  desc "Load configuration file for Wordle.."
+  task wordle_config: :environment do
+    envputs 'Showing WordleConfig YAML: WORDLE_REGEXES'
+    envputs WORDLE_REGEXES
+    WORDLE_REGEXES.each{ |conf| 
+      #envputs "Parsing conf (class: #{conf.class}): #{conf}" 
+      envputs "#{conf[:return] rescue :ret} - #{conf[:url] rescue :error}"
+      raise "Wrong class should he a hash, not: #{conf.class}" unless conf.is_a?(Hash)
+    }
   end
 
 end

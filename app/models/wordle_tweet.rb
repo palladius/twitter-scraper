@@ -80,22 +80,50 @@ class WordleTweet < ApplicationRecord
     save
   end
 
+# Regexes in order... so WORDLE shoudl be LAST
+# moved to YAML :) -> config/wordle-regexes.yml
 
+def self.extended_wordle_match_type(text)
+  #wordle_regexes = Rails.application.config_for(:wordle_regexes, env: "default")
+
+  # before searching like crazy i make sure some initisal regex is matched :)
+  unless text.match?(/\d+ [123456X]\/6/i)
+    warn "No 123 X/6 found - skipping: #{text}"
+    return nil
+  end
+
+  #p WORDLE_REGEXES
+  WORDLE_REGEXES.each{|h|
+    #p "+ First hash: ", h
+    raise "Missing fundamental Key: RETURN for #{h}" unless h.key?(:return)
+    h[:regexes].each {|regex| 
+      #puts "DEB: Checking regex #{regex}.."
+      return h[:return].to_sym if text.match?(regex)
+    }
+  }
+  return :unknown_v2
+end
 
 ###### STATIC METHODS ###
 
   # returns TWO things: matches and id of
   # TODO(ricc): messo parole che parsa meglio ma poi dila non parsa bene non so perche..
-  def self.extended_wordle_match_type(text,
+  def self.extended_wordle_match_type_old(text,
     include_very_generic = true,
     exclude_wordle_english_for_debug=false,
     include_only_italian_for_debug=false)
+
+    # first obvious check - make sure it has a
+    unless text.match?(/\d+ [123456X]\/6/i)
+      warn "No 123 X/6 found - skipping: #{text}"
+      return nil
+    end
 
     ## ITALIAN START
 
     # ParFlag of Italyle 369 3/6
     # Par🇮🇹l matches  /Par..le/i
-    return :wordle_it  if text.match?(/Par..le \d+ [123456X]\/6/i)
+    #return :wordle_it  if text.match?(/Par..le \d+ [123456X]\/6/i)
     return :wordle_it  if text.match?(/Par🇮🇹le \d+ [123456X]\/6/i)
 
       # ParFlag of Italyle 369 3/6
@@ -103,9 +131,9 @@ class WordleTweet < ApplicationRecord
       return :wordle_it  if text.match?(/Par.+le \d+ [123456X]\/6/i)
       # Pietro version Par🇮🇹le 370 1/6 🟩🟩🟩🟩🟩
       # testiamo per poco il 1/2
-      return :wordle_it4_3chars  if text.match?(/Par...le \d+ [123456X]\/6/i)
-      return :wordle_it2_ciofeco  if text.match?(/Par🇮🇹le \d+ .\/6/i)
-      return :wordle_it3_removeme  if text.match?(/par.+le \d+ .\/6/i)
+      return :wordle_it  if text.match?(/Par...le \d+ [123456X]\/6/i)
+      return :wordle_it  if text.match?(/Par🇮🇹le \d+ .\/6/i)
+      return :wordle_it  if text.match?(/par.+le \d+ .\/6/i)
 
     return :wordle_it  if text.match?(/Wordle \(IT\).*\d+ [123456X]\/6/i)
       
@@ -132,7 +160,15 @@ class WordleTweet < ApplicationRecord
 
     return :wordle_ko  if text.match?(/#Korean #Wordle .* \d+ .\/6/i)
 
-
+    # Indonesian: Katla: https://katla.vercel.app/
+#     if (
+#         text.match?(/katla \d+ [123456X]\/6/i) #or 
+# #        text.match?(/ \d+ [123456X]\/6.*katla.vercel.app /i) 
+#     ) { 
+#         return :katla 
+#     } 
+    return :katla if text.match?(/katla \d+ [123456X]\/6/i)
+    # malayisian
     return :katapat if text.match? /Katapat \d+ [123456X]\/6/i 
 
 
@@ -245,5 +281,5 @@ class WordleTweet < ApplicationRecord
     denominator = distribution_arr.map{|score,card| card}.sum
     numerator * 1.0 / denominator
   end
+
 end
-# (Irina, Wurundjeri Land ☀️🌧❄️🍂🚃

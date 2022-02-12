@@ -1,0 +1,66 @@
+# see https://bloggie.io/@kinopyo/rails-the-convenient-way-to-load-custom-configuration-yaml-file
+# This is parsed in config/initializers/riccardo.rb and the default WORDLE is added to the end to guarantee its parsed last
+# (catch-all one). Note iof you change schema you need to change THAT as well. If this becomes a problem, just add an empy weight which default to 100
+# and give 1000 to dflt worlde..
+default: &default
+  - url: 'https://pietroppeter.github.io/wordle-it/'
+    lang: it 
+    return: wordle_it 
+    regexes:
+    - "Par🇮🇹le"
+    - "Par.+le"
+  - url: todolemot
+    regexes:
+      -  "Le Mot \\(@WordleFR\\)" # we need to regexify the parenthesis - todo debug
+      -  "@WordleFR"
+    lang: fr
+    return: wordle_fr
+  - url: 'http://term.ooo'
+    regexes:
+      - "term.ooo"
+    lang: pt
+    return: wordle_pt
+  - # Lewdle
+    url: 'https://www.lewdlegame.com/'
+    regexes:
+      - "lewdle \\d"
+    lang: en
+    return: lewdle
+  - url: 'https://wordle.uber.space/' # ex wordle-spielen.de
+    regexes: 
+      - "wordle-spielen.de"
+      - "wordle.uber.space"
+      - '@dewordle'
+      - 'WORDLE🇩🇪 '
+    lang: de 
+    return: wordle_de
+  - return: nerdlegame
+    url: https://nerdlegame.com/
+    regexes: 
+      - "nerdlegame"
+    lang: math
+  - return: katapat
+    url: todo katapat
+    regexes:
+    - katapat
+    lang: ms # MALAY type of malysian yep there are two :) 
+
+# TODO   https://wordlegame.org/wordle-in-spanish 
+
+
+development:
+  <<: *default  
+production:
+  <<: *default  
+test:
+  <<: *default  
+  #timeout: 5000
+addon_in_the_end:
+  - # Wordle the most famous one
+    url: 'https://www.nytimes.com/games/wordle/'
+    # used to be https://www.powerlanguage.co.uk 
+    regexes:
+      - "wordle"
+      - "🟩🟩🟩🟩🟩"
+    lang: en
+    return: wordle_en

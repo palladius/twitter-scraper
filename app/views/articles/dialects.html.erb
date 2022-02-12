@@ -1,0 +1,42 @@
+
+<% distribution_hash = WordleTweet.limit(10).group(:wordle_type).count %>
+<h1>Dialects</h1>
+
+<p>
+TODO put here all existing dialects (language, types) and some stats on them.
+WORDLE_REGEXES
+</p>
+
+
+<table>
+    <tr>
+        <th>Name
+        <th>Lang
+        <th>URL
+        <th>How many
+        <th>regexes
+        <th>debug
+
+<% WORDLE_REGEXES.each do |wr| %>
+    <tr>
+        <td><%= wr[:return] rescue :boh %>
+        <td><%= wr[:lang] rescue :boh %>
+        <td><%= link_to wr[:url],wr[:url] rescue :boh %>
+        <td><b><%= distribution_hash.fetch(wr[:return] , :mah) rescue :boh %></b>        
+        <td class="code" ><%= wr[:regexes] rescue :boh %>
+        <td  ><%= wr rescue :boh %>
+        
+<% end %>
+</table>
+
+<p>Full distribution: 
+
+<pre><%= distribution_hash.to_s.gsub(", ",",\n") %></pre>
+
+</p>
+
+<p>Missing ones: 
+
+<pre><%= (distribution_hash.keys -  WORDLE_REGEXES.map{|x| x[:return] rescue nil })  %></pre>
+
+</p>
