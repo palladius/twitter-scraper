@@ -4,6 +4,14 @@ def envputs(s)
   puts "[#{Rails.env}] #{s}"
 end
 
+
+def yellow(s)
+  "\e[1;33m#{s}\e[0m"
+end
+def white(s)
+  "\e[1;37m#{s}\e[0m"
+end
+
 def write_entity_cardinalities()
   t0 = Time.now
   envputs "ENV:     #{Rails.env}     BEGIN=#{t0}"
@@ -39,9 +47,7 @@ namespace :db do
     
     envputs " == WordleTweets =="
     WordleTweet.all.each { |wt|
-      bad_type = wt.wordle_type.to_s.in? ['', 'unknown_v2']
-      addon = bad_type ? "[BAD] '#{wt.tweet.full_text.gsub("\n",'')}'" : ''
-      #envputs "+ [#{wt.valid? ? :OK : :INVALID }] #{wt.flag} #{wt.wordle_type} day=#{wt.parse_incrementalday_from_text}#{addon}"
+      envputs "+ [#{wt.valid? ? :OK : :INVALID }] #{wt.flag} T='#{yellow wt.wordle_type}' day=#{white wt.parse_incrementalday_from_text} expected_is=#{yellow(wt.tweet.internal_stuff) rescue :nada}"
     }
     puts("WType: ", WordleTweet.all.map{|wt| wt.wordle_type}.join(", "))
     puts("Flags: ", WordleTweet.all.map{|wt| wt.flag}.join(", "))
@@ -49,7 +55,7 @@ namespace :db do
     WordleTweet.all.each { |wt|
       #bad_type = wt.wordle_type.to_s.in? ['', 'unknown_v2']
       unless wt.wordle_type.in?(WordleTweet.acceptable_types)
-        envputs "[BAD] #{wt.flag} type='#{wt.wordle_type}' score=#{wt.score} day='#{wt.parse_incrementalday_from_text}' TEXT=#{ wt.tweet.full_text.gsub("\n",'') }"
+        envputs "[BAD] #{wt.flag} type='#{yellow  wt.wordle_type}' score=#{yellow wt.score} day='#{yellow wt.parse_incrementalday_from_text}' MagicInfo='#{yellow(wt.tweet.internal_stuff) rescue :nada}' TEXT=#{ wt.tweet.full_text.gsub("\n",'') }"
       end
     }
     # before do

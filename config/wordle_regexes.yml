@@ -24,6 +24,7 @@ default: &default
     url: 'https://www.lewdlegame.com/'
     regexes:
       - "lewdle \\d"
+      - Lewdle
     lang: en
     return: lewdle
   - url: 'https://wordle.uber.space/' # ex wordle-spielen.de
@@ -32,6 +33,7 @@ default: &default
       - "wordle.uber.space"
       - '@dewordle'
       - 'WORDLE🇩🇪 '
+      - 'wordle-spielen.de'
     lang: de 
     return: wordle_de
   - return: nerdlegame
@@ -53,9 +55,11 @@ default: &default
     solutions:
       '23': bison
     lang: ms # MALAY again, says translate: bison: banteng liar, terdapat di Amerika Utara, tengkuknya berbulu lebat, berkepala besar, bertanduk kecil, dan berpunuk besar; Bison amerikanus
-
-# TODO   https://wordlegame.org/wordle-in-spanish 
-
+  - return: taylordle
+    url: https://www.taylordle.com/
+    regexes:
+    - taylordle 
+    lang: en
 
 development:
   <<: *default  
@@ -65,18 +69,18 @@ test:
   <<: *default  
   #timeout: 5000
 addon_in_the_end:
-  - url: https://wordlegame.org/wordle-in-spanish
+  - url: 'https://wordlegame.org/wordle-in-spanish'
     regexes:
-     - "https://wordlegame.org/wordle-in-spanish"
+     - "wordlegame.org\\/wordle-in-spanish"
      - "I guessed this Spanish 5-letter word in"
     lang: es
-    return: wg_spanish
+    return: wg_spanish_renmoveme
   - url: https://wordlegame.org/wordle-in-italian
     regexes:
-     - "https://wordlegame.org/wordle-in-italian"
+     - "wordlegame.org\\/wordle-in-italian"
      - "I guessed this Italian 5-letter word in"
     lang: it
-    return: wg_italian
+    return: wg_italian_renmoveme
 
   - # Wordle the most famous one
     url: 'https://www.nytimes.com/games/wordle/'

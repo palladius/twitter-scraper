@@ -27,6 +27,7 @@
 
 wordlept:
   twitter_user: two
+  internal_stuff: 'type and day should be wordle_pt // 40'
   full_text: |
     joguei http://term.ooo #40 6/6
       ⬛⬛⬛⬛🟨
@@ -41,6 +42,7 @@ wordlept:
 
 wordleit:
   twitter_user: ita
+  internal_stuff: type and day should be wordle_it // 273
   full_text: |
     Wordle (IT) 237 4/6
 
@@ -57,10 +59,11 @@ wordleit:
 
 parole1:
   twitter_user: one
+  internal_stuff: type and day should be wordle_it // 275
   full_text: |
     I got the Italian Wordle (Parole) in 3 goes today!
 
-    Par🇮🇹le 375 3/6
+    Par🇮🇹le 275 3/6
 
     ⬜🟩⬜⬜🟩
     ⬜🟩⬜🟨🟩
@@ -69,6 +72,7 @@ parole1:
     Took me 5 goes on original (English) Wordle
 wordleit2:
   twitter_user: ita
+  internal_stuff: type and day should be wg_italian // cHVudG8
   full_text: |
     guessed this Italian 5-letter word in 4/6 tries.
       🟨🟨⬛⬛⬛
@@ -82,6 +86,7 @@ wordleit2:
 wordle:
   twitter_user: two
   import_version: 42
+  internal_stuff: type and day should be wordle // 237
   import_notes: doesnt seem to work
   twitter_id: boh
   json_stuff: |
@@ -103,6 +108,7 @@ wordle:
 
 lewdle:
   twitter_user: one
+  internal_stuff: type and day should be lewdle // 24
   full_text: |
     Lewdle 24 5/6
     🟩⬛⬛⬛⬛
@@ -116,18 +122,15 @@ lewdle:
 
 wordlefr:
   twitter_user: two
+  internal_stuff: type and day should be wordle_fr // 27
   full_text: |
-    Lewdle 1789 5/6 wordlefr
-    todo riccardo find a real one
-        🟩⬛⬛⬛⬛
-    🟩⬛⬛⬛🟩
-    🟩⬛⬛⬛🟩
-    ⬛⬛⬛⬛🟩
-    🟩🟩🟩🟩🟩
+    #lemot #wordle Le Mot (@WordleFR) #27 3/6 
+    ⬛⬛🟨🟨🟨 ⬛🟩🟩🟩⬛ 🟩🟩🟩🟩🟩 https://t.co/EzLADKVI83
 
 wordlegame_es:
   # https://twitter.com/sreccardo/status/1492182204276948996
   twitter_user: ricc
+  internal_stuff: type and day should be wg_spanish // Zm9uZG8
   full_text: |
     I guessed this Spanish 5-letter word in 6/6 tries.
 
@@ -143,6 +146,7 @@ wordlegame_es:
 
 wordlegame_pt:
   twitter_user: ricc
+  internal_stuff: type and day should be wg_portuguese // ZmlxdWU
   full_text: |
     I guessed this Portuguese 5-letter word in 4/6 tries.
 
@@ -158,8 +162,9 @@ wordlegame_pt:
 
 retmooo:
   twitter_user: ricc
+  internal_stuff: 'type and day should be wordle_pt // 42'
   full_text: |
-    joguei term.ooo #40 X/6
+    joguei term.ooo #42 X/6
 
     ⬛⬛🟨🟨🟨
     🟨🟨🟨⬛⬛
@@ -171,6 +176,7 @@ retmooo:
 # https://twitter.com/palladius/status/1492243287436054530
 taylordle:
   twitter_user: ricc 
+  internal_stuff: type and day should be taylordle // 14
   full_text: |
     Taylordle 14 5/6
 
@@ -182,6 +188,7 @@ taylordle:
 
 katapat:
   twitter_user: ricc 
+  internal_stuff: type and day should be katapat // 20
   full_text: |
     Katapat 20 6/6 
       ⬜⬜⬜⬜⬜
@@ -195,6 +202,7 @@ katapat:
 triple_tweet_todo:
   twitter_user: ricc 
   # Katla seems indonesian..
+  internal_stuff: type and day should be katla // 23 TODO triple fichissimo
   full_text: |
     Katla 23 6/6 ⬛⬛⬛🟨🟨 ⬛🟨🟩🟨⬛ ⬛🟩🟩⬛⬛ ⬛🟩🟩⬛⬛ ⬛🟩🟩⬛🟩 🟩🟩🟩🟩🟩 
     Wordle 238 5/6 ⬛🟨⬛⬛⬛ ⬛🟨🟨⬛⬛ 🟨🟩⬛🟩⬛ ⬛🟩🟨🟩⬛ 🟩🟩🟩🟩🟩 
@@ -202,6 +210,7 @@ triple_tweet_todo:
 
 wordlede_works:
   twitter_user: ricc 
+  internal_stuff: type and day should be wordle_de // 376
   full_text: |
      wordle-spielen.deWORDLE🇩🇪 376 5/6
      ⬜⬜🟨🟨⬜🟩🟩⬜⬜⬜🟩🟩⬜🟩⬜🟩🟩⬜🟨🟨🟩🟩🟩🟩🟩
@@ -209,6 +218,7 @@ wordlede_works:
 
 spanish_no_day_dammit:
   twitter_user: ricc 
+  internal_stuff: type and day should be wg_spanish // cGVycm8
   full_text: |
       I guessed this Spanish 5-letter word in 4/6 tries.
       ⬛⬛🟩🟨⬛⬛🟩🟩🟨⬛🟩🟩🟩⬛🟩🟩🟩🟩🟩🟩
@@ -219,6 +229,7 @@ spanish_no_day_dammit:
 
 nerdle_sample:
   twitter_user: ricc
+  internal_stuff: type and day should be nerdlegame // 24
   full_text: |
     nerdlegame 24 4/6⬛⬛⬛🟪⬛🟪🟪⬛🟩🟩🟩🟪⬛🟩⬛🟪🟩🟩🟩⬛🟩🟩⬛🟩🟩🟩🟩🟩🟩🟩🟩🟩
     https://nerdlegame.com #nerdle #twitterparser #twitterparsed injecting for v0.15 
@@ -226,6 +237,7 @@ nerdle_sample:
 russian_polymoprhic:
   twitter_user: one
   # https://twitter.com/arthurwcunha/status/1491630879642423298
+  internal_stuff: type and day should be wg_russian // 0LLQvtC00LrQsA
   full_text: |
     VOCÊS TEM MUITO O QUE APRENDER COMIGO!
 
@@ -236,3 +248,15 @@ russian_polymoprhic:
 
     Can you guess this word? 
     https://wordlegame.org/wordle-in-russian?challenge=0LLQvtC00LrQsA
+
+# https://twitter.com/i/web/status/1489849938037125120
+german_boh: 
+  twitter_user: ricc 
+  internal_stuff: type and day should be wg_german // ZHJlY2s
+  full_text: |
+     I guessed this German 5-letter word in 4/6 tries. ⬛🟨⬛⬛⬛
+     ⬛⬛⬛🟨🟩
+     ⬛🟩🟩⬛🟩
+     🟩🟩🟩🟩🟩
+     Can you guess this word? 
+     https://wordlegame.org/wordle-in-german?challenge=ZHJlY2s https://wordlegame.org/wordle-in-german     #Wordle #twitterparser

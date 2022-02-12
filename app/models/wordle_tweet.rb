@@ -110,17 +110,18 @@ def self.extended_wordle_match_type(text)
     raise "Missing fundamental Key: RETURN for #{h}" unless h.key?(:return)
     h[:regexes].each {|regex| 
       #puts "DEB: Checking regex #{regex}.."
-      return h[:return].to_sym if text.match?(regex)
+      return h[:return].to_sym if text.match?(/#{regex}/)
     }
   }
 
   # Case 2: Lets now manage 
   # - https://wordlegame.org/wordle-in-english-uk
   # - https://wordlegame.org/wordle-in-russian
-  polymorphic_match = text.match(/wordlegame.org\/wordle-in-([a-z-]+)/i)
+#  polymorphic_match = text.match(/wordlegame.org\/wordle-in-([a-z-]+)/i)
+  polymorphic_match = text.match(/wordlegame.org\/wordle-in-([a-zA-Z-]+)/i)
   if polymorphic_match
     parsed_language =  polymorphic_match[1] rescue :error 
-    puts "[extended_wordle_match_type v2] Matched string: '#{parsed_language}'"
+    puts "[extended_wordle_match_type v2] Matched string: '#{yellow parsed_language}'"
     return "wg_#{parsed_language}".to_sym # :wg_spanish
     return :todo
   end
