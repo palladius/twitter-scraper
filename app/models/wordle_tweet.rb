@@ -20,6 +20,7 @@ class WordleTweet < ApplicationRecord
   validates_presence_of :score
 
   DAY_AND_SCORE_REGEX = /\d+ [123456X]\/6/ # most people use this, eg "123 4/6" or "#123 X/6".
+  WORDLEGAME_LIST = %w{ spanish russian portuguese german italian kids english_uk }
 
 
   def to_s
@@ -63,6 +64,13 @@ class WordleTweet < ApplicationRecord
 
   def nice_wordle_type
     "#{flag} #{wordle_type}"
+  end
+
+  def extract_colored_squared
+    ["TODO(ricc) should look like this, maybe even possibly:",
+    "🟩🟩🟩🟩⬜",
+    "🟩🟩🟩🟩🟩"
+  ]
   end
 
   # this parses and SAVES it/. So if you had a mistake you're writing it WRONG :/
@@ -156,7 +164,7 @@ def self.extended_wordle_match_type_new_ancora_buggy_but_scalable(text)
   polymorphic_match = text.match(/wordlegame.org\/wordle-(in|for)-([a-zA-Z-]+)/i)
   if polymorphic_match
     parsed_language =  polymorphic_match[2] rescue :error 
-    puts "[extended_wordle_match_type v2] Matched string: '#{yellow parsed_language}'"
+    #puts "[extended_wordle_match_type v2] Matched string: '#{yellow parsed_language}'"
     return "wg_#{parsed_language}".to_sym # :wg_spanish
     return :todo
   end
@@ -225,15 +233,10 @@ end
 
     return :nerdlegame if text.match?(/nerdlegame \d+ .\/6/i)
 
+    return :worldle if text.match?(/worldle.teuteuf.fr/i) and text.match?(DAY_AND_SCORE_REGEX)
+
     return :wordle_ko  if text.match?(/#Korean #Wordle .* \d+ .\/6/i)
 
-    # Indonesian: Katla: https://katla.vercel.app/
-#     if (
-#         text.match?(/katla \d+ [123456X]\/6/i) #or 
-# #        text.match?(/ \d+ [123456X]\/6.*katla.vercel.app /i) 
-#     ) { 
-#         return :katla 
-#     } 
     return :katla if text.match?(/katla \d+ [123456X]\/6/i)
     # malayisian
     return :katapat if text.match? /Katapat \d+ [123456X]\/6/i 
@@ -246,10 +249,13 @@ end
     # wg_italian
     # wg_spanish
     # wg_XXX
-    m = text.match(/https:\/\/wordlegame.org\/wordle-in-([a-z]+)\?/)
+    m = text.match(/https:\/\/wordlegame.org\/wordle-(in|for)-([-a-z]+)\?/)
     if m
-      puts "[extended_wordle_match_type] Matched string: #{m[1]}"
-      return "wg_#{m[1] rescue :error }".to_sym # :wg_spanish
+      # Examples with dash: 
+      # https://wordlegame.org/wordle-for-kids?challenge=c2Nvd2w 
+      # https://wordlegame.org/wordle-in-english-uk?challenge=Y2FtZWw 
+      language = (m[2] rescue "error").gsub("-","_")
+      return "wg_#{language}".to_sym # :wg_spanish or :wg_english_uk
     end
 
     # Generic wordle - might want to remove in the future
@@ -313,6 +319,8 @@ end
     case wordle_match_type.to_sym
       when :wordle_en
         "🇬🇧"
+      when :wg_english_uk
+        "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
       when :wordle_it
         "🇮🇹"
       when :wg_italian
@@ -347,17 +355,21 @@ end
         "🛏️"
       when :taylordle
         "💕"
+      when :worldle
+        "🌎"
+      when :wg_kids
+        "🧒"
       when :other
         "❓"
       else # question mark, also try: 🤔 or 👽 Alien
         puts "[flag_by_type] WARN: Unknown Type: #{wordle_match_type}"
-        "⁉️"
+        return "⁉️"
       end
   end
 
   def self.acceptable_types
     static_acceptable = WORDLE_REGEXES.map{|h| h[:return]}
-    acceptables = static_acceptable + %w{ wg_spanish wg_russian wg_portuguese wg_german wg_italian }
+    acceptables = static_acceptable + WORDLEGAME_LIST.map{|x| "wg_#{x}"}
     acceptables.sort
   end
 

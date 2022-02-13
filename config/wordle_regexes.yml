@@ -40,7 +40,7 @@ default: &default
     url: https://nerdlegame.com/
     regexes: 
       - "nerdlegame"
-    lang: math
+    lang: special/math
   - return: katapat
     url: https://www.projecteugene.com/katapat.html
     regexes:
@@ -65,6 +65,11 @@ default: &default
     regexes:
     - wordle.danielfrg.com
     lang: es
+  - return: worldle
+    url: https://worldle.teuteuf.fr 
+    lang: special/geo
+    regexes:
+    - worldle.teuteuf.fr
 
 development:
   <<: *default  
@@ -76,18 +81,23 @@ test:
 addon_in_the_end:
   - url: 'https://wordlegame.org/wordle-in-spanish'
     regexes:
-     - "wordlegame.org\\/wordle-in-spanish"
+     - "wordlegame.org.wordle-in-spanish"
      - "I guessed this Spanish 5-letter word in"
     lang: es
     return: wg_spanish_renmoveme
   - url: https://wordlegame.org/wordle-in-italian
     regexes:
-     - "wordlegame.org\\/wordle-in-italian"
+     - "wordlegame.org.wordle-in-italian"
      - "I guessed this Italian 5-letter word in"
      - guessed this Italian 5-letter
     lang: it
     return: wg_italian_renmoveme
-
+  # - url: todo 
+  #   regexes:
+  #   #- "I guessed this .*5-letter word in ./6 tries"
+  #   - "5-letter word in 4/6 tries"
+  #   lang: en
+  #   return: wg_todo_polymoprhic
   - # Wordle the most famous one
     url: 'https://www.nytimes.com/games/wordle/'
     # used to be https://www.powerlanguage.co.uk 

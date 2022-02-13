@@ -49,6 +49,12 @@ class Tweet < ApplicationRecord
     wt_stats
   end 
 
+  # borrowed the second part from SO: https://stackoverflow.com/questions/16530038/how-to-remove-non-printable-invisible-characters-in-ruby
+  def printable_text
+    #"[PrinTbl]" + 
+    full_text.gsub("\n",'').gsub(/[^[:print:]]/,'.').gsub(/\s+/, ' ')
+  end
+
   def url
     # as per https://stackoverflow.com/questions/23008129/how-to-construct-a-url-from-a-twitter-direct-message-id
     # eg https://twitter.com/palladius/status/1490373849841557509

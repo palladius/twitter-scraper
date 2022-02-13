@@ -35,7 +35,7 @@ namespace :db do
 
   def populate_in_test_old_vs_new(bool)
     puts ''
-    envputs "== populate_in_test(#{bool ? :NEW_SCALABLE_BUGGY : :OLD_SAME}) =="
+    envputs(white("== populate_in_test(#{yellow(bool ? :NEW_SCALABLE_BUGGY : :OLD_SAME)}) =="))
     #write_entity_cardinalities
     #envputs 'Calling post-creation callbacks (which doesnt happen by defaault with TEST fixtures for efficiency reasons)..'
     #Tweet.all.each {|t| t._run_create_callbacks}
@@ -64,7 +64,8 @@ namespace :db do
       #bad_type = wt.wordle_type.to_s.in? ['', 'unknown_v2']
       unless wt.wordle_type.in?(WordleTweet.acceptable_types)
         envputs "[BAD1] #{wt.flag} type='#{yellow  wt.wordle_type}' score=#{yellow wt.score} day='#{yellow wt.parse_incrementalday_from_text}' MagicInfo='#{yellow(wt.tweet.internal_stuff) rescue :nada}'"
-        envputs "[BAD2] TXT='#{white wt.tweet.full_text.gsub("\n",'') }'"
+        # make it printable: .gsub(/[^[:print:]]/,'.')
+        envputs "[BAD2] TXT='#{white wt.tweet.printable_text }'"
         n_errors += 1
         wt.validate
         n_invalids += 1 unless wt.valid?
@@ -78,8 +79,8 @@ namespace :db do
   task popola_test: :environment do
     raise "Funge solo in TEST!!" unless Rails.env == "test"
     envputs 'TODO(ricc): move to proper rake tests'
-    populate_in_test_old_vs_new true 
     populate_in_test_old_vs_new false 
+    populate_in_test_old_vs_new true 
   end
 
 

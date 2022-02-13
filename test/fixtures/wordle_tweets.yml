@@ -16,23 +16,23 @@
   # end
 
 
-one:
-  wordle_type: manual1_ignoreme
-  tweet: one
-  score: 2
-  wordle_date: 2022-02-05
-  wordle_incremental_day: 42
-  import_version: 1
-  import_notes: MyText
+# one:
+#   wordle_type: manual1_ignoreme
+#   tweet: one
+#   score: 2
+#   wordle_date: 2022-02-05
+#   wordle_incremental_day: 42
+#   import_version: 1
+#   import_notes: MyText
 
-two:
-  wordle_type: manual2_ignoreme
-  tweet: two
-  score: 5
-  wordle_date: 2022-02-05
-  wordle_incremental_day: 43
-  import_version: 1
-  import_notes: MyText blah
+# two:
+#   wordle_type: manual2_ignoreme
+#   tweet: two
+#   score: 5
+#   wordle_date: 2022-02-05
+#   wordle_incremental_day: 43
+#   import_version: 1
+#   import_notes: MyText blah
 
 #threea:
   #wordle_type: sobenme
