@@ -32,7 +32,7 @@ docker-push: docker-build
 
 deploy-to-cloud-run: docker-push
 	./deploy-to-cloud-run.sh
-deploy-staing-to-cloud-run: docker-push
+deploy-staging-to-cloud-run: docker-push
 	./deploy-staging-to-cloud-run.sh
 
 test-build-push-deploy:
