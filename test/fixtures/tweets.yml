@@ -303,3 +303,14 @@ wordleit_wordlegame:
   full_text: |
     I guessed this Italian 5-letter word in 3/6 tries. ⬛⬛🟨⬛🟨🟩⬛🟩🟩🟩🟩🟩🟩🟩🟩Can you guess this word? 
     https://wordlegame.org/wordle-in-italian?challenge=cGllZ2E https://wordlegame.org/wordle-in-italian  ne so a pacchi! #twitterparser
+
+worldle_geography:
+  twitter_user: ricc 
+  internal_stuff: type and day should be worldle // 23 // 2 on 2022-02-13
+  full_text: |
+        #Worldle #23 2/6
+        🟩🟩🟩🟩⬜
+        🟩🟩🟩🟩🟩
+        https://worldle.teuteuf.fr 
+
+        #twitterparser I cheated (this morning I lost after 6 but need this for the parser sorry)
