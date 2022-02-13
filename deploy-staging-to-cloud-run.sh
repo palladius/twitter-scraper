@@ -4,7 +4,6 @@ source .env
 
 #APP_VERSION=`cat VERSION`
 #MESSAGGIO_OCCASIONALE="Evidentemente funge. Sono checkato su GIC e symlinkato dentro .env dentro al mio sito github. Che figo che sono."
-#RAILS_LOG_TO_STDOUT=true
 
 # 1.3 Had to move DATABASE_URL to PROD_DATABASE_URL or DEV would pick it up and commit to PROD DB by mistake !!! (which is WAI)
 
