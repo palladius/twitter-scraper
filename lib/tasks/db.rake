@@ -33,6 +33,7 @@ namespace :db do
   desc "popola in test"
   task popola_test: :environment do
     raise "Funge solo in TEST!!" unless Rails.env == "test"
+    envputs 'TODO(ricc): move to proper rake tests'
 
     #write_entity_cardinalities
     envputs 'Calling post-creation callbacks (which doesnt happen by defaault with TEST fixtures for efficiency reasons)..'

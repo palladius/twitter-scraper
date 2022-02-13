@@ -18,6 +18,7 @@ default: &default
   - url: 'http://term.ooo'
     regexes:
       - "term.ooo"
+      - "joguei https:\/\/t.co"
     lang: pt
     return: wordle_pt
   - # Lewdle

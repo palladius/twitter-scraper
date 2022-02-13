@@ -237,10 +237,17 @@ end
   # Yellow square⬜⬜Green squareYellow square
   # ⬜⬜Green squareGreen squareGreen square
 
+  # 42 is X or NEVER
+  def score_str
+    return 'X' if score==42 
+    score.to_s 
+  end
+
   def stats
     ret = {}
     ret[:type] = wordle_type
     ret[:score_db] = score
+    ret[:score_db_s] = score_str
     ret[:score_calculated] = parse_score_from_text # might be expensive to calculate
     
     ret[:day] = parse_incrementalday_from_text

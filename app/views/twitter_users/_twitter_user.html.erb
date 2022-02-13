@@ -1,53 +1,50 @@
 <div id="<%= dom_id twitter_user %>">
-  <p>
-    <strong>Twitter Id:</strong>
-    <%= twitter_user.twitter_id %>
-  </p>
+  <h1>User @<%= twitter_user.twitter_id %></h1>
+<!-- 
   <p>
     <strong> Id:</strong>
     <%= twitter_user.id %>
   </p>
-
-  <p>
-    <strong>Name:</strong>
-    <%= twitter_user.name %>
-  </p>
-  <p>
-    <strong>Location:</strong>
-    <%= twitter_user.location %>
-  </p>
   <p>
     <strong>id_str (Proper Twitter user id, eg ricc is 17310864):</strong>
     <%= twitter_user.id_str %>
-
   </p>
+
+-->
   <p>
-    <strong>Person URL:</strong>
+    <strong><%= twitter_user.name %></strong>,  📍   <%= link_to twitter_user.location, "https://www.google.ch/maps/search/#{twitter_user.location}" %>    
+    <strong>🐦 URL:</strong>
     <%= link_to twitter_user.url, twitter_user.url %>
   </p>
 
-  <p>
-    <strong>twitter_user  id (ricc only):</strong>
-    <%= twitter_user.id %>
-  </p>
   
   <p>
-    <strong>description:</strong>
-    <%= twitter_user.description %>
+    <em>
+    "<%= twitter_user.description %>"
+    </em>
   </p>
 
+  <h1>Wordle stuff</h1>
+
   <p>
-    <strong>polyglotism:</strong>
-    <%= twitter_user.polyglotism %> 
+    Polyglotism:
+    <strong><%= twitter_user.polyglotism %></strong> 
       (<%= twitter_user.distinct_wordle_types.join(', ') %>)
   </p>
 
-  <hr/>
-  More succulent data...
+  <p>
+    <strong>#Tweets:</strong>
+    <%= twitter_user.tweets.count %>
+  </p>
+
+  <p>
+    <strong>Last Tweet:</strong>
+    <%= link_to twitter_user.tweets.last.to_s(:twitter_user), twitter_user.tweets.last %> 
+      (<%= time_ago_in_words(twitter_user.tweets.last.created_at) %>)
+  </p>
 
   <p>Average Tweet score:
     <strong>🐦 <%= twitter_user.average_score %> </strong> /     Average moves of the internet: <b><%= WordleTweet.global_average_score.round(2) %></b>
-
   </p>
 
 
@@ -70,14 +67,14 @@
 
 </table>
 
-  <p>
-    <strong>🐦 <%= twitter_user.tweets.count %> tweets</strong>
+<h2>🐦 <%= twitter_user.tweets.count %> Tweets Detail</h2>
+  <p>Interesting enoguh, I sorted them by creation date but it doesnt still seem to be in order. Funny!
+    <strong></strong>
   </p>
   <p>
-    <% twitter_user.tweets.each do |t| %>
+    <% twitter_user.tweets.sort{|t| t.created_at }.reverse.each do |t| %>
       + <%= button_to "❌ Destroy invalid", t, method: :delete unless t.valid? %>
-      <%#= t.valid? ? '✔️' : '❌' %> 
-      <%= link_to t %> <br/> 
+      <%= link_to t.to_s(:twitter_user), t %>  (<%= time_ago_in_words(t.created_at) %> ago) <br/> 
     <%end%>
   </p>
 

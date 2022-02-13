@@ -1,5 +1,19 @@
 # ricc: maps to Twitter TWEET object: https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/tweet
 
+# create_table "tweets", force: :cascade do |t|
+#   t.integer "twitter_user_id", null: false
+#   t.string "full_text"
+#   t.datetime "created_at", precision: 6, null: false
+#   t.datetime "updated_at", precision: 6, null: false
+#   t.string "import_version"
+#   t.string "import_notes"
+#   t.string "internal_stuff"
+#   t.text "json_stuff"
+#   t.string "twitter_id"
+#   t.datetime "twitter_created_at"
+#   t.index ["twitter_user_id"], name: "index_tweets_on_twitter_user_id"
+# end
+
 class Tweet < ApplicationRecord
   belongs_to :twitter_user
   #class WordleTweet < ApplicationRecord
@@ -45,10 +59,27 @@ class Tweet < ApplicationRecord
     #puts "Tweet::after_create created. Now creating Wordle brother."
     WordleTweet.create_from_tweet(tweet)
   end
+
+  def flag 
+    self.wordle_tweet.flag
+  end
   
-  def to_s
-  #  "[#{wordle_type} #{self.twitter_user}] 🏆#{wordle_tweet.score} #{excerpt}"
-    "[#{wordle_type} #{self.twitter_user}] 🏆 #{excerpt}"
+  def to_s(style=:generic)
+    # depending on conbtext i show differetn stuff
+    case style 
+      when :twitter_user 
+        # I already know the user! I won't publish it
+        "#{flag} 🏆#{wordle_tweet.score_str} for  #{wordle_tweet.wordle_incremental_day} #{excerpt}"
+      when :sobenme
+        "sobenme"
+      when :verbose
+        "((#{style})) [#{wordle_type} #{self.twitter_user}] 🏆#{wordle_tweet.score_str} #{full_text}"
+      else
+        # default
+        "[#{flag} #{self.twitter_user.ldap}] 🏆#{wordle_tweet.score_str} #{excerpt}"    
+      #  "[#{wordle_type} #{self.twitter_user}] 🏆#{wordle_tweet.score} #{excerpt}"
+      #  "[#{wordle_type} #{self.twitter_user}] 🏆 #{excerpt}"
+      end
   end
 
 end
