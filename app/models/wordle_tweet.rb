@@ -1,3 +1,20 @@
+
+  # create_table "wordle_tweets", force: :cascade do |t|
+  #   t.string "wordle_type"
+  #   t.integer "tweet_id", null: false
+  #   t.integer "score"
+  #   t.date "wordle_date"
+  #   t.string "wordle_incremental_day"
+  #   t.datetime "created_at", precision: 6, null: false
+  #   t.datetime "updated_at", precision: 6, null: false
+  #   t.string "import_version"
+  #   t.string "import_notes"
+  #   t.string "internal_stuff"
+  #   t.integer "max_tries"
+  #   t.index ["tweet_id"], name: "index_wordle_tweets_on_tweet_id"
+  # end
+
+
 class WordleTweet < ApplicationRecord
   belongs_to :tweet
   validates_presence_of :score
@@ -15,9 +32,10 @@ class WordleTweet < ApplicationRecord
     self.tweet.length
   end
 
-  def calculate_wordle_type
+  def calculate_wordle_type()
+    # TODO use internal_stuff to tweak behaviour
     WordleTweet.extended_wordle_match_type_old_ma_funge(tweet_text)
-#    WordleTweet.extended_wordle_match_type_old_ma_funge(tweet_text)
+    #WordleTweet.extended_wordle_match_type_old_ma_funge(tweet_text)
   end
 
   def parse_score_from_text
@@ -72,21 +90,24 @@ class WordleTweet < ApplicationRecord
     warn "[TEST] WordleTweet.create_from_tweet() based on tweet: #{tweet.excerpt rescue :err_excerpt}" if Rails.env == 'test'
     wt = WordleTweet.new
     wt.tweet = tweet
-    wt.import_notes = "Not sure yet I should be doing it this way.."
+    wt.import_notes = "Created on #{Time.now}"
+    wt.max_tries = 6
+    wt.internal_stuff = ''
     wt.wordle_type = wt.calculate_wordle_type
     wt.score = wt.parse_score_from_text()
     # TODO infer with some way, eg Wordle date for 232 is 5feb22.
     # wordle_date: date
     wt.wordle_incremental_day =  wt.parse_incrementalday_from_text()
     # import_version: integer
-    wt.import_version = 6 # First version
+    wt.import_version = 7 
     # CHANGELOG
+    # v7 2022-02-13 removed import notes. Added max_tries=6
+    # v6 2022-02-11 Added :taylordle plus a number of generic .
+    # v5 2022-02-10 italian version is now better.. aggregated ciofeco into normal italian as it greps many. Also introduced a new ciofeco 4 for 3 letters between PAR and LE just to test how big is the icon.
     # v1 - Uswed to be the normal one
     # v2 2022-02-06 I've added created_at to Tweet based on ORIGINAL tweet.
     # v3 2022-02-08 Now worldle_en also parses X as trial. Before it gave OTHER.
     # v4 2022-02-09 import is the same but SCORE is computed better now it supports X (score = 42).
-    # v5 2022-02-10 italian version is now better.. aggregated ciofeco into normal italian as it greps many. Also introduced a new ciofeco 4 for 3 letters between PAR and LE just to test how big is the icon.
-    # v6 2022-02-11 Added :taylordle plus a number of generic .
     # import_notes: text
     save = wt.save
     puts "DEB save issues: #{save}" unless save
@@ -98,6 +119,7 @@ class WordleTweet < ApplicationRecord
 
 def self.extended_wordle_match_type_new_ancora_buggy(text)
   #wordle_regexes = Rails.application.config_for(:wordle_regexes, env: "default")
+  puts "[deb] extended_wordle_match_type_new_ancora_buggy REMOVEME"
 
   # before searching like crazy i make sure some initisal regex is matched :)
   unless text.match?(/\d+ [123456X]\/6/i)
@@ -141,8 +163,9 @@ end
     include_only_italian_for_debug=false)
 
     # first obvious check - make sure it has a
-    unless text.match?(/\d+ [123456X]\/6/i)
-      warn "No 123 X/6 found - skipping: #{text}"
+    unless text.match?(/\d+ [123456X]\/6/i) or text.match?(/in [123456X]\/6 tries/i) 
+      #warn "No 123 X/6 found - skipping: #{text}"
+      puts "No 123 X/6 found or even - skipping: #{text}"
       return nil
     end
 
@@ -178,9 +201,10 @@ end
     return :wordle_pt  if text.match?(/term.ooo [#]\d+ [123456X]\/6/i )
 
     # I cant remember wha website was this.
-    return :wordle_de2  if text.match?(/I guessed this German 5-letter word in .\/6 tries/)
+    return :wg_german  if text.match?(/I guessed this German 5-letter word in .\/6 tries/)
     # This is better
-    return :wordle_de  if text.match?(/http:\/\/wordle-spielen.de.*\d+ .\/6/i)
+    return :wordle_de  if text.match?(/wordle-spielen.de.*\d+ .\/6/i)
+     
     return :lewdle     if text.match?(/Lewdle \d+ .\/6/)
 
     return :nerdlegame if text.match?(/nerdlegame \d+ .\/6/i)
@@ -312,7 +336,9 @@ end
   end
 
   def self.acceptable_types
-    WORDLE_REGEXES.map{|h| h[:return]}.sort
+    static_acceptable = WORDLE_REGEXES.map{|h| h[:return]}
+    acceptables = static_acceptable + %w{ wg_spanish wg_russian wg_portuguese wg_german wg_italian }
+    acceptables.sort
   end
 
 

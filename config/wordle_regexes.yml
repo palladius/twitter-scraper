@@ -34,7 +34,6 @@ default: &default
       - "wordle.uber.space"
       - '@dewordle'
       - 'WORDLE🇩🇪 '
-      - 'wordle-spielen.de'
     lang: de 
     return: wordle_de
   - return: nerdlegame
@@ -80,6 +79,7 @@ addon_in_the_end:
     regexes:
      - "wordlegame.org\\/wordle-in-italian"
      - "I guessed this Italian 5-letter word in"
+     - guessed this Italian 5-letter
     lang: it
     return: wg_italian_renmoveme
 

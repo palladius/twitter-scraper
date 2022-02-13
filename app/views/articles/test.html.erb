@@ -1,0 +1,18 @@
+<h1>Tests</h1>
+
+<p>ti postot il test.sh qui che e' piu colorato..</p>
+
+<% 
+    require 'rake' 
+    #Rake::Task['db:popola_test'].invoke 
+%>
+
+<p>
+rake db:popola_test
+</p>
+
+<%
+    raise "Funge solo in TEST!!" unless Rails.env == "test"
+
+    non ha senso deve essere fatta in test imbecille :)
+%>

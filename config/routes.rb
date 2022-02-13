@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get "/articles", to: "articles#index"
   get "/articles/stats", to: "articles#stats"
 
-  %w{ stats wordle about dialects }.each{|article_route| 
+  %w{ stats wordle about dialects test }.each{|article_route| 
     # correct POLA path
     get "/articles/#{article_route}", to: "articles##{article_route}"
     # nie to have path
