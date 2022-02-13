@@ -42,7 +42,7 @@ default: &default
       - "nerdlegame"
     lang: math
   - return: katapat
-    url: todo katapat
+    url: https://www.projecteugene.com/katapat.html
     regexes:
     - katapat
     lang: ms # MALAY type of malysian yep there are two :) 

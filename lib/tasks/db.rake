@@ -15,6 +15,9 @@ end
 def write_entity_cardinalities()
   t0 = Time.now
   envputs "ENV:     #{Rails.env}     BEGIN=#{t0}"
+  envputs "DB_ADAPTER:     #{Rails.configuration.database_configuration[Rails.env]["adapter"]}"
+  envputs "DB_CONFIG (secret!):     #{Rails.configuration.database_configuration[Rails.env]}"
+  envputs "DB_URL (secret!):     #{Rails.configuration.database_configuration[Rails.env]["url"] rescue :missing}"
   envputs "Tweets:  #{Tweet.all.count}"
   envputs "Users:   #{TwitterUser.all.count}"
   envputs "WTweets: #{WordleTweet.all.count}"

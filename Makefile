@@ -2,15 +2,20 @@
 VERSION = $(shell cat VERSION)
 
 stats:
-	rake db:sbirciatina
-	echo Rails.env | rails c
-	echo Tweet.count | rails c
-	echo TwitterUser.count | rails c
-	echo "Now Riccardo magic:"
-	echo WordleTweet.count | rails c
+	RAILS_ENV=development rake db:sbirciatina
+	RAILS_ENV=production  rake db:sbirciatina
+	RAILS_ENV=staging     rake db:sbirciatina
 
 staging-stats:
-	RAILS_ENV=staging rake db:sbirciatina
+	RAILS_ENV=staging rake db:sbirciatina || echo Error
+	@echo e ora vediamo in PROD:
+	RAILS_ENV=production rake db:sbirciatina
+
+staging-check-db:
+	RAILS_ENV=staging DATABASE_URL=postgres://twitter-scraper:MannaggiaUPatataughTwitter@34.65.100.166:5432/twitter-scraper-staging rake 
+
+prod-stats:
+	RAILS_ENV=production rake db:sbirciatina
 
 docker-build:
 	docker build -t twitter-scraper-local .
