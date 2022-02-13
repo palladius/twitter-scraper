@@ -1,5 +1,6 @@
 
 VERSION = $(shell cat VERSION)
+LOCAL_DOCKER_APP = twitter-wordle-scraper-deleteme:v$(VERSION)
 
 stats:
 	RAILS_ENV=development rake db:sbirciatina
@@ -18,14 +19,14 @@ prod-stats:
 	RAILS_ENV=production rake db:sbirciatina
 
 docker-build:
-	docker build -t twitter-scraper-local .
+	docker build -t $(LOCAL_DOCKER_APP) .
 	echo OK.
 docker-run: docker-build
-	docker run -it --env-file .env -p 8080:8080 twitter-scraper-local ./entrypoint-8080.sh
+	docker run -it --env-file .env -p 8080:8080 $(LOCAL_DOCKER_APP) ./entrypoint-8080.sh
 docker-run-bash:
-	docker run -it --env-file .env -p 8080:8080 twitter-scraper-local bash
+	docker run -it --env-file .env -p 8080:8080 $(LOCAL_DOCKER_APP) bash
 docker-push: docker-build
-	docker tag  twitter-scraper-local gcr.io/ric-cccwiki/twitter-scraper:v$(VERSION)
+	docker tag  $(LOCAL_DOCKER_APP) gcr.io/ric-cccwiki/twitter-scraper:v$(VERSION)
 	docker push gcr.io/ric-cccwiki/twitter-scraper:v$(VERSION)
 #      --add-cloudsql-instances PROJECT_ID:REGION:INSTANCE_NAME \
 #--image gcr.io/PROJECT_ID/twitter-scraper \
