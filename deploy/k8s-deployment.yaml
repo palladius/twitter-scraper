@@ -1,0 +1,31 @@
+# Generato con `skaffold init --generate-manifests`: figata!
+apiVersion: v1
+kind: Service
+metadata:
+  name: twitter-scraper-skaffold
+  labels:
+    app: twitter-scraper-skaffold
+spec:
+  clusterIP: None
+  selector:
+    app: twitter-scraper-skaffold
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: twitter-scraper-skaffold
+  labels:
+    app: twitter-scraper-skaffold
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: twitter-scraper-skaffold
+  template:
+    metadata:
+      labels:
+        app: twitter-scraper-skaffold
+    spec:
+      containers:
+      - name: twitter-scraper-skaffold
+        image: twitter-scraper-skaffold
