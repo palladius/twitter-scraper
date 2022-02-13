@@ -17,13 +17,13 @@
   # end
 
 
-# one:
-#   twitter_user: one
-#   full_text: MyString
+one:
+  twitter_user: one
+  full_text: MyString
 
-# two:
-#   twitter_user: two
-#   full_text: MyString blah blah Par🇮🇹le 237 6/6  ⬛🟨⬛⬛🟨  🟩🟩🟩🟩🟩
+two:
+  twitter_user: two
+  full_text: MyString blah blah Par🇮🇹le 237 6/6  ⬛🟨⬛⬛🟨  🟩🟩🟩🟩🟩
 
 wordlept:
   twitter_user: two
