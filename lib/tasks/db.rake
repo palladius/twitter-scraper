@@ -30,16 +30,18 @@ namespace :db do
 
   end
 
-  desc "popola in test"
-  task popola_test: :environment do
-    raise "Funge solo in TEST!!" unless Rails.env == "test"
-    envputs 'TODO(ricc): move to proper rake tests'
-
+  def populate_in_test_old_vs_new(bool)
+    puts ''
+    envputs "== populate_in_test(#{bool ? :NEW_SCALABLE_BUGGY : :OLD_SAME}) =="
     #write_entity_cardinalities
-    envputs 'Calling post-creation callbacks (which doesnt happen by defaault with TEST fixtures for efficiency reasons)..'
-    Tweet.all.each {|t| t._run_create_callbacks}
-    #write_entity_cardinalities
-
+    #envputs 'Calling post-creation callbacks (which doesnt happen by defaault with TEST fixtures for efficiency reasons)..'
+    #Tweet.all.each {|t| t._run_create_callbacks}
+    #envputs yellow("TODO ricc change callback with create_from_tweet(tweet, opts cangiante)")
+    Tweet.all.each {|t| 
+      WordleTweet.create_from_tweet(t, :try_new => bool) 
+      #t._run_create_callbacks}
+    #
+    }
     # Types: WordleTweet.group(:wordle_type).count
 
     tweet_types = WordleTweet.group(:wordle_type).count
@@ -48,11 +50,11 @@ namespace :db do
     
     envputs " == WordleTweets =="
     WordleTweet.all.each { |wt|
-      envputs "+ [#{wt.valid? ? :OK : :INVALID }] #{wt.flag} T='#{yellow wt.wordle_type}' day=#{white wt.parse_incrementalday_from_text} expected_is=#{yellow(wt.tweet.internal_stuff) rescue :nada}"
+      envputs "+ [#{wt.valid? ? :OK : :INVALID }] #{wt.flag} T='#{yellow wt.wordle_type}' day=#{white wt.parse_incrementalday_from_text} expected_is=#{yellow(wt.tweet.internal_stuff) rescue :nada}" unless wt.valid?
     }
     puts("WT types: #{ WordleTweet.all.map{|wt| wt.wordle_type}.join(", ") }")
     puts("WT Flags: #{WordleTweet.all.map{|wt| wt.flag}.join(", ")}")
-    envputs " == WordleTweets ERRORS =="
+    envputs " == WordleTweets ERRORS [new=#{bool}]=="
     n_errors = 0
     n_invalids = 0
     WordleTweet.all.each { |wt|
@@ -66,9 +68,15 @@ namespace :db do
       end
     }
     puts "END. Total Errors: #{yellow n_errors}/#{WordleTweet.all.count}. taotal invalids: #{white n_invalids}"
-    # before do
-    #   order.perform_callbacks
-    # end
+
+  end 
+
+  desc "popola in test"
+  task popola_test: :environment do
+    raise "Funge solo in TEST!!" unless Rails.env == "test"
+    envputs 'TODO(ricc): move to proper rake tests'
+    populate_in_test_old_vs_new true 
+    populate_in_test_old_vs_new false 
   end
 
 

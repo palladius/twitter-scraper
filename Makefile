@@ -2,6 +2,7 @@
 VERSION = $(shell cat VERSION)
 
 stats:
+	rake db:sbirciatina
 	echo Rails.env | rails c
 	echo Tweet.count | rails c
 	echo TwitterUser.count | rails c

@@ -35,11 +35,17 @@ class WordleTweet < ApplicationRecord
     self.tweet.length
   end
 
-  def calculate_wordle_type()
+  def extended_wordle_match_type(txt, config = {})
+    #config[] || = false
+    try_new = config.fetch(:try_new, false)
     # TODO use internal_stuff to tweak behaviour
-    WordleTweet.extended_wordle_match_type_old_ma_funge(tweet_text)
-    #WordleTweet.extended_wordle_match_type_old_ma_funge(tweet_text)
+    return WordleTweet.extended_wordle_match_type_new_ancora_buggy_but_scalable(txt) if try_new
+    return WordleTweet.extended_wordle_match_type_old_ma_funge(txt)
   end
+
+  # def calculate_wordle_type()
+  #   extended_wordle_match_type(tweet_text, :try_new => false )
+  # end
 
   def parse_score_from_text
     # m[1] = "5/6"
@@ -89,14 +95,16 @@ class WordleTweet < ApplicationRecord
   end
   # I believe this shoiuld jhust be a bloody Class function :)
   #define_singleton_method :create_from_tweet do |tweet|
-  def self.create_from_tweet(tweet)
+  def self.create_from_tweet(tweet, opts={})
+    opts_try_new = opts.fetch :try_new, false
+
     warn "[TEST] WordleTweet.create_from_tweet() based on tweet: #{tweet.excerpt rescue :err_excerpt}" if Rails.env == 'test'
     wt = WordleTweet.new
     wt.tweet = tweet
     wt.import_notes = "Created on #{Time.now}"
     wt.max_tries = 6
     wt.internal_stuff = ''
-    wt.wordle_type = wt.calculate_wordle_type
+    wt.wordle_type = wt.extended_wordle_match_type(wt.tweet_text, :try_new => opts_try_new ) # wt.calculate_wordle_type
     wt.score = wt.parse_score_from_text()
     # TODO infer with some way, eg Wordle date for 232 is 5feb22.
     # wordle_date: date
@@ -120,10 +128,9 @@ class WordleTweet < ApplicationRecord
 # Regexes in order... so WORDLE shoudl be LAST
 # moved to YAML :) -> config/wordle-regexes.yml
 
-def self.extended_wordle_match_type_new_ancora_buggy(text)
+def self.extended_wordle_match_type_new_ancora_buggy_but_scalable(text)
   #wordle_regexes = Rails.application.config_for(:wordle_regexes, env: "default")
-  puts "[deb] extended_wordle_match_type_new_ancora_buggy REMOVEME"
-
+  #puts "[deb] extended_wordle_match_type_new_ancora_buggy_but_scalable REMOVEME"
   # before searching like crazy i make sure some initisal regex is matched :)
   unless text.match?(/\d+ [123456X]\/6/i)
     warn "No 123 X/6 found - skipping: #{text}"
@@ -143,10 +150,11 @@ def self.extended_wordle_match_type_new_ancora_buggy(text)
   # Case 2: Lets now manage 
   # - https://wordlegame.org/wordle-in-english-uk
   # - https://wordlegame.org/wordle-in-russian
+  # - https://wordlegame.org/wordle-for-kids
 #  polymorphic_match = text.match(/wordlegame.org\/wordle-in-([a-z-]+)/i)
-  polymorphic_match = text.match(/wordlegame.org\/wordle-in-([a-zA-Z-]+)/i)
+  polymorphic_match = text.match(/wordlegame.org\/wordle-(in|for)-([a-zA-Z-]+)/i)
   if polymorphic_match
-    parsed_language =  polymorphic_match[1] rescue :error 
+    parsed_language =  polymorphic_match[2] rescue :error 
     puts "[extended_wordle_match_type v2] Matched string: '#{yellow parsed_language}'"
     return "wg_#{parsed_language}".to_sym # :wg_spanish
     return :todo

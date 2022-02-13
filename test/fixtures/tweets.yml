@@ -274,3 +274,32 @@ danielfrg_spanish:
     🟩🟩🟩🟩🟩
 
     wordle.danielfrg.com
+
+wordlegame_for_kids:
+  twitter_user: ricc 
+  internal_stuff: type and day should be wg_kids // c2Nvd2w // 6 on 2022-02-13
+  full_text: |
+    I guessed this 5-letter word in 6/6 tries. 🟨⬛⬛⬛⬛🟨🟨🟨⬛⬛⬛🟨⬛🟨🟨🟨⬛🟨⬛🟨🟩🟨🟩⬛⬛🟩🟩🟩🟩🟩Can
+    you guess this word? https://wordlegame.org/wordle-for-kids?challenge=c2Nvd2w https://wordlegame.org/wordle-for-kids 
+    I didnt even know this kids word :)
+
+wordlegame_for_uk:
+  twitter_user: ricc 
+  internal_stuff: type and day should be wg_english_uk // Y2FtZWw // 4 on 2022-02-13
+  full_text: |
+    I guessed this 5-letter word in 4/6 tries. 🟩⬛⬛🟩⬛🟩🟨⬛🟩⬛🟩⬛🟨🟩⬛🟩🟩🟩🟩🟩Can 
+    you guess this word? https://wordlegame.org/wordle-in-english-uk?challenge=Y2FtZWw https://wordlegame.org/wordle-in-english-uk 
+
+# i dont have to parse this. Result should be X
+failed_polish_wordle:
+  twitter_user: ricc 
+  internal_stuff: type and day should be wg_polish // xZtsZXB5 // X on 2022-02-13
+  full_text: |
+    Can you guess this Polish word?https://wordlegame.org/wordle-in-polish?challenge=xZtsZXB5 
+
+wordleit_wordlegame:
+  twitter_user: ricc 
+  internal_stuff: type and day should be wg_italian // cGllZ2E // 3 on 2022-02-13
+  full_text: |
+    I guessed this Italian 5-letter word in 3/6 tries. ⬛⬛🟨⬛🟨🟩⬛🟩🟩🟩🟩🟩🟩🟩🟩Can you guess this word? 
+    https://wordlegame.org/wordle-in-italian?challenge=cGllZ2E https://wordlegame.org/wordle-in-italian  ne so a pacchi! #twitterparser
