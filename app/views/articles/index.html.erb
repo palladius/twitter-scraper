@@ -17,7 +17,7 @@
     stacked: true,
     xtitle: "Day", ytitle: "Total Tweets" %>
 
-Tweets per day
+Tweets per day (of Twitter Creation)
 <%= line_chart Tweet.group_by_day(:twitter_created_at).count  %>
 <%#= line_chart TwitterUser.group_by_day(:created_at).count  %>
 

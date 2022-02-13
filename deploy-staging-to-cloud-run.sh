@@ -5,7 +5,7 @@ source .env
 # 1.3 Had to move DATABASE_URL to PROD_DATABASE_URL or DEV would pick it up and commit to PROD DB by mistake !!! (which is WAI)
 
 
-DEPLOY_VERSION="1.3_20220210"
+DEPLOY_VERSION="1.4_20220213"
 VERSION=`cat VERSION`
 PROJECT_ID=$(gcloud config get-value project)
 
@@ -13,7 +13,7 @@ PROJECT_ID=$(gcloud config get-value project)
 echodo gcloud run deploy twitter-scraper-staging \
      --set-env-vars="RAILS_LOG_TO_STDOUT=$RAILS_LOG_TO_STDOUT" \
      --set-env-vars="RAILS_SERVE_STATIC_FILES=$RAILS_SERVE_STATIC_FILES" \
-     --set-env-vars="^###^MESSAGGIO_OCCASIONALE=$MESSAGGIO_OCCASIONALE,DEPLOY_VERSION=$DEPLOY_VERSION" \
+     --set-env-vars="^###^MESSAGGIO_OCCASIONALE=[STAGING] $MESSAGGIO_OCCASIONALE,DEPLOY_VERSION=$DEPLOY_VERSION" \
      --set-env-vars="DATABASE_URL=$STAGING_DATABASE_URL" \
      --set-env-vars="STAGING_DATABASE_URL=$STAGING_DATABASE_URL" \
      --set-env-vars="APP_VERSION=$VERSION" \
