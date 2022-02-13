@@ -63,6 +63,11 @@ class Tweet < ApplicationRecord
   def flag 
     self.wordle_tweet.flag
   end
+
+  def created_str(which_part='')
+    return twitter_created_at.strftime("%F") if which_part == 'day'
+    twitter_created_at.strftime("%F %T") rescue :nil
+  end
   
   def to_s(style=:generic)
     # depending on conbtext i show differetn stuff

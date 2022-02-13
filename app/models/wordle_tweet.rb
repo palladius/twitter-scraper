@@ -35,11 +35,12 @@ class WordleTweet < ApplicationRecord
     self.tweet.length
   end
 
-  def extended_wordle_match_type(txt, config = {})
+  def self.extended_wordle_match_type(txt, config = {})
     #config[] || = false
     try_new = config.fetch(:try_new, false)
     # TODO use internal_stuff to tweak behaviour
     return WordleTweet.extended_wordle_match_type_new_ancora_buggy_but_scalable(txt) if try_new
+    # DEFAULT: OLD
     return WordleTweet.extended_wordle_match_type_old_ma_funge(txt)
   end
 
@@ -104,7 +105,7 @@ class WordleTweet < ApplicationRecord
     wt.import_notes = "Created on #{Time.now}"
     wt.max_tries = 6
     wt.internal_stuff = ''
-    wt.wordle_type = wt.extended_wordle_match_type(wt.tweet_text, :try_new => opts_try_new ) # wt.calculate_wordle_type
+    wt.wordle_type = WordleTweet.extended_wordle_match_type(wt.tweet_text, :try_new => opts_try_new ) # wt.calculate_wordle_type
     wt.score = wt.parse_score_from_text()
     # TODO infer with some way, eg Wordle date for 232 is 5feb22.
     # wordle_date: date
