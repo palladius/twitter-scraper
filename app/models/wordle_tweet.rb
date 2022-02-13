@@ -19,6 +19,9 @@ class WordleTweet < ApplicationRecord
   belongs_to :tweet
   validates_presence_of :score
 
+  DAY_AND_SCORE_REGEX = /\d+ [123456X]\/6/ # most people use this, eg "123 4/6" or "#123 X/6".
+
+
   def to_s
     #"TODO 🌻 WordleTweet "
     "WT#{WordleTweet.flag_by_type(wordle_type)}[#{wordle_type}] #{score}/6 (len=#{length})"
@@ -183,10 +186,14 @@ end
       # testiamo per poco il 1/2
       return :wordle_it  if text.match?(/Par...le \d+ [123456X]\/6/i)
       return :wordle_it  if text.match?(/Par🇮🇹le \d+ .\/6/i)
-      return :wordle_it  if text.match?(/par.+le \d+ .\/6/i)
+      return :wordle_it  if text.match?(/par.+le \d+ .\/6/i) and text.match?(DAY_AND_SCORE_REGEX)
 
-    return :wordle_it  if text.match?(/Wordle \(IT\).*\d+ [123456X]\/6/i)
+      return :wordle_it  if text.match?(/Wordle \(IT\).*\d+/i)
+
+      return :wordle_es  if text.match?(/Wordle \(ES\).*\d+/i)
+      return :wordle_es  if text.match?(/wordle.danielfrg.com/i)
       
+          
 
     ## ITALIAN END
     return nil if include_only_italian_for_debug
@@ -307,6 +314,8 @@ end
         '🇵🇹'
       when :wg_spanish
         "🇪🇸"
+      when :wordle_es
+        "🇪🇸"
       when :wg_russian
         "🇷🇺"
       when :wordle_it1_ciofeco
@@ -318,6 +327,8 @@ end
       when :wordle_fr
         "🇫🇷"
       when :wordle_de
+        "🇩🇪"
+      when :wg_german
         "🇩🇪"
       when :nerdlegame
         "🔢" # — Countin 🔢

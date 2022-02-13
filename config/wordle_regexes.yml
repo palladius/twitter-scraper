@@ -60,6 +60,11 @@ default: &default
     regexes:
     - taylordle 
     lang: en
+  - return: wordle_es
+    url: https://wordle.danielfrg.com
+    regexes:
+    - wordle.danielfrg.com
+    lang: es
 
 development:
   <<: *default  

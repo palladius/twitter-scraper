@@ -260,3 +260,17 @@ german_boh:
      🟩🟩🟩🟩🟩
      Can you guess this word? 
      https://wordlegame.org/wordle-in-german?challenge=ZHJlY2s https://wordlegame.org/wordle-in-german     #Wordle #twitterparser
+
+danielfrg_spanish:
+  twitter_user: ricc 
+  internal_stuff: type and day should be wordle_es // 38
+  full_text: |
+    Wordle (ES) #38 5/6
+
+    ⬜🟨🟨🟨⬜
+    🟨🟩⬜🟨🟨
+    🟨🟩⬜🟩🟩
+    ⬜🟩🟩🟩🟩
+    🟩🟩🟩🟩🟩
+
+    wordle.danielfrg.com

@@ -50,19 +50,22 @@ namespace :db do
     WordleTweet.all.each { |wt|
       envputs "+ [#{wt.valid? ? :OK : :INVALID }] #{wt.flag} T='#{yellow wt.wordle_type}' day=#{white wt.parse_incrementalday_from_text} expected_is=#{yellow(wt.tweet.internal_stuff) rescue :nada}"
     }
-    puts("WType: ", WordleTweet.all.map{|wt| wt.wordle_type}.join(", "))
-    puts("Flags: ", WordleTweet.all.map{|wt| wt.flag}.join(", "))
+    puts("WT types: #{ WordleTweet.all.map{|wt| wt.wordle_type}.join(", ") }")
+    puts("WT Flags: #{WordleTweet.all.map{|wt| wt.flag}.join(", ")}")
     envputs " == WordleTweets ERRORS =="
     n_errors = 0
+    n_invalids = 0
     WordleTweet.all.each { |wt|
       #bad_type = wt.wordle_type.to_s.in? ['', 'unknown_v2']
       unless wt.wordle_type.in?(WordleTweet.acceptable_types)
         envputs "[BAD1] #{wt.flag} type='#{yellow  wt.wordle_type}' score=#{yellow wt.score} day='#{yellow wt.parse_incrementalday_from_text}' MagicInfo='#{yellow(wt.tweet.internal_stuff) rescue :nada}'"
         envputs "[BAD2] TXT='#{white wt.tweet.full_text.gsub("\n",'') }'"
         n_errors += 1
+        wt.validate
+        n_invalids += 1 unless wt.valid?
       end
     }
-    puts "END. Total Errors: #{yellow n_errors}"
+    puts "END. Total Errors: #{yellow n_errors}/#{WordleTweet.all.count}. taotal invalids: #{white n_invalids}"
     # before do
     #   order.perform_callbacks
     # end
