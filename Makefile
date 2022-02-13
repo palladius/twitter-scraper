@@ -9,6 +9,9 @@ stats:
 	echo "Now Riccardo magic:"
 	echo WordleTweet.count | rails c
 
+staging-stats:
+	RAILS_ENV=staging rake db:sbirciatina
+
 docker-build:
 	docker build -t twitter-scraper-local .
 	echo OK.
