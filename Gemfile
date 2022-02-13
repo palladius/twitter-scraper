@@ -14,7 +14,7 @@ gem "groupdate"
 # Linux: See `Dockerfile``
 gem "pg"
 gem "dotenv"
-gem 'dotenv-rails', :groups => [:development, :test, :production]
+gem 'dotenv-rails', :groups => [:development, :test, :production, :staging ]
 ########################
 
 
