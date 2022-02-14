@@ -13,7 +13,7 @@ staging-stats:
 	RAILS_ENV=production rake db:sbirciatina
 
 staging-check-db:
-	RAILS_ENV=staging DATABASE_URL=postgres://twitter-scraper:MannaggiaUPatataughTwitter@34.65.100.166:5432/twitter-scraper-staging rake 
+	RAILS_ENV=staging DATABASE_URL=postgres://twitter-scraper:MannaggiaUPatataughTwitter@34.65.100.166:5432/twitter-scraper-staging rake
 
 prod-stats:
 	RAILS_ENV=production rake db:sbirciatina
@@ -22,6 +22,10 @@ docker-build:
 	docker build -t $(LOCAL_DOCKER_APP) .
 	echo OK.
 docker-run: docker-build
+#	docker run -it --env-file .env -p 8080:8080 $(LOCAL_DOCKER_APP) ./entrypoint-8080.sh
+	make docker-run-nodep
+docker-run-nodep:
+  #@echo Ignoring dependencies...
 	docker run -it --env-file .env -p 8080:8080 $(LOCAL_DOCKER_APP) ./entrypoint-8080.sh
 docker-run-bash:
 	docker run -it --env-file .env -p 8080:8080 $(LOCAL_DOCKER_APP) bash
