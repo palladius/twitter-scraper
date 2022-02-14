@@ -314,3 +314,35 @@ worldle_geography:
         https://worldle.teuteuf.fr 
 
         #twitterparser I cheated (this morning I lost after 6 but need this for the parser sorry)
+
+wekele_italian:
+  twitter_user: ricc 
+  internal_stuff: type and day should be wekele_it // 240 // 4 on 2022-02-14
+  full_text: |
+      Wordle (IT) 240 4/6
+
+      ⬜🟨⬜⬜⬜
+      ⬜🟩⬜🟩🟩
+      ⬜🟩🟩🟩🟩
+      🟩🟩🟩🟩🟩
+
+      ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
+      https://wordle.wekele.com
+      ⬆️ ⬆️ ⬆️ ⬆️ ⬆️
+
+      #Wordle #Wordle5 #WordleIT #WordleItaliano #Wordle240 #twitterparser
+wekele_english: 
+  twitter_user: ricc
+  internal_stuff: type and day should be wekele_en // 240 // 4 on 2022-02-14
+  full_text: |
+    Wordle 240 4/6
+    ⬜⬜🟨⬜⬜
+    ⬜🟩⬜⬜⬜
+    🟩🟩🟩⬜🟨
+    🟩🟩🟩🟩🟩
+
+    ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
+    https://wordle.wekele.com
+    ⬆️ ⬆️ ⬆️ ⬆️ ⬆️
+
+    #Wordle #Wordle5 #WordleEN #WordleEnglish #Wordle240

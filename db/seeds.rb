@@ -39,6 +39,9 @@ $search_terms = [
   'wordlegame.org', # since 0.11 I support it!
   '#taylordle',
   'katapat',
+  'worldle',
+  'wordlept',
+  'wekele',
   # this works but produces TOO much and i dont know what it i
   #'🟩🟩🟩🟩🟩', # success
   # We keep this last

@@ -33,7 +33,7 @@ namespace :db do
 
   end
 
-  def populate_in_test_old_vs_new(bool)
+  def populate_in_test_old_vs_new(bool, debug=false)
     puts ''
     envputs(white("== populate_in_test(#{yellow(bool ? :NEW_SCALABLE_BUGGY : :OLD_SAME)}) =="))
     #write_entity_cardinalities
@@ -48,8 +48,8 @@ namespace :db do
     # Types: WordleTweet.group(:wordle_type).count
 
     tweet_types = WordleTweet.group(:wordle_type).count
-    envputs "Twitter types: #{tweet_types}"
-    envputs "Acceptable types: #{WordleTweet.acceptable_types}" 
+    envputs "Twitter types: #{white tweet_types}" if debug
+    envputs "Acceptable types: #{WordleTweet.acceptable_types}" if debug 
     
     envputs " == WordleTweets =="
     WordleTweet.all.each { |wt|

@@ -258,6 +258,18 @@ end
       return "wg_#{language}".to_sym # :wg_spanish or :wg_english_uk
     end
 
+    #       Wordle (IT) 240 4/6     ⬇️ ⬇️ ⬇️ ⬇️ ⬇️   https://wordle.wekele.com
+    #
+    m = text.match(/Wordle \((..)\).*wordle.wekele.com/) and text.match?(DAY_AND_SCORE_REGEX)
+    if m
+      # Examples with dash: 
+      # https://wordlegame.org/wordle-for-kids?challenge=c2Nvd2w 
+      # https://wordlegame.org/wordle-in-english-uk?challenge=Y2FtZWw 
+      language = (m[1] rescue "error").gsub("-","_")
+      return "wekele_#{language}".to_sym # :wg_spanish or :wg_english_uk
+    end
+
+
     # Generic wordle - might want to remove in the future
     # 1. English we keep last
     return :wordle_en  if text.match?(/Wordle \d+ [123456X]\/6/i) unless exclude_wordle_english_for_debug
@@ -336,6 +348,8 @@ end
       when :wg_russian
         "🇷🇺"
       when :wordle_it1_ciofeco
+        "🇮🇹"
+      when :wekele_it # todo many others :)
         "🇮🇹"
       when :katapat
         "🇲🇾"

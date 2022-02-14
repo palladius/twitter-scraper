@@ -50,7 +50,11 @@ test-build-push-deploy:
 ingest-batch-from-twitter:
 	@echo [IMPORTANT] Works for both DEV and PROD. try:
 	@echo [IMPORTANT] Try this in PROD: RAILS_ENV=production make ingest-batch-from-twitter
+	@echo [IMPORTANT] do NOT use WATCH. Use WHILE instead - pirla. 
 	TWITTER_INGEST_SIZE=201 watch -n 10 rake db:seed
+# this uses a while, not wATCH so its better suited for long computations.
+ingest-bacth-prod-while:
+	while true; do make TWITTER_INGEST_SIZE=121 RAILS_ENV=production ingest-to-prod-from-twitter ; sleep 10 ; done
 ingest-to-prod-from-twitter:
 	TWITTER_INGEST_SIZE=151 RAILS_ENV=production rake db:seed
 ingest-to-staging-from-twitter:

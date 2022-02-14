@@ -70,6 +70,11 @@ default: &default
     lang: special/geo
     regexes:
     - worldle.teuteuf.fr
+  - return: wg_italian
+    url: https://wordlegame.org/wordle-in-italian 
+    lang: it 
+    regexes:
+    - "I guessed this Italian 5-letter word in"
 
 development:
   <<: *default  
