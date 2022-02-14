@@ -28,7 +28,10 @@ class Tweet < ApplicationRecord
     (created_at - twitter_created_at) rescue nil
   end
 
-  def excerpt(n_chars = 25)
+  # 25 is just enough to get le mot cropped by 1 :) 
+  # "[🇫🇷 GoncaloRamos17] 🏆5 Le Mot (@WordleFR) #36 5/"
+  # hence 28 :)
+  def excerpt(n_chars = 28)
     # copied from https://apidock.com/rails/v5.2.3/ActionView/Helpers/TextHelper/excerpt
     (self.full_text[0, n_chars].gsub("\n"," ") rescue "ERR_no_fuLltext") + ".."
   end

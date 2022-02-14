@@ -6,7 +6,6 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-#require 'ric'
 require 'twitter'
 
 def yellow(s)
@@ -33,6 +32,7 @@ $search_terms = [
   #'#Wordle',
   '#Parole',
   'term.ooo',
+  'https://term.ooo/',
   'wordlefr',
   'WordleIT',
   'Par🇮🇹le',
@@ -81,6 +81,7 @@ end
     $search_terms.each do |search_term|
       puts "+ [API_CALL] Searchin #{$n_tweets} for term '#{yellow search_term}'.."
       n_saved_tweets = 0
+      n_unsaved_tweets = 0
       n_saved_users = 0
       client.search(search_term).take($n_tweets).each do |tweet|
         quick_match = WordleTweet.quick_match(tweet.text)
@@ -130,17 +131,18 @@ end
           if saved_tweet
             puts "- Non-Trivial Tweet saved: #{rails_tweet.id} from #{rails_tweet.to_s}"  if rails_tweet.wordle_type != "wordle_en"
             n_saved_tweets += 1
+          else 
+            # single error here.
+            n_unsaved_tweets += 1
+            print '.'
           end
         end
         #client.update("@#{tweet.user} Hey I love Ruby too, what are your favorite blogs? :)")
       end
-      puts "  - #{n_saved_tweets} saved tweets; #{n_saved_users} new users."
+      puts "  - #{ yellow n_saved_tweets} saved tweets / #{white n_unsaved_tweets} unsaved; #{yellow n_saved_users} new users."
     end
 
-    # tweets = client.user_timeline('rubyinside', count: 20)
-    # tweets.each { |tweet| puts tweet.full_text }
   end
 
-#rake_seed_parse_keys
 
 main()
