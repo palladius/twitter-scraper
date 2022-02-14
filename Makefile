@@ -52,7 +52,7 @@ ingest-batch-from-twitter:
 	echo RAILS_ENV=CCCC make ingest-batch-from-twitter
 	TWITTER_INGEST_SIZE=201 watch -n 10 rake db:seed
 ingest-to-prod-from-twitter:
-	TWITTER_INGEST_SIZE=51 RAILS_ENV=production rake db:seed
+	TWITTER_INGEST_SIZE=151 RAILS_ENV=production rake db:seed
 ingest-to-staging-from-twitter:
 	TWITTER_INGEST_SIZE=51 RAILS_ENV=staging rake db:seed
 ingest-to-dev-from-twitter:
