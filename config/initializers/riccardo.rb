@@ -6,13 +6,13 @@ require 'socket'
 
 hostname = Socket.gethostname
 
-HOSTNAME = hostname 
+HOSTNAME = hostname
 
 LOCATION = ENV["APP_LOCATION"] ?  ENV["APP_LOCATION"] : HOSTNAME
 
-APP_VERSION = ENV["APP_VERSION"] ? 
-    "ENV_#{ ENV["APP_VERSION"]}" :
-    "FILEREAD_#{File.read "./VERSION"}"
+APP_VERSION = ENV["APP_VERSION"] ?
+    "#{ ENV["APP_VERSION"]}_E" :
+    "#{File.read("./VERSION").strip}_F"
 
 
 # Wiordle Regexes, in two stages.
