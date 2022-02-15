@@ -2,7 +2,7 @@
 
 <div>
 <p>
-📊 Graphs generated with <a href="https://chartkick.com/">chartkick ruby library</a>.. love it!
+📊 Articles#index: Graphs generated with <a href="https://chartkick.com/">chartkick ruby library</a>.. love it!
 </p>
 
 <%#= column_chart WordleTweet.group(:wordle_type).group_by_hour(:created_at).count,  stacked: true %>
@@ -57,45 +57,48 @@ Tweets per day (of Twitter Creation)
 <h2>Wordle Tweet stats</h2>
 
 <div >
-Count [per type]
-<%= column_chart WordleTweet.group(:wordle_type).sum(1) %>
-</div>
-<div >
-Count [per type] excluding English Wordle (most popular)
-<%= column_chart WordleTweet.group(:wordle_type).where.not(wordle_type: "wordle_en").count%>
-</div>
+Count [per type] <a href="https://stackoverflow.com/questions/55012763/how-to-setup-logarithmic-axis-for-line-chart-in-rails-chartkick">Logarithmic?</a>
+but better documented <a href="https://www.chartjs.org/docs/master/samples/scales/log.html">here</a>.
+<%#= column_chart WordleTweet.group(:wordle_type).sum(1) %>
+<%= column_chart WordleTweet.group(:wordle_type).sum(1), library: {
+        legend: {
+            position: 'top',
+        },
+        scales: {
+           x: {
+        display: true,
+      },
+      y: {
+        display: true,
+        type: 'logarithmic',
+      },
+            yAxes: [
+                {
+                    id: 'y-axis',
+                    type: 'logarithmic'
+                },],
+             myScale: {
+                type: 'logarithmic',
+                position: 'right', #// `axis` is determined by the position as `'y'`
+              }
+        },
+        # options: {
+        #     scales: {
+        #       myScale: {
+        #         type: 'logarithmic',
+        #         position: 'right', #// `axis` is determined by the position as `'y'`
+        #       }
+        #     }
+        # }
+    }
 
-<!-- non va 
-<div >
-https://stackoverflow.com/questions/55012763/how-to-setup-logarithmic-axis-for-line-chart-in-rails-chartkick
-Count [per type] logarithmic
-<%= line_chart(
-  WordleTweet.group(:wordle_type).sum(1) ,
-  library: {
-          legend: {
-              position: 'bottom',
-          },
-          scales: {
-              yAxes: [
-                  {
-                      id: 'y-axis',
-                        type: 'logarithmic'
-                  },]
-          }
-      }
-)
+
 %>
 </div>
+<!--
+<div >
+Count [per type] excluding English Wordle (most popular)
+<%#= column_chart WordleTweet.group(:wordle_type).where.not(wordle_type: "wordle_en").count%>
+</div>
 -->
-
-
-<%#= line_chart WordleTweet.all.map { |wt|
-    {
-     name: wt.wordle_type, 
-     data: 
-        #[42,42,42,42] # wt.group_by(:score).count
-         WordleTweet.all.map{|wt| wt.score } + 42
-    }
-} rescue "Error #{$!}"%>
-
 </div>

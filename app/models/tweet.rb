@@ -80,8 +80,9 @@ class Tweet < ApplicationRecord
   
   def to_s(style=:generic)
     # depending on conbtext i show differetn stuff
-    inc_day = wordle_tweet.wordle_incremental_day.match?('int/\d+') ? 
-      "##{wordle_tweet.wordle_incremental_day.split('/')[1]}" : wordle_tweet.wordle_incremental_day
+    inc_day = wordle_tweet.wordle_incremental_day.match?('int/\d+') rescue false ? 
+      "##{wordle_tweet.wordle_incremental_day.split('/')[1]}" : 
+      wordle_tweet.wordle_incremental_day
     case style 
       when :twitter_user 
         # I already know the user! I won't publish it
