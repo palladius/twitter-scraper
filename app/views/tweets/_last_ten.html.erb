@@ -5,6 +5,9 @@
 <div class="ricc-tweets-top-right" >
     <b>Last 10 Tweets</b><br/>
     <% @last_tweets.each do |t| %>
-    <%= link_to t.to_s(:last10),t %> <i>(<%= time_ago_in_words(t.created_at) %> ago)</i><br/>
+    <span class="small-top10-element" >
+        <%= link_to t.to_s(:last10),t %> <i>(<%= time_ago_in_words(t.created_at) %> ago)</i>
+    </span>
+    <br/>
     <% end %>
 </div>

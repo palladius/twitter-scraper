@@ -5,6 +5,9 @@
 <div class="ricc-users-top-right" >
     <b>Last 10 Users</b><br/>
     <% @last_users.each do |u| %>
-    <%= link_to u.to_stylistic_s(:last10), u  %> <i>(<%= time_ago_in_words(u.created_at) %> ago)</i><br/>
+    <span class="small-top10-element" >
+        <%= link_to u.to_stylistic_s(:last10), u  %> <i>(<%= time_ago_in_words(u.created_at) %> ago)</i>
+    </span>
+        <br/>
     <% end %>
 </div>
