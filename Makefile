@@ -56,7 +56,7 @@ ingest-batch-from-twitter:
 ingest-bacth-prod-while:
 	while true; do make TWITTER_INGEST_SIZE=121 RAILS_ENV=production ingest-to-prod-from-twitter ; sleep 10 ; done
 ingest-to-prod-from-twitter:
-	TWITTER_INGEST_SIZE=151 RAILS_ENV=production rake db:seed
+	TWITTER_INGEST_SIZE=451 RAILS_ENV=production rake db:seed
 ingest-to-staging-from-twitter:
 	TWITTER_INGEST_SIZE=51 RAILS_ENV=staging rake db:seed
 ingest-to-dev-from-twitter:

@@ -55,8 +55,8 @@ namespace :db do
     WordleTweet.all.each { |wt|
       envputs "+ [#{wt.valid? ? :OK : :INVALID }] #{wt.flag} T='#{yellow wt.wordle_type}' day=#{white wt.parse_incrementalday_from_text} expected_is=#{yellow(wt.tweet.internal_stuff) rescue :nada}" unless wt.valid?
     }
-    puts("WT types: #{ WordleTweet.all.map{|wt| wt.wordle_type}.join(", ") }")
-    puts("WT Flags: #{WordleTweet.all.map{|wt| wt.flag}.join(", ")}")
+    puts("WTTypes: #{ WordleTweet.all.map{|wt| wt.wordle_type}.join(", ") }")  if debug 
+    puts("WTFlags: #{WordleTweet.all.map{|wt| wt.flag}.join(" ")}")
     envputs " == WordleTweets ERRORS [new=#{bool}]=="
     n_errors = 0
     n_invalids = 0
