@@ -2,13 +2,19 @@
     # Variables: 
     #- last_tweets
 %>
-<table border="1" width="50%" class="ricc-top-right" >
-    <tr>
-        <td>
-            <b>Last 10 twitteratez</b><br/>
-            <% @last_tweets.each do |t| %>
-            <%= t.to_s :top10 %><br/>
-            <% end %>
-        </td>
-    </tr>
-</table>
+<div class="ricc-tweets-top-right" >
+    <b>Last 10 Tweets</b><br/>
+    <% @last_tweets.each do |t| %>
+    <%= t.to_s :top10 %> <i>(<%= time_ago_in_words(t.created_at) %> ago)</i><br/>
+    <% end %>
+</div>
+
+<!-- 
+<div class="ricc-top-right" >
+prova float 2
+</div>
+<div class="ricc-metti-a-posto" >
+prova ricc-metti-a-posto
+
+</div>
+-->

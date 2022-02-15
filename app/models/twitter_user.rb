@@ -41,9 +41,29 @@ class TwitterUser < ApplicationRecord
     def accountid
         twitter_id
     end
-    def to_s(verbose=false)
-        return "TwitterUser @#{self.twitter_id} #{url_by_id}" if verbose
+    def to_stylistic_s(style=:default)
+        return to_s if style == :default
         
+
+        case style 
+        when :twitter_user 
+          # I already know the user! I won't publish it
+          #"#{flag} 🏆#{wordle_tweet.score_str} for  #{inc_day} #{excerpt}"
+        when :sobenme
+          "sobenme"
+        when :top10 # very small
+            "top10 todo"
+          #"#{flag} #{inc_day} 🏆 #{wordle_tweet.score_str}/6 🐦 #{self.twitter_user.ldap} "
+        when :verbose
+          #"((#{style})) [#{wordle_type} #{self.twitter_user}] 🏆#{wordle_tweet.score_str} #{full_text}"
+        else
+          # default
+          return to_s
+          #"[#{flag} #{self.twitter_user.ldap}] 🏆#{wordle_tweet.score_str} #{excerpt}"    
+        end
+    end
+    def to_s(verbose=false)
+        return "TwitterUser @#{self.twitter_id} #{url_by_id}" if verbose        
         "@#{self.twitter_id} [#{tweets.count} tweets]"
     end
 end

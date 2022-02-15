@@ -1,5 +1,22 @@
 
 
-.ricc-top-right {
-    background-color: blueviolet;
+
+.ricc-tweets-top-right {
+    background-color: rgb(183, 231, 253);
+    float: right;
+    overflow: auto;
+    width: 50%;
+    padding: 5pt ;
+}
+.ricc-users-top-right {
+    background-color: rgb(247, 199, 97);
+    float: right;
+    overflow: auto;
+    width: 50%;
+    padding: 5pt ;
+}
+/* Se ho ben capito devo togliere DOPO*/
+.ricc-metti-a-posto {
+    float: none;
+    
 }

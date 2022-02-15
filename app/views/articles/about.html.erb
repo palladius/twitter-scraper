@@ -1,23 +1,34 @@
 <div id="normale" >
 <h1>About Twitter Parser</h1>
 
+<%= render "tweets/last_ten", tweets: @last_tweets, :locals => {:sobenme => 41 } %>
+<%= render "twitter_users/last_ten", tweets: @last_users, :locals => {:sobenme => 42 } %>
+<!-- 
+<div class='ricc-float-top-right' style='float: right; padding: 15px;' >
+inutile, la div intelligente e' ora nel partial..</div>
+<div class="ricc-metti-a-posto" >
+-->
+
 <p>I came up with the idea of parsing the whole internet a few years ago... but twitter gave me the assist with a beautifully parsable 
 new moda: Wordle!</p>
 
 <p>
-Some statistics:<br/>
-- Tweets: <%= Tweet.count %><br/>
-- TwitterUsers: <%= TwitterUser.count %><br/>
-- WordleTweets: <%= WordleTweet.count %><br/>
+Some statistics - Config and DB:<br/>
+- <b><%= TwitterUser.count %></b> TwitterUsers<br/>
+- <b><%= Tweet.count %></b> Tweets<br/>
+- <b><%= WordleTweet.count %></b> WordleTweets<br/>
 - DB Config: <b><%= Rails.configuration.database_configuration[Rails.env]["adapter"] %></b><br/>
+
+Freshness:<br/>
+- Last Tweet: <b><%= time_ago_in_words @last_tweets.first.created_at %></b> ago<br/>
+- Last User: <b><%= time_ago_in_words  @last_users.first.created_at %></b> ago<br/>
 </p>
 </div>
 
-<div class='ricc-float-top-right' style='float: right; padding: 15px;' >
-    Last tweets:
-    <%= render "tweets/last_ten", tweets: @last_tweets, :locals => {:mytweet => 10 } %>
-
+<!-- 
+<div>non ho dato il clear ancora..
 </div>
 <div style="clear: left;">
     clear https://www.w3schools.com/css/css_float_clear.asp
 </div>
+-->
