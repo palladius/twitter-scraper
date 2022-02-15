@@ -50,7 +50,7 @@ test-build-push-deploy:
 ingest-batch-from-twitter:
 	@echo [IMPORTANT] Works for both DEV and PROD. try:
 	@echo [IMPORTANT] Try this in PROD: RAILS_ENV=production make ingest-batch-from-twitter
-	@echo [IMPORTANT] do NOT use WATCH. Use WHILE instead - pirla. 
+	@echo [IMPORTANT] do NOT use WATCH. Use WHILE instead - pirla.
 	TWITTER_INGEST_SIZE=201 watch -n 10 rake db:seed
 # this uses a while, not wATCH so its better suited for long computations.
 ingest-bacth-prod-while:
@@ -65,8 +65,11 @@ ingest-to-dev-from-twitter:
 run-prod:
 	RAILS_ENV=production rails s
 
-search-for-pizzorni-in-prod:
-	echo 'TwitterUser.all.map{|u| [u.id, u.name] }.first(1000000).select{|id,name| name.match /pizzor/i}' | RAILS_ENV=production rails console
-
+# prod.
+#N Nick: 236089,
+search-for-pizzorni-and-piludu-in-prod:
+	echo 'TwitterUser.all.map{|u| [u.id, u.name] }.first(1000000).select{|id,name| name.match? /pizzor/i}' | RAILS_ENV=production rails console
+	#echo 'TwitterUser.all.map{|u| [u.id, u.name] }.first(1000000).select{|id,name| name.match? /bj/i}' | RAILS_ENV=production rails console
+	echo 'TwitterUser.all.first(10000000).map{|u| [u.id, u.ldap, u.name] }.select{|id,name, description| name.match? /BJArmstrong10/i}' | RAILS_ENV=production rails console
 test-fixtures:
 	RAILS_ENV=test rake db:fixtures:load
