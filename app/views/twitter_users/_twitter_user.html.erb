@@ -13,8 +13,7 @@
 -->
   <p>
     <strong><%= twitter_user.name %></strong>,  📍   <%= link_to twitter_user.location, "https://www.google.ch/maps/search/#{twitter_user.location}" %>    
-    <strong>🐦 URL:</strong>
-    <%= link_to twitter_user.url, twitter_user.url %>
+    - <%= link_to "🐦 twitter.com/#{twitter_user.id_str}", twitter_user.url %>
   </p>
 
   
@@ -25,7 +24,11 @@
   </p>
 
   <h1>Wordle stuff</h1>
+  <% if twitter_user.tweets.count == 0 %>
+    <p>Sorry, no tweets so far. I wont show you all my gold.</p>
+    <%= debug "Sorry, no tweets so far. I wont show you all my gold." %>
 
+  <% else %>
   <p>
     Polyglotism:
     <strong><%= twitter_user.polyglotism %></strong> 
@@ -39,8 +42,8 @@
 
   <p>
     <strong>Last Tweet:</strong>
-    <%= link_to twitter_user.tweets.last.to_s(:twitter_user), twitter_user.tweets.last %> 
-      (<%= time_ago_in_words(twitter_user.tweets.last.created_at) %>)
+    <%= link_to twitter_user.tweets.last.to_s(:twitter_user), twitter_user.tweets.last rescue "🤷 probably_no_tweet: #{$!}" %> 
+      (<%= time_ago_in_words(twitter_user.tweets.last.created_at) rescue '🤷'  %>)
   </p>
 
   <p>Average Tweet score:
@@ -66,6 +69,9 @@
         %>
 
 </table>
+
+<% end %>
+
 
 <h2>🐦 <%= twitter_user.tweets.count %> Tweets Detail</h2>
   <p>Interesting enoguh, I sorted them by creation date but it doesnt still seem to be in order. Funny!

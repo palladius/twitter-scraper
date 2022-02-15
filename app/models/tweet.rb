@@ -88,7 +88,7 @@ class Tweet < ApplicationRecord
         "#{flag} 🏆#{wordle_tweet.score_str} for  #{inc_day} #{excerpt}"
       when :sobenme
         "sobenme"
-      when :top10 # very small
+      when :last10 # very small
         "#{flag} #{inc_day} 🏆 #{wordle_tweet.score_str}/6 🐦 #{self.twitter_user.ldap} "
       when :verbose
         "((#{style})) [#{wordle_type} #{self.twitter_user}] 🏆#{wordle_tweet.score_str} #{full_text}"

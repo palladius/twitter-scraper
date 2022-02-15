@@ -51,14 +51,15 @@ class TwitterUser < ApplicationRecord
           #"#{flag} 🏆#{wordle_tweet.score_str} for  #{inc_day} #{excerpt}"
         when :sobenme
           "sobenme"
-        when :top10 # very small
-            "top10 todo"
-          #"#{flag} #{inc_day} 🏆 #{wordle_tweet.score_str}/6 🐦 #{self.twitter_user.ldap} "
+        when :last10 # probably last 10 have no menaingful avg score or pologlotism..
+            "🐦 #{self.twitter_id} 🔄##{tweets.count} 🏆#{tweets.count == 0 ? '-' : average_score} 👅#{polyglotism})"
         when :verbose
           #"((#{style})) [#{wordle_type} #{self.twitter_user}] 🏆#{wordle_tweet.score_str} #{full_text}"
+          "🐦 #{self.twitter_id} 🔄##{tweets.count} 🏆#{tweets.count == 0 ? '-' : average_score} 👅#{distinct_wordle_types})"
         else
           # default
-          return to_s
+          "🐦 #{self.twitter_id} 🔄##{tweets.count} 🏆#{tweets.count == 0 ? '-' : average_score} 👅#{polyglotism})"
+#          return to_s
           #"[#{flag} #{self.twitter_user.ldap}] 🏆#{wordle_tweet.score_str} #{excerpt}"    
         end
     end
