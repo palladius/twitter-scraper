@@ -10,15 +10,11 @@ require 'json'
 require 'socket'
 require 'twitter'
 
-def yellow(s)
-  "\e[1;33m#{s}\e[0m"
-end
-def white(s)
-  "\e[1;37m#{s}\e[0m"
-end
-def azure(s)
-  "\033[1;36m#{s}\033[0m"
-end
+def yellow(s)   "\e[1;33m#{s}\e[0m" end
+def white(s)    "\e[1;37m#{s}\e[0m" end
+def azure(s)    "\033[1;36m#{s}\033[0m" end
+def red(s)      "\033[1;31m#{s}\033[0m" end
+
 #pred "remove Ricc Twitter API keys... use ENV instead maybe with dotenv"
 
 TWITTER_OPTIONS = {

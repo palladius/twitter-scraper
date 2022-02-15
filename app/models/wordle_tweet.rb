@@ -137,24 +137,32 @@ class WordleTweet < ApplicationRecord
 # Regexes in order... so WORDLE shoudl be LAST
 # moved to YAML :) -> config/wordle-regexes.yml
 
-def self.extended_wordle_match_type_new_ancora_buggy_but_scalable(text)
-  #wordle_regexes = Rails.application.config_for(:wordle_regexes, env: "default")
-  #puts "[deb] extended_wordle_match_type_new_ancora_buggy_but_scalable REMOVEME"
+def self.extended_wordle_match_type_new_ancora_buggy_but_scalable(text, opts={})
+  debug = opts.fetch :debug, false
+
+  puts "[deb] extended_wordle_match_type_new_ancora_buggy_but_scalable REMOVEME" if debug
   # before searching like crazy i make sure some initisal regex is matched :)
-  unless text.match?(/\d+ [123456X]\/6/i)
-    warn "No 123 X/6 found - skipping: #{text}"
+  unless text.match?(/\d+ [123456X]\/6/i) or text.match? /wordlegame.org\/wordle/
+    puts "[WARNING] No 123 X/6 found - skipping: #{text}"
     return nil
   end
 
-  #p WORDLE_REGEXES
+  p WORDLE_REGEXES if debug
   WORDLE_REGEXES.each{|h|
-    #p "+ First hash: ", h
+
+    #p "+ WORDLE_REGEXES hash: ", h # if debug
     raise "Missing fundamental Key: RETURN for #{h}" unless h.key?(:return)
-    h[:regexes].each {|regex| 
-      #puts "DEB: Checking regex #{regex}.."
-      return h[:return].to_sym if text.match?(/#{regex}/)
-    }
+    h[:regexes_in_or].each {|regex| 
+      puts "DEB: Checking regex #{yellow regex} for text #{white text}.." if debug
+      ret = text.match?(/#{regex}/) #?   h[:return].to_sym :     nil 
+      #p("ret=#{ret} h[:return]=#{h[:return]}") # if debug
+      # only return if TRUE if not continue to iterate..
+      return h[:return].to_sym  if ret == true
+    } if h[:regexes_in_or]
   }
+
+#  return :fortytwo
+  p "now lets try worldegame.. matcha? text='#{text}'"
 
   # Case 2: Lets now manage 
   # - https://wordlegame.org/wordle-in-english-uk
@@ -164,12 +172,14 @@ def self.extended_wordle_match_type_new_ancora_buggy_but_scalable(text)
   polymorphic_match = text.match(/wordlegame.org\/wordle-(in|for)-([a-zA-Z-]+)/i)
   if polymorphic_match
     parsed_language =  polymorphic_match[2] rescue :error 
-    #puts "[extended_wordle_match_type v2] Matched string: '#{yellow parsed_language}'"
+    puts "[extended_wordle_match_type v2] Matched string: '#{yellow parsed_language}'"
     return "wg_#{parsed_language}".to_sym # :wg_spanish
-    return :todo
+    #return :todo
+  else 
+    p "DEB desculpe no mathch: polymorphic_match=#{white polymorphic_match}"
   end
 
-
+  # nothing. I throw the sponge.
   return :unknown_v2
 end
 
@@ -231,15 +241,21 @@ end
      
     return :lewdle     if text.match?(/Lewdle \d+ .\/6/)
 
+    # Math :)
     return :nerdlegame if text.match?(/nerdlegame \d+ .\/6/i)
+    # note the medium needs to be AFTER the other two...
+    return :mathler_hard   if text.match?(/hard.mathler.com/i) and text.match?(DAY_AND_SCORE_REGEX)
+    return :mathler_easy   if text.match?(/easy.mathler.com/i) #and text.match?(DAY_AND_SCORE_REGEX)
+    return :mathler_medium if text.match?(/mathler.com/i) and text.match?(DAY_AND_SCORE_REGEX)
+
 
     return :worldle if text.match?(/worldle.teuteuf.fr/i) and text.match?(DAY_AND_SCORE_REGEX)
 
     return :wordle_ko  if text.match?(/#Korean #Wordle .* \d+ .\/6/i)
 
-    return :katla if text.match?(/katla \d+ [123456X]\/6/i)
     # malayisian
-    return :katapat if text.match? /Katapat \d+ [123456X]\/6/i 
+    return :katla if text.match?(/katla /i) and text.match?(DAY_AND_SCORE_REGEX)
+    return :katapat if text.match?(/Katapat/i)  and text.match?(DAY_AND_SCORE_REGEX)
 
 
     # https://www.taylordle.com/
@@ -351,9 +367,7 @@ end
         "🇮🇹"
       when :wekele_it # todo many others :)
         "🇮🇹"
-      when :katapat
-        "🇲🇾"
-      when :katla
+      when :katapat, :katla
         "🇲🇾"
       when :wordle_fr
         "🇫🇷"
@@ -362,7 +376,9 @@ end
       when :wg_german
         "🇩🇪"
       when :nerdlegame
-        "🔢" # — Countin 🔢
+        "🔢" 
+      when :mathler_medium, :mathler_hard, :mathler_easy
+        "🔢"
       when :wordle_ko
         "🇰🇷"
       when :lewdle

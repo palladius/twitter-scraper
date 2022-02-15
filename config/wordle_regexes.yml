@@ -6,30 +6,30 @@ default: &default
   - url: 'https://pietroppeter.github.io/wordle-it/'
     lang: it
     return: wordle_it
-    regexes:
+    regexes_in_or:
     - "Par🇮🇹le"
     - "Par.+le"
   - url: https://wordle.louan.me/
-    regexes:
+    regexes_in_or:
       -  "Le Mot \\(@WordleFR\\)" # we need to regexify the parenthesis - todo debug
       -  "@WordleFR"
     lang: fr
     return: wordle_fr
   - url: 'http://term.ooo'
-    regexes:
+    regexes_in_or:
       - "term.ooo"
       - "joguei https:\/\/t.co"
     lang: pt
     return: wordle_pt
   - # Lewdle
     url: 'https://www.lewdlegame.com/'
-    regexes:
+    regexes_in_or:
       - "lewdle \\d"
       - Lewdle
     lang: en
     return: lewdle
   - url: 'https://wordle.uber.space/' # ex wordle-spielen.de
-    regexes:
+    regexes_in_or:
       - "wordle-spielen.de"
       - "wordle.uber.space"
       - '@dewordle'
@@ -38,17 +38,17 @@ default: &default
     return: wordle_de
   - return: nerdlegame
     url: https://nerdlegame.com/
-    regexes:
+    regexes_in_or:
       - "nerdlegame"
     lang: special/math
   - return: katapat
     url: https://www.projecteugene.com/katapat.html
-    regexes:
+    regexes_in_or:
     - katapat
     lang: ms # MALAY type of malysian yep there are two :)
   - return: katla
     url: https://katla.vercel.app/
-    regexes:
+    regexes_in_or:
     - Katla
     - katla.vercel.app
     # in case i want to go there... not sure.
@@ -57,24 +57,40 @@ default: &default
     lang: ms # MALAY again, says translate: bison: banteng liar, terdapat di Amerika Utara, tengkuknya berbulu lebat, berkepala besar, bertanduk kecil, dan berpunuk besar; Bison amerikanus
   - return: taylordle
     url: https://www.taylordle.com/
-    regexes:
+    regexes_in_or:
     - taylordle
     lang: en
   - return: wordle_es
     url: https://wordle.danielfrg.com
-    regexes:
+    regexes_in_or:
     - wordle.danielfrg.com
     lang: es
   - return: worldle
     url: https://worldle.teuteuf.fr
     lang: special/geo
-    regexes:
+    regexes_in_or:
     - worldle.teuteuf.fr
   - return: wg_italian
     url: https://wordlegame.org/wordle-in-italian
     lang: it
-    regexes:
+    regexes_in_or:
     - "I guessed this Italian 5-letter word in"
+    - "Italian 5-letter"
+  - return: mathler_hard
+    url: https://hard.mathler.com/ 
+    lang: special/math 
+    regexes_in_or: 
+    - hard.mathler.com
+  - return: mathler_easy
+    url: https://easy.mathler.com/ 
+    lang: special/math 
+    regexes_in_or: 
+    - easy.mathler.com
+  - return: mathler_medium
+    url: https://mathler.com/ 
+    lang: special/math 
+    regexes_in_or: 
+    - mathsssssler.com
 
 development:
   <<: *default
@@ -84,21 +100,21 @@ test:
   <<: *default
   #timeout: 5000
 addon_in_the_end:
-  - url: 'https://wordlegame.org/wordle-in-spanish'
-    regexes:
-     - "wordlegame.org.wordle-in-spanish"
-     - "I guessed this Spanish 5-letter word in"
-    lang: es
-    return: wg_spanish_renmoveme
+  # - url: 'https://wordlegame.org/wordle-in-spanish'
+  #   regexes_in_or:
+  #    - "wordlegame.org.wordle-in-spanish"
+  #    - "I guessed this Spanish 5-letter word in"
+  #   lang: es
+  #   return: wg_spanish_renmoveme
   - url: https://wordlegame.org/wordle-in-italian
-    regexes:
+    regexes_in_or:
      - "wordlegame.org.wordle-in-italian"
      - "I guessed this Italian 5-letter word in"
      - guessed this Italian 5-letter
     lang: it
     return: wg_italian_renmoveme
   # - url: todo
-  #   regexes:
+  #   regexes_in_or:
   #   #- "I guessed this .*5-letter word in ./6 tries"
   #   - "5-letter word in 4/6 tries"
   #   lang: en
@@ -106,7 +122,7 @@ addon_in_the_end:
   - # Wordle the most famous one
     url: 'https://www.nytimes.com/games/wordle/'
     # used to be https://www.powerlanguage.co.uk
-    regexes:
+    regexes_in_or:
       - "wordle"
       - "🟩🟩🟩🟩🟩"
     lang: en

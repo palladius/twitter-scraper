@@ -1,16 +1,14 @@
 # created with: rails g task db sbirciatina popola
 
-def envputs(s)
-  puts "[#{Rails.env}] #{s}"
-end
+def envputs(s)  puts "[#{Rails.env}] #{s}" end
 
+def yellow(s)   "\e[1;33m#{s}\e[0m" end
+def white(s)    "\e[1;37m#{s}\e[0m" end
+def azure(s)    "\033[1;36m#{s}\033[0m" end
+def red(s)      "\033[1;31m#{s}\033[0m" end
+def green(s)    "\033[1;32m#{s}\033[0m" end
 
-def yellow(s)
-  "\e[1;33m#{s}\e[0m"
-end
-def white(s)
-  "\e[1;37m#{s}\e[0m"
-end
+#👤
 
 def write_entity_cardinalities()
   t0 = Time.now
@@ -35,7 +33,10 @@ namespace :db do
 
   def populate_in_test_old_vs_new(bool, debug=false)
     puts ''
-    envputs(white("== populate_in_test(#{yellow(bool ? :NEW_SCALABLE_BUGGY : :OLD_SAME)}) =="))
+    description = bool ? 
+      "New Scalable (yet buggy): regex doesnt seem to work AT ALL dammit but code looks a bijou" :
+      "Same old same old. Super scheggia, doesnt fail a test, but more and moreencumbring and difficult to test on long run"
+    envputs(white("== populate_in_test(#{azure(description)}) =="))
     #write_entity_cardinalities
     #envputs 'Calling post-creation callbacks (which doesnt happen by defaault with TEST fixtures for efficiency reasons)..'
     #Tweet.all.each {|t| t._run_create_callbacks}
@@ -63,16 +64,18 @@ namespace :db do
     WordleTweet.all.each { |wt|
       #bad_type = wt.wordle_type.to_s.in? ['', 'unknown_v2']
       unless wt.wordle_type.in?(WordleTweet.acceptable_types)
-        envputs "[BAD1] #{wt.flag} type='#{yellow  wt.wordle_type}' score=#{yellow wt.score} day='#{yellow wt.parse_incrementalday_from_text}' MagicInfo='#{yellow(wt.tweet.internal_stuff) rescue :nada}'"
+        envputs "[#{red :BAD1}] #{wt.flag} type='#{yellow  wt.wordle_type}' score=#{yellow wt.score} day='#{yellow wt.parse_incrementalday_from_text}' MagicInfo='#{yellow(wt.tweet.internal_stuff) rescue :nada}'"
         # make it printable: .gsub(/[^[:print:]]/,'.')
-        envputs "[BAD2] TXT='#{white wt.tweet.printable_text }'"
+        envputs "[#{red :BAD2}] TXT='#{white wt.tweet.printable_text }'"
+        expected = wt.tweet.internal_stuff.match(/should be ([a-z_]+) \/\//)[1] rescue :error_parsing
+        envputs "[#{red :BAD3}] Should be #{green expected} but its '#{red wt.wordle_type }'"
         n_errors += 1
         wt.validate
         n_invalids += 1 unless wt.valid?
       end
     }
-    puts "END. Total Errors: #{yellow n_errors}/#{WordleTweet.all.count}. taotal invalids: #{white n_invalids}"
-
+    puts "END. Total Errors: #{yellow n_errors}/#{white WordleTweet.all.count}. Total invalids: #{azure n_invalids}."
+    puts red("Now go to the Model and fix it mofo! (or maybe if its new remember also to ad to array f valid shtuff)") if n_errors>0
   end 
 
   desc "popola in test"

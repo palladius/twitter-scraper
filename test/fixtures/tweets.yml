@@ -382,3 +382,30 @@ paroldada7:
     ⬆️ ⬆️ ⬆️ ⬆️ ⬆️
 
     #Wordle #Wordle7 #WordleIT #WordleItaliano #Wordle240
+mathler-facile:
+  twitter_user: ricc
+  internal_stuff: type and day should be mathler_easy // 14 // 2 on 2022-02-15
+  full_text: |
+    easy.mathler.com  14 2/6
+
+    ⬜⬜⬜⬜🟨
+    🟩🟩🟩🟩🟩
+mathler-medio:
+  twitter_user: ricc
+  internal_stuff: type and day should be mathler_med // 14 // 2 on 2022-02-15
+  # difficile da parsare, dovrei parsare gli altri due prima :)
+  full_text: |
+    mathler.com 14 3/6
+
+    🟨⬜⬜⬜⬜⬜
+    🟩🟨🟩🟨🟩🟨
+    🟩🟩🟩🟩🟩🟩
+
+mathler-difficile:
+  twitter_user: ricc
+  internal_stuff: type and day should be mathler_hard // 14 // 2 on 2022-02-15
+  full_text: |
+    hard.mathler.com  14 2/6
+
+    ⬜⬜🟩🟨🟩🟩⬜⬜
+    🟩🟩🟩🟩🟩🟩🟩🟩
