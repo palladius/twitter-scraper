@@ -6,8 +6,8 @@
 </p>
 
 <%#= column_chart WordleTweet.group(:wordle_type).group_by_hour(:created_at).count,  stacked: true %>
-<%= column_chart WordleTweet.group(:score).group_by_hour(:created_at).count,  stacked: true ,  download: true, 
-    xtitle: "Hour", ytitle: "Tweets by score" 
+<%= line_chart WordleTweet.group(:score).group_by_day(:created_at).count,  stacked: true ,  download: true, 
+    xtitle: "Day", ytitle: "Tweets by score" 
 %>
 
 
@@ -18,8 +18,8 @@
     xtitle: "Day", ytitle: "Total Tweets" %>
 
 Tweets per day (of Twitter Creation)
-<%= line_chart Tweet.group_by_day(:twitter_created_at).count  %>
-<%#= line_chart TwitterUser.group_by_day(:created_at).count  %>
+<%= column_chart Tweet.group_by_day(:twitter_created_at).count  %>
+<%#= column_chart TwitterUser.group_by_day(:created_at).count  %>
 
 <table border="0" style="width:100%;background-color:#EFF;" >
 <tr>
@@ -94,6 +94,15 @@ but better documented <a href="https://www.chartjs.org/docs/master/samples/scale
 
 
 %>
+Average Score per DAY (which days it was a difficult one?!?)
+
+<%= #column_chart WordleTweet.group(:score).group_by_day(:created_at).count , #.select{|incremday_and_date, cardinality| cardinality > 50 } ,
+  column_chart WordleTweet.group_by_day(:created_at).average(:score),
+    label: "Tweets per hour" , download: true, 
+    stacked: true,
+    colors: ["#3cba54", "#f4c20d", "#db3236", "#4885ed"],
+    xtitle: "Day", ytitle: "Average Score" %>
+
 </div>
 <!--
 <div >
