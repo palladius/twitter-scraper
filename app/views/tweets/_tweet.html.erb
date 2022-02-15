@@ -18,7 +18,16 @@
     <%= tweet.stats %>
     </tt>
   </p>
-  
+
+  <p>
+    <strong>json_stuff:</strong>
+    <tt>
+    <%= tweet.json_stuff %>
+    </tt>
+  </p>
+
+
+
     <p>
     <strong>Timestamps 1 CreadedAt:</strong>
     <tt>
@@ -52,13 +61,13 @@
     </tt>
 
   </p>
-  
-  
+
+
     <p>
     <strong>Possible Wordle Twitter:</strong>
     <%= link_to tweet.wordle_tweet, tweet.wordle_tweet rescue "Error: #{ $! }" %>
   </p>
 
-  
+
 
 </div>
