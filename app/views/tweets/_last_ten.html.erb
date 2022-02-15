@@ -1,0 +1,14 @@
+<% 
+    # Variables: 
+    #- last_tweets
+%>
+<table border="1" width="50%" class="ricc-top-right" >
+    <tr>
+        <td>
+            <b>Last 10 twitteratez</b><br/>
+            <% @last_tweets.each do |t| %>
+            <%= t.to_s :top10 %><br/>
+            <% end %>
+        </td>
+    </tr>
+</table>
