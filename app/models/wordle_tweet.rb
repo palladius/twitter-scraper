@@ -189,8 +189,7 @@ end
   # TODO(ricc): messo parole che parsa meglio ma poi dila non parsa bene non so perche..
   def self.extended_wordle_match_type_old_ma_funge(text,
     include_very_generic = true,
-    exclude_wordle_english_for_debug=false,
-    include_only_italian_for_debug=false)
+    exclude_wordle_english_for_debug=false)
 
     # first obvious check - make sure it has a
     unless text.match?(/\d+ [123456X]\/6/i) or text.match?(/in [123456X]\/6 tries/i) 
@@ -223,7 +222,7 @@ end
           
 
     ## ITALIAN END
-    return nil if include_only_italian_for_debug
+    #return nil if include_only_italian_for_debug
 
     # returns TWO things: matches and id of
     return :wordle_fr  if text.match?(/Le Mot \(@WordleFR\) \#\d+ .\/6/i)
@@ -257,6 +256,8 @@ end
     return :katla if text.match?(/katla /i) and text.match?(DAY_AND_SCORE_REGEX)
     return :katapat if text.match?(/Katapat/i)  and text.match?(DAY_AND_SCORE_REGEX)
 
+    # SUTOM (FRench more than 5 letter)
+    return :sutom if text.match?(/sutom/i)  and text.match?(DAY_AND_SCORE_REGEX)
 
     # https://www.taylordle.com/
     return :taylordle if text.match?(/Taylordle \d+ [123456X]\/6/i)
@@ -349,17 +350,11 @@ end
         "🇬🇧"
       when :wg_english_uk
         "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
-      when :wordle_it
+      when :wordle_it, :wg_italian
         "🇮🇹"
-      when :wg_italian
-        "🇮🇹"
-      when :wordle_pt
+      when :wordle_pt, :wg_portuguese
         '🇵🇹'
-      when :wg_portuguese
-        '🇵🇹'
-      when :wg_spanish
-        "🇪🇸"
-      when :wordle_es
+      when :wg_spanish, :wordle_es
         "🇪🇸"
       when :wg_russian
         "🇷🇺"
@@ -369,11 +364,9 @@ end
         "🇮🇹"
       when :katapat, :katla
         "🇲🇾"
-      when :wordle_fr
+      when :wordle_fr, :sutom
         "🇫🇷"
-      when :wordle_de
-        "🇩🇪"
-      when :wg_german
+      when :wordle_de, :wg_german
         "🇩🇪"
       when :nerdlegame
         "🔢" 

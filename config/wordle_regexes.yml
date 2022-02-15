@@ -91,6 +91,11 @@ default: &default
     lang: special/math 
     regexes_in_or: 
     - mathsssssler.com
+  - return: sutom 
+    url: https://sutom.nocle.fr/
+    lang: fr 
+    regexes_in_or: 
+    - SUTOM
 
 development:
   <<: *default

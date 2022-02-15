@@ -88,8 +88,8 @@ def rake_seed_parse_keys
 
 
   $search_terms.each do |search_term|
-    puts "+ [API_CALL] Searchin #{$n_tweets} for term '#{yellow search_term}'.."
-    puts azure("TODO(ricc): include into the boring notes the HOSTNAME #{$hostname} and SEARCH KEY (#{yellow search_term}) possibly in JSOn format")
+    puts "+ [API_CALL] Searchin #{$white n_tweets} for term '#{azure search_term}'.."
+    #puts azure("TODO(ricc): include into the boring notes the HOSTNAME #{$hostname} and SEARCH KEY (#{yellow search_term}) possibly in JSOn format")
     n_saved_tweets = 0
     n_unsaved_tweets = 0
     n_saved_users = 0
@@ -118,7 +118,8 @@ def rake_seed_parse_keys
 
         if $check_already_exists
           already_exists = Tweet.find_by_twitter_id(tweet.id)
-          puts "- [CACHE] Already exists TODO update if needed: [#{tu}] '#{already_exists.excerpt}' (import v#{already_exists.import_version})" if (
+          #puts "- [CACHE] Already exists TODO update if needed: [#{tu}] '#{already_exists.excerpt}' (import v#{already_exists.import_version})" 
+          print 'C' (
             already_exists && $rake_seed_import_version != already_exists.import_version
           )
         end
@@ -145,7 +146,7 @@ def rake_seed_parse_keys
         else
           # single error here.
           n_unsaved_tweets += 1
-          print '.'
+          print '.' # putchar
         end
       end
       #client.update("@#{tweet.user} Hey I love Ruby too, what are your favorite blogs? :)")
