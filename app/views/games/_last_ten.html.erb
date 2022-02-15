@@ -1,0 +1,13 @@
+<% 
+    # Variables: 
+    #- last_tweets
+%>
+<div class="ricc-users-top-right" >
+    <b>Last 10 games</b><br/>
+    <% @last_games.each do |g| %>
+    <span class="small-top10-element" >
+        <%#= link_to u.to_stylistic_s(:last10), u  %> <i>(<%#= time_ago_in_words(u.created_at) %> ago)</i>
+    </span>
+        <br/>
+    <% end %>
+</div>

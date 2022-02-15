@@ -350,7 +350,7 @@ end
         "🇬🇧"
       when :wg_english_uk
         "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
-      when :wordle_it, :wg_italian
+      when :wordle_it, :wg_italian,  :wordle_it1_ciofeco, :wekele_it # todo many others :)
         "🇮🇹"
       when :wordle_pt, :wg_portuguese
         '🇵🇹'
@@ -358,10 +358,6 @@ end
         "🇪🇸"
       when :wg_russian
         "🇷🇺"
-      when :wordle_it1_ciofeco
-        "🇮🇹"
-      when :wekele_it # todo many others :)
-        "🇮🇹"
       when :katapat, :katla
         "🇲🇾"
       when :wordle_fr, :sutom

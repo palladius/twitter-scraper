@@ -15,16 +15,18 @@ WORDLE_REGEXES
         <th>URL
         <th>How many
         <th>regexes
-        <th>debug
 
 <% WORDLE_REGEXES.each do |wr| %>
     <tr>
-        <td><%= wr[:return] rescue :boh %>
+        <td>
+        
+            <%= WordleTweet.flag_by_type(wr[:return]) rescue :boh %>
+            <%= wr[:return] rescue :boh %>
         <td><%= wr[:lang] rescue :boh %>
         <td><%= link_to wr[:url],wr[:url] rescue :boh %>
-        <td><b><%= distribution_hash.fetch(wr[:return] , :mah) rescue :boh %></b>        
+        <td><b><%= distribution_hash.fetch(wr[:return] , '-') rescue :boh %></b>        
         <td class="code" ><%= wr[:regexes] rescue :boh %>
-        <td  ><%= wr rescue :boh %>
+        <td  ><%#= wr rescue :boh %>
         
 <% end %>
 </table>

@@ -1,8 +1,30 @@
+<!-- 
+  :id,
+  :twitter_user_id,
+  :full_text,
+  :created_at,
+  :updated_at,
+  :import_version,
+  :import_notes,
+  :internal_stuff,
+  :json_stuff,
+  :twitter_id,
+  :twitter_created_at
+
+-->
 <div id="<%= dom_id tweet %>">
   <p>
     <strong>Twitter user:</strong>
     <%= tweet.twitter_user_id %>
     <%= link_to tweet.twitter_user,tweet.twitter_user %>
+  </p>
+  <p>
+    <strong>id:</strong>
+    <%= tweet.id %>
+  </p>
+  <p>
+    <strong>Twitter id:</strong>
+    <%= tweet.twitter_id %>
   </p>
 
   <p>
@@ -20,9 +42,28 @@
   </p>
 
   <p>
-    <strong>json_stuff:</strong>
+    <strong>JSON stuff:</strong>
     <tt>
     <%= tweet.json_stuff %>
+    </tt>
+  </p>
+  <p>
+    <strong>import version:</strong>
+    <tt>
+    <%= tweet.import_version %>
+    </tt>
+  </p>
+
+  <p>
+    <strong>import notes:</strong>
+    <tt>
+    <%= tweet.import_notes %>
+    </tt>
+  </p>
+  <p>
+    <strong>internal_stuff:</strong>
+    <tt>
+    <%= tweet.internal_stuff %>
     </tt>
   </p>
 
