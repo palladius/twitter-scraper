@@ -12,7 +12,9 @@
   :twitter_created_at
 
 -->
-
+<% if not  tweet %>
+  <div class="debug" >Tweet not found</div>
+<% else %>
 <div id="<%= dom_id tweet %>">
   <p>
     <strong>Twitter user:</strong>
@@ -111,3 +113,4 @@
   </p>
 
 </div>
+<% end %>

@@ -3,17 +3,18 @@ class WordleTweetsController < ApplicationController
 
   # GET /wordle_tweets or /wordle_tweets.json
   def index
-    max_instances = params[:limit] { 100 }
+    
+    @max_instances = params[:limit] { 21 }
     wordle_type_or_nil = params[:wordle_type]{ :all}.to_s 
     # params[:wordle_type].nil? ? 'all' : params[:wordle_type].to_s
     @wordle_type = wordle_type_or_nil
 
     if (wordle_type_or_nil.in? ["all", ""])
       # get all
-      @wordle_tweets = WordleTweet.all.limit(max_instances)
+      @wordle_tweets = WordleTweet.all.limit(@max_instances)
     else
       # get only certain type
-      @wordle_tweets = WordleTweet.where(wordle_type: wordle_type_or_nil).limit(max_instances)
+      @wordle_tweets = WordleTweet.where(wordle_type: wordle_type_or_nil).limit(@max_instances)
     end
   end
 

@@ -1,7 +1,18 @@
-<h2>Tweet #<%= tweet.id %></h2>
+<h2>🔝 Top Info</h2>
 
-  <%= render "tweets/ricc_show", tweet: @tweet %>
+<div class="ricc-global-top-right" >
+    <%#= render "tweets/last_ten", last_tweets: [], :locals => {:sobenme => 41 } rescue "Error: #{$!}"%>
+    <%= render "wordle_tweets/top_info", wordle_tweet: @tweet.wordle_tweet rescue "TWeet not available" %>
+    <%#= render "games/last_ten", tweets: @last_games, :locals => {:sobenme => 43 } %>
+</div>
 
-<h2>WTweet #<%= tweet.wordle_tweet.id %></h2>
 
-  <%= render "wordle_tweets/ricc_show", wordle_tweet: @tweet.wordle_tweet %>
+<div>
+  <h2>🐦 Tweet #<%= tweet.id %></h2>
+
+    <%= render "tweets/ricc_show", tweet: @tweet %>
+
+  <h2>🦚 WTweet #<%= tweet.wordle_tweet.id %></h2>
+
+    <%= render "wordle_tweets/ricc_show", wordle_tweet: @tweet.wordle_tweet %>
+</div>

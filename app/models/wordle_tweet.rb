@@ -102,6 +102,16 @@ class WordleTweet < ApplicationRecord
   def self.find_italian_orphans()
     # All by NIL :)
   end
+
+  def daily_id
+    # todo scrape int/123
+    wordle_incremental_day.gsub("int/","") rescue :WTdaily_id_SomeError
+  end
+
+  def game 
+    "#{wordle_type}::#{daily_id}" # rescue :WTGame_SomeError
+  end
+
   # I believe this shoiuld jhust be a bloody Class function :)
   #define_singleton_method :create_from_tweet do |tweet|
   def self.create_from_tweet(tweet, opts={})
@@ -143,8 +153,10 @@ def self.extended_wordle_match_type_new_ancora_buggy_but_scalable(text, opts={})
   puts "[deb] extended_wordle_match_type_new_ancora_buggy_but_scalable REMOVEME" if debug
   # before searching like crazy i make sure some initisal regex is matched :)
   unless text.match?(/\d+ [123456X]\/6/i) or text.match? /wordlegame.org\/wordle/
-    puts "[WARNING] No 123 X/6 found - skipping: #{text}"
+    puts "[WARNING] BAD_TEXT_001: No 123 X/6 found or wordlegame.org - skipping: #{text}"
     return nil
+    # Example of bad text: "No 123 X/6 found or even - skipping: Can you guess this Polish word?https://wordlegame.org/wordle-in-polish?challenge=xZtsZXB5"
+    # wordlegame.org when you do NOT guess in first 6. The regex doesnt contain response.
   end
 
   p WORDLE_REGEXES if debug
@@ -188,8 +200,7 @@ end
   # returns TWO things: matches and id of
   # TODO(ricc): messo parole che parsa meglio ma poi dila non parsa bene non so perche..
   def self.extended_wordle_match_type_old_ma_funge(text,
-    include_very_generic = true,
-    exclude_wordle_english_for_debug=false)
+    include_very_generic = false)
 
     # first obvious check - make sure it has a
     unless text.match?(/\d+ [123456X]\/6/i) or text.match?(/in [123456X]\/6 tries/i) 
@@ -248,6 +259,7 @@ end
     return :mathler_medium if text.match?(/mathler.com/i) and text.match?(DAY_AND_SCORE_REGEX)
 
 
+    # Geographical
     return :worldle if text.match?(/worldle.teuteuf.fr/i) and text.match?(DAY_AND_SCORE_REGEX)
 
     return :wordle_ko  if text.match?(/#Korean #Wordle .* \d+ .\/6/i)
@@ -289,12 +301,13 @@ end
 
     # Generic wordle - might want to remove in the future
     # 1. English we keep last
-    return :wordle_en  if text.match?(/Wordle \d+ [123456X]\/6/i) unless exclude_wordle_english_for_debug
-    # 2. Super generic
-    if include_very_generic
-      # :other sounds like another :wordle_en :)
-      return :other if text.match?(/ordle \d+ [123456X]\/6/i) unless exclude_wordle_english_for_debug
-    end
+    return :wordle_en  if text.match?(/Wordle \d+ [123456X]\/6/i) 
+
+    # # 2. Super generic - lets STOP accepting this from 15feb22!
+    # if include_very_generic
+    #   # :other sounds like another :wordle_en :)
+    #   return :other if text.match?(/ordle \d+ [123456X]\/6/i) 
+    # end
     return nil
   end
 

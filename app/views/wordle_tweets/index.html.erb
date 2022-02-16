@@ -22,7 +22,7 @@ Click here to get the subset of Wordle Tweets for a particular type/technology/l
 ]
 </p>
 
-<h1>Wordle tweets (<%= @wordle_tweets.count %>)</h1>
+<h1>Wordle tweets (<%= @max_instances %>)</h1>
 
 <div id="wordle_tweets">
   <table border="1" >
@@ -51,7 +51,9 @@ Click here to get the subset of Wordle Tweets for a particular type/technology/l
     <td> <%= wt.import_version %> </td>
     <td> <%= wt.nice_wordle_type %> </td>
     <td> <%= wt.score %> </td>
-    <td> <%= wt.wordle_incremental_day %> </td>
+    <td> 
+      <%= render "micro_game" , wt: wt %>     
+    </td>
     <td> <%= time_ago_in_words(wt.created_at) %> </td>
     <td><%= wt.tweet %>  </td>    
     <td> 

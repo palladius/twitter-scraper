@@ -1,0 +1,33 @@
+<!-- variable: wordle_tweet -->
+<div class="ricc-wordletweet-top-right" >
+    <table>
+    <tr>
+        <th colspan="2" >WTweet condensated info
+    <tr>
+        <td>WorldeTweet
+        <td><%= link_to wordle_tweet.to_s(),wordle_tweet %>
+    <tr>
+        <td>tweet
+        <td><%= link_to wordle_tweet.tweet.to_s(), wordle_tweet.tweet %>
+    <tr>
+        <td>Day
+        <td>
+            <%= wordle_tweet.wordle_incremental_day %> 
+    <tr>
+        <td>🏆 Score 
+        <td>
+            <%= wordle_tweet.score %> 
+    <tr>
+        <td>Game (new!)
+        <td>
+            <%= wordle_tweet.game %> 
+    <tr>
+        <td>Type
+        <td>
+            <%= wordle_tweet.flag %> 
+            <%= link_to wordle_tweet.wordle_type, "/wordle_tweets?wordle_type=#{wordle_tweet.wordle_type}" %> 
+    <tr>
+        <td>Age
+        <td><%= time_ago_in_words(wordle_tweet.created_at) %> ago
+    </table>
+</div>

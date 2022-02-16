@@ -14,10 +14,10 @@
 <% else %>
 <!-- here i have values -->
 <tr>
-    <td><%= mytweet.id %>
+    <td><%= link_to mytweet.id, mytweet %>
     <%= link_to('Destroy (invalid)', delete_manage_tweet_path(mytweet.id))  unless mytweet.valid? %>
     </td>
-    <td><%= mytweet.url %></td>
+    <td><%= link_to :broken, mytweet.url %></td>
     <td><%= mytweet.json_stuff  %></td>
     <td><%= mytweet.import_version  %></td>
     <td><%= mytweet.twitter_user %></td>

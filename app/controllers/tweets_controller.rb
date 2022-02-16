@@ -1,9 +1,12 @@
 class TweetsController < ApplicationController
   before_action :set_tweet, only: %i[ show edit update destroy ]
+  # https://stackoverflow.com/questions/43180720/rails-error-pages-controller-and-redirecting-the-user
+  rescue_from ActiveRecord::RecordNotFound, with: :salvataggio
 
   # GET /tweets or /tweets.json
   def index
-    @tweets = Tweet.all.where(:import_version => "2" )
+    # 3 is latest ATM TODO(ricc): autopick the latest :)
+    @tweets = Tweet.all.where(:import_version => "3" ).limit(8)
   end
 
   # GET /tweets/1 or /tweets/1.json
@@ -57,10 +60,17 @@ class TweetsController < ApplicationController
     end
   end
 
+  def salvataggio
+    flash[:error] = "Some error in TweetsController"
+    flash[:warn] = "Some WARN in TweetsController"
+#    redirect_to "/tweets"
+    redirect_to action: 'index'
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_tweet
-      @tweet = Tweet.find(params[:id])
+      @tweet = Tweet.find(params[:id]) rescue redirect_to("root")
     end
 
     # Only allow a list of trusted parameters through.

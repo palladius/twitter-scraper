@@ -1,6 +1,6 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Tweets Nice</h1>
+<h1>Tweets Nice (tabular)</h1>
 
 <div id="tweets">
   <table border="1">
@@ -20,7 +20,7 @@
     <p>
       <%= link_to "Show this tweet", tweet %>
     </p>
-  <% end %>
+  <% end rescue "Error: #{$!}" %>
 </div>
 
-<%= link_to "New tweet", new_tweet_path %>
+<%= link_to "New tweet", new_tweet_path if mutations_allowed? %>
