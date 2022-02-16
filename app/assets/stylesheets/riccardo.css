@@ -37,3 +37,12 @@ padding: 5pt ;
 .small-top10-element {
     font-size: small;
 }
+
+.wt_sublinks {
+  font-size: small;
+
+}
+
+.debug {
+  background-color: pink;
+}

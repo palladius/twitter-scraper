@@ -1,4 +1,4 @@
 <% # expects a WT %>
 <span class="micro-game" >
-    <%= link_to  wt.game, "/wordle_tweets?game=#{wt.game}"  %>
+    <%= link_to  wt.game, "/wordle_tweets?game=true&wordle_type=#{wt.wordle_type}&wordle_incremental_day=#{wt.wordle_incremental_day}"  %>
 </span>

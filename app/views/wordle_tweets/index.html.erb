@@ -1,26 +1,42 @@
-<p style="color: green"><%= notice %></p>
-
-
-<!-- 
-Mini table: {nil=>91, "lewdle"=>2, "nerdlegame"=>8, "other"=>173, "wordle_de2"=>1, "wordle_en"=>10781, "wordle_fr"=>49, "wordle_it"=>38, "wordle_it1_ciofeco"=>4, "wordle_ko"=>170}
-
--->
-<h3>WT Sub links</h3>
-
-<p style="color:orange" >
-You chose: '<b><%= @wordle_type %></b>'
-</p>
-<p>
-Click here to get the subset of Wordle Tweets for a particular type/technology/language:
-[
-<% WordleTweet.all.group(:wordle_type).count.each do |type,count|
-    type_or_nil = type.to_sym rescue :nil
-    link = "/wordle_tweets?wordle_type=#{type_or_nil}" 
+<%
+  interesting_debug_params = {}
+  interesting_debug_params[:wordle_type] = @wordle_type
+  interesting_debug_params[:spiegone] = @spiegone
+  interesting_debug_params[:graphs] = @graphs
 %>
-  <%= link_to "#{count} #{type_or_nil} WTs", link %> |
+<p style="color: green"><%= notice %></p>
+<p class="wt_sublinks" >
+[
+<% @grouped_tweets.each do |type,count|
+    type_or_nil = type.to_sym rescue :nil
+    link = "/wordle_tweets?wordle_type=#{type_or_nil}"
+    next if  type_or_nil == :nil 
+%>
+  <%= link_to "#{count} #{WordleTweet.flag_by_type(type_or_nil) rescue '?'} #{type_or_nil}", link %> |
  <% end %>
 ]
 </p>
+
+<% if Rails.env.development? %>
+<div class="debug" >
+  <p style="color:blue" class="debug" >
+    Debug for Riccardo. You chose: <br/>
+    <% interesting_debug_params.each do |k,v| %>
+    <%= k %>: '<b><%= v %></b>' <br/>
+    <% end %>
+  </p>
+  </div>
+<% end %>
+
+
+<%= render "graphs", 
+  :wordle_type => (@wordle_type rescue nil) ,
+  :wordle_incremental_day => (@wordle_incremental_day rescue nil),
+  :graphs => @graphs ,
+  :wordle_tweets => @wordle_tweets
+%>
+
+
 
 <h1>Wordle tweets (<%= @max_instances %>)</h1>
 

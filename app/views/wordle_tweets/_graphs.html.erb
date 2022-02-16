@@ -1,0 +1,46 @@
+<% 
+    # expected variable:  
+    # * graphs: array with graphs
+    # * wordle_tweets: object ActiveRecord array to graph upon
+    # * [optional] wordle_type
+    # * [optional] game
+
+%>
+<h2> 📊Graphs</h2>
+<p>
+    Elements: <%= wordle_tweets.count rescue :boh %>
+    graphs: <%= graphs rescue :boh %>
+</p>
+
+<% if graphs.include? 'wordle_type' %>
+
+    <h3>[WT=<%= wordle_type rescue '' %>] WordleTweet by Score</h3>
+    <span class="graph_title" >WordleTweet by Score</span>
+    <%= column_chart wordle_tweets.group(:score).count.select{|k,v| not k.nil?}.select{|x| x>=1 && x<=6 rescue false}, 
+        download: true 
+    %>
+    <p> 
+    Average moves: <b>
+        <%#= wordle_tweets.group(:score).count %>
+        <%= wordle_tweets.group(:score).global_average_score.round(2) %>
+        </b> (wait, might be wrong)
+    </p>
+<%end%>
+
+
+<% if graphs.include? 'game' %>
+<% 
+    hash_of_results =  wordle_tweets.group(:score).count.select{|k,v| not k.nil?}.select{|x| x>=1 && x<=6 rescue false} 
+%>
+    <h3>[Game=<%= game rescue '' %>] Game by Score</h3>
+    <span class="graph_title" >Game by Score </span>
+    <%#= wordle_tweets.group(:score).count %>
+    <%= column_chart hash_of_results, 
+        download: true 
+    %>
+    <p> 
+        average_score_for: <b><%= WordleTweet.average_score_for(hash_of_results).round(2) %></b>
+        (vs Average Global moves: <b><%= WordleTweet.global_average_score.round(2) %></b>
+)
+    </p>
+<%end%>

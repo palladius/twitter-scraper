@@ -416,4 +416,16 @@ end
     numerator * 1.0 / denominator
   end
 
+  # Takes source like this: => {1=>4, 42=>32, 2=>24, 5=>250, 4=>223, 6=>143, 3=>129}
+  # and returns average
+  # https://stackoverflow.com/questions/17750258/cumulative-weighted-average-in-ruby
+  # WOOOOT!
+  def   self.average_score_for(hash_of_results) 
+#    cs=0 ; qu=0 
+    cumulative_numerator, cumulative_denominator = 0.0, 0.0
+    num_den = hash_of_results.map{|score, card| [cumulative_numerator += score * card, cumulative_denominator += card ]}.last # => [23915.0, 3283.0]
+    num_den.first / num_den.second
+  end
+
+
 end
