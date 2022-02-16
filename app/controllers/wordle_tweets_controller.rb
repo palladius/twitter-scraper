@@ -1,11 +1,12 @@
 class WordleTweetsController < ApplicationController
   before_action :set_wordle_tweet, only: %i[ show edit update destroy ]
 
-  DEFAULT_LIMIT = 21 # 42 / 2 :) 
+  $default_limit = 21 
+  
   # GET /wordle_tweets or /wordle_tweets.json
   def index
     
-    @max_instances = params[:limit] { DEFAULT_LIMIT }
+    @max_instances = params[:limit] { $default_limit }
     # I feel this is CRAPPY code.. i just want to distinguish between NIL as an answer and NO presence of the param.
     wordle_type_or_nil = params[:wordle_type]{ :all}.to_s 
     # params[:wordle_type].nil? ? 'all' : params[:wordle_type].to_s

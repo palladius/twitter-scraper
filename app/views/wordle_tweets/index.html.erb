@@ -22,7 +22,7 @@
   <p style="color:blue" class="debug" >
     Debug for Riccardo. You chose: <br/>
     <% interesting_debug_params.each do |k,v| %>
-    <%= k %>: '<b><%= v %></b>' <br/>
+     <%= k %>: '<b><%= v %></b>' <br/>
     <% end %>
   </p>
   </div>
@@ -33,7 +33,7 @@
   :wordle_type => (@wordle_type rescue nil) ,
   :wordle_incremental_day => (@wordle_incremental_day rescue nil),
   :graphs => @graphs ,
-  :wordle_tweets => @wordle_tweets
+  :wordle_tweets => @wordle_tweets rescue "ErrorWithGRaphs: #{ $! }"
 %>
 
 
