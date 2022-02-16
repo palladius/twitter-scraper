@@ -120,7 +120,7 @@ def rake_seed_parse_keys
           already_exists = Tweet.find_by_twitter_id(tweet.id)
           #puts "- [CACHE] Already exists TODO update if needed: [#{tu}] '#{already_exists.excerpt}' (import v#{already_exists.import_version})" 
           print 'c' if (already_exists && $rake_seed_import_version != already_exists.import_version)
-          next
+          next if already_exists
         end
         #print "2. [#{tweet.created_at}] Creating Tweet info based on existence of twitter_id :)"
         hash = {app_ver: APP_VERSION, search_term: search_term, hostname: $hostname}
