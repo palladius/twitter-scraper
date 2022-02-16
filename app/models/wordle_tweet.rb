@@ -321,6 +321,7 @@ end
   def stats
     ret = {}
     ret[:type] = wordle_type
+    ret[:flag] = flag #  WordleTweet.flag_by_type(wordle_type)
     ret[:score_db] = score
     ret[:score_db_s] = score_str
     ret[:score_calculated] = parse_score_from_text # might be expensive to calculate

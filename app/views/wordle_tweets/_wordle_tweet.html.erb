@@ -1,59 +1,9 @@
-<div id="<%= dom_id wordle_tweet %>">
-  <p>
-    <strong>to_s:</strong>
-    <%= wordle_tweet.to_s %>
-  </p>
 
-  <p>
-    <strong>Twitter user:</strong>
-    <%= wordle_tweet.tweet.twitter_user_id %>
-    <%= link_to wordle_tweet.tweet.twitter_user  %>
-  </p>
+TODO(ricc) this is a duplicate of tweets/_tweet.html.erb 
+<h2>1 WTweet #<%= wordle_tweet.id %></h2>
 
-  <p>
-    <strong>Wordle type:</strong>
-    <%#= wordle_tweet.wordle_type %>
-      <%= link_to wordle_tweet.wordle_type , "/wordle_tweets?wordle_type=#{ wordle_tweet.wordle_type }" %>
-  </p>
-  <p>
-    <strong>Stats:</strong>
-    <%= wordle_tweet.stats %>
-  </p>
+  <%= render "wordle_tweets/ricc_show", wordle_tweet: @wordle_tweet %>
 
+<h2>2 Tweet #<%= @wordle_tweet.tweet.id %></h2>
 
-  <p>
-    <strong>Tweet:</strong>
-    <%= link_to wordle_tweet.tweet %> 
-    <%#= wordle_tweet.tweet %>
-  </p>
-  <p>
-    <strong>Tweet Text:</strong>
-    <tt><%= wordle_tweet.tweet.full_text %></tt> 
-  </p>
-
-  <p>
-    <strong>Score:</strong>
-    <%= wordle_tweet.score %>
-  </p>
-
-  <p>
-    <strong>Wordle date:</strong>
-    <%= wordle_tweet.wordle_date %>
-  </p>
-
-  <p>
-    <strong>Wordle incremental day:</strong>
-    <%= wordle_tweet.wordle_incremental_day %>
-  </p>
-
-  <p>
-    <strong>Import version:</strong>
-    <%= wordle_tweet.import_version %>
-  </p>
-
-  <p>
-    <strong>Import notes:</strong>
-    <%= wordle_tweet.import_notes %>
-  </p>
-
-</div>
+  <%= render "tweets/ricc_show", tweet: @wordle_tweet.tweet %>
