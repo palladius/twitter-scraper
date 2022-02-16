@@ -21,6 +21,8 @@ Some statistics - Config and DB:<br/>
 - <b><%= Tweet.count %></b> Tweets<br/>
 - <b><%= WordleTweet.count %></b> WordleTweets<br/>
 - DB Config: <b><%= Rails.configuration.database_configuration[Rails.env]["adapter"] %></b><br/>
+- DB Description: <i><%= Rails.configuration.database_configuration[Rails.env]["descrizione"] %></i><br/>
+
 
 Freshness:<br/>
 - Last Tweet: <b><%= time_ago_in_words @last_tweets.first.created_at %></b> ago<br/>

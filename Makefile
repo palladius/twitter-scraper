@@ -64,6 +64,8 @@ ingest-to-dev-from-twitter:
 
 run-prod:
 	RAILS_ENV=production rails s
+run-devpg:
+	 RAILS_ENV=devpg rails s
 
 # prod.
 #N Nick: 236089,

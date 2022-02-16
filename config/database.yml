@@ -8,12 +8,23 @@ default: &default
   adapter: sqlite3
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
+  descrizione: Description a default
 
 development:
   <<: *default
   database: db/development.sqlite3
-  url: <%= ENV["DEV_DATABASE_URL"] %>
+  descrizione: development.sqlite3 as usual
+  #url: <%= ENV["DEV_DATABASE_URL"] %>
 
+# need to test postgres in DEV :/ so there you are
+devpg:
+  #<<: *default
+  adapter: postgresql
+  encoding: unicode
+  database: db/development.sqlite3
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  url:  <%= ENV["DEV_DATABASE_URL"] %>
+  descrizione: development-like but connecting to a random DB on PGsql I believe its staging DB
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -27,9 +38,11 @@ production:
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   url: <%= ENV["PROD_DATABASE_URL"] %>
+  descrizione: PROD DB todo change user/pass cos its been exposed
 
 staging:
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   url: <%= ENV["STAGING_DATABASE_URL"] %>
+  descrizione: staging DB con pwd sicura e solida su solito posto

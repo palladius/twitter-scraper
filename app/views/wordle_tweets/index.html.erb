@@ -28,14 +28,14 @@
   </div>
 <% end %>
 
-
+<p>
 <%= render "graphs", 
   :wordle_type => (@wordle_type rescue nil) ,
   :wordle_incremental_day => (@wordle_incremental_day rescue nil),
   :graphs => @graphs ,
   :wordle_tweets => @wordle_tweets rescue "ErrorWithGRaphs: #{ $! }"
 %>
-
+</p>
 
 
 <h1>Wordle tweets (<%= @max_instances %>)</h1>
