@@ -139,7 +139,7 @@ def rake_seed_parse_keys
         )
         saved_tweet = rails_tweet.save
         if saved_tweet
-          puts "- Non-Trivial Tweet saved: #{rails_tweet.id} from #{rails_tweet.to_s}"  if rails_tweet.wordle_type != "wordle_en"
+          puts "- Non-Trivial #{yellow rails_tweet.wordle_type} Tweet saved: #{rails_tweet.id} from #{rails_tweet.to_s}"  if rails_tweet.wordle_type != "wordle_en"
           n_saved_tweets += 1
         else
           # single error here.
