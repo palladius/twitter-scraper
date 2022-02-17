@@ -64,38 +64,46 @@ class Tweet < ApplicationRecord
     "https://twitter.com/#{twitter_user.accountid}/status/#{self.id}"
   end
 
+  # https://stackoverflow.com/questions/7690697/object-doesnt-support-inspect
   after_create do |tweet|
     #puts "Tweet::after_create created. Now creating Wordle brother."
     WordleTweet.create_from_tweet(tweet)
   end
 
   def flag 
-    self.wordle_tweet.flag
+    self.wordle_tweet.flag rescue nil
   end
 
   def created_str(which_part='')
     return twitter_created_at.strftime("%F") if which_part == 'day'
     twitter_created_at.strftime("%F %T") rescue :nil
   end
+
+  def wordle_incremental_day
+    wordle_tweet.wordle_incremental_day rescue nil
+  end
+  def score_str
+    wordle_tweet.score_str rescue nil
+  end
   
   def to_s(style=:generic)
     # depending on conbtext i show differetn stuff
-    inc_day = wordle_tweet.wordle_incremental_day.match?('int/\d+') rescue false ? 
-      "##{wordle_tweet.wordle_incremental_day.split('/')[1]}" : 
-      wordle_tweet.wordle_incremental_day
+    inc_day = (wordle_incremental_day.match?('int/\d+') rescue false) ? 
+      "##{wordle_incremental_day.split('/')[1]}" : 
+      wordle_incremental_day
     case style 
       when :twitter_user 
         # I already know the user! I won't publish it
-        "#{flag} 🏆#{wordle_tweet.score_str} for  #{inc_day} #{excerpt}"
+        "#{flag} 🏆#{score_str} for  #{inc_day} #{excerpt}"
       when :sobenme
         "sobenme"
       when :last10 # very small
-        "#{flag} #{inc_day} 🏆 #{wordle_tweet.score_str}/6 🐦 #{self.twitter_user.ldap} "
+        "#{flag} #{inc_day} 🏆 #{score_str}/6 🐦 #{self.twitter_user.ldap} "
       when :verbose
-        "((#{style})) [#{wordle_type} #{self.twitter_user}] 🏆#{wordle_tweet.score_str} #{full_text}"
+        "((#{style})) [#{wordle_type} #{self.twitter_user}] 🏆#{score_str} #{full_text}"
       else
         # default
-        "[#{flag} #{self.twitter_user.ldap}] 🏆#{wordle_tweet.score_str} #{excerpt}"    
+        "[#{flag} #{self.twitter_user.ldap}] 🏆#{score_str} #{excerpt}"    
       #  "[#{wordle_type} #{self.twitter_user}] 🏆#{wordle_tweet.score} #{excerpt}"
       #  "[#{wordle_type} #{self.twitter_user}] 🏆 #{excerpt}"
       end

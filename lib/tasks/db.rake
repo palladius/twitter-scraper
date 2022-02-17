@@ -94,15 +94,39 @@ namespace :db do
 
   desc "Removing Shitty types"
   task bisturi: :environment do
-    shitty_types = %w{other wordle_it1_ciofeco} 
+    shitty_types = %w{other wordle_it1_ciofeco null } + [nil]
+#    shitty_types += nil 
     write_entity_cardinalities
     envputs "Now Removing Shitty types among WT: #{shitty_types}."
     shitty_types.each do |shitty_type|
-      WordleTweet.where(:wordle_type => shitty_type).map{|wt| wt.delete}
+      delenda = WordleTweet.where(:wordle_type => shitty_type)
+      puts "Delenda[#{white shitty_type}]: #{yellow delenda.count}"
+      delenda.map{|wt| 
+        wt.tweet.delete
+        wt.delete
+      }
   #  WordleTweet.where(:wordle_type => 'wordle_it1_ciofeco').map{|wt| wt.delete}
     end
     envputs "Done. Counting again:"
     write_entity_cardinalities
+    #puts WordleTweet.where(:wordle_type => 'null').map{|wt| wt.id}
+  end
+
+  desc "Run Carlessian tests on live DB - WOOOOT!"
+  task test: :environment do
+    sky_limit = 10000
+    wt_spaiati = WordleTweet.where(:tweet_id => nil) # .count
+    envputs "Test001: WTs spaiati: WT senza un T: #{yellow wt_spaiati.count}"
+    envputs "+ Uno a caso: #{wt_spaiati.first}" if wt_spaiati.count > 0
+    #WordleTweet.where(:tweet_id => nil).count
+    #t_spaiati = Tweet.where(:wordle_tweet_id => nil) # .count
+    t_spaiati = Tweet.last(sky_limit).map{|t| t.id if t.wordle_tweet.nil? }.compact
+    envputs "Test002: Ts spaiati: T senza un WT: #{yellow t_spaiati.count}"
+    envputs "+ Lists ids tra i primi #{sky_limit}: #{white t_spaiati}" if t_spaiati.count > 0
+    envputs "+ Uno a caso: #{Tweet.find_by_id(t_spaiati.first)}" if t_spaiati.count > 0
+
+
+
   end
 
 end
