@@ -6,8 +6,11 @@
 </p>
 
 <%#= column_chart WordleTweet.group(:wordle_type).group_by_hour(:created_at).count,  stacked: true %>
-<%= line_chart WordleTweet.group(:score).group_by_day(:created_at).count,  stacked: true ,  download: true, 
-    xtitle: "Day", ytitle: "Tweets by score" 
+<%= column_chart WordleTweet.group(:score).group_by_hour(:created_at).count,  
+    stacked: true ,  
+    download: true, 
+    xtitle: "Day", 
+    ytitle: "Tweets by score" 
 %>
 
 
