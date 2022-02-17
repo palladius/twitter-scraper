@@ -92,4 +92,17 @@ namespace :db do
     }
   end
 
+  desc "Removing Shitty types"
+  task bisturi: :environment do
+    shitty_types = %w{other wordle_it1_ciofeco} 
+    write_entity_cardinalities
+    envputs "Now Removing Shitty types among WT: #{shitty_types}."
+    shitty_types.each do |shitty_type|
+      WordleTweet.where(:wordle_type => shitty_type).map{|wt| wt.delete}
+  #  WordleTweet.where(:wordle_type => 'wordle_it1_ciofeco').map{|wt| wt.delete}
+    end
+    envputs "Done. Counting again:"
+    write_entity_cardinalities
+  end
+
 end

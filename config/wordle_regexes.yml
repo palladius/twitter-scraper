@@ -96,6 +96,11 @@ default: &default
     lang: fr 
     regexes_in_or: 
     - SUTOM
+  - return: quordle
+    url: https://www.quordle.com/
+    lang: en
+    regexes_in_or: 
+    - quordle
 
 development:
   <<: *default

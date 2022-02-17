@@ -48,6 +48,7 @@ $search_terms = [
   'katapat',
   'worldle',
   'wekele',
+  'quordle',
   # this works but produces TOO much and i dont know what it i
   #'🟩🟩🟩🟩🟩', # success
   # We keep this last
