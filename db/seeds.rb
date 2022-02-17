@@ -41,12 +41,12 @@ $search_terms = [
 #  'https://term.ooo/',
   'wordlefr',
   'WordleIT',
+  'wordlept',
   'Par🇮🇹le',
   'wordlegame.org', # since 0.11 I support it!
   '#taylordle',
   'katapat',
   'worldle',
-  'wordlept',
   'wekele',
   # this works but produces TOO much and i dont know what it i
   #'🟩🟩🟩🟩🟩', # success
@@ -119,7 +119,7 @@ def rake_seed_parse_keys
 
         if $check_already_exists
           already_exists = Tweet.find_by_twitter_id(tweet.id)
-          #puts "- [CACHE] Already exists TODO update if needed: [#{tu}] '#{already_exists.excerpt}' (import v#{already_exists.import_version})" 
+          #puts "- [CACHE] Already exists TODO update if needed: [#{tu}] '#{already_exists.excerpt}' (import v#{already_exists.import_version})"
           print 'c' if (already_exists && $rake_seed_import_version != already_exists.import_version)
           next if already_exists
         end

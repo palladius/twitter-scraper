@@ -53,14 +53,18 @@ ingest-batch-from-twitter:
 	@echo [IMPORTANT] do NOT use WATCH. Use WHILE instead - pirla.
 	TWITTER_INGEST_SIZE=201 watch -n 10 rake db:seed
 # this uses a while, not wATCH so its better suited for long computations.
-ingest-bacth-prod-while:
-	while true; do make TWITTER_INGEST_SIZE=121 RAILS_ENV=production ingest-to-prod-from-twitter ; sleep 10 ; done
-ingest-to-prod-from-twitter:
+ingest-to-prod-once:
 	TWITTER_INGEST_SIZE=123 RAILS_ENV=production rake db:seed
-ingest-to-staging-from-twitter:
-	TWITTER_INGEST_SIZE=51 RAILS_ENV=staging rake db:seed
-ingest-to-dev-from-twitter:
+ingest-to-prod-whilesleep:
+	while true; do make ingest-to-prod-once ; sleep 10 ; done
+
+ingest-to-staging-once:
+	TWITTER_INGEST_SIZE=21 RAILS_ENV=staging rake db:seed
+
+ingest-to-dev-once:
 	TWITTER_INGEST_SIZE=153 RAILS_ENV=development rake db:seed
+ingest-to-dev-continuously:
+	while true; do make ingest-to-dev-once ; sleep 10 ; done
 
 run-prod:
 	RAILS_ENV=production rails s
