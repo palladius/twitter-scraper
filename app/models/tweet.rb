@@ -18,7 +18,7 @@ class Tweet < ApplicationRecord
   belongs_to :twitter_user
   #class WordleTweet < ApplicationRecord
   #  belongs_to :tweet
-  has_one :wordle_tweet
+  has_one :wordle_tweet # , counter_cache: true
 
   #  validates_uniqueness_of : #  : references 
   validates :full_text, uniqueness: { scope: :twitter_user }
