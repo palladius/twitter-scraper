@@ -67,11 +67,11 @@ run-prod:
 run-devpg:
 	 RAILS_ENV=devpg rails s
 
-# prod.
-#N Nick: 236089,
+# prod:
+# PROD Nick:  [[236089, "BJArmstrong10", "Nicola Piludu"]]
+# PROD Pizzo: [[168301, "PaoloPizzorni", "Paolo Pizzorni"]]
 search-for-pizzorni-and-piludu-in-prod:
-	echo 'TwitterUser.all.map{|u| [u.id, u.name] }.first(1000000).select{|id,name| name.match? /pizzor/i}' | RAILS_ENV=production rails console
-	#echo 'TwitterUser.all.map{|u| [u.id, u.name] }.first(1000000).select{|id,name| name.match? /bj/i}' | RAILS_ENV=production rails console
-	echo 'TwitterUser.all.first(10000000).map{|u| [u.id, u.ldap, u.name] }.select{|id,name, description| name.match? /BJArmstrong10/i}' | RAILS_ENV=production rails console
+	echo 'TwitterUser.all.first(10000000).map{|u| [u.id, u.ldap, u.name] }.select{|id,name, description| name.match? /BJArmstrong10|palladius/i}' | RAILS_ENV=production rails console
+	echo 'TwitterUser.all.first(10000000).map{|u| [u.id, u.ldap, u.name] }.select{|id,name, description| name.match? /pizzorn/i}' | RAILS_ENV=production rails console
 test-fixtures:
 	RAILS_ENV=test rake db:fixtures:load
