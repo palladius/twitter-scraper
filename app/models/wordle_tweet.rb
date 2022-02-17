@@ -19,9 +19,10 @@ class WordleTweet < ApplicationRecord
   belongs_to :tweet
   validates_presence_of :score
 
-  DAY_AND_SCORE_REGEX = /\d+ [123456X]\/6/ # most people use this, eg "123 4/6" or "#123 X/6".
+  DAY_AND_SCORE_REGEX = /\d+ [123456X💀]\/6/ # most people use this, eg "123 4/6" or "#123 X/6".
+  # Also wordle FR uses this for X: Le Mot (@WordleFR) #38 💀/6
   WORDLEGAME_LIST = %w{ spanish russian portuguese german italian kids english_uk }
-
+  FILE_GREEN_SQUARES_REGEX = /🟩🟩🟩🟩🟩/# these are 5 greens
 
   def to_s
     #"TODO 🌻 WordleTweet "
@@ -152,8 +153,10 @@ def self.extended_wordle_match_type_new_ancora_buggy_but_scalable(text, opts={})
 
   puts "[deb] extended_wordle_match_type_new_ancora_buggy_but_scalable REMOVEME" if debug
   # before searching like crazy i make sure some initisal regex is matched :)
-  unless text.match?(/\d+ [123456X]\/6/i) or text.match? /wordlegame.org\/wordle/
-    puts "[WARNING] BAD_TEXT_001: No 123 X/6 found or wordlegame.org - skipping: #{text}"
+#  unless text.match?(/\d+ [123456X]\/6/i) or text.match? /wordlegame.org\/wordle/
+  #unless text.match?(/\d+ [123456X]\/6/i) or text.match? /wordlegame.org\/wordle/
+  unless text_matches_moves(text)
+      puts "[WARNING] BAD_TEXT_001: No 123 X/6 found or wordlegame.org - skipping: #{text}"
     return nil
     # Example of bad text: "No 123 X/6 found or even - skipping: Can you guess this Polish word?https://wordlegame.org/wordle-in-polish?challenge=xZtsZXB5"
     # wordlegame.org when you do NOT guess in first 6. The regex doesnt contain response.
@@ -195,7 +198,13 @@ def self.extended_wordle_match_type_new_ancora_buggy_but_scalable(text, opts={})
   return :unknown_v2
 end
 
+##########################
 ###### STATIC METHODS ###
+##########################
+
+def self.text_matches_moves(text)
+  text.match?(/\d+ [123456X]\/6/i) or text.match?(/in [123456X]\/6 tries/i) or text.match?(/[6️⃣7️⃣3️⃣4️⃣]/i) 
+end
 
   # returns TWO things: matches and id of
   # TODO(ricc): messo parole che parsa meglio ma poi dila non parsa bene non so perche..
@@ -203,9 +212,9 @@ end
     include_very_generic = false)
 
     # first obvious check - make sure it has a
-    unless text.match?(/\d+ [123456X]\/6/i) or text.match?(/in [123456X]\/6 tries/i) 
-      #warn "No 123 X/6 found - skipping: #{text}"
-      puts "No 123 X/6 found or even - skipping: #{text}"
+#    unless text.match?(/\d+ [123456X]\/6/i) or text.match?(/in [123456X]\/6 tries/i) or text.match?(/[6️⃣7️⃣3️⃣4️⃣]/i) 
+    unless  self.text_matches_moves(text)
+      puts "[WARN] BAD_TEXT_002 No 123 X/6 found or even wordlegame tries - skipping: TEXT='''#{text}'''"
       return nil
     end
 
@@ -273,6 +282,8 @@ end
 
     # https://www.taylordle.com/
     return :taylordle if text.match?(/Taylordle \d+ [123456X]\/6/i)
+
+    return :quordle if text.match?(/Quordle #\d+/) and text.match?(/[6️⃣7️⃣3️⃣4️⃣]/) and text.match?(FILE_GREEN_SQUARES_REGEX) # and 🟩🟩🟩🟩🟩
 
     # multi page polymorphic scenario... 
     # wg_italian
@@ -392,6 +403,8 @@ end
         "🌎"
       when :wg_kids
         "🧒"
+      when :quordle
+        "4️⃣"
       when :other
         "❓"
       else # question mark, also try: 🤔 or 👽 Alien

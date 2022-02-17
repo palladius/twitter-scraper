@@ -2,13 +2,7 @@
 
 def envputs(s)  puts "[#{Rails.env}] #{s}" end
 
-def yellow(s)   "\e[1;33m#{s}\e[0m" end
-def white(s)    "\e[1;37m#{s}\e[0m" end
-def azure(s)    "\033[1;36m#{s}\033[0m" end
-def red(s)      "\033[1;31m#{s}\033[0m" end
-def green(s)    "\033[1;32m#{s}\033[0m" end
 
-#👤
 
 def write_entity_cardinalities()
   t0 = Time.now
