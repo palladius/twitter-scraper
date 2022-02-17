@@ -139,6 +139,9 @@ namespace :db do
       t.delete
     end
 
+    envputs "Test002: stats ad mentulam"
+    puts "+ WordleTweet.group(:wordle_type).count: ", WordleTweet.group(:wordle_type).count
+    puts "+ null scores per caso? ",  WordleTweet.group(:score).count
   end
 
 end
