@@ -94,7 +94,7 @@ namespace :db do
 
   desc "Removing Shitty stuff"
   task bisturi: :environment do
-    shitty_types = %w{other wordle_it1_ciofeco null } + [nil]
+    shitty_types = %w{other wordle_it1_ciofeco null wg_italian_renmoveme } + [nil]
 #    shitty_types += nil 
     write_entity_cardinalities
     envputs "1. Now Removing Shitty types among WT: #{shitty_types}."
@@ -102,7 +102,7 @@ namespace :db do
       delenda = WordleTweet.where(:wordle_type => shitty_type)
       puts "Delenda[#{white shitty_type}]: #{yellow delenda.count}"
       delenda.map{|wt| 
-        wt.tweet.delete
+        wt.tweet.delete  rescue nil
         wt.delete
       }
   #  WordleTweet.where(:wordle_type => 'wordle_it1_ciofeco').map{|wt| wt.delete}
