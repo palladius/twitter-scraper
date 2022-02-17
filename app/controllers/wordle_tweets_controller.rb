@@ -22,6 +22,7 @@ class WordleTweetsController < ApplicationController
         )
         @spiegone = "ho game: assumo di avere sia WT(#{params[:wordle_type]}) and WID(#{ params[:wordle_incremental_day]}) :)"
         @graphs << "game"
+        @game = [params[:wordle_type], params[:wordle_incremental_day] ].join('::')
       else
         @spiegone = "ho game ma non e TRUE: nonn so che cacchio fare e ritorno array vuoto."
         @wordle_tweets = [] 
@@ -32,7 +33,7 @@ class WordleTweetsController < ApplicationController
       #@wordle_tweets = WordleTweet.where(wordle_type: 'wordle_it') # .order(created_at: :desc)
     elsif params[:wordle_type].present? # WT but not GAME, nota
 #      @wordle_tweets = WordleTweet.all.limit(@max_instances)
-      @wordle_tweets = WordleTweet.where(wordle_type: wordle_type_or_nil) # .limit(@max_instances)
+      @wordle_tweets = WordleTweet.where(wordle_type: wordle_type_or_nil) 
       @spiegone = "ho wordle_type v2"
       @graphs << "wordle_type"
     else # no limits

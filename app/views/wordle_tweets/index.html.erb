@@ -3,6 +3,7 @@
   interesting_debug_params[:wordle_type] = @wordle_type
   interesting_debug_params[:spiegone] = @spiegone
   interesting_debug_params[:graphs] = @graphs
+  interesting_debug_params[:game] = @game
 %>
 <p style="color: green"><%= notice %></p>
 <p class="wt_sublinks" >
@@ -17,7 +18,7 @@
 ]
 </p>
 
-<% if Rails.env.development? %>
+<% if Rails.env.development? or Rails.env == "devpg"  %>
 <div class="debug" >
   <p style="color:blue" class="debug" >
     Debug for Riccardo. You chose: <br/>
@@ -33,7 +34,7 @@
   :wordle_type => (@wordle_type rescue nil) ,
   :wordle_incremental_day => (@wordle_incremental_day rescue nil),
   :graphs => @graphs ,
-  :wordle_tweets => @wordle_tweets rescue "ErrorWithGRaphs: #{ $! }"
+  :wordle_tweets => @wordle_tweets # rescue "ErrorWithGRaphs: #{ $! }"
 %>
 </p>
 

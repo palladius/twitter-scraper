@@ -5,42 +5,67 @@
     # * [optional] wordle_type
     # * [optional] game
 
+# DEBUG remove me once wuries work. This is to troubleshoot this out of controller and directly in view code pasting from rails console.
+# With this it works perfectly
+#@wordle_tweets = WordleTweet.where(wordle_type: "wordle_it")
+#wordle_tweets = @wordle_tweets
+
+
+# wordle_tweets = WordleTweet.where(
+#         wordle_type: 'wordle_it',
+#         wordle_incremental_day: 'int/376',
+# )
+#wordle_tweets_view = WordleTweet.where(wordle_type: 'wordle_fr')
+#      @wordle_tweets = WordleTweet.where(wordle_type: wordle_type_or_nil) # .limit(@max_instances)
+#wordle_tweets = WordleTweet.where(wordle_type:  params[:wordle_type])
 %>
+
 <h2> 📊Graphs</h2>
 <p>
-    Elements: <%= wordle_tweets.count rescue :boh %>
-    graphs: <%= graphs rescue :boh %>
+    Elements: <%= wordle_tweets.count rescue :boh %><br/>
+    graphs: <%= graphs rescue :boh %><br/>
+    DEB wordle_tweets: <%= wordle_tweets rescue "Error with wordle_tweets: #{$!}" %><br/>
+    DEB wordle_tweets Count:  <%= wordle_tweets.count rescue "Error with wordle_tweets: #{$!}" %><br/>
+
 </p>
 
 <% if graphs.include? 'wordle_type' %>
 
-    <h3>[WT=<%= wordle_type rescue '' %>] WordleTweet by Score</h3>
-    <span class="graph_title" >WordleTweet by Score</span>
-    <%= column_chart wordle_tweets.group(:score).count.select{|k,v| not k.nil?}.select{|x| x>=1 && x<=6 rescue false}, 
-        download: true 
-    %>
+    <h3>1. [WT=<%= wordle_type rescue '' %>] WordleTweet by Score</h3>
     <p> 
-    Average moves: <b>
-        <%#= wordle_tweets.group(:score).count %>
-        <%= wordle_tweets.group(:score).global_average_score.round(2) %>
-        </b> (wait, might be wrong)
+        <span class="graph_title" >WordleTweet by Score</span>
+        <%= column_chart(
+                wordle_tweets.group(:score, :created_at), # .select{|k,v| not k.nil?}.select{|x| x>=1 && x<=6 rescue false}, 
+                download: true
+            ) rescue "Error1  ERROR=#{$!}"
+        %>
+    </p>
+    <p> 
+        Average moves: <b>
+            <%#= wordle_tweets.group(:score).count %>
+            <%= wordle_tweets.group(:score).global_average_score.round(2) rescue :Error2count  %>
+            </b> (wait, might be wrong)
     </p>
 <%end %>
 
 
 <% if graphs.include? 'game' %>
 <% 
-    hash_of_results =  wordle_tweets.group(:score).count.select{|k,v| not k.nil?}.select{|x| x>=1 && x<=6 rescue false} 
+    hash_of_results =  wordle_tweets.group(:score).count.select{|k,v| not k.nil?}.select{|x| x>=1 && x<=6 } rescue {
+        :name => :hash_of_results ,
+        :error => $!
+    } 
 %>
-    <h3>[Game=<%= game rescue '' %>] Game by Score</h3>
+    <h3>2. [Game=<%= game rescue '?' %>] Game by Score</h3>
     <span class="graph_title" >Game by Score </span>
-    <%#= wordle_tweets.group(:score).count %>
-    <%= column_chart hash_of_results, 
-        download: true 
-    %>
-    <p> 
-        average_score_for: <b><%= WordleTweet.average_score_for(hash_of_results).round(2) %></b>
-        (vs Average Global moves: <b><%= WordleTweet.global_average_score.round(2) %></b>
-)
+        <%= column_chart(hash_of_results, 
+            download: true
+            ) rescue :Error3 
+        %>
+    <p>    
+         DEB Results: <tt><%= hash_of_results %></tt> <br/>
+        average_score_for: <b><%= WordleTweet.average_score_for(hash_of_results).round(2) rescue :Error4  %></b>
+        (vs Average Global moves: <b><%= WordleTweet.global_average_score.round(2) rescue :Error5 %></b>
+        )
     </p>
 <%end%>

@@ -111,19 +111,19 @@ addon_in_the_end:
   #    - "I guessed this Spanish 5-letter word in"
   #   lang: es
   #   return: wg_spanish_renmoveme
-  - url: https://wordlegame.org/wordle-in-italian
-    regexes_in_or:
-     - "wordlegame.org.wordle-in-italian"
-     - "I guessed this Italian 5-letter word in"
-     - guessed this Italian 5-letter
-    lang: it
-    return: wg_italian_renmoveme
-  # - url: todo
+  # - url: https://wordlegame.org/wordle-in-italian
   #   regexes_in_or:
-  #   #- "I guessed this .*5-letter word in ./6 tries"
-  #   - "5-letter word in 4/6 tries"
-  #   lang: en
-  #   return: wg_todo_polymoprhic
+  #    - "wordlegame.org.wordle-in-italian"
+  #    - "I guessed this Italian 5-letter word in"
+  #    - guessed this Italian 5-letter
+  #   lang: it
+  #   return: wg_italian_renmoveme
+  # # - url: todo
+  # #   regexes_in_or:
+  # #   #- "I guessed this .*5-letter word in ./6 tries"
+  # #   - "5-letter word in 4/6 tries"
+  # #   lang: en
+  # #   return: wg_todo_polymoprhic
   - # Wordle the most famous one
     url: 'https://www.nytimes.com/games/wordle/'
     # used to be https://www.powerlanguage.co.uk
