@@ -4,10 +4,6 @@ require "bundler/setup" # Set up gems listed in the Gemfile.
 require "bootsnap/setup" # Speed up boot time by caching expensive operations.
 
 # Apparently this is where to put SUPER initial stuff :)
-# def yellow(s)
-#     #    ' used to colorize everything here..'
-#     "[boot] \033[1;33m#{s}\033[0m"
-# end
 
 # Copied from..
 def yellow(s)   "\e[1;33m#{s}\e[0m" end
