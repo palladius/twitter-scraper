@@ -62,7 +62,7 @@ ingest-to-staging-once:
 	TWITTER_INGEST_SIZE=21 RAILS_ENV=staging rake db:seed
 
 ingest-to-dev-once:
-	TWITTER_INGEST_SIZE=153 RAILS_ENV=development rake db:seed
+	TWITTER_INGEST_SIZE=153 MARSHAL_TO_FILE=true RAILS_ENV=development rake db:seed
 ingest-to-dev-continuously:
 	while true; do make ingest-to-dev-once ; sleep 10 ; done
 

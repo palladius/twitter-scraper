@@ -53,7 +53,7 @@ $search_terms = [
   # We keep this last
   'Wordle',
 ]
-
+$marshal_on_file = (ENV["MARSHAL_TO_FILE"] =='true' || false ) rescue false
 # main
 
 def db_seed_puts(str)
@@ -69,6 +69,7 @@ def main
   db_seed_puts "#{white $search_terms.count.to_s } search terms: #{yellow $search_terms}"
   db_seed_puts "Ingesting into this DB: #{yellow Rails.configuration.database_configuration[Rails.env]["adapter"]}"
   db_seed_puts "Stats: #{yellow Tweet.count.to_s} tweets, #{yellow WordleTweet.count.to_s} WTs, #{yellow TwitterUser.count.to_s}  Users"
+  db_seed_puts "Stats: $marshal_on_file activated! Look into logs/ " if $marshal_on_file
   #exit 42
 
   raise "Too few tweets required. Set TWITTER_INGEST_SIZE env var!" if $n_tweets < 1
@@ -97,7 +98,17 @@ def rake_seed_parse_keys
     client.search(search_term).take($n_tweets).each do |tweet|
       quick_match = WordleTweet.quick_match(tweet.text)
       next unless quick_match
-      #puts "+ Habemus matchem 2: '#{tweet.text.gsub("\n"," ")}'"
+      if $marshal_on_file # then
+        m = tweet
+        path = File.expand_path('./tmp/marshal/')
+#        myhash = tweet.hash # todo change to something unique but always the same for same tweet like twit id.
+        myhash = [tweet.user.screen_name , tweet.id].join("-")
+        puts "[$marshal_on_file] Habemus Matchem 2 [pat=#{path}]: '#{tweet.text.gsub("\n"," ")}'"
+        File.open("#{path}/dumpv10-#{myhash}.yaml", 'w') { |f| f.write(YAML.dump(m)) }
+        File.open("#{path}/dumpv10-#{myhash}.obj", 'wb') { |f| f.write(Marshal.dump(m)) }
+        #puts 'DEBUG END AFTER ONE until it works :)'
+        #exit 42
+      end
       wordle_type = WordleTweet.extended_wordle_match_type(tweet.text)
       if not wordle_type.nil?
         #puts "[DEB] Found [#{ wordle_type}] #{short_twitter_username(tweet.user)}:\t'#{( tweet.text.split("\n")[0] )}'" # text[0,30]
