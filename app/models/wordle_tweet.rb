@@ -18,6 +18,7 @@
 class WordleTweet < ApplicationRecord
   belongs_to :tweet
   validates_presence_of :score
+  validates_presence_of :wordle_type # added on 18feb20
 
   DAY_AND_SCORE_REGEX = /\d+ [123456X]\/6| 💀\/6/ # most people use this, eg "123 4/6" or "#123 X/6".
   # Also wordle FR uses this for X: Le Mot (@WordleFR) #38 💀/6
@@ -132,7 +133,7 @@ class WordleTweet < ApplicationRecord
     wt.import_notes = "Created on #{Time.now}"
     wt.max_tries = 6
     wt.internal_stuff = ''
-    wt.wordle_type = WordleTweet.extended_wordle_match_type(wt.tweet_text, :try_new => opts_try_new ) # wt.calculate_wordle_type
+    wt.wordle_type = WordleTweet.extended_wordle_match_type(wt.tweet_text, :try_new => opts_try_new ) rescue nil # wt.calculate_wordle_type
     wt.score = wt.parse_score_from_text()
     # TODO infer with some way, eg Wordle date for 232 is 5feb22.
     # wordle_date: date
@@ -265,6 +266,7 @@ end
 
     # I cant remember wha website was this.
     return :wg_german  if text.match?(/I guessed this German 5-letter word in .\/6 tries/)
+    return :wg_german  if text.match?(/Ich habe dieses deutsche 5-Buchstaben Wort in .\/6 Versuchen/i)
     # This is better
     return :wordle_de  if text.match?(/wordle-spielen.de.*\d+/i) and text.match?(DAY_AND_SCORE_REGEX)
      
@@ -325,6 +327,7 @@ end
     # 1. English we keep last
     return :wordle_en  if text.match?(/Wordle \d+ [123456X]\/6/i) 
 
+    # otherwise... and fail :)
     return nil
   end
 

@@ -65,12 +65,12 @@ attrs:
     :friends_count: 505
     :listed_count: 17
     :created_at: Tue Nov 11 14:48:00 +0000 2008
-    :favourites_count: 669
+    :favourites_count: 673
     :utc_offset: 
     :time_zone: 
     :geo_enabled: true
     :verified: false
-    :statuses_count: 2095
+    :statuses_count: 2103
     :lang: 
     :contributors_enabled: false
     :is_translator: false
@@ -128,12 +128,12 @@ _memoized_method_cache: !ruby/object:Memoizable::Memory
           :friends_count: 505
           :listed_count: 17
           :created_at: Tue Nov 11 14:48:00 +0000 2008
-          :favourites_count: 669
+          :favourites_count: 673
           :utc_offset: 
           :time_zone: 
           :geo_enabled: true
           :verified: false
-          :statuses_count: 2095
+          :statuses_count: 2103
           :lang: 
           :contributors_enabled: false
           :is_translator: false
