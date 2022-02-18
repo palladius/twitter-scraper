@@ -35,23 +35,35 @@ namespace :db do
     #envputs 'Calling post-creation callbacks (which doesnt happen by defaault with TEST fixtures for efficiency reasons)..'
     #Tweet.all.each {|t| t._run_create_callbacks}
     #envputs yellow("TODO ricc change callback with create_from_tweet(tweet, opts cangiante)")
+
+    envputs(" == Phase1: Creating a WT from T  ==")
+    # 1. Creo un WT da T..
+    tweet_creation_errors = 0
+    tweet_creation_oks = 0
     Tweet.all.each {|t| 
-      WordleTweet.create_from_tweet(t, :try_new => bool) 
+      saved_ok = WordleTweet.create_from_tweet(t, :try_new => bool) 
       #t._run_create_callbacks}
-    #
+      if saved_ok
+        tweet_creation_oks += 1
+      else
+        envputs "#{red :erore} saving #{t}" 
+        #puts "Errors: #{.errors.full_messages}"
+        tweet_creation_errors += 1
+      end
     }
+    envputs("Phase1 end: OK=#{green tweet_creation_oks}/ERR=#{red tweet_creation_errors}")
     # Types: WordleTweet.group(:wordle_type).count
 
     tweet_types = WordleTweet.group(:wordle_type).count
     envputs "Twitter types: #{white tweet_types}" if debug
     envputs "Acceptable types: #{WordleTweet.acceptable_types}" if debug 
     
-    envputs " == WordleTweets =="
+    envputs " == Phase2: WordleTweets validity =="
     WordleTweet.all.each { |wt|
       envputs "+ [#{wt.valid? ? :OK : :INVALID }] #{wt.flag} T='#{yellow wt.wordle_type}' day=#{white wt.parse_incrementalday_from_text} expected_is=#{yellow(wt.tweet.internal_stuff) rescue :nada}" unless wt.valid?
     }
     puts("WTTypes: #{ WordleTweet.all.map{|wt| wt.wordle_type}.join(", ") }")  if debug 
-    puts("WTFlags: #{WordleTweet.all.map{|wt| wt.flag}.join(" ")}")
+    puts("WTFlags: #{WordleTweet.all.map{|wt| wt.flag}.join(" ")}") if debug
     envputs " == WordleTweets ERRORS [new=#{bool}]=="
     n_errors = 0
     n_invalids = 0
@@ -74,8 +86,8 @@ namespace :db do
 
   desc "popola in test"
   task popola_test: :environment do
-    raise "Funge solo in TEST!!" unless Rails.env == "test"
-    envputs 'TODO(ricc): move to proper rake tests'
+    raise "Funge solo in TEST!! Ma sei matto?!?" unless Rails.env == "test"
+    envputs yellow('TODO(ricc): move to proper rake tests')
     populate_in_test_old_vs_new false 
     populate_in_test_old_vs_new true 
   end

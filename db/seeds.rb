@@ -34,7 +34,7 @@ $check_already_exists = true
 $hostname = Socket.gethostname rescue "host_error"
 $search_terms = [
   '#TwitterParser',
-  #'#Wordle',
+  '#Wordle',
   '#Parole',
   'mathler.com',
   'term.ooo',
@@ -42,6 +42,7 @@ $search_terms = [
   'wordlefr',
   'WordleIT',
   'wordlept',
+  'wordle.uber.space',
   'Par🇮🇹le',
   'wordlegame.org', # since 0.11 I support it!
   '#taylordle',

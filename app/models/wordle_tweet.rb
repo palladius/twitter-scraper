@@ -19,7 +19,7 @@ class WordleTweet < ApplicationRecord
   belongs_to :tweet
   validates_presence_of :score
 
-  DAY_AND_SCORE_REGEX = /\d+ [123456X💀]\/6/ # most people use this, eg "123 4/6" or "#123 X/6".
+  DAY_AND_SCORE_REGEX = /\d+ [123456X]\/6| 💀\/6/ # most people use this, eg "123 4/6" or "#123 X/6".
   # Also wordle FR uses this for X: Le Mot (@WordleFR) #38 💀/6
   WORDLEGAME_LIST = %w{ spanish russian portuguese german italian kids english_uk }
   FILE_GREEN_SQUARES_REGEX = /🟩🟩🟩🟩🟩/# these are 5 greens
@@ -50,12 +50,20 @@ class WordleTweet < ApplicationRecord
   #   extended_wordle_match_type(tweet_text, :try_new => false )
   # end
 
+  # If it returns NIL, it will throw an ewxception as score cant be NULL :)
+  # If you catcha  GOOD exception, return 42.
   def parse_score_from_text
     # m[1] = "5/6"
-    m = tweet_text.match(/ ([0123456X]\/6)/i)
+      # Sedecordle and Quordle dont have a good move system => returning alternative to 42 :)
+    return 43 if tweet_text.match? /sedecordle.com/i # and maybe strengthen with these icons: 🕗🕖🕔🕕
+    return 44 if tweet_text.match? /quordle/i
+    #return 84 if tweet_text.match?(/6️⃣7️⃣3️⃣4️⃣🕔🕓🕖]/)  
+    m = tweet_text.match(/ ([0123456X💀]\/6)/i)
     # first char of first match,  m[0] => "5/6"
     initial_digit_or_char = m[1][0] rescue nil
+    #puts "DEB initial score: ''''#{initial_digit_or_char}''"
     return 42 if initial_digit_or_char == "X"
+    return 42 if initial_digit_or_char == "💀" # Damn french wordle!
     initial_digit_or_char
   end
 
@@ -141,8 +149,9 @@ class WordleTweet < ApplicationRecord
     # v4 2022-02-09 import is the same but SCORE is computed better now it supports X (score = 42).
     # import_notes: text
     save = wt.save
-    puts "DEB save issues: #{save}" unless save
-    save
+    puts "DEB save issues: #{save} [TXT:'#{wt.tweet_text.gsub("\n","") rescue :err}', ERRORS='#{wt.errors.full_messages}']" unless save
+    #puts "DEB save issues: #{save} [TXT:'#{wt.tweet_text.gsub("\n","") rescue :err}']" unless save
+    return save
   end
 
 # Regexes in order... so WORDLE shoudl be LAST
@@ -202,9 +211,10 @@ end
 ###### STATIC METHODS ###
 ##########################
 
-def self.text_matches_moves(text)
-  text.match?(/\d+ [123456X]\/6/i) or text.match?(/in [123456X]\/6 tries/i) or text.match?(/[6️⃣7️⃣3️⃣4️⃣]/i) 
-end
+  # This matches. For the extractions see above
+  def self.text_matches_moves(text)
+    text.match?(/\d+ [123456X]\/6/i) or text.match?(/in [123456X💀]\/6 tries/i) or text.match?(/[6️⃣7️⃣3️⃣4️⃣]/i) or text.match?(/💀\/6/)
+  end
 
   # returns TWO things: matches and id of
   # TODO(ricc): messo parole che parsa meglio ma poi dila non parsa bene non so perche..
@@ -223,14 +233,14 @@ end
     # ParFlag of Italyle 369 3/6
     # Par🇮🇹l matches  /Par..le/i
     #return :wordle_it  if text.match?(/Par..le \d+ [123456X]\/6/i)
-    return :wordle_it  if text.match?(/Par🇮🇹le \d+ [123456X]\/6/i)
+    return :wordle_it  if text.match?(/Par🇮🇹le \d+/i) and text.match?(DAY_AND_SCORE_REGEX)
 
       # ParFlag of Italyle 369 3/6
       # PAR🇮🇹LE - perche diamine QUESTO greppa? Forse l'icona e piuin di due caratteri...
-      return :wordle_it  if text.match?(/Par.+le \d+ [123456X]\/6/i)
+      return :wordle_it  if text.match?(/Par.+le \d+/i) and text.match?(DAY_AND_SCORE_REGEX)
       # Pietro version Par🇮🇹le 370 1/6 🟩🟩🟩🟩🟩
       # testiamo per poco il 1/2
-      return :wordle_it  if text.match?(/Par...le \d+ [123456X]\/6/i)
+      return :wordle_it  if text.match?(/Par...le \d+/i) and text.match?(DAY_AND_SCORE_REGEX)
       return :wordle_it  if text.match?(/Par🇮🇹le \d+ .\/6/i)
       return :wordle_it  if text.match?(/par.+le \d+ .\/6/i) and text.match?(DAY_AND_SCORE_REGEX)
 
@@ -245,23 +255,23 @@ end
     #return nil if include_only_italian_for_debug
 
     # returns TWO things: matches and id of
-    return :wordle_fr  if text.match?(/Le Mot \(@WordleFR\) \#\d+ .\/6/i)
+    return :wordle_fr  if text.match?(/Le Mot \(@WordleFR\) \#\d+/i) and text.match?(DAY_AND_SCORE_REGEX)
     # "joguei http://term.ooo #34 X/6 *"
-    return :wordle_pt  if text.match?(/joguei http:\/\/term.ooo \#\d+ .\/6/i )
+    return :wordle_pt  if text.match?(/joguei http:\/\/term.ooo \#\d+/i ) and text.match?(DAY_AND_SCORE_REGEX)
 
     # TODO ricc: non so quale dei due e vado di fretta
-    return :wordle_pt  if text.match?(/term.ooo [\#]\d+ [123456X]\/6/i )
-    return :wordle_pt  if text.match?(/term.ooo [#]\d+ [123456X]\/6/i )
+    return :wordle_pt  if text.match?(/term.ooo \d+/i ) and text.match?(DAY_AND_SCORE_REGEX)
+    return :wordle_pt  if text.match?(/term.ooo [#]\d+/i ) and text.match?(DAY_AND_SCORE_REGEX)
 
     # I cant remember wha website was this.
     return :wg_german  if text.match?(/I guessed this German 5-letter word in .\/6 tries/)
     # This is better
-    return :wordle_de  if text.match?(/wordle-spielen.de.*\d+ .\/6/i)
+    return :wordle_de  if text.match?(/wordle-spielen.de.*\d+/i) and text.match?(DAY_AND_SCORE_REGEX)
      
-    return :lewdle     if text.match?(/Lewdle \d+ .\/6/)
+    return :lewdle     if text.match?(/Lewdle \d+/) and text.match?(DAY_AND_SCORE_REGEX)
 
     # Math :)
-    return :nerdlegame if text.match?(/nerdlegame \d+ .\/6/i)
+    return :nerdlegame if text.match?(/nerdlegame \d+/i) and text.match?(DAY_AND_SCORE_REGEX)
     # note the medium needs to be AFTER the other two...
     return :mathler_hard   if text.match?(/hard.mathler.com/i) and text.match?(DAY_AND_SCORE_REGEX)
     return :mathler_easy   if text.match?(/easy.mathler.com/i) #and text.match?(DAY_AND_SCORE_REGEX)
@@ -271,8 +281,8 @@ end
     # Geographical
     return :worldle if text.match?(/worldle.teuteuf.fr/i) and text.match?(DAY_AND_SCORE_REGEX)
 
-    return :wordle_ko  if text.match?(/#Korean #Wordle .* \d+ .\/6/i)
-
+    return :wordle_ko  if text.match?(/#Korean #Wordle .* \d+/i) and text.match?(DAY_AND_SCORE_REGEX)
+ 
     # malayisian
     return :katla if text.match?(/katla /i) and text.match?(DAY_AND_SCORE_REGEX)
     return :katapat if text.match?(/Katapat/i)  and text.match?(DAY_AND_SCORE_REGEX)
@@ -283,8 +293,9 @@ end
     # https://www.taylordle.com/
     return :taylordle if text.match?(/Taylordle \d+ [123456X]\/6/i)
 
+    # multiple wordles: 4, 16, ..
     return :quordle if text.match?(/Quordle #\d+/) and text.match?(/[6️⃣7️⃣3️⃣4️⃣]/) and text.match?(FILE_GREEN_SQUARES_REGEX) # and 🟩🟩🟩🟩🟩
-
+    return :sedecordle if text.match?(/Daily sedecordle #\d+/)
     # multi page polymorphic scenario... 
     # wg_italian
     # wg_spanish
@@ -314,11 +325,6 @@ end
     # 1. English we keep last
     return :wordle_en  if text.match?(/Wordle \d+ [123456X]\/6/i) 
 
-    # # 2. Super generic - lets STOP accepting this from 15feb22!
-    # if include_very_generic
-    #   # :other sounds like another :wordle_en :)
-    #   return :other if text.match?(/ordle \d+ [123456X]\/6/i) 
-    # end
     return nil
   end
 
@@ -405,6 +411,8 @@ end
         "🧒"
       when :quordle
         "4️⃣"
+      when :sedecordle
+        "🔟"
       when :other
         "❓"
       else # question mark, also try: 🤔 or 👽 Alien
@@ -440,5 +448,14 @@ end
     num_den.first / num_den.second
   end
 
+
+  # given     🕔🕓1️⃣3️⃣ 4️⃣2️⃣ 🕖4️⃣ 6️⃣5️⃣ 7️⃣🕒 🕗8️⃣ 9️⃣🕑 🕕🔟 🕐🕛
+  # returns the max
+  # TODO
+  def self.extract_best_score_from_numeric_emojis(txt)
+    extracted_icons = txt.match(/6️⃣/)
+    return 42 unless extracted_icons
+    return 21
+  end
 
 end

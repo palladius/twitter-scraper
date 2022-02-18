@@ -291,11 +291,11 @@ wordlegame_for_uk:
     you guess this word? https://wordlegame.org/wordle-in-english-uk?challenge=Y2FtZWw https://wordlegame.org/wordle-in-english-uk 
 
 # i dont have to parse this. Result should be X
-failed_polish_wordle:
-  twitter_user: ricc 
-  internal_stuff: type and day should be wg_polish // xZtsZXB5 // X on 2022-02-13
-  full_text: |
-    Can you guess this Polish word?https://wordlegame.org/wordle-in-polish?challenge=xZtsZXB5 
+# failed_polish_wordle:
+#   twitter_user: ricc 
+#   internal_stuff: type and day should be wg_polish // xZtsZXB5 // X on 2022-02-13
+#   full_text: |
+#     Can you guess this Polish word?https://wordlegame.org/wordle-in-polish?challenge=xZtsZXB5 
 
 wordleit_wordlegame:
   twitter_user: ricc 
@@ -468,3 +468,34 @@ wordlefr_with_skull:
     ⬛🟩🟩🟩🟩
 
     wordle.louan.me
+sedecordle:
+  twitter_user: ricc
+  internal_stuff: type and day should be sedecordle // 5 // X on 2022-02-18 (manca la soluzione totale)
+  full_text: |
+    Daily sedecordle #5
+    🕔🕓
+    🕖4️⃣
+    6️⃣5️⃣
+    7️⃣🕒
+    🕗8️⃣
+    9️⃣🕑
+    🕕🔟
+    🕐🕛
+    http://sedecordle.com
+    #sedecordle
+quordle_cheated:
+  twitter_user: ricc
+  internal_stuff: type and day should be Quordle // 25 // 4 on 2022-02-18 (totally cheated to extract this)
+  full_text: |
+    Daily Quordle #25
+    1️⃣3️⃣
+    4️⃣2️⃣
+    quordle.com
+    🟩🟩🟩🟩🟩 ⬜🟨⬜🟨⬜
+    ⬛⬛⬛⬛⬛ ⬜⬜⬜⬜⬜
+    ⬛⬛⬛⬛⬛ 🟩🟩🟩🟩🟩
+
+    ⬜⬜🟨⬜⬜ 🟩⬜🟩⬜🟩
+    ⬜⬜🟨⬜⬜ 🟩🟩🟩🟩🟩
+    ⬜⬜⬜⬜⬜ ⬛⬛⬛⬛⬛
+    🟩🟩🟩🟩🟩 ⬛⬛⬛⬛⬛

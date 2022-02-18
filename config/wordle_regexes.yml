@@ -101,6 +101,11 @@ default: &default
     lang: en
     regexes_in_or: 
     - quordle
+  - return: sedecordle
+    url: http://www.sedecordle.com/?mode=daily
+    lang: en
+    regexes_in_or:
+    - Daily sedecordle 
 
 development:
   <<: *default
