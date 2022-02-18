@@ -142,6 +142,7 @@ def rake_seed_parse_keys
             # POLYMOPRH_BEGIN polymorphically adding this
             twitter_retweeted:  (tweet.retweeted rescue nil),
             twitter_lang:  (tweet.lang rescue nil),
+            twitter_retweet_count:  (tweet.retweet_count rescue nil),
             # POLYMOPRH_END            
           
             hostname: $hostname
@@ -155,7 +156,8 @@ def rake_seed_parse_keys
             twitter_id:  tweet.id,
             twitter_created_at: tweet.created_at,
             import_version: $rake_seed_import_version,
-            import_notes: "Now this supports also the timestamp and unique ID of Twitter tweet. Now this has finally LIFE and i can link to original via URL",
+            import_notes: "Now this supports also the timestamp and unique ID of Twitter tweet. Now this has finally LIFE and i can link to original via URL.
+            On 18feb Ive added 3 tweet object aspects i found in Marshalling. The onmly one that works is language, NTS.",
             internal_stuff: "search_term='#{search_term rescue :unknown}'",
             # polymoprhic stuff in case new stuff comes to my mind..
             json_stuff: hash.to_json,
