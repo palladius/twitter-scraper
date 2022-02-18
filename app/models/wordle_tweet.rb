@@ -461,4 +461,16 @@ end
     return 21
   end
 
+# ["wordle_ko", "34"]=>1,
+# ["wordle_ko", "int/44"]=>1,
+# ["wordle_ko", "int/47"]=>1,
+# ["wordle_ko", "int/48"]=>2,
+# ["wordle_pt", "41"]=>1}
+# game = "#{wordle_type}::#{daily_id}"
+  def self.group_by_game(opts={})
+    WordleTweet.group(:wordle_type, :wordle_incremental_day).count.map{|wt_and_wid, cardinality|
+      ["#{wt_and_wid.first}::#{wt_and_wid.second.gsub("int/","")}", cardinality]
+    }
+  end
+
 end
