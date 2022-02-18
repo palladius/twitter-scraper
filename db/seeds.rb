@@ -10,14 +10,6 @@ require 'json'
 require 'socket'
 require 'twitter'
 
-# moved to config/boot
-# def yellow(s)   "\e[1;33m#{s}\e[0m" end
-# def white(s)    "\e[1;37m#{s}\e[0m" end
-# def azure(s)    "\033[1;36m#{s}\033[0m" end
-# def red(s)      "\033[1;31m#{s}\033[0m" end
-
-#pred "remove Ricc Twitter API keys... use ENV instead maybe with dotenv"
-
 TWITTER_OPTIONS = {
     :api_key =>        ENV['TWITTER_CONSUMER_KEY'],
     :api_key_secret => ENV['TWITTER_CONSUMER_SECRET'],
@@ -28,8 +20,10 @@ TWITTER_OPTIONS = {
 # v1
 # v2
 # v3 2022-02-15: Added JSON with hostname and..
+# v4 2022-02-18: Added POLYMOPRH_BEGIN to Tweet - adding from object i seralized in tmp/marshal/ WOOT!
+
 $n_tweets = (ENV["TWITTER_INGEST_SIZE"] || '42' ).to_i
-$rake_seed_import_version = "3"
+$rake_seed_import_version = "4"
 $check_already_exists = true
 $hostname = Socket.gethostname rescue "host_error"
 $search_terms = [
@@ -124,6 +118,10 @@ def rake_seed_parse_keys
             description: u.description,
             id_str:      u.id.to_s, #id_str doesnt work
             # eg @palladius => 17310864
+            # consider adding:
+            # *    :profile_image_url: http://pbs.twimg.com/profile_images/2448864122/jicix70clvqqeazgdxh3_normal.jpeg
+            # *    :created_at: Tue Nov 11 14:48:00 +0000 2008
+
         )
         saved = tu.save
         # TODO(ricc): update Existing with new descriptions even if it already exists
@@ -137,7 +135,17 @@ def rake_seed_parse_keys
           next if already_exists
         end
         #print "2. [#{tweet.created_at}] Creating Tweet info based on existence of twitter_id :)"
-        hash = {app_ver: APP_VERSION, search_term: search_term, hostname: $hostname}
+        hash = {
+            app_ver: APP_VERSION, 
+            search_term: search_term,
+           
+            # POLYMOPRH_BEGIN polymorphically adding this
+            twitter_retweeted:  (tweet.retweeted rescue nil),
+            twitter_lang:  (tweet.lang rescue nil),
+            # POLYMOPRH_END            
+          
+            hostname: $hostname
+        } # I know - but it helps with commas :)
         rails_tweet = Tweet.create(
             twitter_user: TwitterUser.find_by_twitter_id(tweet.user.screen_name) ,
             full_text: tweet.text,
