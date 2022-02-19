@@ -4,8 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "2.7.2"
 
 ########################
-# Riccardo
-#gem "ric"
+# Riccardo - definitely need it
 gem 'twitter'
 gem "chartkick"
 gem "groupdate"
@@ -15,10 +14,17 @@ gem "groupdate"
 gem "pg"
 gem "dotenv"
 gem 'dotenv-rails' # , :groups => [:development, :test, :production, :staging ]
-#gem 'sidekiq' # to execute SEEDing as a job externally, am richiede Redis che poi e' un casino...
 gem 'delayed_job_active_record' # sembra vecchiotto ma non richiede Redis https://github.com/collectiveidea/delayed_job_active_record
+#/ Riccardo
 ########################
 
+########################
+# Riccardo - MAYBE need it 
+#gem "ric"
+#gem 'sidekiq' # to execute SEEDing as a job externally, am richiede Redis che poi e' un casino...
+gem "daemons" # allows to start outside of rails... not sure if i need it: https://github.com/collectiveidea/delayed_job
+#/ Riccardo
+########################
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.1"

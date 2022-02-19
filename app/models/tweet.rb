@@ -15,6 +15,8 @@
 # end
 
 class Tweet < ApplicationRecord
+  include LoadFromTwitter
+
   belongs_to :twitter_user
   #class WordleTweet < ApplicationRecord
   #  belongs_to :tweet
@@ -109,9 +111,18 @@ class Tweet < ApplicationRecord
       end
   end
 
-  # name derives from fact that originally th ecode was in rake db:seed
-  def self.seed_by_calling_twitter_apis(search_key, serach_count, opts={})
 
-  end
+     def self.seed_by_calling_twitter_apis(search_key, search_count, opts={})
+        include LoadFromTwitter
+        description = opts.fetch :description, "CLASS(ricc): do this asynchronously. Probabluy with> Tweet.delay.seed_by_calling_twitter_apis(...) "
+        db_seed_puts("Tweet.seed_by_calling_twitter_apis(): #{white description}")
+        #puts(Tweet.invoke_seeding_from_concern(search_key, search_count, opts)) rescue puts(:err1)
+        #puts(invoke_seeding_from_concern(search_key, search_count, opts)) rescue puts(:err2)
+        #puts(Tweet.first.invoke_seeding_from_concern(search_key, search_count, opts)) rescue puts(:err3)
+        # TODO make it a clean clas thingy... this way its UGLY
+        Tweet.first.invoke_seeding_from_concern(search_key, search_count, opts)
+#        puts(invoke_seeding_from_concern(search_key, search_count, opts) rescue :err2)
+    end
+  
 
 end

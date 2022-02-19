@@ -21,3 +21,4 @@ WORDLE_REGEXES = Rails.application.config_for(:wordle_regexes, env: "default").c
 
 
 # yellow() defined in config/boot
+

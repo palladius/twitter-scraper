@@ -10,7 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_02_13_122917) do
+ActiveRecord::Schema.define(version: 2022_02_19_111327) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "action_text_rich_texts", force: :cascade do |t|
     t.string "name", null: false
@@ -50,8 +53,23 @@ ActiveRecord::Schema.define(version: 2022_02_13_122917) do
     t.index ["blob_id", "variation_digest"], name: "index_active_storage_variant_records_uniqueness", unique: true
   end
 
+  create_table "delayed_jobs", force: :cascade do |t|
+    t.integer "priority", default: 0, null: false
+    t.integer "attempts", default: 0, null: false
+    t.text "handler", null: false
+    t.text "last_error"
+    t.datetime "run_at", precision: 6
+    t.datetime "locked_at", precision: 6
+    t.datetime "failed_at", precision: 6
+    t.string "locked_by"
+    t.string "queue"
+    t.datetime "created_at", precision: 6
+    t.datetime "updated_at", precision: 6
+    t.index ["priority", "run_at"], name: "delayed_jobs_priority"
+  end
+
   create_table "tweets", force: :cascade do |t|
-    t.integer "twitter_user_id", null: false
+    t.bigint "twitter_user_id", null: false
     t.string "full_text"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -76,7 +94,7 @@ ActiveRecord::Schema.define(version: 2022_02_13_122917) do
 
   create_table "wordle_tweets", force: :cascade do |t|
     t.string "wordle_type"
-    t.integer "tweet_id", null: false
+    t.bigint "tweet_id", null: false
     t.integer "score"
     t.date "wordle_date"
     t.string "wordle_incremental_day"
@@ -89,6 +107,8 @@ ActiveRecord::Schema.define(version: 2022_02_13_122917) do
     t.index ["tweet_id"], name: "index_wordle_tweets_on_tweet_id"
   end
 
+  add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
+  add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
   add_foreign_key "tweets", "twitter_users"
   add_foreign_key "wordle_tweets", "tweets"
 end

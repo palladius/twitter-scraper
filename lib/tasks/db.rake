@@ -10,9 +10,9 @@ def write_entity_cardinalities()
   envputs "DB_ADAPTER:     #{Rails.configuration.database_configuration[Rails.env]["adapter"]}"
   envputs "DB_CONFIG (secret!):     #{Rails.configuration.database_configuration[Rails.env]}"
   envputs "DB_URL (secret!):     #{Rails.configuration.database_configuration[Rails.env]["url"] rescue :missing}"
-  envputs "Tweets:  #{Tweet.all.count}"
-  envputs "Users:   #{TwitterUser.all.count}"
-  envputs "WTweets: #{WordleTweet.all.count}"
+  envputs "Tweets:  #{Tweet.all.count}. Last: #{time_ago_in_words Tweet.last.updated_at rescue Tweet.last.updated_at }"
+  envputs "Users:   #{TwitterUser.all.count}. Last: #{ TwitterUser.last.updated_at }"
+  envputs "WTweets: #{WordleTweet.all.count}. Last: #{ Time.now - WordleTweet.last.updated_at }s ago"
   #envputs "Total time: END=#{Time.now} - delta=#{Time.now-t0}sec"
   envputs "Total time: delta=#{Time.now-t0}sec"
 end

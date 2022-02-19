@@ -81,3 +81,8 @@ search-for-pizzorni-and-piludu-in-prod:
 	echo 'TwitterUser.all.first(10000000).map{|u| [u.id, u.ldap, u.name] }.select{|id,name, description| name.match? /pizzorn/i}' | RAILS_ENV=production rails console
 test-fixtures:
 	RAILS_ENV=test rake db:fixtures:load
+
+boost-cloud-run:
+	gcloud run services update twitter-scraper-staging --no-cpu-throttling --region europe-west1
+	gcloud run services update twitter-scraper --no-cpu-throttling --region europe-west1
+	gcloud run services describe twitter-scraper  --region europe-west1

@@ -69,13 +69,20 @@ def main
   #exit 42
 
   raise "Too few tweets required. Set TWITTER_INGEST_SIZE env var!" if $n_tweets < 1
-  SeedFromTwitterApiJob.perform_async('#twitterparswer',  $n_tweets)
+  #SeedFromTwitterApiJob.perform_async('#twitterparswer',  $n_tweets)
+  Tweet.delay.seed_by_calling_twitter_apis('#twitterparswer',  $n_tweets, {
+    :description => 'call from db:seed to YES-delayed task on Model directly..'
+  })
+  Tweet.seed_by_calling_twitter_apis('#wordle',  $n_tweets, {
+    :description => 'call from db:seed to NON-delayed task on Model directly..'
+  })
 #  rake_seed_parse_keys()
 end
 
 
 
 def rake_seed_parse_keys
+  puts(red("This is being deprecated now! Use Tweet.first. load_from_twiitter concern!"))
 
   client = Twitter::REST::Client.new do |config|
     config.consumer_key        = TWITTER_OPTIONS[:api_key]

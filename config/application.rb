@@ -22,5 +22,12 @@ module TestScaffoldingPostComments
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    # copied from DHH: https://gist.github.com/dhh/1014971
+    config.autoload_paths += %W(
+        #{config.root}/app/controllers/concerns
+        #{config.root}/app/models/concerns
+      )
+  
   end
 end
