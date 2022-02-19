@@ -3,11 +3,70 @@
 <h1>Dialects</h1>
 
 <p>
-TODO put here all existing dialects (language, types) and some stats on them.
-WORDLE_REGEXES
+TODO put here some graphs on dialects. Eg, average solution time by dialect
 </p>
 
+<h1>JS Table</h1>
 
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['table']});
+      google.charts.setOnLoadCallback(drawTable);
+
+      function drawTable() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Wordle Type');
+        data.addColumn('number', 'How Many');
+        //data.addColumn('boolean', 'Full Time Employee');
+        data.addRows([
+          //['Wordle FR',  {v: 10000,  f: '$10,000'}, true],
+          //['Jim',        {v: 8000,   f: '$8,000'},  false],
+          <% WordleTweet.all.group(:wordle_type).count.each do |type,cardinality| %>
+          ['<%=type %>',        {v: <%= cardinality %>,   f: '<%= cardinality %>'} ],
+          <% end %>
+          <% WORDLE_REGEXES.each do |wr| %>
+          <% end %>
+        
+        ]);
+
+        var table = new google.visualization.Table(document.getElementById('table_div'));
+
+        table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+      }
+    </script>
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['table']});
+      google.charts.setOnLoadCallback(drawTable);
+
+      function drawTable() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Wordle Type');
+        data.addColumn('string', 'Lang');
+        data.addColumn('number', 'How Many');
+        data.addColumn('string', 'Full URL');
+        data.addRows([
+          //['DELETEME STATIC ONE Wordle FR',' FR',  {v: 10000,  f: '$10,000'}, 'Ätrue'],
+        <% WORDLE_REGEXES.each do |wr| %>
+            ['<%= WordleTweet.flag_by_type(wr[:return]) rescue :boh %>     <%= wr[:return] rescue :boh %> ',  
+            '<%= wr[:lang] rescue :boh %>',
+            {   v: <%= distribution_hash.fetch(wr[:return] , '0') rescue -1 %>,  
+                //f: '$10,000'
+            }, 
+            '<%= wr[:url] rescue :boh %>'
+            ],
+        <% end %>
+        ]);
+
+        var table = new google.visualization.Table(document.getElementById('table_div_dialett'));
+
+        table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+      }
+    </script>
+
+<div id="table_div_dialett"></div>
+
+<h1>ServrSide Table</h1>
 <table>
     <tr>
         <th>Name

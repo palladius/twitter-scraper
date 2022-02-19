@@ -65,6 +65,8 @@ ingest-to-dev-once:
 	TWITTER_INGEST_SIZE=153 MARSHAL_TO_FILE=true RAILS_ENV=development rake db:seed
 ingest-to-dev-continuously:
 	while true; do make ingest-to-dev-once ; sleep 10 ; done
+ingest-to-devpg-once:
+	TWITTER_INGEST_SIZE=54 RAILS_ENV=devpg rake db:seed
 
 run-prod:
 	RAILS_ENV=production rails s
