@@ -69,7 +69,8 @@ def main
   #exit 42
 
   raise "Too few tweets required. Set TWITTER_INGEST_SIZE env var!" if $n_tweets < 1
-  rake_seed_parse_keys()
+  SeedFromTwitterApiJob.perform_async('#twitterparswer',  $n_tweets)
+#  rake_seed_parse_keys()
 end
 
 

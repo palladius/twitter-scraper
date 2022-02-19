@@ -109,4 +109,9 @@ class Tweet < ApplicationRecord
       end
   end
 
+  # name derives from fact that originally th ecode was in rake db:seed
+  def self.seed_by_calling_twitter_apis(search_key, serach_count, opts={})
+
+  end
+
 end

@@ -15,6 +15,8 @@ gem "groupdate"
 gem "pg"
 gem "dotenv"
 gem 'dotenv-rails' # , :groups => [:development, :test, :production, :staging ]
+#gem 'sidekiq' # to execute SEEDing as a job externally, am richiede Redis che poi e' un casino...
+gem 'delayed_job_active_record' # sembra vecchiotto ma non richiede Redis https://github.com/collectiveidea/delayed_job_active_record
 ########################
 
 
