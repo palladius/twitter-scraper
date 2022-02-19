@@ -13,9 +13,10 @@ def write_entity_cardinalities()
   #envputs "Tweets:  #{Tweet.all.count}. Last: #{time_ago_in_words Tweet.last.updated_at rescue Tweet.last.updated_at }"
   #envputs "Users:   #{TwitterUser.all.count}. Last: #{ TwitterUser.last.updated_at }"
   #envputs "WTweets: #{WordleTweet.all.count}. Last: #{ Time.now - WordleTweet.last.updated_at }s ago"
-  [Tweet, TwitterUser, WordleTweet, Delayed::Job, WordleTweet  ].each do |metamodel|
-    envputs "#{metamodel.all.count} #{metamodel}\tLast: #{metamodel.last.updated_at }"
-    end
+  [Tweet, TwitterUser, WordleTweet, Delayed::Job  ].each do |metamodel|
+    str = "#{metamodel.all.count} #{metamodel}\tLast: #{metamodel.last.updated_at rescue :probly_empty }" rescue "Some issues with #{metamodel}: #{$!}"
+    envputs(str)
+  end
   #envputs "Total time: END=#{Time.now} - delta=#{Time.now-t0}sec"
   envputs "Total time: delta=#{Time.now-t0}sec"
 end
