@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   resources :comments
   resources :posts
 
+  # creato a manhouse da ricc..
+  resources :games
+
   get "/articles", to: "articles#index"
   get "/articles/stats", to: "articles#stats"
 
