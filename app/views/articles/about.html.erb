@@ -20,6 +20,7 @@ Some statistics - Config and DB:<br/>
 - <b><%= TwitterUser.count %></b> TwitterUsers<br/>
 - <b><%= Tweet.count %></b> Tweets<br/>
 - <b><%= WordleTweet.count %></b> WordleTweets<br/>
+- <b><%= Delayed::Job.count %></b> Delayed Jobs in the queue<br/>
 - DB Config: <b><%= Rails.configuration.database_configuration[Rails.env]["adapter"] %></b><br/>
 - DB Description: <i><%= Rails.configuration.database_configuration[Rails.env]["descrizione"] %></i><br/>
 
