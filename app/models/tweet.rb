@@ -114,14 +114,8 @@ class Tweet < ApplicationRecord
 
      def self.seed_by_calling_twitter_apis(search_key, search_count, opts={})
         include LoadFromTwitter
-        description = opts.fetch :description, "CLASS(ricc): do this asynchronously. Probabluy with> Tweet.delay.seed_by_calling_twitter_apis(...) "
-        db_seed_puts("Tweet.seed_by_calling_twitter_apis(): #{white description}")
-        #puts(Tweet.invoke_seeding_from_concern(search_key, search_count, opts)) rescue puts(:err1)
-        #puts(invoke_seeding_from_concern(search_key, search_count, opts)) rescue puts(:err2)
-        #puts(Tweet.first.invoke_seeding_from_concern(search_key, search_count, opts)) rescue puts(:err3)
         # TODO make it a clean clas thingy... this way its UGLY
-        Tweet.first.invoke_seeding_from_concern(search_key, search_count, opts)
-#        puts(invoke_seeding_from_concern(search_key, search_count, opts) rescue :err2)
+        return Tweet.first.invoke_seeding_from_concern(search_key, search_count, opts)
     end
   
 

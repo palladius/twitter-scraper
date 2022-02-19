@@ -23,11 +23,13 @@ module LoadFromTwitter
     # name derives from fact that originally th ecode was in rake db:seed
     # https://github.com/collectiveidea/delayed_job - if you want to always call asynchronously its easy peasy.
     #  handle_asynchronously :call_an_instance_method, :priority => Proc.new {|i| i.how_important }
-    def self.seed_by_calling_twitter_apis(search_key, search_count, opts={})
-        end
+    # def self.seed_by_calling_twitter_apis(search_key, search_count, opts={})
+    #     puts red("not implenented yet 1")
+    #     end
 
-    def seed_by_calling_twitter_apis(search_key, search_count, opts={})
-    end
+    # def seed_by_calling_twitter_apis(search_key, search_count, opts={})
+    #     puts red("not implenented yet 1")
+    # end
 
     #    TODO: private 
     def self.db_seed_puts(str)
@@ -42,8 +44,7 @@ module LoadFromTwitter
         twittersecret_api_key = opts.fetch :twittersecret_api_key,    ENV['TWITTER_CONSUMER_KEY']
         twittersecret_api_key_secret= opts.fetch :twittersecret_api_key_secret,    ENV['TWITTER_CONSUMER_SECRET']
         #:bearer_token => ENV["TWITTER_BEARER_TOKEN"],
-        db_seed_puts("INSTANCE::invoke_seeding_from_concern(sucks): #{white description}")
-        db_seed_puts("INSTANCE::invoke_seeding_from_concern(sucks): search_key=#{white search_key}, search_count=#{search_count}")
+        db_seed_puts("INSTANCE::invoke_seeding_from_concern(sucks): desc='#{white description}' search_key=#{white search_key}, search_count=#{search_count}")
   
         client = Twitter::REST::Client.new do |config|
           config.consumer_key        = twittersecret_api_key
@@ -51,8 +52,7 @@ module LoadFromTwitter
         end
       
         puts "Looking for #{search_count} tweets matching #Wordle hashtag:"
-        rake_seed_parse_keys_clone_for_single_search(client, search_key,search_count, opts )
-        
+        return rake_seed_parse_keys_clone_for_single_search(client, search_key,search_count, opts )
     end
 
 def manage_twitter_serialization(tweet, opts={})
@@ -70,11 +70,11 @@ end
 def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_count, opts={})
     marshal_on_file = opts.fetch :marshal_on_file, false
     debug = opts.fetch :debug, true 
+    description = opts.fetch :description, "Descriptio infeliciter non datur"
 
    # $search_terms.each do |search_term|
-      puts "[🐦 API_CALL] Searching for N=#{white search_count} for term '#{azure search_term}'.."
-      puts "I have the presentiment that something iffy might be happening: Lets make sure the $vars from rake db:seed are available also from Runner and other callers :) Lets see: $rake_seed_import_version=#{yellow $rake_seed_import_version}, $hostname=#{$hostname}"
-      #puts azure("TODO(ricc): include into the boring notes the HOSTNAME #{$hostname} and SEARCH KEY (#{yellow search_term}) possibly in JSOn format") if debug
+      puts "[🐦 API_CALL] Searching for N=#{white search_count} for term '#{azure search_term}'.. Description: '#{white description}'"
+      puts azure("😟 I have the presentiment that something iffy might be happening: Lets make sure the $vars from rake db:seed are available also from Runner and other callers :) Lets see: $rake_seed_import_version=#{yellow $rake_seed_import_version}, $hostname=#{$hostname}")
       n_saved_tweets = 0
       n_unsaved_tweets = 0
       n_saved_users = 0
@@ -135,7 +135,8 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
               twitter_lang:  (tweet.lang rescue nil),
               twitter_retweet_count:  (tweet.retweet_count rescue nil),
               # POLYMOPRH_END            
-            
+              code_description: description,
+
               hostname: $hostname.split('.')[0]
           } # I know - but it helps with commas :)
           rails_tweet = Tweet.create(
@@ -166,9 +167,16 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
         #client.update("@#{tweet.user} Hey I love Ruby too, what are your favorite blogs? :)")
       end
       puts "  - #{ yellow n_saved_tweets} saved tweets / #{white n_unsaved_tweets} unsaved; #{yellow n_saved_users} new users. Tweets returned by API: #{green n_called_tweets}"
-   # end
-  
+      return {
+          :saved_tweets => n_saved_tweets,
+          :unsaved_tweets => n_unsaved_tweets,
+          :saved_users => n_saved_users,
+          :called_tweets => n_called_tweets,
+      }
   end
     
+  def to_safe_s()
+    self.to_s rescue "#{self.class}.to_s() exception: #{$!}"
+  end
     
   end
