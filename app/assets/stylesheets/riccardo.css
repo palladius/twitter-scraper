@@ -46,3 +46,13 @@ padding: 5pt ;
 .debug {
   background-color: pink;
 }
+
+
+
+
+.wordle_score_gradient_1 { color: green; }
+.wordle_score_gradient_2 { color: green; }
+.wordle_score_gradient_3 { color: rgb(21, 128, 0); }
+.wordle_score_gradient_4 { color: rgb(111, 167, 29); }
+.wordle_score_gradient_5 { color: rgb(128, 62, 0); }
+.wordle_score_gradient_6 { color: red; }

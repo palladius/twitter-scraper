@@ -439,6 +439,14 @@ end
     numerator * 1.0 / denominator
   end
 
+
+  # trying to uniform the concept of avergae ALL across this thing
+  def self.averagization(array_of_scores)
+    # https://stackoverflow.com/questions/1341271/how-do-i-create-an-average-from-a-ruby-array
+    # recalculate 42 as a different thingy maybe 42 is now 7, 8, or 7.5 :)
+    array_of_scores.inject{ |sum, el| sum + el }.to_f / array_of_scores.size
+  end
+
   # Takes source like this: => {1=>4, 42=>32, 2=>24, 5=>250, 4=>223, 6=>143, 3=>129}
   # and returns average
   # https://stackoverflow.com/questions/17750258/cumulative-weighted-average-in-ruby

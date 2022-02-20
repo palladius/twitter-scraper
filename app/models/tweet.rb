@@ -70,6 +70,7 @@ class Tweet < ApplicationRecord
   after_create do |tweet|
     #puts "Tweet::after_create created. Now creating Wordle brother."
     WordleTweet.create_from_tweet(tweet)
+    WordleGame.create_from_tweet_if_necessary(tweet)
   end
 
   def flag 

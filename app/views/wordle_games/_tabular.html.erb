@@ -1,0 +1,39 @@
+type=<%= @type %>
+wordle_game=<%= wordle_game %>
+
+<% unless (wordle_game rescue false) %>
+<!-- HEADER -->
+<tr>
+    <th>Id</th>
+    <th># WTweets</th>
+    <th>Name</th>
+    <th>Date</th>
+    <th>Ver</th>
+    <th>Solution</th>
+    <th>Avg Score</th>
+    <th>Created</th>
+    <th>Date (Min)</th>
+    <th>Date (Max)</th>
+    <th>url</th>
+    
+</tr>
+<% else %>
+<!-- here i have values -->
+<tr>
+    <td><%= link_to wordle_game.id, wordle_game %>
+    <%= link_to('Destroy (invalid)', delete_manage_wordle_game_path(wordle_game.id))  unless wordle_game.valid? %>
+    </td>
+    <td><b><%= wordle_game.wordle_tweets.count %></b></td>
+    <td><%= wordle_game.to_s  %></td>
+    <td><%= wordle_game.date  %></td>
+    <td><%= wordle_game.import_version  %></td>
+    <td><%= wordle_game.safe_solution %></td>
+    <td class="wordle_score_gradient_<%= wordle_game.average_score.round(0) %>" ><%= wordle_game.average_score.round(2) %></td>
+    
+    <td><%= time_ago_in_words(wordle_game.created_at) %></td>
+    <td><%= wordle_game.min_date %></td>
+    <td><%= wordle_game.max_date %></td>
+    <td><%= link_to :play_it, wordle_game.url %></td>
+    
+</tr>
+<% end %>

@@ -12,9 +12,6 @@
 
 ActiveRecord::Schema.define(version: 2022_02_20_081002) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "action_text_rich_texts", force: :cascade do |t|
     t.string "name", null: false
     t.text "body"
@@ -69,7 +66,7 @@ ActiveRecord::Schema.define(version: 2022_02_20_081002) do
   end
 
   create_table "tweets", force: :cascade do |t|
-    t.bigint "twitter_user_id", null: false
+    t.integer "twitter_user_id", null: false
     t.string "full_text"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -109,7 +106,7 @@ ActiveRecord::Schema.define(version: 2022_02_20_081002) do
 
   create_table "wordle_tweets", force: :cascade do |t|
     t.string "wordle_type"
-    t.bigint "tweet_id", null: false
+    t.integer "tweet_id", null: false
     t.integer "score"
     t.date "wordle_date"
     t.string "wordle_incremental_day"
@@ -122,8 +119,6 @@ ActiveRecord::Schema.define(version: 2022_02_20_081002) do
     t.index ["tweet_id"], name: "index_wordle_tweets_on_tweet_id"
   end
 
-  add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
-  add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
   add_foreign_key "tweets", "twitter_users"
   add_foreign_key "wordle_tweets", "tweets"
 end

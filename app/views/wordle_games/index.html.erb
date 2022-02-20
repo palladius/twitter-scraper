@@ -1,6 +1,24 @@
+<% 
+ @render_in_tabular_form = true 
+ @render_in_list_form = false 
+%>
 <p style="color: green"><%= notice %></p>
 
-<h1>Wordle games</h1>
+<h1>Wordle games (<%= @wordle_games.count %>)</h1>
+
+
+<table id="wordle_games_table" >
+  <%= render "wordle_games/tabular", wordle_game: nil, :locals => {:type => :header } %>
+  <% @wordle_games.each do |wordle_game| %>
+   <%= render "wordle_games/tabular", wordle_game: wordle_game, :locals => {:limit => 10 , :type => :row } rescue "<tr><td colspan=7 >Error: #{$!}".html_safe %>
+  <% end if @render_in_tabular_form %>
+</table>
+
+
+
+
+
+<h1>Wordle games boring (<%= @wordle_games.count %>)</h1>
 
 <div id="wordle_games">
   <% @wordle_games.each do |wordle_game| %>
@@ -8,7 +26,7 @@
     <p>
       <%= link_to "Show this wordle game", wordle_game %>
     </p>
-  <% end %>
+  <% end if @render_in_list_form %>
 </div>
 
-<%= link_to "New wordle game", new_wordle_game_path %>
+<%#= link_to "New wordle game", new_wordle_game_path %>
