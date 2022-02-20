@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_02_19_111327) do
+ActiveRecord::Schema.define(version: 2022_02_20_081002) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -90,6 +90,21 @@ ActiveRecord::Schema.define(version: 2022_02_19_111327) do
     t.datetime "updated_at", precision: 6, null: false
     t.string "id_str"
     t.string "description"
+  end
+
+  create_table "wordle_games", force: :cascade do |t|
+    t.string "wordle_incremental_day"
+    t.string "wordle_type"
+    t.string "solution"
+    t.date "date"
+    t.text "json_stuff"
+    t.text "notes"
+    t.float "cache_average_score"
+    t.integer "cache_tweets_count"
+    t.string "import_version"
+    t.text "import_notes"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "wordle_tweets", force: :cascade do |t|

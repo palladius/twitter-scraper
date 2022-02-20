@@ -1,0 +1,2 @@
+module WordleGamesHelper
+end

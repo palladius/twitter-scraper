@@ -1,0 +1,2 @@
+class WordleGame < ApplicationRecord
+end

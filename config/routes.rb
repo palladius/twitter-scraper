@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :wordle_games
   resources :wordle_tweets
   resources :tweets
   resources :twitter_users

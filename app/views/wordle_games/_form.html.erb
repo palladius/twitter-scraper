@@ -1,0 +1,67 @@
+<%= form_with(model: wordle_game) do |form| %>
+  <% if wordle_game.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(wordle_game.errors.count, "error") %> prohibited this wordle_game from being saved:</h2>
+
+      <ul>
+        <% wordle_game.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :wordle_incremental_day, style: "display: block" %>
+    <%= form.text_field :wordle_incremental_day %>
+  </div>
+
+  <div>
+    <%= form.label :wordle_type, style: "display: block" %>
+    <%= form.text_field :wordle_type %>
+  </div>
+
+  <div>
+    <%= form.label :solution, style: "display: block" %>
+    <%= form.text_field :solution %>
+  </div>
+
+  <div>
+    <%= form.label :date, style: "display: block" %>
+    <%= form.date_field :date %>
+  </div>
+
+  <div>
+    <%= form.label :json_stuff, style: "display: block" %>
+    <%= form.text_area :json_stuff %>
+  </div>
+
+  <div>
+    <%= form.label :notes, style: "display: block" %>
+    <%= form.text_area :notes %>
+  </div>
+
+  <div>
+    <%= form.label :cache_average_score, style: "display: block" %>
+    <%= form.text_field :cache_average_score %>
+  </div>
+
+  <div>
+    <%= form.label :cache_tweets_count, style: "display: block" %>
+    <%= form.number_field :cache_tweets_count %>
+  </div>
+
+  <div>
+    <%= form.label :import_version, style: "display: block" %>
+    <%= form.text_field :import_version %>
+  </div>
+
+  <div>
+    <%= form.label :import_notes, style: "display: block" %>
+    <%= form.text_area :import_notes %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

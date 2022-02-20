@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Wordle games</h1>
+
+<div id="wordle_games">
+  <% @wordle_games.each do |wordle_game| %>
+    <%= render wordle_game %>
+    <p>
+      <%= link_to "Show this wordle game", wordle_game %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New wordle game", new_wordle_game_path %>

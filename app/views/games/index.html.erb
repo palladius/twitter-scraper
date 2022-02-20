@@ -1,4 +1,4 @@
-<h1>🎮 Games ⚽</h1>
+<h1>🎮 Games ⚽ (requires PostgreS)</h1>
 
 <p>
 A 🛡️ game ⚔️ is a couple 🟩[ wordle_type, and 📅daily📆  game].
@@ -6,3 +6,50 @@ They correspond to a unique solutio which i do NOT have (but i found a DB online
 
 It roughly correspond to a date YYYYMMDD but it doesnt coincide with midnight GMT (I presume?, unless coder is a fecking genius).
 </p>
+
+<h2>graphs</h2>
+
+<% begin %>
+<p>
+Games in last 24h
+<%= #column_chart WordleTweet.group(:score).group_by_day(:created_at).count , #.select{|incremday_and_date, cardinality| cardinality > 50 } ,
+  column_chart WordleTweet.group_by_game,
+    label: "WordleTweet.group_by_game", 
+  #  stacked: true,
+  #  colors: ["#3cba54", "#f4c20d", "#db3236", "#4885ed"],
+  #  xtitle: "Day", 
+  #  ytitle: "Average Score" 
+    download: true
+%>
+
+<%=  %>
+</p>
+
+<p>
+
+<%= column_chart WordleTweet.select('DISTINCT ON ("wordle_incremental_day") *').order(:wordle_incremental_day, created_at: :desc, id: :desc) #.limit(10) 
+%>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- https://stackoverflow.com/questions/3694153/rails-catch-all-exceptions-in-a-rails-controller -->
+<% rescue Exception %>  
+    <div class=debug >Some errors, likely we dont support sqlite for advanced queries on PSQl: "<%= $! %>"</div>
+<% end %>

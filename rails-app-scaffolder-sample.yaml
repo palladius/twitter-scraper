@@ -1,7 +1,9 @@
 #rails g scaffold Post name:string title:string content:text
 #rails g controller Comments
 #rails g model Comment commenter:string body:text article:references
-
+# Usage: 
+#         rails-app-scaffolder -n -c rails-app-scaffolder-sample.yaml 
+#
 app:
   create_app: false
   name: test-scaffolding-post-comments
@@ -40,9 +42,23 @@ schema:
       tweet: references 
       score: integer       # 4..6
       wordle_date: date
-      wordle_incremental_day: integer 
+      wordle_incremental_day: integer  # migrated to string
       import_version: integer
       import_notes: text
+    WordleGame:
+      # unique among the next 2! 
+      wordle_incremental_day: string
+      wordle_type: string
+      solution: string 
+      date: date
+      json_stuff: text
+      notes: text
+      cache_average_score: float # lets play with averages and caching :) 
+      cache_tweets_count: integer # leys play with caching and counting..
+      import_version: string
+      import_notes: text
+      #internal_stuff: string 
+
   controllers:
    # not implemented yet but this is what I want
    # TODO rails generate controller Articles index stats about wordle --skip-routes

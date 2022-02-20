@@ -1,0 +1,70 @@
+class WordleGamesController < ApplicationController
+  before_action :set_wordle_game, only: %i[ show edit update destroy ]
+
+  # GET /wordle_games or /wordle_games.json
+  def index
+    @wordle_games = WordleGame.all
+  end
+
+  # GET /wordle_games/1 or /wordle_games/1.json
+  def show
+  end
+
+  # GET /wordle_games/new
+  def new
+    @wordle_game = WordleGame.new
+  end
+
+  # GET /wordle_games/1/edit
+  def edit
+  end
+
+  # POST /wordle_games or /wordle_games.json
+  def create
+    @wordle_game = WordleGame.new(wordle_game_params)
+
+    respond_to do |format|
+      if @wordle_game.save
+        format.html { redirect_to wordle_game_url(@wordle_game), notice: "Wordle game was successfully created." }
+        format.json { render :show, status: :created, location: @wordle_game }
+      else
+        format.html { render :new, status: :unprocessable_entity }
+        format.json { render json: @wordle_game.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+  # PATCH/PUT /wordle_games/1 or /wordle_games/1.json
+  def update
+    respond_to do |format|
+      if @wordle_game.update(wordle_game_params)
+        format.html { redirect_to wordle_game_url(@wordle_game), notice: "Wordle game was successfully updated." }
+        format.json { render :show, status: :ok, location: @wordle_game }
+      else
+        format.html { render :edit, status: :unprocessable_entity }
+        format.json { render json: @wordle_game.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+  # DELETE /wordle_games/1 or /wordle_games/1.json
+  def destroy
+    @wordle_game.destroy
+
+    respond_to do |format|
+      format.html { redirect_to wordle_games_url, notice: "Wordle game was successfully destroyed." }
+      format.json { head :no_content }
+    end
+  end
+
+  private
+    # Use callbacks to share common setup or constraints between actions.
+    def set_wordle_game
+      @wordle_game = WordleGame.find(params[:id])
+    end
+
+    # Only allow a list of trusted parameters through.
+    def wordle_game_params
+      params.require(:wordle_game).permit(:wordle_incremental_day, :wordle_type, :solution, :date, :json_stuff, :notes, :cache_average_score, :cache_tweets_count, :import_version, :import_notes)
+    end
+end

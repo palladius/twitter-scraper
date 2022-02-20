@@ -186,8 +186,7 @@ def self.extended_wordle_match_type_new_ancora_buggy_but_scalable(text, opts={})
     } if h[:regexes_in_or]
   }
 
-#  return :fortytwo
-  p "now lets try worldegame.. matcha? text='#{text}'"
+  p "now lets try worldegame.. matcha? text='#{text}'" if debug
 
   # Case 2: Lets now manage 
   # - https://wordlegame.org/wordle-in-english-uk
@@ -468,9 +467,12 @@ end
 # ["wordle_pt", "41"]=>1}
 # game = "#{wordle_type}::#{daily_id}"
   def self.group_by_game(opts={})
+    last_ndays = opts.fetch :last_ndays, 3 
+    
     WordleTweet.group(:wordle_type, :wordle_incremental_day).count.map{|wt_and_wid, cardinality|
-      ["#{wt_and_wid.first}::#{wt_and_wid.second.gsub("int/","")}", cardinality]
+      ["#{wt_and_wid.first}::#{wt_and_wid.second.gsub("int/","") rescue wt_and_wid.second }", cardinality]
     }
+   # todo metti ultimi 10 giorni o ultimo giorno via opts...
   end
-
+ # pgsql irb(main):001:0> WordleTweet.select('DISTINCT ON ("wordle_incremental_day") *').order(:wordle_incremental_day, date: :desc, id: :desc)
 end

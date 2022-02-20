@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @wordle_game %>
+
+<div>
+  <%= link_to "Edit this wordle game", edit_wordle_game_path(@wordle_game) %> |
+  <%= link_to "Back to wordle games", wordle_games_path %>
+
+  <%= button_to "Destroy this wordle game", @wordle_game, method: :delete %>
+</div>
