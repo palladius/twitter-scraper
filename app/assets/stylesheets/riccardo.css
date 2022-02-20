@@ -56,3 +56,16 @@ padding: 5pt ;
 .wordle_score_gradient_4 { color: rgb(111, 167, 29); }
 .wordle_score_gradient_5 { color: rgb(128, 62, 0); }
 .wordle_score_gradient_6 { color: red; }
+
+
+.env_development {
+  background-color: yellow;
+}
+.env_devpg {
+  background-color: yellowgreen;
+}
+.env_staging {
+  background-color: orange;
+}
+.env_production {
+}
