@@ -3,5 +3,23 @@
 #  render "wordle_tweet/micro_game", wt: wordle_tweet 
 %>
 <span class="micro-game" >
-    <%= link_to  wt.game, "/wordle_tweets?game=true&wordle_type=#{wt.wordle_type}&wordle_incremental_day=#{wt.wordle_incremental_day}"  %>
+    <%= link_to  :OLD, "/wordle_tweets?game=true&wordle_type=#{wt.wordle_type}&wordle_incremental_day=#{wt.wordle_incremental_day}"  %>
+</span>
+<span class="micro-game" >
+    <%#= link_to  "2 FUTURE create if doesnt exist", "/wordle_games?find_or_create_by_wt_and_wid=true&wordle_type=#{wt.wordle_type}&wordle_incremental_day=#{wt.wordle_incremental_day}"  %>
+</span>
+<% # expects a WT 
+    @wg = "dunno"
+    @wg = WordleGame.where(:wordle_type => wt.wordle_type, :wordle_incremental_day => wt.wordle_incremental_day).first 
+    ret = @wg
+    if   @wg.nil?
+        ret = WordleGame.create_from_tweet_if_necessary(wt.tweet) 
+        @wg = WordleGame.where(:wordle_type => wt.wordle_type, :wordle_incremental_day => wt.wordle_incremental_day) rescue nil2 # _but_shouldnt
+    end
+%>
+<span class="debug" >
+    <%= link_to @wg,@wg rescue :error_linking_maybe_reload_page %>
+<% unless ret.errors.full_messages.empty? %>
+    Errors: <%= ret.errors.full_messages rescue :none %>
+<% end %>
 </span>

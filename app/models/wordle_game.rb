@@ -97,6 +97,7 @@ class WordleGame < ApplicationRecord
         #     t.index ["twitter_user_id"], name: "index_tweets_on_twitter_user_id"
         #   end
     def self.create_from_tweet_if_necessary(tweet)
+        print "create_from_tweet_if_necessary: START"
         import_version = "0.1"
         begin 
             json_stuff = {}
@@ -110,6 +111,7 @@ class WordleGame < ApplicationRecord
             wg.import_version = import_version 
             # day, solution -> nil
             wg.save
+            return wg
         rescue Exception 
             puts red("WordleGame::create_from_tweet_if_necessary(#{tweet}) Some error: #{$!}")
         end
