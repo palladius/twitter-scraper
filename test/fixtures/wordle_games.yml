@@ -23,3 +23,75 @@ two:
   cache_tweets_count: 1
   import_version: MyString
   import_notes: MyText
+
+# starting to put solution for OLD problems, not today of course :) 
+# TODO find a more efficient DB to put words :)
+wordleen-244:
+  wordle_incremental_day: int/244
+  wordle_type: wordle_en	
+  date: 2022-02-18
+  solution: dunno 
+wordleen-245:
+  wordle_incremental_day: int/245
+  wordle_type: wordle_en	
+  date: 2022-02-19
+  solution: swill 
+wordleen-246:
+  wordle_incremental_day: int/246
+  wordle_type: wordle_en	
+  date: 2022-02-20
+  solution: _I_KNOW_IT_BUT_I_WILL_BE_SILENT #  ... ;)
+
+
+# https://tryhardguides.com/wordle-answers/
+# February 20th – Wordle 246: TA***
+# February 19th – Wordle 245: SWILL (NY Times) or SWIFT/PUPAL (Original Game)
+# February 18th – Wordle 244: DODGE
+# February 17th – Wordle 243: SHAKE
+# February 16th – Wordle 242: CAULK
+# February 15th – Wordle 241: AROMA (NY Times) or AGORA (Original Game)
+# February 14th – Wordle 240: CYNIC
+# February 13th – Wordle 239: ROBIN
+# February 12th – Wordle 238: ULTRA
+# February 11th – Wordle 237: ULCER
+# February 10th – Wordle 236: PAUSE
+# February 9th – Wordle 235: HUMOR
+# February 8th – Wordle 234: FRAME
+# February 7th – Wordle 233: ELDER
+# February 6th – Wordle 232: SKILL
+# February 5th – Wordle 231: ALOFT
+# February 4th – Wordle 230: PLEAT
+# February 3rd – Wordle 229: SHARD
+# February 2nd – Wordle 228: MOIST
+# February 1st – Wordle 227: THOSE
+# January 31st – Wordle 226: LIGHT
+# January 30th – Wordle 225: WRUNG
+# January 29th – Wordle 224: COULD
+# January 28th – Wordle 223: PERKY
+# January 27th – Wordle 222: MOUNT
+# January 26th – Wordle 221: WHACK
+# January 25th – Wordle 220: SUGAR
+# January 24th – Wordle 219: KNOLL
+# January 23rd – Wordle 218: CRIMP
+# January 22nd – Wordle 217: WINCE
+# January 21st – Wordle 216: PRICK
+# January 20th – Wordle 215: ROBOT
+# January 19th – Wordle 214: POINT
+# January 18th – Wordle 213: PROXY
+# January 17th – Wordle 212: SHIRE
+# January 16th – Wordle 211: SOLAR
+# January 15th – Wordle 210: PANIC
+# January 14th – Wordle 209: TANGY
+# January 13th – Wordle 208: ABBEY
+# January 12th – Wordle 207: FAVOR
+# January 11th – Wordle 206: DRINK
+# January 10th – Wordle 205: QUERY
+# January 9th – Wordle 204: GORGE
+# January 8th – Wordle 203: CRANK
+# January 7th – Wordle 202: SLUMP
+# January 6th – Wordle 201: BANAL
+# January 5th – Wordle 200: TIGER
+# January 4th – Wordle 199: SIEGE
+# January 3rd – Wordle 198: TRUSS
+# January 2nd – Wordle 197: BOOST
+# January 1st – Wordle 196: REBUS

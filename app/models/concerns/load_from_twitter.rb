@@ -54,7 +54,7 @@ module LoadFromTwitter
         end
       
         puts "[DEB] invoke_seeding_from_concern() Looking for #{white search_count} tweets matching #{yellow search_key}:" if debug
-        return rake_seed_parse_keys_clone_for_single_search(client, search_key search_count, opts)
+        return rake_seed_parse_keys_clone_for_single_search(client, search_key, search_count, opts)
     end
 
 def manage_twitter_serialization(tweet, opts={})
