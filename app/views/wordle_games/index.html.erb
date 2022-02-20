@@ -16,8 +16,6 @@
 
 
 
-
-
 <h1>Wordle games boring (<%= @wordle_games.count %>)</h1>
 
 <div id="wordle_games">
@@ -29,4 +27,4 @@
   <% end if @render_in_list_form %>
 </div>
 
-<%#= link_to "New wordle game", new_wordle_game_path %>
+<%= link_to "New wordle game", new_wordle_game_path %>

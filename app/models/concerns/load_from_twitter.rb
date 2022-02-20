@@ -87,7 +87,7 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
 
         # if quick match is not there, I skip - but first i write down why...
         puts "Failed match for tweet: #{white(tweet.text) rescue :err}" if debug and (not quick_match) 
-        break unless quick_match
+        next unless quick_match
 
 
         # Tweet matches :)
