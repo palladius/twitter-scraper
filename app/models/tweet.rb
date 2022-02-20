@@ -111,6 +111,14 @@ class Tweet < ApplicationRecord
       end
   end
 
+  def wordle_date
+    wordle_tweet.wordle_date rescue nil
+  end
+
+  def wordle_tweet_id
+    wordle_tweet.id rescue nil
+  end
+
 
      def self.seed_by_calling_twitter_apis(search_key, search_count, opts={})
         include LoadFromTwitter

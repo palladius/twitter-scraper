@@ -1,0 +1,20 @@
+<h1>Regenerate WT from Tweet</h1>
+
+<h2>Before</h2>
+
+<p>1 <b>Tweet</b>: <%= @tweet %></p>
+<p>2 <b>WTweet</b>: <%= @tweet.wordle_tweet.nil? ? :nil : @tweet.wordle_tweet %></p>
+
+
+<h2>After</h2>
+
+<%
+    unless @tweet.wordle_tweet 
+        puts "Creating since it doesnt exist..."
+           WordleTweet.create_from_tweet(@tweet)
+    end
+
+%>
+
+<p>1 <b>Tweet</b>: <%= @tweet %></p>
+<p>2 <b>WTweet</b>: <%= @tweet.wordle_tweet.nil? ? :nil : @tweet.wordle_tweet %></p>

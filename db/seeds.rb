@@ -26,7 +26,7 @@ TWITTER_OPTIONS = {
 $n_tweets = (ENV["TWITTER_INGEST_SIZE"] || '42' ).to_i
 $rake_seed_import_version = "5"
 $check_already_exists = true
-$lets_try_async_runners = false
+$lets_try_async_runners = Rails.env == 'development' # only in dev
 $hostname = Socket.gethostname.split('.')[0] rescue "hostname_error" #shotname
 $search_terms = [
   '#TwitterParser',
@@ -51,7 +51,7 @@ $search_terms = [
   # We keep this last
   'Wordle',
 ]
-$async_wordle_search_terms = %w{ wordle wordlees wordleo }
+$async_wordle_search_terms = %w{ wordle wordlees wordleo #wordleparser }
 $marshal_on_file = (ENV["MARSHAL_TO_FILE"] =='true' || false ) rescue false
 # main
 

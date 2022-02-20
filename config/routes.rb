@@ -17,6 +17,10 @@ Rails.application.routes.draw do
     # nie to have path
     get "/#{article_route}", to: "articles##{article_route}"
   }
+
+  # regenerate
+  get '/tweets/:id/regenerate', to: 'tweets#regenerate'
+
   #get "/stats", to: "articles#stats"
   #get "/wordle", to: "articles#wordle"
   #get "/about", to: "articles#about"

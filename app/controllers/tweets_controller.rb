@@ -1,5 +1,5 @@
 class TweetsController < ApplicationController
-  before_action :set_tweet, only: %i[ show edit update destroy ]
+  before_action :set_tweet, only: %i[ show edit update destroy regenerate ]
   # https://stackoverflow.com/questions/43180720/rails-error-pages-controller-and-redirecting-the-user
   rescue_from ActiveRecord::RecordNotFound, with: :salvataggio
 
@@ -16,6 +16,11 @@ class TweetsController < ApplicationController
   # GET /tweets/new
   def new
     @tweet = Tweet.new
+  end
+
+  # GET /tweets/:id/regenerate
+  def regenerate
+
   end
 
   # GET /tweets/1/edit

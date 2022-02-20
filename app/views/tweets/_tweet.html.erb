@@ -1,8 +1,14 @@
+<%
+#  unless @tweet.wordle_tweet 
+#   WordleTweet.create_from_tweet(@tweet)
+# end
+#
+%>
 <h2>🔝 Top Info</h2>
 
 <div class="ricc-global-top-right" >
     <%#= render "tweets/last_ten", last_tweets: [], :locals => {:sobenme => 41 } rescue "Error: #{$!}"%>
-    <%= render "wordle_tweets/top_info", wordle_tweet: @tweet.wordle_tweet rescue "TWeet not available" %>
+    <%= render "wordle_tweets/top_info", wordle_tweet: @tweet.wordle_tweet rescue "Sorry, WTweet not available" %>
     <%#= render "games/last_ten", tweets: @last_games, :locals => {:sobenme => 43 } %>
 </div>
 
@@ -12,7 +18,11 @@
 
     <%= render "tweets/ricc_show", tweet: @tweet %>
 
-  <h2>🦚 WTweet #<%= tweet.wordle_tweet.id %></h2>
+  <h2>🦚 WTweet #<%= tweet.wordle_tweet_id %></h2>
 
-    <%= render "wordle_tweets/ricc_show", wordle_tweet: @tweet.wordle_tweet %>
+    <% if @tweet.wordle_tweet %>
+      <%= render "wordle_tweets/ricc_show", wordle_tweet: @tweet.wordle_tweet %>
+    <% else %>
+      <p>Sorry, WT not available for this tweet. Generate here: <%= link_to "here", "/tweets/#{ @tweet.id }/regenerate" %></p>
+    <% end %>
 </div>
