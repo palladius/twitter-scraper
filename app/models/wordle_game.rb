@@ -96,8 +96,10 @@ class WordleGame < ApplicationRecord
         #     t.datetime "twitter_created_at"
         #     t.index ["twitter_user_id"], name: "index_tweets_on_twitter_user_id"
         #   end
-    def self.create_from_tweet_if_necessary(tweet)
-        print "create_from_tweet_if_necessary: START"
+    def self.create_from_tweet_if_necessary(tweet, opts={})
+        debug = opts.fetch :debug, false
+
+        print "DEB WordleGame::create_from_tweet_if_necessary(): START" if debug
         import_version = "0.1"
         begin 
             json_stuff = {}

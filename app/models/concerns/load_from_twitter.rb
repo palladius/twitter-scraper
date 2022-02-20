@@ -43,6 +43,8 @@ module LoadFromTwitter
         description = opts.fetch :description, "CLASS(ricc): do this asynchronously. Probabluy with> Tweet.delay.seed_by_calling_twitter_apis(...) "
         twittersecret_api_key = opts.fetch :twittersecret_api_key,    ENV['TWITTER_CONSUMER_KEY']
         twittersecret_api_key_secret= opts.fetch :twittersecret_api_key_secret,    ENV['TWITTER_CONSUMER_SECRET']
+        debug = opts.fetch :debug, false
+
         #:bearer_token => ENV["TWITTER_BEARER_TOKEN"],
         db_seed_puts("INSTANCE::invoke_seeding_from_concern(sucks): desc='#{white description}' search_key=#{white search_key}, search_count=#{search_count}")
   
@@ -51,8 +53,8 @@ module LoadFromTwitter
           config.consumer_secret     = twittersecret_api_key_secret
         end
       
-        puts "Looking for #{search_count} tweets matching #Wordle hashtag:"
-        return rake_seed_parse_keys_clone_for_single_search(client, search_key,search_count, opts )
+        puts "[DEB] invoke_seeding_from_concern() Looking for #{white search_count} tweets matching #{yellow search_key}:" if debug
+        return rake_seed_parse_keys_clone_for_single_search(client, search_key search_count, opts)
     end
 
 def manage_twitter_serialization(tweet, opts={})
