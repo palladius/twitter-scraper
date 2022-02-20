@@ -5,7 +5,12 @@ class TwitterUsersController < ApplicationController
   def index
     #@twitter_users = #TwitterUser.all.limit(150).sort()
     # getting top users
-    @twitter_users = TwitterUser.left_joins(:tweets).group(:id).order('COUNT(tweets.id) DESC').limit(50)
+    sql_query_limit  = (params.fetch :sql_limit, 500).to_i
+    n_days_freshness = (params.fetch :days, 3).to_i
+
+    now = Time.now
+    @twitter_users = TwitterUser.where(updated_at: (now - n_days_freshness * 24.hours)..now).left_joins(:tweets).group(:id).order('COUNT(tweets.id) DESC').limit(sql_query_limit)
+    @top_polyglots = @twitter_users.map{|u| [u.twitter_id, u.polyglotism, u]}.sort{|a,b| a[1] <=> b[1] }.reverse.first(50)
   end
 
   # GET /twitter_users/1 or /twitter_users/1.json

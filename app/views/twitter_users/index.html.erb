@@ -26,28 +26,44 @@ end
 </p>
 -->
 
-<p>Top tweeters:</p>
+<p>Top 12 tweeters:</p>
 
     <%= #column_chart TwitterUser.all.map{|u| [u.twitter_id, u.tweets.count, u.id, u.name] }.sort_by{|u| u[1]}.last(10).reverse,
         #column_chart  @twitter_users.map{|u| [u.twitter_id, u.tweets.count] }.sort_by{|u| u[1] }.last(10).reverse,
-        line_chart TwitterUser.left_joins(:tweets).group(:id).order('COUNT(tweets.id) DESC').limit(15).map{|u| [u.name, u.tweets.count ]},
+#        line_chart TwitterUser.left_joins(:tweets).group(:id).order('COUNT(tweets.id) DESC').limit(15).map{|u| [u.name, u.tweets.count ]},
+        line_chart @twitter_users.limit(12).map{|u| ["#{u.ldap}\n(#{u.name})", u.tweets.count ]},
         # @twitter_users.map{|u| [u.twitter_id, u.tweets.count] }.sort_by{|u| u[1] }.last(10).reverse,
-        xtitle: "Twitter User (top 15)" ,
-        ytitle: "# Tweets",
-        download: true
+          xtitle: "Twitter Users" ,
+          ytitle: "# Tweets",
+          download: true
     %>
 <p>Top polyglots (different wordle games):</p>
 
     <%= #column_chart TwitterUser.all.map{|u| [u.twitter_id, u.tweets.count, u.id, u.name] }.sort_by{|u| u[1]}.last(10).reverse,
         #column_chart  @twitter_users.map{|u| [u.twitter_id, u.tweets.count] }.sort_by{|u| u[1] }.last(10).reverse,
-        line_chart TwitterUser.left_joins(:tweets).group(:id).order('COUNT(tweets.id) DESC').limit(150).map{|u| [u.twitter_id, u.polyglotism]}.sort{|arr| -arr[1] }.first(10),
         # @twitter_users.map{|u| [u.twitter_id, u.tweets.count] }.sort_by{|u| u[1] }.last(10).reverse,
-        xtitle: "Twitter User (top 15)" ,
+        #line_chart TwitterUser.left_joins(:tweets).group(:id).order('COUNT(tweets.id) DESC').limit(150).map{|u| [u.twitter_id, u.polyglotism]}.sort{|arr| -arr[1] }.first(10),
+        line_chart @top_polyglots.first(12), 
+        #line_chart @twitter_users.map{|u| [u.twitter_id, u.polyglotism, u]}.sort{|a,b| a[1] <=> b[1] }.reverse.first(12),
+        xtitle: "Twitter User (top 12)" ,
         ytitle: "# Tweets",
         download: true
     %>
 
-<h1>Twitter users</h1>
+<h1>Top Polyglots</h1>
+
+<div id="twitter_users">
+  <% @top_polyglots.each do |polyglotism, languages, twitter_user| %>
+    <p>
+   
+      <%= link_to "#{twitter_user}", twitter_user if twitter_user.tweets.count > 0 %>.
+      Languages:
+        <b>   <%=  languages %></b>
+    </p>
+  <% end %>
+</div>
+
+<h1>Top Twitter tweeters</h1>
 
 <div id="twitter_users">
   <% @twitter_users.each do |twitter_user| %>
