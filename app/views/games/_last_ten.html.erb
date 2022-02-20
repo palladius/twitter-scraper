@@ -3,10 +3,12 @@
     #- last_tweets
 %>
 <div class="ricc-users-top-right" >
-    <b>Last 10 games</b><br/>
-    <% @last_games.each do |g| %>
+    <b>Last <%=@last_games.count rescue '??' %> games</b><br/>
+    <% @last_games.each do |wg| 
+        # just refactored, now each one is a WordleGame oobjec with its dignity :) 
+    %>
     <span class="small-top10-element" >
-        <%#= link_to u.to_stylistic_s(:last10), u  %> <i>(<%#= time_ago_in_words(u.created_at) %> ago)</i>
+        <%= link_to wg  %> <i>(<%= time_ago_in_words(wg.created_at) %> ago)</i>
     </span>
         <br/>
     <% end %>
