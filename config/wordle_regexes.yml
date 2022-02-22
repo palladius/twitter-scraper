@@ -17,10 +17,11 @@ default: &default
     return: wordle_fr
   - url: 'http://term.ooo'
     regexes_in_or:
-      - "term.ooo"
+      #- "term.ooo" # doesnt work :/ 
+      #- "term.ooo" # doesnt work :/ 
       - "joguei https:\/\/t.co"
     lang: pt
-    return: wordle_pt
+    return: wordle_br
   - # Lewdle
     url: 'https://www.lewdlegame.com/'
     regexes_in_or:
