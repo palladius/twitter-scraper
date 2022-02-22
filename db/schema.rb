@@ -50,6 +50,15 @@ ActiveRecord::Schema.define(version: 2022_02_20_081002) do
     t.index ["blob_id", "variation_digest"], name: "index_active_storage_variant_records_uniqueness", unique: true
   end
 
+  create_table "comments", force: :cascade do |t|
+    t.string "commenter"
+    t.text "body"
+    t.integer "article_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["article_id"], name: "index_comments_on_article_id"
+  end
+
   create_table "delayed_jobs", force: :cascade do |t|
     t.integer "priority", default: 0, null: false
     t.integer "attempts", default: 0, null: false
@@ -63,6 +72,14 @@ ActiveRecord::Schema.define(version: 2022_02_20_081002) do
     t.datetime "created_at", precision: 6
     t.datetime "updated_at", precision: 6
     t.index ["priority", "run_at"], name: "delayed_jobs_priority"
+  end
+
+  create_table "posts", force: :cascade do |t|
+    t.string "name"
+    t.string "title"
+    t.text "content"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "tweets", force: :cascade do |t|
@@ -119,6 +136,9 @@ ActiveRecord::Schema.define(version: 2022_02_20_081002) do
     t.index ["tweet_id"], name: "index_wordle_tweets_on_tweet_id"
   end
 
+  add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
+  add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
+  add_foreign_key "comments", "articles"
   add_foreign_key "tweets", "twitter_users"
   add_foreign_key "wordle_tweets", "tweets"
 end

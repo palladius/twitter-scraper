@@ -83,7 +83,7 @@
     <strong></strong>
   </p>
   <p>
-    <% twitter_user.tweets.sort{|t| t.created_at }.reverse.each do |t| %>
+    <% twitter_user.tweets.sort{|t| t.created_at }.each do |t| %>
       + <%= button_to "❌ Destroy invalid", t, method: :delete unless t.valid? %>
       <%= t.created_str('day') rescue :nil %> 
       <%= link_to t.to_s(:twitter_user), t %>  (<%= time_ago_in_words(t.created_at) %> ago) <br/> 
