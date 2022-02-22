@@ -224,7 +224,7 @@ end
     # first obvious check - make sure it has a
 #    unless text.match?(/\d+ [123456X]\/6/i) or text.match?(/in [123456X]\/6 tries/i) or text.match?(/[6️⃣7️⃣3️⃣4️⃣]/i) 
     unless  self.text_matches_moves(text)
-      puts "[WARN] BAD_TEXT_002 No 123 X/6 found or even wordlegame tries - skipping: TEXT='''#{text}'''"
+      puts "[WARN] BAD_TEXT_002 No 123 X/6 found or even wordlegame tries - skipping: TEXT='''#{white text.gsub("\n",'')}'''"
       return nil
     end
 
@@ -347,6 +347,10 @@ end
   # Yellow squareYellow squareYellow square⬜⬜
   # Yellow square⬜⬜Green squareYellow square
   # ⬜⬜Green squareGreen squareGreen square
+
+  def safe_text
+    text.gsub("\n","")
+  end
 
   # 42 is X or NEVER
   def score_str

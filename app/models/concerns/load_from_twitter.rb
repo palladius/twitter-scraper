@@ -84,12 +84,13 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
       # Call Twitter API and iterates over tweets.
       client.search(search_term).take(search_count).each do |tweet|
         n_called_tweets += 1
-        quick_match = WordleTweet.quick_match(tweet.text)
-        puts "QM=#{quick_match.id rescue :boh}" if debug
 
-        # if quick match is not there, I skip - but first i write down why...
-        puts "Failed match for tweet: #{white(tweet.text) rescue :err}" if debug and (not quick_match) 
-        next unless quick_match
+        # # consider REMOVING THIS
+        # quick_match = WordleTweet.quick_match(tweet.text)
+        # puts "QM=#{quick_match.id rescue :boh}" if debug
+        # # if quick match is not there, I skip - but first i write down why...
+        # puts "Failed match for tweet: #{white(tweet.text) rescue :err}" if debug and (not quick_match) 
+        # next unless quick_match
 
 
         # Tweet matches :)
@@ -164,7 +165,9 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
             # single error here.
             n_unsaved_tweets += 1
             print 'e' # putchar ERROR
-          end
+            puts yellow(rails_tweet.to_s(true))  if debug
+            puts red(rails_tweet.errors.full_messages)  if debug
+            end
         end
         #client.update("@#{tweet.user} Hey I love Ruby too, what are your favorite blogs? :)")
       end

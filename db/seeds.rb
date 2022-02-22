@@ -30,26 +30,27 @@ $lets_try_async_runners = Rails.env == 'development' # only in dev
 $hostname = Socket.gethostname.split('.')[0] rescue "hostname_error" #shotname
 $search_terms = [
   'joguei https://t.co',
+  'k4rlheinz', # Julio
   '#TwitterParser',
-#   '#Wordle',
-#   '#Parole',
-#   'mathler.com',
-# #  'https://term.ooo/',
-#   'wordlefr',
-#   'WordleIT',
-#   'wordlept',
-#   'wordle.uber.space',
-#   'Par🇮🇹le',
-#   'wordlegame.org', # since 0.11 I support it!
-#   '#taylordle',
-#   'katapat',
-#   'worldle',
-#   'wekele',
-#   'quordle',
-#   # this works but produces TOO much and i dont know what it i
-#   #'🟩🟩🟩🟩🟩', # success
-#   # We keep this last
-#   'Wordle',
+  '#Wordle',
+  '#Parole',
+  'mathler.com',
+#  'https://term.ooo/',
+  'wordlefr',
+  'WordleIT',
+  'wordlept',
+  'wordle.uber.space',
+  'Par🇮🇹le',
+  'I guessed this 5-letter word in', #  'wordlegame.org', # since 0.11 I support it!
+  '#taylordle',
+  'katapat',
+  'worldle',
+  'wekele',
+  'quordle',
+  # this works but produces TOO much and i dont know what it i
+  #'🟩🟩🟩🟩🟩', # success
+  # We keep this last
+  'Wordle',
 ]
 $async_wordle_search_terms = %w{ wordle wordlees wordleo #wordleparser }
 $marshal_on_file = (ENV["MARSHAL_TO_FILE"] =='true' || false ) rescue false
@@ -73,13 +74,13 @@ def main
 
   raise "Too few tweets required. Set TWITTER_INGEST_SIZE env var!" if $n_tweets < 1
   if $lets_try_async_runners
-  $async_wordle_search_terms.each do |delayed_word|
-    Tweet.delay.seed_by_calling_twitter_apis(
-      delayed_word,  
-      $n_tweets, {
-        :description => 'DELAYED call from db:seed'
-    })
-    end 
+    $async_wordle_search_terms.each do |delayed_word|
+      Tweet.delay.seed_by_calling_twitter_apis(
+        delayed_word,  
+        $n_tweets, {
+          :description => 'DELAYED call from db:seed'
+      })
+      end 
   else
       puts "We'll skip async runners since they seem to clog in dev and return TOO MANY APU CALLS :) and kill everyone else :)"
     end
@@ -93,19 +94,25 @@ end
 def rake_seed_parse_keys_simplified()
   puts(green("This is the new code! It uses the Tweet.first.load_from_twitter concern - wOOt!"))
 
-  client = Twitter::REST::Client.new do |config|
-    config.consumer_key        = TWITTER_OPTIONS[:api_key]
-    config.consumer_secret     = TWITTER_OPTIONS[:api_key_secret]
-  end
+  # client = Twitter::REST::Client.new do |config|
+  #   config.consumer_key        = TWITTER_OPTIONS[:api_key]
+  #   config.consumer_secret     = TWITTER_OPTIONS[:api_key_secret]
+  # end
 
   puts "Looking for #{$n_tweets} tweets matching #Wordle hashtag:"
 
-  $search_terms.each do |search_term|
+  intermediate_search_term = ENV.fetch 'SEARCH_ONLY_FOR', nil 
+  search_terms = intermediate_search_term.nil? ?
+    $search_terms :               # Global thingy
+    [ intermediate_search_term]   # local if you provide $SEARCH_ONLY_FOR
+  puts "Searching for these keywords: #{azure search_terms.join(', ')}"
+  debug = ENV.fetch 'DEBUG', nil
+  search_terms.each do |search_term|
     ret = Tweet.seed_by_calling_twitter_apis(
       search_term,  
       $n_tweets, {
         :description => 'DIRECT (non-delayed) call from db:seed',
-        :debug => false,
+        :debug => (not debug.nil?) ,
     })
     puts "rake_seed_parse_keys_simplified: ret=#{ret}"
   end
