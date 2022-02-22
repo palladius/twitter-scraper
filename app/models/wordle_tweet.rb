@@ -262,6 +262,10 @@ end
     # TODO ricc: non so quale dei due e vado di fretta
     return :wordle_pt  if text.match?(/term.ooo \d+/i ) and text.match?(DAY_AND_SCORE_REGEX)
     return :wordle_pt  if text.match?(/term.ooo [#]\d+/i ) and text.match?(DAY_AND_SCORE_REGEX)
+    # siccome fallisce... provo questo. 
+    # Twitter substityutes the portiguese term.ooo with this: https://t.co/SOMETHING so however brittle I'll
+    # match: "joguei  https://t.co/" there you go. This also explains the other URLs...
+    return :wordle_br  if text.match?(/joguei https:\/\/t.co\//i) and text.match?(DAY_AND_SCORE_REGEX)
 
     # I cant remember wha website was this.
     return :wg_german  if text.match?(/I guessed this German 5-letter word in .\/6 tries/)
@@ -387,6 +391,8 @@ end
         "🇮🇹"
       when :wordle_pt, :wg_portuguese
         '🇵🇹'
+      when :wordle_br
+        '🇧🇷'
       when :wg_spanish, :wordle_es
         "🇪🇸"
       when :wg_russian
