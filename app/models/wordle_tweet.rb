@@ -150,7 +150,7 @@ class WordleTweet < ApplicationRecord
     # v4 2022-02-09 import is the same but SCORE is computed better now it supports X (score = 42).
     # import_notes: text
     save = wt.save
-    puts "DEB save issues: #{save} [TXT:'#{wt.tweet_text.gsub("\n","") rescue :err}', ERRORS='#{wt.errors.full_messages}']" unless save
+    puts "DEB save issues: #{save} [TXT:'#{wt.tweet_text.gsub("\n","") rescue :err}', ERRORS='#{red wt.errors.full_messages}']" unless save
     #puts "DEB save issues: #{save} [TXT:'#{wt.tweet_text.gsub("\n","") rescue :err}']" unless save
     return save
   end
