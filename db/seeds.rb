@@ -35,6 +35,7 @@ $search_terms = [
   '#Wordle',
   '#Parole',
   'mathler.com',
+  'mathler',
 #  'https://term.ooo/',
   'wordlefr',
   'WordleIT',
@@ -76,11 +77,11 @@ def main
   if $lets_try_async_runners
     $async_wordle_search_terms.each do |delayed_word|
       Tweet.delay.seed_by_calling_twitter_apis(
-        delayed_word,  
+        delayed_word,
         $n_tweets, {
           :description => 'DELAYED call from db:seed'
       })
-      end 
+      end
   else
       puts "We'll skip async runners since they seem to clog in dev and return TOO MANY APU CALLS :) and kill everyone else :)"
     end
@@ -101,7 +102,7 @@ def rake_seed_parse_keys_simplified()
 
   puts "Looking for #{$n_tweets} tweets matching #Wordle hashtag:"
 
-  intermediate_search_term = ENV.fetch 'SEARCH_ONLY_FOR', nil 
+  intermediate_search_term = ENV.fetch 'SEARCH_ONLY_FOR', nil
   search_terms = intermediate_search_term.nil? ?
     $search_terms :               # Global thingy
     [ intermediate_search_term]   # local if you provide $SEARCH_ONLY_FOR
@@ -109,7 +110,7 @@ def rake_seed_parse_keys_simplified()
   debug = ENV.fetch 'DEBUG', nil
   search_terms.each do |search_term|
     ret = Tweet.seed_by_calling_twitter_apis(
-      search_term,  
+      search_term,
       $n_tweets, {
         :description => 'DIRECT (non-delayed) call from db:seed',
         :debug => (not debug.nil?) ,
@@ -183,15 +184,15 @@ end
 #         end
 #         #print "2. [#{tweet.created_at}] Creating Tweet info based on existence of twitter_id :)"
 #         hash = {
-#             app_ver: APP_VERSION, 
+#             app_ver: APP_VERSION,
 #             search_term: search_term,
-           
+
 #             # POLYMOPRH_BEGIN polymorphically adding this
 #             twitter_retweeted:  (tweet.retweeted rescue nil),
 #             twitter_lang:  (tweet.lang rescue nil),
 #             twitter_retweet_count:  (tweet.retweet_count rescue nil),
-#             # POLYMOPRH_END            
-          
+#             # POLYMOPRH_END
+
 #             hostname: $hostname
 #         } # I know - but it helps with commas :)
 #         rails_tweet = Tweet.create(
