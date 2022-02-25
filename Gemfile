@@ -15,6 +15,7 @@ gem "pg"
 gem "dotenv"
 gem 'dotenv-rails' # , :groups => [:development, :test, :production, :staging ]
 gem 'delayed_job_active_record' # sembra vecchiotto ma non richiede Redis https://github.com/collectiveidea/delayed_job_active_record
+#gem 'activerecord-spanner-adapter' - damn, doesnt work with activerecord 7.0.1
 #/ Riccardo
 ########################
 

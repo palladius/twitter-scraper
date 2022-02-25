@@ -13,6 +13,12 @@
     <strong>safe Solution:</strong>
     <%= wordle_game.safe_solution %>
   </p>
+  <p>
+    <strong>Ricc Score:</strong>
+     <span class="wordle_score_gradient_<%= wordle_game.average_score.round(0) %>" >
+      <%= wordle_game.average_score.round(2) %>
+     </span> [might be costly to compute]
+  </p>
 
   <p>
     <strong>Date:</strong>

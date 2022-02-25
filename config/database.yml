@@ -25,7 +25,6 @@ devpg:
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   url:  <%= ENV["DEV_DATABASE_URL"] %>
   descrizione: development-like but connecting to a random DB on PGsql I believe its staging DB
-
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.

@@ -4,8 +4,8 @@ class WordleGamesController < ApplicationController
 
   # GET /wordle_games or /wordle_games.json
   def index
-    @wordle_games = WordleGame.all
-
+    @max_games = params.fetch :limit, 5
+    @wordle_games = WordleGame.all.limit(@max_games)
   end
 
   # GET /wordle_games/1 or /wordle_games/1.json
