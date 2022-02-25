@@ -52,6 +52,7 @@ irb(main):003:0> wg.memoized_flag
 => "🇧🇷"
 irb(main):004:0> wg.memoized_flag
 => "🇧🇷"    
+    See also multi-line memoization here: https://www.justinweiss.com/articles/4-simple-memoization-patterns-in-ruby-and-one-gem/
 =end
     def memoized_flag 
         #        @work_has_no_comments ||= comments.count < 1
