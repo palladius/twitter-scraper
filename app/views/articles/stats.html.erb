@@ -4,10 +4,11 @@
 
 <h2>Google Chart Tables</h2>
 
+<p>
 Javascript is NOt too bad i guess...
 
 https://developers.google.com/chart/interactive/docs/gallery
-
+</p>
  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {'packages':['table']});
@@ -27,46 +28,18 @@ https://developers.google.com/chart/interactive/docs/gallery
           <% end %>
         ]);
 
-        var table = new google.visualization.Table(document.getElementById('table_div'));
+        var table = new google.visualization.Table(document.getElementById('table_wordle_div'));
 
         table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
       }
     </script>
 
-    <div id="table_div"></div>
-
-GeoChart: 
-
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      google.charts.load('current', {
-        'packages':['geochart'],
-      });
-      google.charts.setOnLoadCallback(drawRegionsMap);
-
-      function drawRegionsMap() {
-        var data = google.visualization.arrayToDataTable([
-          ['Country', 'Popularity'],
-          ['France',        WordleTweet.where(:wordle_type => "wordle_fr").count ],
-          ['United States', WordleTweet.where(:wordle_type => "wordle_en").count ],
-          ['Italy',         WordleTweet.where(:wordle_type => "wordle_it").count ],
-          ['Korea',         WordleTweet.where(:wordle_type => "wordle_ko").count ],
-       //   ['France', 600],
-        //  ['RU', 700]
-        ]);
-
-        var options = {};
-
-        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
-
-        chart.draw(data, options);
-      }
-    </script>
+    <div id="table_wordle_div"></div>
 
 
-    <div id="regions_div" style="width:900px; height:500px;"></div>
-
+<p>
 And now gauge... WTF this reloads and re-randomizes... sweet!
+</p>
    <script type="text/javascript">
       google.charts.load('current', {'packages':['gauge']});
       google.charts.setOnLoadCallback(drawChart);
@@ -77,7 +50,8 @@ And now gauge... WTF this reloads and re-randomizes... sweet!
           ['Label', 'Value'],
           ['Memory', 80],
           ['CPU', 55],
-          ['Network', 68]
+          ['Network', 68],
+          ['RiccWordle', 12345]
         ]);
 
         var options = {
