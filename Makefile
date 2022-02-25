@@ -86,3 +86,6 @@ boost-cloud-run:
 	gcloud run services update twitter-scraper-staging --no-cpu-throttling --region europe-west1
 	gcloud run services update twitter-scraper --no-cpu-throttling --region europe-west1
 	gcloud run services describe twitter-scraper  --region europe-west1
+
+ridge-optimized-query:
+	cat ridge_sql.rb | RAILS_ENV=devpg rails c

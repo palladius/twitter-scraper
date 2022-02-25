@@ -23,7 +23,7 @@ class Tweet < ApplicationRecord
   has_one :wordle_tweet # , counter_cache: true
 
   #  validates_uniqueness_of : #  : references 
-  validates :full_text, uniqueness: { scope: :twitter_user }
+  validates :full_text, uniqueness: { scope: :twitter_user }, on: :create
 
   # how long ago was the tweet created from when its parsed by ricc :)
   def freshness

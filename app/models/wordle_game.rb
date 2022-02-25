@@ -20,8 +20,8 @@ class WordleGame < ApplicationRecord
    # validates_presence_of :score
    # validates_presence_of :wordle_type # added on 18feb20
     has_many :tweets
-    validates_presence_of :wordle_type, :wordle_incremental_day
-    validates :wordle_type, uniqueness: { scope: :wordle_incremental_day }
+    validates_presence_of :wordle_type, :wordle_incremental_day # , on: :create
+    validates :wordle_type, uniqueness: { scope: :wordle_incremental_day } #, on: :create
 #    belongs_to :wordle_type
 
 
@@ -90,13 +90,17 @@ irb(main):004:0> wg.memoized_flag
         )
     end
 
+    # TODO memoize
     def min_date 
         # ok i wanna be dry, but u never know how i reimplement it :)
         # WordleTweet.where(
         #     :wordle_type => wordle_type, 
         #     :wordle_incremental_day => wordle_incremental_day
         # )
-        wordle_tweets.map{|x| x.tweet.twitter_created_at}.min.to_date
+        #wordle_tweets.map{|x| x.tweet.twitter_created_at}.min.to_date
+        puts(red "This is WRONG TODO(ricc): calculate correctly in optized way.")
+        wordle_tweets.first.tweet.twitter_created_at.to_date       
+#        nil
     end
     def max_date 
         # ok i wanna be dry, but u never know how i reimplement it :)
@@ -104,7 +108,14 @@ irb(main):004:0> wg.memoized_flag
         #     :wordle_type => wordle_type, 
         #     :wordle_incremental_day => wordle_incremental_day
         # )
-        wordle_tweets.map{|x| x.tweet.twitter_created_at}.max.to_date
+        # inefficiente!!!
+        # memoize
+        #@max_date ||= wordle_tweets.map{|x| x.tweet.twitter_created_at}.max.to_date
+        #return @max_date
+#        return nil
+        puts(red "This is WRONG TODO(ricc): calculate correctly in optized way.")
+        wordle_tweets.first.tweet.twitter_created_at.to_date       
+
     end
 
 

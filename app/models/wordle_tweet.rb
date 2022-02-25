@@ -17,8 +17,8 @@
 
 class WordleTweet < ApplicationRecord
   belongs_to :tweet
-  validates_presence_of :score
-  validates_presence_of :wordle_type # added on 18feb20
+  validates_presence_of :score, on: :create
+  validates_presence_of :wordle_type, on: :create # added on 18feb20
 
   DAY_AND_SCORE_REGEX = /\d+ [123456X]\/6| 💀\/6/ # most people use this, eg "123 4/6" or "#123 X/6".
   # Also wordle FR uses this for X: Le Mot (@WordleFR) #38 💀/6
