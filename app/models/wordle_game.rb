@@ -40,6 +40,30 @@ class WordleGame < ApplicationRecord
         "#{wordle_type}::#{wid}"
     end
 
+    # it works!!! Note only first time i call memoized_flag it executes a query!
+=begin
+irb(main):001:0> wg = WordleGame.first
+   (0.7ms)  SELECT sqlite_version(*)
+  WordleGame Load (0.1ms)  SELECT "wordle_games".* FROM "wordle_games" ORDER BY "wordle_games"."id" ASC LIMIT ?  [["LIMIT", 1]]                       
+irb(main):002:0> wg.memoized_flag
+  WordleTweet Load (2.1ms)  SELECT "wordle_tweets".* FROM "wordle_tweets" WHERE "wordle_tweets"."wordle_type" = ? AND "wordle_tweets"."wordle_incremental_day" = ? ORDER BY "wordle_tweets"."id" ASC LIMIT ?  [["wordle_type", "wordle_br"], ["wordle_incremental_day", "int/51"], ["LIMIT", 1]]
+=> "🇧🇷"                                                                    
+irb(main):003:0> wg.memoized_flag
+=> "🇧🇷"
+irb(main):004:0> wg.memoized_flag
+=> "🇧🇷"    
+=end
+    def memoized_flag 
+        #        @work_has_no_comments ||= comments.count < 1
+        @flag ||= self.wordle_tweets.first.flag
+        return @flag
+    end
+
+    # TODO cache
+    def name_with_flag
+        "#{memoized_flag}#{name}"
+    end
+
     # todo: if old you poersist its data...
     def old?
         false

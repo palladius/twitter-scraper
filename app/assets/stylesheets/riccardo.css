@@ -28,6 +28,27 @@ padding: 5pt ;
     overflow: auto;
     padding: 5pt ;
 }
+.ricc-games-top-right {
+  background-color: rgb(201, 255, 194);
+  float: right;
+  overflow: auto;
+  padding: 5pt ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Se ho ben capito devo togliere DOPO*/
 .ricc-metti-a-posto {
     float: none;
