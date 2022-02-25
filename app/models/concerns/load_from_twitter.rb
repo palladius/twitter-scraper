@@ -9,12 +9,12 @@ module LoadFromTwitter
     require 'json'
     require 'socket'
     require 'twitter'
-    
+
     # included do
     #   default_scope   where(trashed: false)
     #   scope :trashed, where(trashed: true)
     # end
-    
+
     # def trash
     #   update_attribute :trashed, true
     # end
@@ -31,7 +31,7 @@ module LoadFromTwitter
     #     puts red("not implenented yet 1")
     # end
 
-    #    TODO: private 
+    #    TODO: private
     def self.db_seed_puts(str)
         puts "[#{white :Tweet}][#{yellow Rails.env.first(5)}] #{common_header}#{str}"
     end
@@ -47,12 +47,12 @@ module LoadFromTwitter
 
         #:bearer_token => ENV["TWITTER_BEARER_TOKEN"],
         db_seed_puts("INSTANCE::invoke_seeding_from_concern(sucks): desc='#{white description}' search_key=#{white search_key}, search_count=#{search_count}")
-  
+
         client = Twitter::REST::Client.new do |config|
           config.consumer_key        = twittersecret_api_key
           config.consumer_secret     = twittersecret_api_key_secret
         end
-      
+
         puts "[DEB] invoke_seeding_from_concern() Looking for #{white search_count} tweets matching #{yellow search_key}:" if debug
         return rake_seed_parse_keys_clone_for_single_search(client, search_key, search_count, opts)
     end
@@ -71,7 +71,7 @@ end
     # cloned the rake db:seed but this time its single search term - i know its N clients but it was the same before wannit?
 def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_count, opts={})
     marshal_on_file = opts.fetch :marshal_on_file, false
-    debug = opts.fetch :debug, true 
+    debug = opts.fetch :debug, true
     description = opts.fetch :description, "Descriptio infeliciter non datur"
 
    # $search_terms.each do |search_term|
@@ -89,7 +89,7 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
         # quick_match = WordleTweet.quick_match(tweet.text)
         # puts "QM=#{quick_match.id rescue :boh}" if debug
         # # if quick match is not there, I skip - but first i write down why...
-        # puts "Failed match for tweet: #{white(tweet.text) rescue :err}" if debug and (not quick_match) 
+        # puts "Failed match for tweet: #{white(tweet.text) rescue :err}" if debug and (not quick_match)
         # next unless quick_match
 
 
@@ -111,33 +111,34 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
               # consider adding:
               # *    :profile_image_url: http://pbs.twimg.com/profile_images/2448864122/jicix70clvqqeazgdxh3_normal.jpeg
               # *    :created_at: Tue Nov 11 14:48:00 +0000 2008
-  
+
           )
           saved = tu.save
           # TODO(ricc): update Existing with new descriptions even if it already exists
           #puts "1. Created TwitterUser: #{tu} id=#{tu.id rescue :noid}" if saved
           n_saved_users += 1 if saved
-  
+
           if $check_already_exists
             already_exists = Tweet.find_by_twitter_id(tweet.id)
             if already_exists
-                puts "- [CACHE] Already exists TODO update if needed: [#{tu}] '#{already_exists.excerpt rescue :noExcerpt}' (import v#{already_exists.import_version})" if debug
+#                puts "- [CACHE] Already exists TODO update if needed: [#{tu}] '#{already_exists.excerpt rescue :noExcerpt}' (import v#{already_exists.import_version})" if debug
+                puts "- [CACHE] Already exists (v#{yellow already_exists.import_version}): [#{tu}] '#{already_exists.excerpt(50) rescue :noExcerpt}' " if debug
                 print 'c' if ($rake_seed_import_version != already_exists.import_version)
-            else  # 
+            else  #
                 print "NEW" if debug
             end
             next if already_exists
           end
           #print "2. [#{tweet.created_at}] Creating Tweet info based on existence of twitter_id :)"
           hash = {
-              app_ver: APP_VERSION, 
+              app_ver: APP_VERSION,
               search_term: search_term,
-             
+
               # POLYMOPRH_BEGIN polymorphically adding this
               twitter_retweeted:  (tweet.retweeted rescue nil),
               twitter_lang:  (tweet.lang rescue nil),
               twitter_retweet_count:  (tweet.retweet_count rescue nil),
-              # POLYMOPRH_END            
+              # POLYMOPRH_END
               code_description: description,
 
               hostname: $hostname.split('.')[0]
@@ -179,9 +180,9 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
           :called_tweets => n_called_tweets,
       }
   end
-    
+
   def to_safe_s()
     self.to_s rescue "#{self.class}.to_s() exception: #{$!}"
   end
-    
+
   end
