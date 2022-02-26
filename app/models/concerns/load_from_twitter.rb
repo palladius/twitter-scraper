@@ -147,7 +147,7 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
               twitter_retweet_count:  (tweet.retweet_count rescue nil),
               # POLYMOPRH_END
               code_description: description,
-              source: source rescue nil,
+              source: source , # rescue nil
 
               hostname: @@hostname.split('.')[0]
           } # I know - but it helps with commas :)

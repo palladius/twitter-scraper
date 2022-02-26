@@ -8,9 +8,10 @@
 <p> @search_term : '<b><%=  @search_term %></b>'</p>
 
 
+<%= render 'games/action' %>
+
 <h2>todo partial uguale per tutti</h2>
 
-TODO put this in action partial 
 <p>Action: '<%= @action %>'</p>
 <p>@description: '<%= @description %>'</p>
-<p>@results: <pre><%= @results %></pre></p>
+<p>@results: <tt class='yellow' ><%= @results %></tt></p>

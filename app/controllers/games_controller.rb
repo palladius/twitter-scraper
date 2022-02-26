@@ -21,23 +21,25 @@ class GamesController < ApplicationController
 
         @n_tweets = (params.fetch :n_tweets, '10').to_i
         #@TODO
-        @background = (params.fetch :background, false).to_s.downcase == "true" # to_bool
         @search_term = params.fetch :search_term, '@wordlefr'
+        @background = (params.fetch :background, false).to_s.downcase == "true" # to_bool
+        @dryrun = (params.fetch :dryrun, false).to_s.downcase == "true" # to_bool
         @debug = (params.fetch 'debug', false).to_s.downcase == "true" # to bool
+        @caller_id = params.fetch 'caller_id', 'caller_id non datur' # in case you want to say something from the internet, like caller details
         
         @action = :seed_by_search_term
 
         flash[:error] = "Some error in GamesController"
         flash[:warn] = "Some WARN in GamesController"
 
-        @description = "[seed_by_search_term] Looking for #{@n_tweets} tweets matching #Wordle hashtag: ;;#{ @search_term};; [DEB=#{ @debug}]"
+        @description = "[seed_by_search_term] Looking for #{@n_tweets} tweets matching #Wordle hashtag: ;;#{ @search_term};; [DEB=#{ @debug}, @caller_id=#{@caller_id}]"
 
         ret = Tweet.seed_by_calling_twitter_apis(
             @search_term,  
             @n_tweets, 
             {
               :description => 'DIRECT (non-delayed) call from GamesController',
-              :source => 'GamesController',
+              :source => "GamesController (caller_id=#{@caller_id})",
               :debug => @debug ,
             }
         )

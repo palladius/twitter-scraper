@@ -5,7 +5,7 @@ source .env
 # 1.3 Had to move DATABASE_URL to PROD_DATABASE_URL or DEV would pick it up and commit to PROD DB by mistake !!! (which is WAI)
 # 1.5 Added TWITTER vars so now i can call updates from Cloud Fujnction and not have a client running forever :)
 
-DEPLOY_VERSION="1.5_20220226"
+DEPLOY_VERSION="1.5prod_20220226"
 VERSION=`cat VERSION`
 PROJECT_ID=$(gcloud config get-value project)
 

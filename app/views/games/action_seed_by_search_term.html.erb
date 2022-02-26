@@ -1,6 +1,9 @@
 <h1>Games/action_seed_by_search_term</h1>
 
-TODO put this in action partial 
-<p>Action: '<%= @action %>'</p>
-<p>@description: '<%= @description %>'</p>
-<p>@results: <tt class='yellow' ><%= @results %></tt></p>
+<p>
+Note: this action can take longer. We strongly suggest to call a single search term 
+for every HTTP request you do and reach out the <tt>/games/actions/seed_by_search_term</tt>
+endpoint instead, thouroughly documented in www.tipiacerebbe.com.
+</p>
+
+<%= render 'games/action' %>
