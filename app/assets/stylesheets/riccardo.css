@@ -109,3 +109,12 @@ padding: 5pt ;
   background-color: rgb(221, 221, 221);
   color: green;
 }
+
+.riccardo-messaggio-occasionale {
+  color: orange;
+  font-size: small;
+}
+
+.riccardo-autoenv {
+  font-weight: bolder;
+}

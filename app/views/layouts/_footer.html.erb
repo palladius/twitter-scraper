@@ -3,7 +3,7 @@
     <center>
         <a href="/">🏠 Home</a>
         Twitter Parser v.<b><%= APP_VERSION rescue :AppVersionMissing%></b> 
-        - <b><%= Rails.env %></b> 
+        - <%= render 'layouts/env_span' %>
         - Code on 
             <a href="https://github.com/palladius/twitter-scraper">GitHub</a>  
             Cloud Run 
@@ -11,15 +11,16 @@
              <a href="https://twitter-scraper-staging-v3ydafeb7q-ew.a.run.app/">STAGING</a> 
 
              DEV links: 
-                     <a href="/games" >⚽ games (m)</a > |
+                     <a href="/games/actions/seed_by_search_term" >🌱 1</a > |
+                     <a href="/games/actions/seed_all" >🌱 N</a > |
                      <a href="/articles/stats" >📊 Stats brutte (js)</a > |
 
         
         <br/>
         @ <tt><%= LOCATION rescue HOSTNAME %></tt>
-        <br/>
-        <p style="color: orange;font-size: small;">
-            MESSAGGIO_OCCASIONALE: <tt><%= ENV["MESSAGGIO_OCCASIONALE"] %></tt>
+
+        <p  class="riccardo-messaggio-occasionale" >
+            MSG: <tt><%= ENV["MESSAGGIO_OCCASIONALE"] %></tt>
         </p>
         
     </center>
