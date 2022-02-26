@@ -81,6 +81,8 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
     description = opts.fetch :description, "Descriptio infeliciter non datur"
     source = opts.fetch :source, ""
 
+    error = nil
+
    # $search_terms.each do |search_term|
       puts "[🐦 API_CALL] Searching for N=#{white search_count} for term '#{azure search_term}'.. Description: '#{white description}'"
       puts azure("😟 I have the presentiment that something iffy might be happening: Lets make sure the $vars from rake db:seed are available also from Runner and other callers :) Lets see: $rake_seed_import_version=#{yellow $rake_seed_import_version}, hostname=#{ @@hostname }")
@@ -89,7 +91,16 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
       n_saved_users = 0
       n_called_tweets = 0
       # Call Twitter API and iterates over tweets.
-      client.search(search_term).take(search_count).each do |tweet|
+      # can return Twitter::Error::TooManyRequests TODO rescue this exception ma per ora va bene cosi'
+#      twitter_api_results = [] 
+      begin 
+        twitter_api_results = client.search(search_term).take(search_count) #rescue []
+      rescue Twitter::Error::TooManyRequests 
+        twitter_api_results = []
+        error = 'known: Twitter::Error::TooManyRequests'
+      end
+      twitter_api_results.each do |tweet|
+#      client.search(search_term).take(search_count).each do |tweet|
         n_called_tweets += 1
 
         # # consider REMOVING THIS
@@ -188,6 +199,7 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
           :called_tweets => n_called_tweets,
           :search_term => search_term,
           :source => source,
+          :error => error,
       }
   end
 

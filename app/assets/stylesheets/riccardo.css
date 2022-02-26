@@ -92,3 +92,9 @@ padding: 5pt ;
 }
 .env_production {
 }
+
+
+.important_field {
+  color: darkblue;
+  text-emphasis-style: filled red;
+}

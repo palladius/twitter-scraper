@@ -6,4 +6,16 @@ for every HTTP request you do and reach out the <tt>/games/actions/seed_by_searc
 endpoint instead, thouroughly documented in www.tipiacerebbe.com.
 </p>
 
+<p>Tweets effectively saved: <tt class='important_field' >
+        <b><%= @results[:saved_tweets] rescue '?' %></b>/<%= @results[:called_tweets] rescue '?' %>
+</tt></p>
+
+
+<p>caller id: <tt class='important_field' ><b><%= @caller_id %></b></tt></p>
+<p>@search_term  id: <tt class='important_field' ><b><%= @search_term  %></b></tt></p>
+<p>dryrun: <tt class='important_field' ><b><%= @dryrun %></b></tt></p>
+<p>@background <tt class='important_field' ><b><%= @background  %></b></tt></p>
+<p>@debug <tt class='important_field' ><b><%= @debug  %></b></tt></p>
+
+
 <%= render 'games/action' %>
