@@ -1,0 +1,181 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:15:00 +0000 2022
+  :id: 1494586234043314192
+  :id_str: '1494586234043314192'
+  :text: "Wordle 244 5/6\n\n#wordle #wordle244\n\n⬛⬛⬛⬛⬛\n⬛\U0001F7E8⬛⬛\U0001F7E8\n⬛⬛\U0001F7E9\U0001F7E9\U0001F7E9\n⬛⬛\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: wordle
+      :indices:
+      - 16
+      - 23
+    - :text: wordle244
+      :indices:
+      - 24
+      - 34
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1081377101847187456
+    :id_str: '1081377101847187456'
+    :name: "#SaveEnglandFromTheTories | \U0001F926\U0001F3FD‍♀️Yvonne\U0001F926\U0001F3FD‍♀️"
+    :screen_name: AlcoFreeFoodie
+    :location: Liverpool, England
+    :description: "Married @Capturts \U0001F469‍❤️‍\U0001F468|3 sons:\U0001F9D1\U0001F3FD‍\U0001F9B1(19y)\U0001F9D1\U0001F3FD(7y)\U0001F476\U0001F3FD(2y)|Gamer\U0001F3AE|Footy⚽\U0001F534
+      #LFC|TV\U0001F4FA|Betting\U0001F3B2|Writer/Blogger\U0001F58A️\U0001F4BB|Foodie\U0001F35B|Guitar\U0001F3B8|Home
+      Ed\U0001F4DA|Autism\U0001F308"
+    :url: https://t.co/0pdrsk1Poq
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/0pdrsk1Poq
+          :expanded_url: http://www.TheRandomBlurb.uk
+          :display_url: TheRandomBlurb.uk
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 116
+    :friends_count: 792
+    :listed_count: 1
+    :created_at: Sat Jan 05 02:29:26 +0000 2019
+    :favourites_count: 2338
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 4852
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1482083165262991360/usy_mA7P_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1482083165262991360/usy_mA7P_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1081377101847187456/1575537003
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 5/6\n\n#wordle #wordle244\n\n⬛⬛⬛⬛⬛\n⬛\U0001F7E8⬛⬛\U0001F7E8\n⬛⬛\U0001F7E9\U0001F7E9\U0001F7E9\n⬛⬛\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1081377101847187456
+          :id_str: '1081377101847187456'
+          :name: "#SaveEnglandFromTheTories | \U0001F926\U0001F3FD‍♀️Yvonne\U0001F926\U0001F3FD‍♀️"
+          :screen_name: AlcoFreeFoodie
+          :location: Liverpool, England
+          :description: "Married @Capturts \U0001F469‍❤️‍\U0001F468|3 sons:\U0001F9D1\U0001F3FD‍\U0001F9B1(19y)\U0001F9D1\U0001F3FD(7y)\U0001F476\U0001F3FD(2y)|Gamer\U0001F3AE|Footy⚽\U0001F534
+            #LFC|TV\U0001F4FA|Betting\U0001F3B2|Writer/Blogger\U0001F58A️\U0001F4BB|Foodie\U0001F35B|Guitar\U0001F3B8|Home
+            Ed\U0001F4DA|Autism\U0001F308"
+          :url: https://t.co/0pdrsk1Poq
+          :entities: *1
+          :protected: false
+          :followers_count: 116
+          :friends_count: 792
+          :listed_count: 1
+          :created_at: Sat Jan 05 02:29:26 +0000 2019
+          :favourites_count: 2338
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 4852
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1482083165262991360/usy_mA7P_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1482083165262991360/usy_mA7P_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1081377101847187456/1575537003
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:15:00 +0000 2022
+            :id: 1494586234043314192
+            :id_str: '1494586234043314192'
+            :text: "Wordle 244 5/6\n\n#wordle #wordle244\n\n⬛⬛⬛⬛⬛\n⬛\U0001F7E8⬛⬛\U0001F7E8\n⬛⬛\U0001F7E9\U0001F7E9\U0001F7E9\n⬛⬛\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: AlcoFreeFoodie
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586234043314192
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,177 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:59:04 +0000 2022
+  :id: 1494582224116723731
+  :id_str: '1494582224116723731'
+  :text: "joguei https://t.co/xQCIXfxJGQ #47 6/6\n\n⬛⬛⬛⬛\U0001F7E8\n⬛\U0001F7E9⬛⬛⬛\n⬛\U0001F7E9\U0001F7E8⬛⬛\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/xQCIXfxJGQ
+      :expanded_url: http://term.ooo
+      :display_url: term.ooo
+      :indices:
+      - 7
+      - 30
+  :metadata: &4
+    :iso_language_code: pt
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 15106783
+    :id_str: '15106783'
+    :name: Princesa Nordestina
+    :screen_name: kinhaa
+    :location: "\U0001F4CD In Rio | From Bahia"
+    :description: "\U0001F1E7\U0001F1F7 ▪\U0001F1F2\U0001F1FD ▪\U0001F3F9▪✝▪\U0001F51E▪⚠️"
+    :url: https://t.co/OYw4YiDy2l
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/OYw4YiDy2l
+          :expanded_url: http://instagram.com/mkinhaa/
+          :display_url: instagram.com/mkinhaa/
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 393
+    :friends_count: 437
+    :listed_count: 4
+    :created_at: Fri Jun 13 12:35:18 +0000 2008
+    :favourites_count: 40219
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 45357
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '000000'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme10/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme10/bg.gif
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1361317043715375104/h27jCMAV_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1361317043715375104/h27jCMAV_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/15106783/1527456979
+    :profile_link_color: E81C4F
+    :profile_sidebar_border_color: FFF7BA
+    :profile_sidebar_fill_color: E6ED17
+    :profile_text_color: '080808'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: pt
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "joguei https://t.co/xQCIXfxJGQ #47 6/6\n\n⬛⬛⬛⬛\U0001F7E8\n⬛\U0001F7E9⬛⬛⬛\n⬛\U0001F7E9\U0001F7E8⬛⬛\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 15106783
+          :id_str: '15106783'
+          :name: Princesa Nordestina
+          :screen_name: kinhaa
+          :location: "\U0001F4CD In Rio | From Bahia"
+          :description: "\U0001F1E7\U0001F1F7 ▪\U0001F1F2\U0001F1FD ▪\U0001F3F9▪✝▪\U0001F51E▪⚠️"
+          :url: https://t.co/OYw4YiDy2l
+          :entities: *1
+          :protected: false
+          :followers_count: 393
+          :friends_count: 437
+          :listed_count: 4
+          :created_at: Fri Jun 13 12:35:18 +0000 2008
+          :favourites_count: 40219
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 45357
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '000000'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme10/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme10/bg.gif
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1361317043715375104/h27jCMAV_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1361317043715375104/h27jCMAV_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/15106783/1527456979
+          :profile_link_color: E81C4F
+          :profile_sidebar_border_color: FFF7BA
+          :profile_sidebar_fill_color: E6ED17
+          :profile_text_color: '080808'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:59:04 +0000 2022
+            :id: 1494582224116723731
+            :id_str: '1494582224116723731'
+            :text: "joguei https://t.co/xQCIXfxJGQ #47 6/6\n\n⬛⬛⬛⬛\U0001F7E8\n⬛\U0001F7E9⬛⬛⬛\n⬛\U0001F7E9\U0001F7E8⬛⬛\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: pt
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: kinhaa
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494582224116723731
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

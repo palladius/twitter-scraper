@@ -1,0 +1,171 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:14:51 +0000 2022
+  :id: 1494586196319948802
+  :id_str: '1494586196319948802'
+  :text: "Wordle 244 3/6\n\n\U0001F7E8⬛\U0001F7E8⬛\U0001F7E9\n⬛\U0001F7E9⬛\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\non
+    a roll!"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 64964569
+    :id_str: '64964569'
+    :name: Meta
+    :screen_name: sahalabraham
+    :location: Jakarta Capital Region, Indone
+    :description: "making stuff that nobody gives a fuck about \U0001F604\U0001F604"
+    :url: https://t.co/jC3p8AKjZG
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/jC3p8AKjZG
+          :expanded_url: http://toostel.blogspot.co.id
+          :display_url: toostel.blogspot.co.id
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 282
+    :friends_count: 294
+    :listed_count: 0
+    :created_at: Wed Aug 12 06:50:54 +0000 2009
+    :favourites_count: 3835
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 10422
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: FFDD00
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1463178829216681987/t34rbuCx_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1463178829216681987/t34rbuCx_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/64964569/1497654436
+    :profile_link_color: 0055FF
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: FFDD00
+    :profile_text_color: '000000'
+    :profile_use_background_image: false
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 3/6\n\n\U0001F7E8⬛\U0001F7E8⬛\U0001F7E9\n⬛\U0001F7E9⬛\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\non
+        a roll!"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 64964569
+          :id_str: '64964569'
+          :name: Meta
+          :screen_name: sahalabraham
+          :location: Jakarta Capital Region, Indone
+          :description: "making stuff that nobody gives a fuck about \U0001F604\U0001F604"
+          :url: https://t.co/jC3p8AKjZG
+          :entities: *1
+          :protected: false
+          :followers_count: 282
+          :friends_count: 294
+          :listed_count: 0
+          :created_at: Wed Aug 12 06:50:54 +0000 2009
+          :favourites_count: 3835
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 10422
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: FFDD00
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1463178829216681987/t34rbuCx_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1463178829216681987/t34rbuCx_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/64964569/1497654436
+          :profile_link_color: 0055FF
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: FFDD00
+          :profile_text_color: '000000'
+          :profile_use_background_image: false
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:14:51 +0000 2022
+            :id: 1494586196319948802
+            :id_str: '1494586196319948802'
+            :text: "Wordle 244 3/6\n\n\U0001F7E8⬛\U0001F7E8⬛\U0001F7E9\n⬛\U0001F7E9⬛\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\non
+              a roll!"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: sahalabraham
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586196319948802
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

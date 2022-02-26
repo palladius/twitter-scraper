@@ -1,0 +1,169 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:57:22 +0000 2022
+  :id: 1494581795337220097
+  :id_str: '1494581795337220097'
+  :text: "Medíocre \njoguei https://t.co/tzk8Mxjsdw #47 4/6\n\n⬛⬛⬛\U0001F7E8⬛\n⬛\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/tzk8Mxjsdw
+      :expanded_url: http://term.ooo
+      :display_url: term.ooo
+      :indices:
+      - 17
+      - 40
+  :metadata: &4
+    :iso_language_code: pt
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 82752744
+    :id_str: '82752744'
+    :name: "Samara Monteiro \U0001FA90"
+    :screen_name: samaramsc
+    :location: Piauí - Brazil
+    :description: Simplesmente complexa
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 67
+    :friends_count: 140
+    :listed_count: 13
+    :created_at: Fri Oct 16 00:22:48 +0000 2009
+    :favourites_count: 45
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 61
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '000000'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme2/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme2/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/603346275870875650/GNUbFYnE_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/603346275870875650/GNUbFYnE_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/82752744/1432684010
+    :profile_link_color: 4A913C
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: '000000'
+    :profile_text_color: '000000'
+    :profile_use_background_image: false
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: pt
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Medíocre \njoguei https://t.co/tzk8Mxjsdw #47 4/6\n\n⬛⬛⬛\U0001F7E8⬛\n⬛\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 82752744
+          :id_str: '82752744'
+          :name: "Samara Monteiro \U0001FA90"
+          :screen_name: samaramsc
+          :location: Piauí - Brazil
+          :description: Simplesmente complexa
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 67
+          :friends_count: 140
+          :listed_count: 13
+          :created_at: Fri Oct 16 00:22:48 +0000 2009
+          :favourites_count: 45
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 61
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '000000'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme2/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme2/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/603346275870875650/GNUbFYnE_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/603346275870875650/GNUbFYnE_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/82752744/1432684010
+          :profile_link_color: 4A913C
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: '000000'
+          :profile_text_color: '000000'
+          :profile_use_background_image: false
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:57:22 +0000 2022
+            :id: 1494581795337220097
+            :id_str: '1494581795337220097'
+            :text: "Medíocre \njoguei https://t.co/tzk8Mxjsdw #47 4/6\n\n⬛⬛⬛\U0001F7E8⬛\n⬛\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: pt
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: samaramsc
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494581795337220097
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

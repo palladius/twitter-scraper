@@ -1,0 +1,196 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:20:57 +0000 2022
+  :id: 1494572628639690777
+  :id_str: '1494572628639690777'
+  :text: "Wordle 244 3/6\n\n⬛\U0001F7E8⬛⬛⬛\n\U0001F7E8\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+    ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/JBlx5YF5AZ\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle5… https://t.co/G2uM9qJLtI"
+  :truncated: true
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 90
+      - 97
+    - :text: Wordle5
+      :indices:
+      - 98
+      - 106
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/JBlx5YF5AZ
+      :expanded_url: https://wordle.wekele.com
+      :display_url: wordle.wekele.com
+      :indices:
+      - 50
+      - 73
+    - :url: https://t.co/G2uM9qJLtI
+      :expanded_url: https://twitter.com/i/web/status/1494572628639690777
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 108
+      - 131
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 1494280049599684608
+  :in_reply_to_status_id_str: '1494280049599684608'
+  :in_reply_to_user_id: 62166760
+  :in_reply_to_user_id_str: '62166760'
+  :in_reply_to_screen_name: nungkinungki
+  :user:
+    :id: 62166760
+    :id_str: '62166760'
+    :name: nungki
+    :screen_name: nungkinungki
+    :location: Rotterdam, The Netherlands
+    :description: i’m not fat, i’m just easier to see
+    :url: https://t.co/9lSVwHaRUF
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/9lSVwHaRUF
+          :expanded_url: http://mejasudut.wordpress.com
+          :display_url: mejasudut.wordpress.com
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 940
+    :friends_count: 494
+    :listed_count: 0
+    :created_at: Sun Aug 02 01:39:04 +0000 2009
+    :favourites_count: 3078
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 32316
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C6E2EE
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme2/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme2/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1327222661831827462/lwzWdToz_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1327222661831827462/lwzWdToz_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/62166760/1542685887
+    :profile_link_color: 1F98C7
+    :profile_sidebar_border_color: C6E2EE
+    :profile_sidebar_fill_color: DAECF4
+    :profile_text_color: 663B12
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 3/6\n\n⬛\U0001F7E8⬛⬛⬛\n\U0001F7E8\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+        ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/JBlx5YF5AZ\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle5…
+        https://t.co/G2uM9qJLtI"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 62166760
+          :id_str: '62166760'
+          :name: nungki
+          :screen_name: nungkinungki
+          :location: Rotterdam, The Netherlands
+          :description: i’m not fat, i’m just easier to see
+          :url: https://t.co/9lSVwHaRUF
+          :entities: *1
+          :protected: false
+          :followers_count: 940
+          :friends_count: 494
+          :listed_count: 0
+          :created_at: Sun Aug 02 01:39:04 +0000 2009
+          :favourites_count: 3078
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 32316
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C6E2EE
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme2/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme2/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1327222661831827462/lwzWdToz_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1327222661831827462/lwzWdToz_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/62166760/1542685887
+          :profile_link_color: 1F98C7
+          :profile_sidebar_border_color: C6E2EE
+          :profile_sidebar_fill_color: DAECF4
+          :profile_text_color: 663B12
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:20:57 +0000 2022
+            :id: 1494572628639690777
+            :id_str: '1494572628639690777'
+            :text: "Wordle 244 3/6\n\n⬛\U0001F7E8⬛⬛⬛\n\U0001F7E8\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+              ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/JBlx5YF5AZ\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle5…
+              https://t.co/G2uM9qJLtI"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 1494280049599684608
+            :in_reply_to_status_id_str: '1494280049599684608'
+            :in_reply_to_user_id: 62166760
+            :in_reply_to_user_id_str: '62166760'
+            :in_reply_to_screen_name: nungkinungki
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: nungkinungki
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494572628639690777
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

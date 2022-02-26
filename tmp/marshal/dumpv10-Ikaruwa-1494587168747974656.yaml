@@ -1,0 +1,176 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:18:43 +0000 2022
+  :id: 1494587168747974656
+  :id_str: '1494587168747974656'
+  :text: "Wordle 244 2/6*\n\n\U0001F7E9⬛⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nMy
+    wife is gonna hate me for this one"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 1491079174928605184
+  :in_reply_to_status_id_str: '1491079174928605184'
+  :in_reply_to_user_id: 7819022
+  :in_reply_to_user_id_str: '7819022'
+  :in_reply_to_screen_name: Ikaruwa
+  :user:
+    :id: 7819022
+    :id_str: '7819022'
+    :name: Nick Fraker
+    :screen_name: Ikaruwa
+    :location: Portland, OR
+    :description: He/Him. I'm a VP for a DO-178C software company. Formerly PCI, formerly
+      HIPAA, formerly FERPA. I think about video games and food a lot. Like, a lot
+      a lot.
+    :url: https://t.co/nza0qAyKNj
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/nza0qAyKNj
+          :expanded_url: http://ikaruwa.com
+          :display_url: ikaruwa.com
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 125
+    :friends_count: 343
+    :listed_count: 8
+    :created_at: Mon Jul 30 13:27:54 +0000 2007
+    :favourites_count: 3073
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 9580
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: 1D1E23
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme7/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme7/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/459346729762959360/sTHpj-8__normal.png
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/459346729762959360/sTHpj-8__normal.png
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/7819022/1458252474
+    :profile_link_color: '808080'
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: F3F3F3
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 2/6*\n\n\U0001F7E9⬛⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nMy
+        wife is gonna hate me for this one"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 7819022
+          :id_str: '7819022'
+          :name: Nick Fraker
+          :screen_name: Ikaruwa
+          :location: Portland, OR
+          :description: He/Him. I'm a VP for a DO-178C software company. Formerly
+            PCI, formerly HIPAA, formerly FERPA. I think about video games and food
+            a lot. Like, a lot a lot.
+          :url: https://t.co/nza0qAyKNj
+          :entities: *1
+          :protected: false
+          :followers_count: 125
+          :friends_count: 343
+          :listed_count: 8
+          :created_at: Mon Jul 30 13:27:54 +0000 2007
+          :favourites_count: 3073
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 9580
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: 1D1E23
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme7/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme7/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/459346729762959360/sTHpj-8__normal.png
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/459346729762959360/sTHpj-8__normal.png
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/7819022/1458252474
+          :profile_link_color: '808080'
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: F3F3F3
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:18:43 +0000 2022
+            :id: 1494587168747974656
+            :id_str: '1494587168747974656'
+            :text: "Wordle 244 2/6*\n\n\U0001F7E9⬛⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nMy
+              wife is gonna hate me for this one"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 1491079174928605184
+            :in_reply_to_status_id_str: '1491079174928605184'
+            :in_reply_to_user_id: 7819022
+            :in_reply_to_user_id_str: '7819022'
+            :in_reply_to_screen_name: Ikaruwa
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Ikaruwa
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587168747974656
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

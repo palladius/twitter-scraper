@@ -1,0 +1,177 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:28:28 +0000 2022
+  :id: 1494574523739426818
+  :id_str: '1494574523739426818'
+  :text: "Le Mot (@WordleFR) #40 4/6\n\n\U0001F7E8⬛⬛⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/iZIYUZZiHd"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 8
+      - 17
+    :urls:
+    - :url: https://t.co/iZIYUZZiHd
+      :expanded_url: http://wordle.louan.me
+      :display_url: wordle.louan.me
+      :indices:
+      - 53
+      - 76
+  :metadata: &4
+    :iso_language_code: fr
+    :result_type: recent
+  :source: <a href="http://www.handmark.com" rel="nofollow">TweetCaster for iOS</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 176471792
+    :id_str: '176471792'
+    :name: "Tifereth \U0001F489\U0001F489\U0001F489"
+    :screen_name: DawnStarlight
+    :location: Geneva
+    :description: Prof de lettres, parfois (un peu) écrivain. Geek. Maman. Féministe.
+      Rôliste. Alliée. She/her.
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 624
+    :friends_count: 1406
+    :listed_count: 29
+    :created_at: Mon Aug 09 16:44:15 +0000 2010
+    :favourites_count: 5093
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 11522
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '121214'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme4/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme4/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1123980247861534720/XEp9brMQ_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1123980247861534720/XEp9brMQ_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/176471792/1398493538
+    :profile_link_color: '009AB9'
+    :profile_sidebar_border_color: 5ED4DC
+    :profile_sidebar_fill_color: 95E8EC
+    :profile_text_color: 3C3940
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: fr
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Le Mot (@WordleFR) #40 4/6\n\n\U0001F7E8⬛⬛⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/iZIYUZZiHd"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 176471792
+          :id_str: '176471792'
+          :name: "Tifereth \U0001F489\U0001F489\U0001F489"
+          :screen_name: DawnStarlight
+          :location: Geneva
+          :description: Prof de lettres, parfois (un peu) écrivain. Geek. Maman. Féministe.
+            Rôliste. Alliée. She/her.
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 624
+          :friends_count: 1406
+          :listed_count: 29
+          :created_at: Mon Aug 09 16:44:15 +0000 2010
+          :favourites_count: 5093
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 11522
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '121214'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme4/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme4/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1123980247861534720/XEp9brMQ_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1123980247861534720/XEp9brMQ_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/176471792/1398493538
+          :profile_link_color: '009AB9'
+          :profile_sidebar_border_color: 5ED4DC
+          :profile_sidebar_fill_color: 95E8EC
+          :profile_text_color: 3C3940
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:28:28 +0000 2022
+            :id: 1494574523739426818
+            :id_str: '1494574523739426818'
+            :text: "Le Mot (@WordleFR) #40 4/6\n\n\U0001F7E8⬛⬛⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/iZIYUZZiHd"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://www.handmark.com" rel="nofollow">TweetCaster
+              for iOS</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: fr
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: DawnStarlight
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494574523739426818
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,177 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:10:14 +0000 2022
+  :id: 1494585032710762516
+  :id_str: '1494585032710762516'
+  :text: "joguei https://t.co/S8saJFKe0T #47 3/6 *\n\n⬛⬛⬛\U0001F7E8\U0001F7E8\n\U0001F7E8\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n\U0001F60F"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/S8saJFKe0T
+      :expanded_url: http://term.ooo
+      :display_url: term.ooo
+      :indices:
+      - 7
+      - 30
+  :metadata: &4
+    :iso_language_code: pt
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 12200812
+    :id_str: '12200812'
+    :name: "Gustavo Poli \U0001F47D"
+    :screen_name: gpoli
+    :location: Rio de Janeiro, Brasil
+    :description: "ontem, hoje, amanhã \U0001F3B6⚡️\U0001F636"
+    :url: https://t.co/1i4ZcPQzpe
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/1i4ZcPQzpe
+          :expanded_url: http://medium.com/@gpoli
+          :display_url: medium.com/@gpoli
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 32864
+    :friends_count: 4872
+    :listed_count: 408
+    :created_at: Mon Jan 14 02:30:05 +0000 2008
+    :favourites_count: 1168
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: true
+    :statuses_count: 62138
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: FFFFFF
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1373928210031902721/6eU2BgXl_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1373928210031902721/6eU2BgXl_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/12200812/1614834661
+    :profile_link_color: ABB8C2
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: CCFF99
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: pt
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "joguei https://t.co/S8saJFKe0T #47 3/6 *\n\n⬛⬛⬛\U0001F7E8\U0001F7E8\n\U0001F7E8\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n\U0001F60F"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 12200812
+          :id_str: '12200812'
+          :name: "Gustavo Poli \U0001F47D"
+          :screen_name: gpoli
+          :location: Rio de Janeiro, Brasil
+          :description: "ontem, hoje, amanhã \U0001F3B6⚡️\U0001F636"
+          :url: https://t.co/1i4ZcPQzpe
+          :entities: *1
+          :protected: false
+          :followers_count: 32864
+          :friends_count: 4872
+          :listed_count: 408
+          :created_at: Mon Jan 14 02:30:05 +0000 2008
+          :favourites_count: 1168
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: true
+          :statuses_count: 62138
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: FFFFFF
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1373928210031902721/6eU2BgXl_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1373928210031902721/6eU2BgXl_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/12200812/1614834661
+          :profile_link_color: ABB8C2
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: CCFF99
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:10:14 +0000 2022
+            :id: 1494585032710762516
+            :id_str: '1494585032710762516'
+            :text: "joguei https://t.co/S8saJFKe0T #47 3/6 *\n\n⬛⬛⬛\U0001F7E8\U0001F7E8\n\U0001F7E8\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n\U0001F60F"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: pt
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: gpoli
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494585032710762516
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

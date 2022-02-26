@@ -1,0 +1,190 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 03:51:48 +0000 2022
+  :id: 1494519996512309248
+  :id_str: '1494519996512309248'
+  :text: "Wordle 244 6/6\n\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜⬜\U0001F7E8\U0001F7E9\n⬜\U0001F7E9⬜⬜\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+    ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/oISYreilz0\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle… https://t.co/SSbzHvTtus"
+  :truncated: true
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 108
+      - 115
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/oISYreilz0
+      :expanded_url: https://wordle.wekele.com
+      :display_url: wordle.wekele.com
+      :indices:
+      - 68
+      - 91
+    - :url: https://t.co/SSbzHvTtus
+      :expanded_url: https://twitter.com/i/web/status/1494519996512309248
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 117
+      - 140
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 5465102
+    :id_str: '5465102'
+    :name: Makiolsh@伊達市
+    :screen_name: ish_mac
+    :location: 福島県伊達市 原発から65km
+    :description: 砂肝.org/ガンプラ/ミニベロ/被曝防護モード/PTA/レクリエーション/能楽 ヘッダ写真は東山会津東山温泉の庄助の宿瀧の湯さんです
+    :url: https://t.co/kAOR5JkyLJ
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/kAOR5JkyLJ
+          :expanded_url: http://plaza.rakuten.co.jp/starligit/
+          :display_url: plaza.rakuten.co.jp/starligit/
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 622
+    :friends_count: 679
+    :listed_count: 34
+    :created_at: Tue Apr 24 13:56:40 +0000 2007
+    :favourites_count: 9813
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 32141
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: 8B542B
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme8/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme8/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1219824392068198400/IjL_MRJv_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1219824392068198400/IjL_MRJv_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/5465102/1457133109
+    :profile_link_color: 9D582E
+    :profile_sidebar_border_color: D9B17E
+    :profile_sidebar_fill_color: EADEAA
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 6/6\n\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜⬜\U0001F7E8\U0001F7E9\n⬜\U0001F7E9⬜⬜\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+        ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/oISYreilz0\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle… https://t.co/SSbzHvTtus"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 5465102
+          :id_str: '5465102'
+          :name: Makiolsh@伊達市
+          :screen_name: ish_mac
+          :location: 福島県伊達市 原発から65km
+          :description: 砂肝.org/ガンプラ/ミニベロ/被曝防護モード/PTA/レクリエーション/能楽 ヘッダ写真は東山会津東山温泉の庄助の宿瀧の湯さんです
+          :url: https://t.co/kAOR5JkyLJ
+          :entities: *1
+          :protected: false
+          :followers_count: 622
+          :friends_count: 679
+          :listed_count: 34
+          :created_at: Tue Apr 24 13:56:40 +0000 2007
+          :favourites_count: 9813
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 32141
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: 8B542B
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme8/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme8/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1219824392068198400/IjL_MRJv_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1219824392068198400/IjL_MRJv_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/5465102/1457133109
+          :profile_link_color: 9D582E
+          :profile_sidebar_border_color: D9B17E
+          :profile_sidebar_fill_color: EADEAA
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 03:51:48 +0000 2022
+            :id: 1494519996512309248
+            :id_str: '1494519996512309248'
+            :text: "Wordle 244 6/6\n\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜⬜\U0001F7E8\U0001F7E9\n⬜\U0001F7E9⬜⬜\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+              ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/oISYreilz0\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle… https://t.co/SSbzHvTtus"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: ish_mac
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494519996512309248
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

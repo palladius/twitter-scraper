@@ -1,0 +1,178 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 00:28:56 +0000 2022
+  :id: 1494468941590282241
+  :id_str: '1494468941590282241'
+  :text: "Wordle (ES) 244 3/6\n\n⬛⬛⬛⬛\U0001F7E8\n⬛\U0001F7E8⬛\U0001F7E9⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nWordle
+    244 6/6\n\n⬛⬛⬛⬛\U0001F7E8\n⬛\U0001F7E9⬛⬛\U0001F7E8\n⬛\U0001F7E9\U0001F7E9⬛⬛\n⬛\U0001F7E9\U0001F7E9\U0001F7E8⬛\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+    ⬇️ ⬇️ ⬇️ ⬇️… https://t.co/zc8i7oW8oJ"
+  :truncated: true
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/zc8i7oW8oJ
+      :expanded_url: https://twitter.com/i/web/status/1494468941590282241
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 109
+      - 132
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/#!/download/ipad" rel="nofollow">Twitter for
+    iPad</a>
+  :in_reply_to_status_id: 1494467554416467969
+  :in_reply_to_status_id_str: '1494467554416467969'
+  :in_reply_to_user_id: 123183015
+  :in_reply_to_user_id_str: '123183015'
+  :in_reply_to_screen_name: Xurxo_Barcala
+  :user:
+    :id: 123183015
+    :id_str: '123183015'
+    :name: Sure Show
+    :screen_name: Xurxo_Barcala
+    :location: Al final del camino
+    :description: Nacín e crecín. Reproducín casettes, discos, cedeses e deuvedeses.
+      Que eu saiba, polo de agora non morrín. Se hai algunha novidade, xa irei actualizando.
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 233
+    :friends_count: 569
+    :listed_count: 3
+    :created_at: Mon Mar 15 07:58:13 +0000 2010
+    :favourites_count: 5870
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 21236
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1158668434730864640/UfjCK0PQ_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1158668434730864640/UfjCK0PQ_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/123183015/1382300029
+    :profile_link_color: '0084B4'
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle (ES) 244 3/6\n\n⬛⬛⬛⬛\U0001F7E8\n⬛\U0001F7E8⬛\U0001F7E9⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nWordle
+        244 6/6\n\n⬛⬛⬛⬛\U0001F7E8\n⬛\U0001F7E9⬛⬛\U0001F7E8\n⬛\U0001F7E9\U0001F7E9⬛⬛\n⬛\U0001F7E9\U0001F7E9\U0001F7E8⬛\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+        ⬇️ ⬇️ ⬇️ ⬇️… https://t.co/zc8i7oW8oJ"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 123183015
+          :id_str: '123183015'
+          :name: Sure Show
+          :screen_name: Xurxo_Barcala
+          :location: Al final del camino
+          :description: Nacín e crecín. Reproducín casettes, discos, cedeses e deuvedeses.
+            Que eu saiba, polo de agora non morrín. Se hai algunha novidade, xa irei
+            actualizando.
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 233
+          :friends_count: 569
+          :listed_count: 3
+          :created_at: Mon Mar 15 07:58:13 +0000 2010
+          :favourites_count: 5870
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 21236
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1158668434730864640/UfjCK0PQ_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1158668434730864640/UfjCK0PQ_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/123183015/1382300029
+          :profile_link_color: '0084B4'
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 00:28:56 +0000 2022
+            :id: 1494468941590282241
+            :id_str: '1494468941590282241'
+            :text: "Wordle (ES) 244 3/6\n\n⬛⬛⬛⬛\U0001F7E8\n⬛\U0001F7E8⬛\U0001F7E9⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nWordle
+              244 6/6\n\n⬛⬛⬛⬛\U0001F7E8\n⬛\U0001F7E9⬛⬛\U0001F7E8\n⬛\U0001F7E9\U0001F7E9⬛⬛\n⬛\U0001F7E9\U0001F7E9\U0001F7E8⬛\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+              ⬇️ ⬇️ ⬇️ ⬇️… https://t.co/zc8i7oW8oJ"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/#!/download/ipad" rel="nofollow">Twitter
+              for iPad</a>
+            :in_reply_to_status_id: 1494467554416467969
+            :in_reply_to_status_id_str: '1494467554416467969'
+            :in_reply_to_user_id: 123183015
+            :in_reply_to_user_id_str: '123183015'
+            :in_reply_to_screen_name: Xurxo_Barcala
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Xurxo_Barcala
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494468941590282241
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

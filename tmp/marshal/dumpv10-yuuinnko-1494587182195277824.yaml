@@ -1,0 +1,243 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:18:46 +0000 2022
+  :id: 1494587182195277824
+  :id_str: '1494587182195277824'
+  :text: "RT @kayakam: Wordle 244 4/6*\n\n⬜⬜⬜\U0001F7E8⬜\n⬜\U0001F7E8⬜⬜\U0001F7E8\n\U0001F7E8\U0001F7E8\U0001F7E9⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: kayakam
+      :name: kayakam
+      :id: 200043403
+      :id_str: '200043403'
+      :indices:
+      - 3
+      - 11
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1343431052379840514
+    :id_str: '1343431052379840514'
+    :name: 由布院子
+    :screen_name: yuuinnko
+    :location: ''
+    :description: SNS初心者です。Discordやってます。現代アート（特に札幌国際芸術祭）、Project:;COLDがメイン。スクエニ買収反対!(ただしドラクエの身売り、坂口博信、田中弘道の再合流はOK)
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 80
+    :friends_count: 74
+    :listed_count: 0
+    :created_at: Mon Dec 28 05:38:46 +0000 2020
+    :favourites_count: 14216
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 16328
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png
+    :profile_image_url_https: https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: true
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :retweeted_status: &5
+    :created_at: Fri Feb 18 07:54:43 +0000 2022
+    :id: 1494581128082370562
+    :id_str: '1494581128082370562'
+    :text: "Wordle 244 4/6*\n\n⬜⬜⬜\U0001F7E8⬜\n⬜\U0001F7E8⬜⬜\U0001F7E8\n\U0001F7E8\U0001F7E8\U0001F7E9⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls: []
+    :metadata:
+      :iso_language_code: en
+      :result_type: recent
+    :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+      iPhone</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 200043403
+      :id_str: '200043403'
+      :name: kayakam
+      :screen_name: kayakam
+      :location: 東京
+      :description: 研究者です。生命科学のPhD持ち。6歳児の子育て中。暇があればゲームしてます（昔は戦国炎舞、今は謎解きとやっぱり炎舞）。謎解き界隈では（なぜか）サクラコって名前です。ハンビレプロハンター005。活かされない絶対音感持ち。Twitterは謎解きのログと化してます。謎友募集中。
+      :url: 
+      :entities:
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 211
+      :friends_count: 450
+      :listed_count: 0
+      :created_at: Fri Oct 08 09:27:05 +0000 2010
+      :favourites_count: 13699
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 1470
+      :lang: 
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: EBEBEB
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme7/bg.gif
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme7/bg.gif
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/1412322464844054531/xcI0Q-SV_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/1412322464844054531/xcI0Q-SV_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/200043403/1625536221
+      :profile_link_color: '990000'
+      :profile_sidebar_border_color: DFDFDF
+      :profile_sidebar_fill_color: F3F3F3
+      :profile_text_color: '333333'
+      :profile_use_background_image: true
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :translator_type: regular
+      :withheld_in_countries: []
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 1
+    :favorite_count: 1
+    :favorited: false
+    :retweeted: false
+    :lang: en
+  :is_quote_status: false
+  :retweet_count: 1
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "RT @kayakam: Wordle 244 4/6*\n\n⬜⬜⬜\U0001F7E8⬜\n⬜\U0001F7E8⬜⬜\U0001F7E8\n\U0001F7E8\U0001F7E8\U0001F7E9⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1343431052379840514
+          :id_str: '1343431052379840514'
+          :name: 由布院子
+          :screen_name: yuuinnko
+          :location: ''
+          :description: SNS初心者です。Discordやってます。現代アート（特に札幌国際芸術祭）、Project:;COLDがメイン。スクエニ買収反対!(ただしドラクエの身売り、坂口博信、田中弘道の再合流はOK)
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 80
+          :friends_count: 74
+          :listed_count: 0
+          :created_at: Mon Dec 28 05:38:46 +0000 2020
+          :favourites_count: 14216
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 16328
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png
+          :profile_image_url_https: https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: true
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:18:46 +0000 2022
+            :id: 1494587182195277824
+            :id_str: '1494587182195277824'
+            :text: "RT @kayakam: Wordle 244 4/6*\n\n⬜⬜⬜\U0001F7E8⬜\n⬜\U0001F7E8⬜⬜\U0001F7E8\n\U0001F7E8\U0001F7E8\U0001F7E9⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :retweeted_status: *5
+            :is_quote_status: false
+            :retweet_count: 1
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: yuuinnko
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587182195277824
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

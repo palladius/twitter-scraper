@@ -1,0 +1,188 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 04:37:23 +0000 2022
+  :id: 1494531465677139969
+  :id_str: '1494531465677139969'
+  :text: "Wordle 244 4/6\n\n⬜⬜⬜⬜\U0001F7E8\n\U0001F7E8\U0001F7E9⬜⬜⬜\n⬜\U0001F7E9\U0001F7E9⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+    ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/ZA8x6ZaLwu\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle5… https://t.co/L04wh6VV1R"
+  :truncated: true
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 96
+      - 103
+    - :text: Wordle5
+      :indices:
+      - 104
+      - 112
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/ZA8x6ZaLwu
+      :expanded_url: https://wordle.wekele.com
+      :display_url: wordle.wekele.com
+      :indices:
+      - 56
+      - 79
+    - :url: https://t.co/L04wh6VV1R
+      :expanded_url: https://twitter.com/i/web/status/1494531465677139969
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 114
+      - 137
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 148697111
+    :id_str: '148697111'
+    :name: "きくじん☕️"
+    :screen_name: kikjin
+    :location: ディスプレイの前
+    :description: にじさんじ推しのニコ厨 nijisenja / Oculus Quest 2 BeatSaber楽しい
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 249
+    :friends_count: 536
+    :listed_count: 23
+    :created_at: Thu May 27 11:10:13 +0000 2010
+    :favourites_count: 12588
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 13898
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1012338087014236161/cTRJWcyE_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1012338087014236161/cTRJWcyE_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/148697111/1609263356
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 4/6\n\n⬜⬜⬜⬜\U0001F7E8\n\U0001F7E8\U0001F7E9⬜⬜⬜\n⬜\U0001F7E9\U0001F7E9⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+        ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/ZA8x6ZaLwu\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle5…
+        https://t.co/L04wh6VV1R"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 148697111
+          :id_str: '148697111'
+          :name: "きくじん☕️"
+          :screen_name: kikjin
+          :location: ディスプレイの前
+          :description: にじさんじ推しのニコ厨 nijisenja / Oculus Quest 2 BeatSaber楽しい
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 249
+          :friends_count: 536
+          :listed_count: 23
+          :created_at: Thu May 27 11:10:13 +0000 2010
+          :favourites_count: 12588
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 13898
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1012338087014236161/cTRJWcyE_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1012338087014236161/cTRJWcyE_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/148697111/1609263356
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 04:37:23 +0000 2022
+            :id: 1494531465677139969
+            :id_str: '1494531465677139969'
+            :text: "Wordle 244 4/6\n\n⬜⬜⬜⬜\U0001F7E8\n\U0001F7E8\U0001F7E9⬜⬜⬜\n⬜\U0001F7E9\U0001F7E9⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+              ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/ZA8x6ZaLwu\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle5…
+              https://t.co/L04wh6VV1R"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: kikjin
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494531465677139969
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,172 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:22:38 +0000 2022
+  :id: 1494573053614780421
+  :id_str: '1494573053614780421'
+  :text: "AHHHHHH #taylordle #TaylorSwift \nTaylordle 21 4/6\n\n⬜⬜⬜\U0001F7E8\U0001F7E9\n⬜\U0001F7E8⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9⬜\U0001F7E8\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: taylordle
+      :indices:
+      - 8
+      - 18
+    - :text: TaylorSwift
+      :indices:
+      - 19
+      - 31
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 3114956509
+    :id_str: '3114956509'
+    :name: nupurr :)
+    :screen_name: coffeeeeebean
+    :location: Mumbai
+    :description: "An all time procrastinator.\n\U0001D4DB\U0001D4F2\U0001D4FF\U0001D4EE
+      \U0001D4EA\U0001D4F7\U0001D4ED \U0001D4F5\U0001D4EE\U0001D4FD \U0001D4F5\U0001D4F2\U0001D4FF\U0001D4EE
+      \n@nupuurrrr on Instagram \U0001F646\U0001F3FB"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 48
+    :friends_count: 133
+    :listed_count: 0
+    :created_at: Sun Mar 29 09:10:22 +0000 2015
+    :favourites_count: 3421
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 457
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1278192853395468288/UZoKM602_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1278192853395468288/UZoKM602_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/3114956509/1594098506
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "AHHHHHH #taylordle #TaylorSwift \nTaylordle 21 4/6\n\n⬜⬜⬜\U0001F7E8\U0001F7E9\n⬜\U0001F7E8⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9⬜\U0001F7E8\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 3114956509
+          :id_str: '3114956509'
+          :name: nupurr :)
+          :screen_name: coffeeeeebean
+          :location: Mumbai
+          :description: "An all time procrastinator.\n\U0001D4DB\U0001D4F2\U0001D4FF\U0001D4EE
+            \U0001D4EA\U0001D4F7\U0001D4ED \U0001D4F5\U0001D4EE\U0001D4FD \U0001D4F5\U0001D4F2\U0001D4FF\U0001D4EE
+            \n@nupuurrrr on Instagram \U0001F646\U0001F3FB"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 48
+          :friends_count: 133
+          :listed_count: 0
+          :created_at: Sun Mar 29 09:10:22 +0000 2015
+          :favourites_count: 3421
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 457
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1278192853395468288/UZoKM602_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1278192853395468288/UZoKM602_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/3114956509/1594098506
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:22:38 +0000 2022
+            :id: 1494573053614780421
+            :id_str: '1494573053614780421'
+            :text: "AHHHHHH #taylordle #TaylorSwift \nTaylordle 21 4/6\n\n⬜⬜⬜\U0001F7E8\U0001F7E9\n⬜\U0001F7E8⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9⬜\U0001F7E8\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: coffeeeeebean
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494573053614780421
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

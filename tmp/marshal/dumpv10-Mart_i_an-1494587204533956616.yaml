@@ -1,0 +1,176 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:18:52 +0000 2022
+  :id: 1494587204533956616
+  :id_str: '1494587204533956616'
+  :text: "Missed a bullet there \U0001F61C\U0001F44D\U0001F3FB\n\nWordle 244 3/6\n\n⬛\U0001F7E8⬛\U0001F7E8⬛\n\U0001F7E9⬛\U0001F7E8⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#wordle
+    #wordle244"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: wordle
+      :indices:
+      - 62
+      - 69
+    - :text: wordle244
+      :indices:
+      - 70
+      - 80
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 15601769
+    :id_str: '15601769'
+    :name: "Martin \U0001F499\U0001F918\U0001F3FB☠️"
+    :screen_name: Mart_i_an
+    :location: Warminster, Wiltshire, UK
+    :description: "Mountain Biker, Amateur Photographer, Rally fan, Veteran. Enjoys
+      the Outdoors. Current state - Dysgu Cymraeg \U0001F3F4\U000E0067\U000E0062\U000E0077\U000E006C\U000E0073\U000E007F
+      \U0001F62C \n\n#BeNiceSayHi #DontBeADick"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 648
+    :friends_count: 876
+    :listed_count: 49
+    :created_at: Fri Jul 25 18:38:03 +0000 2008
+    :favourites_count: 12140
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 28071
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: 1A1B1F
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme9/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme9/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1460237997375377408/btkirCDF_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1460237997375377408/btkirCDF_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/15601769/1636982844
+    :profile_link_color: ABB8C2
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: '252429'
+    :profile_text_color: '666666'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Missed a bullet there \U0001F61C\U0001F44D\U0001F3FB\n\nWordle 244 3/6\n\n⬛\U0001F7E8⬛\U0001F7E8⬛\n\U0001F7E9⬛\U0001F7E8⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#wordle
+        #wordle244"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 15601769
+          :id_str: '15601769'
+          :name: "Martin \U0001F499\U0001F918\U0001F3FB☠️"
+          :screen_name: Mart_i_an
+          :location: Warminster, Wiltshire, UK
+          :description: "Mountain Biker, Amateur Photographer, Rally fan, Veteran.
+            Enjoys the Outdoors. Current state - Dysgu Cymraeg \U0001F3F4\U000E0067\U000E0062\U000E0077\U000E006C\U000E0073\U000E007F
+            \U0001F62C \n\n#BeNiceSayHi #DontBeADick"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 648
+          :friends_count: 876
+          :listed_count: 49
+          :created_at: Fri Jul 25 18:38:03 +0000 2008
+          :favourites_count: 12140
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 28071
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: 1A1B1F
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme9/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme9/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1460237997375377408/btkirCDF_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1460237997375377408/btkirCDF_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/15601769/1636982844
+          :profile_link_color: ABB8C2
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: '252429'
+          :profile_text_color: '666666'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:18:52 +0000 2022
+            :id: 1494587204533956616
+            :id_str: '1494587204533956616'
+            :text: "Missed a bullet there \U0001F61C\U0001F44D\U0001F3FB\n\nWordle
+              244 3/6\n\n⬛\U0001F7E8⬛\U0001F7E8⬛\n\U0001F7E9⬛\U0001F7E8⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#wordle
+              #wordle244"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Mart_i_an
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587204533956616
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

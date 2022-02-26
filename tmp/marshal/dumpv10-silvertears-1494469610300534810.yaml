@@ -1,0 +1,187 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 00:31:35 +0000 2022
+  :id: 1494469610300534810
+  :id_str: '1494469610300534810'
+  :text: "Wordle 244 4/6\n\n⬜⬜⬜⬜⬜\n⬜\U0001F7E8\U0001F7E8⬜⬜\n⬜\U0001F7E9⬜⬜\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+    ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/kWva4YE2QN\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle5… https://t.co/wiNTZvd3yV"
+  :truncated: true
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 96
+      - 103
+    - :text: Wordle5
+      :indices:
+      - 104
+      - 112
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/kWva4YE2QN
+      :expanded_url: https://wordle.wekele.com
+      :display_url: wordle.wekele.com
+      :indices:
+      - 56
+      - 79
+    - :url: https://t.co/wiNTZvd3yV
+      :expanded_url: https://twitter.com/i/web/status/1494469610300534810
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 114
+      - 137
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 13008362
+    :id_str: '13008362'
+    :name: Manabu(マナブ)
+    :screen_name: silvertears
+    :location: 九州
+    :description: 継続は力にならなくても何かの糧にはなると思ってはいるのですが、人生の折り返しも近くなってきた頃に気付いたことは、食べ過ぎると太るということだけです。酒とジョギングと料理とテニスと書写とプラモデルを嗜みます。
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 141
+    :friends_count: 116
+    :listed_count: 4
+    :created_at: Sun Feb 03 12:48:41 +0000 2008
+    :favourites_count: 13883
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 3274
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: EDECE9
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme3/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme3/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/602787611497799680/1yhI789Z_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/602787611497799680/1yhI789Z_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/13008362/1421201739
+    :profile_link_color: ABB8C2
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: '000000'
+    :profile_text_color: '000000'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 4/6\n\n⬜⬜⬜⬜⬜\n⬜\U0001F7E8\U0001F7E8⬜⬜\n⬜\U0001F7E9⬜⬜\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+        ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/kWva4YE2QN\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle5…
+        https://t.co/wiNTZvd3yV"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 13008362
+          :id_str: '13008362'
+          :name: Manabu(マナブ)
+          :screen_name: silvertears
+          :location: 九州
+          :description: 継続は力にならなくても何かの糧にはなると思ってはいるのですが、人生の折り返しも近くなってきた頃に気付いたことは、食べ過ぎると太るということだけです。酒とジョギングと料理とテニスと書写とプラモデルを嗜みます。
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 141
+          :friends_count: 116
+          :listed_count: 4
+          :created_at: Sun Feb 03 12:48:41 +0000 2008
+          :favourites_count: 13883
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 3274
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: EDECE9
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme3/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme3/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/602787611497799680/1yhI789Z_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/602787611497799680/1yhI789Z_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/13008362/1421201739
+          :profile_link_color: ABB8C2
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: '000000'
+          :profile_text_color: '000000'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 00:31:35 +0000 2022
+            :id: 1494469610300534810
+            :id_str: '1494469610300534810'
+            :text: "Wordle 244 4/6\n\n⬜⬜⬜⬜⬜\n⬜\U0001F7E8\U0001F7E8⬜⬜\n⬜\U0001F7E9⬜⬜\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+              ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/kWva4YE2QN\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle5…
+              https://t.co/wiNTZvd3yV"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: silvertears
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494469610300534810
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

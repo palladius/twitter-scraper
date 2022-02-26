@@ -1,0 +1,181 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Thu Feb 17 18:18:03 +0000 2022
+  :id: 1494375608083791874
+  :id_str: '1494375608083791874'
+  :text: "Taylordle 20 3/6\n\n\U0001F7E9⬜\U0001F7E8\U0001F7E8\U0001F7E8\n\U0001F7E9\U0001F7E8\U0001F7E8\U0001F7E8⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nok
+    now i’m not only playing worlde but i am also playing #taylordle …. i think i’m
+    addicted"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: taylordle
+      :indices:
+      - 94
+      - 104
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1171245160447062016
+    :id_str: '1171245160447062016'
+    :name: jules
+    :screen_name: 2glam2gdam
+    :location: she/her
+    :description: 'just my dump account (mainly about books, taylor swift and general
+      breakdowns- cr:pj #2 (8/75) | cabin 6 - ravenclaw - targaryen'
+    :url: https://t.co/1NL9vUdEAn
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/1NL9vUdEAn
+          :expanded_url: http://www.goodreads.com/user/show/137696821
+          :display_url: goodreads.com/user/show/1376…
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 46
+    :friends_count: 60
+    :listed_count: 0
+    :created_at: Tue Sep 10 02:13:16 +0000 2019
+    :favourites_count: 107
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 188
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1489695805426524166/dgR1Fb0m_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1489695805426524166/dgR1Fb0m_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1171245160447062016/1644006338
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Taylordle 20 3/6\n\n\U0001F7E9⬜\U0001F7E8\U0001F7E8\U0001F7E8\n\U0001F7E9\U0001F7E8\U0001F7E8\U0001F7E8⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nok
+        now i’m not only playing worlde but i am also playing #taylordle …. i think
+        i’m addicted"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1171245160447062016
+          :id_str: '1171245160447062016'
+          :name: jules
+          :screen_name: 2glam2gdam
+          :location: she/her
+          :description: 'just my dump account (mainly about books, taylor swift and
+            general breakdowns- cr:pj #2 (8/75) | cabin 6 - ravenclaw - targaryen'
+          :url: https://t.co/1NL9vUdEAn
+          :entities: *1
+          :protected: false
+          :followers_count: 46
+          :friends_count: 60
+          :listed_count: 0
+          :created_at: Tue Sep 10 02:13:16 +0000 2019
+          :favourites_count: 107
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 188
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1489695805426524166/dgR1Fb0m_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1489695805426524166/dgR1Fb0m_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1171245160447062016/1644006338
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Thu Feb 17 18:18:03 +0000 2022
+            :id: 1494375608083791874
+            :id_str: '1494375608083791874'
+            :text: "Taylordle 20 3/6\n\n\U0001F7E9⬜\U0001F7E8\U0001F7E8\U0001F7E8\n\U0001F7E9\U0001F7E8\U0001F7E8\U0001F7E8⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nok
+              now i’m not only playing worlde but i am also playing #taylordle ….
+              i think i’m addicted"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: 2glam2gdam
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494375608083791874
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

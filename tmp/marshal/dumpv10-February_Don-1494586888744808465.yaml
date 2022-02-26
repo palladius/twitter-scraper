@@ -1,0 +1,260 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:17:37 +0000 2022
+  :id: 1494586888744808465
+  :id_str: '1494586888744808465'
+  :text: "RT @tata_tainment: Wordle 244 6/6\n\n⬛⬛⬛⬛⬛\n⬛⬛⬛\U0001F7E9\U0001F7E9\n⬛⬛⬛\U0001F7E9\U0001F7E9\n⬛⬛\U0001F7E9\U0001F7E9\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nMmmh"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: tata_tainment
+      :name: "የእሱ ማር \U0001F36F"
+      :id: 404495846
+      :id_str: '404495846'
+      :indices:
+      - 3
+      - 17
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1069844890958422018
+    :id_str: '1069844890958422018'
+    :name: "MukomanaWeLighter\U0001F525"
+    :screen_name: February_Don
+    :location: Where the money resides.
+    :description: "The name is Kudzi\U0001F4AF•Always Strive And Prosper  (A $ A P)\U0001F396•Ghetto
+      Force International • \nStreetCultureZW\U0001F1EF\U0001F1F2\U0001F1FF\U0001F1FC
+      • I Make Beats\U0001F941 • NorthSide Kennels\U0001F525 •"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 6284
+    :friends_count: 6443
+    :listed_count: 2
+    :created_at: Tue Dec 04 06:44:33 +0000 2018
+    :favourites_count: 293849
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 124250
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1476041847868956672/Uy0KolpA_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1476041847868956672/Uy0KolpA_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1069844890958422018/1640750877
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :retweeted_status: &5
+    :created_at: Fri Feb 18 08:14:49 +0000 2022
+    :id: 1494586186396020757
+    :id_str: '1494586186396020757'
+    :text: "Wordle 244 6/6\n\n⬛⬛⬛⬛⬛\n⬛⬛⬛\U0001F7E9\U0001F7E9\n⬛⬛⬛\U0001F7E9\U0001F7E9\n⬛⬛\U0001F7E9\U0001F7E9\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nMmmh"
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls: []
+    :metadata:
+      :iso_language_code: en
+      :result_type: recent
+    :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+      iPhone</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 404495846
+      :id_str: '404495846'
+      :name: "የእሱ ማር \U0001F36F"
+      :screen_name: tata_tainment
+      :location: Esfubeni!
+      :description: "I am just here for laughs sha, nothing is serious. Oh...i drink
+        my water, do cash $hit, tweet about my husband and mind my own business most
+        times. \U0001F3F3️‍\U0001F308"
+      :url: https://t.co/ndYYIH6PJR
+      :entities:
+        :url:
+          :urls:
+          - :url: https://t.co/ndYYIH6PJR
+            :expanded_url: https://vm.tiktok.com/ZM8ov46fe/
+            :display_url: vm.tiktok.com/ZM8ov46fe/
+            :indices:
+            - 0
+            - 23
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 13318
+      :friends_count: 1082
+      :listed_count: 25
+      :created_at: Fri Nov 04 00:42:37 +0000 2011
+      :favourites_count: 47065
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 186675
+      :lang: 
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: 6CBFE6
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/1484851775303733252/XcdKnAcb_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/1484851775303733252/XcdKnAcb_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/404495846/1641713935
+      :profile_link_color: 3D89BF
+      :profile_sidebar_border_color: FFFFFF
+      :profile_sidebar_fill_color: 1C1C1C
+      :profile_text_color: 5C91B9
+      :profile_use_background_image: true
+      :has_extended_profile: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :translator_type: none
+      :withheld_in_countries: []
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 1
+    :favorite_count: 1
+    :favorited: false
+    :retweeted: false
+    :lang: en
+  :is_quote_status: false
+  :retweet_count: 1
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "RT @tata_tainment: Wordle 244 6/6\n\n⬛⬛⬛⬛⬛\n⬛⬛⬛\U0001F7E9\U0001F7E9\n⬛⬛⬛\U0001F7E9\U0001F7E9\n⬛⬛\U0001F7E9\U0001F7E9\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nMmmh"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1069844890958422018
+          :id_str: '1069844890958422018'
+          :name: "MukomanaWeLighter\U0001F525"
+          :screen_name: February_Don
+          :location: Where the money resides.
+          :description: "The name is Kudzi\U0001F4AF•Always Strive And Prosper  (A
+            $ A P)\U0001F396•Ghetto Force International • \nStreetCultureZW\U0001F1EF\U0001F1F2\U0001F1FF\U0001F1FC
+            • I Make Beats\U0001F941 • NorthSide Kennels\U0001F525 •"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 6284
+          :friends_count: 6443
+          :listed_count: 2
+          :created_at: Tue Dec 04 06:44:33 +0000 2018
+          :favourites_count: 293849
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 124250
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1476041847868956672/Uy0KolpA_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1476041847868956672/Uy0KolpA_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1069844890958422018/1640750877
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:17:37 +0000 2022
+            :id: 1494586888744808465
+            :id_str: '1494586888744808465'
+            :text: "RT @tata_tainment: Wordle 244 6/6\n\n⬛⬛⬛⬛⬛\n⬛⬛⬛\U0001F7E9\U0001F7E9\n⬛⬛⬛\U0001F7E9\U0001F7E9\n⬛⬛\U0001F7E9\U0001F7E9\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nMmmh"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :retweeted_status: *5
+            :is_quote_status: false
+            :retweet_count: 1
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: February_Don
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586888744808465
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,173 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:19:12 +0000 2022
+  :id: 1494587288507932673
+  :id_str: '1494587288507932673'
+  :text: "#Wordle  #Wordle244 \nWordle 244 4/6\n\n⬜⬜⬜⬜\U0001F7E9\n\U0001F7E9⬜\U0001F7E8⬜\U0001F7E9\n\U0001F7E9\U0001F7E9⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nAverage.
+    At least I was not biting my nails."
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 0
+      - 7
+    - :text: Wordle244
+      :indices:
+      - 9
+      - 19
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 32122881
+    :id_str: '32122881'
+    :name: Zilma
+    :screen_name: Le_Crawf
+    :location: ''
+    :description: 'Mom, grandma, wife, retired psychotherapist, gardener.  "There
+      is nothing in a caterpillar that tells you it is going to be a butterfly."  #Resister  DM=BLOCK'
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 2317
+    :friends_count: 1228
+    :listed_count: 0
+    :created_at: Thu Apr 16 19:31:57 +0000 2009
+    :favourites_count: 1717
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 6768
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1408318612079747073/zeiTV6RY_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1408318612079747073/zeiTV6RY_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/32122881/1597156487
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "#Wordle  #Wordle244 \nWordle 244 4/6\n\n⬜⬜⬜⬜\U0001F7E9\n\U0001F7E9⬜\U0001F7E8⬜\U0001F7E9\n\U0001F7E9\U0001F7E9⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nAverage.
+        At least I was not biting my nails."
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 32122881
+          :id_str: '32122881'
+          :name: Zilma
+          :screen_name: Le_Crawf
+          :location: ''
+          :description: 'Mom, grandma, wife, retired psychotherapist, gardener.  "There
+            is nothing in a caterpillar that tells you it is going to be a butterfly."  #Resister  DM=BLOCK'
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 2317
+          :friends_count: 1228
+          :listed_count: 0
+          :created_at: Thu Apr 16 19:31:57 +0000 2009
+          :favourites_count: 1717
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 6768
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1408318612079747073/zeiTV6RY_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1408318612079747073/zeiTV6RY_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/32122881/1597156487
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:19:12 +0000 2022
+            :id: 1494587288507932673
+            :id_str: '1494587288507932673'
+            :text: "#Wordle  #Wordle244 \nWordle 244 4/6\n\n⬜⬜⬜⬜\U0001F7E9\n\U0001F7E9⬜\U0001F7E8⬜\U0001F7E9\n\U0001F7E9\U0001F7E9⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nAverage.
+              At least I was not biting my nails."
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Le_Crawf
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587288507932673
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

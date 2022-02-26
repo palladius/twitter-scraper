@@ -1,0 +1,186 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Sat Feb 19 19:02:51 +0000 2022
+  :id: 1495111655264378880
+  :id_str: '1495111655264378880'
+  :text: "#Tweet1046\n\nWordle 246 4/6\n\n⬛⬛\U0001F7E8⬛⬛\n⬛\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E9⬛\U0001F7E8\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nHint:
+    Starts from 'T', ends with 'T'. \n\n#Wordle @nytimes"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: Tweet1046
+      :indices:
+      - 0
+      - 10
+    - :text: Wordle
+      :indices:
+      - 93
+      - 100
+    :symbols: []
+    :user_mentions:
+    - :screen_name: nytimes
+      :name: The New York Times
+      :id: 807095
+      :id_str: '807095'
+      :indices:
+      - 101
+      - 109
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 150575758
+    :id_str: '150575758'
+    :name: Khushbu Raval
+    :screen_name: KhusRaval
+    :location: Pune, India
+    :description: Be somebody who knows, a little of everything!
+    :url: https://t.co/JUQVBNftog
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/JUQVBNftog
+          :expanded_url: https://khusraval.medium.com/
+          :display_url: khusraval.medium.com
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 276
+    :friends_count: 239
+    :listed_count: 0
+    :created_at: Tue Jun 01 08:14:06 +0000 2010
+    :favourites_count: 2269
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 1551
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: 1A1B1F
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme9/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme9/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1256697905961984003/noLqCmtA_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1256697905961984003/noLqCmtA_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/150575758/1634222249
+    :profile_link_color: 2FC2EF
+    :profile_sidebar_border_color: 181A1E
+    :profile_sidebar_fill_color: '252429'
+    :profile_text_color: '666666'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "#Tweet1046\n\nWordle 246 4/6\n\n⬛⬛\U0001F7E8⬛⬛\n⬛\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E9⬛\U0001F7E8\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nHint:
+        Starts from 'T', ends with 'T'. \n\n#Wordle @nytimes"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 150575758
+          :id_str: '150575758'
+          :name: Khushbu Raval
+          :screen_name: KhusRaval
+          :location: Pune, India
+          :description: Be somebody who knows, a little of everything!
+          :url: https://t.co/JUQVBNftog
+          :entities: *1
+          :protected: false
+          :followers_count: 276
+          :friends_count: 239
+          :listed_count: 0
+          :created_at: Tue Jun 01 08:14:06 +0000 2010
+          :favourites_count: 2269
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 1551
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: 1A1B1F
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme9/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme9/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1256697905961984003/noLqCmtA_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1256697905961984003/noLqCmtA_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/150575758/1634222249
+          :profile_link_color: 2FC2EF
+          :profile_sidebar_border_color: 181A1E
+          :profile_sidebar_fill_color: '252429'
+          :profile_text_color: '666666'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Sat Feb 19 19:02:51 +0000 2022
+            :id: 1495111655264378880
+            :id_str: '1495111655264378880'
+            :text: "#Tweet1046\n\nWordle 246 4/6\n\n⬛⬛\U0001F7E8⬛⬛\n⬛\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E9⬛\U0001F7E8\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nHint:
+              Starts from 'T', ends with 'T'. \n\n#Wordle @nytimes"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: KhusRaval
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1495111655264378880
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

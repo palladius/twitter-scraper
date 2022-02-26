@@ -1,0 +1,260 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:18:51 +0000 2022
+  :id: 1494587200436121600
+  :id_str: '1494587200436121600'
+  :text: "RT @BrendanSavageNY: Wordle 243 X/6\n\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\nNobody
+    talk to me for 24 hours. I can’t believe this"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: BrendanSavageNY
+      :name: Brendan Savage
+      :id: 1071997304079556608
+      :id_str: '1071997304079556608'
+      :indices:
+      - 3
+      - 19
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 775303890
+    :id_str: '775303890'
+    :name: hunty
+    :screen_name: MenoElNaco
+    :location: ''
+    :description: "\U0001F97A"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 422
+    :friends_count: 183
+    :listed_count: 10
+    :created_at: Thu Aug 23 06:20:08 +0000 2012
+    :favourites_count: 180588
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 154839
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1236060442310647809/MaRCRttw_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1236060442310647809/MaRCRttw_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/775303890/1583534749
+    :profile_link_color: '0084B4'
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :retweeted_status: &5
+    :created_at: Thu Feb 17 05:08:48 +0000 2022
+    :id: 1494176984984965121
+    :id_str: '1494176984984965121'
+    :text: "Wordle 243 X/6\n\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\nNobody
+      talk to me for 24 hours. I can’t believe this"
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls: []
+    :metadata:
+      :iso_language_code: en
+      :result_type: recent
+    :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+      iPhone</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 1071997304079556608
+      :id_str: '1071997304079556608'
+      :name: Brendan Savage
+      :screen_name: BrendanSavageNY
+      :location: Schenectady, NY
+      :description: Broke record for 3rd party candidate with 42% of the vote for
+        County Legislature. Proud Upstater/Schenectadian. Catholic. Siena Saint. Team
+        Joe Alum. Mets fan.
+      :url: https://t.co/rjOdDSk8GY
+      :entities:
+        :url:
+          :urls:
+          - :url: https://t.co/rjOdDSk8GY
+            :expanded_url: https://www.gofundme.com/f/help-for-brian-and-sariah
+            :display_url: gofundme.com/f/help-for-bri…
+            :indices:
+            - 0
+            - 23
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 580
+      :friends_count: 507
+      :listed_count: 2
+      :created_at: Mon Dec 10 05:17:28 +0000 2018
+      :favourites_count: 14035
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 5896
+      :lang: 
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: '000000'
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/1475460525408595968/MfkboBm8_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/1475460525408595968/MfkboBm8_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/1071997304079556608/1631599733
+      :profile_link_color: 317C23
+      :profile_sidebar_border_color: '000000'
+      :profile_sidebar_fill_color: '000000'
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :translator_type: none
+      :withheld_in_countries: []
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 14689
+    :favorite_count: 267047
+    :favorited: false
+    :retweeted: false
+    :lang: en
+  :is_quote_status: false
+  :retweet_count: 14689
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "RT @BrendanSavageNY: Wordle 243 X/6\n\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\nNobody
+        talk to me for 24 hours. I can’t believe this"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 775303890
+          :id_str: '775303890'
+          :name: hunty
+          :screen_name: MenoElNaco
+          :location: ''
+          :description: "\U0001F97A"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 422
+          :friends_count: 183
+          :listed_count: 10
+          :created_at: Thu Aug 23 06:20:08 +0000 2012
+          :favourites_count: 180588
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 154839
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1236060442310647809/MaRCRttw_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1236060442310647809/MaRCRttw_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/775303890/1583534749
+          :profile_link_color: '0084B4'
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:18:51 +0000 2022
+            :id: 1494587200436121600
+            :id_str: '1494587200436121600'
+            :text: "RT @BrendanSavageNY: Wordle 243 X/6\n\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\nNobody
+              talk to me for 24 hours. I can’t believe this"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :retweeted_status: *5
+            :is_quote_status: false
+            :retweet_count: 14689
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: MenoElNaco
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587200436121600
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,167 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:16:18 +0000 2022
+  :id: 1494586558392852484
+  :id_str: '1494586558392852484'
+  :text: "#Wordle 244 4/6\n\n⬜⬜\U0001F7E6⬜⬜\n⬜\U0001F7E6⬜\U0001F7E6⬜\n⬜\U0001F7E7\U0001F7E7\U0001F7E6⬜\n\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 0
+      - 7
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: und
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 32478563
+    :id_str: '32478563'
+    :name: Chris Miller
+    :screen_name: ChrisMillerNV
+    :location: Las Vegas, Nevada
+    :description: "Political Junkie / Former Chair, ClarkDems / #KHive / \U0001F3F3️‍\U0001F308
+      \ / #Dodgers   #HomeMeansNevada"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 2208
+    :friends_count: 2186
+    :listed_count: 36
+    :created_at: Fri Apr 17 16:58:39 +0000 2009
+    :favourites_count: 11819
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 4132
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '0099B9'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme4/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme4/bg.gif
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1126192547770933248/8WPmBAPz_normal.png
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1126192547770933248/8WPmBAPz_normal.png
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/32478563/1427776382
+    :profile_link_color: FF691F
+    :profile_sidebar_border_color: 040E0F
+    :profile_sidebar_fill_color: 0E61F0
+    :profile_text_color: 130E1A
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: und
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "#Wordle 244 4/6\n\n⬜⬜\U0001F7E6⬜⬜\n⬜\U0001F7E6⬜\U0001F7E6⬜\n⬜\U0001F7E7\U0001F7E7\U0001F7E6⬜\n\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 32478563
+          :id_str: '32478563'
+          :name: Chris Miller
+          :screen_name: ChrisMillerNV
+          :location: Las Vegas, Nevada
+          :description: "Political Junkie / Former Chair, ClarkDems / #KHive / \U0001F3F3️‍\U0001F308
+            \ / #Dodgers   #HomeMeansNevada"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 2208
+          :friends_count: 2186
+          :listed_count: 36
+          :created_at: Fri Apr 17 16:58:39 +0000 2009
+          :favourites_count: 11819
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 4132
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '0099B9'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme4/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme4/bg.gif
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1126192547770933248/8WPmBAPz_normal.png
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1126192547770933248/8WPmBAPz_normal.png
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/32478563/1427776382
+          :profile_link_color: FF691F
+          :profile_sidebar_border_color: 040E0F
+          :profile_sidebar_fill_color: 0E61F0
+          :profile_text_color: 130E1A
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:16:18 +0000 2022
+            :id: 1494586558392852484
+            :id_str: '1494586558392852484'
+            :text: "#Wordle 244 4/6\n\n⬜⬜\U0001F7E6⬜⬜\n⬜\U0001F7E6⬜\U0001F7E6⬜\n⬜\U0001F7E7\U0001F7E7\U0001F7E6⬜\n\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: und
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: ChrisMillerNV
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586558392852484
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

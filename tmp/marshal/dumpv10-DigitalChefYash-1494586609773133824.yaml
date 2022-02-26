@@ -1,0 +1,195 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:16:30 +0000 2022
+  :id: 1494586609773133824
+  :id_str: '1494586609773133824'
+  :text: "#Wordle 244 4/6\n\n⬛⬛⬛⬛⬛\n⬛\U0001F7E9⬛\U0001F7E9⬛\n⬛\U0001F7E9⬛\U0001F7E9⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 0
+      - 7
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: und
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 531286098
+    :id_str: '531286098'
+    :name: "Yash Patel \U0001F1EE\U0001F1F3"
+    :screen_name: DigitalChefYash
+    :location: Ahmedabad, India
+    :description: Digital Chef serving @digitalbiriyani | Blogger | Freelance Content
+      Writer
+    :url: https://t.co/R12PKSRjpt
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/R12PKSRjpt
+          :expanded_url: https://digitalbiriyani.com
+          :display_url: digitalbiriyani.com
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 373
+    :friends_count: 426
+    :listed_count: 8
+    :created_at: Tue Mar 20 12:43:12 +0000 2012
+    :favourites_count: 6446
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 5471
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '131516'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme14/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme14/bg.gif
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1421455613360427010/RVxY0pm8_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1421455613360427010/RVxY0pm8_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/531286098/1485344390
+    :profile_link_color: '009999'
+    :profile_sidebar_border_color: EEEEEE
+    :profile_sidebar_fill_color: EFEFEF
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: &5
+    :id: 29df412574636590
+    :url: https://api.twitter.com/1.1/geo/id/29df412574636590.json
+    :place_type: city
+    :name: Daskroi
+    :full_name: Daskroi, India
+    :country_code: IN
+    :country: India
+    :contained_within: []
+    :bounding_box:
+      :type: Polygon
+      :coordinates:
+      - - - 72.430081
+          - 22.797559
+        - - 72.843275
+          - 22.797559
+        - - 72.843275
+          - 23.164295
+        - - 72.430081
+          - 23.164295
+    :attributes: {}
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: und
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "#Wordle 244 4/6\n\n⬛⬛⬛⬛⬛\n⬛\U0001F7E9⬛\U0001F7E9⬛\n⬛\U0001F7E9⬛\U0001F7E9⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 531286098
+          :id_str: '531286098'
+          :name: "Yash Patel \U0001F1EE\U0001F1F3"
+          :screen_name: DigitalChefYash
+          :location: Ahmedabad, India
+          :description: Digital Chef serving @digitalbiriyani | Blogger | Freelance
+            Content Writer
+          :url: https://t.co/R12PKSRjpt
+          :entities: *1
+          :protected: false
+          :followers_count: 373
+          :friends_count: 426
+          :listed_count: 8
+          :created_at: Tue Mar 20 12:43:12 +0000 2012
+          :favourites_count: 6446
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 5471
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '131516'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme14/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme14/bg.gif
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1421455613360427010/RVxY0pm8_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1421455613360427010/RVxY0pm8_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/531286098/1485344390
+          :profile_link_color: '009999'
+          :profile_sidebar_border_color: EEEEEE
+          :profile_sidebar_fill_color: EFEFEF
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:16:30 +0000 2022
+            :id: 1494586609773133824
+            :id_str: '1494586609773133824'
+            :text: "#Wordle 244 4/6\n\n⬛⬛⬛⬛⬛\n⬛\U0001F7E9⬛\U0001F7E9⬛\n⬛\U0001F7E9⬛\U0001F7E9⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: *5
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: und
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: DigitalChefYash
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586609773133824
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

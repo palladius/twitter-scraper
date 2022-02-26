@@ -1,0 +1,159 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:19:42 +0000 2022
+  :id: 1494587414970576896
+  :id_str: '1494587414970576896'
+  :text: "Wordle 244 4/6\n\n\U0001F7E8⬛\U0001F7E8⬛⬛\n⬛⬛\U0001F7E8⬛\U0001F7E9\n⬛\U0001F7E9⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 387618264
+    :id_str: '387618264'
+    :name: "hegemon \U0001F6B4"
+    :screen_name: hegemon_
+    :location: Warownia
+    :description: Tactical facepalm user.
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 356
+    :friends_count: 920
+    :listed_count: 5
+    :created_at: Sun Oct 09 11:19:53 +0000 2011
+    :favourites_count: 22031
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 30217
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: 1A1B1F
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme9/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme9/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1584522888/av-89397_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1584522888/av-89397_normal.jpg
+    :profile_link_color: 2FC2EF
+    :profile_sidebar_border_color: 181A1E
+    :profile_sidebar_fill_color: '252429'
+    :profile_text_color: '666666'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 4/6\n\n\U0001F7E8⬛\U0001F7E8⬛⬛\n⬛⬛\U0001F7E8⬛\U0001F7E9\n⬛\U0001F7E9⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 387618264
+          :id_str: '387618264'
+          :name: "hegemon \U0001F6B4"
+          :screen_name: hegemon_
+          :location: Warownia
+          :description: Tactical facepalm user.
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 356
+          :friends_count: 920
+          :listed_count: 5
+          :created_at: Sun Oct 09 11:19:53 +0000 2011
+          :favourites_count: 22031
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 30217
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: 1A1B1F
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme9/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme9/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1584522888/av-89397_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1584522888/av-89397_normal.jpg
+          :profile_link_color: 2FC2EF
+          :profile_sidebar_border_color: 181A1E
+          :profile_sidebar_fill_color: '252429'
+          :profile_text_color: '666666'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:19:42 +0000 2022
+            :id: 1494587414970576896
+            :id_str: '1494587414970576896'
+            :text: "Wordle 244 4/6\n\n\U0001F7E8⬛\U0001F7E8⬛⬛\n⬛⬛\U0001F7E8⬛\U0001F7E9\n⬛\U0001F7E9⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: hegemon_
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587414970576896
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,169 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:17:25 +0000 2022
+  :id: 1494586840283762688
+  :id_str: '1494586840283762688'
+  :text: "Wordle 244 5/6\n\n⬜⬜\U0001F7E8⬜⬜\n⬜⬜⬜\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 6795732
+    :id_str: '6795732'
+    :name: Alice Bloor
+    :screen_name: raspberry
+    :location: Hampshire, England
+    :description: event and video production account manager, textile designer/maker,
+      and someone trying to run!
+    :url: http://t.co/EMtjjJzPKq
+    :entities: &1
+      :url:
+        :urls:
+        - :url: http://t.co/EMtjjJzPKq
+          :expanded_url: http://www.raspberry.co.uk
+          :display_url: raspberry.co.uk
+          :indices:
+          - 0
+          - 22
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 843
+    :friends_count: 349
+    :listed_count: 55
+    :created_at: Wed Jun 13 19:29:56 +0000 2007
+    :favourites_count: 625
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 10532
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: B2DFDA
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme13/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme13/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1069703463/raspberry-for-stickers-thinner_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1069703463/raspberry-for-stickers-thinner_normal.jpg
+    :profile_link_color: 93A644
+    :profile_sidebar_border_color: EEEEEE
+    :profile_sidebar_fill_color: FFFFFF
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 5/6\n\n⬜⬜\U0001F7E8⬜⬜\n⬜⬜⬜\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 6795732
+          :id_str: '6795732'
+          :name: Alice Bloor
+          :screen_name: raspberry
+          :location: Hampshire, England
+          :description: event and video production account manager, textile designer/maker,
+            and someone trying to run!
+          :url: http://t.co/EMtjjJzPKq
+          :entities: *1
+          :protected: false
+          :followers_count: 843
+          :friends_count: 349
+          :listed_count: 55
+          :created_at: Wed Jun 13 19:29:56 +0000 2007
+          :favourites_count: 625
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 10532
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: B2DFDA
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme13/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme13/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1069703463/raspberry-for-stickers-thinner_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1069703463/raspberry-for-stickers-thinner_normal.jpg
+          :profile_link_color: 93A644
+          :profile_sidebar_border_color: EEEEEE
+          :profile_sidebar_fill_color: FFFFFF
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:17:25 +0000 2022
+            :id: 1494586840283762688
+            :id_str: '1494586840283762688'
+            :text: "Wordle 244 5/6\n\n⬜⬜\U0001F7E8⬜⬜\n⬜⬜⬜\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: raspberry
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586840283762688
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

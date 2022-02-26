@@ -112,7 +112,7 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
 
 
         # Tweet matches :)
-        manage_twitter_serialization if marshal_on_file
+        manage_twitter_serialization(tweet, opts) if marshal_on_file
         wordle_type = WordleTweet.extended_wordle_match_type(tweet.text)
         if not wordle_type.nil?
           #puts "[DEB] Found [#{ wordle_type}] #{short_twitter_username(tweet.user)}:\t'#{( tweet.text.split("\n")[0] )}'" # text[0,30]

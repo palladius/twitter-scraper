@@ -1,0 +1,169 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:17:30 +0000 2022
+  :id: 1494586860471005185
+  :id_str: '1494586860471005185'
+  :text: "Wordle 244 4/6\n\n⬛⬛\U0001F7E8⬛\U0001F7E9\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 260382409
+    :id_str: '260382409'
+    :name: Clío
+    :screen_name: ClioGoodrich
+    :location: Dublin City, Ireland
+    :description: She/her, I’m nothing but a bluff in bicycle shorts
+    :url: https://t.co/FEYkJRwjOR
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/FEYkJRwjOR
+          :expanded_url: http://instagram.com/cliodhnagoodrich
+          :display_url: instagram.com/cliodhnagoodri…
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 616
+    :friends_count: 288
+    :listed_count: 1
+    :created_at: Thu Mar 03 19:44:38 +0000 2011
+    :favourites_count: 4118
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 21013
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: BADFCD
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme12/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme12/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1479572414644244485/Bi79E6T3_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1479572414644244485/Bi79E6T3_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/260382409/1436106689
+    :profile_link_color: FF0000
+    :profile_sidebar_border_color: F2E195
+    :profile_sidebar_fill_color: FFF7CC
+    :profile_text_color: 0C3E53
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 4/6\n\n⬛⬛\U0001F7E8⬛\U0001F7E9\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 260382409
+          :id_str: '260382409'
+          :name: Clío
+          :screen_name: ClioGoodrich
+          :location: Dublin City, Ireland
+          :description: She/her, I’m nothing but a bluff in bicycle shorts
+          :url: https://t.co/FEYkJRwjOR
+          :entities: *1
+          :protected: false
+          :followers_count: 616
+          :friends_count: 288
+          :listed_count: 1
+          :created_at: Thu Mar 03 19:44:38 +0000 2011
+          :favourites_count: 4118
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 21013
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: BADFCD
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme12/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme12/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1479572414644244485/Bi79E6T3_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1479572414644244485/Bi79E6T3_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/260382409/1436106689
+          :profile_link_color: FF0000
+          :profile_sidebar_border_color: F2E195
+          :profile_sidebar_fill_color: FFF7CC
+          :profile_text_color: 0C3E53
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:17:30 +0000 2022
+            :id: 1494586860471005185
+            :id_str: '1494586860471005185'
+            :text: "Wordle 244 4/6\n\n⬛⬛\U0001F7E8⬛\U0001F7E9\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: ClioGoodrich
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586860471005185
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

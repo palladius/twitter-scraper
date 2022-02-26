@@ -1,0 +1,201 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:18:31 +0000 2022
+  :id: 1494587117107884066
+  :id_str: '1494587117107884066'
+  :text: "Phew indeed\n\nWordle 244 6/6\n\n⬜⬜\U0001F7E8⬜⬜\n\U0001F7E8⬜\U0001F7E8⬜\U0001F7E9\n⬜⬜⬜\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 57324052
+    :id_str: '57324052'
+    :name: Neil Tubman
+    :screen_name: neiltubman
+    :location: Surrey, UK
+    :description: |-
+      A Tubman*.
+
+
+      *No connection to smuggling.
+
+      All views my own.
+    :url: https://t.co/ZsIKXrpHBo
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/ZsIKXrpHBo
+          :expanded_url: http://www.terzodigital.com
+          :display_url: terzodigital.com
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 180
+    :friends_count: 768
+    :listed_count: 8
+    :created_at: Thu Jul 16 12:44:00 +0000 2009
+    :favourites_count: 11482
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 3003
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '000000'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/879322346301120512/tX8o9raQ_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/879322346301120512/tX8o9raQ_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/57324052/1466492907
+    :profile_link_color: 1B95E0
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: '000000'
+    :profile_text_color: '000000'
+    :profile_use_background_image: false
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: &5
+    :id: 19fb44c326108603
+    :url: https://api.twitter.com/1.1/geo/id/19fb44c326108603.json
+    :place_type: city
+    :name: Redhill
+    :full_name: Redhill, South East
+    :country_code: GB
+    :country: United Kingdom
+    :contained_within: []
+    :bounding_box:
+      :type: Polygon
+      :coordinates:
+      - - - -0.230949
+          - 51.21315
+        - - -0.130394
+          - 51.21315
+        - - -0.130394
+          - 51.268978
+        - - -0.230949
+          - 51.268978
+    :attributes: {}
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Phew indeed\n\nWordle 244 6/6\n\n⬜⬜\U0001F7E8⬜⬜\n\U0001F7E8⬜\U0001F7E8⬜\U0001F7E9\n⬜⬜⬜\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 57324052
+          :id_str: '57324052'
+          :name: Neil Tubman
+          :screen_name: neiltubman
+          :location: Surrey, UK
+          :description: |-
+            A Tubman*.
+
+
+            *No connection to smuggling.
+
+            All views my own.
+          :url: https://t.co/ZsIKXrpHBo
+          :entities: *1
+          :protected: false
+          :followers_count: 180
+          :friends_count: 768
+          :listed_count: 8
+          :created_at: Thu Jul 16 12:44:00 +0000 2009
+          :favourites_count: 11482
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 3003
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '000000'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/879322346301120512/tX8o9raQ_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/879322346301120512/tX8o9raQ_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/57324052/1466492907
+          :profile_link_color: 1B95E0
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: '000000'
+          :profile_text_color: '000000'
+          :profile_use_background_image: false
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:18:31 +0000 2022
+            :id: 1494587117107884066
+            :id_str: '1494587117107884066'
+            :text: "Phew indeed\n\nWordle 244 6/6\n\n⬜⬜\U0001F7E8⬜⬜\n\U0001F7E8⬜\U0001F7E8⬜\U0001F7E9\n⬜⬜⬜\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: *5
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: neiltubman
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587117107884066
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

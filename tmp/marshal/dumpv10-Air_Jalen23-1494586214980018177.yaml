@@ -1,0 +1,242 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:14:56 +0000 2022
+  :id: 1494586214980018177
+  :id_str: '1494586214980018177'
+  :text: "Wordle 244 4/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E8⬛\U0001F7E9\n⬛\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nA
+    little four piece. https://t.co/AYa0vfE2tx"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+    :media:
+    - :id: 1494586209120653313
+      :id_str: '1494586209120653313'
+      :indices:
+      - 62
+      - 85
+      :media_url: http://pbs.twimg.com/tweet_video_thumb/FL3WPRDVkAEJvao.jpg
+      :media_url_https: https://pbs.twimg.com/tweet_video_thumb/FL3WPRDVkAEJvao.jpg
+      :url: https://t.co/AYa0vfE2tx
+      :display_url: pic.twitter.com/AYa0vfE2tx
+      :expanded_url: https://twitter.com/Air_Jalen23/status/1494586214980018177/photo/1
+      :type: photo
+      :sizes:
+        :thumb:
+          :w: 150
+          :h: 150
+          :resize: crop
+        :small:
+          :w: 480
+          :h: 346
+          :resize: fit
+        :medium:
+          :w: 480
+          :h: 346
+          :resize: fit
+        :large:
+          :w: 480
+          :h: 346
+          :resize: fit
+  :extended_entities: &4
+    :media:
+    - :id: 1494586209120653313
+      :id_str: '1494586209120653313'
+      :indices:
+      - 62
+      - 85
+      :media_url: http://pbs.twimg.com/tweet_video_thumb/FL3WPRDVkAEJvao.jpg
+      :media_url_https: https://pbs.twimg.com/tweet_video_thumb/FL3WPRDVkAEJvao.jpg
+      :url: https://t.co/AYa0vfE2tx
+      :display_url: pic.twitter.com/AYa0vfE2tx
+      :expanded_url: https://twitter.com/Air_Jalen23/status/1494586214980018177/photo/1
+      :type: animated_gif
+      :sizes:
+        :thumb:
+          :w: 150
+          :h: 150
+          :resize: crop
+        :small:
+          :w: 480
+          :h: 346
+          :resize: fit
+        :medium:
+          :w: 480
+          :h: 346
+          :resize: fit
+        :large:
+          :w: 480
+          :h: 346
+          :resize: fit
+      :video_info:
+        :aspect_ratio:
+        - 240
+        - 173
+        :variants:
+        - :bitrate: 0
+          :content_type: video/mp4
+          :url: https://video.twimg.com/tweet_video/FL3WPRDVkAEJvao.mp4
+  :metadata: &5
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 264925076
+    :id_str: '264925076'
+    :name: "Jalen \U0001F1F5\U0001F1ED\U0001F1F2\U0001F1FD"
+    :screen_name: Air_Jalen23
+    :location: ''
+    :description: When I inevitability die keep my tweets alive.
+    :url: https://t.co/1CxMUurr6A
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/1CxMUurr6A
+          :expanded_url: https://www.instagram.com/air_jalen23/?hl=en
+          :display_url: instagram.com/air_jalen23/?h…
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 765
+    :friends_count: 375
+    :listed_count: 3
+    :created_at: Sat Mar 12 17:53:25 +0000 2011
+    :favourites_count: 72275
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 83658
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: FF6699
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme11/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme11/bg.gif
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1288254228004126721/WNF_i7lv_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1288254228004126721/WNF_i7lv_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/264925076/1624690266
+    :profile_link_color: F2A4BE
+    :profile_sidebar_border_color: 313CB0
+    :profile_sidebar_fill_color: 0A0A0A
+    :profile_text_color: DB1536
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 4/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E8⬛\U0001F7E9\n⬛\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nA
+        little four piece. https://t.co/AYa0vfE2tx"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 264925076
+          :id_str: '264925076'
+          :name: "Jalen \U0001F1F5\U0001F1ED\U0001F1F2\U0001F1FD"
+          :screen_name: Air_Jalen23
+          :location: ''
+          :description: When I inevitability die keep my tweets alive.
+          :url: https://t.co/1CxMUurr6A
+          :entities: *1
+          :protected: false
+          :followers_count: 765
+          :friends_count: 375
+          :listed_count: 3
+          :created_at: Sat Mar 12 17:53:25 +0000 2011
+          :favourites_count: 72275
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 83658
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: FF6699
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme11/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme11/bg.gif
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1288254228004126721/WNF_i7lv_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1288254228004126721/WNF_i7lv_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/264925076/1624690266
+          :profile_link_color: F2A4BE
+          :profile_sidebar_border_color: 313CB0
+          :profile_sidebar_fill_color: 0A0A0A
+          :profile_text_color: DB1536
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:14:56 +0000 2022
+            :id: 1494586214980018177
+            :id_str: '1494586214980018177'
+            :text: "Wordle 244 4/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E8⬛\U0001F7E9\n⬛\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nA
+              little four piece. https://t.co/AYa0vfE2tx"
+            :truncated: false
+            :entities: *3
+            :extended_entities: *4
+            :metadata: *5
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Air_Jalen23
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586214980018177
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

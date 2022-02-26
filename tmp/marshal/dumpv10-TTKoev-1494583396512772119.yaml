@@ -1,0 +1,187 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:03:44 +0000 2022
+  :id: 1494583396512772119
+  :id_str: '1494583396512772119'
+  :text: "Not bad, not bad. #Wordle 244 4/6*\n\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 18
+      - 25
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 69398337
+    :id_str: '69398337'
+    :name: Trey K
+    :screen_name: TTKoev
+    :location: Norwich, UK
+    :description: "Post-Doc in NMR method development. All things #NMR, Carbohydrates,
+      Hydrogels, #DrugDelivery, Med Chemistry, Metabolomics. My own views. \U0001F3F3️‍\U0001F308"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 344
+    :friends_count: 515
+    :listed_count: 18
+    :created_at: Thu Aug 27 20:41:25 +0000 2009
+    :favourites_count: 7443
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 11124
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: D0A731
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme2/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme2/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1491764676010684417/LyESBd2j_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1491764676010684417/LyESBd2j_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/69398337/1619962881
+    :profile_link_color: '996633'
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: FCB8B0
+    :profile_text_color: '000000'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: &5
+    :id: 0c2f185415d757e3
+    :url: https://api.twitter.com/1.1/geo/id/0c2f185415d757e3.json
+    :place_type: city
+    :name: Norwich
+    :full_name: Norwich, England
+    :country_code: GB
+    :country: United Kingdom
+    :contained_within: []
+    :bounding_box:
+      :type: Polygon
+      :coordinates:
+      - - - 1.20388
+          - 52.598032
+        - - 1.342283
+          - 52.598032
+        - - 1.342283
+          - 52.684934
+        - - 1.20388
+          - 52.684934
+    :attributes: {}
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Not bad, not bad. #Wordle 244 4/6*\n\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 69398337
+          :id_str: '69398337'
+          :name: Trey K
+          :screen_name: TTKoev
+          :location: Norwich, UK
+          :description: "Post-Doc in NMR method development. All things #NMR, Carbohydrates,
+            Hydrogels, #DrugDelivery, Med Chemistry, Metabolomics. My own views. \U0001F3F3️‍\U0001F308"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 344
+          :friends_count: 515
+          :listed_count: 18
+          :created_at: Thu Aug 27 20:41:25 +0000 2009
+          :favourites_count: 7443
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 11124
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: D0A731
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme2/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme2/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1491764676010684417/LyESBd2j_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1491764676010684417/LyESBd2j_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/69398337/1619962881
+          :profile_link_color: '996633'
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: FCB8B0
+          :profile_text_color: '000000'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:03:44 +0000 2022
+            :id: 1494583396512772119
+            :id_str: '1494583396512772119'
+            :text: "Not bad, not bad. #Wordle 244 4/6*\n\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: *5
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: TTKoev
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494583396512772119
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

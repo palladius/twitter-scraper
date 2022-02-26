@@ -10,12 +10,6 @@ require 'json'
 require 'socket'
 require 'twitter'
 
-# TWITTER_OPTIONS = {
-#     :api_key =>        ENV['TWITTER_CONSUMER_KEY'],
-#     :api_key_secret => ENV['TWITTER_CONSUMER_SECRET'],
-#     :bearer_token => ENV["TWITTER_BEARER_TOKEN"],
-#   }
-
 # Options
 # v1
 # v2
@@ -85,20 +79,12 @@ def main
   else
       puts "We'll skip async runners since they seem to clog in dev and return TOO MANY APU CALLS :) and kill everyone else :)"
     end
-  # Tweet.seed_by_calling_twitter_apis('#wordle',  $n_tweets, {
-  #   :description => 'call from db:seed to NON-delayed task on Model directly..'
-  # })
 
   rake_seed_parse_keys_simplified
 end
 
 def rake_seed_parse_keys_simplified()
   puts(green("This is the new code! It uses the Tweet.first.load_from_twitter concern - wOOt!"))
-
-  # client = Twitter::REST::Client.new do |config|
-  #   config.consumer_key        = TWITTER_OPTIONS[:api_key]
-  #   config.consumer_secret     = TWITTER_OPTIONS[:api_key_secret]
-  # end
 
   puts "Looking for #{$n_tweets} tweets matching #Wordle hashtag:"
 

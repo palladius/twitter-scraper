@@ -1,0 +1,164 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:17:44 +0000 2022
+  :id: 1494586921279889409
+  :id_str: '1494586921279889409'
+  :text: "OH MY GOD I GOT SO LUCKY\nWordle 244 3/6*\n\n⬜\U0001F7E8⬜⬜⬜\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 1494586920118067200
+  :in_reply_to_status_id_str: '1494586920118067200'
+  :in_reply_to_user_id: 43230989
+  :in_reply_to_user_id_str: '43230989'
+  :in_reply_to_screen_name: troglobite_type
+  :user:
+    :id: 43230989
+    :id_str: '43230989'
+    :name: "beck\U0001F637\U0001F429\U0001F4364A"
+    :screen_name: troglobite_type
+    :location: 'DA: 2121-8719-5723'
+    :description: "27. they/them. \nbelieve skating survivors BLM abolish police &
+      prisons \nTCC boys forever//yuzu jun jason javi//yuzu GOAT//Gay Shit//BA&MA
+      shakespeare nerd"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 158
+    :friends_count: 1049
+    :listed_count: 0
+    :created_at: Fri May 29 00:28:50 +0000 2009
+    :favourites_count: 122481
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 81751
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: 5B18A8
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme4/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme4/bg.gif
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1400968752510889986/momOIrgy_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1400968752510889986/momOIrgy_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/43230989/1581408476
+    :profile_link_color: 762BB4
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: CDE6DB
+    :profile_text_color: 491A80
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "OH MY GOD I GOT SO LUCKY\nWordle 244 3/6*\n\n⬜\U0001F7E8⬜⬜⬜\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 43230989
+          :id_str: '43230989'
+          :name: "beck\U0001F637\U0001F429\U0001F4364A"
+          :screen_name: troglobite_type
+          :location: 'DA: 2121-8719-5723'
+          :description: "27. they/them. \nbelieve skating survivors BLM abolish police
+            & prisons \nTCC boys forever//yuzu jun jason javi//yuzu GOAT//Gay Shit//BA&MA
+            shakespeare nerd"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 158
+          :friends_count: 1049
+          :listed_count: 0
+          :created_at: Fri May 29 00:28:50 +0000 2009
+          :favourites_count: 122481
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 81751
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: 5B18A8
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme4/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme4/bg.gif
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1400968752510889986/momOIrgy_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1400968752510889986/momOIrgy_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/43230989/1581408476
+          :profile_link_color: 762BB4
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: CDE6DB
+          :profile_text_color: 491A80
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:17:44 +0000 2022
+            :id: 1494586921279889409
+            :id_str: '1494586921279889409'
+            :text: "OH MY GOD I GOT SO LUCKY\nWordle 244 3/6*\n\n⬜\U0001F7E8⬜⬜⬜\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 1494586920118067200
+            :in_reply_to_status_id_str: '1494586920118067200'
+            :in_reply_to_user_id: 43230989
+            :in_reply_to_user_id_str: '43230989'
+            :in_reply_to_screen_name: troglobite_type
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: troglobite_type
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586921279889409
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

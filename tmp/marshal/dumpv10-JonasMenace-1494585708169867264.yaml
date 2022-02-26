@@ -1,0 +1,176 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:12:55 +0000 2022
+  :id: 1494585708169867264
+  :id_str: '1494585708169867264'
+  :text: "Le Mot (@WordleFR) #40 4/6\n\n⬛⬛⬛\U0001F7E8⬛\n⬛\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E8\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/bPfKrc256N"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 8
+      - 17
+    :urls:
+    - :url: https://t.co/bPfKrc256N
+      :expanded_url: http://wordle.louan.me
+      :display_url: wordle.louan.me
+      :indices:
+      - 53
+      - 76
+  :metadata: &4
+    :iso_language_code: fr
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 1494585354971721729
+  :in_reply_to_status_id_str: '1494585354971721729'
+  :in_reply_to_user_id: 2646215340
+  :in_reply_to_user_id_str: '2646215340'
+  :in_reply_to_screen_name: JonasMenace
+  :user:
+    :id: 2646215340
+    :id_str: '2646215340'
+    :name: Casquette
+    :screen_name: JonasMenace
+    :location: L❤️
+    :description: ON A FAIT DU LENS
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 1503
+    :friends_count: 1389
+    :listed_count: 50
+    :created_at: Mon Jul 14 19:37:21 +0000 2014
+    :favourites_count: 49322
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 138125
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '0099B9'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme4/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme4/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1475878490641739776/2z3TFDE2_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1475878490641739776/2z3TFDE2_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/2646215340/1644218031
+    :profile_link_color: '0099B9'
+    :profile_sidebar_border_color: 5ED4DC
+    :profile_sidebar_fill_color: 95E8EC
+    :profile_text_color: 3C3940
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 1
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: fr
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Le Mot (@WordleFR) #40 4/6\n\n⬛⬛⬛\U0001F7E8⬛\n⬛\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E8\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/bPfKrc256N"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 2646215340
+          :id_str: '2646215340'
+          :name: Casquette
+          :screen_name: JonasMenace
+          :location: L❤️
+          :description: ON A FAIT DU LENS
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 1503
+          :friends_count: 1389
+          :listed_count: 50
+          :created_at: Mon Jul 14 19:37:21 +0000 2014
+          :favourites_count: 49322
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 138125
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '0099B9'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme4/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme4/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1475878490641739776/2z3TFDE2_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1475878490641739776/2z3TFDE2_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/2646215340/1644218031
+          :profile_link_color: '0099B9'
+          :profile_sidebar_border_color: 5ED4DC
+          :profile_sidebar_fill_color: 95E8EC
+          :profile_text_color: 3C3940
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:12:55 +0000 2022
+            :id: 1494585708169867264
+            :id_str: '1494585708169867264'
+            :text: "Le Mot (@WordleFR) #40 4/6\n\n⬛⬛⬛\U0001F7E8⬛\n⬛\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E8\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/bPfKrc256N"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 1494585354971721729
+            :in_reply_to_status_id_str: '1494585354971721729'
+            :in_reply_to_user_id: 2646215340
+            :in_reply_to_user_id_str: '2646215340'
+            :in_reply_to_screen_name: JonasMenace
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 1
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: fr
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: JonasMenace
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494585708169867264
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

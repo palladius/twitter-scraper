@@ -1,0 +1,168 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Sat Feb 19 19:02:00 +0000 2022
+  :id: 1495111444102545408
+  :id_str: '1495111444102545408'
+  :text: "#Wordle 246 3/6\n\n\U0001F7E8⬛⬛\U0001F7E8⬛\n⬛⬛\U0001F7E8\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9
+    that was my second guess but I digressed"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 0
+      - 7
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 1494846287241674756
+  :in_reply_to_status_id_str: '1494846287241674756'
+  :in_reply_to_user_id: 50616028
+  :in_reply_to_user_id_str: '50616028'
+  :in_reply_to_screen_name: amarlungare
+  :user:
+    :id: 50616028
+    :id_str: '50616028'
+    :name: amar lungare
+    :screen_name: amarlungare
+    :location: Pune
+    :description: ''
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 57
+    :friends_count: 304
+    :listed_count: 12
+    :created_at: Thu Jun 25 11:07:20 +0000 2009
+    :favourites_count: 9050
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 3693
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: 9AE4E8
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1032872006453088256/IDf17F3l_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1032872006453088256/IDf17F3l_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/50616028/1535090793
+    :profile_link_color: '0084B4'
+    :profile_sidebar_border_color: BDDCAD
+    :profile_sidebar_fill_color: DDFFCC
+    :profile_text_color: 0F0A0F
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "#Wordle 246 3/6\n\n\U0001F7E8⬛⬛\U0001F7E8⬛\n⬛⬛\U0001F7E8\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9
+        that was my second guess but I digressed"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 50616028
+          :id_str: '50616028'
+          :name: amar lungare
+          :screen_name: amarlungare
+          :location: Pune
+          :description: ''
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 57
+          :friends_count: 304
+          :listed_count: 12
+          :created_at: Thu Jun 25 11:07:20 +0000 2009
+          :favourites_count: 9050
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 3693
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: 9AE4E8
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1032872006453088256/IDf17F3l_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1032872006453088256/IDf17F3l_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/50616028/1535090793
+          :profile_link_color: '0084B4'
+          :profile_sidebar_border_color: BDDCAD
+          :profile_sidebar_fill_color: DDFFCC
+          :profile_text_color: 0F0A0F
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Sat Feb 19 19:02:00 +0000 2022
+            :id: 1495111444102545408
+            :id_str: '1495111444102545408'
+            :text: "#Wordle 246 3/6\n\n\U0001F7E8⬛⬛\U0001F7E8⬛\n⬛⬛\U0001F7E8\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9
+              that was my second guess but I digressed"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 1494846287241674756
+            :in_reply_to_status_id_str: '1494846287241674756'
+            :in_reply_to_user_id: 50616028
+            :in_reply_to_user_id_str: '50616028'
+            :in_reply_to_screen_name: amarlungare
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: amarlungare
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1495111444102545408
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

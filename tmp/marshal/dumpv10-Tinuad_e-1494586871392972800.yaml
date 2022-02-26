@@ -1,0 +1,167 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:17:32 +0000 2022
+  :id: 1494586871392972800
+  :id_str: '1494586871392972800'
+  :text: "Wordle 244 4/6\n\n⬛\U0001F7E8⬛⬛⬛\n⬛⬛\U0001F7E8⬛\U0001F7E9\n\U0001F7E9⬛\U0001F7E8\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 58939612
+    :id_str: '58939612'
+    :name: Tinúadé
+    :screen_name: Tinuad_e
+    :location: Bikini Bottom
+    :description: "\U0001F6ABnot suitable for any audience https://t.co/9xV1ttRGeb"
+    :url: 
+    :entities: &1
+      :description:
+        :urls:
+        - :url: https://t.co/9xV1ttRGeb
+          :expanded_url: http://Instagram.com/Tinu.perhaps.eats
+          :display_url: Instagram.com/Tinu.perhaps.e…
+          :indices:
+          - 31
+          - 54
+    :protected: false
+    :followers_count: 1731
+    :friends_count: 484
+    :listed_count: 8
+    :created_at: Tue Jul 21 22:12:11 +0000 2009
+    :favourites_count: 5384
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 80036
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: 1A1B1F
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme9/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme9/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1485146697768611841/nPApUx6A_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1485146697768611841/nPApUx6A_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/58939612/1643173718
+    :profile_link_color: 2FC2EF
+    :profile_sidebar_border_color: 181A1E
+    :profile_sidebar_fill_color: '252429'
+    :profile_text_color: '666666'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 4/6\n\n⬛\U0001F7E8⬛⬛⬛\n⬛⬛\U0001F7E8⬛\U0001F7E9\n\U0001F7E9⬛\U0001F7E8\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 58939612
+          :id_str: '58939612'
+          :name: Tinúadé
+          :screen_name: Tinuad_e
+          :location: Bikini Bottom
+          :description: "\U0001F6ABnot suitable for any audience https://t.co/9xV1ttRGeb"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 1731
+          :friends_count: 484
+          :listed_count: 8
+          :created_at: Tue Jul 21 22:12:11 +0000 2009
+          :favourites_count: 5384
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 80036
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: 1A1B1F
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme9/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme9/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1485146697768611841/nPApUx6A_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1485146697768611841/nPApUx6A_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/58939612/1643173718
+          :profile_link_color: 2FC2EF
+          :profile_sidebar_border_color: 181A1E
+          :profile_sidebar_fill_color: '252429'
+          :profile_text_color: '666666'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:17:32 +0000 2022
+            :id: 1494586871392972800
+            :id_str: '1494586871392972800'
+            :text: "Wordle 244 4/6\n\n⬛\U0001F7E8⬛⬛⬛\n⬛⬛\U0001F7E8⬛\U0001F7E9\n\U0001F7E9⬛\U0001F7E8\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Tinuad_e
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586871392972800
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,188 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Sat Feb 26 09:09:18 +0000 2022
+  :id: 1497499001855385601
+  :id_str: '1497499001855385601'
+  :text: "https://t.co/T1dNr3hOJP\nWORDLE\U0001F1E9\U0001F1EA 390 5/6\n\n⬛⬛⬛⬛⬛\n\U0001F7E8⬛⬛⬛\U0001F7E8\n⬛⬛\U0001F7E8\U0001F7E8⬛\n⬛\U0001F7E8⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nby
+    @dewordle"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: DeWordle
+      :name: dewordle
+      :id: 1482411529152741376
+      :id_str: '1482411529152741376'
+      :indices:
+      - 75
+      - 84
+    :urls:
+    - :url: https://t.co/T1dNr3hOJP
+      :expanded_url: http://wordle-spielen.de
+      :display_url: wordle-spielen.de
+      :indices:
+      - 0
+      - 23
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1153058495991820291
+    :id_str: '1153058495991820291'
+    :name: lea
+    :screen_name: C0BALL0WAYS
+    :location: what’s this feeling that screams inside of me? devotion. fealty. love.
+    :description: but i love peter parker more
+    :url: https://t.co/RxZf0RkibJ
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/RxZf0RkibJ
+          :expanded_url: http://she.her.xn--jhfz3g/
+          :display_url: she.her.ᥫ᭡
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 2512
+    :friends_count: 1745
+    :listed_count: 41
+    :created_at: Sun Jul 21 21:45:43 +0000 2019
+    :favourites_count: 46822
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 9263
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1494774515376832518/HyH3Erso_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1494774515376832518/HyH3Erso_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1153058495991820291/1635683641
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1153058495991820291
+          :id_str: '1153058495991820291'
+          :name: lea
+          :screen_name: C0BALL0WAYS
+          :location: what’s this feeling that screams inside of me? devotion. fealty.
+            love.
+          :description: but i love peter parker more
+          :url: https://t.co/RxZf0RkibJ
+          :entities: *1
+          :protected: false
+          :followers_count: 2512
+          :friends_count: 1745
+          :listed_count: 41
+          :created_at: Sun Jul 21 21:45:43 +0000 2019
+          :favourites_count: 46822
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 9263
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1494774515376832518/HyH3Erso_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1494774515376832518/HyH3Erso_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1153058495991820291/1635683641
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Sat Feb 26 09:09:18 +0000 2022
+            :id: 1497499001855385601
+            :id_str: '1497499001855385601'
+            :text: "https://t.co/T1dNr3hOJP\nWORDLE\U0001F1E9\U0001F1EA 390 5/6\n\n⬛⬛⬛⬛⬛\n\U0001F7E8⬛⬛⬛\U0001F7E8\n⬛⬛\U0001F7E8\U0001F7E8⬛\n⬛\U0001F7E8⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nby
+              @dewordle"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: C0BALL0WAYS
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1497499001855385601
+      :text: "https://t.co/T1dNr3hOJP\nWORDLE\U0001F1E9\U0001F1EA 390 5/6\n\n⬛⬛⬛⬛⬛\n\U0001F7E8⬛⬛⬛\U0001F7E8\n⬛⬛\U0001F7E8\U0001F7E8⬛\n⬛\U0001F7E8⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nby
+        @dewordle"
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

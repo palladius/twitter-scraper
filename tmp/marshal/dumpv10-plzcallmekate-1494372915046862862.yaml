@@ -1,0 +1,170 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Thu Feb 17 18:07:21 +0000 2022
+  :id: 1494372915046862862
+  :id_str: '1494372915046862862'
+  :text: "Taylordle 20 2/6\n\n\U0001F7E9⬜⬜⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n\U0001F60E
+    #taylordle"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: taylordle
+      :indices:
+      - 33
+      - 43
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 2227147142
+    :id_str: '2227147142'
+    :name: "\U0001F48B (Taylor’s Version)"
+    :screen_name: plzcallmekate
+    :location: CA
+    :description: "Living my best Taylor Swift stan life here on Twitter. ✨ ♥️\U0001F62DLA
+      reputation Secret Sessions\U0001F62D♥️"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 143
+    :friends_count: 351
+    :listed_count: 0
+    :created_at: Mon Dec 02 19:17:03 +0000 2013
+    :favourites_count: 46095
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 2362
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '000000'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme14/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme14/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1214809151190134784/m75mU04__normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1214809151190134784/m75mU04__normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/2227147142/1539831237
+    :profile_link_color: F58EA8
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: '000000'
+    :profile_text_color: '000000'
+    :profile_use_background_image: false
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Taylordle 20 2/6\n\n\U0001F7E9⬜⬜⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n\U0001F60E
+        #taylordle"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 2227147142
+          :id_str: '2227147142'
+          :name: "\U0001F48B (Taylor’s Version)"
+          :screen_name: plzcallmekate
+          :location: CA
+          :description: "Living my best Taylor Swift stan life here on Twitter. ✨
+            ♥️\U0001F62DLA reputation Secret Sessions\U0001F62D♥️"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 143
+          :friends_count: 351
+          :listed_count: 0
+          :created_at: Mon Dec 02 19:17:03 +0000 2013
+          :favourites_count: 46095
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 2362
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '000000'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme14/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme14/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1214809151190134784/m75mU04__normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1214809151190134784/m75mU04__normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/2227147142/1539831237
+          :profile_link_color: F58EA8
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: '000000'
+          :profile_text_color: '000000'
+          :profile_use_background_image: false
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Thu Feb 17 18:07:21 +0000 2022
+            :id: 1494372915046862862
+            :id_str: '1494372915046862862'
+            :text: "Taylordle 20 2/6\n\n\U0001F7E9⬜⬜⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n\U0001F60E
+              #taylordle"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: plzcallmekate
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494372915046862862
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,161 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:18:51 +0000 2022
+  :id: 1494587200515813378
+  :id_str: '1494587200515813378'
+  :text: "Wordle 244 5/6\n\n⬛⬛⬛\U0001F7E8⬛\n⬛⬛\U0001F7E8⬛⬛\n⬛\U0001F7E8⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 234029264
+    :id_str: '234029264'
+    :name: thabang
+    :screen_name: Letrman_
+    :location: Milan Twitter
+    :description: ForzaMilan
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 127
+    :friends_count: 476
+    :listed_count: 2
+    :created_at: Tue Jan 04 17:47:04 +0000 2011
+    :favourites_count: 15922
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 19148
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: EBEBEB
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme7/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme7/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1437504763952828418/oxF_J5qy_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1437504763952828418/oxF_J5qy_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/234029264/1612559000
+    :profile_link_color: '990000'
+    :profile_sidebar_border_color: DFDFDF
+    :profile_sidebar_fill_color: F3F3F3
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 5/6\n\n⬛⬛⬛\U0001F7E8⬛\n⬛⬛\U0001F7E8⬛⬛\n⬛\U0001F7E8⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 234029264
+          :id_str: '234029264'
+          :name: thabang
+          :screen_name: Letrman_
+          :location: Milan Twitter
+          :description: ForzaMilan
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 127
+          :friends_count: 476
+          :listed_count: 2
+          :created_at: Tue Jan 04 17:47:04 +0000 2011
+          :favourites_count: 15922
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 19148
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: EBEBEB
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme7/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme7/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1437504763952828418/oxF_J5qy_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1437504763952828418/oxF_J5qy_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/234029264/1612559000
+          :profile_link_color: '990000'
+          :profile_sidebar_border_color: DFDFDF
+          :profile_sidebar_fill_color: F3F3F3
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:18:51 +0000 2022
+            :id: 1494587200515813378
+            :id_str: '1494587200515813378'
+            :text: "Wordle 244 5/6\n\n⬛⬛⬛\U0001F7E8⬛\n⬛⬛\U0001F7E8⬛⬛\n⬛\U0001F7E8⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Letrman_
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587200515813378
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

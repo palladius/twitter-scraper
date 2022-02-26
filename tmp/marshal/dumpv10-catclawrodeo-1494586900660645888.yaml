@@ -1,0 +1,172 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:17:39 +0000 2022
+  :id: 1494586900660645888
+  :id_str: '1494586900660645888'
+  :text: "Wordle 244 3/6\n\n\U0001F7E9⬛⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 1494221279137714176
+  :in_reply_to_status_id_str: '1494221279137714176'
+  :in_reply_to_user_id: 819332772690956288
+  :in_reply_to_user_id_str: '819332772690956288'
+  :in_reply_to_screen_name: catclawrodeo
+  :user:
+    :id: 819332772690956288
+    :id_str: '819332772690956288'
+    :name: Caper the Fox, Teamster
+    :screen_name: catclawrodeo
+    :location: ''
+    :description: "\U0001F3B6 don't you remember I told ya I'm a soldier in the war
+      on poverty\U0001F3B6 she/her\n\U0001F434\U0001F434 proud Teamster shop steward"
+    :url: https://t.co/7qSI56mQNP
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/7qSI56mQNP
+          :expanded_url: https://www.paypal.me/SendStasiaHome
+          :display_url: paypal.me/SendStasiaHome
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 762
+    :friends_count: 548
+    :listed_count: 1
+    :created_at: Wed Jan 11 23:58:50 +0000 2017
+    :favourites_count: 68274
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 31354
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1491947914444238851/PMXMmH9L_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1491947914444238851/PMXMmH9L_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/819332772690956288/1643074557
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 3/6\n\n\U0001F7E9⬛⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 819332772690956288
+          :id_str: '819332772690956288'
+          :name: Caper the Fox, Teamster
+          :screen_name: catclawrodeo
+          :location: ''
+          :description: "\U0001F3B6 don't you remember I told ya I'm a soldier in
+            the war on poverty\U0001F3B6 she/her\n\U0001F434\U0001F434 proud Teamster
+            shop steward"
+          :url: https://t.co/7qSI56mQNP
+          :entities: *1
+          :protected: false
+          :followers_count: 762
+          :friends_count: 548
+          :listed_count: 1
+          :created_at: Wed Jan 11 23:58:50 +0000 2017
+          :favourites_count: 68274
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 31354
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1491947914444238851/PMXMmH9L_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1491947914444238851/PMXMmH9L_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/819332772690956288/1643074557
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:17:39 +0000 2022
+            :id: 1494586900660645888
+            :id_str: '1494586900660645888'
+            :text: "Wordle 244 3/6\n\n\U0001F7E9⬛⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 1494221279137714176
+            :in_reply_to_status_id_str: '1494221279137714176'
+            :in_reply_to_user_id: 819332772690956288
+            :in_reply_to_user_id_str: '819332772690956288'
+            :in_reply_to_screen_name: catclawrodeo
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: catclawrodeo
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586900660645888
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

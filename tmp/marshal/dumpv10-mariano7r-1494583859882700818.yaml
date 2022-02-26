@@ -1,0 +1,185 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:05:34 +0000 2022
+  :id: 1494583859882700818
+  :id_str: '1494583859882700818'
+  :text: "Ni tan mal\n\nLe Mot (@WordleFR) #40 4/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E8⬛⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/yqroiOYndK"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 20
+      - 29
+    :urls:
+    - :url: https://t.co/yqroiOYndK
+      :expanded_url: http://wordle.louan.me
+      :display_url: wordle.louan.me
+      :indices:
+      - 65
+      - 88
+  :metadata: &4
+    :iso_language_code: ht
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 1494581159224881179
+  :in_reply_to_status_id_str: '1494581159224881179'
+  :in_reply_to_user_id: 403631057
+  :in_reply_to_user_id_str: '403631057'
+  :in_reply_to_screen_name: mariano7r
+  :user:
+    :id: 403631057
+    :id_str: '403631057'
+    :name: Somiatruites
+    :screen_name: mariano7r
+    :location: Madrid, España
+    :description: "Un día me levanté y pensé: 'Me apetece hablar sobre algo que no
+      le importe a nadie'. \n\nPor eso estoy en Twitter."
+    :url: https://t.co/fYRF7lu7G9
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/fYRF7lu7G9
+          :expanded_url: https://instagram.com/mariano7r/
+          :display_url: instagram.com/mariano7r/
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 934
+    :friends_count: 536
+    :listed_count: 10
+    :created_at: Wed Nov 02 19:31:29 +0000 2011
+    :favourites_count: 49169
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 50469
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: E05A55
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1304111249882570754/Yvum37cH_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1304111249882570754/Yvum37cH_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/403631057/1599759437
+    :profile_link_color: 89C9FA
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: false
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: ht
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Ni tan mal\n\nLe Mot (@WordleFR) #40 4/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E8⬛⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/yqroiOYndK"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 403631057
+          :id_str: '403631057'
+          :name: Somiatruites
+          :screen_name: mariano7r
+          :location: Madrid, España
+          :description: "Un día me levanté y pensé: 'Me apetece hablar sobre algo
+            que no le importe a nadie'. \n\nPor eso estoy en Twitter."
+          :url: https://t.co/fYRF7lu7G9
+          :entities: *1
+          :protected: false
+          :followers_count: 934
+          :friends_count: 536
+          :listed_count: 10
+          :created_at: Wed Nov 02 19:31:29 +0000 2011
+          :favourites_count: 49169
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 50469
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: E05A55
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1304111249882570754/Yvum37cH_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1304111249882570754/Yvum37cH_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/403631057/1599759437
+          :profile_link_color: 89C9FA
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: false
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:05:34 +0000 2022
+            :id: 1494583859882700818
+            :id_str: '1494583859882700818'
+            :text: "Ni tan mal\n\nLe Mot (@WordleFR) #40 4/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E8⬛⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/yqroiOYndK"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 1494581159224881179
+            :in_reply_to_status_id_str: '1494581159224881179'
+            :in_reply_to_user_id: 403631057
+            :in_reply_to_user_id_str: '403631057'
+            :in_reply_to_screen_name: mariano7r
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: ht
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: mariano7r
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494583859882700818
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

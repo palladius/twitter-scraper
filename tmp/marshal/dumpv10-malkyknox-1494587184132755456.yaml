@@ -1,0 +1,180 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:18:47 +0000 2022
+  :id: 1494587184132755456
+  :id_str: '1494587184132755456'
+  :text: "@RyanGilbert79 Wordle 244 6/6\n\n⬜\U0001F7E9⬜\U0001F7E8⬜\n⬜\U0001F7E9⬜⬜\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: RyanGilbert79
+      :name: Ryan Gilbert
+      :id: 241909284
+      :id_str: '241909284'
+      :indices:
+      - 0
+      - 14
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 1494557906536222743
+  :in_reply_to_status_id_str: '1494557906536222743'
+  :in_reply_to_user_id: 241909284
+  :in_reply_to_user_id_str: '241909284'
+  :in_reply_to_screen_name: RyanGilbert79
+  :user:
+    :id: 37764331
+    :id_str: '37764331'
+    :name: Malcolm Knox
+    :screen_name: malkyknox
+    :location: British Columbia
+    :description: Leading the North American Digital Transformation of Sports Facilities
+      as General Manager for North America at SportsKey. Scots-born and bred. Rugby
+      guy.
+    :url: https://t.co/zXyCnQNkDH
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/zXyCnQNkDH
+          :expanded_url: http://www.sportskey.com
+          :display_url: sportskey.com
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 410
+    :friends_count: 924
+    :listed_count: 6
+    :created_at: Mon May 04 21:25:00 +0000 2009
+    :favourites_count: 1254
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 2481
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: CCCCCC
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme14/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme14/bg.gif
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/756203777665802240/L_OEnOtL_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/756203777665802240/L_OEnOtL_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/37764331/1626186194
+    :profile_link_color: '999999'
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: '333333'
+    :profile_text_color: '666666'
+    :profile_use_background_image: false
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "@RyanGilbert79 Wordle 244 6/6\n\n⬜\U0001F7E9⬜\U0001F7E8⬜\n⬜\U0001F7E9⬜⬜\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 37764331
+          :id_str: '37764331'
+          :name: Malcolm Knox
+          :screen_name: malkyknox
+          :location: British Columbia
+          :description: Leading the North American Digital Transformation of Sports
+            Facilities as General Manager for North America at SportsKey. Scots-born
+            and bred. Rugby guy.
+          :url: https://t.co/zXyCnQNkDH
+          :entities: *1
+          :protected: false
+          :followers_count: 410
+          :friends_count: 924
+          :listed_count: 6
+          :created_at: Mon May 04 21:25:00 +0000 2009
+          :favourites_count: 1254
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 2481
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: CCCCCC
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme14/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme14/bg.gif
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/756203777665802240/L_OEnOtL_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/756203777665802240/L_OEnOtL_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/37764331/1626186194
+          :profile_link_color: '999999'
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: '333333'
+          :profile_text_color: '666666'
+          :profile_use_background_image: false
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:18:47 +0000 2022
+            :id: 1494587184132755456
+            :id_str: '1494587184132755456'
+            :text: "@RyanGilbert79 Wordle 244 6/6\n\n⬜\U0001F7E9⬜\U0001F7E8⬜\n⬜\U0001F7E9⬜⬜\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 1494557906536222743
+            :in_reply_to_status_id_str: '1494557906536222743'
+            :in_reply_to_user_id: 241909284
+            :in_reply_to_user_id_str: '241909284'
+            :in_reply_to_screen_name: RyanGilbert79
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: malkyknox
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587184132755456
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

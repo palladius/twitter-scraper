@@ -1,0 +1,166 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:18:38 +0000 2022
+  :id: 1494587145192943622
+  :id_str: '1494587145192943622'
+  :text: "Wordle 244 6/6\n\n⬛⬛\U0001F7E9⬛\U0001F7E8\n⬛\U0001F7E9\U0001F7E9\U0001F7E8⬛\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nMe
+    dumb"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 99301684
+    :id_str: '99301684'
+    :name: Marley
+    :screen_name: marleybennett
+    :location: Bristol
+    :description: "Footballer | Anti-fascist | @UKLabour Councillor for Eastville
+      \U0001F339 |  Eternal optimist | Man Utd | He/his"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 2931
+    :friends_count: 2388
+    :listed_count: 45
+    :created_at: Fri Dec 25 15:05:12 +0000 2009
+    :favourites_count: 122182
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 11128
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: 642D8B
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme14/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme14/bg.gif
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1441322392161120259/p7OjVo_G_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1441322392161120259/p7OjVo_G_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/99301684/1624306037
+    :profile_link_color: E00034
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: EFEFEF
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 6/6\n\n⬛⬛\U0001F7E9⬛\U0001F7E8\n⬛\U0001F7E9\U0001F7E9\U0001F7E8⬛\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nMe
+        dumb"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 99301684
+          :id_str: '99301684'
+          :name: Marley
+          :screen_name: marleybennett
+          :location: Bristol
+          :description: "Footballer | Anti-fascist | @UKLabour Councillor for Eastville
+            \U0001F339 |  Eternal optimist | Man Utd | He/his"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 2931
+          :friends_count: 2388
+          :listed_count: 45
+          :created_at: Fri Dec 25 15:05:12 +0000 2009
+          :favourites_count: 122182
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 11128
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: 642D8B
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme14/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme14/bg.gif
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1441322392161120259/p7OjVo_G_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1441322392161120259/p7OjVo_G_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/99301684/1624306037
+          :profile_link_color: E00034
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: EFEFEF
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:18:38 +0000 2022
+            :id: 1494587145192943622
+            :id_str: '1494587145192943622'
+            :text: "Wordle 244 6/6\n\n⬛⬛\U0001F7E9⬛\U0001F7E8\n⬛\U0001F7E9\U0001F7E9\U0001F7E8⬛\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nMe
+              dumb"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: marleybennett
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587145192943622
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,174 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:15:52 +0000 2022
+  :id: 1494586449450389507
+  :id_str: '1494586449450389507'
+  :text: "ううー。苦戦した。\n\nLe Mot (@WordleFR) #40 6/6\n\n⬛\U0001F7E9\U0001F7E8⬛⬛\n⬛\U0001F7E9⬛⬛⬛\n⬛\U0001F7E9\U0001F7E8⬛⬛\n⬛\U0001F7E8\U0001F7E8⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/6h1JbptcIH"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 19
+      - 28
+    :urls:
+    - :url: https://t.co/6h1JbptcIH
+      :expanded_url: http://wordle.louan.me
+      :display_url: wordle.louan.me
+      :indices:
+      - 76
+      - 99
+  :metadata: &4
+    :iso_language_code: ja
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1878960037
+    :id_str: '1878960037'
+    :name: DDC_violoncellista
+    :screen_name: DDC_violoncelli
+    :location: ''
+    :description: 音楽・文学・美術のつぶやき専用です。政治・宗教の話題は絡まれても議論しません。musica speculativa の伝統への回帰を掲げ、自ら「完全なる楽長」になるべく日々勉強中。独仏羅伊英日韓希波丁語ほか。ストア派の隠者。
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 2091
+    :friends_count: 434
+    :listed_count: 59
+    :created_at: Wed Sep 18 10:19:33 +0000 2013
+    :favourites_count: 11024
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 26143
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1055564668809416710/mNA5bZ6z_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1055564668809416710/mNA5bZ6z_normal.jpg
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: ja
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "ううー。苦戦した。\n\nLe Mot (@WordleFR) #40 6/6\n\n⬛\U0001F7E9\U0001F7E8⬛⬛\n⬛\U0001F7E9⬛⬛⬛\n⬛\U0001F7E9\U0001F7E8⬛⬛\n⬛\U0001F7E8\U0001F7E8⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/6h1JbptcIH"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1878960037
+          :id_str: '1878960037'
+          :name: DDC_violoncellista
+          :screen_name: DDC_violoncelli
+          :location: ''
+          :description: 音楽・文学・美術のつぶやき専用です。政治・宗教の話題は絡まれても議論しません。musica speculativa
+            の伝統への回帰を掲げ、自ら「完全なる楽長」になるべく日々勉強中。独仏羅伊英日韓希波丁語ほか。ストア派の隠者。
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 2091
+          :friends_count: 434
+          :listed_count: 59
+          :created_at: Wed Sep 18 10:19:33 +0000 2013
+          :favourites_count: 11024
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 26143
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1055564668809416710/mNA5bZ6z_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1055564668809416710/mNA5bZ6z_normal.jpg
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:15:52 +0000 2022
+            :id: 1494586449450389507
+            :id_str: '1494586449450389507'
+            :text: "ううー。苦戦した。\n\nLe Mot (@WordleFR) #40 6/6\n\n⬛\U0001F7E9\U0001F7E8⬛⬛\n⬛\U0001F7E9⬛⬛⬛\n⬛\U0001F7E9\U0001F7E8⬛⬛\n⬛\U0001F7E8\U0001F7E8⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/6h1JbptcIH"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: ja
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: DDC_violoncelli
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586449450389507
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

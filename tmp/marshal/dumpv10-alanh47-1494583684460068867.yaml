@@ -1,0 +1,167 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:04:53 +0000 2022
+  :id: 1494583684460068867
+  :id_str: '1494583684460068867'
+  :text: "#wordle\n\nWordle 244 5/6\n\n⬜⬜\U0001F7E8⬜\U0001F7E9\n⬜\U0001F7E9⬜⬜\U0001F7E9\n⬜\U0001F7E9⬜\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: wordle
+      :indices:
+      - 0
+      - 7
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/#!/download/ipad" rel="nofollow">Twitter for
+    iPad</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 4242794158
+    :id_str: '4242794158'
+    :name: Alan H
+    :screen_name: alanh47
+    :location: UK
+    :description: "Old enough to know better: STFC \U0001F534⚪️⚽, BBC6Music \U0001F50A\U0001F442\U0001F44D\U0001F57A
+      Cold War Steve \U0001F9D1‍\U0001F3A8\U0001F602"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 29
+    :friends_count: 153
+    :listed_count: 1
+    :created_at: Sat Nov 21 14:40:57 +0000 2015
+    :favourites_count: 7658
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 3059
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/754233416363671552/TsQtD6RI_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/754233416363671552/TsQtD6RI_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/4242794158/1590312147
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "#wordle\n\nWordle 244 5/6\n\n⬜⬜\U0001F7E8⬜\U0001F7E9\n⬜\U0001F7E9⬜⬜\U0001F7E9\n⬜\U0001F7E9⬜\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 4242794158
+          :id_str: '4242794158'
+          :name: Alan H
+          :screen_name: alanh47
+          :location: UK
+          :description: "Old enough to know better: STFC \U0001F534⚪️⚽, BBC6Music
+            \U0001F50A\U0001F442\U0001F44D\U0001F57A Cold War Steve \U0001F9D1‍\U0001F3A8\U0001F602"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 29
+          :friends_count: 153
+          :listed_count: 1
+          :created_at: Sat Nov 21 14:40:57 +0000 2015
+          :favourites_count: 7658
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 3059
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/754233416363671552/TsQtD6RI_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/754233416363671552/TsQtD6RI_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/4242794158/1590312147
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:04:53 +0000 2022
+            :id: 1494583684460068867
+            :id_str: '1494583684460068867'
+            :text: "#wordle\n\nWordle 244 5/6\n\n⬜⬜\U0001F7E8⬜\U0001F7E9\n⬜\U0001F7E9⬜⬜\U0001F7E9\n⬜\U0001F7E9⬜\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/#!/download/ipad" rel="nofollow">Twitter
+              for iPad</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: alanh47
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494583684460068867
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

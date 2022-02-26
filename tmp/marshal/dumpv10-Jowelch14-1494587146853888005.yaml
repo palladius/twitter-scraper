@@ -1,0 +1,167 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:18:38 +0000 2022
+  :id: 1494587146853888005
+  :id_str: '1494587146853888005'
+  :text: "@GSWooster Wordle 244 4/6\n\n\U0001F7E9⬜⬜⬜\U0001F7E9\n\U0001F7E9⬜⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: GSWooster
+      :name: GreenSwizzleWooster
+      :id: 789353930
+      :id_str: '789353930'
+      :indices:
+      - 0
+      - 10
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 1494584184190480425
+  :in_reply_to_status_id_str: '1494584184190480425'
+  :in_reply_to_user_id: 789353930
+  :in_reply_to_user_id_str: '789353930'
+  :in_reply_to_screen_name: GSWooster
+  :user:
+    :id: 829870105
+    :id_str: '829870105'
+    :name: Jo Welch
+    :screen_name: Jowelch14
+    :location: Stockport, England
+    :description: Author of The Einstein Code trilogy. Autistic. Cryptic crossword
+      setter. Loves include family, friends, reading, piano and puzzles.
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 804
+    :friends_count: 491
+    :listed_count: 12
+    :created_at: Mon Sep 17 21:48:13 +0000 2012
+    :favourites_count: 45806
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 4525
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '000000'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1409173839817367555/2BAKyxEO_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1409173839817367555/2BAKyxEO_normal.jpg
+    :profile_link_color: 1B95E0
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: '000000'
+    :profile_text_color: '000000'
+    :profile_use_background_image: false
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "@GSWooster Wordle 244 4/6\n\n\U0001F7E9⬜⬜⬜\U0001F7E9\n\U0001F7E9⬜⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 829870105
+          :id_str: '829870105'
+          :name: Jo Welch
+          :screen_name: Jowelch14
+          :location: Stockport, England
+          :description: Author of The Einstein Code trilogy. Autistic. Cryptic crossword
+            setter. Loves include family, friends, reading, piano and puzzles.
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 804
+          :friends_count: 491
+          :listed_count: 12
+          :created_at: Mon Sep 17 21:48:13 +0000 2012
+          :favourites_count: 45806
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 4525
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '000000'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1409173839817367555/2BAKyxEO_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1409173839817367555/2BAKyxEO_normal.jpg
+          :profile_link_color: 1B95E0
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: '000000'
+          :profile_text_color: '000000'
+          :profile_use_background_image: false
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:18:38 +0000 2022
+            :id: 1494587146853888005
+            :id_str: '1494587146853888005'
+            :text: "@GSWooster Wordle 244 4/6\n\n\U0001F7E9⬜⬜⬜\U0001F7E9\n\U0001F7E9⬜⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 1494584184190480425
+            :in_reply_to_status_id_str: '1494584184190480425'
+            :in_reply_to_user_id: 789353930
+            :in_reply_to_user_id_str: '789353930'
+            :in_reply_to_screen_name: GSWooster
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Jowelch14
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587146853888005
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,177 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:18:44 +0000 2022
+  :id: 1494587171705024514
+  :id_str: '1494587171705024514'
+  :text: "Wordle 244 6/6\n\n⬛⬛⬛⬛⬛\n⬛⬛⬛\U0001F7E8\U0001F7E9\n\U0001F7E9⬛\U0001F7E8⬛\U0001F7E9\n\U0001F7E8\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 1493293005192970242
+  :in_reply_to_status_id_str: '1493293005192970242'
+  :in_reply_to_user_id: 868436472239595520
+  :in_reply_to_user_id_str: '868436472239595520'
+  :in_reply_to_screen_name: nicolafoja
+  :user:
+    :id: 868436472239595520
+    :id_str: '868436472239595520'
+    :name: 'Nicole Foja #LeniKiko2022'
+    :screen_name: nicolafoja
+    :location: Saturn
+    :description: "20 \U0001F1F5\U0001F1ED | \U0001F42F\U0001F33B\U0001F49C | SERVE
+      \U0001F90D | Peace of Mind Cutie ✨ | https://t.co/ibfFWYKT3n"
+    :url: https://t.co/P2gfDsjN6K
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/P2gfDsjN6K
+          :expanded_url: https://open.spotify.com/track/3NhlfClitMnlyjAxU9tu83?si=V_Tvo-87TPa4PTjEhC0STg
+          :display_url: open.spotify.com/track/3NhlfCli…
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls:
+        - :url: https://t.co/ibfFWYKT3n
+          :expanded_url: http://sayout.me/say/nicolefoja
+          :display_url: sayout.me/say/nicolefoja
+          :indices:
+          - 48
+          - 71
+    :protected: false
+    :followers_count: 815
+    :friends_count: 434
+    :listed_count: 0
+    :created_at: Sat May 27 11:59:24 +0000 2017
+    :favourites_count: 22109
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 7989
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1494336955563528193/hNJgg3tZ_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1494336955563528193/hNJgg3tZ_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/868436472239595520/1573142775
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 6/6\n\n⬛⬛⬛⬛⬛\n⬛⬛⬛\U0001F7E8\U0001F7E9\n\U0001F7E9⬛\U0001F7E8⬛\U0001F7E9\n\U0001F7E8\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 868436472239595520
+          :id_str: '868436472239595520'
+          :name: 'Nicole Foja #LeniKiko2022'
+          :screen_name: nicolafoja
+          :location: Saturn
+          :description: "20 \U0001F1F5\U0001F1ED | \U0001F42F\U0001F33B\U0001F49C
+            | SERVE \U0001F90D | Peace of Mind Cutie ✨ | https://t.co/ibfFWYKT3n"
+          :url: https://t.co/P2gfDsjN6K
+          :entities: *1
+          :protected: false
+          :followers_count: 815
+          :friends_count: 434
+          :listed_count: 0
+          :created_at: Sat May 27 11:59:24 +0000 2017
+          :favourites_count: 22109
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 7989
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1494336955563528193/hNJgg3tZ_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1494336955563528193/hNJgg3tZ_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/868436472239595520/1573142775
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:18:44 +0000 2022
+            :id: 1494587171705024514
+            :id_str: '1494587171705024514'
+            :text: "Wordle 244 6/6\n\n⬛⬛⬛⬛⬛\n⬛⬛⬛\U0001F7E8\U0001F7E9\n\U0001F7E9⬛\U0001F7E8⬛\U0001F7E9\n\U0001F7E8\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 1493293005192970242
+            :in_reply_to_status_id_str: '1493293005192970242'
+            :in_reply_to_user_id: 868436472239595520
+            :in_reply_to_user_id_str: '868436472239595520'
+            :in_reply_to_screen_name: nicolafoja
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: nicolafoja
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587171705024514
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

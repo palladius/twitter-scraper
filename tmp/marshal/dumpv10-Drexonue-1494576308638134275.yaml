@@ -1,0 +1,189 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:35:34 +0000 2022
+  :id: 1494576308638134275
+  :id_str: '1494576308638134275'
+  :text: "@_evagrvn_ @WordleFR Encore une fois...#Worldle #28 2/6\n\U0001F7E9\U0001F7E9\U0001F7E8⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nhttps://t.co/kP5BylKTJE"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: Worldle
+      :indices:
+      - 39
+      - 47
+    :symbols: []
+    :user_mentions:
+    - :screen_name: _evagrvn_
+      :name: Évvaaa
+      :id: 1197633720263548929
+      :id_str: '1197633720263548929'
+      :indices:
+      - 0
+      - 10
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 11
+      - 20
+    :urls:
+    - :url: https://t.co/kP5BylKTJE
+      :expanded_url: https://worldle.teuteuf.fr
+      :display_url: worldle.teuteuf.fr
+      :indices:
+      - 68
+      - 91
+  :metadata: &4
+    :iso_language_code: fr
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 1494490837891395594
+  :in_reply_to_status_id_str: '1494490837891395594'
+  :in_reply_to_user_id: 1197633720263548929
+  :in_reply_to_user_id_str: '1197633720263548929'
+  :in_reply_to_screen_name: _evagrvn_
+  :user:
+    :id: 1976089184
+    :id_str: '1976089184'
+    :name: Shrexonue
+    :screen_name: Drexonue
+    :location: Oui
+    :description: "Odin fanclub\n#SLYWIN jusqu'a la mort \npv @drexoaw\nEn gros, j'suis
+      un connard, émoji mains qui prient"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 180
+    :friends_count: 550
+    :listed_count: 10
+    :created_at: Sun Oct 20 19:00:46 +0000 2013
+    :favourites_count: 54972
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 58350
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1486787125194498048/spKANAbT_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1486787125194498048/spKANAbT_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1976089184/1637419245
+    :profile_link_color: FAB81E
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 1
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: fr
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "@_evagrvn_ @WordleFR Encore une fois...#Worldle #28 2/6\n\U0001F7E9\U0001F7E9\U0001F7E8⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nhttps://t.co/kP5BylKTJE"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1976089184
+          :id_str: '1976089184'
+          :name: Shrexonue
+          :screen_name: Drexonue
+          :location: Oui
+          :description: "Odin fanclub\n#SLYWIN jusqu'a la mort \npv @drexoaw\nEn gros,
+            j'suis un connard, émoji mains qui prient"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 180
+          :friends_count: 550
+          :listed_count: 10
+          :created_at: Sun Oct 20 19:00:46 +0000 2013
+          :favourites_count: 54972
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 58350
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1486787125194498048/spKANAbT_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1486787125194498048/spKANAbT_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1976089184/1637419245
+          :profile_link_color: FAB81E
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:35:34 +0000 2022
+            :id: 1494576308638134275
+            :id_str: '1494576308638134275'
+            :text: "@_evagrvn_ @WordleFR Encore une fois...#Worldle #28 2/6\n\U0001F7E9\U0001F7E9\U0001F7E8⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nhttps://t.co/kP5BylKTJE"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 1494490837891395594
+            :in_reply_to_status_id_str: '1494490837891395594'
+            :in_reply_to_user_id: 1197633720263548929
+            :in_reply_to_user_id_str: '1197633720263548929'
+            :in_reply_to_screen_name: _evagrvn_
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 1
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: fr
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Drexonue
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494576308638134275
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

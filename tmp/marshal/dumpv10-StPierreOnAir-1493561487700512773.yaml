@@ -1,0 +1,174 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Tue Feb 15 12:23:02 +0000 2022
+  :id: 1493561487700512773
+  :id_str: '1493561487700512773'
+  :text: "The #taylordle got me again.\n\nTaylordle 18 5/6\n\n⬜⬜\U0001F7E8\U0001F7E9⬜\n\U0001F7E8\U0001F7E9⬜\U0001F7E9⬜\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: taylordle
+      :indices:
+      - 4
+      - 14
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 65187478
+    :id_str: '65187478'
+    :name: Jeff St. Pierre
+    :screen_name: StPierreOnAir
+    :location: Baltimore, MD
+    :description: 'Mornings on @wpoc l @adultedpodcast host l Husky dad l @stjude
+      advocate l #iheartcountry l 13.1 in 50...7/50'
+    :url: https://t.co/i8gpi8SQuU
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/i8gpi8SQuU
+          :expanded_url: https://player.captivate.fm/show/3bab4d6d-1e8d-4e54-902e-c50df6737ac3
+          :display_url: player.captivate.fm/show/3bab4d6d-…
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 2688
+    :friends_count: 1010
+    :listed_count: 28
+    :created_at: Wed Aug 12 22:42:08 +0000 2009
+    :favourites_count: 10402
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 11050
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '010505'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme13/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme13/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/3188198842/77263cd6e7f1f386e46a94519271380d_normal.jpeg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/3188198842/77263cd6e7f1f386e46a94519271380d_normal.jpeg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/65187478/1347983024
+    :profile_link_color: 93A644
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: FFFFFF
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 1
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "The #taylordle got me again.\n\nTaylordle 18 5/6\n\n⬜⬜\U0001F7E8\U0001F7E9⬜\n\U0001F7E8\U0001F7E9⬜\U0001F7E9⬜\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 65187478
+          :id_str: '65187478'
+          :name: Jeff St. Pierre
+          :screen_name: StPierreOnAir
+          :location: Baltimore, MD
+          :description: 'Mornings on @wpoc l @adultedpodcast host l Husky dad l @stjude
+            advocate l #iheartcountry l 13.1 in 50...7/50'
+          :url: https://t.co/i8gpi8SQuU
+          :entities: *1
+          :protected: false
+          :followers_count: 2688
+          :friends_count: 1010
+          :listed_count: 28
+          :created_at: Wed Aug 12 22:42:08 +0000 2009
+          :favourites_count: 10402
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 11050
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '010505'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme13/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme13/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/3188198842/77263cd6e7f1f386e46a94519271380d_normal.jpeg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/3188198842/77263cd6e7f1f386e46a94519271380d_normal.jpeg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/65187478/1347983024
+          :profile_link_color: 93A644
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: FFFFFF
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Tue Feb 15 12:23:02 +0000 2022
+            :id: 1493561487700512773
+            :id_str: '1493561487700512773'
+            :text: "The #taylordle got me again.\n\nTaylordle 18 5/6\n\n⬜⬜\U0001F7E8\U0001F7E9⬜\n\U0001F7E8\U0001F7E9⬜\U0001F7E9⬜\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 1
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: StPierreOnAir
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1493561487700512773
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

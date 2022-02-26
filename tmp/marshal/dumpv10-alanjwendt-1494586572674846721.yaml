@@ -1,0 +1,208 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:16:21 +0000 2022
+  :id: 1494586572674846721
+  :id_str: '1494586572674846721'
+  :text: "Le Mot (@WordleFR) #40 3/6 Et voilà! #WordleFR #LeMot \n\n⬛\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E8⬛⬛\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/ptQYblsg7H"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: WordleFR
+      :indices:
+      - 37
+      - 46
+    - :text: LeMot
+      :indices:
+      - 47
+      - 53
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 8
+      - 17
+    :urls:
+    - :url: https://t.co/ptQYblsg7H
+      :expanded_url: http://wordle.louan.me
+      :display_url: wordle.louan.me
+      :indices:
+      - 75
+      - 98
+  :metadata: &4
+    :iso_language_code: fr
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 14368354
+    :id_str: '14368354'
+    :name: Alan Wendt
+    :screen_name: alanjwendt
+    :location: Wellington City, New Zealand
+    :description: "Samoan+NZder | languaging linguisticking interpreting | conference
+      + community interpreter NZSL-EN-BSL | pianist | t/He/y \U0001F3F3️‍\U0001F308
+      \U0001F1FC\U0001F1F8 \U0001F1F3\U0001F1FF"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 3016
+    :friends_count: 978
+    :listed_count: 24
+    :created_at: Sat Apr 12 11:37:29 +0000 2008
+    :favourites_count: 6900
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 2800
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: 1A1B1F
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme9/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme9/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1277471608320389120/uXQBaGwc_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1277471608320389120/uXQBaGwc_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/14368354/1595583196
+    :profile_link_color: 2FC2EF
+    :profile_sidebar_border_color: 181A1E
+    :profile_sidebar_fill_color: '252429'
+    :profile_text_color: '666666'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: &5
+    :id: 013b5456649606dc
+    :url: https://api.twitter.com/1.1/geo/id/013b5456649606dc.json
+    :place_type: city
+    :name: Wellington City
+    :full_name: Wellington City, New Zealand
+    :country_code: NZ
+    :country: New Zealand
+    :contained_within: []
+    :bounding_box:
+      :type: Polygon
+      :coordinates:
+      - - - 174.613267
+          - -41.362455
+        - - 174.89541
+          - -41.362455
+        - - 174.89541
+          - -41.14354
+        - - 174.613267
+          - -41.14354
+    :attributes: {}
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: fr
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Le Mot (@WordleFR) #40 3/6 Et voilà! #WordleFR #LeMot \n\n⬛\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E8⬛⬛\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/ptQYblsg7H"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 14368354
+          :id_str: '14368354'
+          :name: Alan Wendt
+          :screen_name: alanjwendt
+          :location: Wellington City, New Zealand
+          :description: "Samoan+NZder | languaging linguisticking interpreting | conference
+            + community interpreter NZSL-EN-BSL | pianist | t/He/y \U0001F3F3️‍\U0001F308
+            \U0001F1FC\U0001F1F8 \U0001F1F3\U0001F1FF"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 3016
+          :friends_count: 978
+          :listed_count: 24
+          :created_at: Sat Apr 12 11:37:29 +0000 2008
+          :favourites_count: 6900
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 2800
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: 1A1B1F
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme9/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme9/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1277471608320389120/uXQBaGwc_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1277471608320389120/uXQBaGwc_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/14368354/1595583196
+          :profile_link_color: 2FC2EF
+          :profile_sidebar_border_color: 181A1E
+          :profile_sidebar_fill_color: '252429'
+          :profile_text_color: '666666'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:16:21 +0000 2022
+            :id: 1494586572674846721
+            :id_str: '1494586572674846721'
+            :text: "Le Mot (@WordleFR) #40 3/6 Et voilà! #WordleFR #LeMot \n\n⬛\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E8⬛⬛\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/ptQYblsg7H"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: *5
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: fr
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: alanjwendt
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586572674846721
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

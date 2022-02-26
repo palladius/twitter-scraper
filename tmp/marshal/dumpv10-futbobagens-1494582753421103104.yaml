@@ -1,0 +1,189 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:01:11 +0000 2022
+  :id: 1494582753421103104
+  :id_str: '1494582753421103104'
+  :text: "joguei https://t.co/1nKOTPddBo #47 4/6\n\n⬛⬛⬛⬛\U0001F7E8\n\U0001F7E8⬛⬛⬛⬛\n\U0001F7E9\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/1nKOTPddBo
+      :expanded_url: http://term.ooo
+      :display_url: term.ooo
+      :indices:
+      - 7
+      - 30
+  :metadata: &4
+    :iso_language_code: pt
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 2731723659
+    :id_str: '2731723659'
+    :name: "lipoproteoemilly \U0001F9EC"
+    :screen_name: futbobagens
+    :location: Rio de Janeiro, Brasil
+    :description: cientista descolada que estuda proteínas gordinhas @lcpbrasileira
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 3874
+    :friends_count: 1255
+    :listed_count: 6
+    :created_at: Sat Aug 02 16:53:34 +0000 2014
+    :favourites_count: 54687
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 59748
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '000000'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1449342597764370432/o4emdCxM_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1449342597764370432/o4emdCxM_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/2731723659/1609881919
+    :profile_link_color: 1B95E0
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: '000000'
+    :profile_text_color: '000000'
+    :profile_use_background_image: false
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: &5
+    :id: 97bcdfca1a2dca59
+    :url: https://api.twitter.com/1.1/geo/id/97bcdfca1a2dca59.json
+    :place_type: city
+    :name: Rio de Janeiro
+    :full_name: Rio de Janeiro, Brazil
+    :country_code: BR
+    :country: Brazil
+    :contained_within: []
+    :bounding_box:
+      :type: Polygon
+      :coordinates:
+      - - - -43.795449
+          - -23.08302
+        - - -43.0877068
+          - -23.08302
+        - - -43.0877068
+          - -22.7398234
+        - - -43.795449
+          - -22.7398234
+    :attributes: {}
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: pt
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "joguei https://t.co/1nKOTPddBo #47 4/6\n\n⬛⬛⬛⬛\U0001F7E8\n\U0001F7E8⬛⬛⬛⬛\n\U0001F7E9\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 2731723659
+          :id_str: '2731723659'
+          :name: "lipoproteoemilly \U0001F9EC"
+          :screen_name: futbobagens
+          :location: Rio de Janeiro, Brasil
+          :description: cientista descolada que estuda proteínas gordinhas @lcpbrasileira
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 3874
+          :friends_count: 1255
+          :listed_count: 6
+          :created_at: Sat Aug 02 16:53:34 +0000 2014
+          :favourites_count: 54687
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 59748
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '000000'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1449342597764370432/o4emdCxM_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1449342597764370432/o4emdCxM_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/2731723659/1609881919
+          :profile_link_color: 1B95E0
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: '000000'
+          :profile_text_color: '000000'
+          :profile_use_background_image: false
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:01:11 +0000 2022
+            :id: 1494582753421103104
+            :id_str: '1494582753421103104'
+            :text: "joguei https://t.co/1nKOTPddBo #47 4/6\n\n⬛⬛⬛⬛\U0001F7E8\n\U0001F7E8⬛⬛⬛⬛\n\U0001F7E9\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: *5
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: pt
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: futbobagens
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494582753421103104
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

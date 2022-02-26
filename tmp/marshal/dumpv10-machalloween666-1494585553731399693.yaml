@@ -1,0 +1,188 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:12:18 +0000 2022
+  :id: 1494585553731399693
+  :id_str: '1494585553731399693'
+  :text: "Le Mot (@WordleFR) #40 5/6\n\n⬛⬛⬛\U0001F7E8⬛\n\U0001F7E8⬛⬛\U0001F7E8⬛\n\U0001F7E8\U0001F7E8⬛⬛\U0001F7E9\n⬛⬛\U0001F7E9\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/4J8SI4fmjY"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 8
+      - 17
+    :urls:
+    - :url: https://t.co/4J8SI4fmjY
+      :expanded_url: http://wordle.louan.me
+      :display_url: wordle.louan.me
+      :indices:
+      - 59
+      - 82
+  :metadata: &4
+    :iso_language_code: fr
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1160580907004321793
+    :id_str: '1160580907004321793'
+    :name: Macha (Taylor’s Version)
+    :screen_name: machalloween666
+    :location: Paris, France
+    :description: "Halloween enthusiast \U0001F383 slasher movies fan \U0001F52A mum
+      of Loona \U0001F431 feminist \U0001F4AA\U0001F3FB elle/she \U0001F481\U0001F3FB‍♀️
+      don’t hurt @gwencstr or I’ll hurt you! \U0001F987 profile pic by @zapatrax"
+    :url: https://t.co/fw89CAUciE
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/fw89CAUciE
+          :expanded_url: http://instagram.com/machalemoulinier
+          :display_url: instagram.com/machalemoulini…
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 159
+    :friends_count: 385
+    :listed_count: 1
+    :created_at: Sun Aug 11 15:57:05 +0000 2019
+    :favourites_count: 98023
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 11193
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1381174738777673731/NgFgvR0G_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1381174738777673731/NgFgvR0G_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1160580907004321793/1610539389
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: fr
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Le Mot (@WordleFR) #40 5/6\n\n⬛⬛⬛\U0001F7E8⬛\n\U0001F7E8⬛⬛\U0001F7E8⬛\n\U0001F7E8\U0001F7E8⬛⬛\U0001F7E9\n⬛⬛\U0001F7E9\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/4J8SI4fmjY"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1160580907004321793
+          :id_str: '1160580907004321793'
+          :name: Macha (Taylor’s Version)
+          :screen_name: machalloween666
+          :location: Paris, France
+          :description: "Halloween enthusiast \U0001F383 slasher movies fan \U0001F52A
+            mum of Loona \U0001F431 feminist \U0001F4AA\U0001F3FB elle/she \U0001F481\U0001F3FB‍♀️
+            don’t hurt @gwencstr or I’ll hurt you! \U0001F987 profile pic by @zapatrax"
+          :url: https://t.co/fw89CAUciE
+          :entities: *1
+          :protected: false
+          :followers_count: 159
+          :friends_count: 385
+          :listed_count: 1
+          :created_at: Sun Aug 11 15:57:05 +0000 2019
+          :favourites_count: 98023
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 11193
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1381174738777673731/NgFgvR0G_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1381174738777673731/NgFgvR0G_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1160580907004321793/1610539389
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:12:18 +0000 2022
+            :id: 1494585553731399693
+            :id_str: '1494585553731399693'
+            :text: "Le Mot (@WordleFR) #40 5/6\n\n⬛⬛⬛\U0001F7E8⬛\n\U0001F7E8⬛⬛\U0001F7E8⬛\n\U0001F7E8\U0001F7E8⬛⬛\U0001F7E9\n⬛⬛\U0001F7E9\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/4J8SI4fmjY"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: fr
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: machalloween666
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494585553731399693
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

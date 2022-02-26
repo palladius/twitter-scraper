@@ -1,0 +1,198 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:43:28 +0000 2022
+  :id: 1494578298529226752
+  :id_str: '1494578298529226752'
+  :text: "Le Mot (@WordleFR) #40 3/6\n\n⬛⬛\U0001F7E9⬛⬛\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/deIhKNsRC0"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 8
+      - 17
+    :urls:
+    - :url: https://t.co/deIhKNsRC0
+      :expanded_url: http://wordle.louan.me
+      :display_url: wordle.louan.me
+      :indices:
+      - 47
+      - 70
+  :metadata: &4
+    :iso_language_code: fr
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 1494578291726069760
+  :in_reply_to_status_id_str: '1494578291726069760'
+  :in_reply_to_user_id: 285594713
+  :in_reply_to_user_id_str: '285594713'
+  :in_reply_to_screen_name: VincentD_91
+  :user:
+    :id: 285594713
+    :id_str: '285594713'
+    :name: "\U0001F684 Vincent D. \U0001F60E"
+    :screen_name: VincentD_91
+    :location: Ile-de-France, France
+    :description: "Grand voyageur passionné, ni cheminot ni influenceur \U0001F609
+      - #TGV #TGVInOui #RERD #RERC et parfois #TERHdF #TERPaca - #TeamGourmand"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 2174
+    :friends_count: 2183
+    :listed_count: 17
+    :created_at: Thu Apr 21 12:56:29 +0000 2011
+    :favourites_count: 154564
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 81760
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '004040'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme15/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme15/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1307300051375525888/REe942xA_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1307300051375525888/REe942xA_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/285594713/1602837471
+    :profile_link_color: FAB81E
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: C0DFEC
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: &5
+    :id: 396698ae7bf6be18
+    :url: https://api.twitter.com/1.1/geo/id/396698ae7bf6be18.json
+    :place_type: city
+    :name: Evry
+    :full_name: Evry, France
+    :country_code: FR
+    :country: France
+    :contained_within: []
+    :bounding_box:
+      :type: Polygon
+      :coordinates:
+      - - - 2.4131996
+          - 48.6108935
+        - - 2.4705591
+          - 48.6108935
+        - - 2.4705591
+          - 48.648511
+        - - 2.4131996
+          - 48.648511
+    :attributes: {}
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: fr
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Le Mot (@WordleFR) #40 3/6\n\n⬛⬛\U0001F7E9⬛⬛\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/deIhKNsRC0"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 285594713
+          :id_str: '285594713'
+          :name: "\U0001F684 Vincent D. \U0001F60E"
+          :screen_name: VincentD_91
+          :location: Ile-de-France, France
+          :description: "Grand voyageur passionné, ni cheminot ni influenceur \U0001F609
+            - #TGV #TGVInOui #RERD #RERC et parfois #TERHdF #TERPaca - #TeamGourmand"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 2174
+          :friends_count: 2183
+          :listed_count: 17
+          :created_at: Thu Apr 21 12:56:29 +0000 2011
+          :favourites_count: 154564
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 81760
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '004040'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme15/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme15/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1307300051375525888/REe942xA_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1307300051375525888/REe942xA_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/285594713/1602837471
+          :profile_link_color: FAB81E
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: C0DFEC
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:43:28 +0000 2022
+            :id: 1494578298529226752
+            :id_str: '1494578298529226752'
+            :text: "Le Mot (@WordleFR) #40 3/6\n\n⬛⬛\U0001F7E9⬛⬛\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/deIhKNsRC0"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 1494578291726069760
+            :in_reply_to_status_id_str: '1494578291726069760'
+            :in_reply_to_user_id: 285594713
+            :in_reply_to_user_id_str: '285594713'
+            :in_reply_to_screen_name: VincentD_91
+            :geo: 
+            :coordinates: 
+            :place: *5
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: fr
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: VincentD_91
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494578298529226752
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

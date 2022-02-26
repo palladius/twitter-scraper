@@ -1,0 +1,233 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:54:07 +0000 2022
+  :id: 1494580975195598855
+  :id_str: '1494580975195598855'
+  :text: "@Lois_ @travik69 @Incognitouf3 @jeanmarc13069 @kabalexclot @davidaknin69
+    @_jerelev @WordleFR #Worldle #28 5/6\n\U0001F7E9\U0001F7E9\U0001F7E9⬜⬜… https://t.co/PXQWoSxvH5"
+  :truncated: true
+  :entities: &3
+    :hashtags:
+    - :text: Worldle
+      :indices:
+      - 93
+      - 101
+    :symbols: []
+    :user_mentions:
+    - :screen_name: Lois_
+      :name: Loïs
+      :id: 15229837
+      :id_str: '15229837'
+      :indices:
+      - 0
+      - 6
+    - :screen_name: travik69
+      :name: Patrick Lévy
+      :id: 1694659592
+      :id_str: '1694659592'
+      :indices:
+      - 7
+      - 16
+    - :screen_name: Incognitouf3
+      :name: Incognitouf
+      :id: 1182018795034021888
+      :id_str: '1182018795034021888'
+      :indices:
+      - 17
+      - 30
+    - :screen_name: jeanmarc13069
+      :name: Jean-Marc
+      :id: 454232749
+      :id_str: '454232749'
+      :indices:
+      - 31
+      - 45
+    - :screen_name: kabalexclot
+      :name: AlexKab
+      :id: 1038816132084457472
+      :id_str: '1038816132084457472'
+      :indices:
+      - 46
+      - 58
+    - :screen_name: davidaknin69
+      :name: David Aknin
+      :id: 106200434
+      :id_str: '106200434'
+      :indices:
+      - 59
+      - 72
+    - :screen_name: _jerelev
+      :name: "Jérémie L. \U00013086"
+      :id: 704201827303219200
+      :id_str: '704201827303219200'
+      :indices:
+      - 73
+      - 82
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 83
+      - 92
+    :urls:
+    - :url: https://t.co/PXQWoSxvH5
+      :expanded_url: https://twitter.com/i/web/status/1494580975195598855
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 117
+      - 140
+  :metadata: &4
+    :iso_language_code: fr
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 1494580376580337679
+  :in_reply_to_status_id_str: '1494580376580337679'
+  :in_reply_to_user_id: 15229837
+  :in_reply_to_user_id_str: '15229837'
+  :in_reply_to_screen_name: Lois_
+  :user:
+    :id: 425247366
+    :id_str: '425247366'
+    :name: mb6.9
+    :screen_name: magb6_9
+    :location: Lyon
+    :description: On n'a pas tous la chance d'être né le même jour que Juninho
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 306
+    :friends_count: 274
+    :listed_count: 14
+    :created_at: Wed Nov 30 19:17:18 +0000 2011
+    :favourites_count: 4385
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 28890
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1346122649953591298/pkePUm6O_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1346122649953591298/pkePUm6O_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/425247366/1572708503
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: fr
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "@Lois_ @travik69 @Incognitouf3 @jeanmarc13069 @kabalexclot @davidaknin69
+        @_jerelev @WordleFR #Worldle #28 5/6\n\U0001F7E9\U0001F7E9\U0001F7E9⬜⬜… https://t.co/PXQWoSxvH5"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 425247366
+          :id_str: '425247366'
+          :name: mb6.9
+          :screen_name: magb6_9
+          :location: Lyon
+          :description: On n'a pas tous la chance d'être né le même jour que Juninho
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 306
+          :friends_count: 274
+          :listed_count: 14
+          :created_at: Wed Nov 30 19:17:18 +0000 2011
+          :favourites_count: 4385
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 28890
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1346122649953591298/pkePUm6O_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1346122649953591298/pkePUm6O_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/425247366/1572708503
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:54:07 +0000 2022
+            :id: 1494580975195598855
+            :id_str: '1494580975195598855'
+            :text: "@Lois_ @travik69 @Incognitouf3 @jeanmarc13069 @kabalexclot @davidaknin69
+              @_jerelev @WordleFR #Worldle #28 5/6\n\U0001F7E9\U0001F7E9\U0001F7E9⬜⬜…
+              https://t.co/PXQWoSxvH5"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 1494580376580337679
+            :in_reply_to_status_id_str: '1494580376580337679'
+            :in_reply_to_user_id: 15229837
+            :in_reply_to_user_id_str: '15229837'
+            :in_reply_to_screen_name: Lois_
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: fr
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: magb6_9
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494580975195598855
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

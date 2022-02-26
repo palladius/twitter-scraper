@@ -1,0 +1,176 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:14:53 +0000 2022
+  :id: 1494586201080279086
+  :id_str: '1494586201080279086'
+  :text: "Wordle 244 3/6\n\n\U0001F7E9⬛\U0001F7E8⬛\U0001F7E9\n\U0001F7E9\U0001F7E9⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nI
+    think I could’ve gotten it in 2 if I had thought about it a little longer ugh"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 953729808
+    :id_str: '953729808'
+    :name: AmandaLuisa
+    :screen_name: AmandaLuisaArt
+    :location: Oxford, MA
+    :description: 'photographer and illustrator from Central Mass. I''m still really
+      bad at twitter, but come twitter with me! IG: @amandaluisaart.'
+    :url: https://t.co/YiG9Dtv9bC
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/YiG9Dtv9bC
+          :expanded_url: http://www.mandaluisa.com
+          :display_url: mandaluisa.com
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 31
+    :friends_count: 422
+    :listed_count: 2
+    :created_at: Sat Nov 17 14:57:52 +0000 2012
+    :favourites_count: 4369
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 1553
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/706981781514244097/-qMGpClz_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/706981781514244097/-qMGpClz_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/953729808/1457392499
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 3/6\n\n\U0001F7E9⬛\U0001F7E8⬛\U0001F7E9\n\U0001F7E9\U0001F7E9⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nI
+        think I could’ve gotten it in 2 if I had thought about it a little longer
+        ugh"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 953729808
+          :id_str: '953729808'
+          :name: AmandaLuisa
+          :screen_name: AmandaLuisaArt
+          :location: Oxford, MA
+          :description: 'photographer and illustrator from Central Mass. I''m still
+            really bad at twitter, but come twitter with me! IG: @amandaluisaart.'
+          :url: https://t.co/YiG9Dtv9bC
+          :entities: *1
+          :protected: false
+          :followers_count: 31
+          :friends_count: 422
+          :listed_count: 2
+          :created_at: Sat Nov 17 14:57:52 +0000 2012
+          :favourites_count: 4369
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 1553
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/706981781514244097/-qMGpClz_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/706981781514244097/-qMGpClz_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/953729808/1457392499
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:14:53 +0000 2022
+            :id: 1494586201080279086
+            :id_str: '1494586201080279086'
+            :text: "Wordle 244 3/6\n\n\U0001F7E9⬛\U0001F7E8⬛\U0001F7E9\n\U0001F7E9\U0001F7E9⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nI
+              think I could’ve gotten it in 2 if I had thought about it a little longer
+              ugh"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: AmandaLuisaArt
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586201080279086
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,168 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:50:59 +0000 2022
+  :id: 1494580187098406912
+  :id_str: '1494580187098406912'
+  :text: "Le Mot (@WordleFR) #40 3/6\n\n⬛⬛⬛⬛⬛\n\U0001F7E8\U0001F7E8⬛\U0001F7E8\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n\U0001F60E"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 8
+      - 17
+    :urls: []
+  :metadata: &4
+    :iso_language_code: fr
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1486007245
+    :id_str: '1486007245'
+    :name: oza
+    :screen_name: OzaDuygu
+    :location: France
+    :description: Ignorantia sit beatitudo!
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 11
+    :friends_count: 649
+    :listed_count: 0
+    :created_at: Wed Jun 05 20:47:00 +0000 2013
+    :favourites_count: 51
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 29
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C44790
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/3760254099/4a139761f56e5912367c73032ef84b10_normal.jpeg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/3760254099/4a139761f56e5912367c73032ef84b10_normal.jpeg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1486007245/1464254723
+    :profile_link_color: 19CF86
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: fr
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Le Mot (@WordleFR) #40 3/6\n\n⬛⬛⬛⬛⬛\n\U0001F7E8\U0001F7E8⬛\U0001F7E8\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n\U0001F60E"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1486007245
+          :id_str: '1486007245'
+          :name: oza
+          :screen_name: OzaDuygu
+          :location: France
+          :description: Ignorantia sit beatitudo!
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 11
+          :friends_count: 649
+          :listed_count: 0
+          :created_at: Wed Jun 05 20:47:00 +0000 2013
+          :favourites_count: 51
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 29
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C44790
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/3760254099/4a139761f56e5912367c73032ef84b10_normal.jpeg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/3760254099/4a139761f56e5912367c73032ef84b10_normal.jpeg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1486007245/1464254723
+          :profile_link_color: 19CF86
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:50:59 +0000 2022
+            :id: 1494580187098406912
+            :id_str: '1494580187098406912'
+            :text: "Le Mot (@WordleFR) #40 3/6\n\n⬛⬛⬛⬛⬛\n\U0001F7E8\U0001F7E8⬛\U0001F7E8\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n\U0001F60E"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: fr
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: OzaDuygu
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494580187098406912
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

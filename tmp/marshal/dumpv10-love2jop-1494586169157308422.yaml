@@ -1,0 +1,168 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:14:45 +0000 2022
+  :id: 1494586169157308422
+  :id_str: '1494586169157308422'
+  :text: "had me fearing for my life Wordle 244 6/6\n\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜\U0001F7E8⬜\U0001F7E9\n⬜\U0001F7E9⬜⬜⬜\n⬜\U0001F7E9⬜⬜\U0001F7E9\n⬜\U0001F7E9⬜\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 1494220731009306625
+  :in_reply_to_status_id_str: '1494220731009306625'
+  :in_reply_to_user_id: 3009640952
+  :in_reply_to_user_id_str: '3009640952'
+  :in_reply_to_screen_name: love2jop
+  :user:
+    :id: 3009640952
+    :id_str: '3009640952'
+    :name: "carts \U0001F36D"
+    :screen_name: love2jop
+    :location: ''
+    :description: carter | they/them 20 | art account @splat3n
+    :url: https://t.co/UiP4TIDnGb
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/UiP4TIDnGb
+          :expanded_url: http://tudinous.carrd.co
+          :display_url: tudinous.carrd.co
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 555
+    :friends_count: 540
+    :listed_count: 15
+    :created_at: Thu Feb 05 02:26:26 +0000 2015
+    :favourites_count: 242600
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 128644
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '000000'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1486069080368893954/cXVkqQ8V_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1486069080368893954/cXVkqQ8V_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/3009640952/1634836684
+    :profile_link_color: F58EA8
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: '000000'
+    :profile_text_color: '000000'
+    :profile_use_background_image: false
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "had me fearing for my life Wordle 244 6/6\n\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜\U0001F7E8⬜\U0001F7E9\n⬜\U0001F7E9⬜⬜⬜\n⬜\U0001F7E9⬜⬜\U0001F7E9\n⬜\U0001F7E9⬜\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 3009640952
+          :id_str: '3009640952'
+          :name: "carts \U0001F36D"
+          :screen_name: love2jop
+          :location: ''
+          :description: carter | they/them 20 | art account @splat3n
+          :url: https://t.co/UiP4TIDnGb
+          :entities: *1
+          :protected: false
+          :followers_count: 555
+          :friends_count: 540
+          :listed_count: 15
+          :created_at: Thu Feb 05 02:26:26 +0000 2015
+          :favourites_count: 242600
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 128644
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '000000'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1486069080368893954/cXVkqQ8V_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1486069080368893954/cXVkqQ8V_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/3009640952/1634836684
+          :profile_link_color: F58EA8
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: '000000'
+          :profile_text_color: '000000'
+          :profile_use_background_image: false
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:14:45 +0000 2022
+            :id: 1494586169157308422
+            :id_str: '1494586169157308422'
+            :text: "had me fearing for my life Wordle 244 6/6\n\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜\U0001F7E8⬜\U0001F7E9\n⬜\U0001F7E9⬜⬜⬜\n⬜\U0001F7E9⬜⬜\U0001F7E9\n⬜\U0001F7E9⬜\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 1494220731009306625
+            :in_reply_to_status_id_str: '1494220731009306625'
+            :in_reply_to_user_id: 3009640952
+            :in_reply_to_user_id_str: '3009640952'
+            :in_reply_to_screen_name: love2jop
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: love2jop
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586169157308422
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

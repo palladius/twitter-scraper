@@ -1,0 +1,173 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 04:57:40 +0000 2022
+  :id: 1494536570195505153
+  :id_str: '1494536570195505153'
+  :text: "#Taylordle 21 5/6\n\n⬜⬜⬜\U0001F7E8\U0001F7E9\n\U0001F7E8⬜⬜⬜⬜\n⬜⬜\U0001F7E9⬜⬜\n⬜\U0001F7E9\U0001F7E9\U0001F7E8⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: Taylordle
+      :indices:
+      - 0
+      - 10
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: und
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 127840410
+    :id_str: '127840410'
+    :name: samosa
+    :screen_name: shivs129
+    :location: India
+    :description: "Sugar, spice & everything nice ❤️\U0001F48D:@LondonTandon"
+    :url: https://t.co/tkxkPWIavg
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/tkxkPWIavg
+          :expanded_url: http://www.instagram.com/shivs129
+          :display_url: instagram.com/shivs129
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 717
+    :friends_count: 160
+    :listed_count: 1
+    :created_at: Tue Mar 30 11:48:13 +0000 2010
+    :favourites_count: 11760
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 12202
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: EDECE9
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme3/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme3/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1492744635265196033/TEJCI4dO_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1492744635265196033/TEJCI4dO_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/127840410/1609570541
+    :profile_link_color: '088253'
+    :profile_sidebar_border_color: D3D2CF
+    :profile_sidebar_fill_color: E3E2DE
+    :profile_text_color: '634047'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 1
+  :favorited: false
+  :retweeted: false
+  :lang: und
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "#Taylordle 21 5/6\n\n⬜⬜⬜\U0001F7E8\U0001F7E9\n\U0001F7E8⬜⬜⬜⬜\n⬜⬜\U0001F7E9⬜⬜\n⬜\U0001F7E9\U0001F7E9\U0001F7E8⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 127840410
+          :id_str: '127840410'
+          :name: samosa
+          :screen_name: shivs129
+          :location: India
+          :description: "Sugar, spice & everything nice ❤️\U0001F48D:@LondonTandon"
+          :url: https://t.co/tkxkPWIavg
+          :entities: *1
+          :protected: false
+          :followers_count: 717
+          :friends_count: 160
+          :listed_count: 1
+          :created_at: Tue Mar 30 11:48:13 +0000 2010
+          :favourites_count: 11760
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 12202
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: EDECE9
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme3/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme3/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1492744635265196033/TEJCI4dO_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1492744635265196033/TEJCI4dO_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/127840410/1609570541
+          :profile_link_color: '088253'
+          :profile_sidebar_border_color: D3D2CF
+          :profile_sidebar_fill_color: E3E2DE
+          :profile_text_color: '634047'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 04:57:40 +0000 2022
+            :id: 1494536570195505153
+            :id_str: '1494536570195505153'
+            :text: "#Taylordle 21 5/6\n\n⬜⬜⬜\U0001F7E8\U0001F7E9\n\U0001F7E8⬜⬜⬜⬜\n⬜⬜\U0001F7E9⬜⬜\n⬜\U0001F7E9\U0001F7E9\U0001F7E8⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 1
+            :favorited: false
+            :retweeted: false
+            :lang: und
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: shivs129
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494536570195505153
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

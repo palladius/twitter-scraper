@@ -1,0 +1,178 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Wed Feb 16 11:02:34 +0000 2022
+  :id: 1493903624229081093
+  :id_str: '1493903624229081093'
+  :text: "Taylordle 19 2/6\n\n\U0001F7E9⬜\U0001F7E9⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#taylordle
+    #TaylorSwift #TaylorsVersion"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: taylordle
+      :indices:
+      - 31
+      - 41
+    - :text: TaylorSwift
+      :indices:
+      - 42
+      - 54
+    - :text: TaylorsVersion
+      :indices:
+      - 55
+      - 70
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1393878712836403204
+    :id_str: '1393878712836403204'
+    :name: L✨
+    :screen_name: MarinaxFolklore
+    :location: United Kingdom
+    :description: "// Greys Anatomy // Station 19 // Taylor Swift // \U0001F33B\U0001F339
+      “I love you, and I choose you, forever”"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 112
+    :friends_count: 169
+    :listed_count: 0
+    :created_at: Sun May 16 10:39:26 +0000 2021
+    :favourites_count: 40
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 30
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1490472698731970567/Fl612skk_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1490472698731970567/Fl612skk_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1393878712836403204/1644191358
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Taylordle 19 2/6\n\n\U0001F7E9⬜\U0001F7E9⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#taylordle
+        #TaylorSwift #TaylorsVersion"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1393878712836403204
+          :id_str: '1393878712836403204'
+          :name: L✨
+          :screen_name: MarinaxFolklore
+          :location: United Kingdom
+          :description: "// Greys Anatomy // Station 19 // Taylor Swift // \U0001F33B\U0001F339
+            “I love you, and I choose you, forever”"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 112
+          :friends_count: 169
+          :listed_count: 0
+          :created_at: Sun May 16 10:39:26 +0000 2021
+          :favourites_count: 40
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 30
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1490472698731970567/Fl612skk_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1490472698731970567/Fl612skk_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1393878712836403204/1644191358
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Wed Feb 16 11:02:34 +0000 2022
+            :id: 1493903624229081093
+            :id_str: '1493903624229081093'
+            :text: "Taylordle 19 2/6\n\n\U0001F7E9⬜\U0001F7E9⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#taylordle
+              #TaylorSwift #TaylorsVersion"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: MarinaxFolklore
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1493903624229081093
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

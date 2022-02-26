@@ -1,0 +1,183 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Sat Feb 19 19:02:07 +0000 2022
+  :id: 1495111472954765313
+  :id_str: '1495111472954765313'
+  :text: "Wordle 246 4/6\n#gecwordle\n#Wordle @Drhasrivastava @nn_pandya\n⬛⬛\U0001F7E8\U0001F7E9⬛\n\U0001F7E8⬛\U0001F7E8\U0001F7E9\U0001F7E8\n\U0001F7E9⬛⬛\U0001F7E9\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: gecwordle
+      :indices:
+      - 15
+      - 25
+    - :text: Wordle
+      :indices:
+      - 26
+      - 33
+    :symbols: []
+    :user_mentions:
+    - :screen_name: Drhasrivastava
+      :name: Himanshu Srivastava
+      :id: 1162272906543390720
+      :id_str: '1162272906543390720'
+      :indices:
+      - 34
+      - 49
+    - :screen_name: nn_pandya
+      :name: "Dr Nilesh pandya \U0001F1EE\U0001F1F3"
+      :id: 80549185
+      :id_str: '80549185'
+      :indices:
+      - 50
+      - 60
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1332696513546391552
+    :id_str: '1332696513546391552'
+    :name: Yash Solanki
+    :screen_name: yashh1907
+    :location: Bhavnagar, India
+    :description: ''
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 31
+    :friends_count: 37
+    :listed_count: 0
+    :created_at: Sat Nov 28 14:43:26 +0000 2020
+    :favourites_count: 174
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 16
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1419345286481149955/Q_7DJXJa_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1419345286481149955/Q_7DJXJa_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1332696513546391552/1632937058
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 1
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 246 4/6\n#gecwordle\n#Wordle @Drhasrivastava @nn_pandya\n⬛⬛\U0001F7E8\U0001F7E9⬛\n\U0001F7E8⬛\U0001F7E8\U0001F7E9\U0001F7E8\n\U0001F7E9⬛⬛\U0001F7E9\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1332696513546391552
+          :id_str: '1332696513546391552'
+          :name: Yash Solanki
+          :screen_name: yashh1907
+          :location: Bhavnagar, India
+          :description: ''
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 31
+          :friends_count: 37
+          :listed_count: 0
+          :created_at: Sat Nov 28 14:43:26 +0000 2020
+          :favourites_count: 174
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 16
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1419345286481149955/Q_7DJXJa_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1419345286481149955/Q_7DJXJa_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1332696513546391552/1632937058
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Sat Feb 19 19:02:07 +0000 2022
+            :id: 1495111472954765313
+            :id_str: '1495111472954765313'
+            :text: "Wordle 246 4/6\n#gecwordle\n#Wordle @Drhasrivastava @nn_pandya\n⬛⬛\U0001F7E8\U0001F7E9⬛\n\U0001F7E8⬛\U0001F7E8\U0001F7E9\U0001F7E8\n\U0001F7E9⬛⬛\U0001F7E9\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 1
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: yashh1907
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1495111472954765313
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

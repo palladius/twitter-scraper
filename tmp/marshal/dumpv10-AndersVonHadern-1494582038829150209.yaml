@@ -1,0 +1,179 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:58:20 +0000 2022
+  :id: 1494582038829150209
+  :id_str: '1494582038829150209'
+  :text: "deWordle\U0001F1E9\U0001F1EA 382 3/6*\n\U0001F7E9\U0001F7E8⬜⬜\U0001F7E8\n\U0001F7E9\U0001F7E9⬜\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nWordle
+    244 4/6\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nSeit
+    ich hier sehr genau auf den Umr… https://t.co/1yLnFQQpKQ"
+  :truncated: true
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/1yLnFQQpKQ
+      :expanded_url: https://twitter.com/i/web/status/1494582038829150209
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 117
+      - 140
+  :metadata: &4
+    :iso_language_code: de
+    :result_type: recent
+  :source: <a href="https://moa.party" rel="nofollow">Moa Bridge</a>
+  :in_reply_to_status_id: 1494212137954254848
+  :in_reply_to_status_id_str: '1494212137954254848'
+  :in_reply_to_user_id: 1097543927773708290
+  :in_reply_to_user_id_str: '1097543927773708290'
+  :in_reply_to_screen_name: AndersVonHadern
+  :user:
+    :id: 1097543927773708290
+    :id_str: '1097543927773708290'
+    :name: Anders von Hadern
+    :screen_name: AndersVonHadern
+    :location: Großhadern
+    :description: |-
+      Anders von Hadern im Übrigen aus freien Stücken an der Murr
+      Klaubensbekenntnis: eklektizistischer Haderlump
+      Operation am offenen Herzen
+      Twittert seit 17.3.2008
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 171
+    :friends_count: 273
+    :listed_count: 4
+    :created_at: Mon Feb 18 17:10:38 +0000 2019
+    :favourites_count: 88887
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 20557
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '000000'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1097551811853144064/5J-B6zPs_normal.png
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1097551811853144064/5J-B6zPs_normal.png
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1097543927773708290/1562656508
+    :profile_link_color: ABB8C2
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: '000000'
+    :profile_text_color: '000000'
+    :profile_use_background_image: false
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 1
+  :favorited: false
+  :retweeted: false
+  :lang: de
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "deWordle\U0001F1E9\U0001F1EA 382 3/6*\n\U0001F7E9\U0001F7E8⬜⬜\U0001F7E8\n\U0001F7E9\U0001F7E9⬜\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nWordle
+        244 4/6\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nSeit
+        ich hier sehr genau auf den Umr… https://t.co/1yLnFQQpKQ"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1097543927773708290
+          :id_str: '1097543927773708290'
+          :name: Anders von Hadern
+          :screen_name: AndersVonHadern
+          :location: Großhadern
+          :description: |-
+            Anders von Hadern im Übrigen aus freien Stücken an der Murr
+            Klaubensbekenntnis: eklektizistischer Haderlump
+            Operation am offenen Herzen
+            Twittert seit 17.3.2008
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 171
+          :friends_count: 273
+          :listed_count: 4
+          :created_at: Mon Feb 18 17:10:38 +0000 2019
+          :favourites_count: 88887
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 20557
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '000000'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1097551811853144064/5J-B6zPs_normal.png
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1097551811853144064/5J-B6zPs_normal.png
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1097543927773708290/1562656508
+          :profile_link_color: ABB8C2
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: '000000'
+          :profile_text_color: '000000'
+          :profile_use_background_image: false
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:58:20 +0000 2022
+            :id: 1494582038829150209
+            :id_str: '1494582038829150209'
+            :text: "deWordle\U0001F1E9\U0001F1EA 382 3/6*\n\U0001F7E9\U0001F7E8⬜⬜\U0001F7E8\n\U0001F7E9\U0001F7E9⬜\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nWordle
+              244 4/6\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nSeit
+              ich hier sehr genau auf den Umr… https://t.co/1yLnFQQpKQ"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://moa.party" rel="nofollow">Moa Bridge</a>
+            :in_reply_to_status_id: 1494212137954254848
+            :in_reply_to_status_id_str: '1494212137954254848'
+            :in_reply_to_user_id: 1097543927773708290
+            :in_reply_to_user_id_str: '1097543927773708290'
+            :in_reply_to_screen_name: AndersVonHadern
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 1
+            :favorited: false
+            :retweeted: false
+            :lang: de
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: AndersVonHadern
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494582038829150209
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

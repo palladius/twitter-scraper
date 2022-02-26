@@ -1,0 +1,189 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Sat Feb 26 00:47:05 +0000 2022
+  :id: 1497372612539912193
+  :id_str: '1497372612539912193'
+  :text: "https://t.co/EOwZxv2cGW\ndeWordle\U0001F1E9\U0001F1EA 390 4/6\n\n⬜⬜⬜⬜⬜\n\U0001F7E9\U0001F7E8⬜⬜⬜\n\U0001F7E9⬜⬜\U0001F7E8\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nby
+    @dewordle"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: DeWordle
+      :name: dewordle
+      :id: 1482411529152741376
+      :id_str: '1482411529152741376'
+      :indices:
+      - 71
+      - 80
+    :urls:
+    - :url: https://t.co/EOwZxv2cGW
+      :expanded_url: https://wordle.uber.space
+      :display_url: wordle.uber.space
+      :indices:
+      - 0
+      - 23
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 46877713
+    :id_str: '46877713'
+    :name: "#hellomynameisGorki"
+    :screen_name: GorkiS
+    :location: next to the sea
+    :description: "Anaesthesia, Pain, ICM, \n#FOAMed #FOAMcc #POCUS, RNLI medical
+      advisor and crew member, he/him, married to @Sim_ALS"
+    :url: https://t.co/MDvyN2gdTN
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/MDvyN2gdTN
+          :expanded_url: http://dasfoam.org
+          :display_url: dasfoam.org
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 816
+    :friends_count: 2148
+    :listed_count: 12
+    :created_at: Sat Jun 13 12:30:30 +0000 2009
+    :favourites_count: 16842
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 7448
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1296107637575159809/DAobut6W_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1296107637575159809/DAobut6W_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/46877713/1622234579
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 46877713
+          :id_str: '46877713'
+          :name: "#hellomynameisGorki"
+          :screen_name: GorkiS
+          :location: next to the sea
+          :description: "Anaesthesia, Pain, ICM, \n#FOAMed #FOAMcc #POCUS, RNLI medical
+            advisor and crew member, he/him, married to @Sim_ALS"
+          :url: https://t.co/MDvyN2gdTN
+          :entities: *1
+          :protected: false
+          :followers_count: 816
+          :friends_count: 2148
+          :listed_count: 12
+          :created_at: Sat Jun 13 12:30:30 +0000 2009
+          :favourites_count: 16842
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 7448
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1296107637575159809/DAobut6W_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1296107637575159809/DAobut6W_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/46877713/1622234579
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Sat Feb 26 00:47:05 +0000 2022
+            :id: 1497372612539912193
+            :id_str: '1497372612539912193'
+            :text: "https://t.co/EOwZxv2cGW\ndeWordle\U0001F1E9\U0001F1EA 390 4/6\n\n⬜⬜⬜⬜⬜\n\U0001F7E9\U0001F7E8⬜⬜⬜\n\U0001F7E9⬜⬜\U0001F7E8\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nby
+              @dewordle"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: GorkiS
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1497372612539912193
+      :text: "https://t.co/EOwZxv2cGW\ndeWordle\U0001F1E9\U0001F1EA 390 4/6\n\n⬜⬜⬜⬜⬜\n\U0001F7E9\U0001F7E8⬜⬜⬜\n\U0001F7E9⬜⬜\U0001F7E8\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nby
+        @dewordle"
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,170 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:17:36 +0000 2022
+  :id: 1494586885611692033
+  :id_str: '1494586885611692033'
+  :text: "Wordle 244 3/6\n\n⬜\U0001F7E9⬜\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 23462413
+    :id_str: '23462413'
+    :name: Manasamitra
+    :screen_name: manasamitraUK
+    :location: Dewsbury
+    :description: 'Inspiring communities with Indian #music #dance #storytelling in
+      Yorkshire. Tweets by Supriya and Jacqueline.'
+    :url: http://t.co/CAQ20OhqzT
+    :entities: &1
+      :url:
+        :urls:
+        - :url: http://t.co/CAQ20OhqzT
+          :expanded_url: http://www.manasamitra.com/index
+          :display_url: manasamitra.com/index
+          :indices:
+          - 0
+          - 22
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 1416
+    :friends_count: 3056
+    :listed_count: 17
+    :created_at: Mon Mar 09 17:24:28 +0000 2009
+    :favourites_count: 4206
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 2701
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: BADFCD
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/507198333522149376/4AOJuubZ_normal.jpeg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/507198333522149376/4AOJuubZ_normal.jpeg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/23462413/1404895321
+    :profile_link_color: FF0000
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 3/6\n\n⬜\U0001F7E9⬜\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 23462413
+          :id_str: '23462413'
+          :name: Manasamitra
+          :screen_name: manasamitraUK
+          :location: Dewsbury
+          :description: 'Inspiring communities with Indian #music #dance #storytelling
+            in Yorkshire. Tweets by Supriya and Jacqueline.'
+          :url: http://t.co/CAQ20OhqzT
+          :entities: *1
+          :protected: false
+          :followers_count: 1416
+          :friends_count: 3056
+          :listed_count: 17
+          :created_at: Mon Mar 09 17:24:28 +0000 2009
+          :favourites_count: 4206
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 2701
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: BADFCD
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/507198333522149376/4AOJuubZ_normal.jpeg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/507198333522149376/4AOJuubZ_normal.jpeg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/23462413/1404895321
+          :profile_link_color: FF0000
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:17:36 +0000 2022
+            :id: 1494586885611692033
+            :id_str: '1494586885611692033'
+            :text: "Wordle 244 3/6\n\n⬜\U0001F7E9⬜\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: manasamitraUK
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586885611692033
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

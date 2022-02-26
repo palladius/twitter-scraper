@@ -1,0 +1,182 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:32:08 +0000 2022
+  :id: 1494575444213243905
+  :id_str: '1494575444213243905'
+  :text: "Le Mot (@WordleFR) #40 3/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9
+    \n\nI’m having more luck with the French wordle these days than the @nytimes Wordle!"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 8
+      - 17
+    - :screen_name: nytimes
+      :name: The New York Times
+      :id: 807095
+      :id_str: '807095'
+      :indices:
+      - 112
+      - 120
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1016631306
+    :id_str: '1016631306'
+    :name: Rosario Iguin (she/her/ia/siya)
+    :screen_name: rosarioiguin
+    :location: Aotearoa (New Zealand)
+    :description: Higher Education | Learning & Teaching Development, Academic Development,
+      English Language Teaching | Mother of one awesome human
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 309
+    :friends_count: 421
+    :listed_count: 10
+    :created_at: Mon Dec 17 04:01:58 +0000 2012
+    :favourites_count: 670
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 982
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1419898587190726656/X0dFZ-xG_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1419898587190726656/X0dFZ-xG_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1016631306/1596447378
+    :profile_link_color: 0A2F57
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 1
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Le Mot (@WordleFR) #40 3/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9
+        \n\nI’m having more luck with the French wordle these days than the @nytimes
+        Wordle!"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1016631306
+          :id_str: '1016631306'
+          :name: Rosario Iguin (she/her/ia/siya)
+          :screen_name: rosarioiguin
+          :location: Aotearoa (New Zealand)
+          :description: Higher Education | Learning & Teaching Development, Academic
+            Development, English Language Teaching | Mother of one awesome human
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 309
+          :friends_count: 421
+          :listed_count: 10
+          :created_at: Mon Dec 17 04:01:58 +0000 2012
+          :favourites_count: 670
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 982
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1419898587190726656/X0dFZ-xG_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1419898587190726656/X0dFZ-xG_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1016631306/1596447378
+          :profile_link_color: 0A2F57
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:32:08 +0000 2022
+            :id: 1494575444213243905
+            :id_str: '1494575444213243905'
+            :text: "Le Mot (@WordleFR) #40 3/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9
+              \n\nI’m having more luck with the French wordle these days than the
+              @nytimes Wordle!"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 1
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: rosarioiguin
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494575444213243905
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

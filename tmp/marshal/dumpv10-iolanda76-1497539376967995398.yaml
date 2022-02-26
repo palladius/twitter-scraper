@@ -1,0 +1,179 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Sat Feb 26 11:49:45 +0000 2022
+  :id: 1497539376967995398
+  :id_str: '1497539376967995398'
+  :text: "https://t.co/g2CIHL3EER\nWORDLE\U0001F1E9\U0001F1EA 390 5/6\n\n⬜⬜⬜⬜\U0001F7E8\n\U0001F7E8\U0001F7E8⬜⬜⬜\n⬜⬜\U0001F7E8\U0001F7E8⬜\n\U0001F7E8\U0001F7E8⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nby
+    @dewordle"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: DeWordle
+      :name: dewordle
+      :id: 1482411529152741376
+      :id_str: '1482411529152741376'
+      :indices:
+      - 75
+      - 84
+    :urls:
+    - :url: https://t.co/g2CIHL3EER
+      :expanded_url: http://wordle-spielen.de
+      :display_url: wordle-spielen.de
+      :indices:
+      - 0
+      - 23
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 9951022
+    :id_str: '9951022'
+    :name: "Christina \U0001F1FA\U0001F1E6"
+    :screen_name: iolanda76
+    :location: RP, Germany
+    :description: Frau Knickebein | Mag es naturwissenschaftlich| sie/ihr
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 45
+    :friends_count: 142
+    :listed_count: 8
+    :created_at: Mon Nov 05 00:13:41 +0000 2007
+    :favourites_count: 4933
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 3067
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: true
+    :profile_background_color: '000000'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme13/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme13/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1467034497560551427/ZYAqYkVy_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1467034497560551427/ZYAqYkVy_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/9951022/1637274941
+    :profile_link_color: 91D2FA
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: '000000'
+    :profile_text_color: '000000'
+    :profile_use_background_image: false
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 9951022
+          :id_str: '9951022'
+          :name: "Christina \U0001F1FA\U0001F1E6"
+          :screen_name: iolanda76
+          :location: RP, Germany
+          :description: Frau Knickebein | Mag es naturwissenschaftlich| sie/ihr
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 45
+          :friends_count: 142
+          :listed_count: 8
+          :created_at: Mon Nov 05 00:13:41 +0000 2007
+          :favourites_count: 4933
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 3067
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: true
+          :profile_background_color: '000000'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme13/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme13/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1467034497560551427/ZYAqYkVy_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1467034497560551427/ZYAqYkVy_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/9951022/1637274941
+          :profile_link_color: 91D2FA
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: '000000'
+          :profile_text_color: '000000'
+          :profile_use_background_image: false
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Sat Feb 26 11:49:45 +0000 2022
+            :id: 1497539376967995398
+            :id_str: '1497539376967995398'
+            :text: "https://t.co/g2CIHL3EER\nWORDLE\U0001F1E9\U0001F1EA 390 5/6\n\n⬜⬜⬜⬜\U0001F7E8\n\U0001F7E8\U0001F7E8⬜⬜⬜\n⬜⬜\U0001F7E8\U0001F7E8⬜\n\U0001F7E8\U0001F7E8⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nby
+              @dewordle"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: iolanda76
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1497539376967995398
+      :text: "https://t.co/g2CIHL3EER\nWORDLE\U0001F1E9\U0001F1EA 390 5/6\n\n⬜⬜⬜⬜\U0001F7E8\n\U0001F7E8\U0001F7E8⬜⬜⬜\n⬜⬜\U0001F7E8\U0001F7E8⬜\n\U0001F7E8\U0001F7E8⬜⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nby
+        @dewordle"
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

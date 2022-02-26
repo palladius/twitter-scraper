@@ -1,0 +1,188 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:35:04 +0000 2022
+  :id: 1494576182670643205
+  :id_str: '1494576182670643205'
+  :text: "Le Mot (@WordleFR) #40 5/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E8\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E8\U0001F7E8⬛\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nhttps://t.co/cGn5SSZCCA
+    \nSUTOM #42 3/6\n\n\U0001F7E5\U0001F7E6\U0001F7E6\U0001F7E6\U0001F7E1\U0001F7E1\U0001F7E6\U0001F7E6\n\U0001F7E5\U0001F7E6\U0001F7E5\U0001F7E1\U0001F7E6\U0001F7E6\U0001F7E5\U0001F7E5…
+    https://t.co/s3G9FvpzWa"
+  :truncated: true
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 8
+      - 17
+    :urls:
+    - :url: https://t.co/cGn5SSZCCA
+      :expanded_url: http://wordle.louan.me
+      :display_url: wordle.louan.me
+      :indices:
+      - 58
+      - 81
+    - :url: https://t.co/s3G9FvpzWa
+      :expanded_url: https://twitter.com/i/web/status/1494576182670643205
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 117
+      - 140
+  :metadata: &4
+    :iso_language_code: sv
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1468661075537190917
+    :id_str: '1468661075537190917'
+    :name: "\U0001F3EE"
+    :screen_name: SantaMisugi
+    :location: ''
+    :description: Not Misugismo
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 45
+    :friends_count: 40
+    :listed_count: 0
+    :created_at: Wed Dec 08 19:17:51 +0000 2021
+    :favourites_count: 516
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 2972
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1494245940408074246/Wym-1fXZ_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1494245940408074246/Wym-1fXZ_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1468661075537190917/1643614725
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: sv
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Le Mot (@WordleFR) #40 5/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E8\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E8\U0001F7E8⬛\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nhttps://t.co/cGn5SSZCCA
+        \nSUTOM #42 3/6\n\n\U0001F7E5\U0001F7E6\U0001F7E6\U0001F7E6\U0001F7E1\U0001F7E1\U0001F7E6\U0001F7E6\n\U0001F7E5\U0001F7E6\U0001F7E5\U0001F7E1\U0001F7E6\U0001F7E6\U0001F7E5\U0001F7E5…
+        https://t.co/s3G9FvpzWa"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1468661075537190917
+          :id_str: '1468661075537190917'
+          :name: "\U0001F3EE"
+          :screen_name: SantaMisugi
+          :location: ''
+          :description: Not Misugismo
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 45
+          :friends_count: 40
+          :listed_count: 0
+          :created_at: Wed Dec 08 19:17:51 +0000 2021
+          :favourites_count: 516
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 2972
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1494245940408074246/Wym-1fXZ_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1494245940408074246/Wym-1fXZ_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1468661075537190917/1643614725
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:35:04 +0000 2022
+            :id: 1494576182670643205
+            :id_str: '1494576182670643205'
+            :text: "Le Mot (@WordleFR) #40 5/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E8\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E8\U0001F7E8⬛\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nhttps://t.co/cGn5SSZCCA
+              \nSUTOM #42 3/6\n\n\U0001F7E5\U0001F7E6\U0001F7E6\U0001F7E6\U0001F7E1\U0001F7E1\U0001F7E6\U0001F7E6\n\U0001F7E5\U0001F7E6\U0001F7E5\U0001F7E1\U0001F7E6\U0001F7E6\U0001F7E5\U0001F7E5…
+              https://t.co/s3G9FvpzWa"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: sv
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: SantaMisugi
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494576182670643205
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

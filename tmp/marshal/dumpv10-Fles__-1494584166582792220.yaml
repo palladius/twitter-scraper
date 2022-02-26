@@ -1,0 +1,184 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:06:48 +0000 2022
+  :id: 1494584166582792220
+  :id_str: '1494584166582792220'
+  :text: "@pjie2 Curiously, #wordle on seems to have expanded my use of four-letter
+    words...\nWordle 244 4/6\n\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜\U0001F7E8⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: wordle
+      :indices:
+      - 18
+      - 25
+    :symbols: []
+    :user_mentions:
+    - :screen_name: pjie2
+      :name: Peter Ellis
+      :id: 18106658
+      :id_str: '18106658'
+      :indices:
+      - 0
+      - 6
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 1494578317592309779
+  :in_reply_to_status_id_str: '1494578317592309779'
+  :in_reply_to_user_id: 18106658
+  :in_reply_to_user_id_str: '18106658'
+  :in_reply_to_screen_name: pjie2
+  :user:
+    :id: 20467576
+    :id_str: '20467576'
+    :name: Julian Self
+    :screen_name: Fles__
+    :location: Milton Keynes, UK
+    :description: A believer in feminism, fairness and equality. Hair, teeth and opinions
+      are my own.
+    :url: https://t.co/D9q9SdgESa
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/D9q9SdgESa
+          :expanded_url: http://thefles.wordpress.com/
+          :display_url: thefles.wordpress.com
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 558
+    :friends_count: 350
+    :listed_count: 16
+    :created_at: Mon Feb 09 21:10:14 +0000 2009
+    :favourites_count: 52317
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 40010
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '0099B9'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme4/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme4/bg.gif
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1490696369207709701/lYQM0kC3_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1490696369207709701/lYQM0kC3_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/20467576/1398197387
+    :profile_link_color: '0099B9'
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: 95E8EC
+    :profile_text_color: 3C3940
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "@pjie2 Curiously, #wordle on seems to have expanded my use of four-letter
+        words...\nWordle 244 4/6\n\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜\U0001F7E8⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 20467576
+          :id_str: '20467576'
+          :name: Julian Self
+          :screen_name: Fles__
+          :location: Milton Keynes, UK
+          :description: A believer in feminism, fairness and equality. Hair, teeth
+            and opinions are my own.
+          :url: https://t.co/D9q9SdgESa
+          :entities: *1
+          :protected: false
+          :followers_count: 558
+          :friends_count: 350
+          :listed_count: 16
+          :created_at: Mon Feb 09 21:10:14 +0000 2009
+          :favourites_count: 52317
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 40010
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '0099B9'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme4/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme4/bg.gif
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1490696369207709701/lYQM0kC3_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1490696369207709701/lYQM0kC3_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/20467576/1398197387
+          :profile_link_color: '0099B9'
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: 95E8EC
+          :profile_text_color: 3C3940
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:06:48 +0000 2022
+            :id: 1494584166582792220
+            :id_str: '1494584166582792220'
+            :text: "@pjie2 Curiously, #wordle on seems to have expanded my use of
+              four-letter words...\nWordle 244 4/6\n\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜\U0001F7E8⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 1494578317592309779
+            :in_reply_to_status_id_str: '1494578317592309779'
+            :in_reply_to_user_id: 18106658
+            :in_reply_to_user_id_str: '18106658'
+            :in_reply_to_screen_name: pjie2
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Fles__
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494584166582792220
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

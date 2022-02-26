@@ -1,0 +1,163 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:17:43 +0000 2022
+  :id: 1494586916683067411
+  :id_str: '1494586916683067411'
+  :text: "lol i my third shoice here was so dumb \nWordle 244 4/6\n\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜\U0001F7E8⬜\U0001F7E9\n\U0001F7E9⬜\U0001F7E8\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 17921938
+    :id_str: '17921938'
+    :name: matthew
+    :screen_name: matt_heath
+    :location: Braga, Portugal
+    :description: GPGPU programmer of numerical things. Should stick to tweets about
+      that rather than bullshit about X-Men and Muppets and politics. he/ele
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 380
+    :friends_count: 1631
+    :listed_count: 0
+    :created_at: Sat Dec 06 14:01:54 +0000 2008
+    :favourites_count: 91965
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 47930
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '000000'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1460916609447514113/-AQarjDk_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1460916609447514113/-AQarjDk_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/17921938/1603876383
+    :profile_link_color: 91D2FA
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: '000000'
+    :profile_text_color: '000000'
+    :profile_use_background_image: false
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "lol i my third shoice here was so dumb \nWordle 244 4/6\n\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜\U0001F7E8⬜\U0001F7E9\n\U0001F7E9⬜\U0001F7E8\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 17921938
+          :id_str: '17921938'
+          :name: matthew
+          :screen_name: matt_heath
+          :location: Braga, Portugal
+          :description: GPGPU programmer of numerical things. Should stick to tweets
+            about that rather than bullshit about X-Men and Muppets and politics.
+            he/ele
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 380
+          :friends_count: 1631
+          :listed_count: 0
+          :created_at: Sat Dec 06 14:01:54 +0000 2008
+          :favourites_count: 91965
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 47930
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '000000'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1460916609447514113/-AQarjDk_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1460916609447514113/-AQarjDk_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/17921938/1603876383
+          :profile_link_color: 91D2FA
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: '000000'
+          :profile_text_color: '000000'
+          :profile_use_background_image: false
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:17:43 +0000 2022
+            :id: 1494586916683067411
+            :id_str: '1494586916683067411'
+            :text: "lol i my third shoice here was so dumb \nWordle 244 4/6\n\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜\U0001F7E8⬜\U0001F7E9\n\U0001F7E9⬜\U0001F7E8\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: matt_heath
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586916683067411
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,320 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Sat Feb 19 18:58:47 +0000 2022
+  :id: 1495110631720034305
+  :id_str: '1495110631720034305'
+  :text: "Wordle 246 3/6*\n#day26\n#wordle\n#wordle246\n#dailywordleclub\n#dailywordchallenge\n⬛⬛⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9
+    https://t.co/jvsZJX8BBd"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: day26
+      :indices:
+      - 16
+      - 22
+    - :text: wordle
+      :indices:
+      - 23
+      - 30
+    - :text: wordle246
+      :indices:
+      - 31
+      - 41
+    - :text: dailywordleclub
+      :indices:
+      - 42
+      - 58
+    - :text: dailywordchallenge
+      :indices:
+      - 59
+      - 78
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/jvsZJX8BBd
+      :expanded_url: https://twitter.com/goelvishank/status/1494882293818613760
+      :display_url: twitter.com/goelvishank/st…
+      :indices:
+      - 97
+      - 120
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 2801762413
+    :id_str: '2801762413'
+    :name: Vishank Goel
+    :screen_name: goelvishank
+    :location: Charthaval, India
+    :description: "#searchgeek #digitalmarketer #SEO #digitallife #SGians"
+    :url: https://t.co/I329apDnrQ
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/I329apDnrQ
+          :expanded_url: https://about.me/goelvishank
+          :display_url: about.me/goelvishank
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 124
+    :friends_count: 818
+    :listed_count: 0
+    :created_at: Wed Sep 10 12:40:44 +0000 2014
+    :favourites_count: 5433
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 575
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1222931952472190976/4u47HAvr_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1222931952472190976/4u47HAvr_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/2801762413/1581525517
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: true
+  :quoted_status_id: 1494882293818613760
+  :quoted_status_id_str: '1494882293818613760'
+  :quoted_status: &5
+    :created_at: Sat Feb 19 03:51:27 +0000 2022
+    :id: 1494882293818613760
+    :id_str: '1494882293818613760'
+    :text: "Wordle 245 4/6*\n#day25\n#wordle\n#wordle245\n#dailywordleclub\n#dailywordchallenge\n⬛⬛⬛⬛⬛\n⬛⬛\U0001F7E8\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9
+      https://t.co/gfSz1hFbvF"
+    :truncated: false
+    :entities:
+      :hashtags:
+      - :text: day25
+        :indices:
+        - 16
+        - 22
+      - :text: wordle
+        :indices:
+        - 23
+        - 30
+      - :text: wordle245
+        :indices:
+        - 31
+        - 41
+      - :text: dailywordleclub
+        :indices:
+        - 42
+        - 58
+      - :text: dailywordchallenge
+        :indices:
+        - 59
+        - 78
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/gfSz1hFbvF
+        :expanded_url: https://twitter.com/goelvishank/status/1494531891847843846
+        :display_url: twitter.com/goelvishank/st…
+        :indices:
+        - 103
+        - 126
+    :metadata:
+      :iso_language_code: en
+      :result_type: recent
+    :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+      for Android</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 2801762413
+      :id_str: '2801762413'
+      :name: Vishank Goel
+      :screen_name: goelvishank
+      :location: Charthaval, India
+      :description: "#searchgeek #digitalmarketer #SEO #digitallife #SGians"
+      :url: https://t.co/I329apDnrQ
+      :entities:
+        :url:
+          :urls:
+          - :url: https://t.co/I329apDnrQ
+            :expanded_url: https://about.me/goelvishank
+            :display_url: about.me/goelvishank
+            :indices:
+            - 0
+            - 23
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 124
+      :friends_count: 818
+      :listed_count: 0
+      :created_at: Wed Sep 10 12:40:44 +0000 2014
+      :favourites_count: 5433
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 575
+      :lang: 
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/1222931952472190976/4u47HAvr_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/1222931952472190976/4u47HAvr_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/2801762413/1581525517
+      :profile_link_color: 1DA1F2
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: '333333'
+      :profile_use_background_image: true
+      :has_extended_profile: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :translator_type: none
+      :withheld_in_countries: []
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: true
+    :quoted_status_id: 1494531891847843846
+    :quoted_status_id_str: '1494531891847843846'
+    :retweet_count: 0
+    :favorite_count: 0
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 246 3/6*\n#day26\n#wordle\n#wordle246\n#dailywordleclub\n#dailywordchallenge\n⬛⬛⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9
+        https://t.co/jvsZJX8BBd"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 2801762413
+          :id_str: '2801762413'
+          :name: Vishank Goel
+          :screen_name: goelvishank
+          :location: Charthaval, India
+          :description: "#searchgeek #digitalmarketer #SEO #digitallife #SGians"
+          :url: https://t.co/I329apDnrQ
+          :entities: *1
+          :protected: false
+          :followers_count: 124
+          :friends_count: 818
+          :listed_count: 0
+          :created_at: Wed Sep 10 12:40:44 +0000 2014
+          :favourites_count: 5433
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 575
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1222931952472190976/4u47HAvr_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1222931952472190976/4u47HAvr_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/2801762413/1581525517
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Sat Feb 19 18:58:47 +0000 2022
+            :id: 1495110631720034305
+            :id_str: '1495110631720034305'
+            :text: "Wordle 246 3/6*\n#day26\n#wordle\n#wordle246\n#dailywordleclub\n#dailywordchallenge\n⬛⬛⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9
+              https://t.co/jvsZJX8BBd"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: true
+            :quoted_status_id: 1494882293818613760
+            :quoted_status_id_str: '1494882293818613760'
+            :quoted_status: *5
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: goelvishank
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1495110631720034305
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

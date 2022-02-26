@@ -1,0 +1,201 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:10:40 +0000 2022
+  :id: 1494585143083872271
+  :id_str: '1494585143083872271'
+  :text: "Damn you, #Wordle! (Sad trombone noises)\n#Wordle #Wordle244 #wordle244X
+    #WordleFail #Fail \nWordle 244 X/6*\n\n⬜\U0001F7E8⬜⬜⬜\n⬜… https://t.co/O5WeWr69CQ"
+  :truncated: true
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 10
+      - 17
+    - :text: Wordle
+      :indices:
+      - 41
+      - 48
+    - :text: Wordle244
+      :indices:
+      - 49
+      - 59
+    - :text: wordle244X
+      :indices:
+      - 60
+      - 71
+    - :text: WordleFail
+      :indices:
+      - 72
+      - 83
+    - :text: Fail
+      :indices:
+      - 84
+      - 89
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/O5WeWr69CQ
+      :expanded_url: https://twitter.com/i/web/status/1494585143083872271
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 117
+      - 140
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 14786139
+    :id_str: '14786139'
+    :name: "germanbini \U0001F339 peace, love, brotherhood"
+    :screen_name: germanbini
+    :location: Iowa, USA & part-time vanlife
+    :description: |-
+      She/her. Lives w/ SO in Iowa; traveling when possible! #Critter
+
+      #MedicareForAll #BLM #EndEndlessWars #LegalizeIt #FreePalestine #TibetIsNotChina
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 670
+    :friends_count: 607
+    :listed_count: 0
+    :created_at: Thu May 15 13:49:17 +0000 2008
+    :favourites_count: 26210
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 8570
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1304656378762534912/KBOnHckO_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1304656378762534912/KBOnHckO_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/14786139/1431053825
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Damn you, #Wordle! (Sad trombone noises)\n#Wordle #Wordle244 #wordle244X
+        #WordleFail #Fail \nWordle 244 X/6*\n\n⬜\U0001F7E8⬜⬜⬜\n⬜… https://t.co/O5WeWr69CQ"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 14786139
+          :id_str: '14786139'
+          :name: "germanbini \U0001F339 peace, love, brotherhood"
+          :screen_name: germanbini
+          :location: Iowa, USA & part-time vanlife
+          :description: |-
+            She/her. Lives w/ SO in Iowa; traveling when possible! #Critter
+
+            #MedicareForAll #BLM #EndEndlessWars #LegalizeIt #FreePalestine #TibetIsNotChina
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 670
+          :friends_count: 607
+          :listed_count: 0
+          :created_at: Thu May 15 13:49:17 +0000 2008
+          :favourites_count: 26210
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 8570
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1304656378762534912/KBOnHckO_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1304656378762534912/KBOnHckO_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/14786139/1431053825
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:10:40 +0000 2022
+            :id: 1494585143083872271
+            :id_str: '1494585143083872271'
+            :text: "Damn you, #Wordle! (Sad trombone noises)\n#Wordle #Wordle244 #wordle244X
+              #WordleFail #Fail \nWordle 244 X/6*\n\n⬜\U0001F7E8⬜⬜⬜\n⬜… https://t.co/O5WeWr69CQ"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: germanbini
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494585143083872271
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

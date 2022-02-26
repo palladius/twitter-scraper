@@ -1,0 +1,172 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Sat Feb 19 19:03:42 +0000 2022
+  :id: 1495111869694361600
+  :id_str: '1495111869694361600'
+  :text: "#Wordle 246 6/6*\n\n⬜⬜⬜⬜⬜\n⬜⬜\U0001F7E8⬜⬜\n⬜\U0001F7E9\U0001F7E8⬜⬜\n⬜\U0001F7E9\U0001F7E8\U0001F7E9⬜\n⬜\U0001F7E9⬜\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 0
+      - 7
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: und
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1187548414948495360
+    :id_str: '1187548414948495360'
+    :name: "♔\U0001F36D ᶰ\U0001D45C \U0001D4F7αмⓔ \U0001F36C\U0001F337"
+    :screen_name: OAfdsk
+    :location: ʂųŋɖąཞą ɬɛƖųɠų ŋąɖų
+    :description: "\U0001D480\U0001D490\U0001D496 \U0001D485\U0001D48A\U0001D485\U0001D48F'\U0001D495
+      \U0001D46A\U0001D476\U0001D474\U0001D46C \U0001D495\U0001D489\U0001D48A\U0001D494
+      \U0001D487\U0001D482\U0001D493 \U0001D495\U0001D490 \U0001D490\U0001D48F\U0001D48D\U0001D49A
+      \U0001D46A\U0001D476\U0001D474\U0001D46C \U0001D495\U0001D489\U0001D48A\U0001D494
+      \U0001D487\U0001D482\U0001D493"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 3
+    :friends_count: 60
+    :listed_count: 1
+    :created_at: Fri Oct 25 01:56:30 +0000 2019
+    :favourites_count: 37
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 64
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1489512875073097730/LE6tsPrf_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1489512875073097730/LE6tsPrf_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1187548414948495360/1642319489
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: und
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "#Wordle 246 6/6*\n\n⬜⬜⬜⬜⬜\n⬜⬜\U0001F7E8⬜⬜\n⬜\U0001F7E9\U0001F7E8⬜⬜\n⬜\U0001F7E9\U0001F7E8\U0001F7E9⬜\n⬜\U0001F7E9⬜\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1187548414948495360
+          :id_str: '1187548414948495360'
+          :name: "♔\U0001F36D ᶰ\U0001D45C \U0001D4F7αмⓔ \U0001F36C\U0001F337"
+          :screen_name: OAfdsk
+          :location: ʂųŋɖąཞą ɬɛƖųɠų ŋąɖų
+          :description: "\U0001D480\U0001D490\U0001D496 \U0001D485\U0001D48A\U0001D485\U0001D48F'\U0001D495
+            \U0001D46A\U0001D476\U0001D474\U0001D46C \U0001D495\U0001D489\U0001D48A\U0001D494
+            \U0001D487\U0001D482\U0001D493 \U0001D495\U0001D490 \U0001D490\U0001D48F\U0001D48D\U0001D49A
+            \U0001D46A\U0001D476\U0001D474\U0001D46C \U0001D495\U0001D489\U0001D48A\U0001D494
+            \U0001D487\U0001D482\U0001D493"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 3
+          :friends_count: 60
+          :listed_count: 1
+          :created_at: Fri Oct 25 01:56:30 +0000 2019
+          :favourites_count: 37
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 64
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1489512875073097730/LE6tsPrf_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1489512875073097730/LE6tsPrf_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1187548414948495360/1642319489
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Sat Feb 19 19:03:42 +0000 2022
+            :id: 1495111869694361600
+            :id_str: '1495111869694361600'
+            :text: "#Wordle 246 6/6*\n\n⬜⬜⬜⬜⬜\n⬜⬜\U0001F7E8⬜⬜\n⬜\U0001F7E9\U0001F7E8⬜⬜\n⬜\U0001F7E9\U0001F7E8\U0001F7E9⬜\n⬜\U0001F7E9⬜\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: und
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: OAfdsk
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1495111869694361600
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

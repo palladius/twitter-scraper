@@ -1,0 +1,187 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:55:03 +0000 2022
+  :id: 1494581210600943616
+  :id_str: '1494581210600943616'
+  :text: "joguei https://t.co/X1l7aQRAq5 #47 3/6\n\n\U0001F7E9\U0001F7E9⬛⬛⬛\n⬛\U0001F7E8⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/X1l7aQRAq5
+      :expanded_url: http://term.ooo
+      :display_url: term.ooo
+      :indices:
+      - 7
+      - 30
+  :metadata: &4
+    :iso_language_code: pt
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 793206236179206144
+    :id_str: '793206236179206144'
+    :name: Carimbo Miguel
+    :screen_name: Kuba7m
+    :location: Rio de Janeiro, Brasil
+    :description: |-
+      https://t.co/eqwiuhv01G
+      https://t.co/M1ythUW0Kp…
+      fé
+    :url: 
+    :entities: &1
+      :description:
+        :urls:
+        - :url: https://t.co/eqwiuhv01G
+          :expanded_url: http://instagram.com/kuba7m/
+          :display_url: instagram.com/kuba7m/
+          :indices:
+          - 0
+          - 23
+        - :url: https://t.co/M1ythUW0Kp
+          :expanded_url: http://open.spotify.com/artist/52yuDoS
+          :display_url: open.spotify.com/artist/52yuDoS
+          :indices:
+          - 24
+          - 47
+    :protected: false
+    :followers_count: 317
+    :friends_count: 422
+    :listed_count: 0
+    :created_at: Mon Oct 31 21:41:18 +0000 2016
+    :favourites_count: 23360
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 9440
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '000000'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1488588205649801217/Satogi-w_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1488588205649801217/Satogi-w_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/793206236179206144/1634652563
+    :profile_link_color: ABB8C2
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: '000000'
+    :profile_text_color: '000000'
+    :profile_use_background_image: false
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: pt
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "joguei https://t.co/X1l7aQRAq5 #47 3/6\n\n\U0001F7E9\U0001F7E9⬛⬛⬛\n⬛\U0001F7E8⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 793206236179206144
+          :id_str: '793206236179206144'
+          :name: Carimbo Miguel
+          :screen_name: Kuba7m
+          :location: Rio de Janeiro, Brasil
+          :description: |-
+            https://t.co/eqwiuhv01G
+            https://t.co/M1ythUW0Kp…
+            fé
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 317
+          :friends_count: 422
+          :listed_count: 0
+          :created_at: Mon Oct 31 21:41:18 +0000 2016
+          :favourites_count: 23360
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 9440
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '000000'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1488588205649801217/Satogi-w_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1488588205649801217/Satogi-w_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/793206236179206144/1634652563
+          :profile_link_color: ABB8C2
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: '000000'
+          :profile_text_color: '000000'
+          :profile_use_background_image: false
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:55:03 +0000 2022
+            :id: 1494581210600943616
+            :id_str: '1494581210600943616'
+            :text: "joguei https://t.co/X1l7aQRAq5 #47 3/6\n\n\U0001F7E9\U0001F7E9⬛⬛⬛\n⬛\U0001F7E8⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: pt
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Kuba7m
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494581210600943616
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

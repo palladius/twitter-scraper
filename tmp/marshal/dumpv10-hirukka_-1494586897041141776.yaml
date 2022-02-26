@@ -1,0 +1,176 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:17:38 +0000 2022
+  :id: 1494586897041141776
+  :id_str: '1494586897041141776'
+  :text: "Wordle 244 X/6\n\n⬜\U0001F7E8⬜\U0001F7E8⬜\n⬜\U0001F7E9⬜\U0001F7E9\U0001F7E9\n⬜⬜\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nI’m
+    about to commit I swear—"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1287303844230201344
+    :id_str: '1287303844230201344'
+    :name: "Fe \U0001F33F"
+    :screen_name: hirukka_
+    :location: "nearest recording studio \U0001F3B8"
+    :description: "Fede • she/her • 20+ • \U0001F1EE\U0001F1F9 • artist and bASSist
+      • currently obsessing over Pokémon (yet again) • #anipoke #pokemon • \U0001F4E9
+      hirukka.art@gmail.com"
+    :url: https://t.co/SPX2lfX0D1
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/SPX2lfX0D1
+          :expanded_url: http://linktr.ee/hirukka
+          :display_url: linktr.ee/hirukka
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 338
+    :friends_count: 1647
+    :listed_count: 3
+    :created_at: Sun Jul 26 08:28:55 +0000 2020
+    :favourites_count: 31988
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 1795
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1494235252839092229/n8jTdtkr_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1494235252839092229/n8jTdtkr_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1287303844230201344/1644705975
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 X/6\n\n⬜\U0001F7E8⬜\U0001F7E8⬜\n⬜\U0001F7E9⬜\U0001F7E9\U0001F7E9\n⬜⬜\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nI’m
+        about to commit I swear—"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1287303844230201344
+          :id_str: '1287303844230201344'
+          :name: "Fe \U0001F33F"
+          :screen_name: hirukka_
+          :location: "nearest recording studio \U0001F3B8"
+          :description: "Fede • she/her • 20+ • \U0001F1EE\U0001F1F9 • artist and
+            bASSist • currently obsessing over Pokémon (yet again) • #anipoke #pokemon
+            • \U0001F4E9 hirukka.art@gmail.com"
+          :url: https://t.co/SPX2lfX0D1
+          :entities: *1
+          :protected: false
+          :followers_count: 338
+          :friends_count: 1647
+          :listed_count: 3
+          :created_at: Sun Jul 26 08:28:55 +0000 2020
+          :favourites_count: 31988
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 1795
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1494235252839092229/n8jTdtkr_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1494235252839092229/n8jTdtkr_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1287303844230201344/1644705975
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:17:38 +0000 2022
+            :id: 1494586897041141776
+            :id_str: '1494586897041141776'
+            :text: "Wordle 244 X/6\n\n⬜\U0001F7E8⬜\U0001F7E8⬜\n⬜\U0001F7E9⬜\U0001F7E9\U0001F7E9\n⬜⬜\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nI’m
+              about to commit I swear—"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: hirukka_
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586897041141776
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,173 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 05:01:28 +0000 2022
+  :id: 1494537526232637464
+  :id_str: '1494537526232637464'
+  :text: "#Taylordle 21 3/6\n\n⬜⬜⬜\U0001F7E8⬜\n\U0001F7E9\U0001F7E9⬜\U0001F7E8\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: Taylordle
+      :indices:
+      - 0
+      - 10
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: und
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1289742808006393857
+    :id_str: '1289742808006393857'
+    :name: "EverLovelyJewelle\U0001F9E3"
+    :screen_name: evrlovlyjewelle
+    :location: Tennessee, USA
+    :description: 'Just a 46 year-old #SeniorSwiftie who also loves #TheChicks'
+    :url: https://t.co/UlpxhNh7kb
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/UlpxhNh7kb
+          :expanded_url: http://www.instagram.com/210dovehill
+          :display_url: instagram.com/210dovehill
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 125
+    :friends_count: 503
+    :listed_count: 1
+    :created_at: Sun Aug 02 02:00:32 +0000 2020
+    :favourites_count: 12491
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 6215
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1485811566616494083/3w5t421r_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1485811566616494083/3w5t421r_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1289742808006393857/1636841034
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: und
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "#Taylordle 21 3/6\n\n⬜⬜⬜\U0001F7E8⬜\n\U0001F7E9\U0001F7E9⬜\U0001F7E8\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1289742808006393857
+          :id_str: '1289742808006393857'
+          :name: "EverLovelyJewelle\U0001F9E3"
+          :screen_name: evrlovlyjewelle
+          :location: Tennessee, USA
+          :description: 'Just a 46 year-old #SeniorSwiftie who also loves #TheChicks'
+          :url: https://t.co/UlpxhNh7kb
+          :entities: *1
+          :protected: false
+          :followers_count: 125
+          :friends_count: 503
+          :listed_count: 1
+          :created_at: Sun Aug 02 02:00:32 +0000 2020
+          :favourites_count: 12491
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 6215
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1485811566616494083/3w5t421r_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1485811566616494083/3w5t421r_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1289742808006393857/1636841034
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 05:01:28 +0000 2022
+            :id: 1494537526232637464
+            :id_str: '1494537526232637464'
+            :text: "#Taylordle 21 3/6\n\n⬜⬜⬜\U0001F7E8⬜\n\U0001F7E9\U0001F7E9⬜\U0001F7E8\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: und
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: evrlovlyjewelle
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494537526232637464
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

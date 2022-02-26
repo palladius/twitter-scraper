@@ -1,0 +1,178 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:01:29 +0000 2022
+  :id: 1494582829715533826
+  :id_str: '1494582829715533826'
+  :text: "Le Mot (@WordleFR) #40 6/6\n\n⬛⬛⬛⬛\U0001F7E8\n⬛⬛⬛\U0001F7E8\U0001F7E8\n\U0001F7E8\U0001F7E8⬛⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/pEC4Lj8Ksu"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 8
+      - 17
+    :urls:
+    - :url: https://t.co/pEC4Lj8Ksu
+      :expanded_url: http://wordle.louan.me
+      :display_url: wordle.louan.me
+      :indices:
+      - 65
+      - 88
+  :metadata: &4
+    :iso_language_code: fr
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 1494581313701126148
+  :in_reply_to_status_id_str: '1494581313701126148'
+  :in_reply_to_user_id: 952793036
+  :in_reply_to_user_id_str: '952793036'
+  :in_reply_to_screen_name: The_Hasta
+  :user:
+    :id: 952793036
+    :id_str: '952793036'
+    :name: Hasta ⭐️⭐️
+    :screen_name: The_Hasta
+    :location: Caraïbes - Europe
+    :description: Relou par moment, c'est l'autre mec dans ma tête qui tweete. Jamaican
+      Dancehall addict
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 182
+    :friends_count: 387
+    :listed_count: 51
+    :created_at: Sat Nov 17 02:37:24 +0000 2012
+    :favourites_count: 11361
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 91047
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: FFFFFF
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme17/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme17/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1453789176512581632/tmB3e_9j_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1453789176512581632/tmB3e_9j_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/952793036/1531692953
+    :profile_link_color: 3B94D9
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: E6F6F9
+    :profile_text_color: '333333'
+    :profile_use_background_image: false
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: fr
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Le Mot (@WordleFR) #40 6/6\n\n⬛⬛⬛⬛\U0001F7E8\n⬛⬛⬛\U0001F7E8\U0001F7E8\n\U0001F7E8\U0001F7E8⬛⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/pEC4Lj8Ksu"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 952793036
+          :id_str: '952793036'
+          :name: Hasta ⭐️⭐️
+          :screen_name: The_Hasta
+          :location: Caraïbes - Europe
+          :description: Relou par moment, c'est l'autre mec dans ma tête qui tweete.
+            Jamaican Dancehall addict
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 182
+          :friends_count: 387
+          :listed_count: 51
+          :created_at: Sat Nov 17 02:37:24 +0000 2012
+          :favourites_count: 11361
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 91047
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: FFFFFF
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme17/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme17/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1453789176512581632/tmB3e_9j_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1453789176512581632/tmB3e_9j_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/952793036/1531692953
+          :profile_link_color: 3B94D9
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: E6F6F9
+          :profile_text_color: '333333'
+          :profile_use_background_image: false
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:01:29 +0000 2022
+            :id: 1494582829715533826
+            :id_str: '1494582829715533826'
+            :text: "Le Mot (@WordleFR) #40 6/6\n\n⬛⬛⬛⬛\U0001F7E8\n⬛⬛⬛\U0001F7E8\U0001F7E8\n\U0001F7E8\U0001F7E8⬛⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/pEC4Lj8Ksu"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 1494581313701126148
+            :in_reply_to_status_id_str: '1494581313701126148'
+            :in_reply_to_user_id: 952793036
+            :in_reply_to_user_id_str: '952793036'
+            :in_reply_to_screen_name: The_Hasta
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: fr
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: The_Hasta
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494582829715533826
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

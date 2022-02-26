@@ -1,0 +1,180 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:13:27 +0000 2022
+  :id: 1494585841909383168
+  :id_str: '1494585841909383168'
+  :text: "Wordle 244 1/6\n\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#Wordle
+    #Wordle244 \U0001F389"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 23
+      - 30
+    - :text: Wordle244
+      :indices:
+      - 31
+      - 41
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 125409099
+    :id_str: '125409099'
+    :name: "\U0001F179\U0001F170\U0001F17C\U0001F174\U0001F182 \U0001F181\U0001F17E\U0001F171\U0001F174\U0001F181\U0001F183\U0001F182"
+    :screen_name: JamesRoberts330
+    :location: Knowsley, England
+    :description: Tweet or Message to find out!
+    :url: https://t.co/woJyfJA1jo
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/woJyfJA1jo
+          :expanded_url: https://www.vodafone.co.uk
+          :display_url: vodafone.co.uk
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 542
+    :friends_count: 559
+    :listed_count: 24
+    :created_at: Mon Mar 22 18:26:18 +0000 2010
+    :favourites_count: 2255
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 11609
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '131516'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme14/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme14/bg.gif
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1487793839884705797/KTm6tlv1_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1487793839884705797/KTm6tlv1_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/125409099/1644211935
+    :profile_link_color: '131516'
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: '000000'
+    :profile_text_color: '000000'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 1/6\n\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#Wordle
+        #Wordle244 \U0001F389"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 125409099
+          :id_str: '125409099'
+          :name: "\U0001F179\U0001F170\U0001F17C\U0001F174\U0001F182 \U0001F181\U0001F17E\U0001F171\U0001F174\U0001F181\U0001F183\U0001F182"
+          :screen_name: JamesRoberts330
+          :location: Knowsley, England
+          :description: Tweet or Message to find out!
+          :url: https://t.co/woJyfJA1jo
+          :entities: *1
+          :protected: false
+          :followers_count: 542
+          :friends_count: 559
+          :listed_count: 24
+          :created_at: Mon Mar 22 18:26:18 +0000 2010
+          :favourites_count: 2255
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 11609
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '131516'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme14/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme14/bg.gif
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1487793839884705797/KTm6tlv1_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1487793839884705797/KTm6tlv1_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/125409099/1644211935
+          :profile_link_color: '131516'
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: '000000'
+          :profile_text_color: '000000'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:13:27 +0000 2022
+            :id: 1494585841909383168
+            :id_str: '1494585841909383168'
+            :text: "Wordle 244 1/6\n\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#Wordle
+              #Wordle244 \U0001F389"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: JamesRoberts330
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494585841909383168
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

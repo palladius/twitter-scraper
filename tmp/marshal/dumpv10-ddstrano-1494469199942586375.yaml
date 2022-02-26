@@ -1,0 +1,188 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 00:29:57 +0000 2022
+  :id: 1494469199942586375
+  :id_str: '1494469199942586375'
+  :text: "Wordle 243 3/6\n\n⬜⬜\U0001F7E9\U0001F7E9⬜\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+    ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/h7BYcWJcYB\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle5… https://t.co/BFT1jCLap6"
+  :truncated: true
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 90
+      - 97
+    - :text: Wordle5
+      :indices:
+      - 98
+      - 106
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/h7BYcWJcYB
+      :expanded_url: https://wordle.wekele.com
+      :display_url: wordle.wekele.com
+      :indices:
+      - 50
+      - 73
+    - :url: https://t.co/BFT1jCLap6
+      :expanded_url: https://twitter.com/i/web/status/1494469199942586375
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 108
+      - 131
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 57057106
+    :id_str: '57057106'
+    :name: DianaDearbornStrano
+    :screen_name: ddstrano
+    :location: Massachusetts
+    :description: knowledge hunter. peace keeper. problem solver. bruins' fan.
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 129
+    :friends_count: 453
+    :listed_count: 5
+    :created_at: Wed Jul 15 16:08:55 +0000 2009
+    :favourites_count: 5473
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 2082
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: FA743E
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme17/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme17/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/723235701530103808/qPedj9-Z_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/723235701530103808/qPedj9-Z_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/57057106/1399491013
+    :profile_link_color: ABB8C2
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: 95E8EC
+    :profile_text_color: 3C3940
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 1
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 243 3/6\n\n⬜⬜\U0001F7E9\U0001F7E9⬜\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+        ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/h7BYcWJcYB\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle5…
+        https://t.co/BFT1jCLap6"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 57057106
+          :id_str: '57057106'
+          :name: DianaDearbornStrano
+          :screen_name: ddstrano
+          :location: Massachusetts
+          :description: knowledge hunter. peace keeper. problem solver. bruins' fan.
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 129
+          :friends_count: 453
+          :listed_count: 5
+          :created_at: Wed Jul 15 16:08:55 +0000 2009
+          :favourites_count: 5473
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 2082
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: FA743E
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme17/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme17/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/723235701530103808/qPedj9-Z_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/723235701530103808/qPedj9-Z_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/57057106/1399491013
+          :profile_link_color: ABB8C2
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: 95E8EC
+          :profile_text_color: 3C3940
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 00:29:57 +0000 2022
+            :id: 1494469199942586375
+            :id_str: '1494469199942586375'
+            :text: "Wordle 243 3/6\n\n⬜⬜\U0001F7E9\U0001F7E9⬜\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+              ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/h7BYcWJcYB\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle5…
+              https://t.co/BFT1jCLap6"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 1
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: ddstrano
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494469199942586375
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,171 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:18:49 +0000 2022
+  :id: 1494587193985155072
+  :id_str: '1494587193985155072'
+  :text: "Wordle 244 5/6\n\n⬛\U0001F7E8⬛⬛\U0001F7E8\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nえぐいて"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: ja
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 1493979340794515459
+  :in_reply_to_status_id_str: '1493979340794515459'
+  :in_reply_to_user_id: 1673213576
+  :in_reply_to_user_id_str: '1673213576'
+  :in_reply_to_screen_name: noy_skmt
+  :user:
+    :id: 1673213576
+    :id_str: '1673213576'
+    :name: ジェルフィ
+    :screen_name: noy_skmt
+    :location: ''
+    :description: |-
+      謎はCuriddleからも。@makequizdaily くらげ,麻雀,謎解き---REDROOM11分10秒成功
+      https://t.co/06KxkuMQ4g
+    :url: 
+    :entities: &1
+      :description:
+        :urls:
+        - :url: https://t.co/06KxkuMQ4g
+          :expanded_url: https://www.youtube.com/channel/UCKKu9KdCAOhhsnB8mrtqYMQ
+          :display_url: youtube.com/channel/UCKKu9…
+          :indices:
+          - 58
+          - 81
+    :protected: false
+    :followers_count: 661
+    :friends_count: 794
+    :listed_count: 10
+    :created_at: Thu Aug 15 13:38:47 +0000 2013
+    :favourites_count: 10709
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 9541
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1255092811281526784/Qxm59lb__normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1255092811281526784/Qxm59lb__normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1673213576/1622478186
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: ja
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 5/6\n\n⬛\U0001F7E8⬛⬛\U0001F7E8\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nえぐいて"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1673213576
+          :id_str: '1673213576'
+          :name: ジェルフィ
+          :screen_name: noy_skmt
+          :location: ''
+          :description: |-
+            謎はCuriddleからも。@makequizdaily くらげ,麻雀,謎解き---REDROOM11分10秒成功
+            https://t.co/06KxkuMQ4g
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 661
+          :friends_count: 794
+          :listed_count: 10
+          :created_at: Thu Aug 15 13:38:47 +0000 2013
+          :favourites_count: 10709
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 9541
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1255092811281526784/Qxm59lb__normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1255092811281526784/Qxm59lb__normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1673213576/1622478186
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:18:49 +0000 2022
+            :id: 1494587193985155072
+            :id_str: '1494587193985155072'
+            :text: "Wordle 244 5/6\n\n⬛\U0001F7E8⬛⬛\U0001F7E8\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nえぐいて"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 1493979340794515459
+            :in_reply_to_status_id_str: '1493979340794515459'
+            :in_reply_to_user_id: 1673213576
+            :in_reply_to_user_id_str: '1673213576'
+            :in_reply_to_screen_name: noy_skmt
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: ja
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: noy_skmt
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587193985155072
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,174 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:00:35 +0000 2022
+  :id: 1494582603516686359
+  :id_str: '1494582603516686359'
+  :text: "joguei https://t.co/l9LHh5Cp9m #47 1/6 *\n\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nEspero
+    que eu nao me foda na prova de hoje por ter gastado minha sorte nesse one hit"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/l9LHh5Cp9m
+      :expanded_url: http://term.ooo
+      :display_url: term.ooo
+      :indices:
+      - 7
+      - 30
+  :metadata: &4
+    :iso_language_code: pt
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 829109791398166528
+    :id_str: '829109791398166528'
+    :name: Soft Vegan
+    :screen_name: cancelavel_
+    :location: ''
+    :description: feia e insegura no que faz
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 154
+    :friends_count: 131
+    :listed_count: 1
+    :created_at: Tue Feb 07 23:29:13 +0000 2017
+    :favourites_count: 21030
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 7044
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1485358549383450627/CP2Bs6Vj_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1485358549383450627/CP2Bs6Vj_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/829109791398166528/1625927259
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 1
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: pt
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "joguei https://t.co/l9LHh5Cp9m #47 1/6 *\n\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nEspero
+        que eu nao me foda na prova de hoje por ter gastado minha sorte nesse one
+        hit"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 829109791398166528
+          :id_str: '829109791398166528'
+          :name: Soft Vegan
+          :screen_name: cancelavel_
+          :location: ''
+          :description: feia e insegura no que faz
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 154
+          :friends_count: 131
+          :listed_count: 1
+          :created_at: Tue Feb 07 23:29:13 +0000 2017
+          :favourites_count: 21030
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 7044
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1485358549383450627/CP2Bs6Vj_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1485358549383450627/CP2Bs6Vj_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/829109791398166528/1625927259
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:00:35 +0000 2022
+            :id: 1494582603516686359
+            :id_str: '1494582603516686359'
+            :text: "joguei https://t.co/l9LHh5Cp9m #47 1/6 *\n\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nEspero
+              que eu nao me foda na prova de hoje por ter gastado minha sorte nesse
+              one hit"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 1
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: pt
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: cancelavel_
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494582603516686359
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

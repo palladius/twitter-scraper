@@ -1,0 +1,176 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:32:32 +0000 2022
+  :id: 1494575545539047425
+  :id_str: '1494575545539047425'
+  :text: "Le Mot (@WordleFR) #40 6/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛⬛\U0001F7E8⬛\U0001F7E9\n\U0001F7E8\U0001F7E8⬛⬛\U0001F7E9\n⬛⬛\U0001F7E9\U0001F7E8\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/kgItrOapc8"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 8
+      - 17
+    :urls:
+    - :url: https://t.co/kgItrOapc8
+      :expanded_url: http://wordle.louan.me
+      :display_url: wordle.louan.me
+      :indices:
+      - 65
+      - 88
+  :metadata: &4
+    :iso_language_code: fr
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 16306558
+    :id_str: '16306558'
+    :name: "BunRab\U0001FAC0"
+    :screen_name: BunRab
+    :location: Baltimore, Maryland, USA
+    :description: 'Retired CPA; Saxophone player; Biker Skum; heart transplant recipient.
+      Pronouns: call me anything, just don''t call me late for dinner.'
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 453
+    :friends_count: 518
+    :listed_count: 21
+    :created_at: Tue Sep 16 03:42:45 +0000 2008
+    :favourites_count: 154823
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 12457
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: EAC117
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1292657988835172353/eNSRvKSf_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1292657988835172353/eNSRvKSf_normal.jpg
+    :profile_link_color: 0000FF
+    :profile_sidebar_border_color: D4A017
+    :profile_sidebar_fill_color: FDD017
+    :profile_text_color: '000000'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: fr
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Le Mot (@WordleFR) #40 6/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛⬛\U0001F7E8⬛\U0001F7E9\n\U0001F7E8\U0001F7E8⬛⬛\U0001F7E9\n⬛⬛\U0001F7E9\U0001F7E8\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/kgItrOapc8"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 16306558
+          :id_str: '16306558'
+          :name: "BunRab\U0001FAC0"
+          :screen_name: BunRab
+          :location: Baltimore, Maryland, USA
+          :description: 'Retired CPA; Saxophone player; Biker Skum; heart transplant
+            recipient. Pronouns: call me anything, just don''t call me late for dinner.'
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 453
+          :friends_count: 518
+          :listed_count: 21
+          :created_at: Tue Sep 16 03:42:45 +0000 2008
+          :favourites_count: 154823
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 12457
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: EAC117
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1292657988835172353/eNSRvKSf_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1292657988835172353/eNSRvKSf_normal.jpg
+          :profile_link_color: 0000FF
+          :profile_sidebar_border_color: D4A017
+          :profile_sidebar_fill_color: FDD017
+          :profile_text_color: '000000'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:32:32 +0000 2022
+            :id: 1494575545539047425
+            :id_str: '1494575545539047425'
+            :text: "Le Mot (@WordleFR) #40 6/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛⬛\U0001F7E8⬛\U0001F7E9\n\U0001F7E8\U0001F7E8⬛⬛\U0001F7E9\n⬛⬛\U0001F7E9\U0001F7E8\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/kgItrOapc8"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: fr
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: BunRab
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494575545539047425
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

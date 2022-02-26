@@ -1,0 +1,163 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:20:00 +0000 2022
+  :id: 1494587488576417801
+  :id_str: '1494587488576417801'
+  :text: "Wordle 244 3/6\n\n\U0001F7E9⬛\U0001F7E8⬛\U0001F7E8\n\U0001F7E9\U0001F7E8⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 950105022
+    :id_str: '950105022'
+    :name: "Farheen B • \U0001F1F2\U0001F1FA"
+    :screen_name: Faleeeen
+    :location: Mauritius
+    :description: I don’t filter my thoughts. I tweet them instead. You can stalk
+      me on IG @faleeeen
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 469
+    :friends_count: 235
+    :listed_count: 2
+    :created_at: Thu Nov 15 17:10:38 +0000 2012
+    :favourites_count: 2196
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 2923
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: 2B141D
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme13/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme13/bg.gif
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1476598473642360835/szbOlzO1_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1476598473642360835/szbOlzO1_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/950105022/1604258865
+    :profile_link_color: B88499
+    :profile_sidebar_border_color: F3FFDE
+    :profile_sidebar_fill_color: C9F5E8
+    :profile_text_color: DAD3E8
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 3/6\n\n\U0001F7E9⬛\U0001F7E8⬛\U0001F7E8\n\U0001F7E9\U0001F7E8⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 950105022
+          :id_str: '950105022'
+          :name: "Farheen B • \U0001F1F2\U0001F1FA"
+          :screen_name: Faleeeen
+          :location: Mauritius
+          :description: I don’t filter my thoughts. I tweet them instead. You can
+            stalk me on IG @faleeeen
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 469
+          :friends_count: 235
+          :listed_count: 2
+          :created_at: Thu Nov 15 17:10:38 +0000 2012
+          :favourites_count: 2196
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 2923
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: 2B141D
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme13/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme13/bg.gif
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1476598473642360835/szbOlzO1_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1476598473642360835/szbOlzO1_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/950105022/1604258865
+          :profile_link_color: B88499
+          :profile_sidebar_border_color: F3FFDE
+          :profile_sidebar_fill_color: C9F5E8
+          :profile_text_color: DAD3E8
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:20:00 +0000 2022
+            :id: 1494587488576417801
+            :id_str: '1494587488576417801'
+            :text: "Wordle 244 3/6\n\n\U0001F7E9⬛\U0001F7E8⬛\U0001F7E8\n\U0001F7E9\U0001F7E8⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Faleeeen
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587488576417801
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

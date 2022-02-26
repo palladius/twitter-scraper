@@ -1,0 +1,259 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Thu Feb 17 17:54:53 +0000 2022
+  :id: 1494369776063426563
+  :id_str: '1494369776063426563'
+  :text: "Taylordle 20 2/6\n\n\U0001F7E9\U0001F7E9\U0001F7E8⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nOMG!
+    OMG! OMG! OMG! \U0001F631\U0001F631\U0001F631\U0001F631\U0001F631\n@taylorswift13
+    @taylornation13 #taylordle https://t.co/KbG9gecMmC"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: taylordle
+      :indices:
+      - 88
+      - 98
+    :symbols: []
+    :user_mentions:
+    - :screen_name: taylorswift13
+      :name: Taylor Swift
+      :id: 17919972
+      :id_str: '17919972'
+      :indices:
+      - 57
+      - 71
+    - :screen_name: taylornation13
+      :name: Taylor Nation
+      :id: 80144576
+      :id_str: '80144576'
+      :indices:
+      - 72
+      - 87
+    :urls: []
+    :media:
+    - :id: 1494369768710807555
+      :id_str: '1494369768710807555'
+      :indices:
+      - 99
+      - 122
+      :media_url: http://pbs.twimg.com/tweet_video_thumb/FL0RYxsXIAMsibj.jpg
+      :media_url_https: https://pbs.twimg.com/tweet_video_thumb/FL0RYxsXIAMsibj.jpg
+      :url: https://t.co/KbG9gecMmC
+      :display_url: pic.twitter.com/KbG9gecMmC
+      :expanded_url: https://twitter.com/jill13sylveojns/status/1494369776063426563/photo/1
+      :type: photo
+      :sizes:
+        :thumb:
+          :w: 150
+          :h: 150
+          :resize: crop
+        :small:
+          :w: 400
+          :h: 224
+          :resize: fit
+        :large:
+          :w: 400
+          :h: 224
+          :resize: fit
+        :medium:
+          :w: 400
+          :h: 224
+          :resize: fit
+  :extended_entities: &4
+    :media:
+    - :id: 1494369768710807555
+      :id_str: '1494369768710807555'
+      :indices:
+      - 99
+      - 122
+      :media_url: http://pbs.twimg.com/tweet_video_thumb/FL0RYxsXIAMsibj.jpg
+      :media_url_https: https://pbs.twimg.com/tweet_video_thumb/FL0RYxsXIAMsibj.jpg
+      :url: https://t.co/KbG9gecMmC
+      :display_url: pic.twitter.com/KbG9gecMmC
+      :expanded_url: https://twitter.com/jill13sylveojns/status/1494369776063426563/photo/1
+      :type: animated_gif
+      :sizes:
+        :thumb:
+          :w: 150
+          :h: 150
+          :resize: crop
+        :small:
+          :w: 400
+          :h: 224
+          :resize: fit
+        :large:
+          :w: 400
+          :h: 224
+          :resize: fit
+        :medium:
+          :w: 400
+          :h: 224
+          :resize: fit
+      :video_info:
+        :aspect_ratio:
+        - 25
+        - 14
+        :variants:
+        - :bitrate: 0
+          :content_type: video/mp4
+          :url: https://video.twimg.com/tweet_video/FL0RYxsXIAMsibj.mp4
+  :metadata: &5
+    :iso_language_code: et
+    :result_type: recent
+  :source: <a href="http://twitter.com/#!/download/ipad" rel="nofollow">Twitter for
+    iPad</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1337436071190212610
+    :id_str: '1337436071190212610'
+    :name: "Jill (taylorsversie)\U0001F49B❤️\U0001F9E3"
+    :screen_name: jill13sylveojns
+    :location: ''
+    :description: "Taylor! Morat. Delta Goodrem, IU, I love the Jacksons family \U0001F496
+      \U0001F1F3\U0001F1F1 She/her, feeling 32. Yena, Smiley. CraXy, Crown. Aaliyah,
+      Left Eye \U0001F90D\U0001F90D\U0001F90D\U0001F90D❣️"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 288
+    :friends_count: 459
+    :listed_count: 3
+    :created_at: Fri Dec 11 16:36:41 +0000 2020
+    :favourites_count: 3470
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 3777
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1489709798039986176/WiWphPfi_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1489709798039986176/WiWphPfi_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1337436071190212610/1641136585
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: et
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Taylordle 20 2/6\n\n\U0001F7E9\U0001F7E9\U0001F7E8⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nOMG!
+        OMG! OMG! OMG! \U0001F631\U0001F631\U0001F631\U0001F631\U0001F631\n@taylorswift13
+        @taylornation13 #taylordle https://t.co/KbG9gecMmC"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1337436071190212610
+          :id_str: '1337436071190212610'
+          :name: "Jill (taylorsversie)\U0001F49B❤️\U0001F9E3"
+          :screen_name: jill13sylveojns
+          :location: ''
+          :description: "Taylor! Morat. Delta Goodrem, IU, I love the Jacksons family
+            \U0001F496 \U0001F1F3\U0001F1F1 She/her, feeling 32. Yena, Smiley. CraXy,
+            Crown. Aaliyah, Left Eye \U0001F90D\U0001F90D\U0001F90D\U0001F90D❣️"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 288
+          :friends_count: 459
+          :listed_count: 3
+          :created_at: Fri Dec 11 16:36:41 +0000 2020
+          :favourites_count: 3470
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 3777
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1489709798039986176/WiWphPfi_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1489709798039986176/WiWphPfi_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1337436071190212610/1641136585
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Thu Feb 17 17:54:53 +0000 2022
+            :id: 1494369776063426563
+            :id_str: '1494369776063426563'
+            :text: "Taylordle 20 2/6\n\n\U0001F7E9\U0001F7E9\U0001F7E8⬜\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nOMG!
+              OMG! OMG! OMG! \U0001F631\U0001F631\U0001F631\U0001F631\U0001F631\n@taylorswift13
+              @taylornation13 #taylordle https://t.co/KbG9gecMmC"
+            :truncated: false
+            :entities: *3
+            :extended_entities: *4
+            :metadata: *5
+            :source: <a href="http://twitter.com/#!/download/ipad" rel="nofollow">Twitter
+              for iPad</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: et
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: jill13sylveojns
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494369776063426563
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

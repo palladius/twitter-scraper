@@ -1,0 +1,240 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:18:32 +0000 2022
+  :id: 1494587120618516502
+  :id_str: '1494587120618516502'
+  :text: |-
+    Wordle 244 5/6
+
+    That was annoying and frustrating. https://t.co/pf5cqLNviD
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+    :media:
+    - :id: 1494587116738785290
+      :id_str: '1494587116738785290'
+      :indices:
+      - 51
+      - 74
+      :media_url: http://pbs.twimg.com/media/FL3XEGMXMAocTEq.jpg
+      :media_url_https: https://pbs.twimg.com/media/FL3XEGMXMAocTEq.jpg
+      :url: https://t.co/pf5cqLNviD
+      :display_url: pic.twitter.com/pf5cqLNviD
+      :expanded_url: https://twitter.com/miketually/status/1494587120618516502/photo/1
+      :type: photo
+      :sizes:
+        :thumb:
+          :w: 150
+          :h: 150
+          :resize: crop
+        :small:
+          :w: 338
+          :h: 445
+          :resize: fit
+        :large:
+          :w: 338
+          :h: 445
+          :resize: fit
+        :medium:
+          :w: 338
+          :h: 445
+          :resize: fit
+  :extended_entities: &4
+    :media:
+    - :id: 1494587116738785290
+      :id_str: '1494587116738785290'
+      :indices:
+      - 51
+      - 74
+      :media_url: http://pbs.twimg.com/media/FL3XEGMXMAocTEq.jpg
+      :media_url_https: https://pbs.twimg.com/media/FL3XEGMXMAocTEq.jpg
+      :url: https://t.co/pf5cqLNviD
+      :display_url: pic.twitter.com/pf5cqLNviD
+      :expanded_url: https://twitter.com/miketually/status/1494587120618516502/photo/1
+      :type: photo
+      :sizes:
+        :thumb:
+          :w: 150
+          :h: 150
+          :resize: crop
+        :small:
+          :w: 338
+          :h: 445
+          :resize: fit
+        :large:
+          :w: 338
+          :h: 445
+          :resize: fit
+        :medium:
+          :w: 338
+          :h: 445
+          :resize: fit
+  :metadata: &5
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 19732825
+    :id_str: '19732825'
+    :name: Mike McTimoney
+    :screen_name: miketually
+    :location: Darlington, England, UK, EU
+    :description: Dad of two, rider of bikes, teacher of physics, Green. (He/him)
+    :url: https://t.co/9COCihhU2U
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/9COCihhU2U
+          :expanded_url: http://mikeactually.blogspot.co.uk/
+          :display_url: mikeactually.blogspot.co.uk
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 1787
+    :friends_count: 1311
+    :listed_count: 104
+    :created_at: Thu Jan 29 20:41:32 +0000 2009
+    :favourites_count: 3043
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 50745
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: B2DFDA
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme13/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme13/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1241437151319011329/ZxV673cN_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1241437151319011329/ZxV673cN_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/19732825/1397382014
+    :profile_link_color: 93A644
+    :profile_sidebar_border_color: EEEEEE
+    :profile_sidebar_fill_color: FFFFFF
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: |-
+        Wordle 244 5/6
+
+        That was annoying and frustrating. https://t.co/pf5cqLNviD
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 19732825
+          :id_str: '19732825'
+          :name: Mike McTimoney
+          :screen_name: miketually
+          :location: Darlington, England, UK, EU
+          :description: Dad of two, rider of bikes, teacher of physics, Green. (He/him)
+          :url: https://t.co/9COCihhU2U
+          :entities: *1
+          :protected: false
+          :followers_count: 1787
+          :friends_count: 1311
+          :listed_count: 104
+          :created_at: Thu Jan 29 20:41:32 +0000 2009
+          :favourites_count: 3043
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 50745
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: B2DFDA
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme13/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme13/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1241437151319011329/ZxV673cN_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1241437151319011329/ZxV673cN_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/19732825/1397382014
+          :profile_link_color: 93A644
+          :profile_sidebar_border_color: EEEEEE
+          :profile_sidebar_fill_color: FFFFFF
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:18:32 +0000 2022
+            :id: 1494587120618516502
+            :id_str: '1494587120618516502'
+            :text: |-
+              Wordle 244 5/6
+
+              That was annoying and frustrating. https://t.co/pf5cqLNviD
+            :truncated: false
+            :entities: *3
+            :extended_entities: *4
+            :metadata: *5
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: miketually
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587120618516502
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

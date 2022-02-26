@@ -1,0 +1,250 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:07:08 +0000 2022
+  :id: 1494584254226997249
+  :id_str: '1494584254226997249'
+  :text: |-
+    Wordle 244 4/6
+
+    nerdlegame 30 3/6
+
+    Worldle 28 2/6 https://t.co/Snk1jHZPqt
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+    :media:
+    - :id: 1494584247180529664
+      :id_str: '1494584247180529664'
+      :indices:
+      - 50
+      - 73
+      :media_url: http://pbs.twimg.com/tweet_video_thumb/FL3UdEQXEAAFPLm.jpg
+      :media_url_https: https://pbs.twimg.com/tweet_video_thumb/FL3UdEQXEAAFPLm.jpg
+      :url: https://t.co/Snk1jHZPqt
+      :display_url: pic.twitter.com/Snk1jHZPqt
+      :expanded_url: https://twitter.com/lee_ballantyne/status/1494584254226997249/photo/1
+      :type: photo
+      :sizes:
+        :thumb:
+          :w: 150
+          :h: 150
+          :resize: crop
+        :medium:
+          :w: 326
+          :h: 324
+          :resize: fit
+        :small:
+          :w: 326
+          :h: 324
+          :resize: fit
+        :large:
+          :w: 326
+          :h: 324
+          :resize: fit
+  :extended_entities: &4
+    :media:
+    - :id: 1494584247180529664
+      :id_str: '1494584247180529664'
+      :indices:
+      - 50
+      - 73
+      :media_url: http://pbs.twimg.com/tweet_video_thumb/FL3UdEQXEAAFPLm.jpg
+      :media_url_https: https://pbs.twimg.com/tweet_video_thumb/FL3UdEQXEAAFPLm.jpg
+      :url: https://t.co/Snk1jHZPqt
+      :display_url: pic.twitter.com/Snk1jHZPqt
+      :expanded_url: https://twitter.com/lee_ballantyne/status/1494584254226997249/photo/1
+      :type: animated_gif
+      :sizes:
+        :thumb:
+          :w: 150
+          :h: 150
+          :resize: crop
+        :medium:
+          :w: 326
+          :h: 324
+          :resize: fit
+        :small:
+          :w: 326
+          :h: 324
+          :resize: fit
+        :large:
+          :w: 326
+          :h: 324
+          :resize: fit
+      :video_info:
+        :aspect_ratio:
+        - 163
+        - 162
+        :variants:
+        - :bitrate: 0
+          :content_type: video/mp4
+          :url: https://video.twimg.com/tweet_video/FL3UdEQXEAAFPLm.mp4
+  :metadata: &5
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 17063304
+    :id_str: '17063304'
+    :name: Lee Ballantyne
+    :screen_name: lee_ballantyne
+    :location: Ayrshire, Scotland
+    :description: 'Director & consultant at @unfankle she/her #digitalskills #edtech
+      #inclusion #socialjustice #cats #climate #running. Opinions (lots), all of my
+      own. RT ≠ agree.'
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 2304
+    :friends_count: 3102
+    :listed_count: 100
+    :created_at: Thu Oct 30 11:15:42 +0000 2008
+    :favourites_count: 5149
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 10432
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '000000'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme2/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme2/bg.gif
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1478366375752122374/EdSV2iEP_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1478366375752122374/EdSV2iEP_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/17063304/1645020249
+    :profile_link_color: 0000FF
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: 7DA1B9
+    :profile_text_color: '000000'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: |-
+        Wordle 244 4/6
+
+        nerdlegame 30 3/6
+
+        Worldle 28 2/6 https://t.co/Snk1jHZPqt
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 17063304
+          :id_str: '17063304'
+          :name: Lee Ballantyne
+          :screen_name: lee_ballantyne
+          :location: Ayrshire, Scotland
+          :description: 'Director & consultant at @unfankle she/her #digitalskills
+            #edtech #inclusion #socialjustice #cats #climate #running. Opinions (lots),
+            all of my own. RT ≠ agree.'
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 2304
+          :friends_count: 3102
+          :listed_count: 100
+          :created_at: Thu Oct 30 11:15:42 +0000 2008
+          :favourites_count: 5149
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 10432
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '000000'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme2/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme2/bg.gif
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1478366375752122374/EdSV2iEP_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1478366375752122374/EdSV2iEP_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/17063304/1645020249
+          :profile_link_color: 0000FF
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: 7DA1B9
+          :profile_text_color: '000000'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:07:08 +0000 2022
+            :id: 1494584254226997249
+            :id_str: '1494584254226997249'
+            :text: |-
+              Wordle 244 4/6
+
+              nerdlegame 30 3/6
+
+              Worldle 28 2/6 https://t.co/Snk1jHZPqt
+            :truncated: false
+            :entities: *3
+            :extended_entities: *4
+            :metadata: *5
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: lee_ballantyne
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494584254226997249
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

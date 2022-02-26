@@ -1,0 +1,181 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Sat Feb 26 04:58:33 +0000 2022
+  :id: 1497435898081951746
+  :id_str: '1497435898081951746'
+  :text: "https://t.co/iQPwVW91jf\nWORDLE\U0001F1E9\U0001F1EA 390 5/6\n\n\U0001F7E8\U0001F7E8⬛⬛⬛\n⬛⬛⬛⬛⬛\n⬛\U0001F7E8\U0001F7E9⬛⬛\n\U0001F7E9\U0001F7E8\U0001F7E9\U0001F7E9⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nby
+    @dewordle"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: DeWordle
+      :name: dewordle
+      :id: 1482411529152741376
+      :id_str: '1482411529152741376'
+      :indices:
+      - 75
+      - 84
+    :urls:
+    - :url: https://t.co/iQPwVW91jf
+      :expanded_url: http://wordle-spielen.de
+      :display_url: wordle-spielen.de
+      :indices:
+      - 0
+      - 23
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 18771697
+    :id_str: '18771697'
+    :name: Till
+    :screen_name: Till_83
+    :location: Euskirchen, Deutschland
+    :description: 'Views are my own. Occassionally tweets about space, air force and
+      IT stuff. #socialmediadivision'
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 155
+    :friends_count: 625
+    :listed_count: 3
+    :created_at: Thu Jan 08 17:50:58 +0000 2009
+    :favourites_count: 3047
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 1736
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '131516'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme14/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme14/bg.gif
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1157390771739344896/HV8Hibpn_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1157390771739344896/HV8Hibpn_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/18771697/1564778441
+    :profile_link_color: '009999'
+    :profile_sidebar_border_color: EEEEEE
+    :profile_sidebar_fill_color: EFEFEF
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 18771697
+          :id_str: '18771697'
+          :name: Till
+          :screen_name: Till_83
+          :location: Euskirchen, Deutschland
+          :description: 'Views are my own. Occassionally tweets about space, air force
+            and IT stuff. #socialmediadivision'
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 155
+          :friends_count: 625
+          :listed_count: 3
+          :created_at: Thu Jan 08 17:50:58 +0000 2009
+          :favourites_count: 3047
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 1736
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '131516'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme14/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme14/bg.gif
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1157390771739344896/HV8Hibpn_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1157390771739344896/HV8Hibpn_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/18771697/1564778441
+          :profile_link_color: '009999'
+          :profile_sidebar_border_color: EEEEEE
+          :profile_sidebar_fill_color: EFEFEF
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Sat Feb 26 04:58:33 +0000 2022
+            :id: 1497435898081951746
+            :id_str: '1497435898081951746'
+            :text: "https://t.co/iQPwVW91jf\nWORDLE\U0001F1E9\U0001F1EA 390 5/6\n\n\U0001F7E8\U0001F7E8⬛⬛⬛\n⬛⬛⬛⬛⬛\n⬛\U0001F7E8\U0001F7E9⬛⬛\n\U0001F7E9\U0001F7E8\U0001F7E9\U0001F7E9⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nby
+              @dewordle"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Till_83
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1497435898081951746
+      :text: "https://t.co/iQPwVW91jf\nWORDLE\U0001F1E9\U0001F1EA 390 5/6\n\n\U0001F7E8\U0001F7E8⬛⬛⬛\n⬛⬛⬛⬛⬛\n⬛\U0001F7E8\U0001F7E9⬛⬛\n\U0001F7E9\U0001F7E8\U0001F7E9\U0001F7E9⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\nby
+        @dewordle"
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

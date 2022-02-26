@@ -1,0 +1,176 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:14:08 +0000 2022
+  :id: 1494586012646977544
+  :id_str: '1494586012646977544'
+  :text: "Le Mot (@WordleFR) #40 5/6\n\n⬛\U0001F7E8⬛\U0001F7E8\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/Du0hK5bwvX"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 8
+      - 17
+    :urls:
+    - :url: https://t.co/Du0hK5bwvX
+      :expanded_url: http://wordle.louan.me
+      :display_url: wordle.louan.me
+      :indices:
+      - 59
+      - 82
+  :metadata: &4
+    :iso_language_code: fr
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 1494585248969023488
+  :in_reply_to_status_id_str: '1494585248969023488'
+  :in_reply_to_user_id: 779381003626373124
+  :in_reply_to_user_id_str: '779381003626373124'
+  :in_reply_to_screen_name: Herr_Francisz
+  :user:
+    :id: 779381003626373124
+    :id_str: '779381003626373124'
+    :name: Francis-Saucisse Fricasse-Boudin
+    :screen_name: Herr_Francisz
+    :location: France
+    :description: Authentique BGdu69
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 239
+    :friends_count: 384
+    :listed_count: 1
+    :created_at: Fri Sep 23 18:04:46 +0000 2016
+    :favourites_count: 47138
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 12418
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1449135376917049352/hscvdpy__normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1449135376917049352/hscvdpy__normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/779381003626373124/1609440619
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: fr
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Le Mot (@WordleFR) #40 5/6\n\n⬛\U0001F7E8⬛\U0001F7E8\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/Du0hK5bwvX"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 779381003626373124
+          :id_str: '779381003626373124'
+          :name: Francis-Saucisse Fricasse-Boudin
+          :screen_name: Herr_Francisz
+          :location: France
+          :description: Authentique BGdu69
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 239
+          :friends_count: 384
+          :listed_count: 1
+          :created_at: Fri Sep 23 18:04:46 +0000 2016
+          :favourites_count: 47138
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 12418
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1449135376917049352/hscvdpy__normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1449135376917049352/hscvdpy__normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/779381003626373124/1609440619
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:14:08 +0000 2022
+            :id: 1494586012646977544
+            :id_str: '1494586012646977544'
+            :text: "Le Mot (@WordleFR) #40 5/6\n\n⬛\U0001F7E8⬛\U0001F7E8\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/Du0hK5bwvX"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 1494585248969023488
+            :in_reply_to_status_id_str: '1494585248969023488'
+            :in_reply_to_user_id: 779381003626373124
+            :in_reply_to_user_id_str: '779381003626373124'
+            :in_reply_to_screen_name: Herr_Francisz
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: fr
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Herr_Francisz
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586012646977544
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

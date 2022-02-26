@@ -1,0 +1,260 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Thu Feb 17 23:39:20 +0000 2022
+  :id: 1494456459433848832
+  :id_str: '1494456459433848832'
+  :text: "RT @mhmtelmli: Taylordle 21 2/6 #taylordle #TaylorSwift \n\n\U0001F7E9\U0001F7E9⬜\U0001F7E8\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: taylordle
+      :indices:
+      - 32
+      - 42
+    - :text: TaylorSwift
+      :indices:
+      - 43
+      - 55
+    :symbols: []
+    :user_mentions:
+    - :screen_name: mhmtelmli
+      :name: Maho (Taylor‘s Version)
+      :id: 1700269646
+      :id_str: '1700269646'
+      :indices:
+      - 3
+      - 13
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://xvlogapplication.com" rel="nofollow">xvlog application</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1633583503
+    :id_str: '1633583503'
+    :name: "❤️ Camila J. ❤️"
+    :screen_name: xvlOG
+    :location: Michigan
+    :description: 'Camila ❤️ XOXO #taylorswift #1989'
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 3048
+    :friends_count: 309
+    :listed_count: 266
+    :created_at: Tue Jul 30 18:37:08 +0000 2013
+    :favourites_count: 72
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 180259
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/774530981315215360/qho7-IGB_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/774530981315215360/qho7-IGB_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1633583503/1473492108
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :retweeted_status: &5
+    :created_at: Thu Feb 17 23:10:28 +0000 2022
+    :id: 1494449197537497096
+    :id_str: '1494449197537497096'
+    :text: "Taylordle 21 2/6 #taylordle #TaylorSwift \n\n\U0001F7E9\U0001F7E9⬜\U0001F7E8\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+    :truncated: false
+    :entities:
+      :hashtags:
+      - :text: taylordle
+        :indices:
+        - 17
+        - 27
+      - :text: TaylorSwift
+        :indices:
+        - 28
+        - 40
+      :symbols: []
+      :user_mentions: []
+      :urls: []
+    :metadata:
+      :iso_language_code: en
+      :result_type: recent
+    :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+      iPhone</a>
+    :in_reply_to_status_id: 1494279234327654406
+    :in_reply_to_status_id_str: '1494279234327654406'
+    :in_reply_to_user_id: 1700269646
+    :in_reply_to_user_id_str: '1700269646'
+    :in_reply_to_screen_name: mhmtelmli
+    :user:
+      :id: 1700269646
+      :id_str: '1700269646'
+      :name: Maho (Taylor‘s Version)
+      :screen_name: mhmtelmli
+      :location: Deutschland
+      :description: ''
+      :url: 
+      :entities:
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 185
+      :friends_count: 114
+      :listed_count: 2
+      :created_at: Sun Aug 25 21:57:24 +0000 2013
+      :favourites_count: 75506
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 21620
+      :lang: 
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/1356538650868273152/d0DdCUQI_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/1356538650868273152/d0DdCUQI_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/1700269646/1575672146
+      :profile_link_color: 1DA1F2
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: '333333'
+      :profile_use_background_image: true
+      :has_extended_profile: false
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :translator_type: none
+      :withheld_in_countries: []
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 1
+    :favorite_count: 0
+    :favorited: false
+    :retweeted: false
+    :lang: en
+  :is_quote_status: false
+  :retweet_count: 1
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "RT @mhmtelmli: Taylordle 21 2/6 #taylordle #TaylorSwift \n\n\U0001F7E9\U0001F7E9⬜\U0001F7E8\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1633583503
+          :id_str: '1633583503'
+          :name: "❤️ Camila J. ❤️"
+          :screen_name: xvlOG
+          :location: Michigan
+          :description: 'Camila ❤️ XOXO #taylorswift #1989'
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 3048
+          :friends_count: 309
+          :listed_count: 266
+          :created_at: Tue Jul 30 18:37:08 +0000 2013
+          :favourites_count: 72
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 180259
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/774530981315215360/qho7-IGB_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/774530981315215360/qho7-IGB_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1633583503/1473492108
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Thu Feb 17 23:39:20 +0000 2022
+            :id: 1494456459433848832
+            :id_str: '1494456459433848832'
+            :text: "RT @mhmtelmli: Taylordle 21 2/6 #taylordle #TaylorSwift \n\n\U0001F7E9\U0001F7E9⬜\U0001F7E8\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://xvlogapplication.com" rel="nofollow">xvlog application</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :retweeted_status: *5
+            :is_quote_status: false
+            :retweet_count: 1
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: xvlOG
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494456459433848832
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

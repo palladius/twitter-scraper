@@ -1,0 +1,172 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:15:04 +0000 2022
+  :id: 1494586248261877765
+  :id_str: '1494586248261877765'
+  :text: "Well, okay then.\n\nWordle 244 6/6\n\n\U0001F7E9⬛\U0001F7E9⬛\U0001F7E9\n\U0001F7E9⬛\U0001F7E9⬛\U0001F7E9\n\U0001F7E9⬛\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 68206887
+    :id_str: '68206887'
+    :name: Rebecca Rubenstein
+    :screen_name: rrrubenstein
+    :location: San Francisco, CA
+    :description: "Senior Fiction Editor @The_Rumpus / EIC @mbfast / Alum @BennMFA_Writing
+      @booksmith / Tin House Writers Workshop '20 / she/her / opinions my own \U0001F3F3️‍\U0001F308"
+    :url: https://t.co/pI4DgoaXqy
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/pI4DgoaXqy
+          :expanded_url: https://rebeccarubenstein.com
+          :display_url: rebeccarubenstein.com
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 2625
+    :friends_count: 1922
+    :listed_count: 45
+    :created_at: Sun Aug 23 18:44:59 +0000 2009
+    :favourites_count: 36116
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 16149
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: 9AE4E8
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1379909711999365120/Wdq7xdIW_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1379909711999365120/Wdq7xdIW_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/68206887/1564465144
+    :profile_link_color: '0084B4'
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: DDFFCC
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Well, okay then.\n\nWordle 244 6/6\n\n\U0001F7E9⬛\U0001F7E9⬛\U0001F7E9\n\U0001F7E9⬛\U0001F7E9⬛\U0001F7E9\n\U0001F7E9⬛\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 68206887
+          :id_str: '68206887'
+          :name: Rebecca Rubenstein
+          :screen_name: rrrubenstein
+          :location: San Francisco, CA
+          :description: "Senior Fiction Editor @The_Rumpus / EIC @mbfast / Alum @BennMFA_Writing
+            @booksmith / Tin House Writers Workshop '20 / she/her / opinions my own
+            \U0001F3F3️‍\U0001F308"
+          :url: https://t.co/pI4DgoaXqy
+          :entities: *1
+          :protected: false
+          :followers_count: 2625
+          :friends_count: 1922
+          :listed_count: 45
+          :created_at: Sun Aug 23 18:44:59 +0000 2009
+          :favourites_count: 36116
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 16149
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: 9AE4E8
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1379909711999365120/Wdq7xdIW_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1379909711999365120/Wdq7xdIW_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/68206887/1564465144
+          :profile_link_color: '0084B4'
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: DDFFCC
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:15:04 +0000 2022
+            :id: 1494586248261877765
+            :id_str: '1494586248261877765'
+            :text: "Well, okay then.\n\nWordle 244 6/6\n\n\U0001F7E9⬛\U0001F7E9⬛\U0001F7E9\n\U0001F7E9⬛\U0001F7E9⬛\U0001F7E9\n\U0001F7E9⬛\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: rrrubenstein
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586248261877765
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

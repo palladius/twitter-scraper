@@ -1,0 +1,185 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:48:10 +0000 2022
+  :id: 1494579479863308297
+  :id_str: '1494579479863308297'
+  :text: "hop , alors que le premier café..\n\nLe Mot (@WordleFR) #40 4/6\n\n⬛⬛⬛\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E8\U0001F7E8⬛\U0001F7E9\n\U0001F7E9⬛\U0001F7E9\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/rAjOn8Dh2h"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 43
+      - 52
+    :urls:
+    - :url: https://t.co/rAjOn8Dh2h
+      :expanded_url: http://wordle.louan.me
+      :display_url: wordle.louan.me
+      :indices:
+      - 88
+      - 111
+  :metadata: &4
+    :iso_language_code: fr
+    :result_type: recent
+  :source: <a href="https://about.twitter.com/products/tweetdeck" rel="nofollow">TweetDeck</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 270541571
+    :id_str: '270541571'
+    :name: T0pol-M
+    :screen_name: T0pol
+    :location: Paris
+    :description: "Bipolaire, #LGBT. Je \U0001F3C3\U0001F3FB‍♂️et \U0001F6B2 . Doigt
+      dans le cul de Dieu et autres. Odieux Liberal-social selon des trolls."
+    :url: https://t.co/es36Z8SgxV
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/es36Z8SgxV
+          :expanded_url: https://www.mixcloud.com/dagrouik
+          :display_url: mixcloud.com/dagrouik
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 1230
+    :friends_count: 1474
+    :listed_count: 111
+    :created_at: Tue Mar 22 20:21:34 +0000 2011
+    :favourites_count: 83024
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 252927
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1485201104384282633/XkQCR6KQ_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1485201104384282633/XkQCR6KQ_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/270541571/1605857676
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: fr
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "hop , alors que le premier café..\n\nLe Mot (@WordleFR) #40 4/6\n\n⬛⬛⬛\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E8\U0001F7E8⬛\U0001F7E9\n\U0001F7E9⬛\U0001F7E9\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/rAjOn8Dh2h"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 270541571
+          :id_str: '270541571'
+          :name: T0pol-M
+          :screen_name: T0pol
+          :location: Paris
+          :description: "Bipolaire, #LGBT. Je \U0001F3C3\U0001F3FB‍♂️et \U0001F6B2
+            . Doigt dans le cul de Dieu et autres. Odieux Liberal-social selon des
+            trolls."
+          :url: https://t.co/es36Z8SgxV
+          :entities: *1
+          :protected: false
+          :followers_count: 1230
+          :friends_count: 1474
+          :listed_count: 111
+          :created_at: Tue Mar 22 20:21:34 +0000 2011
+          :favourites_count: 83024
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 252927
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1485201104384282633/XkQCR6KQ_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1485201104384282633/XkQCR6KQ_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/270541571/1605857676
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:48:10 +0000 2022
+            :id: 1494579479863308297
+            :id_str: '1494579479863308297'
+            :text: "hop , alors que le premier café..\n\nLe Mot (@WordleFR) #40 4/6\n\n⬛⬛⬛\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E8\U0001F7E8⬛\U0001F7E9\n\U0001F7E9⬛\U0001F7E9\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/rAjOn8Dh2h"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://about.twitter.com/products/tweetdeck" rel="nofollow">TweetDeck</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: fr
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: T0pol
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494579479863308297
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,180 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:13:45 +0000 2022
+  :id: 1494585916236517377
+  :id_str: '1494585916236517377'
+  :text: "Wordle 244 3/6* \nI meannn \U0001F60F\U0001F60F\n\n⬛⬛⬛⬛\U0001F7E9\n\U0001F7E9⬛\U0001F7E8⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#wordle
+    #wordle244 #NYTimes"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: wordle
+      :indices:
+      - 49
+      - 56
+    - :text: wordle244
+      :indices:
+      - 57
+      - 67
+    - :text: NYTimes
+      :indices:
+      - 68
+      - 76
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 273507942
+    :id_str: '273507942'
+    :name: "⚛ radioactive_ood ☢"
+    :screen_name: curly_ood
+    :location: "☣️Gru's radioactive labs ⚛️"
+    :description: "A curly nuke_engineer with a ood's heart.. but the rest under byzantine
+      construction with radioactive legos!! ▪️ I had a DIY \U0001F42F and a real \U0001F439
+      pet named BOFAT"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 95
+    :friends_count: 1779
+    :listed_count: 0
+    :created_at: Mon Mar 28 16:39:35 +0000 2011
+    :favourites_count: 24498
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 5027
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '022330'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme15/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme15/bg.png
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/824922085289897985/NYZQrljP_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/824922085289897985/NYZQrljP_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/273507942/1437931370
+    :profile_link_color: '0084B4'
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: C0DFEC
+    :profile_text_color: '333333'
+    :profile_use_background_image: false
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 3/6* \nI meannn \U0001F60F\U0001F60F\n\n⬛⬛⬛⬛\U0001F7E9\n\U0001F7E9⬛\U0001F7E8⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#wordle
+        #wordle244 #NYTimes"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 273507942
+          :id_str: '273507942'
+          :name: "⚛ radioactive_ood ☢"
+          :screen_name: curly_ood
+          :location: "☣️Gru's radioactive labs ⚛️"
+          :description: "A curly nuke_engineer with a ood's heart.. but the rest under
+            byzantine construction with radioactive legos!! ▪️ I had a DIY \U0001F42F
+            and a real \U0001F439 pet named BOFAT"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 95
+          :friends_count: 1779
+          :listed_count: 0
+          :created_at: Mon Mar 28 16:39:35 +0000 2011
+          :favourites_count: 24498
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 5027
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '022330'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme15/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme15/bg.png
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/824922085289897985/NYZQrljP_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/824922085289897985/NYZQrljP_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/273507942/1437931370
+          :profile_link_color: '0084B4'
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: C0DFEC
+          :profile_text_color: '333333'
+          :profile_use_background_image: false
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:13:45 +0000 2022
+            :id: 1494585916236517377
+            :id_str: '1494585916236517377'
+            :text: "Wordle 244 3/6* \nI meannn \U0001F60F\U0001F60F\n\n⬛⬛⬛⬛\U0001F7E9\n\U0001F7E9⬛\U0001F7E8⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#wordle
+              #wordle244 #NYTimes"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: curly_ood
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494585916236517377
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

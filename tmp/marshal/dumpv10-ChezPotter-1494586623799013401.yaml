@@ -1,0 +1,170 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:16:33 +0000 2022
+  :id: 1494586623799013401
+  :id_str: '1494586623799013401'
+  :text: "Wordle 244 6/6\n\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9skin
+    of my teeth again ! #wordle"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: wordle
+      :indices:
+      - 76
+      - 83
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 21451128
+    :id_str: '21451128'
+    :name: Neil
+    :screen_name: ChezPotter
+    :location: UK Midlands
+    :description: "\U0001F3F3️‍\U0001F308\U0001F1EC\U0001F1E7 just watching the world
+      go by"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 212
+    :friends_count: 2158
+    :listed_count: 0
+    :created_at: Sat Feb 21 00:42:22 +0000 2009
+    :favourites_count: 6848
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 1847
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '0099B9'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme4/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme4/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1475249112345886721/FjpkL5fL_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1475249112345886721/FjpkL5fL_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/21451128/1641545178
+    :profile_link_color: '0099B9'
+    :profile_sidebar_border_color: 5ED4DC
+    :profile_sidebar_fill_color: 95E8EC
+    :profile_text_color: 3C3940
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 6/6\n\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9skin
+        of my teeth again ! #wordle"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 21451128
+          :id_str: '21451128'
+          :name: Neil
+          :screen_name: ChezPotter
+          :location: UK Midlands
+          :description: "\U0001F3F3️‍\U0001F308\U0001F1EC\U0001F1E7 just watching
+            the world go by"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 212
+          :friends_count: 2158
+          :listed_count: 0
+          :created_at: Sat Feb 21 00:42:22 +0000 2009
+          :favourites_count: 6848
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 1847
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '0099B9'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme4/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme4/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1475249112345886721/FjpkL5fL_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1475249112345886721/FjpkL5fL_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/21451128/1641545178
+          :profile_link_color: '0099B9'
+          :profile_sidebar_border_color: 5ED4DC
+          :profile_sidebar_fill_color: 95E8EC
+          :profile_text_color: 3C3940
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:16:33 +0000 2022
+            :id: 1494586623799013401
+            :id_str: '1494586623799013401'
+            :text: "Wordle 244 6/6\n\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9⬛\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9skin
+              of my teeth again ! #wordle"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: ChezPotter
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586623799013401
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

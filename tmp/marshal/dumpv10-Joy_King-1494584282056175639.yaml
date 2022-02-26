@@ -1,0 +1,189 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:07:15 +0000 2022
+  :id: 1494584282056175639
+  :id_str: '1494584282056175639'
+  :text: "#Wordle 244 6/6 #Phew\n\n⬜\U0001F7E6⬜\U0001F7E6⬜\n⬜⬜\U0001F7E6⬜⬜\n⬜⬜\U0001F7E6⬜⬜\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜\U0001F7E7\n\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 0
+      - 7
+    - :text: Phew
+      :indices:
+      - 16
+      - 21
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: und
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 29974751
+    :id_str: '29974751'
+    :name: "Joy \U0001F1EE\U0001F1EA"
+    :screen_name: Joy_King
+    :location: Ireland
+    :description: "proud mom; flat out...\U0001F1EE\U0001F1EA"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 103
+    :friends_count: 262
+    :listed_count: 0
+    :created_at: Thu Apr 09 12:38:25 +0000 2009
+    :favourites_count: 1823
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 624
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '131516'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme14/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme14/bg.gif
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1494409882841362433/1XohroZY_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1494409882841362433/1XohroZY_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/29974751/1645130056
+    :profile_link_color: '009999'
+    :profile_sidebar_border_color: EEEEEE
+    :profile_sidebar_fill_color: EFEFEF
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: &5
+    :id: c275c772a67a6ffc
+    :url: https://api.twitter.com/1.1/geo/id/c275c772a67a6ffc.json
+    :place_type: city
+    :name: Clare
+    :full_name: Clare, Ireland
+    :country_code: IE
+    :country: Ireland
+    :contained_within: []
+    :bounding_box:
+      :type: Polygon
+      :coordinates:
+      - - - -9.9381228
+          - 52.5572129
+        - - -8.2819755
+          - 52.5572129
+        - - -8.2819755
+          - 53.160735
+        - - -9.9381228
+          - 53.160735
+    :attributes: {}
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: und
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "#Wordle 244 6/6 #Phew\n\n⬜\U0001F7E6⬜\U0001F7E6⬜\n⬜⬜\U0001F7E6⬜⬜\n⬜⬜\U0001F7E6⬜⬜\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜\U0001F7E7\n\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 29974751
+          :id_str: '29974751'
+          :name: "Joy \U0001F1EE\U0001F1EA"
+          :screen_name: Joy_King
+          :location: Ireland
+          :description: "proud mom; flat out...\U0001F1EE\U0001F1EA"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 103
+          :friends_count: 262
+          :listed_count: 0
+          :created_at: Thu Apr 09 12:38:25 +0000 2009
+          :favourites_count: 1823
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 624
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '131516'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme14/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme14/bg.gif
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1494409882841362433/1XohroZY_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1494409882841362433/1XohroZY_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/29974751/1645130056
+          :profile_link_color: '009999'
+          :profile_sidebar_border_color: EEEEEE
+          :profile_sidebar_fill_color: EFEFEF
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:07:15 +0000 2022
+            :id: 1494584282056175639
+            :id_str: '1494584282056175639'
+            :text: "#Wordle 244 6/6 #Phew\n\n⬜\U0001F7E6⬜\U0001F7E6⬜\n⬜⬜\U0001F7E6⬜⬜\n⬜⬜\U0001F7E6⬜⬜\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜\U0001F7E7\n\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: *5
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: und
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Joy_King
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494584282056175639
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

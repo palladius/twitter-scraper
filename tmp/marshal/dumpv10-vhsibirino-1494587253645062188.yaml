@@ -1,0 +1,179 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:19:04 +0000 2022
+  :id: 1494587253645062188
+  :id_str: '1494587253645062188'
+  :text: "joguei https://t.co/w8MJfhals2 #47 4/6\n\n⬛⬛\U0001F7E8⬛\U0001F7E8\n⬛⬛⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E8⬛\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/w8MJfhals2
+      :expanded_url: http://term.ooo
+      :display_url: term.ooo
+      :indices:
+      - 7
+      - 30
+  :metadata: &4
+    :iso_language_code: pt
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1087110339433558016
+    :id_str: '1087110339433558016'
+    :name: sibi LeBronzete (28-03)
+    :screen_name: vhsibirino
+    :location: ''
+    :description: As vezes ela é uma super espiã, as vezes uma princesa, mas sempre
+      uma sensação adolescente
+    :url: https://t.co/GKBBePkKpC
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/GKBBePkKpC
+          :expanded_url: https://curiouscat.qa/vhsibi
+          :display_url: curiouscat.qa/vhsibi
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 108
+    :friends_count: 195
+    :listed_count: 0
+    :created_at: Sun Jan 20 22:11:17 +0000 2019
+    :favourites_count: 3341
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 16662
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '000000'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1429592045635653642/UEI85fqk_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1429592045635653642/UEI85fqk_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1087110339433558016/1550446965
+    :profile_link_color: 8B0000
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: '000000'
+    :profile_text_color: '000000'
+    :profile_use_background_image: false
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: pt
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "joguei https://t.co/w8MJfhals2 #47 4/6\n\n⬛⬛\U0001F7E8⬛\U0001F7E8\n⬛⬛⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E8⬛\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1087110339433558016
+          :id_str: '1087110339433558016'
+          :name: sibi LeBronzete (28-03)
+          :screen_name: vhsibirino
+          :location: ''
+          :description: As vezes ela é uma super espiã, as vezes uma princesa, mas
+            sempre uma sensação adolescente
+          :url: https://t.co/GKBBePkKpC
+          :entities: *1
+          :protected: false
+          :followers_count: 108
+          :friends_count: 195
+          :listed_count: 0
+          :created_at: Sun Jan 20 22:11:17 +0000 2019
+          :favourites_count: 3341
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 16662
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '000000'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1429592045635653642/UEI85fqk_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1429592045635653642/UEI85fqk_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1087110339433558016/1550446965
+          :profile_link_color: 8B0000
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: '000000'
+          :profile_text_color: '000000'
+          :profile_use_background_image: false
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:19:04 +0000 2022
+            :id: 1494587253645062188
+            :id_str: '1494587253645062188'
+            :text: "joguei https://t.co/w8MJfhals2 #47 4/6\n\n⬛⬛\U0001F7E8⬛\U0001F7E8\n⬛⬛⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E8⬛\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: pt
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: vhsibirino
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587253645062188
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,182 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:14:46 +0000 2022
+  :id: 1494586174110904352
+  :id_str: '1494586174110904352'
+  :text: "Wordle 244 6/6\n\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜\U0001F7E8⬜\U0001F7E9\n⬜\U0001F7E9⬜\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9as
+    I pressed enter I thought of another word it might be.  Which… https://t.co/mpxOrQtCEH"
+  :truncated: true
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/mpxOrQtCEH
+      :expanded_url: https://twitter.com/i/web/status/1494586174110904352
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 117
+      - 140
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1427425842
+    :id_str: '1427425842'
+    :name: Dine Romero
+    :screen_name: CllrDineRomero
+    :location: ''
+    :description: LibDem Cllr for Southdown. Cabinet Member for Children, Young People,
+      Communities & Culture. Views my own. Regular updates on my FB page. Email me
+      about issues.
+    :url: https://t.co/wqEJaBIob5
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/wqEJaBIob5
+          :expanded_url: https://www.facebook.com/CllrDineRomero/
+          :display_url: facebook.com/CllrDineRomero/
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 1646
+    :friends_count: 715
+    :listed_count: 41
+    :created_at: Tue May 14 10:03:46 +0000 2013
+    :favourites_count: 8077
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 10842
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/701163900117639168/lFRSR-a1_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/701163900117639168/lFRSR-a1_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1427425842/1563195578
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 6/6\n\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜\U0001F7E8⬜\U0001F7E9\n⬜\U0001F7E9⬜\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9as
+        I pressed enter I thought of another word it might be.  Which… https://t.co/mpxOrQtCEH"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1427425842
+          :id_str: '1427425842'
+          :name: Dine Romero
+          :screen_name: CllrDineRomero
+          :location: ''
+          :description: LibDem Cllr for Southdown. Cabinet Member for Children, Young
+            People, Communities & Culture. Views my own. Regular updates on my FB
+            page. Email me about issues.
+          :url: https://t.co/wqEJaBIob5
+          :entities: *1
+          :protected: false
+          :followers_count: 1646
+          :friends_count: 715
+          :listed_count: 41
+          :created_at: Tue May 14 10:03:46 +0000 2013
+          :favourites_count: 8077
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 10842
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/701163900117639168/lFRSR-a1_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/701163900117639168/lFRSR-a1_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1427425842/1563195578
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:14:46 +0000 2022
+            :id: 1494586174110904352
+            :id_str: '1494586174110904352'
+            :text: "Wordle 244 6/6\n\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜⬜⬜\U0001F7E9\n⬜⬜\U0001F7E8⬜\U0001F7E9\n⬜\U0001F7E9⬜\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9as
+              I pressed enter I thought of another word it might be.  Which… https://t.co/mpxOrQtCEH"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: CllrDineRomero
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586174110904352
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

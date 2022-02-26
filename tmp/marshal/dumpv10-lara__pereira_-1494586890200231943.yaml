@@ -1,0 +1,246 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:17:37 +0000 2022
+  :id: 1494586890200231943
+  :id_str: '1494586890200231943'
+  :text: "RT @SantosKikaaa: Wordle 244 X/6\n\n⬜\U0001F7E9⬜⬜\U0001F7E8\n⬜\U0001F7E9\U0001F7E8⬜⬜\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: SantosKikaaa
+      :name: fgancisca
+      :id: 999994768687058944
+      :id_str: '999994768687058944'
+      :indices:
+      - 3
+      - 16
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1253862793054433280
+    :id_str: '1253862793054433280'
+    :name: Lara
+    :screen_name: lara__pereira_
+    :location: ''
+    :description: ''
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 193
+    :friends_count: 133
+    :listed_count: 0
+    :created_at: Sat Apr 25 01:46:14 +0000 2020
+    :favourites_count: 1229
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 313
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1488611708096729090/SqLC6vgt_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1488611708096729090/SqLC6vgt_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1253862793054433280/1643747669
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :retweeted_status: &5
+    :created_at: Fri Feb 18 02:13:26 +0000 2022
+    :id: 1494495242204196868
+    :id_str: '1494495242204196868'
+    :text: "Wordle 244 X/6\n\n⬜\U0001F7E9⬜⬜\U0001F7E8\n⬜\U0001F7E9\U0001F7E8⬜⬜\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls: []
+    :metadata:
+      :iso_language_code: en
+      :result_type: recent
+    :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+      for Android</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 999994768687058944
+      :id_str: '999994768687058944'
+      :name: fgancisca
+      :screen_name: SantosKikaaa
+      :location: 'Ourém/Fátima '
+      :description: dilligaf || 18
+      :url: 
+      :entities:
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 274
+      :friends_count: 358
+      :listed_count: 0
+      :created_at: Fri May 25 12:45:06 +0000 2018
+      :favourites_count: 43382
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 11637
+      :lang: 
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: F5F8FA
+      :profile_background_image_url: 
+      :profile_background_image_url_https: 
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/1490376245611225092/-RwuOXhc_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/1490376245611225092/-RwuOXhc_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/999994768687058944/1644590383
+      :profile_link_color: 1DA1F2
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: '333333'
+      :profile_use_background_image: true
+      :has_extended_profile: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :translator_type: none
+      :withheld_in_countries: []
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 1
+    :favorite_count: 0
+    :favorited: false
+    :retweeted: false
+    :lang: en
+  :is_quote_status: false
+  :retweet_count: 1
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "RT @SantosKikaaa: Wordle 244 X/6\n\n⬜\U0001F7E9⬜⬜\U0001F7E8\n⬜\U0001F7E9\U0001F7E8⬜⬜\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1253862793054433280
+          :id_str: '1253862793054433280'
+          :name: Lara
+          :screen_name: lara__pereira_
+          :location: ''
+          :description: ''
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 193
+          :friends_count: 133
+          :listed_count: 0
+          :created_at: Sat Apr 25 01:46:14 +0000 2020
+          :favourites_count: 1229
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 313
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1488611708096729090/SqLC6vgt_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1488611708096729090/SqLC6vgt_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1253862793054433280/1643747669
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:17:37 +0000 2022
+            :id: 1494586890200231943
+            :id_str: '1494586890200231943'
+            :text: "RT @SantosKikaaa: Wordle 244 X/6\n\n⬜\U0001F7E9⬜⬜\U0001F7E8\n⬜\U0001F7E9\U0001F7E8⬜⬜\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :retweeted_status: *5
+            :is_quote_status: false
+            :retweet_count: 1
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: lara__pereira_
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586890200231943
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

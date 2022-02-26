@@ -1,0 +1,172 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:19:59 +0000 2022
+  :id: 1494587486164586501
+  :id_str: '1494587486164586501'
+  :text: "Wordle 244 4/6\n\n⬛⬛⬛⬛⬛\n⬛⬛\U0001F7E9\U0001F7E9\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9
+    eaaaaaasy peasy"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 706345040
+    :id_str: '706345040'
+    :name: "Marsha Kwan \U0001F451"
+    :screen_name: kween_kwan
+    :location: vancity ☔
+    :description: ''
+    :url: https://t.co/ckPiOpPCWN
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/ckPiOpPCWN
+          :expanded_url: http://www.instagram.com/mkwaaan
+          :display_url: instagram.com/mkwaaan
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 123
+    :friends_count: 70
+    :listed_count: 1
+    :created_at: Fri Jul 20 03:32:28 +0000 2012
+    :favourites_count: 1253
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 3908
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: DBE9ED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1324858468952535045/7KfqGfY__normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1324858468952535045/7KfqGfY__normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/706345040/1620701314
+    :profile_link_color: F076E8
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '0084B4'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 4/6\n\n⬛⬛⬛⬛⬛\n⬛⬛\U0001F7E9\U0001F7E9\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9
+        eaaaaaasy peasy"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 706345040
+          :id_str: '706345040'
+          :name: "Marsha Kwan \U0001F451"
+          :screen_name: kween_kwan
+          :location: vancity ☔
+          :description: ''
+          :url: https://t.co/ckPiOpPCWN
+          :entities: *1
+          :protected: false
+          :followers_count: 123
+          :friends_count: 70
+          :listed_count: 1
+          :created_at: Fri Jul 20 03:32:28 +0000 2012
+          :favourites_count: 1253
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 3908
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: DBE9ED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1324858468952535045/7KfqGfY__normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1324858468952535045/7KfqGfY__normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/706345040/1620701314
+          :profile_link_color: F076E8
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '0084B4'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:19:59 +0000 2022
+            :id: 1494587486164586501
+            :id_str: '1494587486164586501'
+            :text: "Wordle 244 4/6\n\n⬛⬛⬛⬛⬛\n⬛⬛\U0001F7E9\U0001F7E9\U0001F7E9\n⬛\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9
+              eaaaaaasy peasy"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: kween_kwan
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587486164586501
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

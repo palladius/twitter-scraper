@@ -1,0 +1,172 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:07:03 +0000 2022
+  :id: 1494584231590309904
+  :id_str: '1494584231590309904'
+  :text: "joguei https://t.co/aPIRxkeQCy #47 4/6\n\n⬛⬛⬛⬛\U0001F7E8\n\U0001F7E8\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/aPIRxkeQCy
+      :expanded_url: http://term.ooo
+      :display_url: term.ooo
+      :indices:
+      - 7
+      - 30
+  :metadata: &4
+    :iso_language_code: pt
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 23773799
+    :id_str: '23773799'
+    :name: galetti de maçã
+    :screen_name: fegaletti
+    :location: São Paulo
+    :description: 350 g de maçã verde;150 g de amora;125 g de açúcar;Pitada de sal;3
+      colheres de sopa de maizena;¾ de colher de chá de canela;Raspas de um cítrico
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 104
+    :friends_count: 603
+    :listed_count: 0
+    :created_at: Wed Mar 11 14:59:37 +0000 2009
+    :favourites_count: 5331
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 3426
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '352726'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme5/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme5/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1179460480072650752/bvr30t9F_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1179460480072650752/bvr30t9F_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/23773799/1357676071
+    :profile_link_color: D02B55
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: 99CC33
+    :profile_text_color: 3E4415
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: pt
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "joguei https://t.co/aPIRxkeQCy #47 4/6\n\n⬛⬛⬛⬛\U0001F7E8\n\U0001F7E8\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 23773799
+          :id_str: '23773799'
+          :name: galetti de maçã
+          :screen_name: fegaletti
+          :location: São Paulo
+          :description: 350 g de maçã verde;150 g de amora;125 g de açúcar;Pitada
+            de sal;3 colheres de sopa de maizena;¾ de colher de chá de canela;Raspas
+            de um cítrico
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 104
+          :friends_count: 603
+          :listed_count: 0
+          :created_at: Wed Mar 11 14:59:37 +0000 2009
+          :favourites_count: 5331
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 3426
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '352726'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme5/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme5/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1179460480072650752/bvr30t9F_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1179460480072650752/bvr30t9F_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/23773799/1357676071
+          :profile_link_color: D02B55
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: 99CC33
+          :profile_text_color: 3E4415
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:07:03 +0000 2022
+            :id: 1494584231590309904
+            :id_str: '1494584231590309904'
+            :text: "joguei https://t.co/aPIRxkeQCy #47 4/6\n\n⬛⬛⬛⬛\U0001F7E8\n\U0001F7E8\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: pt
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: fegaletti
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494584231590309904
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

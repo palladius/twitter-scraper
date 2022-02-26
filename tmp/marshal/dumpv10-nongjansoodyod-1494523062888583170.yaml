@@ -1,0 +1,200 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 04:03:59 +0000 2022
+  :id: 1494523062888583170
+  :id_str: '1494523062888583170'
+  :text: "Wordle 244 3/6\n\n⬜\U0001F7E8\U0001F7E8\U0001F7E9⬜⬜⬜\n⬜\U0001F7E8⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+    ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/FYRNyLP8vp\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle7… https://t.co/vi1QI5GGi2"
+  :truncated: true
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 96
+      - 103
+    - :text: Wordle7
+      :indices:
+      - 104
+      - 112
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/FYRNyLP8vp
+      :expanded_url: https://wordle.wekele.com
+      :display_url: wordle.wekele.com
+      :indices:
+      - 56
+      - 79
+    - :url: https://t.co/vi1QI5GGi2
+      :expanded_url: https://twitter.com/i/web/status/1494523062888583170
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 114
+      - 137
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1093382412984188928
+    :id_str: '1093382412984188928'
+    :name: "\U0001D65F\U0001D65F ◟✦"
+    :screen_name: nongjansoodyod
+    :location: ''
+    :description: "♡︎ \U0001D43D\U0001D44E\U0001D452ℎ\U0001D466\U0001D462\U0001D45B
+      ｡ᐢ‿ᐢ｡; \U0001D43D\U0001D45Cℎ\U0001D45B\U0001D45B\U0001D466 ʕ ᵔᴥᵔ ʔ #재잘재잘 #รีวิวให้น้องแจนสุดยอด
+      #NCT127"
+    :url: https://t.co/dZWTmuPLld
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/dZWTmuPLld
+          :expanded_url: https://youtu.be/1oYWnbTSang
+          :display_url: youtu.be/1oYWnbTSang
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 2800
+    :friends_count: 157
+    :listed_count: 5
+    :created_at: Thu Feb 07 05:34:16 +0000 2019
+    :favourites_count: 2675
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 63404
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1492053577333760005/jiCbg90B_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1492053577333760005/jiCbg90B_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1093382412984188928/1638638408
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 3/6\n\n⬜\U0001F7E8\U0001F7E8\U0001F7E9⬜⬜⬜\n⬜\U0001F7E8⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+        ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/FYRNyLP8vp\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle7…
+        https://t.co/vi1QI5GGi2"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1093382412984188928
+          :id_str: '1093382412984188928'
+          :name: "\U0001D65F\U0001D65F ◟✦"
+          :screen_name: nongjansoodyod
+          :location: ''
+          :description: "♡︎ \U0001D43D\U0001D44E\U0001D452ℎ\U0001D466\U0001D462\U0001D45B
+            ｡ᐢ‿ᐢ｡; \U0001D43D\U0001D45Cℎ\U0001D45B\U0001D45B\U0001D466 ʕ ᵔᴥᵔ ʔ #재잘재잘
+            #รีวิวให้น้องแจนสุดยอด #NCT127"
+          :url: https://t.co/dZWTmuPLld
+          :entities: *1
+          :protected: false
+          :followers_count: 2800
+          :friends_count: 157
+          :listed_count: 5
+          :created_at: Thu Feb 07 05:34:16 +0000 2019
+          :favourites_count: 2675
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 63404
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1492053577333760005/jiCbg90B_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1492053577333760005/jiCbg90B_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1093382412984188928/1638638408
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 04:03:59 +0000 2022
+            :id: 1494523062888583170
+            :id_str: '1494523062888583170'
+            :text: "Wordle 244 3/6\n\n⬜\U0001F7E8\U0001F7E8\U0001F7E9⬜⬜⬜\n⬜\U0001F7E8⬜\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+              ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/FYRNyLP8vp\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle7…
+              https://t.co/vi1QI5GGi2"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: nongjansoodyod
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494523062888583170
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

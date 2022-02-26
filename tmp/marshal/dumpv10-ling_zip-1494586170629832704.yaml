@@ -1,0 +1,171 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:14:45 +0000 2022
+  :id: 1494586170629832704
+  :id_str: '1494586170629832704'
+  :text: "Wordle 244 1/6\n\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1356960562404417555
+    :id_str: '1356960562404417555'
+    :name: "ling \U0001F6CE️ (☀️ d-3 YONGSUN DAY \U0001F973)"
+    :screen_name: ling_zip
+    :location: ''
+    :description: "\U0001F380 19 • */* • \U0001F5A4 bu: @ling_rar • \U0001F49A infp-t
+      • \U0001F499 4w5 • ♑♏♒ • ⚠️ nsfw likes"
+    :url: https://t.co/4eOeahDk7v
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/4eOeahDk7v
+          :expanded_url: http://diyhrt.github.io
+          :display_url: diyhrt.github.io
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 664
+    :friends_count: 1127
+    :listed_count: 5
+    :created_at: Wed Feb 03 13:39:52 +0000 2021
+    :favourites_count: 81072
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 65747
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1494544724610662406/nsN070YB_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1494544724610662406/nsN070YB_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1356960562404417555/1645162137
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 1/6\n\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1356960562404417555
+          :id_str: '1356960562404417555'
+          :name: "ling \U0001F6CE️ (☀️ d-3 YONGSUN DAY \U0001F973)"
+          :screen_name: ling_zip
+          :location: ''
+          :description: "\U0001F380 19 • */* • \U0001F5A4 bu: @ling_rar • \U0001F49A
+            infp-t • \U0001F499 4w5 • ♑♏♒ • ⚠️ nsfw likes"
+          :url: https://t.co/4eOeahDk7v
+          :entities: *1
+          :protected: false
+          :followers_count: 664
+          :friends_count: 1127
+          :listed_count: 5
+          :created_at: Wed Feb 03 13:39:52 +0000 2021
+          :favourites_count: 81072
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 65747
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1494544724610662406/nsN070YB_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1494544724610662406/nsN070YB_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1356960562404417555/1645162137
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:14:45 +0000 2022
+            :id: 1494586170629832704
+            :id_str: '1494586170629832704'
+            :text: "Wordle 244 1/6\n\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: ling_zip
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586170629832704
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

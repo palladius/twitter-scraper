@@ -1,0 +1,178 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:19:04 +0000 2022
+  :id: 1494587255578836992
+  :id_str: '1494587255578836992'
+  :text: "#Wordle 244 3/6\n\n⬛⬛\U0001F7E8⬛⬛\n⬛⬛⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 0
+      - 7
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: und
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1453438585672290309
+    :id_str: '1453438585672290309'
+    :name: Neil Allwood
+    :screen_name: dev_neil_a
+    :location: Rotherham, United Kingdom
+    :description: |-
+      Documenting my journey into #programming, #wedevelopment, #coding and #cloud.
+
+      #100DaysOfCode #Python #Swift #AWS #AWSCertified #Linux
+    :url: https://t.co/IkpvKkktnP
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/IkpvKkktnP
+          :expanded_url: https://github.com/York13Pud
+          :display_url: github.com/York13Pud
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 147
+    :friends_count: 174
+    :listed_count: 2
+    :created_at: Wed Oct 27 19:15:33 +0000 2021
+    :favourites_count: 4154
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 494
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1458430829277982726/9FzI0jlv_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1458430829277982726/9FzI0jlv_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1453438585672290309/1642425226
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: und
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "#Wordle 244 3/6\n\n⬛⬛\U0001F7E8⬛⬛\n⬛⬛⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1453438585672290309
+          :id_str: '1453438585672290309'
+          :name: Neil Allwood
+          :screen_name: dev_neil_a
+          :location: Rotherham, United Kingdom
+          :description: |-
+            Documenting my journey into #programming, #wedevelopment, #coding and #cloud.
+
+            #100DaysOfCode #Python #Swift #AWS #AWSCertified #Linux
+          :url: https://t.co/IkpvKkktnP
+          :entities: *1
+          :protected: false
+          :followers_count: 147
+          :friends_count: 174
+          :listed_count: 2
+          :created_at: Wed Oct 27 19:15:33 +0000 2021
+          :favourites_count: 4154
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 494
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1458430829277982726/9FzI0jlv_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1458430829277982726/9FzI0jlv_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1453438585672290309/1642425226
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:19:04 +0000 2022
+            :id: 1494587255578836992
+            :id_str: '1494587255578836992'
+            :text: "#Wordle 244 3/6\n\n⬛⬛\U0001F7E8⬛⬛\n⬛⬛⬛⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: und
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: dev_neil_a
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587255578836992
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

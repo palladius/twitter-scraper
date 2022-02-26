@@ -1,0 +1,171 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:17:48 +0000 2022
+  :id: 1494586936136249376
+  :id_str: '1494586936136249376'
+  :text: "Wordle 244 5/6\nPleasing symmetry if nothing else\n\n⬛⬛⬛⬛\U0001F7E9\n⬛⬛⬛⬛\U0001F7E9\n⬛⬛⬛\U0001F7E8\U0001F7E9\n⬛⬛\U0001F7E8\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 20035526
+    :id_str: '20035526'
+    :name: Elly (she/her) // Peaceful of Pudsey
+    :screen_name: PeacefulPudsey
+    :location: Pudsey, Leeds
+    :description: 'Pharmacy Education. Exploring. Cats. Tunes. Pictures. Justice.
+      Equity. Yoga. Meditation. Leadership. Hope. All opinions my own. #teamNHS.'
+    :url: https://t.co/jS24DYc460
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/jS24DYc460
+          :expanded_url: https://peacefulofpudsey.com
+          :display_url: peacefulofpudsey.com
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 1378
+    :friends_count: 1647
+    :listed_count: 83
+    :created_at: Wed Feb 04 08:02:06 +0000 2009
+    :favourites_count: 1535
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 28386
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: EDECE9
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme10/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme10/bg.gif
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1440603608140042243/9buYS8lR_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1440603608140042243/9buYS8lR_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/20035526/1603224541
+    :profile_link_color: '088253'
+    :profile_sidebar_border_color: D3D2CF
+    :profile_sidebar_fill_color: E3E2DE
+    :profile_text_color: '634047'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 5/6\nPleasing symmetry if nothing else\n\n⬛⬛⬛⬛\U0001F7E9\n⬛⬛⬛⬛\U0001F7E9\n⬛⬛⬛\U0001F7E8\U0001F7E9\n⬛⬛\U0001F7E8\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 20035526
+          :id_str: '20035526'
+          :name: Elly (she/her) // Peaceful of Pudsey
+          :screen_name: PeacefulPudsey
+          :location: Pudsey, Leeds
+          :description: 'Pharmacy Education. Exploring. Cats. Tunes. Pictures. Justice.
+            Equity. Yoga. Meditation. Leadership. Hope. All opinions my own. #teamNHS.'
+          :url: https://t.co/jS24DYc460
+          :entities: *1
+          :protected: false
+          :followers_count: 1378
+          :friends_count: 1647
+          :listed_count: 83
+          :created_at: Wed Feb 04 08:02:06 +0000 2009
+          :favourites_count: 1535
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 28386
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: EDECE9
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme10/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme10/bg.gif
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1440603608140042243/9buYS8lR_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1440603608140042243/9buYS8lR_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/20035526/1603224541
+          :profile_link_color: '088253'
+          :profile_sidebar_border_color: D3D2CF
+          :profile_sidebar_fill_color: E3E2DE
+          :profile_text_color: '634047'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:17:48 +0000 2022
+            :id: 1494586936136249376
+            :id_str: '1494586936136249376'
+            :text: "Wordle 244 5/6\nPleasing symmetry if nothing else\n\n⬛⬛⬛⬛\U0001F7E9\n⬛⬛⬛⬛\U0001F7E9\n⬛⬛⬛\U0001F7E8\U0001F7E9\n⬛⬛\U0001F7E8\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: PeacefulPudsey
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586936136249376
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,170 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:18:36 +0000 2022
+  :id: 1494587136342900736
+  :id_str: '1494587136342900736'
+  :text: "Wordle 244 2/6\n\n\U0001F7E9\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nDon't
+    ask me, i don't know how."
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1367918953155166209
+    :id_str: '1367918953155166209'
+    :name: SergeantFoxMajor
+    :screen_name: duck_sergeant
+    :location: ''
+    :description: |-
+      “Violence is never the answer. Violence is the question and the answer is yes.” -Technoblade
+      He/they
+      Pfp: Crustery's yt animation
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 5
+    :friends_count: 140
+    :listed_count: 0
+    :created_at: Fri Mar 05 19:24:44 +0000 2021
+    :favourites_count: 2546
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 164
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1488967027930849295/HRgl7vKp_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1488967027930849295/HRgl7vKp_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1367918953155166209/1625673785
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 2/6\n\n\U0001F7E9\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nDon't
+        ask me, i don't know how."
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1367918953155166209
+          :id_str: '1367918953155166209'
+          :name: SergeantFoxMajor
+          :screen_name: duck_sergeant
+          :location: ''
+          :description: |-
+            “Violence is never the answer. Violence is the question and the answer is yes.” -Technoblade
+            He/they
+            Pfp: Crustery's yt animation
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 5
+          :friends_count: 140
+          :listed_count: 0
+          :created_at: Fri Mar 05 19:24:44 +0000 2021
+          :favourites_count: 2546
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 164
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1488967027930849295/HRgl7vKp_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1488967027930849295/HRgl7vKp_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1367918953155166209/1625673785
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:18:36 +0000 2022
+            :id: 1494587136342900736
+            :id_str: '1494587136342900736'
+            :text: "Wordle 244 2/6\n\n\U0001F7E9\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nDon't
+              ask me, i don't know how."
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: duck_sergeant
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587136342900736
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

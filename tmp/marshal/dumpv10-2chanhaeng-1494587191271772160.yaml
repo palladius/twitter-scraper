@@ -1,0 +1,307 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:18:49 +0000 2022
+  :id: 1494587191271772160
+  :id_str: '1494587191271772160'
+  :text: |-
+    RT @kasgotnext: Wordle 244 X/6
+
+    ⬛⬛⬛⬛⬛
+    ⬛⬛⬛⬛⬛
+    ⬛⬛⬛⬛⬛
+    ⬛⬛⬛⬛⬛
+    ⬛⬛⬛⬛⬛
+    ⬛⬛⬛⬛⬛
+
+    don't talk to me please
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: kasgotnext
+      :name: "кαѕ \U0001F49B"
+      :id: 1369989876049870849
+      :id_str: '1369989876049870849'
+      :indices:
+      - 3
+      - 14
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 308756214
+    :id_str: '308756214'
+    :name: "초\U0001F489\U0001F405\U0001F489\U0001F42F\U0001F489무"
+    :screen_name: 2chanhaeng
+    :location: Laniakea, Observable Universe.
+    :description: |-
+      니들이 인외보다 이뻐?
+      니들이 인외보다 잘생겼어?
+      니들이 인외보다 멋져?
+      니들이 인외보다 귀여워?
+      인외러면 퍼가
+
+      플필 @ goatdraw
+    :url: https://t.co/TQQSEE2LPI
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/TQQSEE2LPI
+          :expanded_url: http://fb.com/2chanhaeng
+          :display_url: fb.com/2chanhaeng
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 502
+    :friends_count: 381
+    :listed_count: 11
+    :created_at: Tue May 31 23:21:23 +0000 2011
+    :favourites_count: 156070
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 382610
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '0093D1'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1254465461393088512/XTTFTZJX_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1254465461393088512/XTTFTZJX_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/308756214/1616251608
+    :profile_link_color: F58EA8
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :retweeted_status: &5
+    :created_at: Fri Feb 18 02:20:10 +0000 2022
+    :id: 1494496936791273472
+    :id_str: '1494496936791273472'
+    :text: |-
+      Wordle 244 X/6
+
+      ⬛⬛⬛⬛⬛
+      ⬛⬛⬛⬛⬛
+      ⬛⬛⬛⬛⬛
+      ⬛⬛⬛⬛⬛
+      ⬛⬛⬛⬛⬛
+      ⬛⬛⬛⬛⬛
+
+      don't talk to me please
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls: []
+    :metadata:
+      :iso_language_code: en
+      :result_type: recent
+    :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+      for Android</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 1369989876049870849
+      :id_str: '1369989876049870849'
+      :name: "кαѕ \U0001F49B"
+      :screen_name: kasgotnext
+      :location: 30-27
+      :description: 'I make bad art • IG: kasgotnext'
+      :url: 
+      :entities:
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 2200
+      :friends_count: 1828
+      :listed_count: 6
+      :created_at: Thu Mar 11 12:33:43 +0000 2021
+      :favourites_count: 30489
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 6163
+      :lang: 
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: F5F8FA
+      :profile_background_image_url: 
+      :profile_background_image_url_https: 
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/1492005223245627392/sr-4Grcd_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/1492005223245627392/sr-4Grcd_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/1369989876049870849/1641183617
+      :profile_link_color: 1DA1F2
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: '333333'
+      :profile_use_background_image: true
+      :has_extended_profile: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :translator_type: none
+      :withheld_in_countries: []
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 38
+    :favorite_count: 552
+    :favorited: false
+    :retweeted: false
+    :lang: en
+  :is_quote_status: false
+  :retweet_count: 38
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: |-
+        RT @kasgotnext: Wordle 244 X/6
+
+        ⬛⬛⬛⬛⬛
+        ⬛⬛⬛⬛⬛
+        ⬛⬛⬛⬛⬛
+        ⬛⬛⬛⬛⬛
+        ⬛⬛⬛⬛⬛
+        ⬛⬛⬛⬛⬛
+
+        don't talk to me please
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 308756214
+          :id_str: '308756214'
+          :name: "초\U0001F489\U0001F405\U0001F489\U0001F42F\U0001F489무"
+          :screen_name: 2chanhaeng
+          :location: Laniakea, Observable Universe.
+          :description: |-
+            니들이 인외보다 이뻐?
+            니들이 인외보다 잘생겼어?
+            니들이 인외보다 멋져?
+            니들이 인외보다 귀여워?
+            인외러면 퍼가
+
+            플필 @ goatdraw
+          :url: https://t.co/TQQSEE2LPI
+          :entities: *1
+          :protected: false
+          :followers_count: 502
+          :friends_count: 381
+          :listed_count: 11
+          :created_at: Tue May 31 23:21:23 +0000 2011
+          :favourites_count: 156070
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 382610
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '0093D1'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1254465461393088512/XTTFTZJX_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1254465461393088512/XTTFTZJX_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/308756214/1616251608
+          :profile_link_color: F58EA8
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:18:49 +0000 2022
+            :id: 1494587191271772160
+            :id_str: '1494587191271772160'
+            :text: |-
+              RT @kasgotnext: Wordle 244 X/6
+
+              ⬛⬛⬛⬛⬛
+              ⬛⬛⬛⬛⬛
+              ⬛⬛⬛⬛⬛
+              ⬛⬛⬛⬛⬛
+              ⬛⬛⬛⬛⬛
+              ⬛⬛⬛⬛⬛
+
+              don't talk to me please
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :retweeted_status: *5
+            :is_quote_status: false
+            :retweet_count: 38
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: 2chanhaeng
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587191271772160
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

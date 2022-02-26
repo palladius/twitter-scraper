@@ -1,0 +1,190 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 00:45:18 +0000 2022
+  :id: 1494473062909034496
+  :id_str: '1494473062909034496'
+  :text: "Wordle 244 3/6\n\n⬛\U0001F7E9\U0001F7E9\U0001F7E8⬛\n\U0001F7E8⬛⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+    ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/N3z0gYyRvA\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle5… https://t.co/5S9DyfAv0L"
+  :truncated: true
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 90
+      - 97
+    - :text: Wordle5
+      :indices:
+      - 98
+      - 106
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/N3z0gYyRvA
+      :expanded_url: https://wordle.wekele.com
+      :display_url: wordle.wekele.com
+      :indices:
+      - 50
+      - 73
+    - :url: https://t.co/5S9DyfAv0L
+      :expanded_url: https://twitter.com/i/web/status/1494473062909034496
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 108
+      - 131
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 1494129784317640705
+  :in_reply_to_status_id_str: '1494129784317640705'
+  :in_reply_to_user_id: 114698374
+  :in_reply_to_user_id_str: '114698374'
+  :in_reply_to_screen_name: AhaYoana
+  :user:
+    :id: 114698374
+    :id_str: '114698374'
+    :name: 'Kode Bibit: kaiabahagia'
+    :screen_name: AhaYoana
+    :location: ''
+    :description: Tetap tenang dan bertenaga ★ Be in love with your life. Every minute
+      of it ★ Smile! Spread your love to everyone ☺
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 325
+    :friends_count: 518
+    :listed_count: 0
+    :created_at: Tue Feb 16 09:32:05 +0000 2010
+    :favourites_count: 1942
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 13455
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1416281189590048769/YMR2TvHQ_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1416281189590048769/YMR2TvHQ_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/114698374/1609823532
+    :profile_link_color: '0084B4'
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 3/6\n\n⬛\U0001F7E9\U0001F7E9\U0001F7E8⬛\n\U0001F7E8⬛⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+        ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/N3z0gYyRvA\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle5…
+        https://t.co/5S9DyfAv0L"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 114698374
+          :id_str: '114698374'
+          :name: 'Kode Bibit: kaiabahagia'
+          :screen_name: AhaYoana
+          :location: ''
+          :description: Tetap tenang dan bertenaga ★ Be in love with your life. Every
+            minute of it ★ Smile! Spread your love to everyone ☺
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 325
+          :friends_count: 518
+          :listed_count: 0
+          :created_at: Tue Feb 16 09:32:05 +0000 2010
+          :favourites_count: 1942
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 13455
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1416281189590048769/YMR2TvHQ_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1416281189590048769/YMR2TvHQ_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/114698374/1609823532
+          :profile_link_color: '0084B4'
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 00:45:18 +0000 2022
+            :id: 1494473062909034496
+            :id_str: '1494473062909034496'
+            :text: "Wordle 244 3/6\n\n⬛\U0001F7E9\U0001F7E9\U0001F7E8⬛\n\U0001F7E8⬛⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+              ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/N3z0gYyRvA\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle5…
+              https://t.co/5S9DyfAv0L"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 1494129784317640705
+            :in_reply_to_status_id_str: '1494129784317640705'
+            :in_reply_to_user_id: 114698374
+            :in_reply_to_user_id_str: '114698374'
+            :in_reply_to_screen_name: AhaYoana
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: AhaYoana
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494473062909034496
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

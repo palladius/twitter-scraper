@@ -1,0 +1,188 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:44:55 +0000 2022
+  :id: 1494578660145348609
+  :id_str: '1494578660145348609'
+  :text: "Le Mot (@WordleFR) #40 4/6\n\n⬛\U0001F7E8⬛⬛⬛\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/TXtnTAh2Kx"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 8
+      - 17
+    :urls:
+    - :url: https://t.co/TXtnTAh2Kx
+      :expanded_url: http://wordle.louan.me
+      :display_url: wordle.louan.me
+      :indices:
+      - 53
+      - 76
+  :metadata: &4
+    :iso_language_code: fr
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 334822902
+    :id_str: '334822902'
+    :name: "Liz Marshall \U0001F308♐\U0001F984\U0001F64B\U0001F3FB‍♀️"
+    :screen_name: The_LizMarshall
+    :location: "South Staffordshire, UK \U0001F1EC\U0001F1E7 "
+    :description: "Good egg with a side-order of ranting. Hobbyist. Lover of books,
+      film, music, anime & more - fascinated by facts & admirer of cute things. \U0001F4DA\U0001F3A8\U0001F4DD\n#StaySafe
+      \U0001F637\U0001F489"
+    :url: https://t.co/07Uz1y49J3
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/07Uz1y49J3
+          :expanded_url: https://instagram.com/the_lizmarshall/
+          :display_url: instagram.com/the_lizmarshal…
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 7318
+    :friends_count: 8048
+    :listed_count: 374
+    :created_at: Wed Jul 13 18:36:26 +0000 2011
+    :favourites_count: 156919
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 232511
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1493600562646065160/4fh8289J_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1493600562646065160/4fh8289J_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/334822902/1642867550
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: fr
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Le Mot (@WordleFR) #40 4/6\n\n⬛\U0001F7E8⬛⬛⬛\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/TXtnTAh2Kx"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 334822902
+          :id_str: '334822902'
+          :name: "Liz Marshall \U0001F308♐\U0001F984\U0001F64B\U0001F3FB‍♀️"
+          :screen_name: The_LizMarshall
+          :location: "South Staffordshire, UK \U0001F1EC\U0001F1E7 "
+          :description: "Good egg with a side-order of ranting. Hobbyist. Lover of
+            books, film, music, anime & more - fascinated by facts & admirer of cute
+            things. \U0001F4DA\U0001F3A8\U0001F4DD\n#StaySafe \U0001F637\U0001F489"
+          :url: https://t.co/07Uz1y49J3
+          :entities: *1
+          :protected: false
+          :followers_count: 7318
+          :friends_count: 8048
+          :listed_count: 374
+          :created_at: Wed Jul 13 18:36:26 +0000 2011
+          :favourites_count: 156919
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 232511
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1493600562646065160/4fh8289J_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1493600562646065160/4fh8289J_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/334822902/1642867550
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:44:55 +0000 2022
+            :id: 1494578660145348609
+            :id_str: '1494578660145348609'
+            :text: "Le Mot (@WordleFR) #40 4/6\n\n⬛\U0001F7E8⬛⬛⬛\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/TXtnTAh2Kx"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: fr
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: The_LizMarshall
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494578660145348609
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

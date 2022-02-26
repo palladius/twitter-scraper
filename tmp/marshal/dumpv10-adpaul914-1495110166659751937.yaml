@@ -1,0 +1,171 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Sat Feb 19 18:56:56 +0000 2022
+  :id: 1495110166659751937
+  :id_str: '1495110166659751937'
+  :text: "Wordle 245 4/6\n\n⬜⬜⬜⬜\U0001F7E8\n\U0001F7E9⬜\U0001F7E9⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9
+    It wasn’t that hard but yeah, I’ve never heard this word in a daily conversation
+    #Wordle"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 121
+      - 128
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 317356191
+    :id_str: '317356191'
+    :name: Amber
+    :screen_name: adpaul914
+    :location: Kalama, WA
+    :description: ''
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 285
+    :friends_count: 799
+    :listed_count: 11
+    :created_at: Tue Jun 14 20:22:50 +0000 2011
+    :favourites_count: 9018
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 3085
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1184274960782516225/oHSDwSgL_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1184274960782516225/oHSDwSgL_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/317356191/1504597058
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 245 4/6\n\n⬜⬜⬜⬜\U0001F7E8\n\U0001F7E9⬜\U0001F7E9⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9
+        It wasn’t that hard but yeah, I’ve never heard this word in a daily conversation
+        #Wordle"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 317356191
+          :id_str: '317356191'
+          :name: Amber
+          :screen_name: adpaul914
+          :location: Kalama, WA
+          :description: ''
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 285
+          :friends_count: 799
+          :listed_count: 11
+          :created_at: Tue Jun 14 20:22:50 +0000 2011
+          :favourites_count: 9018
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 3085
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1184274960782516225/oHSDwSgL_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1184274960782516225/oHSDwSgL_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/317356191/1504597058
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Sat Feb 19 18:56:56 +0000 2022
+            :id: 1495110166659751937
+            :id_str: '1495110166659751937'
+            :text: "Wordle 245 4/6\n\n⬜⬜⬜⬜\U0001F7E8\n\U0001F7E9⬜\U0001F7E9⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9
+              It wasn’t that hard but yeah, I’ve never heard this word in a daily
+              conversation #Wordle"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: adpaul914
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1495110166659751937
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

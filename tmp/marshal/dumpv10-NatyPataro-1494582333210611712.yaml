@@ -1,0 +1,179 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:59:30 +0000 2022
+  :id: 1494582333210611712
+  :id_str: '1494582333210611712'
+  :text: "joguei https://t.co/YMlpHyifAX #47 5/6\n\n⬛\U0001F7E9⬛⬛⬛\n\U0001F7E9⬛⬛⬛\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/YMlpHyifAX
+      :expanded_url: http://term.ooo
+      :display_url: term.ooo
+      :indices:
+      - 7
+      - 30
+  :metadata: &4
+    :iso_language_code: pt
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 49086481
+    :id_str: '49086481'
+    :name: Naty Pataro
+    :screen_name: NatyPataro
+    :location: Brasil
+    :description: Atleticana, viciada em música, apaixonada por fotografia, fã de
+      Sandy & Junior, viciada em quebra-cabeças e por ai vai…
+    :url: https://t.co/HiW7SKkFog
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/HiW7SKkFog
+          :expanded_url: https://instagram.com/qc_pataro
+          :display_url: instagram.com/qc_pataro
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 1011
+    :friends_count: 403
+    :listed_count: 20
+    :created_at: Sat Jun 20 19:06:54 +0000 2009
+    :favourites_count: 610
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 51852
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: ACDED6
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1316764878464593920/F6xzeaaS_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1316764878464593920/F6xzeaaS_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/49086481/1635558145
+    :profile_link_color: '038543'
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: DDFFCC
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: pt
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "joguei https://t.co/YMlpHyifAX #47 5/6\n\n⬛\U0001F7E9⬛⬛⬛\n\U0001F7E9⬛⬛⬛\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 49086481
+          :id_str: '49086481'
+          :name: Naty Pataro
+          :screen_name: NatyPataro
+          :location: Brasil
+          :description: Atleticana, viciada em música, apaixonada por fotografia,
+            fã de Sandy & Junior, viciada em quebra-cabeças e por ai vai…
+          :url: https://t.co/HiW7SKkFog
+          :entities: *1
+          :protected: false
+          :followers_count: 1011
+          :friends_count: 403
+          :listed_count: 20
+          :created_at: Sat Jun 20 19:06:54 +0000 2009
+          :favourites_count: 610
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 51852
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: ACDED6
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1316764878464593920/F6xzeaaS_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1316764878464593920/F6xzeaaS_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/49086481/1635558145
+          :profile_link_color: '038543'
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: DDFFCC
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:59:30 +0000 2022
+            :id: 1494582333210611712
+            :id_str: '1494582333210611712'
+            :text: "joguei https://t.co/YMlpHyifAX #47 5/6\n\n⬛\U0001F7E9⬛⬛⬛\n\U0001F7E9⬛⬛⬛\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: pt
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: NatyPataro
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494582333210611712
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

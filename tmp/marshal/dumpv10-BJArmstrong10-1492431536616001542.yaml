@@ -1,0 +1,163 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Sat Feb 12 09:33:01 +0000 2022
+  :id: 1492431536616001542
+  :id_str: '1492431536616001542'
+  :text: "Wordle 238 4/6 #twitterparser\n\n⬛\U0001F7E9⬛⬛⬛\n⬛\U0001F7E9\U0001F7E8⬛⬛\n\U0001F7E8\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: twitterparser
+      :indices:
+      - 15
+      - 29
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 117281837
+    :id_str: '117281837'
+    :name: Nicola Piludu
+    :screen_name: BJArmstrong10
+    :location: Dublin
+    :description: ''
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 39
+    :friends_count: 224
+    :listed_count: 1
+    :created_at: Thu Feb 25 03:20:21 +0000 2010
+    :favourites_count: 569
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 35
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/3166436072/cf9f41d860c4da92726110d51a5da156_normal.jpeg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/3166436072/cf9f41d860c4da92726110d51a5da156_normal.jpeg
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 238 4/6 #twitterparser\n\n⬛\U0001F7E9⬛⬛⬛\n⬛\U0001F7E9\U0001F7E8⬛⬛\n\U0001F7E8\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 117281837
+          :id_str: '117281837'
+          :name: Nicola Piludu
+          :screen_name: BJArmstrong10
+          :location: Dublin
+          :description: ''
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 39
+          :friends_count: 224
+          :listed_count: 1
+          :created_at: Thu Feb 25 03:20:21 +0000 2010
+          :favourites_count: 569
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 35
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/3166436072/cf9f41d860c4da92726110d51a5da156_normal.jpeg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/3166436072/cf9f41d860c4da92726110d51a5da156_normal.jpeg
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Sat Feb 12 09:33:01 +0000 2022
+            :id: 1492431536616001542
+            :id_str: '1492431536616001542'
+            :text: "Wordle 238 4/6 #twitterparser\n\n⬛\U0001F7E9⬛⬛⬛\n⬛\U0001F7E9\U0001F7E8⬛⬛\n\U0001F7E8\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: BJArmstrong10
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1492431536616001542
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

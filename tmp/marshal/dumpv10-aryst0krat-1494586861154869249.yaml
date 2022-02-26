@@ -1,0 +1,171 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:17:30 +0000 2022
+  :id: 1494586861154869249
+  :id_str: '1494586861154869249'
+  :text: "Wordle 244 4/6\n\n⬛⬛\U0001F7E6⬛\U0001F7E7\n⬛\U0001F7E7⬛\U0001F7E7\U0001F7E7\n⬛\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7\n\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 49113303
+    :id_str: '49113303'
+    :name: Chris
+    :screen_name: aryst0krat
+    :location: Canada
+    :description: Will one day actually finish a project, whether it be a book, a
+      game, or a song. He/him. '90
+    :url: https://t.co/AEtDIySmfe
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/AEtDIySmfe
+          :expanded_url: http://curiouscat.me/aryst0krat
+          :display_url: curiouscat.me/aryst0krat
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 279
+    :friends_count: 71
+    :listed_count: 9
+    :created_at: Sat Jun 20 20:38:29 +0000 2009
+    :favourites_count: 278426
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 73874
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: FF1100
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme5/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme5/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1491126901561344007/z1w7wABi_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1491126901561344007/z1w7wABi_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/49113303/1540171435
+    :profile_link_color: 5E0505
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: BD0000
+    :profile_text_color: '000000'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 4/6\n\n⬛⬛\U0001F7E6⬛\U0001F7E7\n⬛\U0001F7E7⬛\U0001F7E7\U0001F7E7\n⬛\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7\n\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 49113303
+          :id_str: '49113303'
+          :name: Chris
+          :screen_name: aryst0krat
+          :location: Canada
+          :description: Will one day actually finish a project, whether it be a book,
+            a game, or a song. He/him. '90
+          :url: https://t.co/AEtDIySmfe
+          :entities: *1
+          :protected: false
+          :followers_count: 279
+          :friends_count: 71
+          :listed_count: 9
+          :created_at: Sat Jun 20 20:38:29 +0000 2009
+          :favourites_count: 278426
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 73874
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: FF1100
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme5/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme5/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1491126901561344007/z1w7wABi_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1491126901561344007/z1w7wABi_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/49113303/1540171435
+          :profile_link_color: 5E0505
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: BD0000
+          :profile_text_color: '000000'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:17:30 +0000 2022
+            :id: 1494586861154869249
+            :id_str: '1494586861154869249'
+            :text: "Wordle 244 4/6\n\n⬛⬛\U0001F7E6⬛\U0001F7E7\n⬛\U0001F7E7⬛\U0001F7E7\U0001F7E7\n⬛\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7\n\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7\U0001F7E7"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: aryst0krat
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586861154869249
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

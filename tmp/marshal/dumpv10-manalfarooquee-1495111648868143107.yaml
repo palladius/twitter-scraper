@@ -1,0 +1,183 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Sat Feb 19 19:02:49 +0000 2022
+  :id: 1495111648868143107
+  :id_str: '1495111648868143107'
+  :text: "Wordle 246 3/6\n\n⬜⬜\U0001F7E8⬜⬜\n⬜\U0001F7E8\U0001F7E8\U0001F7E8⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nDon’t
+    let the 3/6 fool you. This one was extremely tricky. Took me a good 15 min… https://t.co/mOtqGQo9ZJ"
+  :truncated: true
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/mOtqGQo9ZJ
+      :expanded_url: https://twitter.com/i/web/status/1495111648868143107
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 117
+      - 140
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 50980954
+    :id_str: '50980954'
+    :name: Manal
+    :screen_name: manalfarooquee
+    :location: New Delhi, India
+    :description: I go my ways, and when I find a mountain-rill, I set it in a blaze;
+      So either way, I'll get into the garden, and I don't care what happens.
+    :url: https://t.co/pgBoWCCwLU
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/pgBoWCCwLU
+          :expanded_url: http://www.instagram.com/manal.far
+          :display_url: instagram.com/manal.far
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 132
+    :friends_count: 737
+    :listed_count: 2
+    :created_at: Fri Jun 26 08:43:37 +0000 2009
+    :favourites_count: 18203
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 2015
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: 452E3C
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme2/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme2/bg.gif
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1446535856060190722/PDueqd0H_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1446535856060190722/PDueqd0H_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/50980954/1643036360
+    :profile_link_color: FF3D5A
+    :profile_sidebar_border_color: 13BEB6
+    :profile_sidebar_fill_color: EAF27E
+    :profile_text_color: FFB969
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 246 3/6\n\n⬜⬜\U0001F7E8⬜⬜\n⬜\U0001F7E8\U0001F7E8\U0001F7E8⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nDon’t
+        let the 3/6 fool you. This one was extremely tricky. Took me a good 15 min…
+        https://t.co/mOtqGQo9ZJ"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 50980954
+          :id_str: '50980954'
+          :name: Manal
+          :screen_name: manalfarooquee
+          :location: New Delhi, India
+          :description: I go my ways, and when I find a mountain-rill, I set it in
+            a blaze; So either way, I'll get into the garden, and I don't care what
+            happens.
+          :url: https://t.co/pgBoWCCwLU
+          :entities: *1
+          :protected: false
+          :followers_count: 132
+          :friends_count: 737
+          :listed_count: 2
+          :created_at: Fri Jun 26 08:43:37 +0000 2009
+          :favourites_count: 18203
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 2015
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: 452E3C
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme2/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme2/bg.gif
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1446535856060190722/PDueqd0H_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1446535856060190722/PDueqd0H_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/50980954/1643036360
+          :profile_link_color: FF3D5A
+          :profile_sidebar_border_color: 13BEB6
+          :profile_sidebar_fill_color: EAF27E
+          :profile_text_color: FFB969
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Sat Feb 19 19:02:49 +0000 2022
+            :id: 1495111648868143107
+            :id_str: '1495111648868143107'
+            :text: "Wordle 246 3/6\n\n⬜⬜\U0001F7E8⬜⬜\n⬜\U0001F7E8\U0001F7E8\U0001F7E8⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nDon’t
+              let the 3/6 fool you. This one was extremely tricky. Took me a good
+              15 min… https://t.co/mOtqGQo9ZJ"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: manalfarooquee
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1495111648868143107
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

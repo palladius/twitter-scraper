@@ -1,0 +1,210 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 05:39:45 +0000 2022
+  :id: 1494547162147037189
+  :id_str: '1494547162147037189'
+  :text: "Wordle 244 5/6\n\n⬜⬜\U0001F7E8\U0001F7E8\U0001F7E8⬜⬜\n\U0001F7E8\U0001F7E8\U0001F7E8⬜\U0001F7E8⬜⬜\n\U0001F7E8\U0001F7E8\U0001F7E8⬜\U0001F7E9\U0001F7E9⬜\n⬜⬜\U0001F7E8\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+    ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/FJeCEz2Lg3\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️… https://t.co/gqOCNpvpu6"
+  :truncated: true
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/FJeCEz2Lg3
+      :expanded_url: https://wordle.wekele.com
+      :display_url: wordle.wekele.com
+      :indices:
+      - 72
+      - 95
+    - :url: https://t.co/gqOCNpvpu6
+      :expanded_url: https://twitter.com/i/web/status/1494547162147037189
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 112
+      - 135
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 27298371
+    :id_str: '27298371'
+    :name: "Mara Mac \U0001F608"
+    :screen_name: chldlktndncs
+    :location: Baden-Württemberg, Germany
+    :description: "Mom. Nurse. Book collector. History nerd. Theatre lover. Fanfiction
+      writer. Lucifan \U0001F608. Sometimes posts edits. Occasionally sings. Rarely
+      draws fan-art."
+    :url: https://t.co/zwmsmhORVR
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/zwmsmhORVR
+          :expanded_url: https://archiveofourown.org/users/childliketendencies/pseuds/childliketendencies
+          :display_url: archiveofourown.org/users/childlik…
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 480
+    :friends_count: 509
+    :listed_count: 26
+    :created_at: Sat Mar 28 20:09:51 +0000 2009
+    :favourites_count: 33107
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 49208
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: FFFFFF
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme6/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme6/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1477030351474204683/arvou9R4_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1477030351474204683/arvou9R4_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/27298371/1602461249
+    :profile_link_color: 79A174
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: 1A3F57
+    :profile_text_color: 72B9BF
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: &5
+    :id: af51e8f00db663de
+    :url: https://api.twitter.com/1.1/geo/id/af51e8f00db663de.json
+    :place_type: city
+    :name: Pisa
+    :full_name: Pisa, Tuscany
+    :country_code: IT
+    :country: Italy
+    :contained_within: []
+    :bounding_box:
+      :type: Polygon
+      :coordinates:
+      - - - 10.2696317
+          - 43.5813809
+        - - 10.4563173
+          - 43.5813809
+        - - 10.4563173
+          - 43.7509749
+        - - 10.2696317
+          - 43.7509749
+    :attributes: {}
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 5/6\n\n⬜⬜\U0001F7E8\U0001F7E8\U0001F7E8⬜⬜\n\U0001F7E8\U0001F7E8\U0001F7E8⬜\U0001F7E8⬜⬜\n\U0001F7E8\U0001F7E8\U0001F7E8⬜\U0001F7E9\U0001F7E9⬜\n⬜⬜\U0001F7E8\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+        ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/FJeCEz2Lg3\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️… https://t.co/gqOCNpvpu6"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 27298371
+          :id_str: '27298371'
+          :name: "Mara Mac \U0001F608"
+          :screen_name: chldlktndncs
+          :location: Baden-Württemberg, Germany
+          :description: "Mom. Nurse. Book collector. History nerd. Theatre lover.
+            Fanfiction writer. Lucifan \U0001F608. Sometimes posts edits. Occasionally
+            sings. Rarely draws fan-art."
+          :url: https://t.co/zwmsmhORVR
+          :entities: *1
+          :protected: false
+          :followers_count: 480
+          :friends_count: 509
+          :listed_count: 26
+          :created_at: Sat Mar 28 20:09:51 +0000 2009
+          :favourites_count: 33107
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 49208
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: FFFFFF
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme6/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme6/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1477030351474204683/arvou9R4_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1477030351474204683/arvou9R4_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/27298371/1602461249
+          :profile_link_color: 79A174
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: 1A3F57
+          :profile_text_color: 72B9BF
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 05:39:45 +0000 2022
+            :id: 1494547162147037189
+            :id_str: '1494547162147037189'
+            :text: "Wordle 244 5/6\n\n⬜⬜\U0001F7E8\U0001F7E8\U0001F7E8⬜⬜\n\U0001F7E8\U0001F7E8\U0001F7E8⬜\U0001F7E8⬜⬜\n\U0001F7E8\U0001F7E8\U0001F7E8⬜\U0001F7E9\U0001F7E9⬜\n⬜⬜\U0001F7E8\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+              ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/FJeCEz2Lg3\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️… https://t.co/gqOCNpvpu6"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: *5
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: chldlktndncs
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494547162147037189
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

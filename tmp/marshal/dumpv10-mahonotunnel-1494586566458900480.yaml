@@ -1,0 +1,171 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:16:20 +0000 2022
+  :id: 1494586566458900480
+  :id_str: '1494586566458900480'
+  :text: "#Wordle\n #Wordle244\nWordle 244 5/6\n\n⬜\U0001F7E9⬜⬜⬜\n⬜\U0001F7E9⬜⬜\U0001F7E8\n\U0001F7E9\U0001F7E9⬜⬜⬜\n\U0001F7E9\U0001F7E9⬜\U0001F7E9⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 0
+      - 7
+    - :text: Wordle244
+      :indices:
+      - 9
+      - 19
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 1494268523543404546
+  :in_reply_to_status_id_str: '1494268523543404546'
+  :in_reply_to_user_id: 992638840769662976
+  :in_reply_to_user_id_str: '992638840769662976'
+  :in_reply_to_screen_name: mahonotunnel
+  :user:
+    :id: 992638840769662976
+    :id_str: '992638840769662976'
+    :name: "み ゅ ー ！\U0001F6F8\U0001F436↬\U0001F365"
+    :screen_name: mahonotunnel
+    :location: ツイッター列島
+    :description: "#ozkn #小沢健二 界隈の\U0001F41Fです。 小沢健二さん\U0001F430↬満島ひかりさん\U0001F34B↬坂元裕二さん\U0001F3BB
+      大好き❣️無言フォロー失礼します！ フォローはどうぞお気軽に\U0001F989 \U0001F680"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 365
+    :friends_count: 507
+    :listed_count: 8
+    :created_at: Sat May 05 05:35:16 +0000 2018
+    :favourites_count: 56205
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 18517
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1477505583515594754/F1Txhgg7_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1477505583515594754/F1Txhgg7_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/992638840769662976/1538664196
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "#Wordle\n #Wordle244\nWordle 244 5/6\n\n⬜\U0001F7E9⬜⬜⬜\n⬜\U0001F7E9⬜⬜\U0001F7E8\n\U0001F7E9\U0001F7E9⬜⬜⬜\n\U0001F7E9\U0001F7E9⬜\U0001F7E9⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 992638840769662976
+          :id_str: '992638840769662976'
+          :name: "み ゅ ー ！\U0001F6F8\U0001F436↬\U0001F365"
+          :screen_name: mahonotunnel
+          :location: ツイッター列島
+          :description: "#ozkn #小沢健二 界隈の\U0001F41Fです。 小沢健二さん\U0001F430↬満島ひかりさん\U0001F34B↬坂元裕二さん\U0001F3BB
+            大好き❣️無言フォロー失礼します！ フォローはどうぞお気軽に\U0001F989 \U0001F680"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 365
+          :friends_count: 507
+          :listed_count: 8
+          :created_at: Sat May 05 05:35:16 +0000 2018
+          :favourites_count: 56205
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 18517
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1477505583515594754/F1Txhgg7_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1477505583515594754/F1Txhgg7_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/992638840769662976/1538664196
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:16:20 +0000 2022
+            :id: 1494586566458900480
+            :id_str: '1494586566458900480'
+            :text: "#Wordle\n #Wordle244\nWordle 244 5/6\n\n⬜\U0001F7E9⬜⬜⬜\n⬜\U0001F7E9⬜⬜\U0001F7E8\n\U0001F7E9\U0001F7E9⬜⬜⬜\n\U0001F7E9\U0001F7E9⬜\U0001F7E9⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 1494268523543404546
+            :in_reply_to_status_id_str: '1494268523543404546'
+            :in_reply_to_user_id: 992638840769662976
+            :in_reply_to_user_id_str: '992638840769662976'
+            :in_reply_to_screen_name: mahonotunnel
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: mahonotunnel
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586566458900480
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,177 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:55:54 +0000 2022
+  :id: 1494581425366052869
+  :id_str: '1494581425366052869'
+  :text: "joguei https://t.co/U4vjhYan0D #47 3/6 *\n\n\U0001F7E8\U0001F7E8⬛⬛⬛\n⬛\U0001F7E9\U0001F7E8\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/U4vjhYan0D
+      :expanded_url: http://term.ooo
+      :display_url: term.ooo
+      :indices:
+      - 7
+      - 30
+  :metadata: &4
+    :iso_language_code: pt
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 113935412
+    :id_str: '113935412'
+    :name: ga
+    :screen_name: gafrreitas
+    :location: ''
+    :description: to aqui pra reclamar
+    :url: https://t.co/FKiXO5K3iW
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/FKiXO5K3iW
+          :expanded_url: http://www.instagram.com/gafrreitas
+          :display_url: instagram.com/gafrreitas
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 517
+    :friends_count: 364
+    :listed_count: 1
+    :created_at: Sat Feb 13 14:37:07 +0000 2010
+    :favourites_count: 7186
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 43362
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '000000'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme14/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme14/bg.gif
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1479579227741736967/a9tCvHBo_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1479579227741736967/a9tCvHBo_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/113935412/1601433916
+    :profile_link_color: '993377'
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: EFEFEF
+    :profile_text_color: '333333'
+    :profile_use_background_image: false
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 1
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: pt
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "joguei https://t.co/U4vjhYan0D #47 3/6 *\n\n\U0001F7E8\U0001F7E8⬛⬛⬛\n⬛\U0001F7E9\U0001F7E8\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 113935412
+          :id_str: '113935412'
+          :name: ga
+          :screen_name: gafrreitas
+          :location: ''
+          :description: to aqui pra reclamar
+          :url: https://t.co/FKiXO5K3iW
+          :entities: *1
+          :protected: false
+          :followers_count: 517
+          :friends_count: 364
+          :listed_count: 1
+          :created_at: Sat Feb 13 14:37:07 +0000 2010
+          :favourites_count: 7186
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 43362
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '000000'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme14/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme14/bg.gif
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1479579227741736967/a9tCvHBo_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1479579227741736967/a9tCvHBo_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/113935412/1601433916
+          :profile_link_color: '993377'
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: EFEFEF
+          :profile_text_color: '333333'
+          :profile_use_background_image: false
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:55:54 +0000 2022
+            :id: 1494581425366052869
+            :id_str: '1494581425366052869'
+            :text: "joguei https://t.co/U4vjhYan0D #47 3/6 *\n\n\U0001F7E8\U0001F7E8⬛⬛⬛\n⬛\U0001F7E9\U0001F7E8\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 1
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: pt
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: gafrreitas
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494581425366052869
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

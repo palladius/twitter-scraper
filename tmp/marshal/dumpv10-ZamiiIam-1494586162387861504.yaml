@@ -1,0 +1,164 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:14:43 +0000 2022
+  :id: 1494586162387861504
+  :id_str: '1494586162387861504'
+  :text: "Wordle 244 5/6\n\n⬜⬜⬜⬜⬜\n⬜\U0001F7E9⬜⬜⬜\n⬜⬜\U0001F7E8⬜⬜\n\U0001F7E8\U0001F7E9⬜⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9
+    hmmmm"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 622275521
+    :id_str: '622275521'
+    :name: MaMbuyane
+    :screen_name: ZamiiIam
+    :location: Nelspruit
+    :description: human busy being || forever 25|| survived 2016
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 1217
+    :friends_count: 510
+    :listed_count: 1
+    :created_at: Fri Jun 29 22:06:49 +0000 2012
+    :favourites_count: 5496
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 13585
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: 642D8B
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1418642944316301314/TtO6EB8C_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1418642944316301314/TtO6EB8C_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/622275521/1598690473
+    :profile_link_color: FF0000
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 5/6\n\n⬜⬜⬜⬜⬜\n⬜\U0001F7E9⬜⬜⬜\n⬜⬜\U0001F7E8⬜⬜\n\U0001F7E8\U0001F7E9⬜⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9
+        hmmmm"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 622275521
+          :id_str: '622275521'
+          :name: MaMbuyane
+          :screen_name: ZamiiIam
+          :location: Nelspruit
+          :description: human busy being || forever 25|| survived 2016
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 1217
+          :friends_count: 510
+          :listed_count: 1
+          :created_at: Fri Jun 29 22:06:49 +0000 2012
+          :favourites_count: 5496
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 13585
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: 642D8B
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1418642944316301314/TtO6EB8C_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1418642944316301314/TtO6EB8C_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/622275521/1598690473
+          :profile_link_color: FF0000
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:14:43 +0000 2022
+            :id: 1494586162387861504
+            :id_str: '1494586162387861504'
+            :text: "Wordle 244 5/6\n\n⬜⬜⬜⬜⬜\n⬜\U0001F7E9⬜⬜⬜\n⬜⬜\U0001F7E8⬜⬜\n\U0001F7E8\U0001F7E9⬜⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9
+              hmmmm"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: ZamiiIam
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586162387861504
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

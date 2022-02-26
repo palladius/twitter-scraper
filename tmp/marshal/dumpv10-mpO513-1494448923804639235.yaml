@@ -1,0 +1,190 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Thu Feb 17 23:09:23 +0000 2022
+  :id: 1494448923804639235
+  :id_str: '1494448923804639235'
+  :text: "Taylordle 20 1/6\n\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#TaylorSwift
+    #taylordle @taylorswift13 @taylornation13  #1989TaylorsVersion"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: TaylorSwift
+      :indices:
+      - 25
+      - 37
+    - :text: taylordle
+      :indices:
+      - 38
+      - 48
+    - :text: 1989TaylorsVersion
+      :indices:
+      - 81
+      - 100
+    :symbols: []
+    :user_mentions:
+    - :screen_name: taylorswift13
+      :name: Taylor Swift
+      :id: 17919972
+      :id_str: '17919972'
+      :indices:
+      - 49
+      - 63
+    - :screen_name: taylornation13
+      :name: Taylor Nation
+      :id: 80144576
+      :id_str: '80144576'
+      :indices:
+      - 64
+      - 79
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 4634178977
+    :id_str: '4634178977'
+    :name: ME!
+    :screen_name: mpO513
+    :location: 'Michigan '
+    :description: ''
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 30
+    :friends_count: 460
+    :listed_count: 0
+    :created_at: Mon Dec 28 16:51:17 +0000 2015
+    :favourites_count: 49977
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 959
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1446547625319223297/bWxlz1mR_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1446547625319223297/bWxlz1mR_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/4634178977/1485657310
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Taylordle 20 1/6\n\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#TaylorSwift
+        #taylordle @taylorswift13 @taylornation13  #1989TaylorsVersion"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 4634178977
+          :id_str: '4634178977'
+          :name: ME!
+          :screen_name: mpO513
+          :location: 'Michigan '
+          :description: ''
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 30
+          :friends_count: 460
+          :listed_count: 0
+          :created_at: Mon Dec 28 16:51:17 +0000 2015
+          :favourites_count: 49977
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 959
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1446547625319223297/bWxlz1mR_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1446547625319223297/bWxlz1mR_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/4634178977/1485657310
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Thu Feb 17 23:09:23 +0000 2022
+            :id: 1494448923804639235
+            :id_str: '1494448923804639235'
+            :text: "Taylordle 20 1/6\n\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#TaylorSwift
+              #taylordle @taylorswift13 @taylornation13  #1989TaylorsVersion"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: mpO513
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494448923804639235
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

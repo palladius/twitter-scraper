@@ -1,0 +1,173 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Thu Feb 17 02:10:10 +0000 2022
+  :id: 1494132029260288000
+  :id_str: '1494132029260288000'
+  :text: "#Taylordle 19 5/6\n\n⬜⬜⬜⬜⬜\n⬜\U0001F7E8⬜⬜⬜\n⬜\U0001F7E8\U0001F7E8\U0001F7E8\U0001F7E9\n\U0001F7E9⬜\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: Taylordle
+      :indices:
+      - 0
+      - 10
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: und
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 1493625637722116105
+  :in_reply_to_status_id_str: '1493625637722116105'
+  :in_reply_to_user_id: 1173326966
+  :in_reply_to_user_id_str: '1173326966'
+  :in_reply_to_screen_name: jennnniebean
+  :user:
+    :id: 1173326966
+    :id_str: '1173326966'
+    :name: "✨ jennie \U0001F9DA‍♀️"
+    :screen_name: jennnniebean
+    :location: Dallas, TX
+    :description: fuck the patriarchy
+    :url: https://t.co/ixr3q1Q0wD
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/ixr3q1Q0wD
+          :expanded_url: https://www.amnesty.org/en/what-we-do/discrimination/womens-rights/
+          :display_url: amnesty.org/en/what-we-do/…
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 744
+    :friends_count: 363
+    :listed_count: 8
+    :created_at: Tue Feb 12 23:13:41 +0000 2013
+    :favourites_count: 49839
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 70227
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '000000'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1493653655299493888/8jye4j00_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1493653655299493888/8jye4j00_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1173326966/1634269756
+    :profile_link_color: FFD2D2
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: FFDF61
+    :profile_text_color: DC143C
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: und
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "#Taylordle 19 5/6\n\n⬜⬜⬜⬜⬜\n⬜\U0001F7E8⬜⬜⬜\n⬜\U0001F7E8\U0001F7E8\U0001F7E8\U0001F7E9\n\U0001F7E9⬜\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1173326966
+          :id_str: '1173326966'
+          :name: "✨ jennie \U0001F9DA‍♀️"
+          :screen_name: jennnniebean
+          :location: Dallas, TX
+          :description: fuck the patriarchy
+          :url: https://t.co/ixr3q1Q0wD
+          :entities: *1
+          :protected: false
+          :followers_count: 744
+          :friends_count: 363
+          :listed_count: 8
+          :created_at: Tue Feb 12 23:13:41 +0000 2013
+          :favourites_count: 49839
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 70227
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '000000'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1493653655299493888/8jye4j00_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1493653655299493888/8jye4j00_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1173326966/1634269756
+          :profile_link_color: FFD2D2
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: FFDF61
+          :profile_text_color: DC143C
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Thu Feb 17 02:10:10 +0000 2022
+            :id: 1494132029260288000
+            :id_str: '1494132029260288000'
+            :text: "#Taylordle 19 5/6\n\n⬜⬜⬜⬜⬜\n⬜\U0001F7E8⬜⬜⬜\n⬜\U0001F7E8\U0001F7E8\U0001F7E8\U0001F7E9\n\U0001F7E9⬜\U0001F7E9\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 1493625637722116105
+            :in_reply_to_status_id_str: '1493625637722116105'
+            :in_reply_to_user_id: 1173326966
+            :in_reply_to_user_id_str: '1173326966'
+            :in_reply_to_screen_name: jennnniebean
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: und
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: jennnniebean
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494132029260288000
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

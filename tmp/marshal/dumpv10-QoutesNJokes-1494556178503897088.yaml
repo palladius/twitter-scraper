@@ -1,0 +1,182 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 06:15:35 +0000 2022
+  :id: 1494556178503897088
+  :id_str: '1494556178503897088'
+  :text: "Taylordle 21 3/6\n\n\U0001F7E8\U0001F7E8⬜\U0001F7E9⬜\n\U0001F7E8\U0001F7E8\U0001F7E8⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/0IxIhk9AgN\n\nRookie
+    mistake on my second try! But 5th time beating… https://t.co/xMxdF5FPQC"
+  :truncated: true
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/0IxIhk9AgN
+      :expanded_url: http://Taylordle.com
+      :display_url: Taylordle.com
+      :indices:
+      - 37
+      - 60
+    - :url: https://t.co/xMxdF5FPQC
+      :expanded_url: https://twitter.com/i/web/status/1494556178503897088
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 117
+      - 140
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 2744751511
+    :id_str: '2744751511'
+    :name: "B Swiftie and Happie\U0001F9E3"
+    :screen_name: QoutesNJokes
+    :location: Where I am Happy / USA
+    :description: "Everyone describes me as a huge Swiftie! I celebrate Swift Day
+      every month &take risks on that day! BC I believe it's a lucky Day! Desperately
+      need to meet\U0001F451Tay"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 4244
+    :friends_count: 156
+    :listed_count: 8
+    :created_at: Tue Aug 19 12:10:54 +0000 2014
+    :favourites_count: 1371
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 3612
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C0DEED
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/925414442283696128/a_3UILou_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/925414442283696128/a_3UILou_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/2744751511/1408451266
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Taylordle 21 3/6\n\n\U0001F7E8\U0001F7E8⬜\U0001F7E9⬜\n\U0001F7E8\U0001F7E8\U0001F7E8⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/0IxIhk9AgN\n\nRookie
+        mistake on my second try! But 5th time beating… https://t.co/xMxdF5FPQC"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 2744751511
+          :id_str: '2744751511'
+          :name: "B Swiftie and Happie\U0001F9E3"
+          :screen_name: QoutesNJokes
+          :location: Where I am Happy / USA
+          :description: "Everyone describes me as a huge Swiftie! I celebrate Swift
+            Day every month &take risks on that day! BC I believe it's a lucky Day!
+            Desperately need to meet\U0001F451Tay"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 4244
+          :friends_count: 156
+          :listed_count: 8
+          :created_at: Tue Aug 19 12:10:54 +0000 2014
+          :favourites_count: 1371
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 3612
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C0DEED
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/925414442283696128/a_3UILou_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/925414442283696128/a_3UILou_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/2744751511/1408451266
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 06:15:35 +0000 2022
+            :id: 1494556178503897088
+            :id_str: '1494556178503897088'
+            :text: "Taylordle 21 3/6\n\n\U0001F7E8\U0001F7E8⬜\U0001F7E9⬜\n\U0001F7E8\U0001F7E8\U0001F7E8⬜⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/0IxIhk9AgN\n\nRookie
+              mistake on my second try! But 5th time beating… https://t.co/xMxdF5FPQC"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: QoutesNJokes
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494556178503897088
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

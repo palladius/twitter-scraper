@@ -1,0 +1,302 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Sat Feb 19 18:57:08 +0000 2022
+  :id: 1495110220359503872
+  :id_str: '1495110220359503872'
+  :text: "RT @HappuSurma: #Wordle\nWordle 246 4/6\n⬛⬛\U0001F7E8\U0001F7E8⬛\n⬛⬛⬛\U0001F7E8⬛\n\U0001F7E8⬛\U0001F7E8\U0001F7E9\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n@arpan_ubach
+    @zyadaahorahahai @satyanewshi"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 16
+      - 23
+    :symbols: []
+    :user_mentions:
+    - :screen_name: HappuSurma
+      :name: "Bohemian Hapsody \U0001F1F8\U0001F1FB\U0001F1F5\U0001F1F9\U0001F1FB\U0001F1EA\U0001F1F3\U0001F1EC\U0001F1E8\U0001F1FA\U0001F1E8\U0001F1ED\U0001F1F1\U0001F1E6\U0001F1E7\U0001F1FB"
+      :id: 1351821232686067713
+      :id_str: '1351821232686067713'
+      :indices:
+      - 3
+      - 14
+    - :screen_name: arpan_ubach
+      :name: pH
+      :id: 1255752033233141763
+      :id_str: '1255752033233141763'
+      :indices:
+      - 64
+      - 76
+    - :screen_name: zyadaahorahahai
+      :name: "\U0001F9E9 Dr.Snow ❄️"
+      :id: 1467133235930955776
+      :id_str: '1467133235930955776'
+      :indices:
+      - 77
+      - 93
+    - :screen_name: satyanewshi
+      :name: সত্যাণ্বেষী
+      :id: 1467517559373107203
+      :id_str: '1467517559373107203'
+      :indices:
+      - 94
+      - 106
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1423512165332307970
+    :id_str: '1423512165332307970'
+    :name: Shahnawaz Alam
+    :screen_name: Shahnaw35903361
+    :location: ''
+    :description: Bechalor of commerce and business and mamta Banerjee suppoters
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 517
+    :friends_count: 1007
+    :listed_count: 0
+    :created_at: Fri Aug 06 05:12:32 +0000 2021
+    :favourites_count: 17155
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 14542
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1423559798004412416/ZGV127dt_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1423559798004412416/ZGV127dt_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1423512165332307970/1628238026
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :retweeted_status: &5
+    :created_at: Sat Feb 19 18:36:21 +0000 2022
+    :id: 1495104989764911105
+    :id_str: '1495104989764911105'
+    :text: "#Wordle\nWordle 246 4/6\n⬛⬛\U0001F7E8\U0001F7E8⬛\n⬛⬛⬛\U0001F7E8⬛\n\U0001F7E8⬛\U0001F7E8\U0001F7E9\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n@arpan_ubach
+      @zyadaahorahahai @satyanewshi"
+    :truncated: false
+    :entities:
+      :hashtags:
+      - :text: Wordle
+        :indices:
+        - 0
+        - 7
+      :symbols: []
+      :user_mentions:
+      - :screen_name: arpan_ubach
+        :name: pH
+        :id: 1255752033233141763
+        :id_str: '1255752033233141763'
+        :indices:
+        - 48
+        - 60
+      - :screen_name: zyadaahorahahai
+        :name: "\U0001F9E9 Dr.Snow ❄️"
+        :id: 1467133235930955776
+        :id_str: '1467133235930955776'
+        :indices:
+        - 61
+        - 77
+      - :screen_name: satyanewshi
+        :name: সত্যাণ্বেষী
+        :id: 1467517559373107203
+        :id_str: '1467517559373107203'
+        :indices:
+        - 78
+        - 90
+      :urls: []
+    :metadata:
+      :iso_language_code: en
+      :result_type: recent
+    :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+      for Android</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 1351821232686067713
+      :id_str: '1351821232686067713'
+      :name: "Bohemian Hapsody \U0001F1F8\U0001F1FB\U0001F1F5\U0001F1F9\U0001F1FB\U0001F1EA\U0001F1F3\U0001F1EC\U0001F1E8\U0001F1FA\U0001F1E8\U0001F1ED\U0001F1F1\U0001F1E6\U0001F1E7\U0001F1FB"
+      :screen_name: HappuSurma
+      :location: Location
+      :description: |-
+        তাজী বোররাক আর উচ্চৈঃশ্রবা বাহন আমার
+        হিম্মত-হ্রেষা হেঁকে চলে!
+      :url: 
+      :entities:
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 602
+      :friends_count: 710
+      :listed_count: 0
+      :created_at: Wed Jan 20 09:18:02 +0000 2021
+      :favourites_count: 31447
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 8592
+      :lang: 
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: F5F8FA
+      :profile_background_image_url: 
+      :profile_background_image_url_https: 
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/1493627372465451009/gl2SF_MY_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/1493627372465451009/gl2SF_MY_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/1351821232686067713/1643495531
+      :profile_link_color: 1DA1F2
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: '333333'
+      :profile_use_background_image: true
+      :has_extended_profile: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :translator_type: none
+      :withheld_in_countries: []
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 1
+    :favorite_count: 4
+    :favorited: false
+    :retweeted: false
+    :lang: en
+  :is_quote_status: false
+  :retweet_count: 1
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "RT @HappuSurma: #Wordle\nWordle 246 4/6\n⬛⬛\U0001F7E8\U0001F7E8⬛\n⬛⬛⬛\U0001F7E8⬛\n\U0001F7E8⬛\U0001F7E8\U0001F7E9\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n@arpan_ubach
+        @zyadaahorahahai @satyanewshi"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1423512165332307970
+          :id_str: '1423512165332307970'
+          :name: Shahnawaz Alam
+          :screen_name: Shahnaw35903361
+          :location: ''
+          :description: Bechalor of commerce and business and mamta Banerjee suppoters
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 517
+          :friends_count: 1007
+          :listed_count: 0
+          :created_at: Fri Aug 06 05:12:32 +0000 2021
+          :favourites_count: 17155
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 14542
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1423559798004412416/ZGV127dt_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1423559798004412416/ZGV127dt_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1423512165332307970/1628238026
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Sat Feb 19 18:57:08 +0000 2022
+            :id: 1495110220359503872
+            :id_str: '1495110220359503872'
+            :text: "RT @HappuSurma: #Wordle\nWordle 246 4/6\n⬛⬛\U0001F7E8\U0001F7E8⬛\n⬛⬛⬛\U0001F7E8⬛\n\U0001F7E8⬛\U0001F7E8\U0001F7E9\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n@arpan_ubach
+              @zyadaahorahahai @satyanewshi"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :retweeted_status: *5
+            :is_quote_status: false
+            :retweet_count: 1
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Shahnaw35903361
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1495110220359503872
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

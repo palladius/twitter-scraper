@@ -1,0 +1,178 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:09:14 +0000 2022
+  :id: 1494584780339490863
+  :id_str: '1494584780339490863'
+  :text: "Wordle 244 5/6\n\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛⬛⬛⬛⬛\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E8⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#Wordle
+    is like Jeopardy. Some days you feel like a genius; some days you feel like a
+    dope."
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 47
+      - 54
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 25516424
+    :id_str: '25516424'
+    :name: Kevin  Edward
+    :screen_name: kevin_edward
+    :location: WNY
+    :description: I write. I eat. I teach. I eat. I play poker. I eat. I act. I eat.
+      I bike (slowly). For some reason, I have trouble losing weight. http://t.co/yVehqkvp
+    :url: 
+    :entities: &1
+      :description:
+        :urls:
+        - :url: http://t.co/yVehqkvp
+          :expanded_url: http://kedward.wordpress.com
+          :display_url: kedward.wordpress.com
+          :indices:
+          - 131
+          - 151
+    :protected: false
+    :followers_count: 163
+    :friends_count: 501
+    :listed_count: 5
+    :created_at: Fri Mar 20 15:00:53 +0000 2009
+    :favourites_count: 3020
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 2964
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '022330'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme15/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme15/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/407287045/kte_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/407287045/kte_normal.jpg
+    :profile_link_color: '0084B4'
+    :profile_sidebar_border_color: A8C7F7
+    :profile_sidebar_fill_color: C0DFEC
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 1
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 5/6\n\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛⬛⬛⬛⬛\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E8⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#Wordle
+        is like Jeopardy. Some days you feel like a genius; some days you feel like
+        a dope."
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 25516424
+          :id_str: '25516424'
+          :name: Kevin  Edward
+          :screen_name: kevin_edward
+          :location: WNY
+          :description: I write. I eat. I teach. I eat. I play poker. I eat. I act.
+            I eat. I bike (slowly). For some reason, I have trouble losing weight.
+            http://t.co/yVehqkvp
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 163
+          :friends_count: 501
+          :listed_count: 5
+          :created_at: Fri Mar 20 15:00:53 +0000 2009
+          :favourites_count: 3020
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 2964
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '022330'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme15/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme15/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/407287045/kte_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/407287045/kte_normal.jpg
+          :profile_link_color: '0084B4'
+          :profile_sidebar_border_color: A8C7F7
+          :profile_sidebar_fill_color: C0DFEC
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:09:14 +0000 2022
+            :id: 1494584780339490863
+            :id_str: '1494584780339490863'
+            :text: "Wordle 244 5/6\n\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛⬛⬛⬛⬛\n⬛\U0001F7E9⬛⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E8⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#Wordle
+              is like Jeopardy. Some days you feel like a genius; some days you feel
+              like a dope."
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 1
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: kevin_edward
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494584780339490863
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

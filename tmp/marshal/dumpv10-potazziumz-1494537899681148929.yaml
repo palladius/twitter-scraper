@@ -1,0 +1,196 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 05:02:57 +0000 2022
+  :id: 1494537899681148929
+  :id_str: '1494537899681148929'
+  :text: "Wordle 244 3/6\n\n⬜\U0001F7E8⬜⬜⬜\n\U0001F7E8\U0001F7E9⬜⬜\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+    ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/PQDAawwir9\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle5… https://t.co/mcRo4QL6Z8"
+  :truncated: true
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 90
+      - 97
+    - :text: Wordle5
+      :indices:
+      - 98
+      - 106
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/PQDAawwir9
+      :expanded_url: https://wordle.wekele.com
+      :display_url: wordle.wekele.com
+      :indices:
+      - 50
+      - 73
+    - :url: https://t.co/mcRo4QL6Z8
+      :expanded_url: https://twitter.com/i/web/status/1494537899681148929
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 108
+      - 131
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1018190860935036928
+    :id_str: '1018190860935036928'
+    :name: erenn
+    :screen_name: potazziumz
+    :location: "↑♡"
+    :description: "@dgurechaff’s servant"
+    :url: https://t.co/bqSYfDIBZu
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/bqSYfDIBZu
+          :expanded_url: https://secreto.site/14826410
+          :display_url: secreto.site/14826410
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 339
+    :friends_count: 310
+    :listed_count: 15
+    :created_at: Sat Jul 14 17:49:53 +0000 2018
+    :favourites_count: 79791
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 131036
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1312453539214454784/VlKMBjBs_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1312453539214454784/VlKMBjBs_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1018190860935036928/1638332649
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 3/6\n\n⬜\U0001F7E8⬜⬜⬜\n\U0001F7E8\U0001F7E9⬜⬜\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+        ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/PQDAawwir9\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle5…
+        https://t.co/mcRo4QL6Z8"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1018190860935036928
+          :id_str: '1018190860935036928'
+          :name: erenn
+          :screen_name: potazziumz
+          :location: "↑♡"
+          :description: "@dgurechaff’s servant"
+          :url: https://t.co/bqSYfDIBZu
+          :entities: *1
+          :protected: false
+          :followers_count: 339
+          :friends_count: 310
+          :listed_count: 15
+          :created_at: Sat Jul 14 17:49:53 +0000 2018
+          :favourites_count: 79791
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 131036
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1312453539214454784/VlKMBjBs_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1312453539214454784/VlKMBjBs_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1018190860935036928/1638332649
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 05:02:57 +0000 2022
+            :id: 1494537899681148929
+            :id_str: '1494537899681148929'
+            :text: "Wordle 244 3/6\n\n⬜\U0001F7E8⬜⬜⬜\n\U0001F7E8\U0001F7E9⬜⬜\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+              ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/PQDAawwir9\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle #Wordle5…
+              https://t.co/mcRo4QL6Z8"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: potazziumz
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494537899681148929
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

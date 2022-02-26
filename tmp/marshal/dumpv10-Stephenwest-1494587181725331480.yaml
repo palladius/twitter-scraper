@@ -1,0 +1,171 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:18:46 +0000 2022
+  :id: 1494587181725331480
+  :id_str: '1494587181725331480'
+  :text: "Wordle 244 6/6\n\n⬛⬛⬛\U0001F7E8⬛\n⬛\U0001F7E8⬛\U0001F7E8⬛\n\U0001F7E8⬛\U0001F7E8⬛⬛\n⬛⬛\U0001F7E8⬛\U0001F7E9\n⬛\U0001F7E9⬛\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n\U0001F62C"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 16432948
+    :id_str: '16432948'
+    :name: Stephen West
+    :screen_name: Stephenwest
+    :location: London
+    :description: Aviation, tech, finance, music, fitness and nutrition. Eu estou
+      aprendendo português
+    :url: https://t.co/Ip13e7zTet
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/Ip13e7zTet
+          :expanded_url: http://www.StephenWest.net
+          :display_url: StephenWest.net
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 1769
+    :friends_count: 2358
+    :listed_count: 42
+    :created_at: Wed Sep 24 10:58:02 +0000 2008
+    :favourites_count: 249420
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 34634
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: C6E2EE
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme2/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme2/bg.gif
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1469999326428647425/1Sm3ncIL_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1469999326428647425/1Sm3ncIL_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/16432948/1639310316
+    :profile_link_color: 1F98C7
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: DAECF4
+    :profile_text_color: 663B12
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 6/6\n\n⬛⬛⬛\U0001F7E8⬛\n⬛\U0001F7E8⬛\U0001F7E8⬛\n\U0001F7E8⬛\U0001F7E8⬛⬛\n⬛⬛\U0001F7E8⬛\U0001F7E9\n⬛\U0001F7E9⬛\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n\U0001F62C"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 16432948
+          :id_str: '16432948'
+          :name: Stephen West
+          :screen_name: Stephenwest
+          :location: London
+          :description: Aviation, tech, finance, music, fitness and nutrition. Eu
+            estou aprendendo português
+          :url: https://t.co/Ip13e7zTet
+          :entities: *1
+          :protected: false
+          :followers_count: 1769
+          :friends_count: 2358
+          :listed_count: 42
+          :created_at: Wed Sep 24 10:58:02 +0000 2008
+          :favourites_count: 249420
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 34634
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: C6E2EE
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme2/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme2/bg.gif
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1469999326428647425/1Sm3ncIL_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1469999326428647425/1Sm3ncIL_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/16432948/1639310316
+          :profile_link_color: 1F98C7
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: DAECF4
+          :profile_text_color: 663B12
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:18:46 +0000 2022
+            :id: 1494587181725331480
+            :id_str: '1494587181725331480'
+            :text: "Wordle 244 6/6\n\n⬛⬛⬛\U0001F7E8⬛\n⬛\U0001F7E8⬛\U0001F7E8⬛\n\U0001F7E8⬛\U0001F7E8⬛⬛\n⬛⬛\U0001F7E8⬛\U0001F7E9\n⬛\U0001F7E9⬛\U0001F7E9\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n\U0001F62C"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Stephenwest
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494587181725331480
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

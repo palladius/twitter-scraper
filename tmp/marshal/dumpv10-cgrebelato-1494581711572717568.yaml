@@ -1,0 +1,169 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:57:02 +0000 2022
+  :id: 1494581711572717568
+  :id_str: '1494581711572717568'
+  :text: "joguei https://t.co/sk3z44xqOR #47 4/6\n\n⬛\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E8⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/sk3z44xqOR
+      :expanded_url: http://term.ooo
+      :display_url: term.ooo
+      :indices:
+      - 7
+      - 30
+  :metadata: &4
+    :iso_language_code: pt
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1108347278681653248
+    :id_str: '1108347278681653248'
+    :name: aventureirah
+    :screen_name: cgrebelato
+    :location: ''
+    :description: paz amor e muita sacanagem
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 268
+    :friends_count: 409
+    :listed_count: 0
+    :created_at: Wed Mar 20 12:39:18 +0000 2019
+    :favourites_count: 13465
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 6253
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1350611015176761344/MYyYYZ-t_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1350611015176761344/MYyYYZ-t_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1108347278681653248/1595733982
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: pt
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "joguei https://t.co/sk3z44xqOR #47 4/6\n\n⬛\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E8⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1108347278681653248
+          :id_str: '1108347278681653248'
+          :name: aventureirah
+          :screen_name: cgrebelato
+          :location: ''
+          :description: paz amor e muita sacanagem
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 268
+          :friends_count: 409
+          :listed_count: 0
+          :created_at: Wed Mar 20 12:39:18 +0000 2019
+          :favourites_count: 13465
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 6253
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1350611015176761344/MYyYYZ-t_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1350611015176761344/MYyYYZ-t_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1108347278681653248/1595733982
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:57:02 +0000 2022
+            :id: 1494581711572717568
+            :id_str: '1494581711572717568'
+            :text: "joguei https://t.co/sk3z44xqOR #47 4/6\n\n⬛\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E8⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: pt
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: cgrebelato
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494581711572717568
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

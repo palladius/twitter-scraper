@@ -1,0 +1,258 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:14:56 +0000 2022
+  :id: 1494586216444014603
+  :id_str: '1494586216444014603'
+  :text: "RT @Gresham2x: Wordle 242 X/6\n\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛\U0001F7E9\n\nWe
+    getting better"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: Gresham2x
+      :name: BON
+      :id: 1111778712603820033
+      :id_str: '1111778712603820033'
+      :indices:
+      - 3
+      - 13
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 20446834
+    :id_str: '20446834'
+    :name: louis bhose, enjoyer of tweets
+    :screen_name: louisbhose
+    :location: ol' smokey!!!
+    :description: lil director boi. he/him.
+    :url: https://t.co/clqebMEB6g
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/clqebMEB6g
+          :expanded_url: http://www.louisbhose.com
+          :display_url: louisbhose.com
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 2640
+    :friends_count: 1156
+    :listed_count: 24
+    :created_at: Mon Feb 09 16:40:16 +0000 2009
+    :favourites_count: 11859
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 12616
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: BADFCD
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/950323813727789057/vVTzSfwQ_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/950323813727789057/vVTzSfwQ_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/20446834/1459349125
+    :profile_link_color: AB9C9C
+    :profile_sidebar_border_color: F2E195
+    :profile_sidebar_fill_color: FFF7CC
+    :profile_text_color: 0C3E53
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :retweeted_status: &5
+    :created_at: Wed Feb 16 15:29:20 +0000 2022
+    :id: 1493970760783777803
+    :id_str: '1493970760783777803'
+    :text: "Wordle 242 X/6\n\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛\U0001F7E9\n\nWe
+      getting better"
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls: []
+    :metadata:
+      :iso_language_code: en
+      :result_type: recent
+    :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+      iPhone</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 1111778712603820033
+      :id_str: '1111778712603820033'
+      :name: BON
+      :screen_name: Gresham2x
+      :location: '205'
+      :description: thank you
+      :url: 
+      :entities:
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 18987
+      :friends_count: 607
+      :listed_count: 25
+      :created_at: Fri Mar 29 23:54:35 +0000 2019
+      :favourites_count: 27392
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 33518
+      :lang: 
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: F5F8FA
+      :profile_background_image_url: 
+      :profile_background_image_url_https: 
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/1286445572795305990/SPf0WZuT_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/1286445572795305990/SPf0WZuT_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/1111778712603820033/1609873478
+      :profile_link_color: 1DA1F2
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: '333333'
+      :profile_use_background_image: true
+      :has_extended_profile: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :translator_type: none
+      :withheld_in_countries: []
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 6370
+    :favorite_count: 122582
+    :favorited: false
+    :retweeted: false
+    :lang: en
+  :is_quote_status: false
+  :retweet_count: 6370
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "RT @Gresham2x: Wordle 242 X/6\n\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛\U0001F7E9\n\nWe
+        getting better"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 20446834
+          :id_str: '20446834'
+          :name: louis bhose, enjoyer of tweets
+          :screen_name: louisbhose
+          :location: ol' smokey!!!
+          :description: lil director boi. he/him.
+          :url: https://t.co/clqebMEB6g
+          :entities: *1
+          :protected: false
+          :followers_count: 2640
+          :friends_count: 1156
+          :listed_count: 24
+          :created_at: Mon Feb 09 16:40:16 +0000 2009
+          :favourites_count: 11859
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 12616
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: BADFCD
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/950323813727789057/vVTzSfwQ_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/950323813727789057/vVTzSfwQ_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/20446834/1459349125
+          :profile_link_color: AB9C9C
+          :profile_sidebar_border_color: F2E195
+          :profile_sidebar_fill_color: FFF7CC
+          :profile_text_color: 0C3E53
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:14:56 +0000 2022
+            :id: 1494586216444014603
+            :id_str: '1494586216444014603'
+            :text: "RT @Gresham2x: Wordle 242 X/6\n\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛⬛\n⬛⬛⬛⬛\U0001F7E9\n\nWe
+              getting better"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :retweeted_status: *5
+            :is_quote_status: false
+            :retweet_count: 6370
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: louisbhose
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494586216444014603
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

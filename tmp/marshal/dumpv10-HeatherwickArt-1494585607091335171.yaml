@@ -1,0 +1,297 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:12:31 +0000 2022
+  :id: 1494585607091335171
+  :id_str: '1494585607091335171'
+  :text: "RT @paultendo: Wordle 244 3/6\n\n⬛⬛⬛⬛⬛\n\U0001F7E9\U0001F7E9⬛\U0001F7E9⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#Wordle
+    @HeatherwickArt \U0001F929"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 50
+      - 57
+    :symbols: []
+    :user_mentions:
+    - :screen_name: paultendo
+      :name: Paul Wood (PW)
+      :id: 20035232
+      :id_str: '20035232'
+      :indices:
+      - 3
+      - 13
+    - :screen_name: HeatherwickArt
+      :name: Sarah Heatherwick
+      :id: 1369413032938455049
+      :id_str: '1369413032938455049'
+      :indices:
+      - 58
+      - 73
+    :urls: []
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1369413032938455049
+    :id_str: '1369413032938455049'
+    :name: Sarah Heatherwick
+    :screen_name: HeatherwickArt
+    :location: Cheadle, England
+    :description: "Portrait Artist *Commissions open*. Neighbours, psychedelic rock
+      and painting enthusiast \U0001F60A| https://t.co/jGYF8tGw3I | #ArtistOnTwitter"
+    :url: https://t.co/TmpPyKYdBl
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/TmpPyKYdBl
+          :expanded_url: https://www.sarahheatherwick.com
+          :display_url: sarahheatherwick.com
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls:
+        - :url: https://t.co/jGYF8tGw3I
+          :expanded_url: https://www.facebook.com/ArtBySarahHeatherwick
+          :display_url: facebook.com/ArtBySarahHeat…
+          :indices:
+          - 92
+          - 115
+    :protected: false
+    :followers_count: 1059
+    :friends_count: 854
+    :listed_count: 4
+    :created_at: Tue Mar 09 22:21:36 +0000 2021
+    :favourites_count: 925
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 202
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1396740403668389892/KjZbDWE0_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1396740403668389892/KjZbDWE0_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1369413032938455049/1625500013
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :retweeted_status: &5
+    :created_at: Fri Feb 18 00:41:50 +0000 2022
+    :id: 1494472189927694341
+    :id_str: '1494472189927694341'
+    :text: "Wordle 244 3/6\n\n⬛⬛⬛⬛⬛\n\U0001F7E9\U0001F7E9⬛\U0001F7E9⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#Wordle
+      @HeatherwickArt \U0001F929"
+    :truncated: false
+    :entities:
+      :hashtags:
+      - :text: Wordle
+        :indices:
+        - 35
+        - 42
+      :symbols: []
+      :user_mentions:
+      - :screen_name: HeatherwickArt
+        :name: Sarah Heatherwick
+        :id: 1369413032938455049
+        :id_str: '1369413032938455049'
+        :indices:
+        - 43
+        - 58
+      :urls: []
+    :metadata:
+      :iso_language_code: en
+      :result_type: recent
+    :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+      iPhone</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 20035232
+      :id_str: '20035232'
+      :name: Paul Wood (PW)
+      :screen_name: paultendo
+      :location: Manchester, England
+      :description: Co-founder of C-PAID - helping people get what is rightfully theirs
+        on a No Win No Fee basis. Tech enthusiast. YNWA. $LIT
+      :url: https://t.co/Ql1pffkS9c
+      :entities:
+        :url:
+          :urls:
+          - :url: https://t.co/Ql1pffkS9c
+            :expanded_url: http://cpaid.co.uk
+            :display_url: cpaid.co.uk
+            :indices:
+            - 0
+            - 23
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 358
+      :friends_count: 145
+      :listed_count: 7
+      :created_at: Wed Feb 04 07:58:38 +0000 2009
+      :favourites_count: 543
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 1308
+      :lang: 
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: '000000'
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme9/bg.gif
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme9/bg.gif
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/1478101284276293640/TLitVd4Z_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/1478101284276293640/TLitVd4Z_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/20035232/1641241632
+      :profile_link_color: 1B95E0
+      :profile_sidebar_border_color: FFFFFF
+      :profile_sidebar_fill_color: '262626'
+      :profile_text_color: '858585'
+      :profile_use_background_image: true
+      :has_extended_profile: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :translator_type: none
+      :withheld_in_countries: []
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 1
+    :favorite_count: 1
+    :favorited: false
+    :retweeted: false
+    :lang: en
+  :is_quote_status: false
+  :retweet_count: 1
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "RT @paultendo: Wordle 244 3/6\n\n⬛⬛⬛⬛⬛\n\U0001F7E9\U0001F7E9⬛\U0001F7E9⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#Wordle
+        @HeatherwickArt \U0001F929"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1369413032938455049
+          :id_str: '1369413032938455049'
+          :name: Sarah Heatherwick
+          :screen_name: HeatherwickArt
+          :location: Cheadle, England
+          :description: "Portrait Artist *Commissions open*. Neighbours, psychedelic
+            rock and painting enthusiast \U0001F60A| https://t.co/jGYF8tGw3I | #ArtistOnTwitter"
+          :url: https://t.co/TmpPyKYdBl
+          :entities: *1
+          :protected: false
+          :followers_count: 1059
+          :friends_count: 854
+          :listed_count: 4
+          :created_at: Tue Mar 09 22:21:36 +0000 2021
+          :favourites_count: 925
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 202
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1396740403668389892/KjZbDWE0_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1396740403668389892/KjZbDWE0_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1369413032938455049/1625500013
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:12:31 +0000 2022
+            :id: 1494585607091335171
+            :id_str: '1494585607091335171'
+            :text: "RT @paultendo: Wordle 244 3/6\n\n⬛⬛⬛⬛⬛\n\U0001F7E9\U0001F7E9⬛\U0001F7E9⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n#Wordle
+              @HeatherwickArt \U0001F929"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :retweeted_status: *5
+            :is_quote_status: false
+            :retweet_count: 1
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: HeatherwickArt
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494585607091335171
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

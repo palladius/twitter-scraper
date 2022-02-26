@@ -1,0 +1,192 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:12:00 +0000 2022
+  :id: 1494585477416038422
+  :id_str: '1494585477416038422'
+  :text: "Le Mot (@WordleFR) #40 4/6\n\n⬛\U0001F7E8⬛\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/nCa46fukUL"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 8
+      - 17
+    :urls:
+    - :url: https://t.co/nCa46fukUL
+      :expanded_url: http://wordle.louan.me
+      :display_url: wordle.louan.me
+      :indices:
+      - 53
+      - 76
+  :metadata: &4
+    :iso_language_code: fr
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 1494283874775580676
+  :in_reply_to_status_id_str: '1494283874775580676'
+  :in_reply_to_user_id: 2196645917
+  :in_reply_to_user_id_str: '2196645917'
+  :in_reply_to_screen_name: Blo__ndie
+  :user:
+    :id: 2196645917
+    :id_str: '2196645917'
+    :name: "\U0001F3F3️‍\U0001F308\U0001F3F3‍⚧Vlondie\U0001F3F3‍⚧\U0001F3F3️‍\U0001F308"
+    :screen_name: Blo__ndie
+    :location: Tarbean, La Mancomunidad
+    :description: |-
+      A veces hago gracia, soy friki y gilipollas.
+      Si no te gusta lo que tuiteo, ahí está la puerta.
+      Escribo sin puntos finales porque me da la gana.
+      Vieja gloria
+    :url: https://t.co/K5lp9DwRoa
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/K5lp9DwRoa
+          :expanded_url: https://twitter.com/Blo__ndie/status/674546103409377280
+          :display_url: twitter.com/Blo__ndie/stat…
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 1679
+    :friends_count: 291
+    :listed_count: 72
+    :created_at: Tue Nov 26 09:50:21 +0000 2013
+    :favourites_count: 692857
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 237706
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: true
+    :profile_background_color: '131516'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme14/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme14/bg.gif
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1474841927812096004/OLeNzzXp_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1474841927812096004/OLeNzzXp_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/2196645917/1582392102
+    :profile_link_color: '115500'
+    :profile_sidebar_border_color: EEEEEE
+    :profile_sidebar_fill_color: EFEFEF
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: regular
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 1
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: fr
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Le Mot (@WordleFR) #40 4/6\n\n⬛\U0001F7E8⬛\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/nCa46fukUL"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 2196645917
+          :id_str: '2196645917'
+          :name: "\U0001F3F3️‍\U0001F308\U0001F3F3‍⚧Vlondie\U0001F3F3‍⚧\U0001F3F3️‍\U0001F308"
+          :screen_name: Blo__ndie
+          :location: Tarbean, La Mancomunidad
+          :description: |-
+            A veces hago gracia, soy friki y gilipollas.
+            Si no te gusta lo que tuiteo, ahí está la puerta.
+            Escribo sin puntos finales porque me da la gana.
+            Vieja gloria
+          :url: https://t.co/K5lp9DwRoa
+          :entities: *1
+          :protected: false
+          :followers_count: 1679
+          :friends_count: 291
+          :listed_count: 72
+          :created_at: Tue Nov 26 09:50:21 +0000 2013
+          :favourites_count: 692857
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 237706
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: true
+          :profile_background_color: '131516'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme14/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme14/bg.gif
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1474841927812096004/OLeNzzXp_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1474841927812096004/OLeNzzXp_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/2196645917/1582392102
+          :profile_link_color: '115500'
+          :profile_sidebar_border_color: EEEEEE
+          :profile_sidebar_fill_color: EFEFEF
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: regular
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:12:00 +0000 2022
+            :id: 1494585477416038422
+            :id_str: '1494585477416038422'
+            :text: "Le Mot (@WordleFR) #40 4/6\n\n⬛\U0001F7E8⬛\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/nCa46fukUL"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 1494283874775580676
+            :in_reply_to_status_id_str: '1494283874775580676'
+            :in_reply_to_user_id: 2196645917
+            :in_reply_to_user_id_str: '2196645917'
+            :in_reply_to_screen_name: Blo__ndie
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 1
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: fr
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Blo__ndie
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494585477416038422
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,190 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:44:40 +0000 2022
+  :id: 1494578598245769217
+  :id_str: '1494578598245769217'
+  :text: "Le Mot (@WordleFR) #40 6/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E8⬛⬛\U0001F7E9\n⬛⬛\U0001F7E9\U0001F7E8⬛\n⬛⬛\U0001F7E9⬛\U0001F7E9\n\U0001F7E9⬛\U0001F7E9\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/zuqjOO8O5E\n\nSUTOM
+    #42 3/6\n\n\U0001F7E5\U0001F7E1\U0001F7E6\U0001F7E1\U0001F7E6\U0001F7E6\U0001F7E5\U0001F7E5\n\U0001F7E5…
+    https://t.co/QeIXxzSS3C"
+  :truncated: true
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 8
+      - 17
+    :urls:
+    - :url: https://t.co/zuqjOO8O5E
+      :expanded_url: http://wordle.louan.me
+      :display_url: wordle.louan.me
+      :indices:
+      - 65
+      - 88
+    - :url: https://t.co/QeIXxzSS3C
+      :expanded_url: https://twitter.com/i/web/status/1494578598245769217
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 117
+      - 140
+  :metadata: &4
+    :iso_language_code: sv
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 937891272
+    :id_str: '937891272'
+    :name: Olivier D.L.
+    :screen_name: TwitODehel
+    :location: ''
+    :description: Membre du Bureau @La_MaisonJaune & gérant du pôle rédaction section
+      féminine. FC Nantes et équipes de France — Emiliano dans nos cœurs
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 664
+    :friends_count: 618
+    :listed_count: 19
+    :created_at: Fri Nov 09 22:32:39 +0000 2012
+    :favourites_count: 173165
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 29248
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '000000'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1464371635008462849/rVqe4dZi_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1464371635008462849/rVqe4dZi_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/937891272/1629558620
+    :profile_link_color: 19CF86
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: '000000'
+    :profile_text_color: '000000'
+    :profile_use_background_image: false
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: sv
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Le Mot (@WordleFR) #40 6/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E8⬛⬛\U0001F7E9\n⬛⬛\U0001F7E9\U0001F7E8⬛\n⬛⬛\U0001F7E9⬛\U0001F7E9\n\U0001F7E9⬛\U0001F7E9\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/zuqjOO8O5E\n\nSUTOM
+        #42 3/6\n\n\U0001F7E5\U0001F7E1\U0001F7E6\U0001F7E1\U0001F7E6\U0001F7E6\U0001F7E5\U0001F7E5\n\U0001F7E5…
+        https://t.co/QeIXxzSS3C"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 937891272
+          :id_str: '937891272'
+          :name: Olivier D.L.
+          :screen_name: TwitODehel
+          :location: ''
+          :description: Membre du Bureau @La_MaisonJaune & gérant du pôle rédaction
+            section féminine. FC Nantes et équipes de France — Emiliano dans nos cœurs
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 664
+          :friends_count: 618
+          :listed_count: 19
+          :created_at: Fri Nov 09 22:32:39 +0000 2012
+          :favourites_count: 173165
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 29248
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '000000'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1464371635008462849/rVqe4dZi_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1464371635008462849/rVqe4dZi_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/937891272/1629558620
+          :profile_link_color: 19CF86
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: '000000'
+          :profile_text_color: '000000'
+          :profile_use_background_image: false
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:44:40 +0000 2022
+            :id: 1494578598245769217
+            :id_str: '1494578598245769217'
+            :text: "Le Mot (@WordleFR) #40 6/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E8⬛⬛\U0001F7E9\n⬛⬛\U0001F7E9\U0001F7E8⬛\n⬛⬛\U0001F7E9⬛\U0001F7E9\n\U0001F7E9⬛\U0001F7E9\U0001F7E8\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/zuqjOO8O5E\n\nSUTOM
+              #42 3/6\n\n\U0001F7E5\U0001F7E1\U0001F7E6\U0001F7E1\U0001F7E6\U0001F7E6\U0001F7E5\U0001F7E5\n\U0001F7E5…
+              https://t.co/QeIXxzSS3C"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: sv
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: TwitODehel
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494578598245769217
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

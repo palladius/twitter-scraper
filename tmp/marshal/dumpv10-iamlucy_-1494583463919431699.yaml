@@ -1,0 +1,177 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:04:00 +0000 2022
+  :id: 1494583463919431699
+  :id_str: '1494583463919431699'
+  :text: "joguei https://t.co/D1ZC5OcI6I #47 3/6 *\n\n⬛\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E8\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/D1ZC5OcI6I
+      :expanded_url: http://term.ooo
+      :display_url: term.ooo
+      :indices:
+      - 7
+      - 30
+  :metadata: &4
+    :iso_language_code: pt
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 11648462
+    :id_str: '11648462'
+    :name: "ℓนcყ\U0001F33C"
+    :screen_name: iamlucy_
+    :location: 'Brazil '
+    :description: "80's child • INFP • randomness • \U0001F984\U0001F6F8♒"
+    :url: https://t.co/rnhP9zN3lM
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/rnhP9zN3lM
+          :expanded_url: http://aboutlucy.tumblr.com
+          :display_url: aboutlucy.tumblr.com
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 214
+    :friends_count: 187
+    :listed_count: 8
+    :created_at: Sun Dec 30 03:23:45 +0000 2007
+    :favourites_count: 7007
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 10416
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '999799'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme15/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme15/bg.png
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/378800000223660748/b475a87eb90dcc40b53b8a2b094771b8_normal.gif
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/378800000223660748/b475a87eb90dcc40b53b8a2b094771b8_normal.gif
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/11648462/1643020501
+    :profile_link_color: 00000E
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: C0DFEC
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: pt
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "joguei https://t.co/D1ZC5OcI6I #47 3/6 *\n\n⬛\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E8\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 11648462
+          :id_str: '11648462'
+          :name: "ℓนcყ\U0001F33C"
+          :screen_name: iamlucy_
+          :location: 'Brazil '
+          :description: "80's child • INFP • randomness • \U0001F984\U0001F6F8♒"
+          :url: https://t.co/rnhP9zN3lM
+          :entities: *1
+          :protected: false
+          :followers_count: 214
+          :friends_count: 187
+          :listed_count: 8
+          :created_at: Sun Dec 30 03:23:45 +0000 2007
+          :favourites_count: 7007
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 10416
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '999799'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme15/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme15/bg.png
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/378800000223660748/b475a87eb90dcc40b53b8a2b094771b8_normal.gif
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/378800000223660748/b475a87eb90dcc40b53b8a2b094771b8_normal.gif
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/11648462/1643020501
+          :profile_link_color: 00000E
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: C0DFEC
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:04:00 +0000 2022
+            :id: 1494583463919431699
+            :id_str: '1494583463919431699'
+            :text: "joguei https://t.co/D1ZC5OcI6I #47 3/6 *\n\n⬛\U0001F7E9⬛\U0001F7E8⬛\n\U0001F7E8\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: pt
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: iamlucy_
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494583463919431699
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

@@ -1,0 +1,177 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:55:09 +0000 2022
+  :id: 1494581235435384842
+  :id_str: '1494581235435384842'
+  :text: "joguei https://t.co/ppyfu0Mgyf #47 5/6 *\n\n\U0001F7E9\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E8⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/ppyfu0Mgyf
+      :expanded_url: http://term.ooo
+      :display_url: term.ooo
+      :indices:
+      - 7
+      - 30
+  :metadata: &4
+    :iso_language_code: pt
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1676341956
+    :id_str: '1676341956'
+    :name: "convey \U0001F483\U0001F3FE\U0001F9DC\U0001F3FD‍♀️"
+    :screen_name: hitorvolanda
+    :location: Belém, Brasil
+    :description: hills are hidden *:･ﾟ✧*:･ﾟ✧
+    :url: https://t.co/Np6R84wjDn
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/Np6R84wjDn
+          :expanded_url: http://instagram.com/vitorholand
+          :display_url: instagram.com/vitorholand
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 4563
+    :friends_count: 2439
+    :listed_count: 6
+    :created_at: Fri Aug 16 18:32:51 +0000 2013
+    :favourites_count: 33154
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 46616
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: FFFFFF
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1485232382525509635/6ZFew1aW_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1485232382525509635/6ZFew1aW_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1676341956/1642941969
+    :profile_link_color: 4F9656
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: regular
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: pt
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "joguei https://t.co/ppyfu0Mgyf #47 5/6 *\n\n\U0001F7E9\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E8⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1676341956
+          :id_str: '1676341956'
+          :name: "convey \U0001F483\U0001F3FE\U0001F9DC\U0001F3FD‍♀️"
+          :screen_name: hitorvolanda
+          :location: Belém, Brasil
+          :description: hills are hidden *:･ﾟ✧*:･ﾟ✧
+          :url: https://t.co/Np6R84wjDn
+          :entities: *1
+          :protected: false
+          :followers_count: 4563
+          :friends_count: 2439
+          :listed_count: 6
+          :created_at: Fri Aug 16 18:32:51 +0000 2013
+          :favourites_count: 33154
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 46616
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: FFFFFF
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1485232382525509635/6ZFew1aW_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1485232382525509635/6ZFew1aW_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1676341956/1642941969
+          :profile_link_color: 4F9656
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: regular
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:55:09 +0000 2022
+            :id: 1494581235435384842
+            :id_str: '1494581235435384842'
+            :text: "joguei https://t.co/ppyfu0Mgyf #47 5/6 *\n\n\U0001F7E9\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9⬛⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E8⬛⬛\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E8\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: pt
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: hitorvolanda
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494581235435384842
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

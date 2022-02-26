@@ -1,0 +1,187 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:53:31 +0000 2022
+  :id: 1494580827010838533
+  :id_str: '1494580827010838533'
+  :text: "Le Mot (@WordleFR) #40 4/6\n\n⬛\U0001F7E9\U0001F7E9⬛⬛\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E8\n\U0001F7E8\U0001F7E8⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/1x8iIL1d8V"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 8
+      - 17
+    :urls:
+    - :url: https://t.co/1x8iIL1d8V
+      :expanded_url: http://wordle.louan.me
+      :display_url: wordle.louan.me
+      :indices:
+      - 53
+      - 76
+  :metadata: &4
+    :iso_language_code: fr
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 1494580301821063183
+  :in_reply_to_status_id_str: '1494580301821063183'
+  :in_reply_to_user_id: 2351168600
+  :in_reply_to_user_id_str: '2351168600'
+  :in_reply_to_screen_name: AlphXLang
+  :user:
+    :id: 2351168600
+    :id_str: '2351168600'
+    :name: "FebROOary Alph is \U0001F998Neill Quintana Roo\U0001F998 \U0001F4893/2"
+    :screen_name: AlphXLang
+    :location: Puebla, Mexico
+    :description: "\U0001F51E 1989/ @DynamiCatStudio & @AnimaFXIntl Fursuiter/Suit
+      performer/Language nerd/Bi\n\U0001F496: @MokkoriYoshiPon\n\U0001F4E3: \U0001F1F2\U0001F1FD\U0001F3F4\U000E0067\U000E0062\U000E0065\U000E006E\U000E0067\U000E007F\U0001F1EB\U0001F1F7\U0001F1E9\U0001F1EA\U0001F1F9\U0001F1FC"
+    :url: https://t.co/LAKON5aUiJ
+    :entities: &1
+      :url:
+        :urls:
+        - :url: https://t.co/LAKON5aUiJ
+          :expanded_url: http://www.furaffinity.net/user/XavierAlphLang
+          :display_url: furaffinity.net/user/XavierAlp…
+          :indices:
+          - 0
+          - 23
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 3024
+    :friends_count: 2075
+    :listed_count: 9
+    :created_at: Wed Feb 19 05:18:39 +0000 2014
+    :favourites_count: 106905
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: true
+    :verified: false
+    :statuses_count: 21613
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: '000000'
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1492617677592055815/CWf8cFkq_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1492617677592055815/CWf8cFkq_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/2351168600/1585634701
+    :profile_link_color: 7FDBB6
+    :profile_sidebar_border_color: '000000'
+    :profile_sidebar_fill_color: '000000'
+    :profile_text_color: '000000'
+    :profile_use_background_image: false
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: fr
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Le Mot (@WordleFR) #40 4/6\n\n⬛\U0001F7E9\U0001F7E9⬛⬛\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E8\n\U0001F7E8\U0001F7E8⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/1x8iIL1d8V"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 2351168600
+          :id_str: '2351168600'
+          :name: "FebROOary Alph is \U0001F998Neill Quintana Roo\U0001F998 \U0001F4893/2"
+          :screen_name: AlphXLang
+          :location: Puebla, Mexico
+          :description: "\U0001F51E 1989/ @DynamiCatStudio & @AnimaFXIntl Fursuiter/Suit
+            performer/Language nerd/Bi\n\U0001F496: @MokkoriYoshiPon\n\U0001F4E3:
+            \U0001F1F2\U0001F1FD\U0001F3F4\U000E0067\U000E0062\U000E0065\U000E006E\U000E0067\U000E007F\U0001F1EB\U0001F1F7\U0001F1E9\U0001F1EA\U0001F1F9\U0001F1FC"
+          :url: https://t.co/LAKON5aUiJ
+          :entities: *1
+          :protected: false
+          :followers_count: 3024
+          :friends_count: 2075
+          :listed_count: 9
+          :created_at: Wed Feb 19 05:18:39 +0000 2014
+          :favourites_count: 106905
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: true
+          :verified: false
+          :statuses_count: 21613
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: '000000'
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1492617677592055815/CWf8cFkq_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1492617677592055815/CWf8cFkq_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/2351168600/1585634701
+          :profile_link_color: 7FDBB6
+          :profile_sidebar_border_color: '000000'
+          :profile_sidebar_fill_color: '000000'
+          :profile_text_color: '000000'
+          :profile_use_background_image: false
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:53:31 +0000 2022
+            :id: 1494580827010838533
+            :id_str: '1494580827010838533'
+            :text: "Le Mot (@WordleFR) #40 4/6\n\n⬛\U0001F7E9\U0001F7E9⬛⬛\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E8\n\U0001F7E8\U0001F7E8⬛\U0001F7E8⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/1x8iIL1d8V"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 1494580301821063183
+            :in_reply_to_status_id_str: '1494580301821063183'
+            :in_reply_to_user_id: 2351168600
+            :in_reply_to_user_id_str: '2351168600'
+            :in_reply_to_screen_name: AlphXLang
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: fr
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: AlphXLang
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494580827010838533
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

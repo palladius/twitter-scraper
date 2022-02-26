@@ -1,0 +1,186 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 06:48:36 +0000 2022
+  :id: 1494564487839498240
+  :id_str: '1494564487839498240'
+  :text: "Wordle 244 5/6\n\n\U0001F7E8⬜⬜⬜⬜\n⬜\U0001F7E8⬜⬜⬜\n⬜⬜\U0001F7E9⬜⬜\n⬜\U0001F7E9\U0001F7E9\U0001F7E8⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+    ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/rFkrrGrdnn\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle… https://t.co/JWzG2kN0MV"
+  :truncated: true
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 102
+      - 109
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/rFkrrGrdnn
+      :expanded_url: https://wordle.wekele.com
+      :display_url: wordle.wekele.com
+      :indices:
+      - 62
+      - 85
+    - :url: https://t.co/JWzG2kN0MV
+      :expanded_url: https://twitter.com/i/web/status/1494564487839498240
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 111
+      - 134
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 327217141
+    :id_str: '327217141'
+    :name: Eva Talbott
+    :screen_name: Eva_Talbott
+    :location: Ewing, MO
+    :description: |-
+      Writer, reader, fiber artist. She/her/hers.
+      Actively writing a book of poetry and short essays. Passively writing a 'how to do it effectively' manual.
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 107
+    :friends_count: 465
+    :listed_count: 0
+    :created_at: Fri Jul 01 05:38:10 +0000 2011
+    :favourites_count: 11232
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 3374
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: 8B9A9C
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/468929439737204736/hg2OEGwR_normal.jpeg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/468929439737204736/hg2OEGwR_normal.jpeg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/327217141/1400636874
+    :profile_link_color: 000DFF
+    :profile_sidebar_border_color: 86A4A6
+    :profile_sidebar_fill_color: A0C5C7
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Wordle 244 5/6\n\n\U0001F7E8⬜⬜⬜⬜\n⬜\U0001F7E8⬜⬜⬜\n⬜⬜\U0001F7E9⬜⬜\n⬜\U0001F7E9\U0001F7E9\U0001F7E8⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+        ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/rFkrrGrdnn\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle… https://t.co/JWzG2kN0MV"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 327217141
+          :id_str: '327217141'
+          :name: Eva Talbott
+          :screen_name: Eva_Talbott
+          :location: Ewing, MO
+          :description: |-
+            Writer, reader, fiber artist. She/her/hers.
+            Actively writing a book of poetry and short essays. Passively writing a 'how to do it effectively' manual.
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 107
+          :friends_count: 465
+          :listed_count: 0
+          :created_at: Fri Jul 01 05:38:10 +0000 2011
+          :favourites_count: 11232
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 3374
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: 8B9A9C
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/468929439737204736/hg2OEGwR_normal.jpeg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/468929439737204736/hg2OEGwR_normal.jpeg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/327217141/1400636874
+          :profile_link_color: 000DFF
+          :profile_sidebar_border_color: 86A4A6
+          :profile_sidebar_fill_color: A0C5C7
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 06:48:36 +0000 2022
+            :id: 1494564487839498240
+            :id_str: '1494564487839498240'
+            :text: "Wordle 244 5/6\n\n\U0001F7E8⬜⬜⬜⬜\n⬜\U0001F7E8⬜⬜⬜\n⬜⬜\U0001F7E9⬜⬜\n⬜\U0001F7E9\U0001F7E9\U0001F7E8⬜\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n⬇️
+              ⬇️ ⬇️ ⬇️ ⬇️\nhttps://t.co/rFkrrGrdnn\n⬆️ ⬆️ ⬆️ ⬆️ ⬆️\n\n#Wordle… https://t.co/JWzG2kN0MV"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Eva_Talbott
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494564487839498240
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

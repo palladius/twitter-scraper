@@ -1,0 +1,190 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 06:54:34 +0000 2022
+  :id: 1494565990872633352
+  :id_str: '1494565990872633352'
+  :text: "joguei https://t.co/Ckzi9lJreI #47 5/6\n\n⬛\U0001F7E8⬛⬛\U0001F7E8\n\U0001F7E8⬛⬛⬛\U0001F7E8\n⬛\U0001F7E9\U0001F7E8⬛⬛\n\U0001F7E8\U0001F7E9⬛\U0001F7E9⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n043
+    (3/6) @MeuLetreco \n\n\U0001F7E5\U0001F7E5\U0001F7E8\U0001F7E8\U0001F7E8\n\U0001F7E8\U0001F7E9\U0001F7E5\U0001F7E9\U0001F7E5\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nj…
+    https://t.co/3zXJboHhvY"
+  :truncated: true
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: MeuLetreco
+      :name: Letreco
+      :id: 1478877251060080643
+      :id_str: '1478877251060080643'
+      :indices:
+      - 81
+      - 92
+    :urls:
+    - :url: https://t.co/Ckzi9lJreI
+      :expanded_url: http://term.ooo
+      :display_url: term.ooo
+      :indices:
+      - 7
+      - 30
+    - :url: https://t.co/3zXJboHhvY
+      :expanded_url: https://twitter.com/i/web/status/1494565990872633352
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 117
+      - 140
+  :metadata: &4
+    :iso_language_code: pt
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 1494565989371072545
+  :in_reply_to_status_id_str: '1494565989371072545'
+  :in_reply_to_user_id: 1224848752575418370
+  :in_reply_to_user_id_str: '1224848752575418370'
+  :in_reply_to_screen_name: O_Sandina
+  :user:
+    :id: 1224848752575418370
+    :id_str: '1224848752575418370'
+    :name: Pat Morri, tá?!
+    :screen_name: O_Sandina
+    :location: República cooptada.
+    :description: "editoria, análise, indicações e muito mais?\ndsclp, não trabalho
+      aqui :)\n \U0001F3F4\U0001F6A9"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 279
+    :friends_count: 680
+    :listed_count: 0
+    :created_at: Wed Feb 05 00:14:46 +0000 2020
+    :favourites_count: 13015
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 8598
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1493571046372524035/mj2KJiAU_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1493571046372524035/mj2KJiAU_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1224848752575418370/1632298488
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: pt
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "joguei https://t.co/Ckzi9lJreI #47 5/6\n\n⬛\U0001F7E8⬛⬛\U0001F7E8\n\U0001F7E8⬛⬛⬛\U0001F7E8\n⬛\U0001F7E9\U0001F7E8⬛⬛\n\U0001F7E8\U0001F7E9⬛\U0001F7E9⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n043
+        (3/6) @MeuLetreco \n\n\U0001F7E5\U0001F7E5\U0001F7E8\U0001F7E8\U0001F7E8\n\U0001F7E8\U0001F7E9\U0001F7E5\U0001F7E9\U0001F7E5\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nj…
+        https://t.co/3zXJboHhvY"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1224848752575418370
+          :id_str: '1224848752575418370'
+          :name: Pat Morri, tá?!
+          :screen_name: O_Sandina
+          :location: República cooptada.
+          :description: "editoria, análise, indicações e muito mais?\ndsclp, não trabalho
+            aqui :)\n \U0001F3F4\U0001F6A9"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 279
+          :friends_count: 680
+          :listed_count: 0
+          :created_at: Wed Feb 05 00:14:46 +0000 2020
+          :favourites_count: 13015
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 8598
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1493571046372524035/mj2KJiAU_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1493571046372524035/mj2KJiAU_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1224848752575418370/1632298488
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 06:54:34 +0000 2022
+            :id: 1494565990872633352
+            :id_str: '1494565990872633352'
+            :text: "joguei https://t.co/Ckzi9lJreI #47 5/6\n\n⬛\U0001F7E8⬛⬛\U0001F7E8\n\U0001F7E8⬛⬛⬛\U0001F7E8\n⬛\U0001F7E9\U0001F7E8⬛⬛\n\U0001F7E8\U0001F7E9⬛\U0001F7E9⬛\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\n043
+              (3/6) @MeuLetreco \n\n\U0001F7E5\U0001F7E5\U0001F7E8\U0001F7E8\U0001F7E8\n\U0001F7E8\U0001F7E9\U0001F7E5\U0001F7E9\U0001F7E5\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nj…
+              https://t.co/3zXJboHhvY"
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 1494565989371072545
+            :in_reply_to_status_id_str: '1494565989371072545'
+            :in_reply_to_user_id: 1224848752575418370
+            :in_reply_to_user_id_str: '1224848752575418370'
+            :in_reply_to_screen_name: O_Sandina
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: pt
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: O_Sandina
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494565990872633352
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

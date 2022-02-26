@@ -1,0 +1,185 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 08:04:58 +0000 2022
+  :id: 1494583707163897866
+  :id_str: '1494583707163897866'
+  :text: |-
+    Looks like I'm not the only one wgo forgets about the double letters is possible.
+    #Wordle #Wordle244
+    Wordle 244 5/6… https://t.co/czCjZDgTC5
+  :truncated: true
+  :entities: &3
+    :hashtags:
+    - :text: Wordle
+      :indices:
+      - 82
+      - 89
+    - :text: Wordle244
+      :indices:
+      - 90
+      - 100
+    :symbols: []
+    :user_mentions: []
+    :urls:
+    - :url: https://t.co/czCjZDgTC5
+      :expanded_url: https://twitter.com/i/web/status/1494583707163897866
+      :display_url: twitter.com/i/web/status/1…
+      :indices:
+      - 117
+      - 140
+  :metadata: &4
+    :iso_language_code: en
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 1318197889
+    :id_str: '1318197889'
+    :name: Christina
+    :screen_name: NinaaCald
+    :location: Be Nice To People ✌
+    :description: A little geordie lass trying to survive in this wild wild world.
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 343
+    :friends_count: 1125
+    :listed_count: 3
+    :created_at: Sun Mar 31 11:16:36 +0000 2013
+    :favourites_count: 14928
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 24956
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: ACDED6
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme18/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme18/bg.gif
+    :profile_background_tile: true
+    :profile_image_url: http://pbs.twimg.com/profile_images/1487533640363950097/1ahltu9X_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1487533640363950097/1ahltu9X_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1318197889/1557167070
+    :profile_link_color: 1B95E0
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: F6F6F6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :lang: en
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: |-
+        Looks like I'm not the only one wgo forgets about the double letters is possible.
+        #Wordle #Wordle244
+        Wordle 244 5/6… https://t.co/czCjZDgTC5
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1318197889
+          :id_str: '1318197889'
+          :name: Christina
+          :screen_name: NinaaCald
+          :location: Be Nice To People ✌
+          :description: A little geordie lass trying to survive in this wild wild
+            world.
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 343
+          :friends_count: 1125
+          :listed_count: 3
+          :created_at: Sun Mar 31 11:16:36 +0000 2013
+          :favourites_count: 14928
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 24956
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: ACDED6
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme18/bg.gif
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme18/bg.gif
+          :profile_background_tile: true
+          :profile_image_url: http://pbs.twimg.com/profile_images/1487533640363950097/1ahltu9X_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1487533640363950097/1ahltu9X_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1318197889/1557167070
+          :profile_link_color: 1B95E0
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: F6F6F6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 08:04:58 +0000 2022
+            :id: 1494583707163897866
+            :id_str: '1494583707163897866'
+            :text: |-
+              Looks like I'm not the only one wgo forgets about the double letters is possible.
+              #Wordle #Wordle244
+              Wordle 244 5/6… https://t.co/czCjZDgTC5
+            :truncated: true
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+              for Android</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :lang: en
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: NinaaCald
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494583707163897866
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

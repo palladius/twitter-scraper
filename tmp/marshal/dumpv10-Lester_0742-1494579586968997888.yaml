@@ -1,0 +1,177 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:48:36 +0000 2022
+  :id: 1494579586968997888
+  :id_str: '1494579586968997888'
+  :text: "Le Mot (@WordleFR) #40 5/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E8⬛\U0001F7E8\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/TmWKOG1oAs"
+  :truncated: false
+  :entities: &3
+    :hashtags: []
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 8
+      - 17
+    :urls:
+    - :url: https://t.co/TmWKOG1oAs
+      :expanded_url: http://wordle.louan.me
+      :display_url: wordle.louan.me
+      :indices:
+      - 59
+      - 82
+  :metadata: &4
+    :iso_language_code: fr
+    :result_type: recent
+  :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>
+  :in_reply_to_status_id: 
+  :in_reply_to_status_id_str: 
+  :in_reply_to_user_id: 
+  :in_reply_to_user_id_str: 
+  :in_reply_to_screen_name: 
+  :user:
+    :id: 213314462
+    :id_str: '213314462'
+    :name: Laurent Thelonious
+    :screen_name: Lester_0742
+    :location: ''
+    :description: Coltrane, Cassavetes, Bashung, l'Italie, Pialat, les linguine al
+      pesto et le vautour fauve au-dessus des Causses.
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 368
+    :friends_count: 1056
+    :listed_count: 14
+    :created_at: Mon Nov 08 15:57:21 +0000 2010
+    :favourites_count: 15507
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 15428
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: 4A913C
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/994129689777180672/_HqvTiOw_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/994129689777180672/_HqvTiOw_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/213314462/1461268005
+    :profile_link_color: 9266CC
+    :profile_sidebar_border_color: FFFFFF
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: false
+    :default_profile: false
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: fr
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Le Mot (@WordleFR) #40 5/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E8⬛\U0001F7E8\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/TmWKOG1oAs"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 213314462
+          :id_str: '213314462'
+          :name: Laurent Thelonious
+          :screen_name: Lester_0742
+          :location: ''
+          :description: Coltrane, Cassavetes, Bashung, l'Italie, Pialat, les linguine
+            al pesto et le vautour fauve au-dessus des Causses.
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 368
+          :friends_count: 1056
+          :listed_count: 14
+          :created_at: Mon Nov 08 15:57:21 +0000 2010
+          :favourites_count: 15507
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 15428
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: 4A913C
+          :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/994129689777180672/_HqvTiOw_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/994129689777180672/_HqvTiOw_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/213314462/1461268005
+          :profile_link_color: 9266CC
+          :profile_sidebar_border_color: FFFFFF
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: false
+          :default_profile: false
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:48:36 +0000 2022
+            :id: 1494579586968997888
+            :id_str: '1494579586968997888'
+            :text: "Le Mot (@WordleFR) #40 5/6\n\n⬛⬛⬛⬛\U0001F7E9\n⬛\U0001F7E8⬛\U0001F7E8\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/TmWKOG1oAs"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="https://mobile.twitter.com" rel="nofollow">Twitter Web
+              App</a>
+            :in_reply_to_status_id: 
+            :in_reply_to_status_id_str: 
+            :in_reply_to_user_id: 
+            :in_reply_to_user_id_str: 
+            :in_reply_to_screen_name: 
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: fr
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: Lester_0742
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494579586968997888
+    default_proc: 
+  monitor: !ruby/object:Monitor {}

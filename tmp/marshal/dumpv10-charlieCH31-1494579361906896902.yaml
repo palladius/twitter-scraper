@@ -1,0 +1,190 @@
+--- !ruby/object:Twitter::Tweet
+attrs:
+  :created_at: Fri Feb 18 07:47:42 +0000 2022
+  :id: 1494579361906896902
+  :id_str: '1494579361906896902'
+  :text: "Le Mot (@WordleFR) #40 5/6\n\n⬛\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E8⬛⬛\U0001F7E8\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/RkjzLxsAd9
+    \nDe justesse aussi\U0001F602 #WordleFR"
+  :truncated: false
+  :entities: &3
+    :hashtags:
+    - :text: WordleFR
+      :indices:
+      - 103
+      - 112
+    :symbols: []
+    :user_mentions:
+    - :screen_name: WordleFR
+      :name: Le Mot
+      :id: 1480029602105995267
+      :id_str: '1480029602105995267'
+      :indices:
+      - 8
+      - 17
+    :urls:
+    - :url: https://t.co/RkjzLxsAd9
+      :expanded_url: http://wordle.louan.me
+      :display_url: wordle.louan.me
+      :indices:
+      - 59
+      - 82
+  :metadata: &4
+    :iso_language_code: fr
+    :result_type: recent
+  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+    iPhone</a>
+  :in_reply_to_status_id: 1494578423305547792
+  :in_reply_to_status_id_str: '1494578423305547792'
+  :in_reply_to_user_id: 1177716883166044160
+  :in_reply_to_user_id_str: '1177716883166044160'
+  :in_reply_to_screen_name: charlieCH31
+  :user:
+    :id: 1177716883166044160
+    :id_str: '1177716883166044160'
+    :name: Véro
+    :screen_name: charlieCH31
+    :location: Quelque part au Saguenay
+    :description: "#Habs #Sags \U0001F3D2 Charlie\U0001F415#PtitCrisse Punk•Rock•Indie\U0001F918\U0001F3FC\U0001D468\U0001D48A\U0001D48F\U0001D494\U0001D48A
+      \U0001D497\U0001D482 \U0001D48D\U0001D482 \U0001D497\U0001D48A\U0001D486 \U0001D492\U0001D496\U0001D48A
+      \U0001D497\U0001D482~\U0001D471\U0001D486\U0001D482\U0001D48F \U0001D473\U0001D486\U0001D48D\U0001D490\U0001D496\U0001D491\U0001F90DFrançais•english•joual
+      #Esti"
+    :url: 
+    :entities: &1
+      :description:
+        :urls: []
+    :protected: false
+    :followers_count: 826
+    :friends_count: 1138
+    :listed_count: 1
+    :created_at: Fri Sep 27 22:50:21 +0000 2019
+    :favourites_count: 30786
+    :utc_offset: 
+    :time_zone: 
+    :geo_enabled: false
+    :verified: false
+    :statuses_count: 29068
+    :lang: 
+    :contributors_enabled: false
+    :is_translator: false
+    :is_translation_enabled: false
+    :profile_background_color: F5F8FA
+    :profile_background_image_url: 
+    :profile_background_image_url_https: 
+    :profile_background_tile: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/1228100191649136641/gjmpj2Xn_normal.jpg
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/1228100191649136641/gjmpj2Xn_normal.jpg
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/1177716883166044160/1608587046
+    :profile_link_color: 1DA1F2
+    :profile_sidebar_border_color: C0DEED
+    :profile_sidebar_fill_color: DDEEF6
+    :profile_text_color: '333333'
+    :profile_use_background_image: true
+    :has_extended_profile: true
+    :default_profile: true
+    :default_profile_image: false
+    :following: 
+    :follow_request_sent: 
+    :notifications: 
+    :translator_type: none
+    :withheld_in_countries: &2 []
+  :geo: 
+  :coordinates: 
+  :place: 
+  :contributors: 
+  :is_quote_status: false
+  :retweet_count: 0
+  :favorite_count: 0
+  :favorited: false
+  :retweeted: false
+  :possibly_sensitive: false
+  :lang: fr
+_memoized_method_cache: !ruby/object:Memoizable::Memory
+  memory: !ruby/object:ThreadSafe::Cache
+    backend:
+      :text: "Le Mot (@WordleFR) #40 5/6\n\n⬛\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E8⬛⬛\U0001F7E8\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/RkjzLxsAd9
+        \nDe justesse aussi\U0001F602 #WordleFR"
+      :user: !ruby/object:Twitter::User
+        attrs:
+          :id: 1177716883166044160
+          :id_str: '1177716883166044160'
+          :name: Véro
+          :screen_name: charlieCH31
+          :location: Quelque part au Saguenay
+          :description: "#Habs #Sags \U0001F3D2 Charlie\U0001F415#PtitCrisse Punk•Rock•Indie\U0001F918\U0001F3FC\U0001D468\U0001D48A\U0001D48F\U0001D494\U0001D48A
+            \U0001D497\U0001D482 \U0001D48D\U0001D482 \U0001D497\U0001D48A\U0001D486
+            \U0001D492\U0001D496\U0001D48A \U0001D497\U0001D482~\U0001D471\U0001D486\U0001D482\U0001D48F
+            \U0001D473\U0001D486\U0001D48D\U0001D490\U0001D496\U0001D491\U0001F90DFrançais•english•joual
+            #Esti"
+          :url: 
+          :entities: *1
+          :protected: false
+          :followers_count: 826
+          :friends_count: 1138
+          :listed_count: 1
+          :created_at: Fri Sep 27 22:50:21 +0000 2019
+          :favourites_count: 30786
+          :utc_offset: 
+          :time_zone: 
+          :geo_enabled: false
+          :verified: false
+          :statuses_count: 29068
+          :lang: 
+          :contributors_enabled: false
+          :is_translator: false
+          :is_translation_enabled: false
+          :profile_background_color: F5F8FA
+          :profile_background_image_url: 
+          :profile_background_image_url_https: 
+          :profile_background_tile: false
+          :profile_image_url: http://pbs.twimg.com/profile_images/1228100191649136641/gjmpj2Xn_normal.jpg
+          :profile_image_url_https: https://pbs.twimg.com/profile_images/1228100191649136641/gjmpj2Xn_normal.jpg
+          :profile_banner_url: https://pbs.twimg.com/profile_banners/1177716883166044160/1608587046
+          :profile_link_color: 1DA1F2
+          :profile_sidebar_border_color: C0DEED
+          :profile_sidebar_fill_color: DDEEF6
+          :profile_text_color: '333333'
+          :profile_use_background_image: true
+          :has_extended_profile: true
+          :default_profile: true
+          :default_profile_image: false
+          :following: 
+          :follow_request_sent: 
+          :notifications: 
+          :translator_type: none
+          :withheld_in_countries: *2
+          :status:
+            :created_at: Fri Feb 18 07:47:42 +0000 2022
+            :id: 1494579361906896902
+            :id_str: '1494579361906896902'
+            :text: "Le Mot (@WordleFR) #40 5/6\n\n⬛\U0001F7E8⬛⬛\U0001F7E9\n\U0001F7E8⬛⬛\U0001F7E8\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n⬛\U0001F7E9\U0001F7E9⬛\U0001F7E9\n\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\U0001F7E9\n\nhttps://t.co/RkjzLxsAd9
+              \nDe justesse aussi\U0001F602 #WordleFR"
+            :truncated: false
+            :entities: *3
+            :metadata: *4
+            :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+              for iPhone</a>
+            :in_reply_to_status_id: 1494578423305547792
+            :in_reply_to_status_id_str: '1494578423305547792'
+            :in_reply_to_user_id: 1177716883166044160
+            :in_reply_to_user_id_str: '1177716883166044160'
+            :in_reply_to_screen_name: charlieCH31
+            :geo: 
+            :coordinates: 
+            :place: 
+            :contributors: 
+            :is_quote_status: false
+            :retweet_count: 0
+            :favorite_count: 0
+            :favorited: false
+            :retweeted: false
+            :possibly_sensitive: false
+            :lang: fr
+        _memoized_method_cache: !ruby/object:Memoizable::Memory
+          memory: !ruby/object:ThreadSafe::Cache
+            backend:
+              :screen_name: charlieCH31
+            default_proc: 
+          monitor: !ruby/object:Monitor {}
+      :id: 1494579361906896902
+    default_proc: 
+  monitor: !ruby/object:Monitor {}
