@@ -32,17 +32,12 @@ class GamesController < ApplicationController
 
         @description = "[seed_by_search_term] Looking for #{@n_tweets} tweets matching #Wordle hashtag: ;;#{ @search_term};; [DEB=#{ @debug}]"
 
-        # intermediate_search_term = ENV.fetch 'SEARCH_ONLY_FOR', nil 
-        # search_terms = intermediate_search_term.nil? ?
-        #   $search_terms :               # Global thingy
-        #   [ intermediate_search_term]   # local if you provide $SEARCH_ONLY_FOR
-        # puts "Searching for these keywords: #{azure search_terms.join(', ')}"
-        # search_terms.each do |search_term|
         ret = Tweet.seed_by_calling_twitter_apis(
             @search_term,  
             @n_tweets, 
             {
               :description => 'DIRECT (non-delayed) call from GamesController',
+              :source => 'GamesController',
               :debug => @debug ,
             }
         )

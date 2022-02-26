@@ -79,6 +79,7 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
     marshal_on_file = opts.fetch :marshal_on_file, false
     debug = opts.fetch :debug, true
     description = opts.fetch :description, "Descriptio infeliciter non datur"
+    source = opts.fetch :source, ""
 
    # $search_terms.each do |search_term|
       puts "[🐦 API_CALL] Searching for N=#{white search_count} for term '#{azure search_term}'.. Description: '#{white description}'"
@@ -146,6 +147,7 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
               twitter_retweet_count:  (tweet.retweet_count rescue nil),
               # POLYMOPRH_END
               code_description: description,
+              source: source rescue nil,
 
               hostname: @@hostname.split('.')[0]
           } # I know - but it helps with commas :)
@@ -185,6 +187,7 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
           :saved_users => n_saved_users,
           :called_tweets => n_called_tweets,
           :search_term => search_term,
+          :source => source,
       }
   end
 
