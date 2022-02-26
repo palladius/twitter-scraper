@@ -39,6 +39,7 @@ module LoadFromTwitter
         puts :todo1
     end
 
+    # invoke_seeding_from_concern() is called firectly by wrapper: `seed_by_calling_twitter_apis`
     def invoke_seeding_from_concern(search_key, search_count, opts={})
         description = opts.fetch :description, "CLASS(ricc): do this asynchronously. Probabluy with> Tweet.delay.seed_by_calling_twitter_apis(...) "
         twittersecret_api_key = opts.fetch :twittersecret_api_key,    ENV['TWITTER_CONSUMER_KEY']
@@ -178,6 +179,7 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
           :unsaved_tweets => n_unsaved_tweets,
           :saved_users => n_saved_users,
           :called_tweets => n_called_tweets,
+          :search_term => search_term,
       }
   end
 

@@ -35,9 +35,9 @@ docker-push: docker-build
 #      --add-cloudsql-instances PROJECT_ID:REGION:INSTANCE_NAME \
 #--image gcr.io/PROJECT_ID/twitter-scraper \
 
-deploy-to-cloud-run: docker-push
+deploy-to-cloud-run-prod: docker-push
 	./deploy-to-cloud-run.sh
-deploy-staging-to-cloud-run: docker-push
+deploy-to-cloud-run-staging: docker-push
 	./deploy-staging-to-cloud-run.sh
 
 test-build-push-deploy:

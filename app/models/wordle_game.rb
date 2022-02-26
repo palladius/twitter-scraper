@@ -114,8 +114,7 @@ irb(main):004:0> wg.memoized_flag
         #return @max_date
 #        return nil
         puts(red "This is WRONG TODO(ricc): calculate correctly in optized way.")
-        wordle_tweets.first.tweet.twitter_created_at.to_date       
-
+        wordle_tweets.first.tweet.twitter_created_at.to_date
     end
 
 

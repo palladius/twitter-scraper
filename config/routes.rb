@@ -7,7 +7,10 @@ Rails.application.routes.draw do
   resources :posts
 
   # creato a manhouse da ricc..
-  resources :games
+
+  get "/games/actions/seed_all", to: "games#action_seed_all"
+  get "/games/actions/seed_by_search_term", to: "games#action_seed_by_search_term"
+  #  resources :games
 
   get "/articles", to: "articles#index"
   get "/articles/stats", to: "articles#stats"
