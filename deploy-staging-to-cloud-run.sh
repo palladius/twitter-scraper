@@ -18,6 +18,8 @@ echodo gcloud run deploy twitter-scraper-staging \
      --set-env-vars="STAGING_DATABASE_URL=$STAGING_DATABASE_URL" \
      --set-env-vars="PROD_DATABASE_URL=$STAGING_DATABASE_URL" \
      --set-env-vars="APP_VERSION=$VERSION" \
+     --set-env-vars="TWITTER_CONSUMER_KEY=$TWITTER_CONSUMER_KEY" \
+     --set-env-vars="TWITTER_CONSUMER_SECRET=$TWITTER_CONSUMER_SECRET" \
      --set-env-vars="APP_LOCATION=GCP CloudRun on $PROJECT_ID [STAGING]" \
      --platform managed \
      --region europe-west1 \

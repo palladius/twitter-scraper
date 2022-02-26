@@ -19,7 +19,7 @@ class GamesController < ApplicationController
         # code can work without those dependencies and we can slowly remove them
         # We just neeed to map/document correctly ALL ENV vars which become here QueryStrings :)
 
-        @n_tweets = params.fetch :n, 10
+        @n_tweets = (params.fetch :n_tweets, '10').to_i
         #@TODO
         @background = (params.fetch :background, false).to_s.downcase == "true" # to_bool
         @search_term = params.fetch :search_term, '@wordlefr'
