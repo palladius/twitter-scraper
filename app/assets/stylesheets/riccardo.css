@@ -98,3 +98,14 @@ padding: 5pt ;
   color: darkblue;
   text-emphasis-style: filled red;
 }
+
+.riccardo-warning {
+  background-color: #F4B400;
+}
+.riccardo-error {
+  background-color: pink;
+}
+.riccardo-notice {
+  background-color: rgb(221, 221, 221);
+  color: green;
+}

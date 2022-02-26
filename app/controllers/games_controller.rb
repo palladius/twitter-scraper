@@ -11,6 +11,7 @@ class GamesController < ApplicationController
         @results = Rails.application.load_seed
         @description = 'Seeding ALL search words. This might take some time..'
         flash[:error] = "Will take some time..."
+        flash.now[:notice] = "[TEST] We have exactly #{42} books available."
     end
 
     # curl http://localhost:3000/games/actions/seed_by_search_term
@@ -31,6 +32,7 @@ class GamesController < ApplicationController
 
         flash[:error] = "Some error in GamesController"
         flash[:warn] = "Some WARN in GamesController"
+        flash.now[:notice] = "[TEST] We have exactly #{42} books available."
 
         @description = "[seed_by_search_term] Looking for #{@n_tweets} tweets matching #Wordle hashtag: ;;#{ @search_term};; [DEB=#{ @debug}, @caller_id=#{@caller_id}]"
 

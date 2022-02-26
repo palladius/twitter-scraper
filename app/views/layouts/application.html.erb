@@ -13,7 +13,22 @@
 
   <body>
     <%= render :partial => "layouts/header"  %>
-    <p style="color: green"><%= notice %></p>
+    <% if notice  %>
+      <p class="warn warn-info riccardo-notice"><%= notice %></p>
+    <% end %>
+    <% if flash[:error]   %>
+      <p class="warn warn-info riccardo-error"><%=flash[:error] %></p>
+    <% end %>
+    <% if flash[:warn]   %>
+      <p class="warn warn-info riccardo-warning" ><%=flash[:warn] %></p>
+    <% end %>
+
+    <% flash.select{|type, msg| not type.in?(%w{ notice error warn })  }.each do |type, msg|     %>
+      <div class="alert alert-info riccardo-<%=type%>">
+        [<%= type %>]<%= msg %>
+      </div>
+    <% end %>
+
     <%= yield %>
     <%= render :partial => "layouts/footer"  %>
   </body>
