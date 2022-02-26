@@ -1,5 +1,9 @@
 # created with: rails g task db sbirciatina popola
 
+#require 'modules/module_name'
+require 'active_support/concern'
+
+
 def envputs(s)  puts "[#{Rails.env}] #{s}" end
 
 
@@ -158,6 +162,56 @@ namespace :db do
     envputs "Test002: stats ad mentulam"
     puts "+ WordleTweet.group(:wordle_type).count: ", WordleTweet.group(:wordle_type).count
     puts "+ null scores per caso? ",  WordleTweet.group(:score).count
+  end
+
+  desc "Unmarshal from files in tmp/marshal/"
+  task load_tweets_from_file:  :environment do
+    # needed to call the ****ing concern. Thanks DHH!
+    include LoadFromTwitter
+    # we need ENV since rake db:load_tweets_from_file has no argyments
+    debug = ENV.fetch('DEBUG', false).to_s == 'true'
+    
+    max_tweets = 10
+    ret = {}
+    # reset counters
+    n_unsaved_tweets = 0
+    n_called_tweets=0
+    n_saved_users=0
+    n_saved_tweets=0
+
+    path = File.expand_path('./tmp/marshal/')
+    dir = Dir.chdir(path)
+    puts 'pwd: ',  Dir.pwd if debug
+    files = Dir["#{path}/*.obj"]
+#    Tweet.connection 
+
+    files.first(max_tweets).each_with_index do |file,ix| 
+      puts "File #{ix}: #{file}" if debug
+      tweet = Marshal.load( File.open(file).read )
+      opts = {
+        :source => 'marshall file local',
+        :marshal_on_file => false, # do NOT change this or you get recursion!
+        :debug => debug ,
+        :description => "For the first time I build Rails objects based on serialized twitter data. This is HUGE! Allows me to test with fresh real data without using Twitter API",     
+      }
+      #puts Tweet.first
+      if tweet.is_a?(Twitter::Tweet)
+        ret = Tweet.process_tweet_from_api_or_file(:file, tweet, opts) 
+        #puts ret
+        n_unsaved_tweets += ret[:n_unsaved_tweets]
+        n_called_tweets += ret[:n_called_tweets]
+        n_saved_users += ret[:n_saved_users]
+        n_saved_tweets += ret[:n_saved_tweets]
+      else
+        puts "[ERROR] Wrong class, wont process: #{tweet.class}"
+      end
+      
+      puts "- #{white ix} VALID=#{tweet.valid? rescue :boh} ret=#{ret} #{tweet}" if debug
+    end
+    # final 
+    puts ' -- ' 
+    puts "Final crunch: n_unsaved_tweets=#{n_unsaved_tweets} n_called_tweets=#{n_called_tweets} n_saved_users=#{n_saved_users} n_saved_tweets=#{n_saved_tweets}"
+
   end
 
 end
