@@ -96,3 +96,8 @@ docker-cleanup:
 	docker images | awk '{print "docker rmi " $1 ":" $2}'
 	echo Nuklear option: 
 	echo 'docker rmi $(docker images -q) -f'
+
+cloud-deploy-create-pipeine:
+	gcloud deploy apply --file clouddeploy.yaml --region=europe-west1
+create-release:
+	./release-to-cloud-deploy.sh
