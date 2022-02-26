@@ -7,13 +7,18 @@ class GamesController < ApplicationController
     # curl http://localhost:3000/games/actions/seed_all
     def action_seed_all
         @action = :seed_all
-        @results = :TODOSEED # Rails.application.load_seed
+        # calls rake db:seed so eberything works perfectly.
+        @results = Rails.application.load_seed
         @description = 'Seeding ALL search words. This might take some time..'
         flash[:error] = "Will take some time..."
     end
 
     # curl http://localhost:3000/games/actions/seed_by_search_term
     def action_seed_by_search_term
+        # calls manually the serach of a word: had to redefine a lot of $global variables in rake db:seed file, which is GOOD so now the
+        # code can work without those dependencies and we can slowly remove them
+        # We just neeed to map/document correctly ALL ENV vars which become here QueryStrings :)
+
         @n_tweets = params.fetch :n, 10
         #@TODO
         @background = (params.fetch :background, false).to_s.downcase == "true" # to_bool
