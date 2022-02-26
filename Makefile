@@ -89,3 +89,10 @@ boost-cloud-run:
 
 ridge-optimized-query:
 	cat ridge_sql.rb | RAILS_ENV=devpg rails c
+
+#
+docker-cleanup:
+	echo Riccardo fun solution: 
+	docker images | awk '{print "docker rmi " $1 ":" $2}'
+	echo Nuklear option: 
+	echo 'docker rmi $(docker images -q) -f'

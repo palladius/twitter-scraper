@@ -30,10 +30,15 @@ module LoadFromTwitter
     # def seed_by_calling_twitter_apis(search_key, search_count, opts={})
     #     puts red("not implenented yet 1")
     # end
+    @@common_header = "[#{white 'DB:SEED'}][#{yellow Rails.env.first(4)}] "
+    @@hostname =  Socket.gethostname.split('.')[0] rescue "hostname_error"
 
     #    TODO: private
     def self.db_seed_puts(str)
-        puts "[#{white :Tweet}][#{yellow Rails.env.first(5)}] #{common_header}#{str}"
+        puts "C[#{white :Tweet}][#{yellow Rails.env.first(5)}] #{@@common_header}#{str}"
+    end
+    def db_seed_puts(str)
+        puts "I[#{white :Tweet}][#{yellow Rails.env.first(5)}] #{@@common_header}#{str}"
     end
     def self.invoke_seeding_from_concern(search_key, search_count, opts={})
         puts :todo1
@@ -77,7 +82,7 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
 
    # $search_terms.each do |search_term|
       puts "[🐦 API_CALL] Searching for N=#{white search_count} for term '#{azure search_term}'.. Description: '#{white description}'"
-      puts azure("😟 I have the presentiment that something iffy might be happening: Lets make sure the $vars from rake db:seed are available also from Runner and other callers :) Lets see: $rake_seed_import_version=#{yellow $rake_seed_import_version}, $hostname=#{$hostname}")
+      puts azure("😟 I have the presentiment that something iffy might be happening: Lets make sure the $vars from rake db:seed are available also from Runner and other callers :) Lets see: $rake_seed_import_version=#{yellow $rake_seed_import_version}, hostname=#{ @@hostname }")
       n_saved_tweets = 0
       n_unsaved_tweets = 0
       n_saved_users = 0
@@ -142,7 +147,7 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
               # POLYMOPRH_END
               code_description: description,
 
-              hostname: $hostname.split('.')[0]
+              hostname: @@hostname.split('.')[0]
           } # I know - but it helps with commas :)
           rails_tweet = Tweet.create(
               twitter_user: TwitterUser.find_by_twitter_id(tweet.user.screen_name) ,
