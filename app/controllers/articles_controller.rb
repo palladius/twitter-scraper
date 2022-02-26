@@ -29,6 +29,11 @@ class ArticlesController < ApplicationController
     @last_games = WordleGame.all.first(10)
   end
 
+  def dialects
+    @wts_freshness = WordleTweet.group(:wordle_type).maximum(:created_at)
+#    flash[:warn] = "prova 1 2 3"
+  end
+
   def wordle
   end
 end

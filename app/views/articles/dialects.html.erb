@@ -66,14 +66,15 @@ TODO put here some graphs on dialects. Eg, average solution time by dialect
 
 <div id="table_div_dialett"></div>
 
-<h1>ServrSide Table</h1>
+<h1>ServerSide Table</h1>
+
 <table>
     <tr>
         <th>Name
         <th>Lang
         <th>URL
         <th>How many
-        <th>regexes
+        <th>Last element
 
 <% WORDLE_REGEXES.each do |wr| %>
     <tr>
@@ -85,7 +86,7 @@ TODO put here some graphs on dialects. Eg, average solution time by dialect
         <td><%= link_to wr[:url],wr[:url] rescue :boh %>
         <td><b><%= distribution_hash.fetch(wr[:return] , '-') rescue :boh %></b>        
         <td class="code" ><%= wr[:regexes] rescue :boh %>
-        <td  ><%#= wr rescue :boh %>
+        <td  ><%= time_ago_in_words @wts_freshness[wr[:return]] rescue '?' %>  
         
 <% end %>
 </table>
@@ -101,3 +102,4 @@ TODO put here some graphs on dialects. Eg, average solution time by dialect
 <pre><%= (distribution_hash.keys -  WORDLE_REGEXES.map{|x| x[:return] rescue nil })  %></pre>
 
 </p>
+

@@ -101,3 +101,7 @@ cloud-deploy-create-pipeine:
 	gcloud deploy apply --file clouddeploy.yaml --region=europe-west1
 create-release:
 	./release-to-cloud-deploy.sh
+
+run-delayed-jobs:
+	echo press CTRL-X when tired. Observer the /articles/status number go nicely down...
+	bin/delayed_jobs start

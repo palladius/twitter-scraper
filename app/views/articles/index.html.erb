@@ -15,6 +15,7 @@
 
 
 #WTweets per hour - volume
+
 <%= column_chart WordleTweet.group(:wordle_incremental_day).group_by_day(:created_at).count.select{|incremday_and_date, cardinality| cardinality > 50 } ,
       label: "Tweets per hour" , 
       download: true, 

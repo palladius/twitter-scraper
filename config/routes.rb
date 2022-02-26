@@ -18,8 +18,8 @@ Rails.application.routes.draw do
   %w{ stats wordle about dialects test }.each{|article_route| 
     # correct POLA path
     get "/articles/#{article_route}", to: "articles##{article_route}"
-    # nie to have path
-    get "/#{article_route}", to: "articles##{article_route}"
+    # nie to have path =  ma poi mi incasino!
+    #get "/#{article_route}", to: "articles##{article_route}"
   }
 
   # regenerate
