@@ -48,6 +48,12 @@ See it in prod:
        HTTP querystring param and it scares me a bit more.
      * link: https://console.cloud.google.com/cloudscheduler
 
+* Live updates. I've delved into it but DHH example in video is (awesome) depending on fact that update is on
+  comment which is  child of post. Would be too complicated to adapt to my 1:1 case (not 1:many) since I dont
+  have a cheap BIG subscription room (post 123) where all comments update stuff, I would have plenty of rooms
+  with a single element. I guess the next step is for me to implement a rails chat and once that is done I go
+  back to solving this problem. https://edgeguides.rubyonrails.org/action_cable_overview.html#terminology-broadcastings
+  
 ## Notes
 
 Created with my awesome `rails-app-scaffolder` code, soon open sourced if you ask me.
