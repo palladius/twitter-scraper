@@ -26,24 +26,11 @@
 
         chart.draw(data, options);
 
-        // setInterval(function() {
-        //   data.setValue(0, 1, 40 + Math.round(60 * Math.random()));
-        //   chart.draw(data, options);
-        // }, 13000);
-        // setInterval(function() {
-        //   data.setValue(1, 1, 40 + Math.round(60 * Math.random()));
-        //   chart.draw(data, options);
-        // }, 5000);
-        // setInterval(function() {
-        //   data.setValue(2, 1, 60 + Math.round(20 * Math.random()));
-        //   chart.draw(data, options);
-        // }, 26000);
       }
 </script>
 
-
 <div id="normale" >
-😉 articles/about.html 😉
+<!-- 😉 articles/about.html 😉 -->
 
 <h1>About Twitter Parser</h1>
 
@@ -58,7 +45,7 @@ inutile, la div intelligente e' ora nel partial..</div>
 <div class="ricc-metti-a-posto" >
 -->
 
-<p>I came up with the idea of parsing the whole internet a few years ago... but twitter gave me the assist with a beautifully parsable 
+<p>🟡 I came up with the idea of parsing the whole internet a few years ago... but twitter gave me the assist with a beautifully parsable 
 new moda: Wordle!</p>
 
 <p>
@@ -79,5 +66,14 @@ Freshness:<br/>
 </p>
 </div>
 
+<h2>DHH quick stuff</h2>
 
+<p>This might require Redis to go fast</p>
+
+    <%= render "wordle_tweets/last_ten", tweets: @last_tweets, :locals => {:sobenme => 41 } %>
+
+
+
+
+<!-- thgese are JS dashboards -->
 <div id="chart_div" style="width: 400px; height: 120px;"></div>

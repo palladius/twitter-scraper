@@ -27,6 +27,7 @@ class ArticlesController < ApplicationController
     # WordleTweet.group(:wordle_incremental_day).count.sort_by {|k,v| v}.reverse.first(10)
    # @last_games = WordleTweet.group(:wordle_incremental_day).count.sort_by {|k,v| v}.reverse.select{|k,v| not k.nil? }.first(10)
     @last_games = WordleGame.all.first(10)
+    @last_wteets = WordleTweet.last(10)
   end
 
   def dialects

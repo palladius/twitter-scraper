@@ -9,3 +9,7 @@ import "Chart.bundle"
 // credo altra robba
 import "trix"
 import "@rails/actiontext"
+
+// per render time_ago lato client
+import LocalTime from "local-time"
+LocalTime.start()

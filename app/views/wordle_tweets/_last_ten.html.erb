@@ -1,0 +1,19 @@
+<% 
+    # Variables: 
+    #- last_tweets
+
+#    DHH version wih cached time and super quick update: https://rubyonrails.org/
+# time is render AGO in client side vs server side
+# bin/importmap pin local-time
+%>
+<div class="ricc-tweets-top-right" >
+    <b style="color:red" >Last 10 WTweets</b><br/>
+    <% @last_wteets.first(3).each do |t| %>
+    <span class="small-top10-element" >
+        <%= link_to t.to_s(),t %> 
+        <i>(<%= time_ago_in_words(t.created_at) %> ago SS)</i>
+        Posted <%= time_tag t.created_at, "data-local": "time-ago" %> CS
+    </span>
+    <br/>
+    <% end %>
+</div>
