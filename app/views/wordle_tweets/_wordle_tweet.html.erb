@@ -1,61 +1,67 @@
 <!-- DHH lo mette nel SHOW -->
 <%= turbo_stream_from @wordle_tweet %>
-<% type ||= nil %>
+<% 
+  type ||= nil 
+  @wordle_tweet ||= nil 
+%>
+<% if @wordle_tweet.nil? %>
+  Unrecognized @wordle_tweet is nil.
+<% else %>
+  <div id="<%= dom_id @wordle_tweet %>">
+  <% if type == 'short' %>
+      <!-- SHORT type: typically used for short last top 10 rendering, eg _last_ten.html.erb -->
+      <span class="small-top10-element" >
+          <%= link_to @wordle_tweet.to_s(),@wordle_tweet %> 
+          <!-- <i>(<%#= time_ago_in_words(@wordle_tweet.created_at) %> ago SS)</i> -->
+          {Posted <%= time_tag @wordle_tweet.created_at, "data-local": "time-ago" %> CS}
+      </span>
+  <% elsif type == 'long'   %>
 
-<div id="<%= dom_id @wordle_tweet %>">
-<% if type == 'short' %>
-    <!-- SHORT type: typically used for short last top 10 rendering, eg _last_ten.html.erb -->
-    <span class="small-top10-element" >
-        <%= link_to @wordle_tweet.to_s(),@wordle_tweet %> 
-        <!-- <i>(<%#= time_ago_in_words(@wordle_tweet.created_at) %> ago SS)</i> -->
-        {Posted <%= time_tag @wordle_tweet.created_at, "data-local": "time-ago" %> CS}
-    </span>
-<% elsif type == 'long'   %>
+      <!-- LONG type: typically served from /wordle_tweets/1234 show.html.erb -->
+      <!-- TODO(ricc) this is a duplicate of tweets/_tweet.html.erb  -->
 
-    <!-- LONG type: typically served from /wordle_tweets/1234 show.html.erb -->
-    <!-- TODO(ricc) this is a duplicate of tweets/_tweet.html.erb  -->
+      <h2>1 WTweet #<%= @wordle_tweet.id %></h2>
 
-    <h2>1 WTweet #<%= @wordle_tweet.id %></h2>
+        <%= render "wordle_tweets/ricc_show", wordle_tweet: @wordle_tweet %>
 
-      <%= render "wordle_tweets/ricc_show", wordle_tweet: @wordle_tweet %>
+      <h2>2 Tweet #<%#= @wordle_tweet.tweet.id %></h2>
 
-    <h2>2 Tweet #<%#= @wordle_tweet.tweet.id %></h2>
-
-      <%= render "tweets/ricc_show", tweet: @wordle_tweet.tweet %>
+        <%= render "tweets/ricc_show", tweet: @wordle_tweet.tweet %>
 
 
 
-<% elsif type == 'tabular'   %>
-  <tr>
-    <td>
-      <small> 
-        <%= link_to "WT # #{@wordle_tweet.id}", @wordle_tweet %> <br/>
-        <%= link_to "T # #{@wordle_tweet.tweet_id}", @wordle_tweet.tweet %> 
-      </small>
-      <%#= link_to "Show Tweet #{tweet_id}", @wordle_tweet %> 
-    </td>
-    <td> <%= @wordle_tweet.import_version %> </td>
-    <td> <%= @wordle_tweet.nice_wordle_type %> </td>
-    <td> <%= @wordle_tweet.score %> </td>
-    <td> 
-      <%= render "micro_game" , wt: @wordle_tweet %>     
-    </td>
-    <td> <%= time_ago_in_words(@wordle_tweet.created_at) %> </td>
-    <td><%= @wordle_tweet.tweet %>  </td>    
-    <td> 
-      <%#= link_to "Tweet # #{@wordle_tweet.tweet_id}", Tweet.find(@wordle_tweet.tweet_id) %> 
-    </td>
+  <% elsif type == 'tabular'   %>
+    <tr>
+      <td>
+        <small> 
+          <%= link_to "WT # #{@wordle_tweet.id}", @wordle_tweet %> <br/>
+          <%= link_to "T # #{@wordle_tweet.tweet_id}", @wordle_tweet.tweet %> 
+        </small>
+        <%#= link_to "Show Tweet #{tweet_id}", @wordle_tweet %> 
+      </td>
+      <td> <%= @wordle_tweet.import_version %> </td>
+      <td> <%= @wordle_tweet.nice_wordle_type %> </td>
+      <td> <%= @wordle_tweet.score %> </td>
+      <td> 
+        <%= render "micro_game" , wt: @wordle_tweet %>     
+      </td>
+      <td> <%= time_ago_in_words(@wordle_tweet.created_at) %> </td>
+      <td><%= @wordle_tweet.tweet %>  </td>    
+      <td> 
+        <%#= link_to "Tweet # #{@wordle_tweet.tweet_id}", Tweet.find(@wordle_tweet.tweet_id) %> 
+      </td>
 
-        <!--
-    <td> <%= @wordle_tweet.wordle_date %> </td>
-    <td> <%= @wordle_tweet.import_version %> </td>
-    <td> <%= @wordle_tweet.tweet.to_s.size %> </td>
-    <td> <%= @wordle_tweet.max_tries %> </td>
-        -->
+          <!--
+      <td> <%= @wordle_tweet.wordle_date %> </td>
+      <td> <%= @wordle_tweet.import_version %> </td>
+      <td> <%= @wordle_tweet.tweet.to_s.size %> </td>
+      <td> <%= @wordle_tweet.max_tries %> </td>
+          -->
 
-  </tr>
-  
-<% else  %>
-  Unrecognized type. I only know short/long.
+    </tr>
+    
+  <% else  %>
+    Unrecognized type. I only know short/long.
+  <% end %>
+  </div>
 <% end %>
-</div>

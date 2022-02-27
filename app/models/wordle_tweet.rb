@@ -21,8 +21,17 @@ class WordleTweet < ApplicationRecord
   validates_presence_of :wordle_type, on: :create # added on 18feb20
 
 
+  ################################################################################
+  # TurboStreams
+  ################################################################################
   # DHH magic, when create WT it broadcaast this to its Tweet. Non so se abbia senso
-  broadcasts_to :tweet
+#  broadcasts_to :tweet
+  # copied from https://www.colby.so/posts/turbo-streams-on-rails
+  after_create_commit { broadcast_append_to('wordle_tweets') }
+  # todo manda anche all alista di ultimi tweets brazilians vs italiani...
+  # /TurboStreams
+  ################################################################################
+
   #broadcasts_to :user
 
   DAY_AND_SCORE_REGEX = /\d+ [123456X]\/6| 💀\/6/ # most people use this, eg "123 4/6" or "#123 X/6".
