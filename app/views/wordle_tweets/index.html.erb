@@ -18,7 +18,7 @@
 ]
 </p>
 
-<% if Rails.env.development? or Rails.env == "devpg"  %>
+<% if development? %>
 <div class="debug" >
   <p style="color:blue" class="debug" >
     Debug for Riccardo. You chose: <br/>
@@ -39,18 +39,19 @@
 </p>
 
 <h2>Wordle tweets (sbirciatina)</h2>
+
+<!-- Uso l'id figo per turbo-qualcosa... -->
+<%#= render partial: "wordle_tweet/wordle_tweet", collection: @wordle_tweets %>
+
 <div id="wordle_tweets">
   <% @wordle_tweets.each do |wt| 
       @wordle_tweet = wt
   %>
-      <%= render @wordle_tweet, :type => "short" %><br/>
-
+      <%= render @wordle_tweet, :type => "short" %>
   <% end %>
 </div>
 
 <h1>Wordle tweets (<%= @max_instances %>)</h1>
-
-<p>TODO refactor into tabular view. Dio mio, ma scrivi codice coi piedi Riccardo?</p>
 
 <div id="wordle_tweets2">
   <table border="1" >
@@ -61,44 +62,15 @@
     <th>Moves 
     <th>Inc Day 
     <th>When
-    <!--
-    <th>Version 
-    <th>Length 
-    -->
     <th>Excerpt 
    </tr>
-  <% @wordle_tweets.each do |wt| %>
-    <%#= render wordle_tweet %>
-    <tr>
-    <td><small> 
-      <%= link_to "WT # #{wt.id}", wt %> <br/>
-      <%= link_to "T # #{wt.tweet_id}", wt.tweet %> 
-    </small>
-      <%#= link_to "Show Tweet #{tweet_id}", wt %> 
-    </td>
-    <td> <%= wt.import_version %> </td>
-    <td> <%= wt.nice_wordle_type %> </td>
-    <td> <%= wt.score %> </td>
-    <td> 
-      <%= render "micro_game" , wt: wt %>     
-    </td>
-    <td> <%= time_ago_in_words(wt.created_at) %> </td>
-    <td><%= wt.tweet %>  </td>    
-    <td> 
-      <%#= link_to "Tweet # #{wt.tweet_id}", Tweet.find(wt.tweet_id) %> 
-    </td>
-
-        <!--
-    <td> <%= wt.wordle_date %> </td>
-    <td> <%= wt.import_version %> </td>
-    <td> <%= wt.tweet.to_s.size %> </td>
-    <td> <%= wt.max_tries %> </td>
-        -->
-
-   </tr>
+  <% @wordle_tweets.each do |wt| 
+      @wordle_tweet = wt
+  %>
+    <%= render @wordle_tweet,  :type => "tabular"  %>
   <% end %>
   </table>
 </div>
 
 
-<%= link_to "New wordle tweet", new_wordle_tweet_path %>
+<%= link_to "New wordle tweet", new_wordle_tweet_path if mutations_allowed? %>

@@ -13,8 +13,12 @@ class ApplicationController < ActionController::Base
     def deletions_allowed?
         Rails.env.in? %w{ development devpg test }
     end
+    def development? 
+        Rails.env.in? %w{ development devpg }
+    end
     helper_method :mutations_allowed?
     helper_method :deletions_allowed?
+    helper_method :development?
     helper_method :logged_in?
 
 end

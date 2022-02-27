@@ -20,6 +20,7 @@
 #wordle_tweets = WordleTweet.where(wordle_type:  params[:wordle_type])
 %>
 
+<!-- 
 <h2> 📊Graphs</h2>
 <p>
     Elements: <%= wordle_tweets.count rescue :boh %><br/>
@@ -28,7 +29,7 @@
     DEB wordle_tweets Count:  <%= wordle_tweets.count rescue "Error with wordle_tweets: #{$!}" %><br/>
 
 </p>
-
+-->
 <% if graphs.include? 'wordle_type' %>
 
     <h3>1. [WT=<%= wordle_type rescue '' %>] WordleTweet by Score</h3>
