@@ -20,6 +20,11 @@ class WordleTweet < ApplicationRecord
   validates_presence_of :score, on: :create
   validates_presence_of :wordle_type, on: :create # added on 18feb20
 
+
+  # DHH magic, when create WT it broadcaast this to its Tweet. Non so se abbia senso
+  broadcasts_to :tweet
+  #broadcasts_to :user
+
   DAY_AND_SCORE_REGEX = /\d+ [123456X]\/6| 💀\/6/ # most people use this, eg "123 4/6" or "#123 X/6".
   # Also wordle FR uses this for X: Le Mot (@WordleFR) #38 💀/6
   WORDLEGAME_LIST = %w{ spanish russian portuguese german italian kids english_uk }

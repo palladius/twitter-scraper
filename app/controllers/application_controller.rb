@@ -10,7 +10,11 @@ class ApplicationController < ActionController::Base
     def mutations_allowed?
         false
     end
+    def deletions_allowed?
+        Rails.env.in? %w{ development devpg test }
+    end
     helper_method :mutations_allowed?
+    helper_method :deletions_allowed?
     helper_method :logged_in?
 
 end

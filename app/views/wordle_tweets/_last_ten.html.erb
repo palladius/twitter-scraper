@@ -5,15 +5,18 @@
 #    DHH version wih cached time and super quick update: https://rubyonrails.org/
 # time is render AGO in client side vs server side
 # bin/importmap pin local-time
+
+# hotwire is 24min past. Subscription to TiurboScript
+
 %>
+
+
 <div class="ricc-tweets-top-right" >
     <b style="color:red" >Last 10 WTweets</b><br/>
-    <% @last_wteets.first(3).each do |t| %>
-    <span class="small-top10-element" >
-        <%= link_to t.to_s(),t %> 
-        <i>(<%= time_ago_in_words(t.created_at) %> ago SS)</i>
-        Posted <%= time_tag t.created_at, "data-local": "time-ago" %> CS
-    </span>
+    <% @last_wteets.first(3).each do |wt|
+         @wordle_tweet = wt # needed to render it
+    %>
+        <%= render @wordle_tweet , :type => "short" %>
     <br/>
     <% end %>
 </div>
