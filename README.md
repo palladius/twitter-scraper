@@ -46,6 +46,7 @@ See it in prod:
      * no GCF was hurt or damaged during this sdocumentary :) Just Clud Scheduler (basically a `cron * * * * * curl http://URL/dowload_all`)
      * The only part was adding Twitter API keys to prod/staging which should be a big deal froms ecurity perspective. The alternative is to pass it as
        HTTP querystring param and it scares me a bit more.
+     * link: https://console.cloud.google.com/cloudscheduler
 
 ## Notes
 
