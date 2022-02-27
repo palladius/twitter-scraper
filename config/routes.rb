@@ -36,5 +36,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # -  root "articles#index"
-  root "articles#about"
+#  root "articles#about"
+  root :to => redirect('/articles/about')
+
 end
