@@ -7,8 +7,8 @@
     <!-- SHORT type: typically used for short last top 10 rendering, eg _last_ten.html.erb -->
     <span class="small-top10-element" >
         <%= link_to @wordle_tweet.to_s(),@wordle_tweet %> 
-        <i>(<%= time_ago_in_words(@wordle_tweet.created_at) %> ago SS)</i>
-        Posted <%= time_tag @wordle_tweet.created_at, "data-local": "time-ago" %> CS
+        <!-- <i>(<%#= time_ago_in_words(@wordle_tweet.created_at) %> ago SS)</i> -->
+        {Posted <%= time_tag @wordle_tweet.created_at, "data-local": "time-ago" %> CS}
     </span>
 
 <% elsif type == 'long'   %>

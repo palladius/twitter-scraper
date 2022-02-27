@@ -38,10 +38,21 @@
 %>
 </p>
 
+<h2>Wordle tweets (sbirciatina)</h2>
+<div id="wordle_tweets">
+  <% @wordle_tweets.each do |wt| 
+      @wordle_tweet = wt
+  %>
+      <%= render @wordle_tweet, :type => "short" %><br/>
+
+  <% end %>
+</div>
 
 <h1>Wordle tweets (<%= @max_instances %>)</h1>
 
-<div id="wordle_tweets">
+<p>TODO refactor into tabular view. Dio mio, ma scrivi codice coi piedi Riccardo?</p>
+
+<div id="wordle_tweets2">
   <table border="1" >
    <tr>
     <th>Show
