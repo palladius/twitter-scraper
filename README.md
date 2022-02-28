@@ -1,6 +1,6 @@
 # README
 
-Welcome to `Teitter Scraper`
+Welcome to `Teitter 🔪 Scraper`
 
 Created by ricc with ricc's rails-app-scaffolder (also called `meta-scaffolder`).
 Config yaml here: rails-app-scaffolder-sample.yaml
