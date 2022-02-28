@@ -46,7 +46,7 @@ $search_terms = [
 #   # this works but produces TOO much and i dont know what it i
 #   #'🟩🟩🟩🟩🟩', # success
 #   # We keep this last
-  'Wordle',
+#  'Wordle',
 ]
 $async_wordle_search_terms = %w{ wordle wordlees wordleo #wordleparser }
 $marshal_on_file = (ENV["MARSHAL_TO_FILE"] =='true' || false ) rescue false

@@ -233,7 +233,10 @@ end
   # returns TWO things: matches and id of
   # TODO(ricc): messo parole che parsa meglio ma poi dila non parsa bene non so perche..
   def self.extended_wordle_match_type_old_ma_funge(text,
-    include_very_generic = false)
+    include_very_generic = false,
+    opts={})
+    # TODO(ricc): porta tutto in lib e rendilo BELLO cazzarola
+    # TODO include_very_generic = opts.fetch :include_very_generic, false
 
     # first obvious check - make sure it has a
 #    unless text.match?(/\d+ [123456X]\/6/i) or text.match?(/in [123456X]\/6 tries/i) or text.match?(/[6️⃣7️⃣3️⃣4️⃣]/i) 
@@ -284,8 +287,12 @@ end
     # I cant remember wha website was this.
     return :wg_german  if text.match?(/I guessed this German 5-letter word in .\/6 tries/)
     return :wg_german  if text.match?(/Ich habe dieses deutsche 5-Buchstaben Wort in .\/6 Versuchen/i)
+
     # This is better
     return :wordle_de  if text.match?(/wordle-spielen.de.*\d+/i) and text.match?(DAY_AND_SCORE_REGEX)
+    #6mal5.com 🇩🇪 391 5/6 This wont work anyway
+    return :wordle_de  if text.match?(/6mal5.com.*\d+/i) and text.match?(DAY_AND_SCORE_REGEX)
+    return :wordle_de  if text.match?(/by @dewordle/i) and text.match?(DAY_AND_SCORE_REGEX)
      
     return :lewdle     if text.match?(/Lewdle \d+/) and text.match?(DAY_AND_SCORE_REGEX)
 
@@ -314,7 +321,9 @@ end
 
     # multiple wordles: 4, 16, ..
     return :quordle if text.match?(/Quordle #\d+/) and text.match?(/[6️⃣7️⃣3️⃣4️⃣]/) and text.match?(FILE_GREEN_SQUARES_REGEX) # and 🟩🟩🟩🟩🟩
+    
     return :sedecordle if text.match?(/Daily sedecordle #\d+/)
+    return :sedecordle if text.match?(/#Daily#\d+.*sedecordle/)
     # multi page polymorphic scenario... 
     # wg_italian
     # wg_spanish

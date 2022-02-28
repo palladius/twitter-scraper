@@ -75,14 +75,15 @@ namespace :db do
     envputs " == WordleTweets ERRORS [new=#{bool}]=="
     n_errors = 0
     n_invalids = 0
+    envputs "[#{red :TODO}] Riccardo refactor this in app/models/concerns or some lib/ functionality - here non se po' vede' "
     WordleTweet.all.each { |wt|
       #bad_type = wt.wordle_type.to_s.in? ['', 'unknown_v2']
       unless wt.wordle_type.in?(WordleTweet.acceptable_types)
         envputs "[#{red :BAD1}] #{wt.flag} type='#{yellow  wt.wordle_type}' score=#{yellow wt.score} day='#{yellow wt.parse_incrementalday_from_text}' MagicInfo='#{yellow(wt.tweet.internal_stuff) rescue :nada}'"
         # make it printable: .gsub(/[^[:print:]]/,'.')
-        envputs "[#{red :BAD2}] TXT='#{white wt.tweet.printable_text }'"
+        envputs "[#{red :BAD2}] PRINTABLE_TXT='#{white wt.tweet.printable_text.gsub(' ','') }'"
         expected = wt.tweet.internal_stuff.match(/should be ([a-z_]+) \/\//)[1] rescue :error_parsing
-        envputs "[#{red :BAD3}] Should be #{green expected} but its '#{red wt.wordle_type }'"
+        envputs "[#{red :BAD3}] Should be #{green expected} but its '#{red wt.wordle_type }'" if expected != wt.wordle_type
         n_errors += 1
         wt.validate
         n_invalids += 1 unless wt.valid?

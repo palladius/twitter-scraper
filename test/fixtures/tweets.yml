@@ -483,6 +483,21 @@ sedecordle:
     🕐🕛
     http://sedecordle.com
     #sedecordle
+sedecordle2:
+  twitter_user: ricc
+  internal_stuff: type and day should be sedecordle // 5 // X on 2022-02-18 (manca la soluzione totale)
+  full_text: |
+    Daily #14
+    1️⃣3️⃣⬛2️⃣1️⃣
+    1️⃣9️⃣⬛2️⃣0️⃣
+    0️⃣5️⃣⬛1️⃣5️⃣
+    1️⃣6️⃣⬛1️⃣7️⃣
+    0️⃣6️⃣⬛0️⃣7️⃣
+    🟥🟥⬛0️⃣9️⃣
+    1️⃣0️⃣⬛1️⃣1️⃣
+    1️⃣8️⃣⬛1️⃣2️⃣
+    http://sedecordle.com
+    #sedecordle
 quordle_cheated:
   twitter_user: ricc
   internal_stuff: type and day should be Quordle // 25 // 4 on 2022-02-18 (totally cheated to extract this)
@@ -510,3 +525,22 @@ numbro:
     🟢🟢🟢🟢
     Numbro 52, 5/7
     https://kveez.com/en/numbro/
+
+wordlede:
+  twitter_user: ricc
+  internal_stuff: type and day should be wordle_de2 // 391 // 5 on 2022-02-27 
+  full_text: |
+    6mal5.com 🇩🇪 391 5/6
+
+    ⬜⬜⬜⬜🟨
+    ⬜🟨⬜⬜⬜
+    ⬜⬜⬜⬜🟨
+    🟨⬜🟩⬜⬜
+    🟩🟩🟩🟩🟩
+
+    by @dewordle
+    #twitterparser
+
+
+
+     

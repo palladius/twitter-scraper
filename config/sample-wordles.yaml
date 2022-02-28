@@ -1,0 +1,526 @@
+# TODO ricc refactor thes einto this format:
+wordles_to_be_tested: 
+
+  test-wordlept:
+    expected:
+      wordle_type: wordle_pt 
+      increasing_day: 40
+      result: 6 
+#      moves: 6 # its the default
+    full_text: |
+      joguei http://term.ooo #40 6/6
+        ⬛⬛⬛⬛🟨
+        🟨🟨⬛⬛⬛
+        ⬛⬛⬛🟩🟩
+        ⬛🟩⬛🟩🟩
+        ⬛🟩⬛🟩🟩
+        🟩🟩🟩🟩🟩
+      Never heard this word before.
+
+  wordleit:
+    expected:
+        wordle_type: wordle_it 
+        increasing_day: 237
+        result: 4
+#        day: 1970-01-01
+    full_text: |
+      Wordle (IT) 237 4/6
+
+      non male! Face savouring food
+
+      ⬛⬛⬛⬛🟨
+        🟨🟨⬛⬛⬛
+        ⬛⬛⬛🟩🟩
+        ⬛🟩⬛🟩🟩
+        ⬛🟩⬛🟩🟩
+        🟩🟩🟩🟩🟩
+
+      #WordleIT #WordleItaliano #Wordle237
+
+# parole1:
+#   twitter_user: one
+#   internal_stuff: type and day should be wordle_it // 275
+#   full_text: |
+#     I got the Italian Wordle (Parole) in 3 goes today!
+
+#     Par🇮🇹le 275 3/6
+
+#     ⬜🟩⬜⬜🟩
+#     ⬜🟩⬜🟨🟩
+#     🟩🟩🟩🟩🟩
+
+#     Took me 5 goes on original (English) Wordle
+# wordleit2:
+#   twitter_user: ita
+#   internal_stuff: type and day should be wg_italian // cHVudG8
+#   full_text: |
+#     guessed this Italian 5-letter word in 4/6 tries.
+#       🟨🟨⬛⬛⬛
+#       ⬛⬛⬛🟩🟩
+#       🟩🟩🟩🟩🟩
+#       Can you guess this word?
+#       https://wordlegame.org/wordle-in-italian?challenge=cHVudG8 https://wordlegame.org/wordle-in-italian
+
+#       #TwitterParser #wordle #parole #samesamebutdifferent (insegnamo al mio parser a parsare entrambi)
+
+# wordle:
+#   twitter_user: two
+#   import_version: 42
+#   internal_stuff: type and day should be wordle // 237
+#   import_notes: doesnt seem to work
+#   twitter_id: boh
+#   json_stuff: |
+#     {
+#         'boh' -> seems like json but its not
+#     }
+#   full_text: |
+#       Wordle 237 6/6
+
+#       ⬛🟨⬛⬛🟨
+#       🟨🟨⬛⬛⬛
+#       ⬛⬛⬛🟩🟩
+#       ⬛🟩⬛🟩🟩
+#       ⬛🟩⬛🟩🟩
+#       🟩🟩🟩🟩🟩
+
+#       #twitterparser
+#       What a shitty word is it? Is it just me?
+
+# lewdle:
+#   twitter_user: one
+#   internal_stuff: type and day should be lewdle // 24
+#   full_text: |
+#     Lewdle 24 5/6
+#     🟩⬛⬛⬛⬛
+#     🟩⬛⬛⬛🟩
+#     🟩⬛⬛⬛🟩
+#     ⬛⬛⬛⬛🟩
+#     🟩🟩🟩🟩🟩
+
+#     Don't be $⋕*! Play the original Wordle too!
+
+
+# wordlefr:
+#   twitter_user: two
+#   internal_stuff: type and day should be wordle_fr // 27
+#   full_text: |
+#     #lemot #wordle Le Mot (@WordleFR) #27 3/6 
+#     ⬛⬛🟨🟨🟨 ⬛🟩🟩🟩⬛ 🟩🟩🟩🟩🟩 https://t.co/EzLADKVI83
+
+# wordlegame_es:
+#   # https://twitter.com/sreccardo/status/1492182204276948996
+#   twitter_user: ricc
+#   internal_stuff: type and day should be wg_spanish // Zm9uZG8
+#   full_text: |
+#     I guessed this Spanish 5-letter word in 6/6 tries.
+
+#     ⬛⬛⬛⬛🟩
+#     ⬛⬛🟩⬛🟩
+#     ⬛⬛🟩⬛🟩
+#     ⬛⬛🟩⬛🟩
+#     ⬛🟩🟩⬛🟩
+#     🟩🟩🟩🟩🟩
+
+#     Can you guess this word?
+#     https://wordlegame.org/wordle-in-spanish?challenge=Zm9uZG8 https://wordlegame.org/wordle-in-spanish
+
+# wordlegame_pt:
+#   twitter_user: ricc
+#   internal_stuff: type and day should be wg_portuguese // ZmlxdWU
+#   full_text: |
+#     I guessed this Portuguese 5-letter word in 4/6 tries.
+
+#     ⬛⬛⬛⬛🟩
+#     ⬛⬛🟩⬛🟩
+#     ⬛⬛🟩⬛🟩
+#     🟩🟩🟩🟩🟩
+
+#     Can you guess this word?
+#     https://wordlegame.org/wordle-in-portuguese?challenge=ZmlxdWU https://wordlegame.org/wordle-in-portuguese
+
+#     Just learning right now to parse this as well. day would be ZmlxdWU and not a number #TwitterParser
+
+# retmooo:
+#   twitter_user: ricc
+#   internal_stuff: 'type and day should be wordle_pt // 42'
+#   full_text: |
+#     joguei term.ooo #42 X/6
+
+#     ⬛⬛🟨🟨🟨
+#     🟨🟨🟨⬛⬛
+#     ⬛🟨🟨🟨⬛
+#     🟨🟨⬛🟨⬛
+#     ⬛🟨🟨🟨⬛
+#     ⬛⬛🟨🟩🟩
+
+# # https://twitter.com/palladius/status/1492243287436054530
+# taylordle:
+#   twitter_user: ricc 
+#   internal_stuff: type and day should be taylordle // 14
+#   full_text: |
+#     Taylordle 14 5/6
+
+#     ⬜⬜🟩⬜🟩
+#     ⬜⬜🟩⬜🟩
+#     ⬜⬜🟩⬜🟩
+#     🟩⬜🟩⬜🟩
+#     🟩🟩🟩🟩🟩
+
+# katapat:
+#   twitter_user: ricc 
+#   internal_stuff: type and day should be katapat // 20
+#   full_text: |
+#     Katapat 20 6/6 
+#       ⬜⬜⬜⬜⬜
+#       ⬜🟩⬜⬜🟨
+#       ⬜🟩⬜🟩⬜
+#       ⬜🟩🟩🟩⬜
+#       🟨🟩🟩🟩🟨
+#       🟩🟩🟩🟩🟩   dkjhfksjh fkjashfjk 
+#     sdhkaf hjsd 108 chars
+
+# triple_tweet_todo:
+#   twitter_user: ricc 
+#   # Katla seems indonesian..
+#   internal_stuff: type and day should be katla // 23 TODO triple fichissimo
+#   full_text: |
+#     Katla 23 6/6 ⬛⬛⬛🟨🟨 ⬛🟨🟩🟨⬛ ⬛🟩🟩⬛⬛ ⬛🟩🟩⬛⬛ ⬛🟩🟩⬛🟩 🟩🟩🟩🟩🟩 
+#     Wordle 238 5/6 ⬛🟨⬛⬛⬛ ⬛🟨🟨⬛⬛ 🟨🟩⬛🟩⬛ ⬛🟩🟨🟩⬛ 🟩🟩🟩🟩🟩 
+#     Katapat 21 4/6 ⬛⬛🟨🟨⬛ 🟨🟩⬛🟩⬛ 🟩🟩⬛🟩🟩 🟩🟩🟩🟩🟩
+
+# wordlede_works:
+#   twitter_user: ricc 
+#   internal_stuff: type and day should be wordle_de // 376
+#   full_text: |
+#      wordle-spielen.deWORDLE🇩🇪 376 5/6
+#      ⬜⬜🟨🟨⬜🟩🟩⬜⬜⬜🟩🟩⬜🟩⬜🟩🟩⬜🟨🟨🟩🟩🟩🟩🟩
+#      by @dewordle #twitterparser
+
+# spanish_no_day_dammit:
+#   twitter_user: ricc 
+#   internal_stuff: type and day should be wg_spanish // cGVycm8
+#   full_text: |
+#       I guessed this Spanish 5-letter word in 4/6 tries.
+#       ⬛⬛🟩🟨⬛⬛🟩🟩🟨⬛🟩🟩🟩⬛🟩🟩🟩🟩🟩🟩
+#       Can you guess this word? 
+#       https://wordlegame.org/wordle-in-spanish?challenge=cGVycm8 
+#       https://wordlegame.org/wordle-in-spanish 
+#       #twitterparser note that the day is NOT matched here DAMN it.
+
+# nerdle_sample:
+#   twitter_user: ricc
+#   internal_stuff: type and day should be nerdlegame // 24
+#   full_text: |
+#     nerdlegame 24 4/6⬛⬛⬛🟪⬛🟪🟪⬛🟩🟩🟩🟪⬛🟩⬛🟪🟩🟩🟩⬛🟩🟩⬛🟩🟩🟩🟩🟩🟩🟩🟩🟩
+#     https://nerdlegame.com #nerdle #twitterparser #twitterparsed injecting for v0.15 
+
+# russian_polymoprhic:
+#   twitter_user: one
+#   # https://twitter.com/arthurwcunha/status/1491630879642423298
+#   internal_stuff: type and day should be wg_russian // 0LLQvtC00LrQsA
+#   full_text: |
+#     VOCÊS TEM MUITO O QUE APRENDER COMIGO!
+
+#     I guessed this Russian 5-letter word in 2/6 tries. 
+
+#     🟩⬛🟩⬛🟨
+#     🟩🟩🟩🟩🟩
+
+#     Can you guess this word? 
+#     https://wordlegame.org/wordle-in-russian?challenge=0LLQvtC00LrQsA
+
+# # https://twitter.com/i/web/status/1489849938037125120
+# german_boh: 
+#   twitter_user: ricc 
+#   internal_stuff: type and day should be wg_german // ZHJlY2s
+#   full_text: |
+#      I guessed this German 5-letter word in 4/6 tries. ⬛🟨⬛⬛⬛
+#      ⬛⬛⬛🟨🟩
+#      ⬛🟩🟩⬛🟩
+#      🟩🟩🟩🟩🟩
+#      Can you guess this word? 
+#      https://wordlegame.org/wordle-in-german?challenge=ZHJlY2s https://wordlegame.org/wordle-in-german     #Wordle #twitterparser
+
+# danielfrg_spanish:
+#   twitter_user: ricc 
+#   internal_stuff: type and day should be wordle_es // 38
+#   full_text: |
+#     Wordle (ES) #38 5/6
+
+#     ⬜🟨🟨🟨⬜
+#     🟨🟩⬜🟨🟨
+#     🟨🟩⬜🟩🟩
+#     ⬜🟩🟩🟩🟩
+#     🟩🟩🟩🟩🟩
+
+#     wordle.danielfrg.com
+
+# wordlegame_for_kids:
+#   twitter_user: ricc 
+#   internal_stuff: type and day should be wg_kids // c2Nvd2w // 6 on 2022-02-13
+#   full_text: |
+#     I guessed this 5-letter word in 6/6 tries. 🟨⬛⬛⬛⬛🟨🟨🟨⬛⬛⬛🟨⬛🟨🟨🟨⬛🟨⬛🟨🟩🟨🟩⬛⬛🟩🟩🟩🟩🟩Can
+#     you guess this word? https://wordlegame.org/wordle-for-kids?challenge=c2Nvd2w https://wordlegame.org/wordle-for-kids 
+#     I didnt even know this kids word :)
+
+# wordlegame_for_uk:
+#   twitter_user: ricc 
+#   internal_stuff: type and day should be wg_english_uk // Y2FtZWw // 4 on 2022-02-13
+#   full_text: |
+#     I guessed this 5-letter word in 4/6 tries. 🟩⬛⬛🟩⬛🟩🟨⬛🟩⬛🟩⬛🟨🟩⬛🟩🟩🟩🟩🟩Can 
+#     you guess this word? https://wordlegame.org/wordle-in-english-uk?challenge=Y2FtZWw https://wordlegame.org/wordle-in-english-uk 
+
+# # i dont have to parse this. Result should be X
+# # failed_polish_wordle:
+# #   twitter_user: ricc 
+# #   internal_stuff: type and day should be wg_polish // xZtsZXB5 // X on 2022-02-13
+# #   full_text: |
+# #     Can you guess this Polish word?https://wordlegame.org/wordle-in-polish?challenge=xZtsZXB5 
+
+# wordleit_wordlegame:
+#   twitter_user: ricc 
+#   internal_stuff: type and day should be wg_italian // cGllZ2E // 3 on 2022-02-13
+#   full_text: |
+#     I guessed this Italian 5-letter word in 3/6 tries. ⬛⬛🟨⬛🟨🟩⬛🟩🟩🟩🟩🟩🟩🟩🟩Can you guess this word? 
+#     https://wordlegame.org/wordle-in-italian?challenge=cGllZ2E https://wordlegame.org/wordle-in-italian  ne so a pacchi! #twitterparser
+
+# worldle_geography:
+#   twitter_user: ricc 
+#   internal_stuff: type and day should be worldle // 23 // 2 on 2022-02-13
+#   full_text: |
+#         #Worldle #23 2/6
+#         🟩🟩🟩🟩⬜
+#         🟩🟩🟩🟩🟩
+#         https://worldle.teuteuf.fr 
+
+#         #twitterparser I cheated (this morning I lost after 6 but need this for the parser sorry)
+
+# wekele_italian:
+#   twitter_user: ricc 
+#   internal_stuff: type and day should be wekele_it // 240 // 4 on 2022-02-14
+#   full_text: |
+#       Wordle (IT) 240 4/6
+
+#       ⬜🟨⬜⬜⬜
+#       ⬜🟩⬜🟩🟩
+#       ⬜🟩🟩🟩🟩
+#       🟩🟩🟩🟩🟩
+
+#       ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
+#       https://wordle.wekele.com
+#       ⬆️ ⬆️ ⬆️ ⬆️ ⬆️
+
+#       #Wordle #Wordle5 #WordleIT #WordleItaliano #Wordle240 #twitterparser
+# wekele_english: 
+#   twitter_user: ricc
+#   internal_stuff: type and day should be wekele_en // 240 // 4 on 2022-02-14
+#   full_text: |
+#     Wordle 240 4/6
+#     ⬜⬜🟨⬜⬜
+#     ⬜🟩⬜⬜⬜
+#     🟩🟩🟩⬜🟨
+#     🟩🟩🟩🟩🟩
+
+#     ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
+#     https://wordle.wekele.com
+#     ⬆️ ⬆️ ⬆️ ⬆️ ⬆️
+
+#     #Wordle #Wordle5 #WordleEN #WordleEnglish #Wordle240
+
+# wekele_italian_da_6:
+#   twitter_user: ricc
+#   # letters: 6 not 5!!! #Wordle6
+#   internal_stuff: type and day should be wekele_it // 240 // 4 on 2022-02-14 Wordle6
+#   full_text: |
+#     Wordle (IT) 240 4/6
+
+#     ⬜🟨⬜⬜⬜🟨
+#     ⬜🟩🟨🟩⬜⬜
+#     🟨🟩⬜🟩🟨🟩
+#     🟩🟩🟩🟩🟩🟩
+
+#     ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
+#     https://wordle.wekele.com
+#     ⬆️ ⬆️ ⬆️ ⬆️ ⬆️
+
+#     #Wordle #Wordle6 #WordleIT #WordleItaliano #Wordle240
+# paroldada7:
+#   twitter_user: ricc
+#   # letters: 6 not 5!!! #Wordle6
+#   internal_stuff: type and day should be wekele_it // 240 // 5 on 2022-02-14 Wordle7
+#   full_text: |
+#     Wordle (IT) 240 5/6
+
+#     ⬜⬜⬜⬜🟩⬜🟨
+#     ⬜🟨🟨🟨🟩⬜🟩
+#     ⬜⬜🟩🟨🟩🟨🟩
+#     🟩🟩🟩🟩🟩⬜🟩
+#     🟩🟩🟩🟩🟩🟩🟩
+
+#     ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
+#     https://wordle.wekele.com
+#     ⬆️ ⬆️ ⬆️ ⬆️ ⬆️
+
+#     #Wordle #Wordle7 #WordleIT #WordleItaliano #Wordle240
+# mathler-facile:
+#   twitter_user: ricc
+#   internal_stuff: type and day should be mathler_easy // 14 // 2 on 2022-02-15
+#   full_text: |
+#     easy.mathler.com  14 2/6
+
+#     ⬜⬜⬜⬜🟨
+#     🟩🟩🟩🟩🟩
+# mathler-medio:
+#   twitter_user: ricc
+#   internal_stuff: type and day should be mathler_med // 14 // 2 on 2022-02-15
+#   # difficile da parsare, dovrei parsare gli altri due prima :)
+#   full_text: |
+#     mathler.com 14 3/6
+
+#     🟨⬜⬜⬜⬜⬜
+#     🟩🟨🟩🟨🟩🟨
+#     🟩🟩🟩🟩🟩🟩
+
+# mathler-difficile:
+#   twitter_user: ricc
+#   internal_stuff: type and day should be mathler_hard // 14 // 2 on 2022-02-15
+#   full_text: |
+#     hard.mathler.com  14 2/6
+
+#     ⬜⬜🟩🟨🟩🟩⬜⬜
+#     🟩🟩🟩🟩🟩🟩🟩🟩
+
+# sutom:
+#   twitter_user: ricc
+#   internal_stuff: type and day should be sutom // 39 // 4 on 2022-02-15
+#   full_text: |
+#     SUTOM #39 4/6
+
+#     🟥🟦🟦🟦🟦🟡🟦🟦
+#     🟥🟡🟥🟦🟡🟡🟦🟦
+#     🟥🟡🟥🟦🟦🟡🟦🟦
+#     🟥🟥🟥🟥🟥🟥🟥🟥
+
+# # so hard today!
+# wordle_difficile:
+#   twitter_user: ricc
+#   internal_stuff: type and day should be wordle // 242 // 6 on 2022-02-16 (caulk)
+#   full_text: |
+#     Wordle 242 6/6
+
+#     ⬛⬛🟨🟨⬛
+#     ⬛🟩🟨⬛⬛
+#     ⬛🟩⬛⬛🟨
+#     🟩🟩🟨⬛⬛
+#     🟩🟩⬛⬛🟨
+#     🟩🟩🟩🟩🟩
+# quordle:
+#   twitter_user: ricc
+#   internal_stuff: type and day should be quordle // 21 // 7 on 2022-02-14 (difficult to parse the 7)
+#   full_text: |
+#     Quordle #21
+#     6️⃣7️⃣
+#     3️⃣4️⃣
+
+#     ⬜⬜🟨🟨⬜ ⬜⬜⬜🟩⬜
+#     ⬜🟩⬜⬜⬜ ⬜⬜⬜⬜⬜
+#     ⬜🟩⬜⬜⬜ ⬜⬜⬜⬜⬜
+#     ⬜🟩⬜⬜⬜ ⬜⬜⬜⬜⬜
+#     🟨🟩⬜🟩🟩 ⬜⬜⬜🟨🟨
+#     🟩🟩🟩🟩🟩 ⬜⬜⬜🟨🟨
+#     ⬛⬛⬛⬛⬛ 🟩🟩🟩🟩🟩
+
+#     ⬜🟨🟨⬜🟩 ⬜⬜🟨⬜⬜
+#     🟨🟩🟨⬜🟩 ⬜🟩🟨🟨⬜
+#     🟩🟩🟩🟩🟩 🟩🟩⬜⬜⬜
+#     ⬛⬛⬛⬛⬛ 🟩🟩🟩🟩🟩
+# wordlefr_with_skull:
+#   twitter_user: ricc
+#   internal_stuff: type and day should be wordlefr // 38 // 6 on 2022-02-15 (note the skull)
+#   full_text: |
+#     Le Mot (@WordleFR) #38 💀/6
+
+#     ⬛🟨🟨⬛⬛
+#     🟨🟨⬛🟨⬛
+#     ⬛🟩🟩🟨🟨
+#     ⬛🟩🟩🟩🟩
+#     ⬛🟩🟩🟩🟩
+#     ⬛🟩🟩🟩🟩
+
+#     wordle.louan.me
+# sedecordle:
+#   twitter_user: ricc
+#   internal_stuff: type and day should be sedecordle // 5 // X on 2022-02-18 (manca la soluzione totale)
+#   full_text: |
+#     Daily sedecordle #5
+#     🕔🕓
+#     🕖4️⃣
+#     6️⃣5️⃣
+#     7️⃣🕒
+#     🕗8️⃣
+#     9️⃣🕑
+#     🕕🔟
+#     🕐🕛
+#     http://sedecordle.com
+#     #sedecordle
+# sedecordle2:
+#   twitter_user: ricc
+#   internal_stuff: type and day should be sedecordle // 5 // X on 2022-02-18 (manca la soluzione totale)
+#   full_text: |
+#     Daily #14
+#     1️⃣3️⃣⬛2️⃣1️⃣
+#     1️⃣9️⃣⬛2️⃣0️⃣
+#     0️⃣5️⃣⬛1️⃣5️⃣
+#     1️⃣6️⃣⬛1️⃣7️⃣
+#     0️⃣6️⃣⬛0️⃣7️⃣
+#     🟥🟥⬛0️⃣9️⃣
+#     1️⃣0️⃣⬛1️⃣1️⃣
+#     1️⃣8️⃣⬛1️⃣2️⃣
+#     http://sedecordle.com
+#     #sedecordle
+# quordle_cheated:
+#   twitter_user: ricc
+#   internal_stuff: type and day should be Quordle // 25 // 4 on 2022-02-18 (totally cheated to extract this)
+#   full_text: |
+#     Daily Quordle #25
+#     1️⃣3️⃣
+#     4️⃣2️⃣
+#     quordle.com
+#     🟩🟩🟩🟩🟩 ⬜🟨⬜🟨⬜
+#     ⬛⬛⬛⬛⬛ ⬜⬜⬜⬜⬜
+#     ⬛⬛⬛⬛⬛ 🟩🟩🟩🟩🟩
+
+#     ⬜⬜🟨⬜⬜ 🟩⬜🟩⬜🟩
+#     ⬜⬜🟨⬜⬜ 🟩🟩🟩🟩🟩
+#     ⬜⬜⬜⬜⬜ ⬛⬛⬛⬛⬛
+#     🟩🟩🟩🟩🟩 ⬛⬛⬛⬛⬛
+# numbro:
+#   twitter_user: ricc
+#   internal_stuff: type and day should be Numbro // 52 // 5 on 2022-02-22 
+#   full_text: |
+#     🟢🟡🟡⚫
+#     🟡🟢🟢⚫
+#     🟢⚫🟢🟢
+#     🟢🟢🟢⚫
+#     🟢🟢🟢🟢
+#     Numbro 52, 5/7
+#     https://kveez.com/en/numbro/
+
+# wordlede:
+#   twitter_user: ricc
+#   internal_stuff: type and day should be wordle_de2 // 391 // 5 on 2022-02-27 
+#   full_text: |
+#     6mal5.com 🇩🇪 391 5/6
+
+#     ⬜⬜⬜⬜🟨
+#     ⬜🟨⬜⬜⬜
+#     ⬜⬜⬜⬜🟨
+#     🟨⬜🟩⬜⬜
+#     🟩🟩🟩🟩🟩
+
+#     by @dewordle
+#     #twitterparser
+
+
+
+     

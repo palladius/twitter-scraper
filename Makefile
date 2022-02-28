@@ -98,9 +98,9 @@ docker-cleanup:
 	echo Nuklear option: 
 	echo 'docker rmi $(docker images -q) -f'
 
-cloud-deploy-create-pipeine:
+clouddeploy-create-pipeine:
 	gcloud deploy apply --file clouddeploy.yaml --region=europe-west1
-create-release:
+clouddeploy-create-release:
 	./release-to-cloud-deploy.sh
 
 run-delayed-jobs:
