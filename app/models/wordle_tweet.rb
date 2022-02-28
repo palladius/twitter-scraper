@@ -27,7 +27,7 @@ class WordleTweet < ApplicationRecord
   # DHH magic, when create WT it broadcaast this to its Tweet. Non so se abbia senso
 #  broadcasts_to :tweet
   # copied from https://www.colby.so/posts/turbo-streams-on-rails
-  after_create_commit { broadcast_append_to('wordle_tweets') }
+  #after_create_commit { broadcast_append_to('wordle_tweets') }
   # todo manda anche all alista di ultimi tweets brazilians vs italiani...
   # /TurboStreams
   ################################################################################
