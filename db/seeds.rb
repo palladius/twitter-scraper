@@ -23,30 +23,30 @@ $check_already_exists = true
 $lets_try_async_runners = Rails.env == 'development' # only in dev
 $hostname = Socket.gethostname.split('.')[0] rescue "hostname_error" #shotname
 $search_terms = [
-#   'joguei https://t.co',
-#   'k4rlheinz', # Julio
-#   '#TwitterParser',
-#   '#Wordle',
+  'joguei https://t.co',
+  'k4rlheinz', # Julio
+  '#TwitterParser',
+  '#Wordle',
    '@dewordle', # 
-#   '#Parole',
-#   'mathler.com',
-#   'mathler',
-# #  'https://term.ooo/',
-#   'wordlefr',
-#   'WordleIT',
-#   'wordlept',
-#   'wordle.uber.space',
-#   'Par🇮🇹le',
-#   'I guessed this 5-letter word in', #  'wordlegame.org', # since 0.11 I support it!
-#   '#taylordle',
-#   'katapat',
-#   'worldle',
-#   'wekele',
-#   'quordle',
-#   # this works but produces TOO much and i dont know what it i
-#   #'🟩🟩🟩🟩🟩', # success
-#   # We keep this last
-#  'Wordle',
+  '#Parole',
+  'mathler.com',
+  'mathler',
+#  'https://term.ooo/',
+  'wordlefr',
+  'WordleIT',
+  'wordlept',
+  'wordle.uber.space',
+  'Par🇮🇹le',
+  'I guessed this 5-letter word in', #  'wordlegame.org', # since 0.11 I support it!
+  '#taylordle',
+  'katapat',
+  'worldle',
+  'wekele',
+  'quordle',
+  # this works but produces TOO much and i dont know what it i
+  #'🟩🟩🟩🟩🟩', # success
+  # We keep this last
+ 'Wordle',
 ]
 $async_wordle_search_terms = %w{ wordle wordlees wordleo #wordleparser }
 $marshal_on_file = (ENV["MARSHAL_TO_FILE"] =='true' || false ) rescue false
