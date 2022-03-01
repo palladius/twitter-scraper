@@ -8,7 +8,7 @@ class GamesController < ApplicationController
     def action_seed_all
         @action = :seed_all
         # calls rake db:seed so eberything works perfectly.
-        @results = Rails.application.load_seed
+        @results = :DEPRECATED # Rails.application.load_seed
         @description = 'Seeding ALL search words. This might take some time.. DEPRECATED use /actions/seed_by_search_term instead'
         flash[:error] = "Will take some time..."
         flash.now[:notice] = "[TEST] We have exactly #{42} books available."
@@ -46,11 +46,11 @@ class GamesController < ApplicationController
             # run delayed so I dont know what it returns...
             opts[:description] = 'DELAYED call from GamesController'
             opts[:source] = "[DELAY]" + opts[:source]
-            ret = Tweet.seed_by_calling_twitter_apis(@search_term, @n_tweets, opts)
+            ret = :DEPRECATED  # Tweet.seed_by_calling_twitter_apis(@search_term, @n_tweets, opts)
         else
             opts[:description] = 'DIRECT (non-delayed) call from GamesController'
             opts[:source] = "[DIRECT]" + opts[:source]
-            ret = Tweet.seed_by_calling_twitter_apis(@search_term, @n_tweets, opts)
+            ret = :DEPRECATED  # Tweet.seed_by_calling_twitter_apis(@search_term, @n_tweets, opts)
         end
         @results = ret 
         puts "GamesController:API call returned ret=#{ret}"
