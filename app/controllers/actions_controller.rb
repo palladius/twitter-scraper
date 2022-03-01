@@ -30,8 +30,8 @@ class ActionsController < ApplicationController
         @action = :seed_by_search_term
         @delay = (params.fetch :delay, false).to_s.downcase == "true" # to_bool
 
-        #flash[:error] = "Some error in GamesController"
-        flash[:warn] = "marshal_on_file is enabled. Note that on docker this is useless :) Only enable it on your computer.." if @marshal_on_file
+        flash[:error] = "Some error in GamesController and we are on Docker: you need to stop this SCEMPIO!" if (AM_I_ON_DOCKER and @marshal_on_file)
+        flash[:warn] = "marshal_on_file is enabled. Note that on docker this is useless :) Only enable it on your computer.. AM_I_ON_DOCKER=#{AM_I_ON_DOCKER}" if @marshal_on_file
         #flash.now[:notice] = "[TEST] We have exactly #{42} books available."
 
         @description = "[seed_by_search_term] Looking for #{@n_tweets} tweets matching #Wordle hashtag: '#{ @search_term}' [DEB=#{ @debug}, @caller_id=#{@caller_id}]"

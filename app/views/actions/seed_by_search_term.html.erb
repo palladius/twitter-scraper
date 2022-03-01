@@ -1,22 +1,5 @@
 <h1>🎬 SeedBySearchTerm (<%= @search_term  %>)</h1>
 
-<p>
-Note: this action can take longer. We strongly suggest to call a single search term 
-for every HTTP request you do and reach out the <tt>/games/actions/seed_by_search_term</tt>
-endpoint instead, thouroughly documented in www.tipiacerebbe.com.
-</p>
-
-<p>Tweets effectively saved: <tt class='important_field' >
-        <b><%= @results[:saved_tweets] rescue '?' %></b>/<%= @results[:called_tweets] rescue '?' %>
-</tt></p>
-
-
-<p>caller id: <tt class='important_field' ><b><%= @caller_id %></b></tt></p>
-<p>@search_term  id: <tt class='important_field' ><b><%= @search_term  %></b></tt></p>
-<p>dryrun: <tt class='important_field' ><b><%= @dryrun %></b></tt></p>
-<p>@background <tt class='important_field' ><b><%= @background  %></b></tt></p>
-<p>@debug <tt class='important_field' ><b><%= @debug  %></b></tt></p>
-
 <p> Some possible searches comfortably put here and linked :) Params you can use are: 
         search_term (string, but change '#'' with hashtag string), 
         background (bool), 
@@ -25,8 +8,28 @@ endpoint instead, thouroughly documented in www.tipiacerebbe.com.
         caller_id (str), 
         marshal_on_file (bool=false)
 
-* <a href="/actions/seed_by_search_term?marshal_on_file=true&search_term=hashtagtwitterparser&caller_id=web_link_manhouse">🌱 twitterparser on file</a>
+* <a href="/actions/seed_by_search_term?marshal_on_file=true&search_term=hashtagtwitterparser&caller_id=web_link_manhouse1">🌱 twitterparser on file</a>
+* <a href="/actions/seed_by_search_term?marshal_on_file=true&search_term=Par🇮🇹le&caller_id=web_link_manhouse2">🌱 Par🇮🇹le </a>
+* <a href="/actions/seed_by_search_term?marshal_on_file=true&search_term=joguei&caller_id=web_link_manhouse3&dryrun=true">🌱 joguei DRYRUN </a>
+* <a href="/actions/seed_by_search_term?marshal_on_file=true&search_term=katapat&caller_id=web_link_manhouse3&background=true">🌱 katapat background </a>
 
 </p>
 
+
+
+<p>Tweets effectively saved: <tt class='important_field' >
+        <b><%= @results[:saved_tweets] rescue '?' %></b>/<%= @results[:called_tweets] rescue '?' %>
+</tt></p>
+
+
+<p>@caller_id: <tt class='important_field' ><b><%= @caller_id %></b></tt></p>
+<p>@search_term <tt class='important_field' ><b><%= @search_term  %></b></tt></p>
+<p>@dryrun: <tt class='important_field' ><b><%= @dryrun %></b></tt></p>
+<p>@background <tt class='important_field' ><b><%= @background  %></b></tt></p>
+<p>@debug <tt class='important_field' ><b><%= @debug  %></b></tt></p>
+<p>@marshal_on_file <tt class='important_field' ><b><%= @marshal_on_file  %></b></tt></p>
+
+
+
 <%= render 'games/action' %>
+
