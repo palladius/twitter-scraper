@@ -46,7 +46,7 @@ See it in prod:
      * no GCF was hurt or damaged during this sdocumentary :) Just Clud Scheduler (basically a `cron * * * * * curl http://URL/dowload_all`)
      * The only part was adding Twitter API keys to prod/staging which should be a big deal froms ecurity perspective. The alternative is to pass it as
        HTTP querystring param and it scares me a bit more.
-     * link: https://console.cloud.google.com/cloudscheduler
+     * link: https://console.cloud.google.com/cloudscheduler?project=ric-cccwiki
 
 * Live updates. I've delved into it but DHH example in video is (awesome) depending on fact that update is on
   comment which is  child of post. Would be too complicated to adapt to my 1:1 case (not 1:many) since I dont
