@@ -2,14 +2,14 @@ class GamesController < ApplicationController
 
 
 
-    # call an action from controller to be then called by GCF
-    # https://stackoverflow.com/questions/5212351/can-i-somehow-execute-my-db-seeds-rb-file-from-my-rails-app
-    # curl http://localhost:3000/games/actions/seed_all
+    # # call an action from controller to be then called by GCF
+    # # https://stackoverflow.com/questions/5212351/can-i-somehow-execute-my-db-seeds-rb-file-from-my-rails-app
+    # # curl http://localhost:3000/games/actions/seed_all
     def action_seed_all
         @action = :seed_all
         # calls rake db:seed so eberything works perfectly.
         @results = Rails.application.load_seed
-        @description = 'Seeding ALL search words. This might take some time..'
+        @description = 'Seeding ALL search words. This might take some time.. DEPRECATED use /actions/seed_by_search_term instead'
         flash[:error] = "Will take some time..."
         flash.now[:notice] = "[TEST] We have exactly #{42} books available."
     end
