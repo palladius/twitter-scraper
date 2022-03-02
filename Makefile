@@ -103,6 +103,14 @@ clouddeploy-create-pipeine:
 clouddeploy-create-release:
 	./release-to-cloud-deploy.sh
 
+
+delayed-jobs-run: run-delayed-jobs
 run-delayed-jobs:
 	echo press CTRL-X when tired. Observer the /articles/status number go nicely down...
-	bin/delayed_jobs start
+	nice bin/delayed_job start 
+	# -n 4 -m start
+
+delayed-jobs-stop:
+	echo Killing following jobs:
+	ps xu | grep delayed_job | grep start | grep -v grep  
+	ps xu | grep delayed_job | grep start | grep -v grep | awk '{print $$2}' | xargs -r kill

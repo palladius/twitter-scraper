@@ -56,6 +56,10 @@ def main
     # We keep this last
     (Rails.env == 'development' ? nil : 'Wordle'),
   ].select{|x| not x.nil?}
+  # if intermediate_search_term, change to 1 :)
+  search_terms = intermediate_search_term.nil? ?
+  search_terms :               # Global thingy
+  [ intermediate_search_term]   # local if you provide $SEARCH_ONLY_FOR
 
 
 
@@ -68,6 +72,8 @@ def main
   db_seed_puts "Stats: #{yellow Tweet.count.to_s} tweets, #{yellow WordleTweet.count.to_s} WTs, #{yellow TwitterUser.count.to_s}  Users"
   db_seed_puts "Stats: marshal_on_file activated! Look into logs/ " if marshal_on_file
   #exit 42
+
+  ActiveRecord::Base.logger = Logger.new(STDOUT)
 
   raise "Too few tweets required. Set TWITTER_INGEST_SIZE env var!" if n_tweets < 1
   if lets_try_async_runners
@@ -85,9 +91,7 @@ def main
   #puts "Looking for #{n_tweets} tweets matching #Wordle hashtag:"
 
   
-  search_terms = intermediate_search_term.nil? ?
-    search_terms :               # Global thingy
-    [ intermediate_search_term]   # local if you provide $SEARCH_ONLY_FOR
+
   puts "Searching for these keywords: #{azure search_terms.join(', ')}"
   debug = ENV.fetch 'DEBUG', nil
   opts = {
