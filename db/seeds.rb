@@ -25,10 +25,11 @@ end
 def main
 
   intermediate_search_term = ENV.fetch 'SEARCH_ONLY_FOR', nil
-  n_tweets = (ENV["TWITTER_INGEST_SIZE"] || '42' ).to_i
-  lets_try_async_runners = Rails.env == 'development' # only in dev
+  n_tweets = ENV.fetch("TWITTER_INGEST_SIZE", '42').to_i
+  #delayed_async_runners = Rails.env == 'development' # only in dev
+  delayed_async_runners = (ENV.fetch "MARSHAL_TO_FILE", 'false').to_s.upcase == 'TRUE' 
   async_wordle_search_terms = %w{ wordle wordlees wordleo #wordleparser }
-  marshal_on_file = (ENV["MARSHAL_TO_FILE"] =='true' || false ) rescue false
+  marshal_on_file = ENV.fetch("MARSHAL_TO_FILE", :false).to_s.upcase == 'TRUE' # rescue false
   search_terms = [
     'joguei https://t.co',
     'k4rlheinz', # Julio
@@ -76,7 +77,7 @@ def main
   ActiveRecord::Base.logger = Logger.new(STDOUT)
 
   raise "Too few tweets required. Set TWITTER_INGEST_SIZE env var!" if n_tweets < 1
-  if lets_try_async_runners
+  if delayed_async_runners
     async_wordle_search_terms.each do |delayed_word|
       Tweet.delay.seed_by_calling_twitter_apis(
         delayed_word,

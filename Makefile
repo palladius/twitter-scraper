@@ -114,3 +114,6 @@ delayed-jobs-stop:
 	echo Killing following jobs:
 	ps xu | grep delayed_job | grep start | grep -v grep  
 	ps xu | grep delayed_job | grep start | grep -v grep | awk '{print $$2}' | xargs -r kill
+
+seed-complicated-example:
+	SEARCH_ONLY_FOR=joguei TWITTER_INGEST_SIZE=5 MARSHAL_TO_FILE=True rake db:seed 
