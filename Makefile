@@ -25,7 +25,7 @@ docker-run: docker-build
 #	docker run -it --env-file .env -p 8080:8080 $(LOCAL_DOCKER_APP) ./entrypoint-8080.sh
 	make docker-run-nodep
 docker-run-nodep:
-  #@echo Ignoring dependencies...
+#	@echo Ignoring dependencies...
 	docker run -it --env-file .env -p 8080:8080 $(LOCAL_DOCKER_APP) ./entrypoint-8080.sh
 docker-run-bash:
 	docker run -it --env-file .env -p 8080:8080 $(LOCAL_DOCKER_APP) bash
@@ -71,11 +71,12 @@ ingest-to-devpg-once:
 run-prod:
 	RAILS_ENV=production rails s
 run-devpg:
-	 RAILS_ENV=devpg rails s
+	RAILS_ENV=devpg rails s
 
 # prod:
 # PROD Nick:  [[236089, "BJArmstrong10", "Nicola Piludu"]]
 # PROD Pizzo: [[168301, "PaoloPizzorni", "Paolo Pizzorni"]]
+# PROD Julio: 
 search-for-pizzorni-and-piludu-in-prod:
 	echo 'TwitterUser.all.first(10000000).map{|u| [u.id, u.ldap, u.name] }.select{|id,name, description| name.match? /BJArmstrong10|palladius/i}' | RAILS_ENV=production rails console
 	echo 'TwitterUser.all.first(10000000).map{|u| [u.id, u.ldap, u.name] }.select{|id,name, description| name.match? /pizzorn/i}' | RAILS_ENV=production rails console
