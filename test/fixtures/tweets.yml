@@ -541,6 +541,19 @@ wordlede:
     by @dewordle
     #twitterparser
 
+austriaco:
+  twitter_user: ricc
+  internal_stuff: type and day should be wordle_at // 260 // 5 on 2022-03-06
+  full_text: |
+    Wördl 260 5/6 🔥1
 
+    ⬛🟨⬛⬛🟨
+    ⬛🟩🟨⬛⬛
+    ⬛🟩⬛⬛⬛
+    ⬛🟩⬛🟨⬛
+    🟩🟩🟩🟩🟩
+
+    wordle.at
+ 
 
      

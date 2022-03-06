@@ -2,6 +2,10 @@
 VERSION = $(shell cat VERSION)
 LOCAL_DOCKER_APP = twitter-wordle-scraper-deleteme:v$(VERSION)
 
+install-on-mac:
+	#install pgsql on mac
+	brew install postgresql
+
 stats:
 	RAILS_ENV=development rake db:sbirciatina
 	RAILS_ENV=production  rake db:sbirciatina
