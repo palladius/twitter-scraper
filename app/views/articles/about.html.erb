@@ -39,11 +39,6 @@
     <%= render "twitter_users/last_ten", tweets: @last_users, :locals => {:sobenme => 42 } %>
     <%= render "games/last_ten", tweets: @last_games, :locals => {:sobenme => 43 } %>
 </div>
-<!-- 
-<div class='ricc-float-top-right' style='float: right; padding: 15px;' >
-inutile, la div intelligente e' ora nel partial..</div>
-<div class="ricc-metti-a-posto" >
--->
 
 <p>🟡 I came up with the idea of parsing the whole internet a few years ago... but twitter gave me the assist with a beautifully parsable 
 new moda: Wordle!</p>
@@ -64,7 +59,21 @@ Freshness:<br/>
 - Last Tweet: <b><%= time_ago_in_words @last_tweets.first.created_at %></b> ago<br/>
 - Last User: <b><%= time_ago_in_words  @last_users.first.created_at %></b> ago<br/>
 </p>
+
+<p>Some of my 🐦 Twitter friends:
+ 
+ <a href="https://twitter-scraper-v3ydafeb7q-ew.a.run.app/twitter_users/545792">Julio</a> 
+ <a href="https://twitter-scraper-v3ydafeb7q-ew.a.run.app/twitter_users/168301">Paolo</a> 
+ <a href="https://twitter-scraper-v3ydafeb7q-ew.a.run.app/twitter_users/236089">Nik</a> 
+ <a href="https://twitter-scraper-v3ydafeb7q-ew.a.run.app/twitter_users/1">Ricc</a> 
+</p>
+
 </div>
+
+
+<div class='ricc-friends'>
+</div>
+
 
 <h2>DHH quick stuff</h2>
 

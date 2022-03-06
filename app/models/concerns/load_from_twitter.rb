@@ -226,6 +226,8 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
       # TODO(ricc): scambia con process_tweet_from_api_or_file(tweet, opts)
       opts[:api_search_term]  = search_term
       opts[:api_search_count] = search_count
+
+      # wrapping ALL complexity here. WOW!
       ret = process_tweet_from_api_or_file(:api, tweet, opts)
 
       #      puts "TODO(ricc): with this ret yuou populate counters which you just broke" FIXD      
@@ -235,91 +237,6 @@ def rake_seed_parse_keys_clone_for_single_search(client, search_term, search_cou
       n_saved_tweets += ret[:n_saved_tweets]
 
       # # # consider REMOVING THIS
-      # # quick_match = WordleTweet.quick_match(tweet.text)
-      # # puts "QM=#{quick_match.id rescue :boh}" if debug
-      # # # if quick match is not there, I skip - but first i write down why...
-      # # puts "Failed match for tweet: #{white(tweet.text) rescue :err}" if debug and (not quick_match)
-      # # next unless quick_match
-
-
-      # # Tweet matches :)
-      # manage_twitter_serialization(tweet, opts) if marshal_on_file
-      # wordle_type = WordleTweet.extended_wordle_match_type(tweet.text)
-      # if not wordle_type.nil?
-      #   #puts "[DEB] Found [#{ wordle_type}] #{short_twitter_username(tweet.user)}:\t'#{( tweet.text.split("\n")[0] )}'" # text[0,30]
-      #   u = tweet.user
-      #   #print "[deb] 1. Creating Twitter user: #{ u.screen_name} (#{u.name}, #{u.location}).."
-      #   tu = TwitterUser.create(
-      #       twitter_id: u.screen_name,
-      #       location:   u.location,
-      #       name:       u.name,
-      #       # added after 1500 were already added :)
-      #       description: u.description,
-      #       id_str:      u.id.to_s, #id_str doesnt work
-      #       # eg @palladius => 17310864
-      #       # consider adding:
-      #       # *    :profile_image_url: http://pbs.twimg.com/profile_images/2448864122/jicix70clvqqeazgdxh3_normal.jpeg
-      #       # *    :created_at: Tue Nov 11 14:48:00 +0000 2008
-
-      #   )
-      #   saved = tu.save
-      #   # TODO(ricc): update Existing with new descriptions even if it already exists
-      #   #puts "1. Created TwitterUser: #{tu} id=#{tu.id rescue :noid}" if saved
-      #   n_saved_users += 1 if saved
-
-      #   if check_already_exists
-      #     already_exists = Tweet.find_by_twitter_id(tweet.id)
-      #     if already_exists
-      #           #puts "- [CACHE] Already exists TODO update if needed: [#{tu}] '#{already_exists.excerpt rescue :noExcerpt}' (import v#{already_exists.import_version})" if debug
-      #         puts "- [CACHE] Already exists (v#{yellow already_exists.import_version}): [#{tu}] '#{already_exists.excerpt(50) rescue :noExcerpt}' " if debug
-      #         print 'c' if ($rake_seed_import_version != already_exists.import_version)
-      #     else  #
-      #         print "NEW" if debug
-      #     end
-      #     next if already_exists
-      #   end
-      #   #print "2. [#{tweet.created_at}] Creating Tweet info based on existence of twitter_id :)"
-      #   hash = {
-      #       app_ver: APP_VERSION,
-      #       search_term: search_term,
-
-      #       # POLYMOPRH_BEGIN polymorphically adding this
-      #       twitter_retweeted:  (tweet.retweeted rescue nil),
-      #       twitter_lang:  (tweet.lang rescue nil),
-      #       twitter_retweet_count:  (tweet.retweet_count rescue nil),
-      #       # POLYMOPRH_END
-      #       code_description: description,
-      #       source: source , # rescue nil
-
-      #       hostname: @@hostname.split('.')[0]
-      #   } # I know - but it helps with commas :)
-      #   rails_tweet = Tweet.create(
-      #       twitter_user: TwitterUser.find_by_twitter_id(tweet.user.screen_name) ,
-      #       full_text: tweet.text,
-      #       # 2022-02-06 updated this
-      #       #created_at: tweet.created_at,
-      #      #   id: tweet.id,
-      #       twitter_id:  tweet.id,
-      #       twitter_created_at: tweet.created_at,
-      #       import_version: $rake_seed_import_version,
-      #       import_notes: "Moved to LoadFromTwitter and to jonb on its own.",
-      #       internal_stuff: "search_term='#{search_term rescue :unknown}'",
-      #       # polymoprhic stuff in case new stuff comes to my mind..
-      #       json_stuff: hash.to_json,
-      #   )
-      #   saved_tweet = rails_tweet.save
-      #   if saved_tweet
-      #     puts "- Non-Trivial #{yellow rails_tweet.wordle_type} Tweet saved: #{rails_tweet.id} from #{rails_tweet.to_s}"  if (
-      #         (rails_tweet.wordle_type != "wordle_en") or debug)
-      #     n_saved_tweets += 1
-      #   else
-      #     # single error here.
-      #     n_unsaved_tweets += 1
-      #     print 'e' # putchar ERROR
-      #     puts yellow(rails_tweet.to_s(true))  if debug
-      #     puts red(rails_tweet.errors.full_messages)  if debug
-      #     end
-      # end
     end #/END twitter_api_results
 
     puts "  - #{ yellow n_saved_tweets} saved tweets / #{white n_unsaved_tweets} unsaved; #{yellow n_saved_users} new users. Tweets returned by API: #{green n_called_tweets}"

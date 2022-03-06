@@ -80,11 +80,12 @@ run-devpg:
 # prod:
 # PROD Nick:  [[236089, "BJArmstrong10", "Nicola Piludu"]]
 # PROD Pizzo: [[168301, "PaoloPizzorni", "Paolo Pizzorni"]]
-# PROD Julio: 
+# PROD Julio: [[545792, "k4rlheinz", "KarlHeinz"]]
 search-for-pizzorni-and-piludu-in-prod:
 	echo 'TwitterUser.all.first(10000000).map{|u| [u.id, u.ldap, u.name] }.select{|id,name, description| name.match? /BJArmstrong10|palladius/i}' | RAILS_ENV=production rails console
 	echo 'TwitterUser.all.first(10000000).map{|u| [u.id, u.ldap, u.name] }.select{|id,name, description| name.match? /pizzorn/i}' | RAILS_ENV=production rails console
 	echo 'TwitterUser.all.first(10000000).map{|u| [u.id, u.ldap, u.name] }.select{|id,name, description| name.match? /k4rlheinz/i}' | RAILS_ENV=production rails console
+
 test-fixtures:
 	RAILS_ENV=test rake db:fixtures:load
 
@@ -122,3 +123,9 @@ delayed-jobs-stop:
 
 seed-complicated-example:
 	SEARCH_ONLY_FOR=joguei TWITTER_INGEST_SIZE=5 MARSHAL_TO_FILE=True rake db:seed 
+
+ricconly-symlink-provate-stuff:
+	ln -s ../gic/private/projects/twitter-scraper/.env
+	cd config/
+	ln -s ../../gic/private/projects/twitter-scraper/config/master.key 
+	ln -s ../../gic/private/projects/twitter-scraper/config/credentials.yml.enc 

@@ -324,6 +324,10 @@ end
     
     return :sedecordle if text.match?(/Daily sedecordle #\d+/)
     return :sedecordle if text.match?(/#Daily#\d+.*sedecordle/)
+
+    # Austrian wordle: 'Wördl 260 5/6 🔥1 .... wordle.at'
+    return :wordle_at if text.match(/Wördl/i) and text.match?(DAY_AND_SCORE_REGEX)
+
     # multi page polymorphic scenario... 
     # wg_italian
     # wg_spanish
@@ -366,6 +370,7 @@ end
       # BR OT: joguei https://t.co/TVFNN8ARo6 #36 2/6 *
       txt.match?(/joguei.*#\d+ [123456X]\/6/i)
   end
+
 
   # Yellow squareYellow squareYellow square⬜⬜
   # Yellow square⬜⬜Green squareYellow square
