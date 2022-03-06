@@ -322,8 +322,9 @@ end
     # multiple wordles: 4, 16, ..
     return :quordle if text.match?(/Quordle #\d+/) and text.match?(/[6️⃣7️⃣3️⃣4️⃣]/) and text.match?(FILE_GREEN_SQUARES_REGEX) # and 🟩🟩🟩🟩🟩
     
-    return :sedecordle if text.match?(/Daily sedecordle #\d+/)
-    return :sedecordle if text.match?(/#Daily#\d+.*sedecordle/)
+    return :sedecordle if text.match?(/Daily sedecordle #\d+/i)
+    return :sedecordle if text.match?(/#Daily#\d+.*sedecordle/i)
+    return :sedecordle if text.match?(/sedecordle.com/i)
 
     # Austrian wordle: 'Wördl 260 5/6 🔥1 .... wordle.at'
     return :wordle_at if text.match(/Wördl/i) and text.match?(DAY_AND_SCORE_REGEX)
