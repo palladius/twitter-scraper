@@ -424,6 +424,8 @@ end
         "🇮🇹"
       when :wordle_pt, :wg_portuguese
         '🇵🇹'
+      when :wordle_at 
+        '🇦🇹'
       when :wordle_br
         '🇧🇷'
       when :wg_spanish, :wordle_es

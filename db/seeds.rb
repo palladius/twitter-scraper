@@ -35,6 +35,7 @@ def main
     'k4rlheinz', # Julio
     '#TwitterParser',
     '#Wordle',
+    'wordle.at', 'Wördl',
     '@dewordle', # 
     '#Parole',
     'mathler.com',
