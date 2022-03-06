@@ -107,6 +107,11 @@ default: &default
     lang: en
     regexes_in_or:
     - Daily sedecordle 
+  - return: wordle_at
+    url: https://wordle.at/
+    land: de
+    regexes_in_or:
+    - wordle.at 
 
 development:
   <<: *default
