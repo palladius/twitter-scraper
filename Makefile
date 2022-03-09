@@ -2,6 +2,12 @@
 VERSION = $(shell cat VERSION)
 LOCAL_DOCKER_APP = twitter-wordle-scraper-deleteme:v$(VERSION)
 
+install:
+	echo Using right install depending on OS: `uname` ..
+	uname | grep Darwin && make install-on-mac
+	uname | grep Linux && make install-on-Linux
+	echo Unknown OS: `uname`
+
 install-on-mac:
 	#install pgsql on mac
 	brew install postgresql
