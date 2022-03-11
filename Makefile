@@ -4,13 +4,16 @@ LOCAL_DOCKER_APP = twitter-wordle-scraper-deleteme:v$(VERSION)
 
 install:
 	echo Using right install depending on OS: `uname` ..
-	uname | grep Darwin && make install-on-mac
+	uname | grep Darwin && make install-on-mac || echo NO MAC Lets see if Linux..
 	uname | grep Linux && make install-on-Linux
 	echo Unknown OS: `uname`
 
 install-on-mac:
 	#install pgsql on mac
 	brew install postgresql
+
+install-on-linux:
+	sudo apt-get install libpq-dev
 
 stats:
 	RAILS_ENV=development rake db:sbirciatina
