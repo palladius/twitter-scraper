@@ -54,6 +54,13 @@ See it in prod:
   with a single element. I guess the next step is for me to implement a rails chat and once that is done I go
   back to solving this problem. https://edgeguides.rubyonrails.org/action_cable_overview.html#terminology-broadcastings
   
+## Bugs
+
+My new Mac M1 doesnt build docker/ruby very well, given M1 chipset. Some docs:
+
+* https://blog.francium.tech/install-nokogiri-on-m1-apple-silicon-98b683b661f3
+* https://blog.francium.tech/install-ruby-on-mac-m1-apple-silicon-with-rbenv-9253dde4e34a
+
 ## Notes
 
 Created with my awesome `rails-app-scaffolder` code, soon open sourced if you ask me.
