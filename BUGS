@@ -1,0 +1,33 @@
+b/0001 prod failes (but not dev!) when marshal_on_file=true eg http://34.65.55.248:8080/actions/seed_by_search_term?marshal_on_file=true&search_term=@dewordle&caller_id=web_link_manhous42&n_tweets=100
+
+Maybe you can add a try/catch in the saving/loading part and you're done.
+
+[52c9150a-48fd-4419-9e9b-a76af3d2fa0c] Errno::ENOENT (No such file or directory @ rb_sysopen - /riccardo-rails-app/tmp/marshal/dumpv10-einfach_Frau_E-1502899399990681604.yaml):
+[52c9150a-48fd-4419-9e9b-a76af3d2fa0c]   
+[52c9150a-48fd-4419-9e9b-a76af3d2fa0c] app/models/concerns/load_from_twitter.rb:72:in `initialize'
+[52c9150a-48fd-4419-9e9b-a76af3d2fa0c] app/models/concerns/load_from_twitter.rb:72:in `open'
+[52c9150a-48fd-4419-9e9b-a76af3d2fa0c] app/models/concerns/load_from_twitter.rb:72:in `manage_twitter_serialization'
+[52c9150a-48fd-4419-9e9b-a76af3d2fa0c] app/models/concerns/load_from_twitter.rb:114:in `process_tweet_from_api_or_file'
+[52c9150a-48fd-4419-9e9b-a76af3d2fa0c] app/models/concerns/load_from_twitter.rb:232:in `block in rake_seed_parse_keys_clone_for_single_search'
+[52c9150a-48fd-4419-9e9b-a76af3d2fa0c] app/models/concerns/load_from_twitter.rb:226:in `each'
+[52c9150a-48fd-4419-9e9b-a76af3d2fa0c] app/models/concerns/load_from_twitter.rb:226:in `rake_seed_parse_keys_clone_for_single_search'
+[52c9150a-48fd-4419-9e9b-a76af3d2fa0c] app/models/concerns/load_from_twitter.rb:64:in `invoke_seeding_from_concern'
+[52c9150a-48fd-4419-9e9b-a76af3d2fa0c] app/models/tweet.rb:127:in `seed_by_calling_twitter_apis'
+[52c9150a-48fd-4419-9e9b-a76af3d2fa0c] app/controllers/actions_controller.rb:52:in `seed_by_search_term'
+[marshal_on_file] Habemus Matchem 2 [pat=/riccardo-rails-app/tmp/marshal]: 'https://t.co/is8d5oaoNY 🇩🇪 405 3/6  ⬜🟩🟩⬜⬜ ⬜🟩🟩🟨🟩 🟩🟩🟩🟩🟩  by @dewordle'
+I, [2022-03-13T06:50:02.858734 #18]  INFO -- : [978be808-4c21-419b-9b56-4b42fed475a3] Completed 500 Internal Server Error in 1174ms (ActiveRecord: 0.7ms | Allocations: 39043)
+F, [2022-03-13T06:50:02.859455 #18] FATAL -- : [978be808-4c21-419b-9b56-4b42fed475a3]   
+[978be808-4c21-419b-9b56-4b42fed475a3] Errno::ENOENT (No such file or directory @ rb_sysopen - /riccardo-rails-app/tmp/marshal/dumpv10-einfach_Frau_E-1502899399990681604.yaml):
+[978be808-4c21-419b-9b56-4b42fed475a3]   
+[978be808-4c21-419b-9b56-4b42fed475a3] app/models/concerns/load_from_twitter.rb:72:in `initialize'
+[978be808-4c21-419b-9b56-4b42fed475a3] app/models/concerns/load_from_twitter.rb:72:in `open'
+[978be808-4c21-419b-9b56-4b42fed475a3] app/models/concerns/load_from_twitter.rb:72:in `manage_twitter_serialization'
+[978be808-4c21-419b-9b56-4b42fed475a3] app/models/concerns/load_from_twitter.rb:114:in `process_tweet_from_api_or_file'
+[978be808-4c21-419b-9b56-4b42fed475a3] app/models/concerns/load_from_twitter.rb:232:in `block in rake_seed_parse_keys_clone_for_single_search'
+[978be808-4c21-419b-9b56-4b42fed475a3] app/models/concerns/load_from_twitter.rb:226:in `each'
+[978be808-4c21-419b-9b56-4b42fed475a3] app/models/concerns/load_from_twitter.rb:226:in `rake_seed_parse_keys_clone_for_single_search'
+[978be808-4c21-419b-9b56-4b42fed475a3] app/models/concerns/load_from_twitter.rb:64:in `invoke_seeding_from_concern'
+[978be808-4c21-419b-9b56-4b42fed475a3] app/models/tweet.rb:127:in `seed_by_calling_twitter_apis'
+[978be808-4c21-419b-9b56-4b42fed475a3] app/controllers/actions_controller.rb:52:in `seed_by_search_term'
+I, [2022-03-13T06:50:16.843754 #18]  INFO -- : [0a730014-a78c-4045-bed7-cae1cb435bd6] Started GET "/actions/seed_by_search_term?marshal_on_file=false&search_term=@dewordle&caller_id=web_link_manhous42&n_tweets=100" for 84.75.148.87 at 2022-03-13 06:50:16 +0000
+I, [2022-03-13T06:50:16.844893 #18]  INFO -- : [0a730014-a78c-4045-bed7-cae1cb435bd6] Processing by A
