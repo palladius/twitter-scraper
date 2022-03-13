@@ -28,3 +28,6 @@ WORDLE_REGEXES = Rails.application.config_for(:wordle_regexes, env: "default").c
 AM_I_ON_DOCKER = File.exists?('/.dockerenv')
 # yellow() defined in config/boot
 
+Dir[Rails.root.join('lib', 'monkey_patching', '**', '*.rb')].each do |file|
+  require file.to_s
+end

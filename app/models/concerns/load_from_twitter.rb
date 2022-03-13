@@ -5,15 +5,7 @@
 module LoadFromTwitter
     extend ActiveSupport::Concern
 
-    # https://stackoverflow.com/questions/3453262/how-to-strip-leading-and-trailing-quote-from-string-in-ruby#:~:text=It's%20not%20clear%20from%20your,your%20string%20with%20single%20quotes.
-    class String
-      # needed to trim doublequotes which all of sudden appeared in my variables. OUCH!
-      def trim sep=/\s/
-        sep_source = sep.is_a?(Regexp) ? sep.source : Regexp.escape(sep)
-        pattern = Regexp.new("\\A(#{sep_source})*(.*?)(#{sep_source})*\\z")
-        self[pattern, 2]
-      end
-    end
+
 
     require 'json'
     require 'socket'
@@ -56,7 +48,7 @@ module LoadFromTwitter
     # invoke_seeding_from_concern() is called firectly by wrapper: `seed_by_calling_twitter_apis`
     def invoke_seeding_from_concern(search_key, search_count, opts={})
         description = opts.fetch :description, "CLASS(ricc): do this asynchronously. Probabluy with> Tweet.delay.seed_by_calling_twitter_apis(...) "
-        twittersecret_api_key        = opts.fetch :twittersecret_api_key, ENV['TWITTER_CONSUMER_KEY'].trim('"') 
+        twittersecret_api_key        = opts.fetch :twittersecret_api_key, ENV['TWITTER_CONSUMER_KEY'].remove_external_doublequotes # trim('"') 
         twittersecret_api_key_secret = opts.fetch :twittersecret_api_key_secret, ENV['TWITTER_CONSUMER_SECRET'].trim('"') 
         debug = opts.fetch :debug, false
 
