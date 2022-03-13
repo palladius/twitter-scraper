@@ -139,8 +139,8 @@ seed-complicated-example:
 ricconly-symlink-provate-stuff:
 	ln -s ../gic/private/projects/twitter-scraper/.env
 	cd config/
-	ln -s ../../gic/private/projects/twitter-scraper/config/master.key.symlink
-	ln -s ../../gic/private/projects/twitter-scraper/config/credentials.yml.enc.symlink 
+	ln -s ../../gic/private/projects/twitter-scraper/config/master.key master.key.symlink 
+	ln -s ../../gic/private/projects/twitter-scraper/config/credentials.yml.enc credentials.yml.enc.symlink 
 	# This is needed or docker will fail as its obstined to NOT work with symlinks. SElf-repeatability or something :P 
 	cp master.key.symlink master.key
 	cp credentials.yml.enc.symlink credentials.yml.enc  
