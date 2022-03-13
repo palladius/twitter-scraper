@@ -8,9 +8,12 @@ install:
 	uname | grep Linux && make install-on-Linux
 	echo Unknown OS: `uname`
 
+#install pgsql on mac. Having issue on my new M1! Dammit.
 install-on-mac:
-	#install pgsql on mac
 	brew install postgresql
+	brew install sqlite
+	brew install libpq
+#	brew install libsqlite
 
 install-on-linux:
 	sudo apt-get install libpq-dev

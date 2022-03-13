@@ -9,19 +9,17 @@ TODO(test recreation by changing one thing - as the problem arises)
 
 * Ruby version: 2.7.2
 
-* System dependencies
-
-* Configuration
-
 * Database creation: rake db:migrate
 
 * Database initialization: rake db:seed (this is AWESOME! It keeps parsing twits from the INTERNECHE ({*}))
 
-* How to run the test suite
-
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions: TODO
+* Deployment instructions: 
+
+  * Install/configure gcloud
+  * create proper ENV variables
+  * gcloud auth configure-docker
 
 ## install
 
