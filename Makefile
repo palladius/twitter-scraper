@@ -38,6 +38,7 @@ prod-stats:
 	RAILS_ENV=production rake db:sbirciatina
 
 docker-build:
+	hostname | grep ricc-macbookpro3 && exit 42 || echo OK No Mac M1 with bad Ruby Build.
 	docker build -t $(LOCAL_DOCKER_APP) .
 	echo OK.
 docker-run: docker-build
