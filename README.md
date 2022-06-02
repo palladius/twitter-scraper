@@ -1,6 +1,6 @@
 # README
 
-Welcome to `Twitter 🔪 Scraper`
+Welcome to `Teitter 🔪 Scraper`
 
 Created by ricc with ricc's rails-app-scaffolder (also called `meta-scaffolder`).
 Config yaml here: rails-app-scaffolder-sample.yaml
@@ -32,11 +32,6 @@ See it in prod:
 
     https://twitter-scraper-v3ydafeb7q-ew.a.run.app/tweets/175313
 
-## BUILD
-
-* Doesnt build on my Mac M1 `ricc-macbookpro3`, but builds everywhere else.
-* Builds on GCE on ??
-
 ## TODO
 
 * Skaffold / Cloud Deploy / Tekton
@@ -46,8 +41,9 @@ See it in prod:
 
      * Created a HTTP endpoint under /games/actions/seed_by_search_term 
      * cofigured a Cloud Scheduler to call it every 3 minutes
-     * no GCF was hurt or damaged during this documentary :) Just Cloud Scheduler (basically a `cron * * * * * curl http://URL/dowload_all`)
-     * The only part was adding Twitter API keys to prod/staging which should be a big deal froms ecurity perspective. The alternative is to pass it as HTTP querystring param and it scares me a bit more.
+     * no GCF was hurt or damaged during this sdocumentary :) Just Clud Scheduler (basically a `cron * * * * * curl http://URL/dowload_all`)
+     * The only part was adding Twitter API keys to prod/staging which should be a big deal froms ecurity perspective. The alternative is to pass it as
+       HTTP querystring param and it scares me a bit more.
      * link: https://console.cloud.google.com/cloudscheduler?project=ric-cccwiki
 
 * Live updates. I've delved into it but DHH example in video is (awesome) depending on fact that update is on
@@ -67,4 +63,3 @@ My new Mac M1 doesnt build docker/ruby very well, given M1 chipset. Some docs:
 
 Created with my awesome `rails-app-scaffolder` code, soon open sourced if you ask me.
 To understand how it works, juist look at the YAML and you'll immediately know what it does: `rails-app-scaffolder-sample.yaml`.
-More info: go/ricc-twitterscraper

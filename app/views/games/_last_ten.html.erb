@@ -8,7 +8,7 @@
         # just refactored, now each one is a WordleGame oobjec with its dignity :) 
     %>
     <span class="small-top10-element" >
-        <%= link_to wg.name_with_flag, wg  %> <i>(<%= time_ago_in_words(wg.created_at) %> ago)</i>
+        <%= link_to wg.name_with_flag  %> <i>(<%= time_ago_in_words(wg.created_at) %> ago)</i>
     </span>
         <br/>
     <% end %>

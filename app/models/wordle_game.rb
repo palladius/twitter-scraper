@@ -54,11 +54,9 @@ irb(main):004:0> wg.memoized_flag
 => "🇧🇷"    
     See also multi-line memoization here: https://www.justinweiss.com/articles/4-simple-memoization-patterns-in-ruby-and-one-gem/
 =end
-
-    # how to memoize a flag:
-    #        @work_has_no_comments ||= comments.count < 1        
     def memoized_flag 
-        @flag ||= (self.wordle_tweets.first.flag rescue '🚩') # or white flag: ⚐
+        #        @work_has_no_comments ||= comments.count < 1
+        @flag ||= self.wordle_tweets.first.flag
         return @flag
     end
 

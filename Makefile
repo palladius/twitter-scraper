@@ -14,9 +14,6 @@ install-on-mac:
 	brew install sqlite
 	brew install libpq
 #	brew install libsqlite
-install-on-mac-M1: # this was REALLY painful!
-	echo you need to install the Postgres binary from  https://postgresapp.com/downloads.html then:
-	gem install pg -- --with-pg-config=/Applications/Postgres.app//Contents/Versions/14/bin/pg_config
 
 install-on-linux:
 	sudo apt-get install libpq-dev
@@ -38,7 +35,6 @@ prod-stats:
 	RAILS_ENV=production rake db:sbirciatina
 
 docker-build:
-	hostname | grep ricc-macbookpro3 && exit 42 || echo OK No Mac M1 with bad Ruby Build.
 	docker build -t $(LOCAL_DOCKER_APP) .
 	echo OK.
 docker-run: docker-build
