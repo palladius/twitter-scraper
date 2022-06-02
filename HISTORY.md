@@ -1,5 +1,5 @@
 
-
+* `2022-06-02` 1.2.35 Just trying to make it work again... making entrypoint more self-visible.
 * `2022-03-01` 1.2.27  Moving actions to proper controller. #refactoring
 * `2022-02-26` 1.2.14  From today the system is able to do db:seed via URL: /games/actions/seed its a very SLOW thing, lets see if theres a better way to do it.
 * `2022-02-19` 1.2.04  big fix to rake db:seed: break vs next it always returned after a single failed regex match.
