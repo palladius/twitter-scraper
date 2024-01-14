@@ -1,0 +1,13 @@
+# While CNAB uses bundle.json by default, it also supports a bundle.yaml format. Here's the same example as above represented in YAML:
+
+schemaVersion: 1.1.0
+name: twitter-parser
+version: 1.2.36 # cat VERSION
+description: "description: Twitter Scraper tries to scrape twitter for Wordle pages"
+invocationImages:
+  - imageType: docker
+    image: myregistry/my-app-installer:latest
+parameters:
+  environment:
+    type: string
+    default: prod

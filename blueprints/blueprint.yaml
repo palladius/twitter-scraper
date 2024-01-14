@@ -1,0 +1,32 @@
+# copied from Xebialabs: https://legacydocs.xebialabs.com/xl-platform/concept/blueprint-yaml-format.html#expression-tag-expression
+# also in https://docs.digital.ai/bundle/devops-deploy-version-v.22.1/page/deploy/concept/blueprint-yaml-format.html#blueprint-repository
+apiVersion: xl/v1
+kind: Blueprint
+metadata:
+  projectName: Twitter Scraper
+  description: Twitter Scraper tries to scrape twitter for Wordle pages
+  author: Riccardo Carlesso
+  version: 1.0
+spec:
+  parameters:
+  - name: Provider
+    description: what is your Kubernetes provider?
+    type: Select
+    options:
+      - GCP
+    default: GCP
+  - name: Service
+    description: What service do you want to deploy?
+    type: Select
+    options:
+      - !expression "Provider == 'GCP' ? ('GKE', 'CloudStorage') : (Provider == 'AWS' ? ('EKS', 'S3') : ('AKS', 'AzureStorage'))"
+    default: !expression "Provider == 'GCP' ? 'GKE' : (Provider == 'AWS' ? 'EKS' : 'AKS')"
+  - name: ricc-prod
+    description: My Kubernetes cluster name
+    type: Input
+    dependsOnTrue: !expression "Service == 'GKE' || Service == 'EKS' || Service == 'AKS'"
+  files:
+  - path: xld-k8s-infrastructure.yml
+    dependsOnTrue: !expression "Service == 'GKE' || Service == 'EKS' || Service == 'AKS'"
+  - path: xld-storage-infrastructure.yml
+    dependsOnTrue: !expression "Service == 'CloudStorage' || Service == 'S3' || Service == 'AzureStorage'"

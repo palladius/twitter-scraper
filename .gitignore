@@ -42,3 +42,4 @@ config/credentials.yml.enc
 .twitter-scraper.appname
 *.symlink
 .echodo_history
+.git-privatize

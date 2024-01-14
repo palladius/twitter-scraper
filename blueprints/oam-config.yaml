@@ -1,0 +1,32 @@
+# example from here: https://github.com/oam-dev/spec/blob/master/design/20200105-spec-v1alpha2-kubernetes-friendly.md
+apiVersion: core.oam.dev/v1alpha1
+kind: ApplicationConfiguration
+metadata:
+  name: cool-example
+spec:
+  components:
+  - componentName: example-server
+    parameterValues:
+    - name: instanceName
+      value: cool-example
+    - name: cacheSecret
+      value: cache-connection
+    traits:
+    - trait:
+        apiVersion: core.oam.dev/v1alpha1
+        kind: ManualScalerTrait
+        spec:
+          replicaCount: 3
+    scopes:
+    - scopeRef:
+        apiVersion: core.oam.dev/v1alpha1
+        kind: NetworkScope
+        name: example-vpc-network
+  - componentName: example-cache
+    parameterValues:
+    - name: instanceName
+      value: cool-example
+    - name: engineVersion
+      value: "4.0"
+    - name: secret
+      value: cache-connection
