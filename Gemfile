@@ -21,7 +21,7 @@ gem 'delayed_job_active_record' # sembra vecchiotto ma non richiede Redis https:
 ########################
 
 ########################
-# Riccardo - MAYBE need it 
+# Riccardo - MAYBE need it
 #gem "ric"
 #gem 'sidekiq' # to execute SEEDing as a job externally, am richiede Redis che poi e' un casino...
 gem "daemons" # allows to start outside of rails... not sure if i need it: https://github.com/collectiveidea/delayed_job
@@ -87,6 +87,10 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  gem "ruby-lsp", require: false
+  #gem "ruby-lsp", "~> 0.0.4", :group => :development
+
 end
 
 group :test do
@@ -95,3 +99,4 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
