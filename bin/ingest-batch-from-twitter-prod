@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+RAILS_ENV=production TWITTER_INGEST_SIZE=201 bundle exec rake db:seed
+
+# rails aborted!
+# Twitter::Error::Forbidden: You currently have access to a subset of Twitter API v2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.twitter.com/en/portal/product
+# /Users/ricc/git/twitter-scraper/app/models/concerns/load_from_twitter.rb:220:in `rake_seed_parse_keys_clone_for_single_search'
+# /Users/ricc/git/twitter-scraper/app/models/concerns/load_from_twitter.rb:64:in `invoke_seeding_from_concern'
+# /Users/ricc/git/twitter-scraper/app/models/tweet.rb:127:in `seed_by_calling_twitter_apis'
+# /Users/ricc/git/twitter-scraper/db/seeds.rb:104:in `block in main'
+# /Users/ricc/git/twitter-scraper/db/seeds.rb:103:in `each'
+# /Users/ricc/git/twitter-scraper/db/seeds.rb:103:in `main'
+# /Users/ricc/git/twitter-scraper/db/seeds.rb:114:in `<main>'
+# Tasks: TOP => db:seed
